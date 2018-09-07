@@ -16,11 +16,11 @@ public class Scenario {
 	}
 	
 	public void add(int depth, String cssSelector){
-		add(depth,cssSelector, null, null);
+		add(depth,cssSelector, null, null, null);
 	}
 	
-	public void add(int depth, String cssSelector, String target, String action){
-		mAryAction.add(new Action(depth, cssSelector, target, action));
+	public void add(int depth, String cssSelector, String target, String action, String value){
+		mAryAction.add(new Action(depth, cssSelector, target, action, value));
 	}
 	
 	public Action getAction(int idx){

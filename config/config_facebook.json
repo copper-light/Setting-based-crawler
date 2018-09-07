@@ -1,0 +1,84 @@
+{
+	"seed" : {
+		"url" : "https://www.facebook.com",
+		"type" : "GET",
+		"data" : [
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",
+	"crawling_delay" : 0,
+	"crawling_max_count" : -1,
+	"crawling_upper_search" : false,
+	"contents_save_type" : "DB",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+
+	"scenario" : [
+		{
+			"depth" : 0,
+			"check_load_selector" : [
+				"body"
+			],
+			"actions" : [
+                {"selector" : "#email", "type":"input", "value":"manhdh@naver.com"},
+                {"selector" : "#pass", "type":"input", "value":"fbwjdqhr12"},
+                {"selector" : "#u_0_2", "depth" : 1}
+			]
+        },
+        {
+			"depth" : 1,
+			"check_load_selector" : [
+				"input[data-testid=search_input]"
+			],
+			"actions" : [
+                {"selector" : "input[data-testid=search_input]", "type":"input", "value":"엔비디아"},
+                {"selector" : "button[data-testid=facebar_search_button]", "type":"click", "depth": 2}
+			]
+		},
+        {
+			"depth" : 2,
+			"check_load_selector" : [
+				"input[data-testid=search_input]"
+			],
+			"actions" : [
+                {"selector" : "input[data-testid=search_input]", "type":"vertical_scroll", "value":"250"}
+			]
+		}
+    ],
+    
+	"collect" : [
+		{
+			"depth" : 3,
+			"name" : "T_BLOG",
+			"items" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"selector" : "head > title",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "varchar(100)",
+					"data_name" : "title"
+				}
+			]
+		}
+    ]
+    
+}

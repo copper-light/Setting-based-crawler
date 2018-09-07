@@ -103,9 +103,8 @@ public class Crawler {
 		
 //			if(DB == null) DB = new DBWriter();
 //			DB.setConfig(mConfig);
-		
-		String seed = mConfig.SEED_URL;
-		if(seed != null && seed.length() > 0){
+		URLInfo seed = mConfig.getSeedInfo();
+		if(seed != null){
 			seedUrl(seed);
 		}
 	}

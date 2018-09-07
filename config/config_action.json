@@ -1,0 +1,71 @@
+{
+	"seed" : {
+		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
+		"type" : "GET",
+		"data" : [
+			{"key" : "search_keyword", "value" : "컴퓨터"},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",
+	"crawling_delay" : 0,
+	"crawling_max_count" : -1,
+	"crawling_upper_search" : false,
+	"contents_save_type" : "DB",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+
+	"scenario" : [
+		{
+			"depth" : 0,
+			"check_load_selector" : [
+				"#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc"
+			],
+			"actions" : [
+				{
+					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc", "target" : "blank", "depth" :1
+				},
+				{
+					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc", 
+					"type" : "javascript", 
+					"value" : "var selector = \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0) window.scrollBy(0,500)", 
+					"depth" : 0
+				}
+			]
+		}
+    ],
+    
+	"collect" : [
+		{
+			"depth" : 3,
+			"name" : "T_BLOG",
+			"items" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"selector" : "head > title",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "varchar(100)",
+					"data_name" : "title"
+				}
+			]
+		}
+    ]
+    
+}

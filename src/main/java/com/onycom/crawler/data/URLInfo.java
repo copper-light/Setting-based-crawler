@@ -49,7 +49,7 @@ public class URLInfo {
 	 * 크롤러의 검색 범위를 제한하고자 할때 사용한다. 
 	 * 0 은 시드 URL을 의미
 	 * */ 
-	int mDepth = 0; 
+	int mDepth = -1; 
 	
 	/**
 	 * url 값은 반드시 http와 루트 도메인 주소가 포함된 전체 주소여야 한다.

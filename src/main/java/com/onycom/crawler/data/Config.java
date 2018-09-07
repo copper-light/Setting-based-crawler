@@ -28,7 +28,8 @@ public class Config {
 	public static final String COLLECT_ITEMTYPE_DATETIME = "DATETIME";
 	public static final String COLLECT_ITEMTYPE_TAG = "TAG";
 	
-	public String SEED_URL = "";
+	public URLInfo mSeedInfo;
+	
 	public boolean IGNORE_ROBOTS = false;
 	
 	public String CRAWLING_TYPE = CRAWLING_TYPE_STATIC;
@@ -56,7 +57,6 @@ public class Config {
 	public void setConfig(String config){
 		JSONObject root = new JSONObject(config);
 		
-		SEED_URL = root.getString("seed_url");
 		IGNORE_ROBOTS = root.getBoolean("ignore_robots");
 		
 		CRAWLING_MAX_DEPTH = root.getInt("crawling_max_depth");
@@ -81,11 +81,45 @@ public class Config {
 		
 		mRobots = new HashMap<String, Robots>();
 		
+		JSONObject object;
+		JSONArray array;
+		
+		/**
+		 * SEED 파싱
+		 * */
+		try{
+			object = root.getJSONObject("seed");
+			mSeedInfo = new URLInfo(object.getString("url"));
+			mSeedInfo.setDepth(0); // 루트로 인식
+			if(object.isNull("type")) {
+				mSeedInfo.setContentType(URLInfo.GET);
+			}else{
+				String type = object.getString("type");
+				if(type.contentEquals("POST")){
+					mSeedInfo.setContentType(URLInfo.POST);
+				}else{
+					mSeedInfo.setContentType(URLInfo.GET);
+				}
+			}
+			if(!object.isNull("data")){
+				array = object.getJSONArray("data");
+				String key, value;
+				for(int i = 0 ; i < array.length() ; i++){
+					object = array.getJSONObject(i);
+					key = object.getString("key");
+					value = object.getString("value");
+					mSeedInfo.setData(key, value);
+				}
+			}
+		}catch(JSONException e){ // seed 파싱을 못할 경우 크롤링을 아예 진행하지 않도록
+			e.printStackTrace();
+			return ;
+		}
+		
 		/**
 		 * filter 파싱
 		 * */
-		JSONObject object;
-		JSONArray array;
+		
 		Duplicate duplicate;
 		
 		try{
@@ -187,16 +221,21 @@ public class Config {
 				for(int j = 0 ; j < len_j ; j++){
 					scenObject = aryScenario.getJSONObject(j);
 					System.out.println(scenObject.getString("selector"));
-					scenario.add(scenObject.getInt("depth"), 
+					scenario.add(scenObject.isNull("depth")? -1: scenObject.getInt("depth"), 
 								 scenObject.getString("selector"),
 								 scenObject.isNull("target")? null: scenObject.getString("target"),
-								 scenObject.isNull("type")? null: scenObject.getString("type"));
+								 scenObject.isNull("type")? null: scenObject.getString("type"),
+								 scenObject.isNull("value")? null: scenObject.getString("value"));
 				}
 				for(int j = 0 ; j < scenario.getSize() ; j++){
 					scenario.getAction(j);
 				}
 			}
 		} catch (JSONException e){ e.printStackTrace(); mScenarios.clear(); }
+	}
+	
+	public URLInfo getSeedInfo(){
+		return mSeedInfo;
 	}
 	
 	public Map<String, Robots> getRobots(){

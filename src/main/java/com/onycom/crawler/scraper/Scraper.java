@@ -7,6 +7,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -19,19 +20,24 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.onycom.crawler.core.Crawler;
@@ -50,6 +56,8 @@ public class Scraper {
 	private static String TYPE = Config.CRAWLING_TYPE_SCENARIO_STATIC;
 		
 	static WebDriver mSeleniumDriver;
+	
+	static Map<String, String> mJSData = new HashMap<String, String>();
 	
 	private Scraper(){ 
 		mCookie = new Cookie();
@@ -125,17 +133,63 @@ public class Scraper {
 		WebElement we = null;
 		String newWindow;
 		Action action = urlInfo.getAction();
+		
 		urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
 		if(action != null){
 			String selector = action.getSelector();
+			String value = action.getValue();
+			
+			System.out.println("[wait ] " + selector);
 			we = waitingForElement(mSeleniumDriver, selector);
+			System.out.println("[loaded ] " + selector);
+			
 			if(we != null){
-				System.out.println("action type " + action.getType() );
 				if(action.getType().contentEquals(Action.TYPE_CLICK)){
+//					if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
+//						Actions ac = new Actions(mSeleniumDriver);
+//						ac.keyDown(Keys.CONTROL).click(we).keyUp(Keys.CONTROL).perform();
+//					}else{
+//						we.click();
+//					}
 					we.click();
-				}else{ // if(action.getType() == Action.TYPE_INPUT)
-					//we.sendKeys(keysToSend);
+				}else if(action.getType().contentEquals(Action.TYPE_INPUT) && value != null) {
+					we.sendKeys(value);
+				}else if(action.getType().contentEquals(Action.TYPE_VERTICAL_SCROLL) && value != null) {
+					JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
+					System.out.println(we.getTagName() + "  " + action.getType() + "  " + action.getValue());
+					jse.executeScript("window.scrollBy(0,"+ value +")", "");
 				}
+				else if(action.getType().contentEquals(Action.TYPE_SELECT) && value != null) {
+					Select dropdown = new Select(we);
+					try{
+						int intValue = Integer.parseInt(value);
+						dropdown.selectByIndex(intValue);
+					}catch(NumberFormatException  e){ // exception 이라면  String 이므로 String 처리
+						dropdown.selectByValue(value);
+					}					
+				}else if(action.getType().contentEquals(Action.TYPE_JAVASCRIPT) &&  value != null){
+					JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
+					Iterator<String> it = mJSData.keySet().iterator();
+					String k,v;
+					while(it.hasNext()){
+						k = it.next();
+						v = mJSData.get(k);
+						value = "var "+ k + "=" + v +"; "+ value;
+					}
+					System.out.println(value);
+					Object js_ret = jse.executeScript(value, "");
+					if(js_ret != null){
+						try{
+							System.out.println(String.valueOf(js_ret));
+							JSONObject json = new JSONObject(String.valueOf(js_ret));
+							for(Object key : json.keySet().toArray()){
+								k = String.valueOf(key);
+								mJSData.put(k, String.valueOf(json.get(k)));
+							}
+						}catch(JSONException e) {e.printStackTrace();}
+					}
+				}
+				
 				if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
 					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
 					mSeleniumDriver.switchTo().window(tab.get(tab.size()-1));
@@ -143,7 +197,7 @@ public class Scraper {
 					
 				}
 				// 로딩 확인하고
-				if(urlInfo.getLoadCheckSelectors() != null){
+				if(urlInfo.getLoadCheckSelectors() != null && urlInfo.getLoadCheckSelectors().size() > 0){
 					for(String s : urlInfo.getLoadCheckSelectors()){
 						if(waitingForElement(mSeleniumDriver, s) == null){
 							return null;
@@ -155,7 +209,7 @@ public class Scraper {
 		}else{ // 액션 없는 seed 일 경우
 			
 			// URL 호출
-			mSeleniumDriver.get(urlInfo.getURL());
+			mSeleniumDriver.get(urlInfo.toString());
 			
 			// 로딩 확인하고
 			if(urlInfo.getLoadCheckSelectors() != null){
@@ -185,7 +239,6 @@ public class Scraper {
 		}else{
 			mSeleniumDriver.navigate().back();
 		}
-		
 	}
 	
 	private static WebElement waitingForElement(WebDriver wd, String selector){
@@ -199,8 +252,9 @@ public class Scraper {
 	
 	private static void connectSelenium(){
 		if (mSeleniumDriver == null){
-			System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./web_driver/chromedriver.exe");
 			ChromeOptions options= new ChromeOptions();
+			options.addArguments("--disable-notifications");
 			//options.addArguments("headless");
 			mSeleniumDriver = new ChromeDriver(options);
 //			DesiredCapabilities DesireCaps = new DesiredCapabilities();
@@ -211,7 +265,7 @@ public class Scraper {
 
 	private static void quitSelenium(){
 		if(mSeleniumDriver != null){
-			mSeleniumDriver.quit();
+//			mSeleniumDriver.quit();
 		}
 	}
 }

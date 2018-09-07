@@ -89,7 +89,7 @@ public class WorkManager {
 
 		public void error(URLInfo data) {
 			try {
-				Crawler.DB.writeErr(data.getURL(), "err" );
+				//Crawler.DB.writeErr(data.getURL(), "err" );
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

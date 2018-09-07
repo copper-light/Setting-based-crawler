@@ -1,0 +1,92 @@
+{
+	"seed_url" : "http://gall.dcinside.com/board/lists/?id=superidea",
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "STATIC",
+	"crawling_delay" : 0,
+	"crawling_max_count" : -1,
+	"crawling_upper_search" : false,
+	"contents_save_type" : "CSV",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG?useUnicode=true",
+
+	"filter" : {
+		"duplicate" : [
+			["(?=.*id=<0>(&.*)*$)(?=.*no=<1>(&.*)*$).*", "id", "no"],
+			["(?=.*id=<0>(&.*)*$)(?=.*page=<1>(&.*)*$).*", "id", "page"],
+			["^(<URL>)"]
+		],
+		"allow" : [
+			"^(http://gall.dcinside.com/board/lists/\\?id=superidea).*$",
+			"^(http://gall.dcinside.com/board/view/\\?id=superidea).*$"
+		],
+		"disallow" : [
+			"^.*((javascript:).*)$",
+			"^.*(#.*)$",
+			"^.*((mailto:).*)$"
+		],
+		"leaf_url" : [
+			"^(http://gall.dcinside.com/board/view/\\?).*(no=).*$"
+		]
+	},
+	"collect" : [
+		{
+			"url" : "^(http://gall.dcinside.com/board/view/\\?).*(no=).*$", 
+			"name" : "T_superidea_BOARD",
+			"items" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"type" : "TAG",
+					"selector" : "head > title",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "varchar(100)",
+					"data_name" : "title"
+				},
+				{
+					"type" : "TAG",
+					"selector" : "div[class=gallery_title] > h1 > a > span[class=tit]",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "varchar(50)",
+					"data_name" : "category"
+				},
+				{
+					"type" : "TAG",
+					"selector" : "div#dgn_content_de > div.re_gall_top_1 > div.w_top_left > dl:nth-child(2) > dd > span",
+					"tag_type" : "attr",
+					"attr_name" : "user_name",
+					"data_type" : "varchar(50)",
+					"data_name" : "author"
+				},
+				{
+					"type" : "TAG",
+					"selector" : "div[id=dgn_content_de] > div[class=re_gall_top_1] > div[class=w_top_right] > ul > li > b ",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "varchar(30)",
+					"data_name" : "date"
+				},
+				{
+					"type" : "TAG",
+					"selector" : "div[class=s_write]",
+					"tag_type" : "text",
+					"attr_name" : "",
+					"data_type" : "text",
+					"data_name" : "description"
+				}
+			]
+		}
+	]
+}

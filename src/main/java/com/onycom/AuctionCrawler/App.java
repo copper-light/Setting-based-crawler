@@ -13,13 +13,10 @@ import com.onycom.crawler.parser.StaticParser;
  */
 public class App 
 {
-	
-	
-	
     public static void main(String[] args)
     {
     	Crawler c = new Crawler(1, 0);
-    	c.setConfigFile("config_naver_blog.json");
+    	c.setConfigFile("./config/config_action.json");
     	c.start();
     }
 }

@@ -21,6 +21,11 @@ import com.onycom.crawler.data.URLInfo;
 import com.onycom.crawler.scraper.Scraper;
 
 public class ScenarioDynamicParser extends Parser {
+	int parseCount;
+	
+	public ScenarioDynamicParser() {
+		parseCount = 0;
+	}
 	
 	@Override
 	public List<URLInfo> parse(URLInfo[] history, URLInfo urlInfo, Document document) {
@@ -35,17 +40,16 @@ public class ScenarioDynamicParser extends Parser {
 		if(contents != null){
 			saveCount = this.saveContents(urlInfo, contents);
 		}
-		
-		
-		
+		parseCount++;
+		System.out.println("[parse count ]" + parseCount );
 		List<URLInfo> list = parseURL(urlInfo, document);
-		System.out.println("Find action : " + list.size());
+		System.out.println(urlInfo.getDepth() + " Find action : " + list.size());
 		Document doc;
 		for(URLInfo info : list){
 			try {
 				doc = Scraper.GetDocument(info); /* 스크래퍼가 여기 있는게 가장 마음에 안듬 */
 				if(doc != null){
-					this.parse(null, info, doc);
+					this.parse(null, info, doc); // 재귀 호출
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -61,7 +65,7 @@ public class ScenarioDynamicParser extends Parser {
 		Elements els;
 		Scenario scen, newScen;
 		Action action;
-		String href, url, domain_url, sub_url, target, type;
+		String href, url, domain_url, sub_url, target, type, value;
 		String[] tmp;
 		List<String> aryCheckSelector;
 		URLInfo newUrlInfo;
@@ -83,6 +87,7 @@ public class ScenarioDynamicParser extends Parser {
 					action = scen.getAction(i);
 					target = action.getTarget();
 					type = action.getType();
+					value = action.getValue();
 					depth = action.getDepth();
 					//aryCheckSelector
 //					System.out.println("document size " + document.toString().length());
@@ -99,22 +104,21 @@ public class ScenarioDynamicParser extends Parser {
 					els = document.select(action.getSelector());
 					for(Element e : els){
 						href = e.attr("href").trim();
-						if(href.length() == 0) continue;
+						//if(href.length() == 0) continue;
 						tmp = Util.SplitDomainAndSubURL(urlInfo, href);
 						domain_url = tmp[0];
 						sub_url = tmp[1];
-						url = domain_url + sub_url;
-						allow = super.isAllow(urlInfo, domain_url, sub_url);
-						if(allow){
-							newUrlInfo = new URLInfo(urlInfo.getURL()).setDepth(depth);
-							newUrlInfo.setAction(new Action(depth, e.cssSelector(), target, type));
-							newScen = scenarios.get(depth);
-							if(newScen != null){
-								newUrlInfo.setLoadCheckSelectors(newScen.getLoadCheckSelector());
-							}
-							
-							ret.add(newUrlInfo);
+//						url = domain_url + sub_url;
+//						allow = super.isAllow(urlInfo, domain_url, sub_url);
+//						if(allow){ }
+						newUrlInfo = new URLInfo(urlInfo.getURL()).setDepth(depth);
+						newUrlInfo.setAction(new Action(depth, e.cssSelector(), target, type, value));
+						newScen = scenarios.get(depth);
+						if(newScen != null){
+							newUrlInfo.setLoadCheckSelectors(newScen.getLoadCheckSelector());
 						}
+						
+						ret.add(newUrlInfo);
 					}
 				}
 			}
