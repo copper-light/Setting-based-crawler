@@ -2,6 +2,7 @@ package com.onycom.crawler.core;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Deque;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -25,7 +26,7 @@ public class WorkQueue {
 	/**
 	 * 작업 해야할 페이지 목록
 	 */
-	private Queue<URLInfo> mQueue;
+	private Deque<URLInfo> mDueue;
 
 	/**
 	 * 방문한 페이지 목록 중복 페이지 방지
@@ -38,7 +39,7 @@ public class WorkQueue {
 	
 	
 	public WorkQueue() {
-		mQueue = new LinkedList<URLInfo>();
+		mDueue = new LinkedList<URLInfo>();
 		mHistory = new HashSet<URLInfo>();
 		mDB = new DBWriter();
 	}
@@ -62,7 +63,13 @@ public class WorkQueue {
 	public synchronized boolean offerURL(URLInfo urlInfo) {
 		if ((ACCESS_MODE & WRITE) == WRITE) {
 			// 중복된 페이지 접근은 하지 않음
-			mQueue.offer(urlInfo);
+			
+			if(urlInfo.isHighPriority()){
+				mDueue.addFirst(urlInfo);
+			}else{
+				mDueue.addLast(urlInfo);
+			}
+			//mQueue.
 			return true;
 //			if (mHistory.contains(urlInfo) == true) {
 //				return false;
@@ -84,18 +91,18 @@ public class WorkQueue {
 
 	public synchronized URLInfo pullURL() {
 		if ((ACCESS_MODE & READ) == READ)
-			return mQueue.poll();
+			return mDueue.poll();
 		else
 			return null;
 
 	}
 
 	public synchronized boolean isEmpty() {
-		return mQueue.isEmpty();
+		return mDueue.isEmpty();
 	}
 
 	public synchronized long getSize() {
-		return mQueue.size();
+		return mDueue.size();
 	}
 
 	public long getHistorySize() {
@@ -107,6 +114,6 @@ public class WorkQueue {
 	}
 	
 	public void clear(){
-		mQueue.clear();
+		mDueue.clear();
 	}
 }

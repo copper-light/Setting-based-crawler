@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import com.onycom.crawler.data.Collect;
+import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.KeyValue;
@@ -62,12 +62,12 @@ public class CsvWriter implements Writer{
 			outputDir.mkdirs();
 		}
 		
-		List<Collect> collects = mConfig.getCollects();
+		List<CollectRecode> recodes = mConfig.getCollects();
 		String filePath, name;
 		CSVFile cw;
 		String strDate = DATE_FORMAT.format(new Date());
-		for(Collect c : collects){
-			name = c.getName();
+		for(CollectRecode r : recodes){
+			name = r.getName();
 			cw = mAryCSV.get(name);
 			if(cw == null){
 				filePath = outputDir.getPath() + "/" + name + "_" + strDate +".csv";
@@ -88,16 +88,16 @@ public class CsvWriter implements Writer{
 
 	public void setConfig(Config config) {
 		mConfig = config;
-		List<Collect> collects = config.getCollects();
+		List<CollectRecode> collects = config.getCollects();
 		String colName;
 		Contents contents;
 		try {
 			openAll();
-			for(Collect c : collects){
+			for(CollectRecode c : collects){
 				// TABLE NAME
-				contents = new Contents(c.getName(), c.getItems().size()); 
-				for(Collect.Item item : c.getItems()){
-					colName = item.getDataName(); // 컬럼 명
+				contents = new Contents(c.getName(), c.getColumns().size()); 
+				for(CollectRecode.Column col : c.getColumns()){
+					colName = col.getDataName(); // 컬럼 명
 					contents.add("", colName);
 				}
 				write(contents);

@@ -55,6 +55,7 @@ class WorkRunnable implements Runnable{
 				}
 			} catch (Exception e){
 				e.printStackTrace();
+				Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
 			}
 		}
 		// 쓰레드 끝나는걸 확인하는 로직을 재 구성해야합니다. 알겠죠?

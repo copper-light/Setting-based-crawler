@@ -5,15 +5,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import org.apache.log4j.Level;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.onycom.common.Util;
 import com.onycom.crawler.core.Crawler;
-import com.onycom.crawler.core.WorkQueue;
-import com.onycom.crawler.data.Collect;
+import com.onycom.crawler.data.Action;
+import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.URLInfo;
@@ -24,6 +29,11 @@ import com.onycom.crawler.data.URLInfo;
  * <b>C</b> : 저장할 콘텐츠 객체
  * */
 public abstract class Parser {
+	public static final Logger mLogger = LogManager.getLogger(Parser.class);
+	static {
+		mLogger.setLevel(Level.ALL);
+	}
+	
 	Config mConfig;
 	
 	/**
@@ -80,7 +90,7 @@ public abstract class Parser {
 			
 			startTime = new Date();
 			urls = checkDupliate(history, urls);
-			System.out.println("[checkDupliate expire : ] " + Util.CalcExpiredTime(startTime));
+			mLogger.info("[checkDupliate expire : ] " + Util.CalcExpiredTime(startTime));
 		}
 		return urls;
 	}
@@ -113,134 +123,115 @@ public abstract class Parser {
 	public List<Contents> parseContents(URLInfo urlInfo, Document document){
 		String currentURL = urlInfo.getURL();
 		String currentDateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
-		String txt, type, attr_name, tag_type, data_type, data_name, value = null;
+		String txt, type, attr_name, element_type, tag_type, data_name, value = null;
 		String[] regexs;
-		boolean isAllow = false;
-		Elements els;
-		Element e;
-		Contents contents = null;
-		Collect.Item item;
-		Contents[] aryContents = null;
-		ArrayList<Contents> ret = null;
-		List<Collect> aryCollects = mConfig.getCollects();
+		//boolean isAllow = false;
+		Elements recodeEls, colEls;
+		List<Contents> aryContents = null;
+		Contents contents;
 		
-		int len_i, len_j;
-		for(Collect collect : aryCollects){
-			System.out.println("title : " + document.title() + " " + urlInfo.getURL());
+		List<CollectRecode> aryRecode = mConfig.getCollects();
+		Pattern pattern;
+		Matcher matcher;
+		for(CollectRecode recode : aryRecode){
+			mLogger.debug("[Visiting page] " + document.title() + " @ " + urlInfo.getURL());
 			aryContents = null;
 			contents = null;
-			if(collect.getDepth() == urlInfo.getDepth() || urlInfo.getURL().matches(collect.getUrl())){
-				len_i = collect.getItems().size();
-				// 웹페이지의 contents 파싱 루프
-				// 데이터 배열을 먼저 만듬
-				for(int i = 0 ; i < len_i ; i++){ // item loof
-					item = collect.getItem(i);
-					type = item.getType();
-					data_type = item.getDataType();
-					data_name = item.getDataName();
-					attr_name = item.getAttrName();
-					tag_type = item.getTagType();
-					regexs = item.getAllowRegex();
-					
-					if(type == "" || type == null || type.contentEquals(Config.COLLECT_ITEMTYPE_TAG)){
-						els = document.select(item.getSelector());
-						value = null;
-						if(els != null && els.size() > 0){
-							len_j = els.size();
-							
-							if (aryContents ==  null){
-								aryContents = new Contents[len_j];
-								for(int j = 0 ; j < len_j ; j ++){
-									aryContents[j] = new Contents(collect.getName(), len_i);
-								}
-							}
-							
-							// 추출할 데이터 타입 별 처리
-							for(int j = 0 ; j < len_j ; j++){
-								e = els.get(j);
-								contents = aryContents[j];
-								if(contents == null) continue;
-								
-								if(item.getTagType().contentEquals("attr")){
-									value = e.attr(attr_name);
-								}else if(item.getTagType().contentEquals("html")){
-									value = e.html();
-								}else{ // text
-									value = e.text();
-								}
-								
-								if(value != null){ // 인코딩 해야할 필요가 있다면?
-									//value = Util.EncodingUTF8(value);
-									/**
-									 * 값을 인코딩하거나 필터링해야할 필요가 있다면 
-									 * 여기서 구현 정의
-									 * */
-									value = Util.Remove4ByteEmoji(value);
-									if(regexs != null){
-										isAllow = false;
-										for(String regex : regexs){
-											if(value.matches(regex)){
-												isAllow = true;
-												break;
+			if(recode.getDepth() == urlInfo.getDepth() || urlInfo.getURL().matches(recode.getUrl()) || urlInfo.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)){
+				
+				/* N건 배열 데이터 파싱 */
+				if(recode.getRecodeSelector() != null && !recode.getRecodeSelector().isEmpty()){ 
+					recodeEls = document.select(recode.getRecodeSelector());
+					if(recodeEls.size() > 0) aryContents = new ArrayList<Contents>(recodeEls.size());
+					for(Element recodeEl : recodeEls){
+						contents = new Contents(recode.getName(), recode.getColumns().size());
+						for(CollectRecode.Column collectCol : recode.getColumns()){
+							type = collectCol.getType();
+							//data_type = collectCol.getDataType();
+							data_name = collectCol.getDataName();
+							regexs = collectCol.getRegexFilter();
+							value = null;
+							colEls = null;
+							if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_URL)){
+								value = currentURL;
+							}else if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_DATETIME)){
+								value = currentDateTime;
+							}else{ //if(c.getType().equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_TAG))
+								if(collectCol.getElements() != null && collectCol.getElements().length > 0){
+									/* Column 찾는 selector 가 여러개 일 때, 가장 먼저 나오는 것만 파싱*/
+									for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
+										if(collectElement.isFromRoot()){
+											colEls = document.select(collectElement.getSelector());
+										}else{
+											colEls = recodeEl.select(collectElement.getSelector());
+										}
+										attr_name = collectElement.getAttrName();
+										element_type = collectElement.getType();
+										txt = null;
+										/* 찾는데이터가 한개가 아니라 여러개 일때, 쉼표로 구분해서 저장 */
+										for(Element colEl : colEls){
+											if(element_type.equalsIgnoreCase("attr")){
+												txt = colEl.attr(attr_name);
+											}else if(element_type.equalsIgnoreCase("html")){
+												txt = colEl.html();
+											}else{ // text
+												txt = colEl.text();
+											}
+											if(txt != null && !txt.isEmpty()){
+												if(value != null){
+													value += "," + txt;
+												}else{
+													value = txt;
+												}
 											}
 										}
-										
-										if(isAllow){
-											contents.add(i, data_name, value);
-										}else{
-											aryContents[j] = null;
+										/* 데이터를 찾았으면 중단 */
+										if(value != null){
+											/* 데이터 전처리 */
+											value = Util.Remove4ByteEmoji(value);
+											/* regex 필터링 */
+											if(regexs != null && regexs.length > 0){
+												for(String regex : regexs){
+													pattern = Pattern.compile(regex);
+													matcher = pattern.matcher(value);
+													value = null;
+													while(matcher.find()){
+														if(value == null){ 
+															value = matcher.group();
+														}else{
+															value += matcher.group();
+														}
+													}
+												}
+											}
+											break;
 										}
-									}else{
-										contents.add(i, data_name, value);
 									}
-								}else{
-									// 파싱을 찾을수 없는 상황임
-									// 데이터 하나만 삑사리나도 웹페이지의  파싱의 모든걸 중단할 것인가?
-									// 는 고려해봐야할 문제임
-									System.err.println("[CONTENTS PARSING ERROR1]" + data_name +" "+ item.getSelector());
-									return null;
 								}
 							}
-						}else{
-							// 파싱을 찾을수 없는 상황임
-							// 데이터 하나만 삑사리나도 웹페이지의  파싱의 모든걸 중단할 것인가?
-							// 는 고려해봐야할 문제임
-							System.err.println("[CONTENTS PARSING ERROR2]" + data_name +" "+ item.getSelector());
-							return null;
+							if(value != null){
+								contents.add(data_name, value);
+							}else{
+								if(colEls != null && colEls.size() > 0){ 
+									/* 엘리먼트를 찾았는데 데이터가 empty 거나 필터링에 걸린 것 */ 
+								}else{ 
+									/* 엘리먼트를 찾을 수 없음 : 오류 */
+									mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
+									for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
+										mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
+									}
+								}
+							}
 						}
-					}
-					
-				}
-				
-				// 크롤러가 가지고 있는 정보를 담기 위한 루프
-				if(aryContents != null){
-					for(int i = 0 ; i < len_i ; i++){
-						item = collect.getItem(i);
-						type = item.getType();
-						data_type = item.getDataType();
-						data_name = item.getDataName();
-						len_j = aryContents.length;
-						for(int j = 0 ; j < len_j ; j++){
-							contents = aryContents[j];
-							if(contents == null) continue;
-							if(type.contentEquals(Config.COLLECT_ITEMTYPE_URL)){
-								contents.add(i, data_name, currentURL);
-							}
-							else if(type.contentEquals(Config.COLLECT_ITEMTYPE_DATETIME)){
-								contents.add(i, data_name, currentDateTime);
-							}
+						if(contents.size() > 0){
+							aryContents.add(contents);
 						}
 					}
 				}
-			}
-			
-			if(ret == null) ret = new ArrayList<Contents>();
-			if(aryContents != null && aryContents.length > 0){
-				ret.addAll(Arrays.asList(aryContents));
 			}
 		}
 		
-		return ret;
+		return aryContents;
 	}
 	
 	/**
@@ -260,6 +251,7 @@ public abstract class Parser {
 						Crawler.Writer.write(contents);
 					} catch (Exception e) {
 						e.printStackTrace();
+						mLogger.error(e.getMessage(), e.fillInStackTrace()); 
 					}
 				}
 			}

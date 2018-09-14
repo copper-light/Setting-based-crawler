@@ -134,16 +134,13 @@ public class Scraper {
 		String newWindow;
 		Action action = urlInfo.getAction();
 		
-		urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
+		//urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
 		if(action != null){
 			String selector = action.getSelector();
 			String value = action.getValue();
-			
-			System.out.println("[wait ] " + selector);
 			we = waitingForElement(mSeleniumDriver, selector);
-			System.out.println("[loaded ] " + selector);
-			
 			if(we != null){
+				System.err.println("[action ]"+action.getType() +" @ " +selector);
 				if(action.getType().contentEquals(Action.TYPE_CLICK)){
 //					if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
 //						Actions ac = new Actions(mSeleniumDriver);
@@ -156,7 +153,6 @@ public class Scraper {
 					we.sendKeys(value);
 				}else if(action.getType().contentEquals(Action.TYPE_VERTICAL_SCROLL) && value != null) {
 					JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
-					System.out.println(we.getTagName() + "  " + action.getType() + "  " + action.getValue());
 					jse.executeScript("window.scrollBy(0,"+ value +")", "");
 				}
 				else if(action.getType().contentEquals(Action.TYPE_SELECT) && value != null) {
@@ -176,8 +172,7 @@ public class Scraper {
 						v = mJSData.get(k);
 						value = "var "+ k + "=" + v +"; "+ value;
 					}
-					System.out.println(value);
-					Object js_ret = jse.executeScript(value, "");
+					Object js_ret = jse.executeScript(value, ""); /* 스크립트 오류 익셉션 체크해야함 */
 					if(js_ret != null){
 						try{
 							System.out.println(String.valueOf(js_ret));
@@ -186,16 +181,84 @@ public class Scraper {
 								k = String.valueOf(key);
 								mJSData.put(k, String.valueOf(json.get(k)));
 							}
-						}catch(JSONException e) {e.printStackTrace();}
+						}catch(JSONException e) {
+							Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
+							e.printStackTrace();
+						}
+					}
+				}else if(action.getType().contentEquals(Action.TYPE_SWITCH_WINDOW)){
+					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
+					int cur_idx = 0;
+					int tab_size = tab.size();
+					for(int i = 0 ; i < tab_size; i ++){
+						if(tab.get(i).contentEquals(mSeleniumDriver.getWindowHandle())){
+							cur_idx = i;
+						}
+					}
+					// 값이 없으면 무조건 마지막 윈도우로
+					if(value == null){
+						mSeleniumDriver.switchTo().window(tab.get(tab_size-1));
+					}else{ // 현재를 기준으로 이동하고자 할때
+						int new_idx = Integer.parseInt(value);
+						if(value.indexOf('+') != -1 || value.indexOf('-') != -1){
+							new_idx = (cur_idx + new_idx);
+							if(new_idx < 0) new_idx = 0;
+						}
+						if(tab_size > new_idx){
+							mSeleniumDriver.switchTo().window(tab.get(new_idx));
+						}
+					}
+				}else if(action.getType().contentEquals(Action.TYPE_CLOSE_WINDOW)){
+					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
+					int tab_size = tab.size();
+					int cur_idx = 0;
+					for(int i = 0 ; i < tab_size; i ++){
+						if(tab.get(i).contentEquals(mSeleniumDriver.getWindowHandle())){
+							cur_idx = i;
+						}
+					}
+					if(value == null){
+						mSeleniumDriver.close();
+					}else{ // 현재를 기준으로 이동하고자 할때
+						int new_idx = Integer.parseInt(value);
+						if(tab_size > new_idx){
+							mSeleniumDriver.switchTo().window(tab.get(new_idx));
+							mSeleniumDriver.close();
+						}
+					}
+					tab_size = mSeleniumDriver.getWindowHandles().size();
+					if(tab_size > cur_idx){
+						mSeleniumDriver.switchTo().window(tab.get(cur_idx));
+					}else{
+						mSeleniumDriver.switchTo().window(tab.get(tab_size-1));
+					}
+				}else if(action.getType().contentEquals(Action.TYPE_BACKWORD_WINDOW)){
+					mSeleniumDriver.navigate().back();
+				}else if(action.getType().contentEquals(Action.TYPE_FORWORD_WINDOW)){
+					mSeleniumDriver.navigate().forward();
+				}else if(action.getType().contentEquals(Action.TYPE_REFRESH_WINDOW)){
+					mSeleniumDriver.navigate().refresh();
+				}else if(action.getType().equalsIgnoreCase(Action.TYPE_CLOSE_POPUP)){
+					if(value != null){
+						String cur_handle = mSeleniumDriver.getWindowHandle();
+						Integer target_idx = Integer.parseInt(value);
+						ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
+						int tab_size = tab.size();	
+						if(tab_size > target_idx){
+							mSeleniumDriver.switchTo().window(tab.get(target_idx));
+							mSeleniumDriver.close();
+							mSeleniumDriver.switchTo().window(cur_handle);
+						}
+						
 					}
 				}
 				
-				if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
-					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
-					mSeleniumDriver.switchTo().window(tab.get(tab.size()-1));
-				}else{ //if(action.getTarget() == Action.TARGET_SELF)
-					
-				}
+//				if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
+//					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
+//					mSeleniumDriver.switchTo().window(tab.get(tab.size()-1));
+//				}else{ //if(action.getTarget() == Action.TARGET_SELF)
+//					
+//				}
 				// 로딩 확인하고
 				if(urlInfo.getLoadCheckSelectors() != null && urlInfo.getLoadCheckSelectors().size() > 0){
 					for(String s : urlInfo.getLoadCheckSelectors()){
@@ -204,10 +267,12 @@ public class Scraper {
 						}
 					}
 				}
+				urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
 				ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+			}else{
+				
 			}
 		}else{ // 액션 없는 seed 일 경우
-			
 			// URL 호출
 			mSeleniumDriver.get(urlInfo.toString());
 			
@@ -246,6 +311,7 @@ public class Scraper {
 			return new WebDriverWait(wd, 10)
 						.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
 		}catch(org.openqa.selenium.TimeoutException e){
+			Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
 			return null;
 		}
 	}

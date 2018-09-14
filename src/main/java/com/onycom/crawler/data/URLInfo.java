@@ -27,6 +27,8 @@ public class URLInfo {
 	
 	int mState = STATE_IDLE;
 	
+	boolean mHighPriority = false; 
+	
 	byte mContentType;
 	String mUrl = null;
 	String mDomainURL = null;
@@ -203,6 +205,14 @@ public class URLInfo {
 	
 	public String getData(String key){
 		return mDataMap.get(key);
+	}
+	
+	public void setHighPriority(boolean isHighPriority){
+		mHighPriority = isHighPriority;
+	}
+	
+	public boolean isHighPriority(){
+		return mHighPriority;
 	}
 	
 	public void setData(String key, String value){

@@ -1,26 +1,16 @@
 package com.onycom.crawler.parser;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.onycom.common.Util;
 import com.onycom.crawler.core.Crawler;
-import com.onycom.crawler.data.Collect;
-import com.onycom.crawler.data.Config;
-import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.Duplicate;
 import com.onycom.crawler.data.URLInfo;
 

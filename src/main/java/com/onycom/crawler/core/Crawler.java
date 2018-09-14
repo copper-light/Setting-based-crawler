@@ -1,26 +1,18 @@
 package com.onycom.crawler.core;
 
+import java.io.FileInputStream;
 import java.io.IOException;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.Properties;
 
-import org.json.JSONObject;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.nodes.FormElement;
-import org.jsoup.select.Elements;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import com.onycom.common.Util;
 import com.onycom.crawler.data.Config;
-import com.onycom.crawler.data.Robots;
 import com.onycom.crawler.data.URLInfo;
 import com.onycom.crawler.parser.Parser;
-import com.onycom.crawler.parser.RobotsParser;
 import com.onycom.crawler.parser.ScenarioDynamicParser;
 import com.onycom.crawler.parser.ScenarioStasticParser;
 import com.onycom.crawler.parser.StaticParser;
@@ -47,6 +39,8 @@ public class Crawler {
 	public static DBWriter DB;
 	public static com.onycom.crawler.writer.Writer Writer;
 
+	public static final Logger mLogger = LogManager.getLogger(Crawler.class);
+	
 	public Config mConfig;
 	
 	public Crawler(int size, long delay, Parser parser){
@@ -54,6 +48,34 @@ public class Crawler {
 		mWorkManager.setWorkDelay(delay);
 		this.setCrawlerListener(mWMListener);
 		parser = mParser;
+		
+		String LOG_FILE = "./log/log4j.properties";
+		Properties logProp = new Properties();
+		try {
+			logProp.load(new FileInputStream(LOG_FILE));
+			PropertyConfigurator.configure(logProp);
+			mLogger.info("Logging enabled");
+		} catch (IOException e) {
+			System.out.println("Logging not enabled");
+		}
+		mLogger.info("start crawler");
+	}
+	
+	public static void Log(char type, String msg){
+		if(type == 'e'){
+			mLogger.error(msg);
+		}else if(type == 'i'){
+			mLogger.info(msg);
+		}
+	}
+	
+	public static void Log(char type, String msg, Throwable t){
+		if(type == 'e'){
+			mLogger.error(msg, t);
+		}else if(type == 'i'){
+			mLogger.info(msg, t);
+		}
+		
 	}
 	
 	public Crawler(int size, long delay){
@@ -175,7 +197,9 @@ public class Crawler {
 		}
 		
 		public void progress(long remain, long cnt, long fail, long total) {
-			System.out.println("[progress] "+ remain + " remain / " +  cnt + " cnt / " + fail + " fail / " + total + " total");
+			String log = "[progress] "+ remain + " remain / " +  cnt + " cnt / " + fail + " fail / " + total + " total";
+			//System.out.println(log);
+			Crawler.Log('i', log);
 		}
 
 		public void finish(long suc, long fail, long total) {

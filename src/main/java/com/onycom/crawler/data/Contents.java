@@ -8,13 +8,11 @@ import java.util.List;
  * */
 public class Contents {
 	String mName;
-	KeyValue[] mData;
-	int mIdx;
+	List<KeyValue> mData;
 	
 	public Contents(String name, int len){
 		mName = name;
-		mData = new KeyValue[len];
-		mIdx = 0;
+		mData = new ArrayList<KeyValue>(len);
 	}
 	
 	public String getName(){
@@ -22,22 +20,22 @@ public class Contents {
 	}
 	
 	public void add(String key, String value){
-		mData[mIdx++] = KeyValue.Create(key, value);
+		mData.add(KeyValue.Create(key, value));
 	}
 	
 	public void add(int idx, String key, String value){
-		mData[idx] = KeyValue.Create(key, value);
+		mData.add(KeyValue.Create(key, value));
 	}
 	
-	public KeyValue[] getData(){
+	public List<KeyValue> getData(){
 		return mData;
 	}
 	
 	public int size(){
-		return mData.length;
+		return mData.size();
 	}
 	
 	public KeyValue get(int idx){
-		return mData[idx];
+		return mData.get(idx);
 	}
 }

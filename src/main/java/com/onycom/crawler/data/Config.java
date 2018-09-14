@@ -9,6 +9,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.google.gson.JsonObject;
+
 /**
  * 설정 정보를 담는 객체. json 형태의 설정파일을 파싱하여 객체화함
  * */
@@ -24,9 +26,9 @@ public class Config {
 	
 	public static final String DEAULT_OUTPUT_FILE_PATH = "/output";
 	
-	public static final String COLLECT_ITEMTYPE_URL = "URL";
-	public static final String COLLECT_ITEMTYPE_DATETIME = "DATETIME";
-	public static final String COLLECT_ITEMTYPE_TAG = "TAG";
+	public static final String COLLECT_COLUMN_TYPE_URL = "URL";
+	public static final String COLLECT_COLUMN_TYPE_DATETIME = "DATETIME";
+	public static final String COLLECT_COLUMN_TYPE_TAG = "TAG";
 	
 	public URLInfo mSeedInfo;
 	
@@ -49,7 +51,7 @@ public class Config {
 	List<String> mFilterDisallow;  // 접속하지 않는 URL(또는 패턴)
 	List<String> mLeafURL;         // 크롤링 마지막 URL(또는 패턴) : 해당 페이지의 링크는 수집하지 않는다
 	
-	List<Collect> mCollects;       // 수집할 콘텐츠
+	List<CollectRecode> mCollects;       // 수집할 콘텐츠
 	Map<Integer, Scenario> mScenarios;
 	
 	Map<String, Robots> mRobots;
@@ -76,7 +78,7 @@ public class Config {
 		mFilterDisallow = new ArrayList<String>();
 		
 		mLeafURL = new ArrayList<String>();
-		mCollects = new ArrayList<Collect>();
+		mCollects = new ArrayList<CollectRecode>();
 		mScenarios = new HashMap<Integer, Scenario>();
 		
 		mRobots = new HashMap<String, Robots>();
@@ -162,38 +164,64 @@ public class Config {
 			} catch (JSONException e) { e.printStackTrace(); mLeafURL.clear();}
 		} catch (JSONException e) { e.printStackTrace(); }
 
-		JSONArray aryItems,aryRegex;
-		JSONObject item;
-		Collect collect;
-		int len_i, len_j;
+		JSONArray aryCols,aryJson;
+		JSONObject col, jsonElement;
+		CollectRecode recode;
+		int len_i, len_j, len_k;
 		String[] regexs;
+		String recode_selector;
+		CollectRecode.Column.Element[] elements;
+		CollectRecode.Column.Element el;
 		try{
-			array = root.getJSONArray("collect");
+			array = root.getJSONArray("collect_recode");
 			len_i = array.length();
 			for(int i = 0 ; i < len_i ; i ++){
 				object = array.getJSONObject(i);
-				collect = new Collect(object.isNull("url")? "": object.getString("url"), 
-										  object.getString("name"));
-				if(!object.isNull("depth")) collect.setDepth(object.getInt("depth"));
-				aryItems = object.getJSONArray("items");
-				len_j = aryItems.length();
-				for(int j = 0 ; j < len_j ; j++ ){
-					item = aryItems.getJSONObject(j);
-					regexs = null;
-					if(!item.isNull("allow_data_regex")){
-						aryRegex = item.getJSONArray("allow_data_regex");
-						regexs = new String[aryRegex.length()];
-						aryRegex.toList().toArray(regexs);
+				recode = new CollectRecode(object.isNull("regex_url")? "": object.getString("regex_url"), 
+										   object.getString("name"));
+				if(!object.isNull("depth")) recode.setDepth(object.getInt("depth"));
+				if(!object.isNull("recode_selector")){
+					recode_selector = "html";
+				}else{
+					recode_selector = object.getString("recode_selector");
+					if(recode_selector.trim().isEmpty()){
+						recode_selector = "html";
 					}
-					collect.add(item.isNull("type")? "": item.getString("type"),
-								item.isNull("selector")? "": item.getString("selector"),
-								item.isNull("tag_type")? "": item.getString("tag_type"), 
-								item.isNull("attr_name")? "": item.getString("attr_name"), 
-								item.isNull("data_type")? "": item.getString("data_type"), 
-								item.isNull("data_name")? "": item.getString("data_name"),
+				}
+				recode.setRecodeSelector(recode_selector);
+				aryCols = object.getJSONArray("column");
+				len_j = aryCols.length();
+				for(int j = 0 ; j < len_j ; j++ ){
+					col = aryCols.getJSONObject(j);
+					regexs = null;
+					if(!col.isNull("regex_filter")){
+						aryJson = col.getJSONArray("regex_filter");
+						regexs = new String[aryJson.length()];
+						aryJson.toList().toArray(regexs);
+					}
+					
+					elements = null;
+					if(!col.isNull("element")){
+						aryJson = col.getJSONArray("element");
+						elements = new CollectRecode.Column.Element[aryJson.length()];
+						len_k = aryJson.length();
+						for(int k = 0 ; k < len_k ; k++){
+							jsonElement = aryJson.getJSONObject(k);
+							elements[k] = 
+									new CollectRecode.Column.Element(
+											jsonElement.isNull("selector")? "": jsonElement.getString("selector"), 
+											jsonElement.isNull("type")? "": jsonElement.getString("type"),
+											jsonElement.isNull("from_root")? false: jsonElement.getBoolean("from_root"));
+						}
+					}
+					
+					recode.add(col.isNull("type")? "": col.getString("type"),
+								elements,
+								col.isNull("data_type")? "": col.getString("data_type"), 
+								col.isNull("data_name")? "": col.getString("data_name"),
 								regexs);
 				}
-				mCollects.add(collect);
+				mCollects.add(recode);
 			}
 		} catch (JSONException e) { mCollects.clear(); e.printStackTrace(); }
 		
@@ -214,17 +242,15 @@ public class Config {
 				if(!object.isNull("check_load_selector")){
 					aryLoadCheckSelector = object.getJSONArray("check_load_selector");
 					for(Object selector: aryLoadCheckSelector){
-						System.out.println(String.valueOf(selector));
 						scenario.addLoadCheckSelector(String.valueOf(selector));
 					}
 				}
 				for(int j = 0 ; j < len_j ; j++){
 					scenObject = aryScenario.getJSONObject(j);
-					System.out.println(scenObject.getString("selector"));
 					scenario.add(scenObject.isNull("depth")? -1: scenObject.getInt("depth"), 
-								 scenObject.getString("selector"),
+								 scenObject.isNull("selector")? "html" : scenObject.getString("selector"),
 								 scenObject.isNull("target")? null: scenObject.getString("target"),
-								 scenObject.isNull("type")? null: scenObject.getString("type"),
+								 scenObject.isNull("type")? "click": scenObject.getString("type"),
 								 scenObject.isNull("value")? null: scenObject.getString("value"));
 				}
 				for(int j = 0 ; j < scenario.getSize() ; j++){
@@ -262,7 +288,7 @@ public class Config {
 		return mLeafURL;// 크롤링 마지막 URL(또는 패턴) : 해당 페이지의 링크는 수집하지 않는다
 	}
 	
-	public List<Collect> getCollects(){
+	public List<CollectRecode> getCollects(){
 		return mCollects;// 수집할 콘텐츠
 	}
 }

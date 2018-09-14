@@ -8,7 +8,13 @@ public class Action{
 	public static String TYPE_VERTICAL_SCROLL = "vertical_scroll";
 	public static String TYPE_SELECT = "select";
 	public static String TYPE_JAVASCRIPT = "javascript"; 
-	
+	public static String TYPE_SWITCH_WINDOW = "switch_window";
+	public static String TYPE_CLOSE_WINDOW = "close_window";
+	public static String TYPE_PARSE_CONTENTS = "parse_contents";
+	public static String TYPE_BACKWORD_WINDOW = "backward_window";
+	public static String TYPE_FORWORD_WINDOW = "forword_window";
+	public static String TYPE_REFRESH_WINDOW = "refresh_window";
+	public static String TYPE_CLOSE_POPUP = "close_popup";
 	/**
 	 * depth 에 따라 시나리오가 흘러감
 	 * 무한루프 주의 필요

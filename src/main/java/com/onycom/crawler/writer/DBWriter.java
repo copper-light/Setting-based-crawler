@@ -3,15 +3,12 @@ package com.onycom.crawler.writer;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
-import com.onycom.crawler.data.Collect;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.KeyValue;
-import com.onycom.crawler.data.Collect.Item;
+import com.onycom.crawler.data.CollectRecode;
 
 /**
  * DB 저장 구현제. 기본 JDBC 를 활용. 안정성을 위한 구현 고도화 필요 
@@ -63,7 +60,7 @@ public class DBWriter implements Writer{
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
-//			System.out.println(query);
+			System.err.println("[error sql]"+ query);
 		}
 		return ret;
 	}
@@ -92,15 +89,15 @@ public class DBWriter implements Writer{
 		// 콘텐츠 저장을 위한 DB TABLE 을 준비해라!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		try {
 			this.open();
-			List<Collect> collects = mConfig.getCollects();
+			List<CollectRecode> collects = mConfig.getCollects();
 			String tableName, colName, colType;
-			for(Collect c : collects){
+			for(CollectRecode c : collects){
 				// TABLE NAME
 				tableName = c.getName().toUpperCase(); 
 				query = "";
-				for(Collect.Item item : c.getItems()){
-					colName = item.getDataName().toUpperCase(); // 컬럼 명
-					colType = item.getDataType(); // 컬럼 타입
+				for(CollectRecode.Column col : c.getColumns()){
+					colName = col.getDataName().toUpperCase(); // 컬럼 명
+					colType = col.getDataType(); // 컬럼 타입
 					query += ", " + colName + " " + colType;
 				}
 				if(query.length() > 0){
@@ -121,7 +118,7 @@ public class DBWriter implements Writer{
 	
 	public synchronized int write(Contents contents) {
 		String tableName = contents.getName();
-		KeyValue[] data = contents.getData();
+		List<KeyValue> data = contents.getData();
 		
 		String cols = "";
 		String values = "";

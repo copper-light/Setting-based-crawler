@@ -1,12 +1,6 @@
 package com.onycom.AuctionCrawler;
 
-import com.onycom.common.Util;
 import com.onycom.crawler.core.*;
-import com.onycom.crawler.data.URLInfo;
-import com.onycom.crawler.parser.CustomParser;
-import com.onycom.crawler.parser.Parser;
-import com.onycom.crawler.parser.ScenarioStasticParser;
-import com.onycom.crawler.parser.StaticParser;
 
 /**
  * Hello world!
