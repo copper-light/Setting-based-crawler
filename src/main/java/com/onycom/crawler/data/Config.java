@@ -247,9 +247,8 @@ public class Config {
 				}
 				for(int j = 0 ; j < len_j ; j++){
 					scenObject = aryScenario.getJSONObject(j);
-					scenario.add(scenObject.isNull("depth")? -1: scenObject.getInt("depth"), 
-								 scenObject.isNull("selector")? "html" : scenObject.getString("selector"),
-								 scenObject.isNull("target")? null: scenObject.getString("target"),
+					scenario.add(scenObject.isNull("target_depth")? -1: scenObject.getInt("target_depth"), 
+								 scenObject.isNull("selector")? null : scenObject.getString("selector"),
 								 scenObject.isNull("type")? "click": scenObject.getString("type"),
 								 scenObject.isNull("value")? null: scenObject.getString("value"));
 				}

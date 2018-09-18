@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.KeyValue;
@@ -14,6 +16,8 @@ import com.onycom.crawler.data.CollectRecode;
  * DB 저장 구현제. 기본 JDBC 를 활용. 안정성을 위한 구현 고도화 필요 
  * */
 public class DBWriter implements Writer{
+	static Logger mLogger = Logger.getLogger(DBWriter.class);
+	
 	static String DRIVER = "org.mariadb.jdbc.Driver";
 	static String PATH  = "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG"; // 172.17.0.10
 	static String USER = "root";
@@ -39,7 +43,7 @@ public class DBWriter implements Writer{
 		try{
 			conn = DriverManager.getConnection(PATH, USER, PW);
 		}catch(Exception e){
-			e.printStackTrace();
+			mLogger.error(e.getMessage(), e.fillInStackTrace());
 		}
 		mConn = conn;
 	}
@@ -59,8 +63,7 @@ public class DBWriter implements Writer{
 				if(mConn.prepareStatement(query).execute()) ret = 1;
 			}
 		} catch (SQLException e) {
-			e.printStackTrace();
-			System.err.println("[error sql]"+ query);
+			mLogger.error("[SQL] " + query, e.fillInStackTrace());
 		}
 		return ret;
 	}
@@ -70,7 +73,7 @@ public class DBWriter implements Writer{
 			try {
 				mConn.close();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			}
 		}
 	}
@@ -106,7 +109,7 @@ public class DBWriter implements Writer{
 				}
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			mLogger.error("[SQL] " + query, e.fillInStackTrace());
 		} finally {
 			this.close();
 		}

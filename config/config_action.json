@@ -25,28 +25,27 @@
 	"scenario" : [
 		{
 			"depth" : 0,
-			"check_load_selector" : [
-				"#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc"
-			],
 			"actions" : [
 				{
 					"type": "click", 
 					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc",
-					"target_window" : "+1", 
-					"depth" : 1
+					"target_depth" : 1
 				},
 				{
 					"type" : "javascript", 
 					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc", 
-					"value" : "var selector = \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}", 
-					"depth" : 0
+					"value" : "var selector= \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}", 
+					"target_depth" : 0
 				}
 			]
 		},
 		{
 			"depth" : 1,
-			"check_load_selector" : [],
 			"actions" : [
+				{
+					"type" : "switch_window",
+					"value" : "+1"
+				},
 				{
 					"type" : "parse_contents",
 					"selector" : ".deal_tit"
@@ -62,7 +61,7 @@
 		{
 			"depth" : 1,
 			"regex_url" : "",
-			"name" : "T_WMP",
+			"name" : "T_WMP5",
 			"recode_selector" : "",
 			"column" : [
 				{
@@ -115,7 +114,7 @@
 					]
 				},
 				{
-					"data_type" : "varchar(50)",
+					"data_type" : "int",
 					"data_name" : "sales_rate",
 					"regex_filter" : ["[0-9]+"],
 					"element" : [

@@ -6,7 +6,11 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+import org.json.JSONException;
 import org.jsoup.nodes.Document;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriverException;
 
 import com.onycom.crawler.data.URLInfo;
 import com.onycom.crawler.parser.Parser;
@@ -17,6 +21,8 @@ import com.onycom.crawler.scraper.Scraper;
  * 리스너의 결과 정보 값이 부실하므로 앞으로 추가 구현 해야할 것으로 보임. 크롤링 유지보수를 위한 파싱 에러의 세분화 필요
  * */
 class WorkRunnable implements Runnable{
+	static Logger mLogger = Logger.getLogger(WorkRunnable.class);
+	
 	boolean mIsRunning = false;
 	int mId;
 	Crawler mCrawler;
@@ -42,6 +48,7 @@ class WorkRunnable implements Runnable{
 	
 	public void run() {
 		mIsRunning = true;
+		boolean isSuccess = false;
 		URLInfo info = null;
 		Document doc = null;
 		List<URLInfo> results = null;
@@ -53,14 +60,22 @@ class WorkRunnable implements Runnable{
 				if(doc != null && mParser != null){
 					results = mParser.parse(mQueue.getHistory(), info, doc);
 				}
-			} catch (Exception e){
-				e.printStackTrace();
-				Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
+				isSuccess = true;
+			} catch (JSONException e) { // javascript 반환 파싱 오류
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
+			} catch (WebDriverException e) { // javascript + element 못찾을때 오류
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
+			} catch (KeyManagementException e) {
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
+			} catch (NoSuchAlgorithmException e) {
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
+			} catch (IOException e) {
+				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			}
 		}
 		// 쓰레드 끝나는걸 확인하는 로직을 재 구성해야합니다. 알겠죠?
 		mIsRunning = false;
-		if(results != null){
+		if(isSuccess){
 			mListener.done(info, results);
 		}else{
 			mListener.error(info);

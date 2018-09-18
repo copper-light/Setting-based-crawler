@@ -28,7 +28,9 @@ import org.jsoup.nodes.Document;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -79,7 +81,7 @@ public class Scraper {
 		}
 	}
 	
-	public static Document GetDocument(URLInfo urlInfo) throws Exception{
+	public static Document GetDocument(URLInfo urlInfo) throws JSONException, org.openqa.selenium.TimeoutException, WebDriverException, NoSuchAlgorithmException, KeyManagementException, IOException {
 		if(TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_DYNAMIC)){
 			return useSelenium(urlInfo);
 		}else{
@@ -127,10 +129,11 @@ public class Scraper {
         return doc;
 	}
 	
-	private static Document useSelenium(URLInfo urlInfo){
+	private static Document useSelenium(URLInfo urlInfo) throws JSONException, TimeoutException, WebDriverException {
 		Document ret = null;
 		List<String> checkSelector;
 		WebElement we = null;
+		List<WebElement> wes = null;
 		String newWindow;
 		Action action = urlInfo.getAction();
 		
@@ -138,55 +141,74 @@ public class Scraper {
 		if(action != null){
 			String selector = action.getSelector();
 			String value = action.getValue();
-			we = waitingForElement(mSeleniumDriver, selector);
-			if(we != null){
-				System.err.println("[action ]"+action.getType() +" @ " +selector);
-				if(action.getType().contentEquals(Action.TYPE_CLICK)){
-//					if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
-//						Actions ac = new Actions(mSeleniumDriver);
-//						ac.keyDown(Keys.CONTROL).click(we).keyUp(Keys.CONTROL).perform();
-//					}else{
-//						we.click();
-//					}
-					we.click();
-				}else if(action.getType().contentEquals(Action.TYPE_INPUT) && value != null) {
-					we.sendKeys(value);
-				}else if(action.getType().contentEquals(Action.TYPE_VERTICAL_SCROLL) && value != null) {
-					JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
-					jse.executeScript("window.scrollBy(0,"+ value +")", "");
-				}
-				else if(action.getType().contentEquals(Action.TYPE_SELECT) && value != null) {
-					Select dropdown = new Select(we);
-					try{
-						int intValue = Integer.parseInt(value);
-						dropdown.selectByIndex(intValue);
-					}catch(NumberFormatException  e){ // exception 이라면  String 이므로 String 처리
-						dropdown.selectByValue(value);
-					}					
-				}else if(action.getType().contentEquals(Action.TYPE_JAVASCRIPT) &&  value != null){
-					JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
-					Iterator<String> it = mJSData.keySet().iterator();
-					String k,v;
-					while(it.hasNext()){
-						k = it.next();
-						v = mJSData.get(k);
-						value = "var "+ k + "=" + v +"; "+ value;
+			if(selector != null){
+				wes = waitingForAllElement(mSeleniumDriver, selector);
+				if(wes.size() == 1){
+					we = wes.get(0);
+					System.err.println("[action] "+action.getType() +" @ " +selector);
+					if(action.getType().contentEquals(Action.TYPE_CLICK)){
+						we.click();
+					}else if(action.getType().contentEquals(Action.TYPE_INPUT) && value != null) {
+						we.sendKeys(value);
+					}else if(action.getType().contentEquals(Action.TYPE_VERTICAL_SCROLL) && value != null) {
+						JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
+						jse.executeScript("window.scrollBy(0,"+ value +")", "");
 					}
-					Object js_ret = jse.executeScript(value, ""); /* 스크립트 오류 익셉션 체크해야함 */
-					if(js_ret != null){
+					else if(action.getType().contentEquals(Action.TYPE_SELECT) && value != null) {
+						Select dropdown = new Select(we);
 						try{
-							System.out.println(String.valueOf(js_ret));
-							JSONObject json = new JSONObject(String.valueOf(js_ret));
-							for(Object key : json.keySet().toArray()){
-								k = String.valueOf(key);
-								mJSData.put(k, String.valueOf(json.get(k)));
+							int intValue = Integer.parseInt(value);
+							dropdown.selectByIndex(intValue);
+						}catch(NumberFormatException  e){ // exception 이라면  String 이므로 String 처리
+							dropdown.selectByValue(value);
+						}
+					}else if(action.getType().contentEquals(Action.TYPE_JAVASCRIPT) &&  value != null){
+						JavascriptExecutor jse = (JavascriptExecutor)mSeleniumDriver;
+						Iterator<String> it = mJSData.keySet().iterator();
+						String k,v;
+						while(it.hasNext()){
+							k = it.next();
+							v = mJSData.get(k);
+							value = "var "+ k + "=" + v +"; "+ value;
+						}
+						Object js_ret = jse.executeScript(value, ""); /* 스크립트 오류 익셉션 체크해야함 */
+						if(js_ret != null){
+							try{
+								System.out.println(String.valueOf(js_ret));
+								JSONObject json = new JSONObject(String.valueOf(js_ret));
+								for(Object key : json.keySet().toArray()){
+									k = String.valueOf(key);
+									mJSData.put(k, String.valueOf(json.get(k)));
+								}
+							}catch(JSONException e) {
+								throw e;
+								//Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
+								//e.printStackTrace();
 							}
-						}catch(JSONException e) {
-							Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
-							e.printStackTrace();
 						}
 					}
-				}else if(action.getType().contentEquals(Action.TYPE_SWITCH_WINDOW)){
+					// 로딩 확인하고
+//					if(urlInfo.getLoadCheckSelectors() != null && urlInfo.getLoadCheckSelectors().size() > 0){
+//						for(String s : urlInfo.getLoadCheckSelectors()){
+//							waitingForElement(mSeleniumDriver, s);
+//						}
+//					}
+					if(action.getTargetDepth() != -1){
+						urlInfo.setParseType(URLInfo.PARSE_SCENARIO);
+						urlInfo.setDepth(action.getTargetDepth());
+					}
+					urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
+					ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+				}else{
+					/*
+					 * 액션 찾는 로직으로 전달
+					 * */
+					urlInfo.setParseType(URLInfo.PARSE_FIND_ACTION);
+					urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
+					ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+				}
+			}else{
+				if(action.getType().contentEquals(Action.TYPE_SWITCH_WINDOW)){
 					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
 					int cur_idx = 0;
 					int tab_size = tab.size();
@@ -249,44 +271,23 @@ public class Scraper {
 							mSeleniumDriver.close();
 							mSeleniumDriver.switchTo().window(cur_handle);
 						}
-						
 					}
 				}
-				
-//				if(action.getTarget().contentEquals(Action.TARGET_BLANK)){
-//					ArrayList<String> tab = new ArrayList<String> (mSeleniumDriver.getWindowHandles());
-//					mSeleniumDriver.switchTo().window(tab.get(tab.size()-1));
-//				}else{ //if(action.getTarget() == Action.TARGET_SELF)
-//					
-//				}
-				// 로딩 확인하고
-				if(urlInfo.getLoadCheckSelectors() != null && urlInfo.getLoadCheckSelectors().size() > 0){
-					for(String s : urlInfo.getLoadCheckSelectors()){
-						if(waitingForElement(mSeleniumDriver, s) == null){
-							return null;
-						}
-					}
-				}
-				urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
-				ret = Jsoup.parse(mSeleniumDriver.getPageSource());
-			}else{
-				
+				return null;
 			}
 		}else{ // 액션 없는 seed 일 경우
 			// URL 호출
 			mSeleniumDriver.get(urlInfo.toString());
 			
-			// 로딩 확인하고
-			if(urlInfo.getLoadCheckSelectors() != null){
-				for(String selector : urlInfo.getLoadCheckSelectors()){
-					if(waitingForElement(mSeleniumDriver, selector) == null){
-						return null;
-					}
-				}
-			}
+//			// 로딩 확인하고
+//			if(urlInfo.getLoadCheckSelectors() != null){
+//				for(String selector : urlInfo.getLoadCheckSelectors()){
+//					waitingForElement(mSeleniumDriver, selector);
+//				}
+//			}
 			//window 정보 저장하고
 			urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
-			
+			urlInfo.setParseType(URLInfo.PARSE_SCENARIO);
 			// 문서 리턴
 			ret = Jsoup.parse(mSeleniumDriver.getPageSource());
 		}
@@ -306,14 +307,20 @@ public class Scraper {
 		}
 	}
 	
-	private static WebElement waitingForElement(WebDriver wd, String selector){
+	public static List<WebElement> GetEelements(String selector){
 		try{
-			return new WebDriverWait(wd, 10)
-						.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
-		}catch(org.openqa.selenium.TimeoutException e){
-			Crawler.Log('e', e.getMessage(), e.fillInStackTrace());
+			return waitingForAllElement(mSeleniumDriver, selector);
+		} catch(TimeoutException e){
 			return null;
 		}
+	}
+	
+	private static WebElement waitingForElement(WebDriver wd, String selector) throws org.openqa.selenium.TimeoutException{
+		return new WebDriverWait(wd, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
+	}
+	
+	private static List<WebElement> waitingForAllElement(WebDriver wd, String selector) throws org.openqa.selenium.TimeoutException{
+		return new WebDriverWait(wd, 10).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(selector)));
 	}
 	
 	private static void connectSelenium(){
@@ -331,7 +338,7 @@ public class Scraper {
 
 	private static void quitSelenium(){
 		if(mSeleniumDriver != null){
-//			mSeleniumDriver.quit();
+			mSeleniumDriver.quit();
 		}
 	}
 }

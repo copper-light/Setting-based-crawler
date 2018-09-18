@@ -15,12 +15,12 @@ public class Scenario {
 		mAryLoadCheckSelector = new ArrayList<String>();
 	}
 	
-	public void add(int depth, String cssSelector){
-		add(depth,cssSelector, null, null, null);
+	public void add(int target_depth, String cssSelector){
+		add(target_depth, cssSelector, null, null);
 	}
 	
-	public void add(int depth, String cssSelector, String target, String action, String value){
-		mAryAction.add(new Action(depth, cssSelector, target, action, value));
+	public void add(int target_depth, String cssSelector, String action, String value){
+		mAryAction.add(new Action(target_depth, cssSelector, action, value));
 	}
 	
 	public Action getAction(int idx){

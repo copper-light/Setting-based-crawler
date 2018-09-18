@@ -15,6 +15,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
+
 import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
@@ -26,6 +28,8 @@ import au.com.bytecode.opencsv.CSVWriter;
  * CSV 파일 저장 구현체. CSVWriter 라이브러리 사용
  * */
 public class CsvWriter implements Writer{
+	static Logger mLogger = Logger.getLogger(DBWriter.class);
+	
 	Config mConfig;
 	CSVWriter mCSVWriter;
 	SimpleDateFormat DATE_FORMAT; 

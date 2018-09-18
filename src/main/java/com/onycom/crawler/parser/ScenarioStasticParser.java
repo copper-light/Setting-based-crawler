@@ -41,7 +41,7 @@ public class ScenarioStasticParser extends StaticParser{
 				len = scen.getSize();
 				for(int i = 0 ; i < len ; i ++){
 					action = scen.getAction(i);
-					depth = action.getDepth();
+					depth = action.getTargetDepth();
 					els = document.select(action.getSelector());
 					els = els.select("a[href]");
 					for(Element e : els){

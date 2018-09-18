@@ -15,6 +15,7 @@ public class Action{
 	public static String TYPE_FORWORD_WINDOW = "forword_window";
 	public static String TYPE_REFRESH_WINDOW = "refresh_window";
 	public static String TYPE_CLOSE_POPUP = "close_popup";
+
 	/**
 	 * depth 에 따라 시나리오가 흘러감
 	 * 무한루프 주의 필요
@@ -22,20 +23,15 @@ public class Action{
 	 * 무한 루프에 빠짐
 	 * 따라서 scroll 처럼 페이지에 변화가 없는 경우 설정에서 반드시 -1 값을 넣거나 생략해야함 
 	 * */
-	int depth;
+	int target_depth;
+	int action_idx;
 	String cssSelector;
-	String target;
 	String type;
 	String value;
 	
-	public Action(int depth, String cssSelector, String target, String type, String value){
-		this.depth = depth;
+	public Action(int target_depth, String cssSelector, String type, String value){
+		this.target_depth = target_depth;
 		this.cssSelector = cssSelector;
-		if(target == null){
-			this.target = TARGET_SELF;
-		}else{
-			this.target = target;
-		}
 		if(type == null){
 			this.type = TYPE_CLICK;
 		}else{
@@ -44,12 +40,12 @@ public class Action{
 		this.value = value;
 	}
 	
-	public void setValue(String value){
-		this.value = value;
+	public int getTargetDepth(){
+		return target_depth;
 	}
 	
-	public String getTarget(){
-		return target;
+	public void setValue(String value){
+		this.value = value;
 	}
 	
 	public String getType(){
@@ -58,10 +54,6 @@ public class Action{
 	
 	public String getSelector() {
 		return cssSelector;
-	}
-	
-	public int getDepth(){
-		return depth;
 	}
 	
 	public String getValue(){

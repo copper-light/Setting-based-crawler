@@ -25,6 +25,10 @@ public class URLInfo {
 	public static final int STATE_FAIL = 0x2;
 	public static final int STATE_SUCCESS = 0x3;
 	
+	public static final byte PARSE_NORMAL = 0x0;
+	public static final byte PARSE_SCENARIO = 0x1;
+	public static final byte PARSE_FIND_ACTION =  0x2;
+	
 	int mState = STATE_IDLE;
 	
 	boolean mHighPriority = false; 
@@ -33,9 +37,10 @@ public class URLInfo {
 	String mUrl = null;
 	String mDomainURL = null;
 	String mSubUrl = null;
-
+	
+	byte mParseType = PARSE_NORMAL;
 	Action mAction;
-	String mParentWindow; 
+	String mParentWindow;
 	
 	List<String> mLoadCheckSelector;
 	
@@ -213,6 +218,14 @@ public class URLInfo {
 	
 	public boolean isHighPriority(){
 		return mHighPriority;
+	}
+	
+	public void setParseType(byte type){
+		mParseType = type;
+	}
+	
+	public byte getParseType(){
+		return mParseType;
 	}
 	
 	public void setData(String key, String value){
