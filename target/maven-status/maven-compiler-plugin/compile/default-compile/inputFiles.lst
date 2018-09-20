@@ -1,11 +1,10 @@
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Action.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Duplicate.java
-C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\URLInfo.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\common\Util.java
-C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Collect.java
-C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\writer\FileWriter.java
+C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Work.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\parser\Parser.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Robots.java
+C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\CollectRecode.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\data\Config.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\crawler\writer\CsvWriter.java
 C:\dev\workspace\AuctionCrawler\src\main\java\com\onycom\common\JSONParser.java

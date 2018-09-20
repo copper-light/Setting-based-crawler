@@ -10,22 +10,22 @@ import org.jsoup.select.Elements;
 import com.onycom.crawler.core.Crawler;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * 커스텀 파싱 구현체
  * */
-public class CustomParser extends Parser{
+public class CustomParser  extends Parser{
 	private int MAX_DEPTH = 1; 
 	private int CNT = 0;
 	
 	@Override
-	public List<URLInfo> parseURL(URLInfo urlInfo, Document document) {
-		List<URLInfo> ret = new ArrayList<URLInfo>();
+	public List<Work> parseURL(Work urlInfo, Document document) {
+		List<Work> ret = new ArrayList<Work>();
 		int curDepth = urlInfo.getDepth();
 		int depth; 
 		String parentRoot, parentURL, parentSub;
-		URLInfo url;
+		Work url;
 		String sub_url, tmp;
 		int idx;
 		
@@ -65,7 +65,7 @@ public class CustomParser extends Parser{
 					continue;
 				}
 				//System.out.println(">> " + sub_url);
-				url = new URLInfo(parentRoot + sub_url).setDepth(depth);
+				url = new Work(parentRoot + sub_url).setDepth(depth);
 				ret.add(url);
 			}
 			else if(sub_url.matches("^(?!#).*$")
@@ -85,7 +85,7 @@ public class CustomParser extends Parser{
 						sub_url = tmp.substring(0, idx+1)+sub_url;
 					}
 				} 
-				url = new URLInfo(parentRoot + sub_url).setDepth(depth);
+				url = new Work(parentRoot + sub_url).setDepth(depth);
 				ret.add(url);
 			}else{
 //				try {
@@ -99,7 +99,7 @@ public class CustomParser extends Parser{
 	}
 
 	@Override
-	public List<Contents> parseContents(URLInfo urlInfo, Document document) {
+	public List<Contents> parseContents(Work urlInfo, Document document) {
 		int curDepth = urlInfo.getDepth();
 		System.out.println("[parse " + ++CNT +"] "+curDepth +"depth - "+urlInfo.getURL()+" - "+ document.title());
 		int idx;

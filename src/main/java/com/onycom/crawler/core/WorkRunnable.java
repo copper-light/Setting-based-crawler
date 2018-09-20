@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriverException;
 
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 import com.onycom.crawler.parser.Parser;
 import com.onycom.crawler.scraper.Scraper;
 
@@ -29,10 +29,10 @@ class WorkRunnable implements Runnable{
 	Scraper mScraper;
 	Parser mParser;
 	WorkQueue mQueue;
-	URLInfo mUrlInfo;
-	WorkListener<URLInfo> mListener;
+	Work mUrlInfo;
+	WorkListener<Work> mListener;
 	
-	public WorkRunnable(int id, WorkQueue queue, Parser parser, URLInfo urlInfo, WorkListener<URLInfo> listener){
+	public WorkRunnable(int id, WorkQueue queue, Parser parser, Work urlInfo, WorkListener<Work> listener){
 		mId = id;
 		//mCrawler = crawler;
 		mUrlInfo = urlInfo;
@@ -41,7 +41,7 @@ class WorkRunnable implements Runnable{
 		mQueue = queue;
 	}
 	
-	public WorkRunnable setWork(URLInfo urlInfo){
+	public WorkRunnable setWork(Work urlInfo){
 		mUrlInfo = urlInfo;
 		return this;
 	}
@@ -49,9 +49,9 @@ class WorkRunnable implements Runnable{
 	public void run() {
 		mIsRunning = true;
 		boolean isSuccess = false;
-		URLInfo info = null;
+		Work info = null;
 		Document doc = null;
-		List<URLInfo> results = null;
+		List<Work> results = null;
 		//mIsRunning = true;
 		info = mUrlInfo; // mQueue.pullURL();
 		if(mListener.start(info) && info != null){
@@ -64,7 +64,12 @@ class WorkRunnable implements Runnable{
 			} catch (JSONException e) { // javascript 반환 파싱 오류
 				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			} catch (WebDriverException e) { // javascript + element 못찾을때 오류
-				mLogger.error(e.getMessage(), e.fillInStackTrace());
+				if(e.toString().indexOf("Runtime.evaluate") != -1){
+					mLogger.error("javascript syntax err " + e.getMessage(), e.fillInStackTrace());
+				}else{
+					mLogger.error("not found element " + e.getMessage(), e.fillInStackTrace());
+				}
+				
 			} catch (KeyManagementException e) {
 				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			} catch (NoSuchAlgorithmException e) {

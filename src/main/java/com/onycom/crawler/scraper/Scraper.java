@@ -20,6 +20,7 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
+import org.apache.log4j.Logger;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.jsoup.Connection;
@@ -28,6 +29,7 @@ import org.jsoup.nodes.Document;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
@@ -46,13 +48,15 @@ import com.onycom.crawler.core.Crawler;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Cookie;
 import com.onycom.crawler.data.Action;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * 웹페이지의 데이터를 가져오는 역할을 수행
  * (AJAX 와 같은 동적  스크립트는 불러오지 못함 : 해당 케이스의 경우 Selenium 같은 콘솔 브라우저를 이용해야함)
  * */
 public class Scraper {
+	static Logger mLogger = Logger.getLogger(Scraper.class);
+	
 	public static String charset = "UTF-8";
 	private static Cookie mCookie;
 	private static String TYPE = Config.CRAWLING_TYPE_SCENARIO_STATIC;
@@ -81,7 +85,7 @@ public class Scraper {
 		}
 	}
 	
-	public static Document GetDocument(URLInfo urlInfo) throws JSONException, org.openqa.selenium.TimeoutException, WebDriverException, NoSuchAlgorithmException, KeyManagementException, IOException {
+	public static Document GetDocument(Work urlInfo) throws JSONException, org.openqa.selenium.TimeoutException, WebDriverException, NoSuchAlgorithmException, KeyManagementException, IOException {
 		if(TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_DYNAMIC)){
 			return useSelenium(urlInfo);
 		}else{
@@ -92,10 +96,10 @@ public class Scraper {
 	/**
 	 * 주소로 접근해서 HTML 문서 반환<p>
 	 *
-	 * @param URLInfo 객체
+	 * @param Work 객체
 	 * @return Document
 	 */
-	private static Document useJsoup(URLInfo urlInfo) throws NoSuchAlgorithmException, KeyManagementException, IOException  {
+	private static Document useJsoup(Work urlInfo) throws NoSuchAlgorithmException, KeyManagementException, IOException  {
 		TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager(){
             public X509Certificate[] getAcceptedIssuers(){return new X509Certificate[0];}
             public void checkClientTrusted(X509Certificate[] certs, String authType){}
@@ -119,7 +123,7 @@ public class Scraper {
         	}
         }
        
-        if(urlInfo.getContentType() == URLInfo.POST){
+        if(urlInfo.getContentType() == Work.POST){
         	doc = conn.ignoreContentType(true).post();
         }else{ // urlInfo.getType() == URLInfo.GET
         	doc = conn.ignoreContentType(true).get();
@@ -129,7 +133,7 @@ public class Scraper {
         return doc;
 	}
 	
-	private static Document useSelenium(URLInfo urlInfo) throws JSONException, TimeoutException, WebDriverException {
+	private static Document useSelenium(Work urlInfo) throws JSONException, TimeoutException, WebDriverException {
 		Document ret = null;
 		List<String> checkSelector;
 		WebElement we = null;
@@ -140,9 +144,24 @@ public class Scraper {
 		//urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
 		if(action != null){
 			String selector = action.getSelector();
+			String empty_selector = action.getEmptySelector();
 			String value = action.getValue();
 			if(selector != null){
-				wes = waitingForAllElement(mSeleniumDriver, selector);
+				wes = waitingForAllElements(mSeleniumDriver, 10, selector, empty_selector);
+				if(wes == null) { // 못찾음
+					mLogger.error("Not found element : " +selector);
+					return null;
+				}
+				if(wes.isEmpty()) { // 이제 없음
+					mLogger.info("empty element : " +selector);
+					if(action.getType().contentEquals(Action.TYPE_PARSE_CONTENTS)){
+						urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
+						ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+						return ret;
+					}else{
+						return null;
+					}
+				}
 				if(wes.size() == 1){
 					we = wes.get(0);
 					System.err.println("[action] "+action.getType() +" @ " +selector);
@@ -194,16 +213,17 @@ public class Scraper {
 //						}
 //					}
 					if(action.getTargetDepth() != -1){
-						urlInfo.setParseType(URLInfo.PARSE_SCENARIO);
+						urlInfo.setParseType(Work.PARSE_SCENARIO);
 						urlInfo.setDepth(action.getTargetDepth());
 					}
 					urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
 					ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+					//mSeleniumDriver.
 				}else{
 					/*
 					 * 액션 찾는 로직으로 전달
 					 * */
-					urlInfo.setParseType(URLInfo.PARSE_FIND_ACTION);
+					urlInfo.setParseType(Work.PARSE_FIND_ACTION);
 					urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
 					ret = Jsoup.parse(mSeleniumDriver.getPageSource());
 				}
@@ -287,14 +307,14 @@ public class Scraper {
 //			}
 			//window 정보 저장하고
 			urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
-			urlInfo.setParseType(URLInfo.PARSE_SCENARIO);
+			urlInfo.setParseType(Work.PARSE_SCENARIO);
 			// 문서 리턴
 			ret = Jsoup.parse(mSeleniumDriver.getPageSource());
 		}
 		return ret;
 	}
 	
-	public static void closeDocument(URLInfo urlInfo){
+	public static void closeDocument(Work urlInfo){
 		String window = urlInfo.getParentWindow();
 		String curWindow = mSeleniumDriver.getWindowHandle();
 		if(window == null){
@@ -309,7 +329,7 @@ public class Scraper {
 	
 	public static List<WebElement> GetEelements(String selector){
 		try{
-			return waitingForAllElement(mSeleniumDriver, selector);
+			return waitingForAllElements(mSeleniumDriver, selector);
 		} catch(TimeoutException e){
 			return null;
 		}
@@ -319,7 +339,40 @@ public class Scraper {
 		return new WebDriverWait(wd, 10).until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(selector)));
 	}
 	
-	private static List<WebElement> waitingForAllElement(WebDriver wd, String selector) throws org.openqa.selenium.TimeoutException{
+	private static List<WebElement> waitingForAllElements(WebDriver wd, int wait_sec, String selector, String empty_selector){
+		List<WebElement> ret;
+		WebElement check_sub_load;
+		long ms = wait_sec * 1000;
+		long startTime = System.currentTimeMillis();
+		while(true){
+			ret = wd.findElements(By.cssSelector(selector));
+			if(ret != null && !ret.isEmpty()){
+				break;
+			}
+			if(empty_selector != null){
+				try{
+					check_sub_load = wd.findElement(By.cssSelector(empty_selector));
+				}catch(NoSuchElementException e){
+					check_sub_load = null;
+				}
+				if(check_sub_load != null){
+					ret = new ArrayList<WebElement>();
+					break;
+				}
+			}
+			if((System.currentTimeMillis() - startTime) > ms){
+				return null;
+			}
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		return ret;
+	}
+	
+	private static List<WebElement> waitingForAllElements(WebDriver wd, String selector) throws org.openqa.selenium.TimeoutException{
 		return new WebDriverWait(wd, 10).until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector(selector)));
 	}
 	
@@ -328,7 +381,8 @@ public class Scraper {
 			System.setProperty("webdriver.chrome.driver", "./web_driver/chromedriver.exe");
 			ChromeOptions options= new ChromeOptions();
 			options.addArguments("--disable-notifications");
-			//options.addArguments("headless");
+			options.addArguments("window-size=1920x1080");
+			options.addArguments("headless");
 			mSeleniumDriver = new ChromeDriver(options);
 //			DesiredCapabilities DesireCaps = new DesiredCapabilities();
 //			DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "phantomjs.exe");

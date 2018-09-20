@@ -2,7 +2,7 @@ package com.onycom.crawler.core;
 
 import java.util.List;
 
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * 워크 쓰레드의 작업을 모니터링 하기위한 리스너 

@@ -13,16 +13,19 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.codec.Charsets;
+import org.jsoup.helper.StringUtil;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * 유틸성 메서드 모음
  * */
-public class Util {
+public class Util  {
 	
 	static String[] SPLIT_URL_TOKEN = {"/", "?" ,"#"};
-	public static String[] SplitDomainAndSubURL(URLInfo urlInfo, String target){
+	public static String[] SplitDomainAndSubURL(Work urlInfo, String target){
 		String[] ret = new String[2];
 		int idx;
 		if(target.matches("^(http).*$")){
@@ -112,5 +115,43 @@ public class Util {
 	
 	public static float CalcExpiredTime(Date startDate){
 		return ((new Date().getTime() - startDate.getTime())/ 1000f); 
+	}
+	
+	public static String GetCssSelector(Element e){
+		String tagName = e.tagName();
+		if(tagName.equalsIgnoreCase("html")) return tagName;
+		String selector = ":nth-child("+ (e.elementSiblingIndex() + 1) +")";
+		if(e.parent() == null || (e.parent() instanceof Document)){
+			return null;
+		}else{
+			String parent = GetCssSelector(e.parent());
+			if(parent != null){
+				return parent + " > " + selector;
+			}else{
+				return selector;
+			}
+		}
+		//e.get
+		
+		
+//		if (id().length() > 0)
+//            return "#" + id();
+//
+//        // Translate HTML namespace ns:tag to CSS namespace syntax ns|tag
+//        String tagName = tagName().replace(':', '|');
+//        StringBuilder selector = new StringBuilder(tagName);
+//        String classes = StringUtil.join(classNames(), ".");
+//        if (classes.length() > 0)
+//            selector.append('.').append(classes);
+//
+//        if (parent() == null || parent() instanceof Document) // don't add Document to selector, as will always have a html node
+//            return selector.toString();
+//
+//        selector.insert(0, " > ");
+//        if (parent().select(selector.toString()).size() > 1)
+//            selector.append(String.format(
+//                ":nth-child(%d)", elementSiblingIndex() + 1));
+//
+//        return parent().cssSelector() + selector.toString();
 	}
 }

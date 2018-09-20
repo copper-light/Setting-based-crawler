@@ -11,7 +11,7 @@ import org.jsoup.nodes.Document;
 
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Robots;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 import com.onycom.crawler.parser.Parser;
 import com.onycom.crawler.parser.RobotsParser;
 import com.onycom.crawler.scraper.Scraper;
@@ -36,22 +36,22 @@ public class WorkManager {
 	
 	public boolean mIsFallowRobots = false;
 	
-	private WorkListener<URLInfo> mWorkListener = new WorkListener<URLInfo>(){
+	private WorkListener<Work> mWorkListener = new WorkListener<Work>(){
 		
-		public boolean start(URLInfo data) {
-			data.updateState(URLInfo.STATE_WORKING);
+		public boolean start(Work data) {
+			data.updateState(Work.STATE_WORKING);
 			synchronized (mWorkingCount) { mWorkingCount++; }
 			//System.out.println("[new] " + data.getURL());
 			return true;
 		}
 
-		public void done(URLInfo data, List<URLInfo> result) {
+		public void done(Work work, List<Work> result) {
 			//int insert_cnt = 0;
-			data.updateState(URLInfo.STATE_SUCCESS);
+			work.updateState(Work.STATE_SUCCESS);
 			mSuccessCount++;
 			
 			if(result != null){
-				for(URLInfo i : result){
+				for(Work i : result){
 					if(isAllowURL(i)){
 						if(mQueue.offerURL(i)){
 							//insert_cnt++;
@@ -73,7 +73,7 @@ public class WorkManager {
 				mWorkingCount--;
 				//System.out.println("[log] work worker : " + mWorkingCount);
 			}
-			if(mManagerListener!= null)	mManagerListener.progress(mQueue.getSize(), mSuccessCount, mFailCount, mQueue.getHistorySize());
+			if(mManagerListener!= null)	mManagerListener.progress(work, mQueue.getSize(), mQueue.getHistorySize());
 		
 			if(mConfig.CRAWLING_MAX_COUNT != -1){
 				if( mConfig.CRAWLING_MAX_COUNT <= (mSuccessCount + mFailCount) ){
@@ -84,17 +84,17 @@ public class WorkManager {
 			if(mQueue.getSize() == 0 && mWorkingCount == 0){
 				if(mManagerListener!= null)	mManagerListener.finish(mQueue.getSize(), mFailCount, mQueue.getHistorySize());
 			}
-			notifyWorker(data.getURL());
+			notifyWorker(work.getURL());
 		}
 
-		public void error(URLInfo data) {
+		public void error(Work work) {
 			try {
 				//Crawler.DB.writeErr(data.getURL(), "err" );
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 			System.err.println("[ERR] error worker ");
-			data.updateState(URLInfo.STATE_FAIL);
+			work.updateState(Work.STATE_FAIL);
 			mFailCount++;
 			synchronized (mWorkingCount) {
 				mWorkingCount--;
@@ -108,12 +108,12 @@ public class WorkManager {
 				}
 			}
 			
-			if(mManagerListener!= null)	mManagerListener.progress(mQueue.getSize(), mSuccessCount, mFailCount, mQueue.getHistorySize());
+			if(mManagerListener!= null)	mManagerListener.progress(work, mQueue.getSize(), mQueue.getHistorySize());
 		
 			if(mQueue.getSize() == 0 && mWorkingCount == 0){
 				if(mManagerListener!= null)	mManagerListener.finish(mQueue.getSize(), mFailCount, mQueue.getHistorySize());
 			}
-			notifyWorker(data.getURL());
+			notifyWorker(work.getURL());
 		}
 	};
 	
@@ -141,7 +141,7 @@ public class WorkManager {
 		return this;
 	}
 	
-	public boolean addWork(URLInfo info){
+	public boolean addWork(Work info){
 		return mQueue.offerURL(info);
 	}
 	
@@ -150,7 +150,7 @@ public class WorkManager {
 		notifyWorker(null);
 	}
 	
-	public boolean isAllowURL(URLInfo info){
+	public boolean isAllowURL(Work info){
 		Robots robots = mConfig.getRobots().get(info.getDomainURL());
 		if(!mConfig.IGNORE_ROBOTS && robots!= null){
 			if(!mQueue.contains(info)){
@@ -187,7 +187,7 @@ public class WorkManager {
 	 * */
 	public void notifyWorker(String url){
 		int length = mWorkThread.length;
-		URLInfo info;
+		Work info;
 		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
 		for(int i = 0; i < length ; i ++){
 			if(mQueue.getSize() > 0){

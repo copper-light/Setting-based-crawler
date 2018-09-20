@@ -1,5 +1,6 @@
 package com.onycom.crawler.parser;
 
+import java.sql.SQLNonTransientConnectionException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,7 +22,7 @@ import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /** 
  * 웹페이지 파싱 인터페이스를 위한 추상 클래스 <p>
@@ -45,11 +46,11 @@ public abstract class Parser {
 	/**
 	 * URL을 수집하는 메서드. 설정된 정규식에 의해 불필요한 URL들을 필터링하는 로직 구현<p>
 	 * 
-	 * @param urlInfo 처리할 웹페이지의 URL 정보
+	 * @param work 처리할 웹페이지의 URL 정보
 	 * @param document 처리할 HTML 문서 
 	 * @return 중복이 제거된 URL 목록
 	 * */
-	public abstract List<URLInfo> parseURL(URLInfo urlInfo, Document dom);
+	public abstract List<Work> parseURL(Work work, Document dom);
 	
 	/**
 	 * 설정 적용<p>
@@ -73,26 +74,29 @@ public abstract class Parser {
 	 * @param document 처리할 html 페이지
 	 * @return 스크랩할 URL 목록. Q 에 전달됨
 	 */
-	public List<URLInfo> parse(URLInfo[] history, URLInfo urlInfo, Document document){
-		List<URLInfo> urls = null;
+	public List<Work> parse(Work[] history, Work work, Document document){
+		List<Work> retWorks = null;
+		int retCnt;
 		if(document != null){
 			Date startTime = new Date();
-			List<Contents> contents = parseContents(urlInfo, document);
+			List<Contents> contents = parseContents(work, document);
 			//System.out.println("[parseContents expire : ] " + Util.CalcExpiredTime(startTime));
 			
 			startTime = new Date();
-			saveContents(urlInfo , contents);
+			retCnt = saveContents(work , contents);
+			work.result().setSaveCount(retCnt);
 			//System.out.println("[saveContents expire : ] " + Util.CalcExpiredTime(startTime));
 			
 			startTime = new Date();
-			urls = parseURL(urlInfo, document);
+			retWorks = parseURL(work, document);
 			//System.out.println("[parseURL expire : ] " + Util.CalcExpiredTime(startTime));
 			
 			startTime = new Date();
-			urls = checkDupliate(history, urls);
+			retWorks = checkDupliate(history, retWorks);
 			mLogger.info("[checkDupliate expire : ] " + Util.CalcExpiredTime(startTime));
+			work.result().success();
 		}
-		return urls;
+		return retWorks;
 	}
 	
 	/**
@@ -116,12 +120,12 @@ public abstract class Parser {
 	 * @param newList 새로 수집된 URL 목록. 
 	 * @return 중복이 제거된 URL 목록
 	 */
-	public List<URLInfo> checkDupliate(URLInfo[] history, List<URLInfo> newList){
+	public List<Work> checkDupliate(Work[] history, List<Work> newList){
 		return newList;
 	}
 	
-	public List<Contents> parseContents(URLInfo urlInfo, Document document){
-		String currentURL = urlInfo.getURL();
+	public List<Contents> parseContents(Work work, Document document){
+		String currentURL = work.getURL();
 		String currentDateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
 		String txt, type, attr_name, element_type, tag_type, data_name, value = null;
 		String[] regexs;
@@ -134,10 +138,10 @@ public abstract class Parser {
 		Pattern pattern;
 		Matcher matcher;
 		for(CollectRecode recode : aryRecode){
-			mLogger.debug("[Visiting page] " + document.title() + " @ " + urlInfo.getURL());
+			mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
 			contents = null;
-			if(recode.getDepth() == urlInfo.getDepth() || urlInfo.getURL().matches(recode.getUrl()) || urlInfo.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)){
+			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl()) || work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)){
 				
 				/* N건 배열 데이터 파싱 */
 				if(recode.getRecodeSelector() != null && !recode.getRecodeSelector().isEmpty()){ 
@@ -202,7 +206,7 @@ public abstract class Parser {
 															value += matcher.group();
 														}
 													}
-												}
+												} 
 											}
 											break;
 										}
@@ -210,14 +214,17 @@ public abstract class Parser {
 								}
 							}
 							if(value != null){
+								//mLogger.debug("  [parse content] " +data_name + " @ "+ value);
 								contents.add(data_name, value);
 							}else{
 								if(colEls != null && colEls.size() > 0){ 
 									/* 엘리먼트를 찾았는데 데이터가 empty 거나 필터링에 걸린 것 */ 
 								}else{ 
 									/* 엘리먼트를 찾을 수 없음 : 오류 */
+									
 									mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
 									for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
+										work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
 										mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
 									}
 								}
@@ -241,7 +248,7 @@ public abstract class Parser {
 	 * @param contents 저장할 콘텐츠 배열 
 	 * @return 저장된 콘텐츠 개수
 	 * */
-	public int saveContents(URLInfo urlInfo, List<Contents> aryContents){
+	public int saveContents(Work urlInfo, List<Contents> aryContents){
 		int idx = 0;
 		if(aryContents != null){
 			for(Contents contents : aryContents){
@@ -249,9 +256,8 @@ public abstract class Parser {
 					idx ++;
 					try {
 						Crawler.Writer.write(contents);
-					} catch (Exception e) {
-						e.printStackTrace();
-						mLogger.error(e.getMessage(), e.fillInStackTrace()); 
+					} catch(Exception e){
+						e.getMessage();
 					}
 				}
 			}
@@ -259,7 +265,7 @@ public abstract class Parser {
 		return idx;
 	}
 	
-	public boolean isAllow(URLInfo curUrlInfo, String targetDomain, String targetSub){
+	public boolean isAllow(Work curUrlInfo, String targetDomain, String targetSub){
 		boolean ret = true;
 		List<String> aryFilterAllow = mConfig.getFilterAllow();
 		List<String> aryFilterDisallow = mConfig.getFilterDisallow();
@@ -295,7 +301,7 @@ public abstract class Parser {
 		return ret;
 	}
 	
-	public boolean ifLeaf(URLInfo urlInfo){
+	public boolean ifLeaf(Work urlInfo){
 		if(mConfig.CRAWLING_MAX_DEPTH != -1){
 			if(mConfig.CRAWLING_MAX_DEPTH < urlInfo.getDepth()){
 				return true;

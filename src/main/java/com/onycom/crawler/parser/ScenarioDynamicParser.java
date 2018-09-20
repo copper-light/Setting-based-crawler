@@ -12,11 +12,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.openqa.selenium.WebElement;
 
+import com.onycom.common.Util;
 import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.Scenario;
-import com.onycom.crawler.data.URLInfo;
-import com.onycom.crawler.scraper.Scraper;
+import com.onycom.crawler.data.Work;
 
 public class ScenarioDynamicParser extends Parser {
 	public static final Logger mLogger = LogManager.getLogger(ScenarioDynamicParser.class);
@@ -25,62 +25,44 @@ public class ScenarioDynamicParser extends Parser {
 
 	}
 
-	int parseCount;
-
+	
 	public ScenarioDynamicParser() {
-		parseCount = 0;
 	}
 
-	int call_stack = 0;
-
 	@Override
-	public List<URLInfo> parse(URLInfo[] history, URLInfo urlInfo, Document document) {
-		List<URLInfo> ret = new ArrayList<URLInfo>();
-		if (document != null) {
-			if (urlInfo.getAction() != null
-					&& urlInfo.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)) {
-				List<Contents> contents = this.parseContents(urlInfo, document);
-				int saveCount = 0;
-				if (contents != null) {
-					saveCount = this.saveContents(urlInfo, contents);
-				}
-				parseCount++;
-				mLogger.info("[parse count] " + parseCount + " @ " + urlInfo.getURL());
-				mLogger.info("[save count] " + saveCount + " @ " + urlInfo.getURL());
+	public List<Work> parse(Work[] history, Work work, Document document) {
+		int saveCount;
+		List<Work> ret = new ArrayList<Work>();
+		if (document == null) {  return ret; }
+		if (work.getAction() != null
+				&& work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)) {
+			List<Contents> contents = this.parseContents(work, document);
+			
+			if (contents != null) {
+				saveCount = this.saveContents(work, contents);
+				work.result().setSaveCount(saveCount);
 			}
+		}
 
-			if (urlInfo.getParseType() != URLInfo.PARSE_NORMAL) {
-				List<URLInfo> list = parseURL(urlInfo, document);
-				for (int i = list.size() - 1; 0 <= i; i--) {
-					ret.add(list.get(i));
-				}
+		if (work.getParseType() != Work.PARSE_NORMAL) {
+			List<Work> list = parseURL(work, document);
+			for (int i = list.size() - 1; 0 <= i; i--) {
+				ret.add(list.get(i));
 			}
-			// mLogger.debug("[list count ] " + list.size());
-		} else {
-			// 파싱 또는 로드 오류
-			// mLogger.error("[load fail docment] " +
-			// urlInfo.getLoadCheckSelectors());
 		}
 		return ret;
 	}
-
-	int point_x;
-	int point_y;
 
 	/**
 	 * parseAction
 	 */
 	@Override
-	public List<URLInfo> parseURL(URLInfo urlInfo, Document document) {
-		List<URLInfo> ret = new ArrayList<URLInfo>();
-		List<WebElement> wes;
-		Scenario scen, newScen;
+	public List<Work> parseURL(Work urlInfo, Document document) {
+		List<Work> ret = new ArrayList<Work>();
+		Scenario scen;
 		Action action;
-		String href, url, domain_url, sub_url, target, type, value, selector;
-		String[] tmp;
-		List<String> aryCheckSelector;
-		URLInfo newUrlInfo;
-		boolean allow = false;
+		String type, value, selector, empty_selector;
+		Work newUrlInfo;
 		if (super.ifLeaf(urlInfo)) {
 			return ret;
 		}
@@ -88,20 +70,24 @@ public class ScenarioDynamicParser extends Parser {
 		Elements els;
 		Element el;
 
-		if (urlInfo.getParseType() == URLInfo.PARSE_FIND_ACTION) {
+		/* action selector 의 결과값이 여러개 일때, 각각의 selector 를 찾아 워크로 만드는 작업 수행 */
+		if (urlInfo.getParseType() == Work.PARSE_FIND_ACTION) { 
 			selector = urlInfo.getAction().getSelector();
+			empty_selector = urlInfo.getAction().getEmptySelector();
 			els = document.select(selector);
 			action = urlInfo.getAction();
 			for (int i = 0; i < els.size(); i++) {
 				el = els.get(i);
-				newUrlInfo = new URLInfo(urlInfo.getURL());
+				newUrlInfo = new Work(urlInfo.getURL());
 				newUrlInfo.setDepth(urlInfo.getDepth());
 				newUrlInfo.setHighPriority(true);
 				newUrlInfo.setAction(
-						new Action(action.getTargetDepth(), el.cssSelector(), action.getType(), action.getValue()));
+						new Action(action.getTargetDepth(), Util.GetCssSelector(el), empty_selector, action.getType(), action.getValue()));
 				ret.add(newUrlInfo);
 			}
-		} else if (urlInfo.getParseType() == URLInfo.PARSE_SCENARIO) {
+		} 
+		/* root 거나 target_depth가 발견되면 해당 depth의 시나리오 패턴을 워크로 만드는 작업 수행 */
+		else if (urlInfo.getParseType() == Work.PARSE_SCENARIO) {
 			Map<Integer, Scenario> scenarios = getConfig().getScenarios();
 			int curDepth = urlInfo.getDepth(); /* 현재 뎁스 */
 			if (scenarios != null) {
@@ -118,70 +104,15 @@ public class ScenarioDynamicParser extends Parser {
 						value = action.getValue(); /* 액션값 */
 						target_depth = action.getTargetDepth(); /* 시나리오변경 */
 						selector = action.getSelector(); /* selector */
-						newUrlInfo = new URLInfo(urlInfo.getURL()).setDepth(target_depth);
+						empty_selector = action.getEmptySelector();
+						newUrlInfo = new Work(urlInfo.getURL()).setDepth(target_depth);
 						newUrlInfo.setHighPriority(true);
-						newUrlInfo.setAction(new Action(target_depth, selector, type, value));
+						newUrlInfo.setAction(new Action(target_depth, selector, empty_selector, type, value));
 						ret.add(newUrlInfo);
 					}
 				}
 			}
 		}
-
-		// mLogger.debug("-----> " + type +" @ " + action.getSelector());
-		// //aryCheckSelector
-		//// System.out.println("document size " +
-		// document.toString().length());
-		//// try {
-		//// PrintWriter out = new PrintWriter("html_"+ new
-		// Date().getTime()+".html");
-		//// out.println(curDepth);
-		//// out.println(selector.getSelector());
-		//// out.println(document.toString());
-		//// out.flush();
-		//// out.close();
-		//// } catch (FileNotFoundException e1) {
-		//// e1.printStackTrace();
-		//// }
-		//
-		//
-		// selector = action.getSelector();
-		// if(selector != null &&
-		// !type.equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)){
-		// wes = Scraper.GetEelements(action.getSelector());
-		//
-		//
-		//
-		//
-		// if(wes != null){
-		// //els = document.select(action.getSelector());
-		// for(WebElement e : wes){
-		// // href = e.attr("href").trim();
-		// // //if(href.length() == 0) continue;
-		// // tmp = Util.SplitDomainAndSubURL(urlInfo, href);
-		// // domain_url = tmp[0];
-		// // sub_url = tmp[1];
-		// // url = domain_url + sub_url;
-		// // allow = super.isAllow(urlInfo, domain_url, sub_url);
-		// // if(allow){ }
-		// System.out.println(e);
-		// newUrlInfo = new URLInfo(urlInfo.getURL()).setDepth(target_depth);
-		// newUrlInfo.setHighPriority(true);
-		// newUrlInfo.setAction(new Action(target_depth, "", type, value));
-		// ret.add(newUrlInfo);
-		// }
-		// }else{
-		// // not found element
-		// }
-		// }else{
-		// newUrlInfo = new URLInfo(urlInfo.getURL()).setDepth(target_depth);
-		// newUrlInfo.setHighPriority(true);
-		// newUrlInfo.setAction(new Action(target_depth, selector, type,
-		// value));
-		// ret.add(newUrlInfo);
-		// }
-		// }
-		// }
-		// }
 
 		return ret;
 	}

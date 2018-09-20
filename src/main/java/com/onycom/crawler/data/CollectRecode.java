@@ -70,6 +70,13 @@ public class CollectRecode {
 		mCols.add(Column);
 	}
 	
+	public void add(boolean key, String type, Column.Element[] elements, String data_type, String data_name, String[] regex){
+		Column Column = new Column(type, elements, data_type, data_name);
+		Column.setRegexFilter(regex);
+		Column.setKey(key);
+		mCols.add(Column);
+	}
+	
 	public Column.Element[] getElements(int i){
 		if (i < mCols.size()){
 			return mCols.get(i).getElements();
@@ -95,6 +102,7 @@ public class CollectRecode {
 		Element[] elements;       /* 태그 selector 패턴 */
 		String data_type;      /* 저장될 데이터 타입 */
 		String data_name;      /* 저장될 데이터 이름 */
+		boolean key = false;
 		String[] regex_filter;
 		
 		public Column(String type, Element[] elments, String data_type, String data_name){
@@ -102,6 +110,14 @@ public class CollectRecode {
 			this.type = type;
 			this.data_type = data_type;
 			this.data_name = data_name;
+		}
+		
+		public void setKey(boolean key){
+			this.key = key;
+		}
+		
+		public boolean isKey(){
+			return key;
 		}
 		
 		public String getType(){
@@ -141,10 +157,10 @@ public class CollectRecode {
 					this.attr_name = null;
 				}else{
 					String[] temp = type.split("=");
-					type = temp[0].trim();
-					attr_name = temp[1].trim();
+					this.type = temp[0].trim();
+					this.attr_name = temp[1].trim();
 				}
-				from_root = fromRoot;
+				this.from_root = fromRoot;
 			}
 			
 			public String getSelector(){

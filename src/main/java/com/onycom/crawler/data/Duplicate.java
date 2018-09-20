@@ -29,7 +29,7 @@ public class Duplicate {
 		}
 	}
 	
-	public String regex(URLInfo info){
+	public String regex(Work info){
 		Map<String,String> data = info.getData();
 		String ret = null;
 		String value;

@@ -11,13 +11,13 @@ import org.jsoup.select.Elements;
 import com.onycom.common.Util;
 import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.Scenario;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 public class ScenarioStasticParser extends StaticParser{
 
 	@Override
-	public List<URLInfo> parseURL(URLInfo urlInfo, Document document) {
-		List<URLInfo> ret = new ArrayList<URLInfo>();
+	public List<Work> parseURL(Work urlInfo, Document document) {
+		List<Work> ret = new ArrayList<Work>();
 		Elements els;
 		Scenario scen;
 		Action action;
@@ -53,7 +53,7 @@ public class ScenarioStasticParser extends StaticParser{
 						url = domain_url + sub_url;
 						
 						allow = super.isAllow(urlInfo, domain_url, sub_url);
-						if(allow) ret.add(new URLInfo(url).setDepth(depth));
+						if(allow) ret.add(new Work(url).setDepth(depth));
 					}
 				}
 			}
@@ -63,7 +63,7 @@ public class ScenarioStasticParser extends StaticParser{
 	}
 
 	@Override
-	public List<URLInfo> checkDupliate(URLInfo[] aryHistory, List<URLInfo> aryNewUrl) {
+	public List<Work> checkDupliate(Work[] aryHistory, List<Work> aryNewUrl) {
 		return aryNewUrl;
 	}
 	

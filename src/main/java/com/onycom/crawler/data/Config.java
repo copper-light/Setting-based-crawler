@@ -30,7 +30,7 @@ public class Config {
 	public static final String COLLECT_COLUMN_TYPE_DATETIME = "DATETIME";
 	public static final String COLLECT_COLUMN_TYPE_TAG = "TAG";
 	
-	public URLInfo mSeedInfo;
+	public Work mSeedInfo;
 	
 	public boolean IGNORE_ROBOTS = false;
 	
@@ -91,16 +91,16 @@ public class Config {
 		 * */
 		try{
 			object = root.getJSONObject("seed");
-			mSeedInfo = new URLInfo(object.getString("url"));
+			mSeedInfo = new Work(object.getString("url"));
 			mSeedInfo.setDepth(0); // 루트로 인식
 			if(object.isNull("type")) {
-				mSeedInfo.setContentType(URLInfo.GET);
+				mSeedInfo.setContentType(Work.GET);
 			}else{
 				String type = object.getString("type");
 				if(type.contentEquals("POST")){
-					mSeedInfo.setContentType(URLInfo.POST);
+					mSeedInfo.setContentType(Work.POST);
 				}else{
-					mSeedInfo.setContentType(URLInfo.GET);
+					mSeedInfo.setContentType(Work.GET);
 				}
 			}
 			if(!object.isNull("data")){
@@ -215,11 +215,12 @@ public class Config {
 						}
 					}
 					
-					recode.add(col.isNull("type")? "": col.getString("type"),
-								elements,
-								col.isNull("data_type")? "": col.getString("data_type"), 
-								col.isNull("data_name")? "": col.getString("data_name"),
-								regexs);
+					recode.add(col.isNull("key")? false : true,
+							   col.isNull("type")? "" : col.getString("type"),
+							   elements,
+							   col.isNull("data_type")? "" : col.getString("data_type"), 
+							   col.isNull("data_name")? "" : col.getString("data_name"),
+							   regexs);
 				}
 				mCollects.add(recode);
 			}
@@ -249,6 +250,7 @@ public class Config {
 					scenObject = aryScenario.getJSONObject(j);
 					scenario.add(scenObject.isNull("target_depth")? -1: scenObject.getInt("target_depth"), 
 								 scenObject.isNull("selector")? null : scenObject.getString("selector"),
+								 scenObject.isNull("empty_selector")? null : scenObject.getString("empty_selector"),
 								 scenObject.isNull("type")? "click": scenObject.getString("type"),
 								 scenObject.isNull("value")? null: scenObject.getString("value"));
 				}
@@ -259,7 +261,7 @@ public class Config {
 		} catch (JSONException e){ e.printStackTrace(); mScenarios.clear(); }
 	}
 	
-	public URLInfo getSeedInfo(){
+	public Work getSeedInfo(){
 		return mSeedInfo;
 	}
 	

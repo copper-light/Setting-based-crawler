@@ -12,7 +12,7 @@ import org.jsoup.select.Elements;
 import com.onycom.common.Util;
 import com.onycom.crawler.core.Crawler;
 import com.onycom.crawler.data.Duplicate;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * Get URL 방식의 정적 웹페이지를 파싱하는 구현체
@@ -24,12 +24,12 @@ public class StaticParser extends Parser {
 	}
 	
 	@Override
-	public List<URLInfo> parseURL(URLInfo urlInfo, Document document) {
-		Map<String, URLInfo> map = new HashMap<String, URLInfo>();
-		List<URLInfo> ret = new ArrayList<URLInfo>();
+	public List<Work> parseURL(Work urlInfo, Document document) {
+		Map<String, Work> map = new HashMap<String, Work>();
+		List<Work> ret = new ArrayList<Work>();
 		boolean allow = false;
 		
-		URLInfo newInfo;
+		Work newInfo;
 		String href, domain_url, sub_url, url;
 		String[] tmp;
 		
@@ -54,7 +54,7 @@ public class StaticParser extends Parser {
 			if(allow){
 				newInfo = map.get(url); 
 				if(newInfo == null){
-					newInfo = new URLInfo(url).setDepth(++curDepth);
+					newInfo = new Work(url).setDepth(++curDepth);
 					map.put(url, newInfo);
 					ret.add(newInfo);
 				}
@@ -69,7 +69,7 @@ public class StaticParser extends Parser {
 		return ret;
 	}
 	
-	public boolean isAllow(URLInfo curUrlInfo, String targetDomain, String targetSub){
+	public boolean isAllow(Work curUrlInfo, String targetDomain, String targetSub){
 		boolean ret = true;
 		List<String> aryFilterAllow = mConfig.getFilterAllow();
 		List<String> aryFilterDisallow = mConfig.getFilterDisallow();
@@ -105,7 +105,7 @@ public class StaticParser extends Parser {
 		return ret;
 	}
 	
-	public boolean ifLeaf(URLInfo urlInfo){
+	public boolean ifLeaf(Work urlInfo){
 		if(mConfig.CRAWLING_MAX_DEPTH != -1){
 			if(mConfig.CRAWLING_MAX_DEPTH < urlInfo.getDepth()){
 				return true;
@@ -132,10 +132,10 @@ public class StaticParser extends Parser {
 	}
 	
 	@Override
-	public List<URLInfo> checkDupliate(URLInfo[] aryHistory, List<URLInfo> aryNewUrl) {
+	public List<Work> checkDupliate(Work[] aryHistory, List<Work> aryNewUrl) {
 		String historyUrl;
 		boolean isDuplicate = false;
-		URLInfo newURLInfo;
+		Work newURLInfo;
 		String regex;
 		int cut = 0;
 		List<Duplicate> aryFilterDuplicate = mConfig.getFilterDuplicate();
@@ -143,7 +143,7 @@ public class StaticParser extends Parser {
 		for(int i = aryNewUrl.size()-1 ; i >= 0 ; i--){
 			newURLInfo = aryNewUrl.get(i);
 			isDuplicate = false;
-			for(URLInfo history: aryHistory){
+			for(Work history: aryHistory){
 //				
 //				if(newURLInfo.getURL().contentEquals(history.getURL())){
 //					isDuplicate = true;

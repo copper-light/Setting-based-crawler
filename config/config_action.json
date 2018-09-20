@@ -3,7 +3,7 @@
 		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
 		"type" : "GET",
 		"data" : [
-			{"key" : "search_keyword", "value" : "컴퓨터"},
+			{"key" : "search_keyword", "value" : "컴퓨터 공랭 쿨러"},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
@@ -61,7 +61,7 @@
 		{
 			"depth" : 1,
 			"regex_url" : "",
-			"name" : "T_WMP5",
+			"name" : "T_WMP6",
 			"recode_selector" : "",
 			"column" : [
 				{

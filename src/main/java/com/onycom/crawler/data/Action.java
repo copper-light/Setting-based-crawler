@@ -26,10 +26,11 @@ public class Action{
 	int target_depth;
 	int action_idx;
 	String cssSelector;
+	String emptySelector;
 	String type;
 	String value;
 	
-	public Action(int target_depth, String cssSelector, String type, String value){
+	public Action(int target_depth, String cssSelector, String emptySelector, String type, String value){
 		this.target_depth = target_depth;
 		this.cssSelector = cssSelector;
 		if(type == null){
@@ -38,6 +39,15 @@ public class Action{
 			this.type = type;
 		}
 		this.value = value;
+		this.emptySelector = emptySelector;
+	}
+	
+	public void setEmptySelector(String selector){
+		emptySelector = selector;
+	}
+	
+	public String getEmptySelector(){
+		return emptySelector;
 	}
 	
 	public int getTargetDepth(){

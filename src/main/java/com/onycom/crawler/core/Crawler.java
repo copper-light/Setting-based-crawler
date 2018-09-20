@@ -11,7 +11,7 @@ import org.apache.log4j.PropertyConfigurator;
 
 import com.onycom.common.Util;
 import com.onycom.crawler.data.Config;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 import com.onycom.crawler.parser.Parser;
 import com.onycom.crawler.parser.ScenarioDynamicParser;
 import com.onycom.crawler.parser.ScenarioStasticParser;
@@ -125,7 +125,7 @@ public class Crawler {
 		
 //			if(DB == null) DB = new DBWriter();
 //			DB.setConfig(mConfig);
-		URLInfo seed = mConfig.getSeedInfo();
+		Work seed = mConfig.getSeedInfo();
 		if(seed != null){
 			seedUrl(seed);
 		}
@@ -137,7 +137,7 @@ public class Crawler {
 		return this;
 	}
 	
-	public Crawler seedUrl(URLInfo info) {
+	public Crawler seedUrl(Work info) {
 		if(info == null) return this;
 		if(info.getDomainURL() == null) return this;
 		
@@ -165,7 +165,7 @@ public class Crawler {
 	
 	public Crawler seedUrl(String url) {
 		if(url == null) return this;
-		URLInfo info = new URLInfo(url);
+		Work info = new Work(url);
 		return seedUrl(info); 
 	}
 
@@ -182,7 +182,8 @@ public class Crawler {
 	}
 
 	
-	
+	long mTotalSaveCnt = 0;
+	long mErrCnt = 0;
 	WorkManagerListener mWMListener = new WorkManagerListener() {
 		
 		public void start() {
@@ -196,14 +197,14 @@ public class Crawler {
 			startTime = new Date().getTime();
 		}
 		
-		public void progress(long remain, long cnt, long fail, long total) {
-			String log = "[progress] "+ remain + " remain / " +  cnt + " cnt / " + fail + " fail / " + total + " total";
-			//System.out.println(log);
-			Crawler.Log('i', log);
+		public void progress(Work work, long q_size, long history_size) {
+			mTotalSaveCnt += work.result().getSaveCount();
+			mErrCnt += work.result().getErrorList().size();
+			mLogger.info("[progress] save : " +  mTotalSaveCnt + ", err : " +mErrCnt+", remain_work : " + q_size + ", total : " + history_size);
 		}
 
 		public void finish(long suc, long fail, long total) {
-			long e = (new Date().getTime()) - startTime ;
+			long e = System.currentTimeMillis() - startTime ;
 			if(Writer != null){
 				try {
 					Writer.close();
@@ -213,11 +214,20 @@ public class Crawler {
 			}
 			Scraper.close();
 			
+			e = e / 1000;
+			int h=0,m=0,s=0;
+			if(e > 0){
+				h = (int) e / (3600);
+				m = (int) e % 3600;
+				m = (m > 0)? m/60 : 0;
+				s = (int) e % 60;
+			}
+			
 			System.out.println("============== Finish Crawler =============");
-			System.out.println("[finish "+ Math.floor(e / 1000) +"s]");
-			System.out.println("[finish "+ suc +" suc]");
-			System.out.println("[finish "+ fail +" fail]");
-			System.out.println("[finish "+ total +" total]");
+			System.out.println("[total time] "+ String.format("%02d:%02d:%02d", h,m, s));
+			System.out.println("[save contents] "+ mTotalSaveCnt);
+			System.out.println("[error work] "+ mErrCnt);
+			System.out.println("[total work] "+ total);
 		}
 		
 		public void error() {
@@ -225,7 +235,4 @@ public class Crawler {
 		}
 
 	};
-	
-
-	
 }

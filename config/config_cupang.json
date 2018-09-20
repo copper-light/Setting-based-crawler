@@ -1,0 +1,166 @@
+{
+	"seed" : {
+		"url" : "http://www.coupang.com/np/search?component=&channel=user",
+		"type" : "GET",
+		"data" : [
+			{"key" : "q", "value" : "키보드"}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",
+	"crawling_delay" : 0,
+	"crawling_max_count" : -1,
+	"crawling_upper_search" : false,
+	"contents_save_type" : "DB",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+
+	"scenario" : [
+		{
+			"depth" : 0,
+			"actions" : [
+				{
+					"type": "click", 
+					"selector" : "li > a > dl > dt > img",
+					"target_depth" : 1
+				},
+				{
+                    "type" : "click",
+                    "selector" : "#searchOptionForm > div.search-wrapper > div.search-content.search-content-with-feedback > div.search-pagination > a.btn-next > span",
+                    "target_depth" : 0
+				}
+			]
+		},
+		{
+			"depth" : 1,
+			"actions" : [
+				{
+					"type" : "switch_window",
+					"value" : "+1"
+                },
+                {
+                    "type" : "javascript",
+                    "selector" : "#productDetail > div.product-detail-content-inside",
+                    "empty_selector" : "",
+                    "value" : "window.scrollBy(0,document.body.scrollHeight); window.scrollBy(0, -200)"
+                },
+				{
+					"type" : "parse_contents",
+					"selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__average.js_reviewAverageContainer > section.sdp-review__average__total-star > div.sdp-review__average__total-star__info > div.sdp-review__average__total-star__info-gray > div",
+                    "empty_selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__article.js_reviewArticleContainer > section.js_reviewArticleListContainer > div.sdp-review__article__no-review.sdp-review__article__no-review--active"
+                },
+				{
+					"type" : "close_window"
+				}
+			]
+		}
+    ],
+    
+	"collect_recode" : [
+		{
+			"depth" : 1,
+			"regex_url" : "",
+			"name" : "T_CP5",
+			"recode_selector" : "",
+			"column" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+                    "data_name" : "url",
+                    "key" : true
+				},
+				{
+					"data_type" : "varchar(100)",
+					"data_name" : "title",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div.prod-buy-header > h2", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "varchar(100)",
+					"data_name" : "price",
+					"regex_filter" : ["[0-9]+"],
+					"element" : [
+                        {
+							"from_root" : false,
+							"selector": "#contents > div.prod-atf > div > div.prod-buy.new-oos-style.not-loyalty-member.not-eligible-address.without-subscribe-buy-type.DISPLAY_0.only-one-delivery > div.prod-price-container.prod-not-show-ccid-ifip > div.prod-price > div > div.prod-sale-price.prod-major-price > span.total-price > strong", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#contents > div.prod-atf > div > div.prod-buy.new-oos-style.not-loyalty-member.not-eligible-address.without-subscribe-buy-type.DISPLAY_0.only-one-delivery > div.prod-price-container.prod-not-show-ccid-ifip > div.prod-price > div > div.prod-coupon-price.prod-major-price > span.total-price > strong", 
+						 	"type": "text"
+                        },
+						{
+							"from_root" : false,
+							"selector": "#contents > div.prod-atf > div > div.prod-buy.subscribe-style.new-oos-style.not-loyalty-member.not-eligible-address.with-subscribe-buy-type.DISPLAY_0.only-one-delivery > div.prod-price-container.prod-not-show-ccid-ifip > div.prod-price > div.prod-price-subscribe > div.onetime-price > strong", 
+						 	"type": "text"
+                        }
+                    ]
+				},
+				{
+					"data_type" : "int",
+					"data_name" : "review_cnt",
+					"regex_filter" : ["[0-9]+"],
+					"element" : [
+						{
+							"find_from_root" : false,
+							"selector" : "#prod-review-nav-link > span.count", 
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "float",
+					"data_name" : "review_score",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"find_from_root" : false,
+							"selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__average.js_reviewAverageContainer > section.sdp-review__average__total-star > div.sdp-review__average__total-star__info > div.sdp-review__average__total-star__info-gray > div", 
+							"type": "attr=data-rating"
+						}
+					]
+                },
+                {
+					"data_type" : "text",
+					"data_name" : "best_review",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"find_from_root" : false,
+							"selector" : "div.sdp-review__highlight__positive__article__content.js_reviewHighLightContent", 
+							"type": "text"
+						}
+					]
+                },
+                {
+					"data_type" : "text",
+					"data_name" : "worst_review",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"find_from_root" : false,
+							"selector" : "div.sdp-review__highlight__critical__article__content.js_reviewHighLightContent", 
+							"type": "text"
+						}
+					]
+				}
+			]
+		}
+    ]
+    
+}

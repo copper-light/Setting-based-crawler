@@ -9,7 +9,7 @@ import org.jsoup.select.Elements;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.Robots;
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 
 /**
  * robots.txt 파일을 파싱하는 구현체
@@ -32,8 +32,8 @@ public class RobotsParser extends Parser {
 	}
 	
 	@Override
-	public List<URLInfo> parse(URLInfo[] history, URLInfo urlInfo, Document document) {
-		List<URLInfo> ret = new ArrayList<URLInfo>();
+	public List<Work> parse(Work[] history, Work urlInfo, Document document) {
+		List<Work> ret = new ArrayList<Work>();
 		document.outputSettings(new Document.OutputSettings().prettyPrint(false));
 		try {
 			//System.out.println(">>"+urlInfo.getURL());
@@ -71,7 +71,7 @@ public class RobotsParser extends Parser {
 	}
 
 	@Override
-	public List<URLInfo> parseURL(URLInfo urlInfo, Document document) {
+	public List<Work> parseURL(Work urlInfo, Document document) {
 		// TODO Auto-generated method stub
 		return null;
 	}

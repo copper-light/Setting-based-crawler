@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
-import com.onycom.crawler.data.URLInfo;
+import com.onycom.crawler.data.Work;
 import com.onycom.crawler.writer.DBWriter;
 
 /**
@@ -26,12 +26,12 @@ public class WorkQueue {
 	/**
 	 * 작업 해야할 페이지 목록
 	 */
-	private Deque<URLInfo> mDueue;
+	private Deque<Work> mDueue;
 
 	/**
 	 * 방문한 페이지 목록 중복 페이지 방지
 	 */
-	Set<URLInfo> mHistory;
+	Set<Work> mHistory;
 
 	
 	// test 용 DB 연결
@@ -39,8 +39,8 @@ public class WorkQueue {
 	
 	
 	public WorkQueue() {
-		mDueue = new LinkedList<URLInfo>();
-		mHistory = new HashSet<URLInfo>();
+		mDueue = new LinkedList<Work>();
+		mHistory = new HashSet<Work>();
 		mDB = new DBWriter();
 	}
 
@@ -52,7 +52,7 @@ public class WorkQueue {
 		return ACCESS_MODE;
 	}
 
-	public boolean contains(URLInfo urlInfo){
+	public boolean contains(Work urlInfo){
 		if ((ACCESS_MODE & WRITE) == WRITE) {
 			return mHistory.contains(urlInfo);
 		}else{
@@ -60,14 +60,14 @@ public class WorkQueue {
 		}
 	}
 	
-	public synchronized boolean offerURL(URLInfo urlInfo) {
+	public synchronized boolean offerURL(Work work) {
 		if ((ACCESS_MODE & WRITE) == WRITE) {
 			// 중복된 페이지 접근은 하지 않음
-			
-			if(urlInfo.isHighPriority()){
-				mDueue.addFirst(urlInfo);
+			mHistory.add(work);
+			if(work.isHighPriority()){
+				mDueue.addFirst(work);
 			}else{
-				mDueue.addLast(urlInfo);
+				mDueue.addLast(work);
 			}
 			//mQueue.
 			return true;
@@ -89,7 +89,7 @@ public class WorkQueue {
 		}
 	}
 
-	public synchronized URLInfo pullURL() {
+	public synchronized Work pullURL() {
 		if ((ACCESS_MODE & READ) == READ)
 			return mDueue.poll();
 		else
@@ -109,8 +109,8 @@ public class WorkQueue {
 		return mHistory.size();
 	}
 
-	public URLInfo[] getHistory(){
-		return mHistory.toArray(new URLInfo[mHistory.size()]);
+	public Work[] getHistory(){
+		return mHistory.toArray(new Work[mHistory.size()]);
 	}
 	
 	public void clear(){
