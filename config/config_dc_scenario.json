@@ -6,7 +6,7 @@
 	"crawling_delay" : 0,
 	"crawling_max_count" : -1,
 	"crawling_upper_search" : false,
-	"contents_save_type" : "DB",
+	"contents_save_type" : "CSV",
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
@@ -77,7 +77,7 @@
 		}
 	],
 
-	"collect" : [
+	"collect_recode" : [
 		{
 			"url" : "^(http://gall.dcinside.com/(.*)board/view/\\?).*(no=).*$", 
 			"name" : "T_SCAN_BOARD_1",

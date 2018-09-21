@@ -58,23 +58,20 @@ public class CollectRecode {
 		mName = name;
 	}
 	
-	public void add(Column.Element[] elements, String data_type, String data_name, String[] regex){
-		Column Column = new Column("", elements, data_type, data_name);
-		Column.setRegexFilter(regex);
-		mCols.add(Column);
-	}
+//	public void add(Column.Element[] elements, String data_type, String data_name, boolean allow_null, String[] regex){
+//		add(false, "TAG", elements, data_type, data_name, allow_null, regex);
+//	}
+//	
+//	public void add(String type, Column.Element[] elements, String data_type, String data_name, boolean allow_null, String[] regex){
+//		add(false, type, elements, data_type, data_name, allow_null, regex);
+//	}
 	
-	public void add(String type, Column.Element[] elements, String data_type, String data_name, String[] regex){
-		Column Column = new Column(type, elements, data_type, data_name);
-		Column.setRegexFilter(regex);
-		mCols.add(Column);
-	}
-	
-	public void add(boolean key, String type, Column.Element[] elements, String data_type, String data_name, String[] regex){
-		Column Column = new Column(type, elements, data_type, data_name);
-		Column.setRegexFilter(regex);
-		Column.setKey(key);
-		mCols.add(Column);
+	public void add(boolean key, String type, Column.Element[] elements, String data_type, String data_name, boolean allow_null, String[] regex){
+		Column col = new Column(type, elements, data_type, data_name);
+		col.setRegexFilter(regex);
+		col.setKey(key);
+		col.setAllowNull(allow_null);
+		mCols.add(col);
 	}
 	
 	public Column.Element[] getElements(int i){
@@ -103,6 +100,7 @@ public class CollectRecode {
 		String data_type;      /* 저장될 데이터 타입 */
 		String data_name;      /* 저장될 데이터 이름 */
 		boolean key = false;
+		boolean allow_null = true;
 		String[] regex_filter;
 		
 		public Column(String type, Element[] elments, String data_type, String data_name){
@@ -138,6 +136,14 @@ public class CollectRecode {
 		
 		public void setRegexFilter(String[] regex){
 			regex_filter = regex;
+		}
+		
+		public void setAllowNull(boolean allow){
+			this.allow_null = allow;
+		}
+		
+		public boolean isAllowNull(){
+			return this.allow_null;
 		}
 		
 		public String[] getRegexFilter(){

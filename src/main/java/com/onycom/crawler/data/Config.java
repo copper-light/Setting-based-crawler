@@ -65,7 +65,7 @@ public class Config {
 		CRAWLING_DELAY = root.getInt("crawling_delay");
 		CRAWLING_MAX_COUNT = root.getInt("crawling_max_count");
 		CRAWLING_TYPE = root.getString("crawling_type");
-		CRAWLING_UPPER_SEARCH = root.getBoolean("crawling_upper_search");
+		//CRAWLING_UPPER_SEARCH = root.getBoolean("crawling_upper_search");
 		
 		OUTPUT_SAVE_TYPE = root.getString("contents_save_type");
 		OUTPUT_FILE_PATH = root.getString("output_file_path");
@@ -180,7 +180,7 @@ public class Config {
 				recode = new CollectRecode(object.isNull("regex_url")? "": object.getString("regex_url"), 
 										   object.getString("name"));
 				if(!object.isNull("depth")) recode.setDepth(object.getInt("depth"));
-				if(!object.isNull("recode_selector")){
+				if(object.isNull("recode_selector")){
 					recode_selector = "html";
 				}else{
 					recode_selector = object.getString("recode_selector");
@@ -220,6 +220,7 @@ public class Config {
 							   elements,
 							   col.isNull("data_type")? "" : col.getString("data_type"), 
 							   col.isNull("data_name")? "" : col.getString("data_name"),
+							   col.isNull("allow_null")? false : col.getBoolean("allow_null"),
 							   regexs);
 				}
 				mCollects.add(recode);

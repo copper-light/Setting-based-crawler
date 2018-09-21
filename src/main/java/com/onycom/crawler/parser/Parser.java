@@ -141,7 +141,7 @@ public abstract class Parser {
 			mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
 			contents = null;
-			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl()) || work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS)){
+			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl()) || (work.getAction() != null && work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS))){
 				
 				/* N건 배열 데이터 파싱 */
 				if(recode.getRecodeSelector() != null && !recode.getRecodeSelector().isEmpty()){ 
@@ -221,11 +221,12 @@ public abstract class Parser {
 									/* 엘리먼트를 찾았는데 데이터가 empty 거나 필터링에 걸린 것 */ 
 								}else{ 
 									/* 엘리먼트를 찾을 수 없음 : 오류 */
-									
-									mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
-									for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
-										work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
-										mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
+									if(!collectCol.isAllowNull()){
+										mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
+										for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
+											work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
+											mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
+										}
 									}
 								}
 							}

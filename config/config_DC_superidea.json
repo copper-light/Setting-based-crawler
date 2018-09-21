@@ -1,11 +1,14 @@
 {
-	"seed_url" : "http://gall.dcinside.com/board/lists/?id=superidea",
+	"seed" : {
+		"url" : "http://gall.dcinside.com/board/lists/?id=superidea",
+		"type" : "GET",
+		"data" : []
+	},
 	"ignore_robots" : true,
 	"crawling_max_depth" : -1,
 	"crawling_type" : "STATIC",
 	"crawling_delay" : 0,
 	"crawling_max_count" : -1,
-	"crawling_upper_search" : false,
 	"contents_save_type" : "CSV",
 	"output_file_path" : "",
 	"output_db_id" : "root",
@@ -28,14 +31,15 @@
 			"^.*((mailto:).*)$"
 		],
 		"leaf_url" : [
-			"^(http://gall.dcinside.com/board/view/\\?).*(no=).*$"
+			"^(http://gall.dcinside.com/board/view/\\?).*(no=).*$",
+			"^(http://gall.dcinside.com/mgallery/board/view/\\?).*(no=).*$"
 		]
 	},
-	"collect" : [
+	"collect_recode" : [
 		{
-			"url" : "^(http://gall.dcinside.com/board/view/\\?).*(no=).*$", 
-			"name" : "T_superidea_BOARD",
-			"items" : [
+			"regex_url" : "^(http://gall.dcinside.com/(.*)board/view/\\?).*(no=).*$", 
+			"name" : "T_WOW_BOARD",
+			"column" : [
 				{
 					"type" : "DATETIME",
 					"data_type" : "datetime",
@@ -44,47 +48,68 @@
 				{
 					"type" : "URL",
 					"data_type" : "varchar(300)",
-					"data_name" : "url"
+                    "data_name" : "url",
+                    "key" : true
 				},
 				{
-					"type" : "TAG",
-					"selector" : "head > title",
-					"tag_type" : "text",
-					"attr_name" : "",
 					"data_type" : "varchar(100)",
-					"data_name" : "title"
+					"data_name" : "title",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"head > title", 
+						 	"type": "text"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div[class=gallery_title] > h1 > a > span[class=tit]",
-					"tag_type" : "text",
-					"attr_name" : "",
+					"data_type" : "varchar(100)",
+					"data_name" : "category",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div[class=gallery_title] > h1 > a > span[class=tit]", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
 					"data_type" : "varchar(50)",
-					"data_name" : "category"
+					"data_name" : "author",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div#dgn_content_de > div.re_gall_top_1 > div.w_top_left > dl:nth-child(2) > dd > span", 
+						 	"type": "attr=user_name"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div#dgn_content_de > div.re_gall_top_1 > div.w_top_left > dl:nth-child(2) > dd > span",
-					"tag_type" : "attr",
-					"attr_name" : "user_name",
-					"data_type" : "varchar(50)",
-					"data_name" : "author"
-				},
-				{
-					"type" : "TAG",
-					"selector" : "div[id=dgn_content_de] > div[class=re_gall_top_1] > div[class=w_top_right] > ul > li > b ",
-					"tag_type" : "text",
-					"attr_name" : "",
 					"data_type" : "varchar(30)",
-					"data_name" : "date"
+					"data_name" : "date",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div[id=dgn_content_de] > div[class=re_gall_top_1] > div[class=w_top_right] > ul > li > b", 
+						 	"type": "text"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div[class=s_write]",
-					"tag_type" : "text",
-					"attr_name" : "",
-					"data_type" : "text",
-					"data_name" : "description"
+					"data_type" : "varchar(30)",
+					"data_name" : "description",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div[class=s_write]", 
+						 	"type": "text"
+						}
+					]
 				}
 			]
 		}

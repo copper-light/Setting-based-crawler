@@ -149,9 +149,8 @@ public class StaticParser extends Parser {
 //					isDuplicate = true;
 //					break;
 //				}
-				//newUrl = newURLInfo.getURL();
+//				newUrl = newURLInfo.getURL();
 				historyUrl = history.getURL();
-				
 				for(Duplicate dup : aryFilterDuplicate){
 					// filter 를 newURL 기준으로 만든다
 					// 

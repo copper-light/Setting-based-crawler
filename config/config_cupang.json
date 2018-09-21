@@ -11,8 +11,7 @@
 	"crawling_type" : "SCENARIO_DYNAMIC",
 	"crawling_delay" : 0,
 	"crawling_max_count" : -1,
-	"crawling_upper_search" : false,
-	"contents_save_type" : "DB",
+	"contents_save_type" : "CSV",
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
@@ -127,6 +126,7 @@
 					"data_type" : "float",
 					"data_name" : "review_score",
 					"regex_filter" : [],
+					"allow_null" : true,
 					"element" : [
 						{
 							"find_from_root" : false,
@@ -139,6 +139,7 @@
 					"data_type" : "text",
 					"data_name" : "best_review",
 					"regex_filter" : [],
+					"allow_null" : true,
 					"element" : [
 						{
 							"find_from_root" : false,
@@ -151,6 +152,7 @@
 					"data_type" : "text",
 					"data_name" : "worst_review",
 					"regex_filter" : [],
+					"allow_null" : true,
 					"element" : [
 						{
 							"find_from_root" : false,

@@ -164,7 +164,7 @@ public class Scraper {
 				}
 				if(wes.size() == 1){
 					we = wes.get(0);
-					System.err.println("[action] "+action.getType() +" @ " +selector);
+					//System.err.println("[action] "+action.getType() +" @ " +selector);
 					if(action.getType().contentEquals(Action.TYPE_CLICK)){
 						we.click();
 					}else if(action.getType().contentEquals(Action.TYPE_INPUT) && value != null) {

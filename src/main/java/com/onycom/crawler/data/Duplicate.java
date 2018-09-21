@@ -31,6 +31,7 @@ public class Duplicate {
 	
 	public String regex(Work info){
 		Map<String,String> data = info.getData();
+		if(data == null) return null;
 		String ret = null;
 		String value;
 		ret = mRegex.replace("<URL>", Util.ConvertForRegex(info.getURL()));
