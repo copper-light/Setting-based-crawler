@@ -70,7 +70,7 @@ public class StaticParser extends Parser {
 	}
 	
 	public boolean isAllow(Work curUrlInfo, String targetDomain, String targetSub){
-		boolean ret = true;
+		boolean ret = false;
 		List<String> aryFilterAllow = mConfig.getFilterAllow();
 		List<String> aryFilterDisallow = mConfig.getFilterDisallow();
 		
