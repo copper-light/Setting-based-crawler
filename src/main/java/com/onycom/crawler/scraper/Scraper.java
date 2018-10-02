@@ -155,6 +155,7 @@ public class Scraper {
 				if(wes.isEmpty()) { // 이제 없음
 					mLogger.info("empty element : " +selector);
 					if(action.getType().contentEquals(Action.TYPE_PARSE_CONTENTS)){
+						urlInfo.setDepth(action.getTargetDepth());
 						urlInfo.setURL(mSeleniumDriver.getCurrentUrl());
 						ret = Jsoup.parse(mSeleniumDriver.getPageSource());
 						return ret;

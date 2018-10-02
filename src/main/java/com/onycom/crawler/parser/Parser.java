@@ -141,7 +141,9 @@ public abstract class Parser {
 			mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
 			contents = null;
-			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl()) || (work.getAction() != null && work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS))){
+			
+			//  || (work.getAction() != null && work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS))
+			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl())){
 				
 				/* N건 배열 데이터 파싱 */
 				if(recode.getRecodeSelector() != null && !recode.getRecodeSelector().isEmpty()){ 

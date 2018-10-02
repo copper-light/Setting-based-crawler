@@ -133,6 +133,43 @@ public class StaticParser extends Parser {
 	
 	@Override
 	public List<Work> checkDupliate(Work[] aryHistory, List<Work> aryNewUrl) {
+		/* 새로운 URL 내에서의 중복 체크 */
+		if(aryNewUrl != null && aryNewUrl.size() > 0){
+			aryNewUrl = removeDupliacateInNewURL(aryNewUrl);
+		}
+		
+		/* Q history 와 새로운 URL의 중복 체크 */
+		if(aryNewUrl != null && aryNewUrl.size() > 0){
+			aryNewUrl = filterDuplicate(aryHistory, aryNewUrl);
+		}
+		
+		return aryNewUrl;
+	}
+	
+	private List<Work> removeDupliacateInNewURL(List<Work> aryNewUrl){
+		Work src, des;
+		String regex;
+		List<Duplicate> aryFilterDuplicate = mConfig.getFilterDuplicate();
+		System.out.println("before remove : " + aryNewUrl.size());
+		for(int i = 0 ; i < aryNewUrl.size() ; i++){
+			src = aryNewUrl.get(i);
+			for(Duplicate dup : aryFilterDuplicate){
+				regex = dup.regex(src);
+				if(regex == null) continue;
+				for(int j = i+1 ; j < aryNewUrl.size() ; j++){
+					des = aryNewUrl.get(j);
+					if(des.getURL().matches(regex)){
+						aryNewUrl.remove(j);
+						j--;
+					}
+				}
+			}
+		}
+		System.out.println("after remove : " + aryNewUrl.size());
+		return aryNewUrl;
+	}
+
+	private List<Work> filterDuplicate(Work[] aryHistory, List<Work> aryNewUrl){ 
 		String historyUrl;
 		boolean isDuplicate = false;
 		Work newURLInfo;
@@ -140,28 +177,21 @@ public class StaticParser extends Parser {
 		int cut = 0;
 		List<Duplicate> aryFilterDuplicate = mConfig.getFilterDuplicate();
 		//mFilterDuplicate
+		
+		/* History 와 새로운 URL 중복 체크 */
 		for(int i = aryNewUrl.size()-1 ; i >= 0 ; i--){
 			newURLInfo = aryNewUrl.get(i);
 			isDuplicate = false;
 			for(Work history: aryHistory){
 //				
-//				if(newURLInfo.getURL().contentEquals(history.getURL())){
-//					isDuplicate = true;
-//					break;
-//				}
-//				newUrl = newURLInfo.getURL();
 				historyUrl = history.getURL();
 				for(Duplicate dup : aryFilterDuplicate){
-					// filter 를 newURL 기준으로 만든다
-					// 
 					regex = dup.regex(newURLInfo);
-//					System.out.println(historyUrl);
-//					System.out.println("   regex >>" + regex);
 					if(regex == null) continue;
 					if(historyUrl.matches(regex)){
 						isDuplicate = true;
+						break;
 					}
-					break;
 				}
 				if(isDuplicate){
 					break;
@@ -177,5 +207,4 @@ public class StaticParser extends Parser {
 		}
 		return aryNewUrl;
 	}
-
 }

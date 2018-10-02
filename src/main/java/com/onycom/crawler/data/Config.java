@@ -28,7 +28,7 @@ public class Config {
 	
 	public static final String COLLECT_COLUMN_TYPE_URL = "URL";
 	public static final String COLLECT_COLUMN_TYPE_DATETIME = "DATETIME";
-	public static final String COLLECT_COLUMN_TYPE_TAG = "TAG";
+	public static final String COLLECT_COLUMN_TYPE_ELEMENT = "ELEMENT	";
 	
 	public Work mSeedInfo;
 	
@@ -236,7 +236,7 @@ public class Config {
 			Scenario scenario;
 			for(int i = 0 ; i < len_i ; i++){
 				object = array.getJSONObject(i);
-				aryScenario = object.getJSONArray("actions");
+				aryScenario = object.getJSONArray("action");
 				depth = object.getInt("depth");
 				len_j = aryScenario.length();
 				scenario = new Scenario(depth, len_j);

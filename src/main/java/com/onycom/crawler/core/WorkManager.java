@@ -195,22 +195,22 @@ public class WorkManager {
 				if(info != null){
 					
 					// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
-//					if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(info.getDomainURL()) == null){
-//						
-//						// 현재 작업 중인 쓰레드들은 작업하도록 나두고
-//						// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
-//						// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
-//						try {
-//							mQueue.setAccessMode(WorkQueue.WRITE);
-//							URLInfo robotsURL = new URLInfo(info.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
-//							Document doc = Scraper.Get(robotsURL);
-//							new RobotsParser().parse(null, robotsURL, doc);
-//						}catch (Exception e) { 
-//							e.printStackTrace();
-//						} finally {
-//							mQueue.setAccessMode(WorkQueue.READ_AND_WRINE);
-//						}
-//					}
+					if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(info.getDomainURL()) == null){
+						
+						// 현재 작업 중인 쓰레드들은 작업하도록 나두고
+						// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
+						// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
+						try {
+							mQueue.setAccessMode(WorkQueue.WRITE);
+							Work robotsURL = new Work(info.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
+							Document doc = Scraper.GetDocument(robotsURL);
+							new RobotsParser().parse(null, robotsURL, doc);
+						}catch (Exception e) { 
+							e.printStackTrace();
+						} finally {
+							mQueue.setAccessMode(WorkQueue.READ_AND_WRINE);
+						}
+					}
 					synchronized (mWorkingCount){
 						if(mWorkDelay > 0){
 							try {

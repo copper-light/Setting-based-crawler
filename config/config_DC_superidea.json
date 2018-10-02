@@ -9,14 +9,16 @@
 	"crawling_type" : "STATIC",
 	"crawling_delay" : 0,
 	"crawling_max_count" : -1,
-	"contents_save_type" : "CSV",
+	"contents_save_type" : "DB",
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
-	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG?useUnicode=true",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 
 	"filter" : {
 		"duplicate" : [
+			["(?=.*id=<0>(&.*)*$)(?=.*no=<1>(&.*)*$).*", "id", "no"],
+			["(?=.*id=<0>(&.*)*$)(?=.*page=<1>(&.*)*$)(?!.*no=159801(&.*)*$).*", "id", "no", "page"],
 			["^(<URL>)"]
 		],
 		"allow" : [
@@ -36,7 +38,7 @@
 	"collect_recode" : [
 		{
 			"regex_url" : "^(http://gall.dcinside.com/(.*)board/view/\\?).*(no=).*$", 
-			"name" : "T_WOW_BOARD",
+			"name" : "T_S_BOARD",
 			"column" : [
 				{
 					"type" : "DATETIME",
@@ -56,7 +58,7 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"head > title", 
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > h3 > span.title_subject", 
 						 	"type": "text"
 						}
 					]
@@ -68,7 +70,7 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"div[class=gallery_title] > h1 > a > span[class=tit]", 
+							"selector":"#container > section > header > div > div.fl.clear > h2 > a", 
 						 	"type": "text"
 						}
 					]
@@ -80,8 +82,8 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"div#dgn_content_de > div.re_gall_top_1 > div.w_top_left > dl:nth-child(2) > dd > span", 
-						 	"type": "attr=user_name"
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > div > div.fl > span.nickname", 
+						 	"type": "text"
 						}
 					]
 				},
@@ -92,19 +94,19 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"div[id=dgn_content_de] > div[class=re_gall_top_1] > div[class=w_top_right] > ul > li > b", 
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > div > div.fl > span.gall_date", 
 						 	"type": "text"
 						}
 					]
 				},
 				{
-					"data_type" : "varchar(30)",
+					"data_type" : "text",
 					"data_name" : "description",
 					"regex_filter" : [],
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"div[class=s_write]", 
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > div", 
 						 	"type": "text"
 						}
 					]

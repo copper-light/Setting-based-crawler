@@ -20,7 +20,7 @@
 	"scenario" : [
 		{
 			"depth" : 0,
-			"actions" : [
+			"action" : [
 				{
 					"type": "click", 
 					"selector" : "li > a > dl > dt > img",
@@ -35,7 +35,7 @@
 		},
 		{
 			"depth" : 1,
-			"actions" : [
+			"action" : [
 				{
 					"type" : "switch_window",
 					"value" : "+1"
@@ -49,8 +49,9 @@
 				{
 					"type" : "parse_contents",
 					"selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__average.js_reviewAverageContainer > section.sdp-review__average__total-star > div.sdp-review__average__total-star__info > div.sdp-review__average__total-star__info-gray > div",
-                    "empty_selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__article.js_reviewArticleContainer > section.js_reviewArticleListContainer > div.sdp-review__article__no-review.sdp-review__article__no-review--active"
-                },
+                    "empty_selector" : "#btfTab > ul.tab-contents > li.product-review > div > div.sdp-review__article.js_reviewArticleContainer > section.js_reviewArticleListContainer > div.sdp-review__article__no-review.sdp-review__article__no-review--active",
+				    "target_depth" : 1
+				},
 				{
 					"type" : "close_window"
 				}
