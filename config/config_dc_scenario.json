@@ -1,87 +1,72 @@
 {
-	"seed_url" : "http://gall.dcinside.com/board/lists/?id=superidea",
+	"seed" : {
+		"url" : "http://gall.dcinside.com/board/lists/?id=superidea",
+		"type" : "GET"
+	},
 	"ignore_robots" : true,
 	"crawling_max_depth" : -1,
-	"crawling_type" : "scenario_get_url",
+	"crawling_type" : "SCENARIO_STATIC",
 	"crawling_delay" : 0,
-	"crawling_max_count" : -1,
-	"crawling_upper_search" : false,
-	"contents_save_type" : "CSV",
+	"crawling_max_count" : 10,
+	"contents_save_type" : "DB",
+	"save_html" : true,
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
-	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG?useUnicode=true",
-
-	"filter" : {
-		"duplicate" : [
-			["^(<URL>)"]
-		],
-		"allow" : [
-			"^(.*).*$"
-		],
-		"disallow" : [
-			"^.*((javascript:).*)$",
-			"^.*(#.*)$",
-			"^.*((mailto:).*)$"
-		],
-		"leaf_url" : [
-			"^(http://gall.dcinside.com/board/view/\\?).*(no=).*$",
-			"^(http://gall.dcinside.com/mgallery/board/view/\\?).*(no=).*$"
-		]
-	},
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 
 	"scenario" : [
 		{
 			"depth" : 0,
-			"selectors" : [
-                {"selector":"div.list_table > table > tbody > tr > td > a:nth-child(1)", "depth": 3},
-                {"selector":"#dgn_btn_paging > a:nth-child(1)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(2)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(3)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(4)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(5)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(6)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(7)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(8)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(9)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(10)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(11)", "depth": 1}
+			"action" : [
+                {"selector":"div.gall_listwrap.list > table > tbody > tr > td.gall_tit.ub-word > a:nth-child(1)", "target_depth": 3},
+				{"selector":"div.bottom_paging_box > a:nth-child(1)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(2)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(3)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(4)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(5)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(6)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(7)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(8)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(9)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(10)", "target_depth": 2},
+				{"selector":"a.page_next", "target_depth": 1}
 			]
 		}, 
 		{
 			"depth" : 1,
-			"selectors" : [
-                {"selector":"div.list_table > table > tbody > tr > td > a:nth-child(1)", "depth": 3},
-                {"selector":"#dgn_btn_paging > a:nth-child(3)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(4)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(5)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(6)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(7)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(8)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(9)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(10)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(11)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(12)", "depth": 2},
-				{"selector":"#dgn_btn_paging > a:nth-child(13)", "depth": 1}
+			"action" : [
+                {"selector":"div.gall_listwrap.list > table > tbody > tr > td.gall_tit.ub-word > a:nth-child(1)", "target_depth": 3},
+				{"selector":"div.bottom_paging_box > a:nth-child(3)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(4)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(5)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(6)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(7)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(8)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(9)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(10)", "target_depth": 2},
+                {"selector":"div.bottom_paging_box > a:nth-child(11)", "target_depth": 2},
+				{"selector":"div.bottom_paging_box > a:nth-child(22)", "target_depth": 2},
+				{"selector":"a.page_next", "target_depth": 1}
 			]
 		}, 
 		{
 			"depth" : 2,
-			"selectors" : [
-				{"selector":"div.list_table > table > tbody > tr > td > a:nth-child(1)", "depth": 3}
+			"action" : [
+				{"selector":"div.gall_listwrap.list > table > tbody > tr > td.gall_tit.ub-word > a:nth-child(1)", "target_depth": 3}
 			]
 		}, 
 		{
 			"depth" : 3,
-			"selectors" : []
+			"action" : []
 		}
 	],
 
 	"collect_recode" : [
 		{
-			"url" : "^(http://gall.dcinside.com/(.*)board/view/\\?).*(no=).*$", 
-			"name" : "T_SCAN_BOARD_1",
-			"items" : [
+			"depth" : 3,
+			"name" : "T_S2_BOARD",
+			"column" : [
 				{
 					"type" : "DATETIME",
 					"data_type" : "datetime",
@@ -90,47 +75,68 @@
 				{
 					"type" : "URL",
 					"data_type" : "varchar(300)",
-					"data_name" : "url"
+                    "data_name" : "url",
+                    "key" : true
 				},
 				{
-					"type" : "TAG",
-					"selector" : "head > title",
-					"tag_type" : "text",
-					"attr_name" : "",
 					"data_type" : "varchar(100)",
-					"data_name" : "title"
+					"data_name" : "title",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > h3 > span.title_subject", 
+						 	"type": "text"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div[class=gallery_title] > h1 > a > span[class=tit]",
-					"tag_type" : "text",
-					"attr_name" : "",
+					"data_type" : "varchar(100)",
+					"data_name" : "category",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#container > section > header > div > div.fl.clear > h2 > af", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
 					"data_type" : "varchar(50)",
-					"data_name" : "category"
+					"data_name" : "author",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > div > div.fl > span.nickname", 
+						 	"type": "text"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div#dgn_content_de > div.re_gall_top_1 > div.w_top_left > dl:nth-child(2) > dd > span",
-					"tag_type" : "attr",
-					"attr_name" : "user_name",
-					"data_type" : "varchar(50)",
-					"data_name" : "author"
-				},
-				{
-					"type" : "TAG",
-					"selector" : "div[id=dgn_content_de] > div[class=re_gall_top_1] > div[class=w_top_right] > ul > li > b ",
-					"tag_type" : "text",
-					"attr_name" : "",
 					"data_type" : "varchar(30)",
-					"data_name" : "date"
+					"data_name" : "date",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > header > div > div > div.fl > span.gall_date", 
+						 	"type": "text"
+						}
+					]
 				},
 				{
-					"type" : "TAG",
-					"selector" : "div[class=s_write]",
-					"tag_type" : "text",
-					"attr_name" : "",
 					"data_type" : "text",
-					"data_name" : "description"
+					"data_name" : "description",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#container > section > article:nth-child(3) > div.view_content_wrap > div", 
+						 	"type": "text"
+						}
+					]
 				}
 			]
 		}

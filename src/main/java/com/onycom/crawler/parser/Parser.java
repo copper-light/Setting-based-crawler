@@ -1,5 +1,6 @@
 package com.onycom.crawler.parser;
 
+import java.io.File;
 import java.sql.SQLNonTransientConnectionException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -93,22 +94,11 @@ public abstract class Parser {
 			
 			startTime = new Date();
 			retWorks = checkDupliate(history, retWorks);
-			mLogger.info("[checkDupliate expire : ] " + Util.CalcExpiredTime(startTime));
+			//mLogger.debug("[checkDupliate expire : ] " + Util.CalcExpiredTime(startTime));
 			work.result().success();
 		}
 		return retWorks;
 	}
-	
-	/**
-	 * 콘텐츠를 수집하는 메서드. 설정된 CSS 패턴에 의해서 데이터를 찾고 데이터 객체에 저장하는 로직 구현<p>
-	 * 
-	 * 콘텐츠를 파싱한 실패 시 NULL 을 반환하지만 이를 처리하는 로직 없음
-	 * 해당 로직은 이 메서드를 호출하는 parser 에서 처리해야 할 것
-	 * 
-	 * @param urlInfo 처리할 웹페이지의 URL 정보
-	 * @param document 처리할 HTML 문서 
-	 * @return 콘텐츠 데이터 객체 목록
-	 * */
 	
 	/**
 	 * 콘텐츠가 동일한 웹페이지들을 필터링 하기 위한 메서드. URL이 동일하지 않더라도 콘텐츠는 동일한 경우가 존재하며, 
@@ -124,6 +114,18 @@ public abstract class Parser {
 		return newList;
 	}
 	
+
+	
+	/**
+	 * 콘텐츠를 수집하는 메서드. 설정된 CSS 패턴에 의해서 데이터를 찾고 데이터 객체에 저장하는 로직 구현<p>
+	 * 
+	 * 콘텐츠를 파싱한 실패 시 NULL 을 반환하지만 이를 처리하는 로직 없음
+	 * 해당 로직은 이 메서드를 호출하는 parser 에서 처리해야 할 것
+	 * 
+	 * @param urlInfo 처리할 웹페이지의 URL 정보
+	 * @param document 처리할 HTML 문서 
+	 * @return 콘텐츠 데이터 객체 목록
+	 * */
 	public List<Contents> parseContents(Work work, Document document){
 		String currentURL = work.getURL();
 		String currentDateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
@@ -137,14 +139,15 @@ public abstract class Parser {
 		List<CollectRecode> aryRecode = mConfig.getCollects();
 		Pattern pattern;
 		Matcher matcher;
+		boolean isParsingDocument = false;
 		for(CollectRecode recode : aryRecode){
 			mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
 			contents = null;
 			
 			//  || (work.getAction() != null && work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS))
-			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl())){
-				
+			if(recode.getDepth() == work.getDepth() || work.getURL().matches(recode.getUrl()) || (work.getAction() != null && work.getAction().getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS))){
+				isParsingDocument = true;
 				/* N건 배열 데이터 파싱 */
 				if(recode.getRecodeSelector() != null && !recode.getRecodeSelector().isEmpty()){ 
 					recodeEls = document.select(recode.getRecodeSelector());
@@ -237,6 +240,22 @@ public abstract class Parser {
 							aryContents.add(contents);
 						}
 					}
+				}
+			}
+			
+			if(getConfig().SAVE_HTML && isParsingDocument){
+				SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
+				String tmp = sdf.format(new Date(Crawler.GetStartTime()));
+				String url = work.getDomainURL().replace("https://", "");
+				url = url.replace("http://", "");
+				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ url+"_"+tmp);
+				if(!f.exists()){
+					f.mkdirs();
+				}
+				tmp = sdf.format(new Date(System.currentTimeMillis()));
+				tmp = f.getPath()+"/"+url+"_"+tmp+".html";
+				if(!Util.WriteFile(tmp, document.html())){
+					mLogger.error("ERR - Can't save the html file.");
 				}
 			}
 		}

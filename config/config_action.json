@@ -25,9 +25,9 @@
 	"scenario" : [
 		{
 			"depth" : 0,
-			"actions" : [
+			"action" : [
 				{
-					"type": "click", 
+					"type": "click",
 					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc",
 					"target_depth" : 1
 				},
@@ -41,7 +41,7 @@
 		},
 		{
 			"depth" : 1,
-			"actions" : [
+			"action" : [
 				{
 					"type" : "switch_window",
 					"value" : "+1"

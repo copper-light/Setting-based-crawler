@@ -61,23 +61,6 @@ public class Crawler {
 		mLogger.info("start crawler");
 	}
 	
-	public static void Log(char type, String msg){
-		if(type == 'e'){
-			mLogger.error(msg);
-		}else if(type == 'i'){
-			mLogger.info(msg);
-		}
-	}
-	
-	public static void Log(char type, String msg, Throwable t){
-		if(type == 'e'){
-			mLogger.error(msg, t);
-		}else if(type == 'i'){
-			mLogger.info(msg, t);
-		}
-		
-	}
-	
 	public Crawler(int size, long delay){
 		this(1, 1, null);
 	}
@@ -97,8 +80,10 @@ public class Crawler {
 
 	public void setConfigJson(String jsonConfig) {
 		if(mConfig == null) mConfig = new Config();
-		mConfig.setConfig(jsonConfig);
-		
+		if(!mConfig.setConfig(jsonConfig)){
+			mLogger.error("CONFIG PARSING ERR");
+			return;
+		}
 		if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_STATIC)){
 			setParser(new ScenarioStasticParser());
 		}else if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_DYNAMIC)){
@@ -179,6 +164,10 @@ public class Crawler {
 	
 	public void setCrawlerListener(WorkManagerListener listener){
 		mWorkManager.setManagerListener(listener);
+	}
+	
+	public static Long GetStartTime(){
+		return startTime;
 	}
 
 	

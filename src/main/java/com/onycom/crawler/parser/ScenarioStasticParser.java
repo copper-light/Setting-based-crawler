@@ -52,8 +52,14 @@ public class ScenarioStasticParser extends StaticParser{
 						sub_url = tmp[1];
 						url = domain_url + sub_url;
 						
-						allow = super.isAllow(urlInfo, domain_url, sub_url);
-						if(allow) ret.add(new Work(url).setDepth(depth));
+						if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
+								getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
+							allow = super.isAllow(urlInfo, domain_url, sub_url);
+							if(allow) ret.add(new Work(url).setDepth(depth));
+						}else{
+							ret.add(new Work(url).setDepth(depth));
+						}
+						
 					}
 				}
 			}

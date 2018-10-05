@@ -58,9 +58,9 @@ public class Scraper {
 	static Logger mLogger = Logger.getLogger(Scraper.class);
 	
 	public static String charset = "UTF-8";
-	private static Cookie mCookie;
 	private static String TYPE = Config.CRAWLING_TYPE_SCENARIO_STATIC;
-		
+	private static Cookie mCookie;
+	
 	static WebDriver mSeleniumDriver;
 	
 	static Map<String, String> mJSData = new HashMap<String, String>();

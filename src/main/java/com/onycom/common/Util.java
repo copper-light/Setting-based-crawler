@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -153,5 +154,19 @@ public class Util  {
 //                ":nth-child(%d)", elementSiblingIndex() + 1));
 //
 //        return parent().cssSelector() + selector.toString();
+	}
+	
+	public static boolean WriteFile(String path, String data){
+		File file = new File(path);
+		FileWriter fw;
+		try {
+			fw = new FileWriter(file);
+			fw.write(data);
+			fw.flush();
+			fw.close();
+		} catch (IOException e) {
+			return false;
+		}
+		return true;
 	}
 }

@@ -1,0 +1,773 @@
+2018-10-05 15:41:12 INFO  Crawler:57 - Logging enabled
+2018-10-05 15:41:12 INFO  Crawler:61 - start crawler
+2018-10-05 15:45:58 INFO  Crawler:57 - Logging enabled
+2018-10-05 15:45:58 INFO  Crawler:61 - start crawler
+2018-10-05 15:53:33 INFO  Crawler:57 - Logging enabled
+2018-10-05 15:53:33 INFO  Crawler:61 - start crawler
+2018-10-05 15:53:33 ERROR Config:78 - Config ERR : wrong config file
+2018-10-05 15:53:33 ERROR Crawler:84 - CONFIG PARSING ERR
+2018-10-05 15:54:02 INFO  Crawler:57 - Logging enabled
+2018-10-05 15:54:02 INFO  Crawler:61 - start crawler
+2018-10-05 15:54:02 INFO  Config:83 - Set Config ignore_robots : true
+2018-10-05 15:54:02 INFO  Config:88 - Set Config crawling_max_depth : -1
+2018-10-05 15:54:02 INFO  Config:93 - Set Config crawling_delay : 0
+2018-10-05 15:54:02 INFO  Config:98 - Set Config crawling_max_count : 10
+2018-10-05 15:54:02 INFO  Config:103 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 15:54:02 INFO  Config:108 - Set Config contents_save_type : DB
+2018-10-05 15:54:02 INFO  Config:221 - CONFIG FILTER : 0
+2018-10-05 15:54:03 DEBUG Parser:141 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 15:54:03 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 15:54:04 DEBUG Parser:141 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 15:54:04 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:04 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:04 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 15:54:05 DEBUG Parser:141 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 15:54:05 ERROR Parser:227 - [ERR : Not found element] category
+2018-10-05 15:54:05 ERROR Parser:230 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 15:54:05 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:17:51 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:17:51 INFO  Crawler:61 - start crawler
+2018-10-05 16:17:51 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:17:51 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:17:51 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:17:51 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:17:51 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:17:51 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:17:51 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:17:52 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:17:52 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:17:52 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:17:52 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:52 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:52 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:17:52 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:17:52 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:52 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:52 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:17:53 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:17:53 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:17:53 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:17:53 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:18:53 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:18:53 INFO  Crawler:61 - start crawler
+2018-10-05 16:18:53 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:18:53 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:18:53 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:18:53 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:18:53 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:18:53 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:18:53 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:18:54 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:18:54 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:18:54 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:18:55 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:18:55 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:55 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:55 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:18:56 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:18:56 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:18:56 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:18:56 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:19:25 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:19:25 INFO  Crawler:61 - start crawler
+2018-10-05 16:19:25 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:19:25 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:19:25 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:19:25 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:19:25 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:19:25 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:19:25 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:19:25 INFO  Config:232 - CONFIG FILTER : 0
+2018-10-05 16:19:26 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:19:27 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:19:27 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:27 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:27 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:19:28 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:19:28 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:28 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:28 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:19:28 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:19:28 ERROR Parser:237 - [ERR : Not found element] category
+2018-10-05 16:19:28 ERROR Parser:240 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:19:28 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:20:09 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:20:09 INFO  Crawler:61 - start crawler
+2018-10-05 16:20:09 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:20:09 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:20:09 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:20:09 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:20:09 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:20:09 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:20:09 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:20:09 INFO  Config:232 - CONFIG FILTER : 0
+2018-10-05 16:20:11 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:20:11 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:20:11 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:20:11 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:11 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:11 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:20:11 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:20:11 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:11 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:11 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:20:11 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:20:11 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:11 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:11 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:20:11 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:20:12 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:20:12 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:20:12 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:20:12 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:20:12 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:20:12 ERROR Parser:238 - [ERR : Not found element] category
+2018-10-05 16:20:12 ERROR Parser:241 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:20:12 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:23:06 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:23:06 INFO  Crawler:61 - start crawler
+2018-10-05 16:23:06 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:23:06 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:23:06 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:23:06 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:23:06 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:23:06 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:23:06 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:23:06 INFO  Config:232 - CONFIG FILTER : 0
+2018-10-05 16:23:08 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:23:08 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:23:08 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:23:08 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:08 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:08 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:23:08 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:23:08 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:08 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:08 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:23:08 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:23:08 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:08 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:08 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:23:08 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:23:08 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:08 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:08 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:23:09 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:23:09 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:09 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:09 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:23:09 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:23:09 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:09 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:09 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:23:09 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:23:09 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:09 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:09 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:23:09 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:23:09 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:09 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:09 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:23:09 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:23:09 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:09 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:09 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:23:13 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:23:13 INFO  Crawler:61 - start crawler
+2018-10-05 16:23:13 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:23:13 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:23:13 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:23:13 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:23:13 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:23:13 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:23:13 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:23:13 INFO  Config:232 - CONFIG FILTER : 0
+2018-10-05 16:23:14 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:23:14 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:23:14 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:23:14 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:14 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:14 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:23:15 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:23:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:15 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:23:15 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:23:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:15 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:23:15 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:23:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:15 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:23:15 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:23:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:15 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:23:15 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:23:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:15 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:23:16 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:23:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:16 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:23:16 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:23:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:16 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:23:16 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:23:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:23:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:23:16 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:24:13 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:24:13 INFO  Crawler:61 - start crawler
+2018-10-05 16:24:13 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:24:13 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:24:13 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:24:13 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:24:13 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:24:13 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:24:13 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:24:13 INFO  Config:232 - CONFIG FILTER : 0
+2018-10-05 16:24:14 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:24:14 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:24:14 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:24:14 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:14 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:14 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:24:15 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:24:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:15 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:24:15 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:24:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:15 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:24:15 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:24:15 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:15 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:15 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:24:16 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:24:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:16 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:24:16 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:24:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:16 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:24:16 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:24:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:16 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:24:16 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:24:16 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:16 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:16 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:24:16 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:24:17 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:24:17 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:24:17 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:25:49 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:25:49 INFO  Crawler:61 - start crawler
+2018-10-05 16:25:49 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:25:49 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:25:49 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:25:49 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:25:49 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:25:49 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:25:49 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:25:49 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:25:50 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:25:50 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:25:50 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:25:50 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:50 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:50 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:25:50 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:25:50 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:50 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:50 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:25:50 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:25:51 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:25:51 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:25:51 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:25:51 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:25:51 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:25:51 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:51 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:51 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:25:52 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:25:52 ERROR Parser:240 - [ERR : Not found element] category
+2018-10-05 16:25:52 ERROR Parser:243 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:25:52 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:26:36 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:26:36 INFO  Crawler:61 - start crawler
+2018-10-05 16:26:36 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:26:36 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:26:36 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:26:36 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:26:36 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:26:36 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:26:36 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:26:36 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:26:38 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:26:38 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:26:38 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:26:38 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:38 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:38 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:26:38 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:26:38 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:38 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:38 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:26:38 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:26:38 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:38 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:38 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:26:38 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:26:38 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:38 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:38 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:26:39 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:26:39 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:39 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:39 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:26:39 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:26:39 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:39 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:39 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:26:39 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:26:39 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:39 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:39 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:26:39 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:26:39 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:39 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:39 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:26:39 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:26:39 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:26:39 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:26:39 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:27:28 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:27:28 INFO  Crawler:61 - start crawler
+2018-10-05 16:27:28 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:27:28 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:27:28 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:27:28 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:27:28 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:27:28 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:27:28 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:27:28 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:27:29 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:27:29 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:27:30 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:27:30 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:30 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:30 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:27:30 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:27:30 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:30 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:30 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:27:30 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:27:30 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:30 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:30 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:27:30 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:27:31 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:31 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:31 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:27:31 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:27:31 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:31 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:31 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:27:31 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:27:31 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:31 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:31 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:27:31 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:27:32 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:32 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:32 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:27:32 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:27:32 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:32 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:32 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:27:32 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:27:32 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:27:32 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:27:32 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:30:49 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:30:49 INFO  Crawler:61 - start crawler
+2018-10-05 16:30:49 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:30:49 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:30:49 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:30:49 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:30:49 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:30:49 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:30:49 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:30:49 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:30:51 DEBUG Parser:143 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:30:51 INFO  Crawler:188 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:30:51 DEBUG Parser:143 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:30:51 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:51 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:51 INFO  Crawler:188 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:30:51 DEBUG Parser:143 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:30:51 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:51 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:51 INFO  Crawler:188 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:30:51 DEBUG Parser:143 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:30:51 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:51 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:51 INFO  Crawler:188 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:30:52 DEBUG Parser:143 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:30:52 ERROR Parser:241 - [ERR : Not found element] category
+2018-10-05 16:30:52 ERROR Parser:244 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:30:52 INFO  Crawler:188 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:41:52 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:41:52 INFO  Crawler:61 - start crawler
+2018-10-05 16:41:52 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:41:52 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:41:52 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:41:52 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:41:52 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:41:52 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:41:52 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:41:52 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:41:54 DEBUG Parser:144 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:41:54 INFO  Crawler:192 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:41:54 DEBUG Parser:144 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:41:54 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:54 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:54 INFO  Crawler:192 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:41:54 DEBUG Parser:144 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:41:54 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:54 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:54 INFO  Crawler:192 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:41:54 DEBUG Parser:144 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:41:54 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:54 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:54 INFO  Crawler:192 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:41:54 DEBUG Parser:144 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:41:54 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:54 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:54 INFO  Crawler:192 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:41:55 DEBUG Parser:144 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:41:55 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:55 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:55 INFO  Crawler:192 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:41:55 DEBUG Parser:144 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:41:55 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:55 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:55 INFO  Crawler:192 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:41:55 DEBUG Parser:144 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:41:55 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:55 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:55 INFO  Crawler:192 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:41:55 DEBUG Parser:144 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:41:55 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:55 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:55 INFO  Crawler:192 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:41:55 DEBUG Parser:144 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:41:55 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:41:55 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:41:55 INFO  Crawler:192 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:42:18 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:42:18 INFO  Crawler:61 - start crawler
+2018-10-05 16:42:18 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:42:18 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:42:18 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:42:18 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:42:18 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:42:18 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:42:18 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:42:18 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:42:20 DEBUG Parser:144 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:42:20 INFO  Crawler:192 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:42:20 DEBUG Parser:144 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:42:20 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:20 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:20 INFO  Crawler:192 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:42:20 DEBUG Parser:144 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:42:20 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:20 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:20 INFO  Crawler:192 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:42:20 DEBUG Parser:144 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:42:20 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:20 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:20 INFO  Crawler:192 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:42:21 DEBUG Parser:144 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:42:21 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:21 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:21 INFO  Crawler:192 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:42:46 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:42:46 INFO  Crawler:61 - start crawler
+2018-10-05 16:42:46 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:42:46 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:42:46 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:42:46 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:42:46 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:42:46 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:42:46 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:42:46 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:42:47 DEBUG Parser:144 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:42:47 INFO  Crawler:192 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:42:48 DEBUG Parser:144 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:42:48 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:48 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:48 INFO  Crawler:192 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:42:48 DEBUG Parser:144 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:42:48 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:48 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:48 INFO  Crawler:192 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:42:48 DEBUG Parser:144 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:42:48 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:48 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:48 INFO  Crawler:192 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:42:48 DEBUG Parser:144 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:42:48 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:48 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:48 INFO  Crawler:192 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:42:48 DEBUG Parser:144 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:42:48 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:48 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:48 INFO  Crawler:192 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:42:49 DEBUG Parser:144 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:42:49 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:49 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:49 INFO  Crawler:192 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:42:49 DEBUG Parser:144 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:42:49 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:49 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:49 INFO  Crawler:192 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:42:49 DEBUG Parser:144 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:42:49 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:49 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:49 INFO  Crawler:192 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:42:49 DEBUG Parser:144 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:42:49 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:42:49 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:42:49 INFO  Crawler:192 - [progress] save : 9, err : 9, remain_work : 51, total : 61
+2018-10-05 16:43:10 INFO  Crawler:57 - Logging enabled
+2018-10-05 16:43:10 INFO  Crawler:61 - start crawler
+2018-10-05 16:43:10 INFO  Config:87 - Set Config ignore_robots : true
+2018-10-05 16:43:10 INFO  Config:92 - Set Config crawling_max_depth : -1
+2018-10-05 16:43:10 INFO  Config:97 - Set Config crawling_delay : 0
+2018-10-05 16:43:10 INFO  Config:102 - Set Config crawling_max_count : 10
+2018-10-05 16:43:10 INFO  Config:107 - Set Config crawling_type : SCENARIO_STATIC
+2018-10-05 16:43:10 INFO  Config:112 - Set Config contents_save_type : DB
+2018-10-05 16:43:10 INFO  Config:133 - Set Config save_html : true
+2018-10-05 16:43:10 INFO  Config:231 - CONFIG FILTER : 0
+2018-10-05 16:43:12 DEBUG Parser:144 - [Visiting page] 초개념 갤러리 @ http://gall.dcinside.com/board/lists/?id=superidea
+2018-10-05 16:43:12 INFO  Crawler:192 - [progress] save : 0, err : 0, remain_work : 60, total : 61
+2018-10-05 16:43:13 DEBUG Parser:144 - [Visiting page] 전국투어2기 3일차 (2탄) - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160179&page=1
+2018-10-05 16:43:13 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:13 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:13 INFO  Crawler:192 - [progress] save : 1, err : 1, remain_work : 59, total : 61
+2018-10-05 16:43:13 DEBUG Parser:144 - [Visiting page] 유주투어(?) 후기 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160178&page=1
+2018-10-05 16:43:13 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:13 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:13 INFO  Crawler:192 - [progress] save : 2, err : 2, remain_work : 58, total : 61
+2018-10-05 16:43:13 DEBUG Parser:144 - [Visiting page] 181003 도쿄릴리스이벤트 1부 솔라 4pic by ARCOIRIS - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160177&page=1
+2018-10-05 16:43:13 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:13 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:13 INFO  Crawler:192 - [progress] save : 3, err : 3, remain_work : 57, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] 목포 그린하우스 빵집 다녀옴 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160176&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 4, err : 4, remain_work : 56, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] 보.리 밭 원심 보고가 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160175&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 5, err : 5, remain_work : 55, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] 떡볶이 퍼레이드 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160174&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 6, err : 6, remain_work : 54, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] 절미 이 디즈니 케릭터 닮았오 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160173&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 7, err : 7, remain_work : 53, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] 오늘 생일인 배우 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160172&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 8, err : 8, remain_work : 52, total : 61
+2018-10-05 16:43:14 DEBUG Parser:144 - [Visiting page] [천사네] 로또의 뷔페 - 초개념 갤러리 @ http://gall.dcinside.com/board/view/?id=superidea&no=160171&page=1
+2018-10-05 16:43:14 ERROR Parser:230 - [ERR : Not found element] category
+2018-10-05 16:43:14 ERROR Parser:233 - -> #container > section > header > div > div.fl.clear > h2 > af @ text
+2018-10-05 16:43:14 INFO  Crawler:192 - [progress] save : 9, err : 9, remain_work : 51, total : 61

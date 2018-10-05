@@ -46,7 +46,6 @@ public class WorkManager {
 		}
 
 		public void done(Work work, List<Work> result) {
-			//int insert_cnt = 0;
 			work.updateState(Work.STATE_SUCCESS);
 			mSuccessCount++;
 			
@@ -54,24 +53,15 @@ public class WorkManager {
 				for(Work i : result){
 					if(isAllowURL(i)){
 						if(mQueue.offerURL(i)){
-							//insert_cnt++;
 							
 						}
-					}
-					else{
-//						System.err.println(">> deny - " + i.getURL());
+					}else{
 						
 					}
 				}
-//				System.out.println("[log] find link count" 
-//						+ result.size() 
-//						+ " : "
-//						+ insert_cnt 
-//						+ " / " + mQueue.getSize());
 			}
 			synchronized (mWorkingCount) {
 				mWorkingCount--;
-				//System.out.println("[log] work worker : " + mWorkingCount);
 			}
 			if(mManagerListener!= null)	mManagerListener.progress(work, mQueue.getSize(), mQueue.getHistorySize());
 		
@@ -248,5 +238,6 @@ public class WorkManager {
 
 	public void setConfig(Config config) {
 		mConfig = config;
+		mWorkDelay = mConfig.CRAWLING_DELAY;
 	}
 }
