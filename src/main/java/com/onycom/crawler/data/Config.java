@@ -79,7 +79,7 @@ public class Config {
 		try{
 			root = new JSONObject(config);
 		}catch(JSONException e){
-			mLogger.error("Config ERR : wrong config file");
+			mLogger.error("Config ERR : Wrong config format");
 			return false;
 		}
 		if(!root.isNull(KEY_IGNORE_ROBOTS)){

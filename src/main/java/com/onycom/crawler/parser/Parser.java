@@ -227,7 +227,7 @@ public abstract class Parser {
 								}else{ 
 									/* 엘리먼트를 찾을 수 없음 : 오류 */
 									if(!collectCol.isAllowNull()){
-										mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
+										mLogger.error("[ERR : Not found element] "+ work.getURL() + " @ " + collectCol.getDataName()); 
 										for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
 											work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
 											mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
@@ -244,11 +244,11 @@ public abstract class Parser {
 			}
 			
 			if(getConfig().SAVE_HTML && isParsingDocument){
-				SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
+				SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd_HHmmss.SSS"); 
 				String tmp = sdf.format(new Date(Crawler.GetStartTime()));
 				String url = work.getDomainURL().replace("https://", "");
 				url = url.replace("http://", "");
-				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ url+"_"+tmp);
+				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ url + "/" + tmp);
 				if(!f.exists()){
 					f.mkdirs();
 				}

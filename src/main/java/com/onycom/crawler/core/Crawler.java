@@ -156,7 +156,7 @@ public class Crawler {
 
 	public void start() {
 		if(mParser == null){
-			System.out.println("[ERROR] Can't start. Config ERR");
+			mLogger.error("Can't start. Config ERR");
 			return;
 		}
 		mWorkManager.start();
@@ -176,7 +176,7 @@ public class Crawler {
 	WorkManagerListener mWMListener = new WorkManagerListener() {
 		
 		public void start() {
-			System.out.println("============== Start Crawler =============");
+			mLogger.info("============== Start Crawler =============");
 			try {
 				Writer.open();
 			} catch (Exception e) {
@@ -212,11 +212,11 @@ public class Crawler {
 				s = (int) e % 60;
 			}
 			
-			System.out.println("============== Finish Crawler =============");
-			System.out.println("[total time] "+ String.format("%02d:%02d:%02d", h,m, s));
-			System.out.println("[save contents] "+ mTotalSaveCnt);
-			System.out.println("[error work] "+ mErrCnt);
-			System.out.println("[total work] "+ total);
+			mLogger.info("============== Finish Crawler =============");
+			mLogger.info("[total time] "+ String.format("%02d:%02d:%02d", h,m, s));
+			mLogger.info("[save contents] "+ mTotalSaveCnt);
+			mLogger.info("[error work] "+ mErrCnt);
+			mLogger.info("[total work] "+ total);
 		}
 		
 		public void error() {
