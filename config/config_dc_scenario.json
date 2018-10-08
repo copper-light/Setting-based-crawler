@@ -1,9 +1,9 @@
 {
 	"seed" : {
-		"url" : "https://sports.news.naver.com/seria/news/read.nhn?oid=477&aid=0000141086",
+		"url" : "http://gall.dcinside.com/board/lists/?id=superidea",
 		"type" : "GET"
 	},
-	"ignore_robots" : false,
+	"ignore_robots" : true,
 	"crawling_max_depth" : -1,
 	"crawling_type" : "SCENARIO_STATIC",
 	"crawling_delay" : 0,
@@ -97,7 +97,7 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"#container > section > header > div > div.fl.clear > h2 > a", 
+							"selector":"#container > section > header > div > div.fl.clear > h2 > af", 
 						 	"type": "text"
 						}
 					]

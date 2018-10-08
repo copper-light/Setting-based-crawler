@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 
 import com.onycom.crawler.data.Config;
@@ -22,7 +21,6 @@ import com.onycom.crawler.writer.DBWriter;
  * 쓰레드를 관리하는 매니저. 크롤링의 핵심 로직도 담고 있는데, 이를 분리하는 작업이 필요할 것으로 보임
  * */
 public class WorkManager {
-	private static Logger mLogger = Logger.getLogger(WorkManager.class);
 	private Config mConfig;
 	private Thread[] mWorkThread;
 	private WorkRunnable[] mWorkRunnable;
@@ -69,7 +67,6 @@ public class WorkManager {
 		
 			if(mConfig.CRAWLING_MAX_COUNT != -1){
 				if( mConfig.CRAWLING_MAX_COUNT <= (mSuccessCount + mFailCount) ){
-					mLogger.info("crawling limit : " + mConfig.CRAWLING_MAX_COUNT);
 					mQueue.setAccessMode(WorkQueue.LOCK);
 					mQueue.clear();
 				}
@@ -186,39 +183,24 @@ public class WorkManager {
 			if(mQueue.getSize() > 0){
 				info = mQueue.pullURL();
 				if(info != null){
+					
 					// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
-					if(!mConfig.IGNORE_ROBOTS){
-						Robots robots = mConfig.getRobots().get(info.getDomainURL());
-						if(robots == null){
-							// 현재 작업 중인 쓰레드들은 작업하도록 나두고
-							// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
-							// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
-							Work robotsURL = null;
-							Document doc = null;
-							try {
-								mQueue.setAccessMode(WorkQueue.WRITE);
-								robotsURL = new Work(info.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
-								doc = Scraper.GetDocument(robotsURL);
-							}catch (Exception e) { 
-								e.printStackTrace();
-							} finally {
-								Parser p = new RobotsParser();
-								p.setConfig(mConfig);
-								p.parse(null, robotsURL, doc);
-								mQueue.setAccessMode(WorkQueue.READ_AND_WRINE);
-							}
-							robots = mConfig.getRobots().get(info.getDomainURL());
-						}
-						boolean ret = robots.isAllow(Crawler.USER_AGENT_NAME, info.getSubURL());
-						if(!ret){
-							mLogger.info("[robots] Disallow url : " + info.getSubURL());
-							info = mQueue.pullURL();
-							if(info == null){
-								return;
-							}
+					if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(info.getDomainURL()) == null){
+						
+						// 현재 작업 중인 쓰레드들은 작업하도록 나두고
+						// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
+						// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
+						try {
+							mQueue.setAccessMode(WorkQueue.WRITE);
+							Work robotsURL = new Work(info.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
+							Document doc = Scraper.GetDocument(robotsURL);
+							new RobotsParser().parse(null, robotsURL, doc);
+						}catch (Exception e) { 
+							e.printStackTrace();
+						} finally {
+							mQueue.setAccessMode(WorkQueue.READ_AND_WRINE);
 						}
 					}
-					
 					synchronized (mWorkingCount){
 						if(mWorkDelay > 0){
 							try {

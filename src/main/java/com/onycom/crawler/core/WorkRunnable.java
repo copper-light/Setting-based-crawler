@@ -69,6 +69,7 @@ class WorkRunnable implements Runnable{
 				}else{
 					mLogger.error("not found element " + e.getMessage(), e.fillInStackTrace());
 				}
+				
 			} catch (KeyManagementException e) {
 				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			} catch (NoSuchAlgorithmException e) {

@@ -122,14 +122,11 @@ public class Scraper {
         		conn.data(key, urlInfo.getData().get(key).toString());
         	}
         }
-        try{
-	        if(urlInfo.getContentType() == Work.POST){
-	        	doc = conn.ignoreContentType(true).post();
-	        }else{ // urlInfo.getType() == URLInfo.GET
-	        	doc = conn.ignoreContentType(true).get();
-	        }
-        }catch(IOException e){
-        	mLogger.error("Not found page " + urlInfo.getURL());
+       
+        if(urlInfo.getContentType() == Work.POST){
+        	doc = conn.ignoreContentType(true).post();
+        }else{ // urlInfo.getType() == URLInfo.GET
+        	doc = conn.ignoreContentType(true).get();
         }
         //System.err.println(conn.response().);
         //mCOOKIE.put(urlInfo.getRootURL(), conn.response().cookies());
@@ -250,7 +247,7 @@ public class Scraper {
 							new_idx = (cur_idx + new_idx);
 							if(new_idx < 0) new_idx = 0;
 						}
-						if(tab_size > new_idx){	
+						if(tab_size > new_idx){
 							mSeleniumDriver.switchTo().window(tab.get(new_idx));
 						}
 					}
