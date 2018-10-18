@@ -1,0 +1,61 @@
+2018-10-12 13:19:52 ERROR Crawler:211 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:19:52 ERROR Crawler:214 -    - ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:20:02 ERROR Crawler:211 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:20:02 ERROR Crawler:214 -    - ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:36:29 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:36:29 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:36:39 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:36:39 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 14:05:32 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 14:05:32 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 14:05:42 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 14:05:42 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 15:32:42 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4057475/?source=dealsearch&search_keyword=%3C%240%3E&no=1&_service=3
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:32:46 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4054964/?source=dealsearch&search_keyword=%3C%240%3E&no=2&_service=3
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:32:49 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4044356/?source=dealsearch&search_keyword=%3C%240%3E&no=3&_service=3
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:40:42 ERROR WorkRunnable:79 - not found element stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f3d5bf71fe4226781419672ddf64190e
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f3d5bf71fe4226781419672ddf64190e
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:79)
+	at java.lang.Thread.run(Thread.java:748)

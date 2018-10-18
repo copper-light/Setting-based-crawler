@@ -12,7 +12,7 @@ public interface Writer {
 	
 	/** 
 	 * 열기 */
-	public void open() throws Exception ;
+	public boolean open() throws Exception ;
 	
 	/** 
 	 * 종료 */

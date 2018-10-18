@@ -7,18 +7,21 @@ import java.sql.SQLNonTransientConnectionException;
 import java.util.List;
 import java.util.Properties;
 
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.KeyValue;
+import com.onycom.SettingBasedCrawler.Crawler;
+import com.onycom.common.CrawlerLog;
 import com.onycom.crawler.data.CollectRecode;
 
 /**
  * DB 저장 구현제. 기본 JDBC 를 활용. 안정성을 위한 구현 고도화 필요
  */
 public class DBWriter implements Writer {
-	static Logger mLogger = Logger.getLogger(DBWriter.class);
+	static Logger mLogger = CrawlerLog.GetInstance(DBWriter.class);
 
 	static String DRIVER = "org.mariadb.jdbc.Driver";
 	static String PATH = "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG"; // 172.17.0.10
@@ -36,7 +39,7 @@ public class DBWriter implements Writer {
 
 	Connection mConn;
 
-	public synchronized void open() throws Exception {
+	public synchronized boolean open() throws Exception {
 		Class.forName(DRIVER);
 		Connection conn = null;
 		try {
@@ -47,40 +50,34 @@ public class DBWriter implements Writer {
 			// conn = DriverManager.getConnection(PATH, USER, PW, properties);
 
 		} catch (Exception e) {
-			mLogger.error(e.getMessage(), e.fillInStackTrace());
+			mLogger.error(e.getMessage());
+			return false;
 		}
 		mConn = conn;
+		return true;
 	}
 
-	public synchronized int writeHistory(String url) {
-		try {
-			return insert(String.format(Q_INSERT_HISTORY, url));
-		} catch (SQLNonTransientConnectionException e) {
-			mLogger.error(e.getMessage(), e.fillInStackTrace());
-			return 0;
-		}
-	}
+//	public synchronized int writeHistory(String url) {
+//		try {
+//			return insert(String.format(Q_INSERT_HISTORY, url));
+//		} catch (SQLNonTransientConnectionException e) {
+//			mLogger.error(e.getMessage(), e.fillInStackTrace());
+//			return 0;
+//		}
+//	}
+//
+//	public synchronized int writeErr(String url, String reason) {
+//		try {
+//			return insert(String.format(Q_INSERT_ERR, url, reason));
+//		} catch (SQLNonTransientConnectionException e) {
+//			mLogger.error(e.getMessage(), e.fillInStackTrace());
+//			return 0;
+//		}
+//	}
 
-	public synchronized int writeErr(String url, String reason) {
-		try {
-			return insert(String.format(Q_INSERT_ERR, url, reason));
-		} catch (SQLNonTransientConnectionException e) {
-			mLogger.error(e.getMessage(), e.fillInStackTrace());
-			return 0;
-		}
-	}
-
-	private synchronized int insert(String query) throws SQLNonTransientConnectionException {
-		int ret = 0;
-		try {
-			if (mConn != null) {
-				if (mConn.prepareStatement(query).execute())
-					ret = 1;
-			}
-		} catch (SQLException e) {
-			mLogger.error("[SQL] " + query, e.fillInStackTrace());
-		}
-		return ret;
+	private synchronized int insert(String query) throws Exception {
+		mConn.prepareStatement(query).execute();
+		return 1;
 	}
 
 	public synchronized void close() {
@@ -134,11 +131,11 @@ public class DBWriter implements Writer {
 		}
 	}
 
-	public synchronized int write(String... values) {
+	public synchronized int write(String... values) throws Exception {
 		return 0;
 	}
 
-	public synchronized int write(Contents contents) {
+	public synchronized int write(Contents contents) throws Exception {
 		String tableName = contents.getName();
 		List<KeyValue> data = contents.getData();
 
@@ -160,15 +157,13 @@ public class DBWriter implements Writer {
 		int ret = 0;
 		try {
 			ret = insert(String.format(Q_INSERT_CONTENTS, tableName, cols, values));
-		} catch (SQLNonTransientConnectionException e) {
-			try {
-				open();
-				ret = insert(String.format(Q_INSERT_CONTENTS, tableName, cols, values));
-			} catch (Exception e2) {
-				mLogger.error(e2.getMessage(), e2.fillInStackTrace());
-			}
+		} catch (Exception e) {
+			open();
+			ret = insert(String.format(Q_INSERT_CONTENTS, tableName, cols, values));
 		}
-
+//		if(ret == -1){
+//			mLogger.error(e2.getMessage(), e2.fillInStackTrace());
+//		}
 		return ret;
 	}
 

@@ -14,9 +14,12 @@ import java.util.Map;
 import org.apache.http.client.utils.URLEncodedUtils;
 
 /**
- * 주소 저장 객체
- * 같은 주소라도 request value 에 따라 다른 값을 받기 때문에
- * 객체로 만들어서 data 까지 비교한다
+ * 크롤링 작업 오브젝트
+ * 
+ * url + aciton + 작업의 결과까지 저장함 </p>
+ * url : 방문할 URL 및 request 값 저장</p>
+ * action : selenium 에 넘길 동작 값 저장</p>
+ * result : 크롤링 결과를 저장
  * */ 
 public class Work {
 	public static final byte POST = 0x0;
@@ -363,13 +366,16 @@ public class Work {
 	}
 
 	public static class Error{
-		public static final byte ERR_URL = 0x0;
-		public static final byte ERR_CONN = 0x1;
-		public static final byte ERR_ACTION = 0x2;
-		public static final byte ERR_CONTENTS_COL = 0x3;
-		public static final byte ERR_CONTENTS_RECODE = 0x4;
-		public final String[] TYPE_STR = {"ERR_URL","ERR_CONN","ERR_ACTION","ERR_CONTENTS_COL","ERR_CONTENTS_RECODE"};
-		static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yy-MM-dd-HH:mm:ss");;
+		public static final byte ERR = 0x0;
+		public static final byte ERR_URL = 0x1;
+		public static final byte ERR_CONN = 0x2;
+		public static final byte ERR_ACTION = 0x3;
+		public static final byte ERR_CONTENTS_COL = 0x4;
+		public static final byte ERR_CONTENTS_RECODE = 0x5;
+		public static final byte ERR_SCEN_ELEMENT = 0x6;
+		public static final byte ERR_WRITE = 0x7;
+		public final String[] TYPE_STR = {"ERR", "ERR_URL","ERR_CONN","ERR_ACTION","ERR_CONTENTS_COL","ERR_CONTENTS_RECODE", "ERR_SCEN_ELEMENT", "ERR_WRITE" };
+		static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("yy-MM-dd-HH:mm:ss");
 		long timeMs;
 		byte type;
 		String msg;
@@ -377,9 +383,13 @@ public class Work {
 		public Error(){
 		}
 		
+		public String toStringTypeAndMsg(){
+			return "" + TYPE_STR[type] + " : " + this.msg;
+		}
+		
 		public String toString(){
 			String date = DATE_FORMAT.format(new Date(this.timeMs));
-			return date + " [" + TYPE_STR[type] + "] " + this.msg;
+			return date + "" + TYPE_STR[type] + " : " + this.msg;
 		}
 	}
 }

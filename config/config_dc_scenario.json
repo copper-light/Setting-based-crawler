@@ -7,7 +7,7 @@
 	"crawling_max_depth" : -1,
 	"crawling_type" : "SCENARIO_STATIC",
 	"crawling_delay" : 0,
-	"crawling_max_count" : 10,
+	"crawling_max_count" : -1,
 	"contents_save_type" : "DB",
 	"save_html" : true,
 	"output_file_path" : "",
@@ -97,7 +97,7 @@
 					"element" : [
 						{
 							"from_root" : false,
-							"selector":"#container > section > header > div > div.fl.clear > h2 > af", 
+							"selector":"#container > section > header > div > div.fl.clear > h2 > a", 
 						 	"type": "text"
 						}
 					]

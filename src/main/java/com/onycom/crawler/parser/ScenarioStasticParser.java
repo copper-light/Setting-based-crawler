@@ -44,22 +44,25 @@ public class ScenarioStasticParser extends StaticParser{
 					depth = action.getTargetDepth();
 					els = document.select(action.getSelector());
 					els = els.select("a[href]");
-					for(Element e : els){
-						href = e.attr("href").trim();
-						if(href.length() == 0) continue;
-						tmp = Util.SplitDomainAndSubURL(urlInfo, href);
-						domain_url = tmp[0];
-						sub_url = tmp[1];
-						url = domain_url + sub_url;
-						
-						if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
-								getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
-							allow = super.isAllow(urlInfo, domain_url, sub_url);
-							if(allow) ret.add(new Work(url).setDepth(depth));
-						}else{
-							ret.add(new Work(url).setDepth(depth));
+					if(els.size() > 0){
+						for(Element e : els){
+							href = e.attr("href").trim();
+							if(href.length() == 0) continue;
+							tmp = Util.SplitDomainAndSubURL(urlInfo, href);
+							domain_url = tmp[0];
+							sub_url = tmp[1];
+							url = domain_url + sub_url;
+							
+							if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
+									getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
+								allow = super.isAllow(urlInfo, domain_url, sub_url);
+								if(allow) ret.add(new Work(url).setDepth(depth));
+							}else{
+								ret.add(new Work(url).setDepth(depth));
+							}
 						}
-						
+					}else{
+						urlInfo.result().addError(Work.Error.ERR_SCEN_ELEMENT, action.getSelector());
 					}
 				}
 			}

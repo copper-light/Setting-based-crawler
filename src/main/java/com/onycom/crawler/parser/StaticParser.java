@@ -9,8 +9,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.common.Util;
-import com.onycom.crawler.core.Crawler;
 import com.onycom.crawler.data.Duplicate;
 import com.onycom.crawler.data.Work;
 
@@ -202,7 +202,7 @@ public class StaticParser extends Parser {
 				//System.out.println(newURLInfo.getURL());
 				aryNewUrl.remove(i);
 			}else{
-				Crawler.DB.writeHistory(newURLInfo.getURL());
+				//Crawler.DB.writeHistory(newURLInfo.getURL());
 			}
 		}
 		return aryNewUrl;

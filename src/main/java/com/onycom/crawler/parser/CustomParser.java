@@ -7,7 +7,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import com.onycom.crawler.core.Crawler;
+import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.Work;

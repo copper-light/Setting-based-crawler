@@ -1,9 +1,10 @@
 {
+	"name" : "액션기반 크롤링",
 	"seed" : {
 		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
 		"type" : "GET",
 		"data" : [
-			{"key" : "search_keyword", "value" : "컴퓨터 공랭 쿨러"},
+			{"key" : "search_keyword", "value" : "<$0>"},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
@@ -143,5 +144,4 @@
 			]
 		}
     ]
-    
 }

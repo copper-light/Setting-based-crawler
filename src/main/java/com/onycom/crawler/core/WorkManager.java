@@ -9,9 +9,11 @@ import java.util.Map;
 
 import org.jsoup.nodes.Document;
 
+import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Robots;
 import com.onycom.crawler.data.Work;
+import com.onycom.crawler.data.WorkResult;
 import com.onycom.crawler.parser.Parser;
 import com.onycom.crawler.parser.RobotsParser;
 import com.onycom.crawler.scraper.Scraper;
@@ -29,83 +31,13 @@ public class WorkManager {
 	private int mThreadPoolSize = 1;
 	private long mWorkDelay = 5000; // ms
 	private WorkManagerListener mManagerListener;
-	private WorkQueue mQueue;
+	private WorkDeque mDeque;
+	private WorkResultQueue mResultQueue;
 	
 	private long mSuccessCount = 0;
 	private long mFailCount = 0;
 	
 	public boolean mIsFallowRobots = false;
-	
-	private WorkListener<Work> mWorkListener = new WorkListener<Work>(){
-		
-		public boolean start(Work data) {
-			data.updateState(Work.STATE_WORKING);
-			synchronized (mWorkingCount) { mWorkingCount++; }
-			//System.out.println("[new] " + data.getURL());
-			return true;
-		}
-
-		public void done(Work work, List<Work> result) {
-			work.updateState(Work.STATE_SUCCESS);
-			mSuccessCount++;
-			
-			if(result != null){
-				for(Work i : result){
-					if(isAllowURL(i)){
-						if(mQueue.offerURL(i)){
-							
-						}
-					}else{
-						
-					}
-				}
-			}
-			synchronized (mWorkingCount) {
-				mWorkingCount--;
-			}
-			if(mManagerListener!= null)	mManagerListener.progress(work, mQueue.getSize(), mQueue.getHistorySize());
-		
-			if(mConfig.CRAWLING_MAX_COUNT != -1){
-				if( mConfig.CRAWLING_MAX_COUNT <= (mSuccessCount + mFailCount) ){
-					mQueue.setAccessMode(WorkQueue.LOCK);
-					mQueue.clear();
-				}
-			}
-			if(mQueue.getSize() == 0 && mWorkingCount == 0){
-				if(mManagerListener!= null)	mManagerListener.finish(mQueue.getSize(), mFailCount, mQueue.getHistorySize());
-			}
-			notifyWorker(work.getURL());
-		}
-
-		public void error(Work work) {
-			try {
-				//Crawler.DB.writeErr(data.getURL(), "err" );
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			System.err.println("[ERR] error worker ");
-			work.updateState(Work.STATE_FAIL);
-			mFailCount++;
-			synchronized (mWorkingCount) {
-				mWorkingCount--;
-				//System.out.println("[log] work worker : " + mWorkingCount);
-			}
-			
-			if(mConfig.CRAWLING_MAX_COUNT != -1){
-				if( mConfig.CRAWLING_MAX_COUNT <= (mSuccessCount + mFailCount) ){
-					mQueue.setAccessMode(WorkQueue.LOCK);
-					mQueue.clear();
-				}
-			}
-			
-			if(mManagerListener!= null)	mManagerListener.progress(work, mQueue.getSize(), mQueue.getHistorySize());
-		
-			if(mQueue.getSize() == 0 && mWorkingCount == 0){
-				if(mManagerListener!= null)	mManagerListener.finish(mQueue.getSize(), mFailCount, mQueue.getHistorySize());
-			}
-			notifyWorker(work.getURL());
-		}
-	};
 	
 	public WorkManager(){
 		this(1);
@@ -115,7 +47,8 @@ public class WorkManager {
 		mThreadPoolSize = size;
 		mWorkThread = new Thread[mThreadPoolSize];
 		mWorkRunnable = new WorkRunnable[mThreadPoolSize];
-		mQueue = new WorkQueue();
+		mDeque = new WorkDeque();
+		mResultQueue = new WorkResultQueue();
 	}
 	
 	public void setManagerListener(WorkManagerListener managerListener){
@@ -132,37 +65,133 @@ public class WorkManager {
 	}
 	
 	public boolean addWork(Work info){
-		return mQueue.offerURL(info);
+		return mDeque.offerURL(info);
 	}
 	
 	public void start(){
-		if(mManagerListener!= null)	mManagerListener.start();
-		notifyWorker(null);
+		int length = mWorkThread.length;
+		WorkResult workResult;
+		Work work;
+		List<Work> aryNewWork;
+		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
+		if(mManagerListener!= null)	{
+			if(!mManagerListener.start()){
+				return;
+			}
+		}
+		while(true){
+			for(int i = 0; i < length ; i ++){
+				if(mDeque.getSize() > 0){
+					work = mDeque.pollWork();
+					if(work != null){
+						// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
+						if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(work.getDomainURL()) == null){
+							
+							// 현재 작업 중인 쓰레드들은 작업하도록 나두고
+							// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
+							// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
+							try {
+								mDeque.setAccessMode(WorkDeque.WRITE);
+								Work robotsURL = new Work(work.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
+								Document doc = Scraper.GetDocument(robotsURL);
+								new RobotsParser().parse(null, robotsURL, doc);
+							}catch (Exception e) { 
+								e.printStackTrace();
+							} finally {
+								mDeque.setAccessMode(WorkDeque.READ_AND_WRINE);
+							}
+						}
+						/**
+						 * 쓰레드 시작 
+						 * */
+						synchronized (mWorkingCount){
+							if(mWorkDelay > 0){
+								try {
+									Thread.sleep(mWorkDelay);
+								} catch (InterruptedException e) {
+									e.printStackTrace();
+								}
+							}
+							if((mThreadPoolSize - mWorkingCount) > 0){
+								if(mWorkRunnable[i] != null && !mWorkRunnable[i].isRunning()){
+									mWorkThread[i] = new Thread(mWorkRunnable[i].setWork(work));
+								}else{
+									mWorkRunnable[i] = new WorkRunnable(i, mDeque, mParser, work);
+									mWorkRunnable[i].setWorkResultQueue(mResultQueue);
+									mWorkThread[i] = new Thread(mWorkRunnable[i]);
+								}
+								mWorkingCount++;
+								mWorkThread[i].start();
+							}
+						}
+					}
+				}
+			}
+			
+			/**
+			 * 쓰레드 result 관리
+			 * 쓰레드가 종료되면 mResultQueue 에 작업한 내용과 결과를 저장함
+			 * */
+			mResultQueue.resultWait();
+			while((workResult = mResultQueue.pollResult()) != null){
+				mWorkingCount --;
+				work = workResult.getCurWork();
+				aryNewWork = workResult.getNewWorks();
+				if(aryNewWork != null){
+					for(Work newWork : aryNewWork){
+						if(isAllowURL(newWork)){
+							mDeque.offerURL(newWork);
+						}
+					}
+				}
+				if(mManagerListener!= null)	mManagerListener.progress(work, mDeque);
+			}
+			
+			/**
+			 * 크롤러 종료 조건
+			 * 실행할 작업이 없고 + 현재 동작하고 있는 작업도 없으면 종료
+			 * */
+			if(mDeque.getSize() == 0 && mWorkingCount == 0){
+				break;
+			}
+		}
+		mManagerListener.finish(mDeque);
 	}
 	
 	public boolean isAllowURL(Work info){
 		Robots robots = mConfig.getRobots().get(info.getDomainURL());
 		if(!mConfig.IGNORE_ROBOTS && robots!= null){
-			if(!mQueue.contains(info)){
-				boolean ret = robots.isAllow(Crawler.USER_AGENT_NAME, info.getSubURL());
-				
-				if(!ret){
-					try {
-						//mDB.open();
-//						mDB.insertErr(info.getURL(), "deny" ).close();
-					} catch (Exception e) {
-						e.printStackTrace();
-					}
-				}
-				return ret;
-			}else{
+			boolean ret = robots.isAllow(Crawler.USER_AGENT_NAME, info.getSubURL());
+			
+			if(!ret){
 				try {
-					//mDB.connect().insertErr(info.getURL(), "dup" ).close();
+					//mDB.open();
+//					mDB.insertErr(info.getURL(), "deny" ).close();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				return false;
 			}
+			return ret;
+//			if(!mDeque.contains(info)){
+//				boolean ret = robots.isAllow(Crawler.USER_AGENT_NAME, info.getSubURL());
+//				
+//				if(!ret){
+//					try {
+//						//mDB.open();
+////						mDB.insertErr(info.getURL(), "deny" ).close();
+//					} catch (Exception e) {
+//						e.printStackTrace();
+//					}
+//				}
+//				return ret;
+//			}else{
+//				try {
+//					//mDB.connect().insertErr(info.getURL(), "dup" ).close();
+//				} catch (Exception e) {
+//					e.printStackTrace();
+//				}
+//				return false;
+//			}
 		}else{
 			return true;
 		}
@@ -171,62 +200,6 @@ public class WorkManager {
 //	private int getIdleWorkerCount(){ 
 //		return mThreadPoolSize - mWorkingCount;
 //	}
-	
-	/**
-	 * 큐에 작업이 있으면, 쓰레드에게 작업 할당하는 역할 수행
-	 * */
-	public void notifyWorker(String url){
-		int length = mWorkThread.length;
-		Work info;
-		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
-		for(int i = 0; i < length ; i ++){
-			if(mQueue.getSize() > 0){
-				info = mQueue.pullURL();
-				if(info != null){
-					
-					// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
-					if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(info.getDomainURL()) == null){
-						
-						// 현재 작업 중인 쓰레드들은 작업하도록 나두고
-						// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
-						// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
-						try {
-							mQueue.setAccessMode(WorkQueue.WRITE);
-							Work robotsURL = new Work(info.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
-							Document doc = Scraper.GetDocument(robotsURL);
-							new RobotsParser().parse(null, robotsURL, doc);
-						}catch (Exception e) { 
-							e.printStackTrace();
-						} finally {
-							mQueue.setAccessMode(WorkQueue.READ_AND_WRINE);
-						}
-					}
-					synchronized (mWorkingCount){
-						if(mWorkDelay > 0){
-							try {
-								Thread.sleep(mWorkDelay);
-							} catch (InterruptedException e) {
-								e.printStackTrace();
-							}
-						}
-						if((mThreadPoolSize - mWorkingCount) > 0){
-							if(mWorkRunnable[i] != null){
-								if(!mWorkRunnable[i].isRunning()){
-									mWorkThread[i] = new Thread(mWorkRunnable[i].setWork(info));
-									mWorkThread[i].start();
-								}
-							}else{
-								mWorkRunnable[i] = new WorkRunnable(i, mQueue, mParser, info, mWorkListener);
-								mWorkThread[i] = new Thread(mWorkRunnable[i]);
-								mWorkThread[i].start();
-							}
-						}
-					}
-				}
-			}
-		}
-		//System.err.println("end notifyWorker()");
-	}
 	
 	public int upWorkingThread() {
 		return ++mWorkingCount;

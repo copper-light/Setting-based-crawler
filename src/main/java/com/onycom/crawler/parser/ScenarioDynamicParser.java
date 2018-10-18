@@ -12,20 +12,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.openqa.selenium.WebElement;
 
+import com.onycom.common.CrawlerLog;
 import com.onycom.common.Util;
 import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.Scenario;
 import com.onycom.crawler.data.Work;
+import com.onycom.crawler.writer.DBWriter;
 
 public class ScenarioDynamicParser extends Parser {
-	public static final Logger mLogger = LogManager.getLogger(ScenarioDynamicParser.class);
-	static {
-		mLogger.setLevel(Level.ALL);
+	static Logger mLogger = CrawlerLog.GetInstance(ScenarioDynamicParser.class);
 
-	}
-
-	
 	public ScenarioDynamicParser() {
 	}
 

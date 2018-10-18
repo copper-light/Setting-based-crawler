@@ -11,12 +11,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.google.gson.JsonObject;
+import com.onycom.common.CrawlerLog;
 
 /**
  * 설정 정보를 담는 객체. json 형태의 설정파일을 파싱하여 객체화함
  */
 public class Config {
-	static Logger mLogger = Logger.getLogger(Config.class);
+	static Logger mLogger = CrawlerLog.GetInstanceSysout(Config.class);
 
 	public static final String SAVE_TYPE_DB = "DB";
 	public static final String SAVE_TYPE_CSV = "CSV";
@@ -49,6 +50,7 @@ public class Config {
 	public String OUTPUT_DB_PATH = "";
 	public String OUTPUT_DB_ID = "";
 	public String OUTPUT_DB_PW = "";
+	public String CRAWLING_NAME = "";
 	
 	public boolean SAVE_HTML = false;
 
@@ -62,6 +64,7 @@ public class Config {
 
 	Map<String, Robots> mRobots;
 
+	public static final String KEY_CRAWLING_NAME = "name";
 	public static final String KEY_IGNORE_ROBOTS = "ignore_robots";
 	public static final String KEY_CRAWLING_MAX_DEPTH = "crawling_max_depth";
 	public static final String KEY_CRAWLING_DELAY = "crawling_delay";
@@ -73,43 +76,45 @@ public class Config {
 	public static final String KEY_OUTPUT_DB_PW = "output_db_pw";
 	public static final String KEY_OUTPUT_DB_PATH = "output_db_path";
 	public static final String KEY_SAVE_HTML = "save_html";
+	public static final boolean KEY_SELENIUM_HEADLESS = true;
 	
 	public boolean setConfig(String config){
 		JSONObject root;
 		try{
 			root = new JSONObject(config);
 		}catch(JSONException e){
-			mLogger.error("Config ERR : wrong config file");
+			System.out.println("Config ERR : wrong config file");
 			return false;
 		}
+		
+		if(!root.isNull(KEY_CRAWLING_NAME)){
+			CRAWLING_NAME = root.getString(KEY_CRAWLING_NAME);
+		}else{
+			CRAWLING_NAME = "DEFAULT_CRAWLER";
+		}
+		
 		if(!root.isNull(KEY_IGNORE_ROBOTS)){
 			IGNORE_ROBOTS = root.getBoolean(KEY_IGNORE_ROBOTS);
-			mLogger.info("Set Config ignore_robots : " + IGNORE_ROBOTS);
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_MAX_DEPTH)){
 			CRAWLING_MAX_DEPTH = root.getInt(KEY_CRAWLING_MAX_DEPTH);
-			mLogger.info("Set Config crawling_max_depth : " + CRAWLING_MAX_DEPTH);
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_DELAY)){
 			CRAWLING_DELAY = root.getInt(KEY_CRAWLING_DELAY);
-			mLogger.info("Set Config crawling_delay : " + CRAWLING_DELAY);
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_MAX_COUNT)){
 			CRAWLING_MAX_COUNT = root.getInt(KEY_CRAWLING_MAX_COUNT);
-			mLogger.info("Set Config crawling_max_count : " + CRAWLING_MAX_COUNT);
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_TYPE)){
 			CRAWLING_TYPE = root.getString(KEY_CRAWLING_TYPE);
-			mLogger.info("Set Config crawling_type : " + CRAWLING_TYPE);
 		}
 		
 		if(!root.isNull(KEY_CONTENTS_SAVE_TYPE)){
 			OUTPUT_SAVE_TYPE = root.getString(KEY_CONTENTS_SAVE_TYPE);
-			mLogger.info("Set Config contents_save_type : " + OUTPUT_SAVE_TYPE);
 		}
 		
 		if(!root.isNull(KEY_OUTPUT_FILE_PATH)){
@@ -130,8 +135,12 @@ public class Config {
 		
 		if(!root.isNull(KEY_SAVE_HTML)){
 			SAVE_HTML = root.getBoolean(KEY_SAVE_HTML);
-			mLogger.info("Set Config save_html : " + SAVE_HTML);
 		}
+//		
+//		if(!root.isNull(KEY_)){
+//			IGNORE_ROBOTS = root.getBoolean(KEY_IGNORE_ROBOTS);
+//			mLogger.info("Set Config ignore_robots : " + IGNORE_ROBOTS);
+//		}
 		
 		
 		//CRAWLING_UPPER_SEARCH = root.getBoolean("crawling_upper_search");
@@ -177,7 +186,7 @@ public class Config {
 				}
 			}
 		}catch(JSONException e){ // seed 파싱을 못할 경우 크롤링을 아예 진행하지 않도록
-			mLogger.error("Config ERR : seed");
+			System.out.println("Config ERR : seed");
 			return false;
 		}
 		
@@ -196,8 +205,8 @@ public class Config {
 						mFilterDuplicate.add(duplicate);
 					}
 				}
-				mLogger.info("CONFIG duplicate : " + array.length());
-			} catch (JSONException e) { mLogger.info("CONFIG duplicate : 0"); mFilterDuplicate.clear(); }
+				System.out.println("CONFIG duplicate : " + array.length());
+			} catch (JSONException e) { mFilterDuplicate.clear(); }
 			
 			try {
 				array = object.getJSONArray("allow");
@@ -206,8 +215,8 @@ public class Config {
 						mFilterAllow.add((String) url);
 					}
 				}
-				mLogger.info("CONFIG allow : " + array.length());
-			} catch (JSONException e) { mLogger.info("CONFIG allow : 0"); mFilterAllow.clear(); }
+				System.out.println("CONFIG allow : " + array.length());
+			} catch (JSONException e) {  mFilterAllow.clear(); }
 
 			try {
 				array = object.getJSONArray("disallow");
@@ -216,8 +225,8 @@ public class Config {
 						mFilterDisallow.add((String) url);
 					}
 				}
-				mLogger.info("CONFIG disallow : " + array.length());
-			} catch (JSONException e) { mLogger.info("CONFIG disallow : 0"); mFilterDisallow.clear();}
+				System.out.println("CONFIG disallow : " + array.length());
+			} catch (JSONException e) { mFilterDisallow.clear();}
 
 			try {
 				array = object.getJSONArray("leaf_url");
@@ -226,9 +235,9 @@ public class Config {
 						mLeafURL.add((String) url);
 					}
 				}
-				mLogger.info("CONFIG leaf_url : " + array.length());
-			} catch (JSONException e) { mLogger.info("CONFIG leaf_url : 0"); mLeafURL.clear(); }
-		} catch (JSONException e) { mLogger.info("CONFIG FILTER : 0");}
+				System.out.println("CONFIG leaf_url : " + array.length());
+			} catch (JSONException e) { mLeafURL.clear(); }
+		} catch (JSONException e) { }
 
 		JSONArray aryCols,aryJson;
 		JSONObject col, jsonElement;
@@ -296,7 +305,7 @@ public class Config {
 					mCollects.add(recode);
 				} catch (JSONException e) { 
 					//mCollects.clear(); 
-					mLogger.info("Config err : collect_recode " + i + "row");
+					System.out.println("Config err : collect_recode " + i + "row");
 					//e.printStackTrace(); 
 				}
 			}
@@ -334,7 +343,9 @@ public class Config {
 					scenario.getAction(j);
 				}
 			}
-		} catch (JSONException e){ e.printStackTrace(); mScenarios.clear(); }
+		} catch (JSONException e){ 
+			mScenarios.clear(); 
+		}
 		
 		return true;
 	}

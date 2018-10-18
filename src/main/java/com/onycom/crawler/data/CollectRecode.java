@@ -100,7 +100,7 @@ public class CollectRecode {
 		String data_type;      /* 저장될 데이터 타입 */
 		String data_name;      /* 저장될 데이터 이름 */
 		boolean key = false;
-		boolean allow_null = true;
+		boolean allow_null = false;
 		String[] regex_filter;
 		
 		public Column(String type, Element[] elments, String data_type, String data_name){

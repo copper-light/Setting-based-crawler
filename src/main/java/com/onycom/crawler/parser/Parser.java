@@ -17,8 +17,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import com.onycom.SettingBasedCrawler.Crawler;
+import com.onycom.common.CrawlerLog;
 import com.onycom.common.Util;
-import com.onycom.crawler.core.Crawler;
 import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
@@ -31,10 +32,7 @@ import com.onycom.crawler.data.Work;
  * <b>C</b> : 저장할 콘텐츠 객체
  * */
 public abstract class Parser {
-	public static final Logger mLogger = LogManager.getLogger(Parser.class);
-	static {
-		mLogger.setLevel(Level.ALL);
-	}
+	static Logger mLogger = CrawlerLog.GetInstance(Parser.class);
 	
 	Config mConfig;
 	
@@ -141,7 +139,7 @@ public abstract class Parser {
 		Matcher matcher;
 		boolean isParsingDocument = false;
 		for(CollectRecode recode : aryRecode){
-			mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
+			//mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
 			contents = null;
 			
@@ -215,9 +213,11 @@ public abstract class Parser {
 											}
 											break;
 										}
+										
 									}
 								}
 							}
+							
 							if(value != null){
 								//mLogger.debug("  [parse content] " +data_name + " @ "+ value);
 								contents.add(data_name, value);
@@ -227,10 +227,10 @@ public abstract class Parser {
 								}else{ 
 									/* 엘리먼트를 찾을 수 없음 : 오류 */
 									if(!collectCol.isAllowNull()){
-										mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
+										//mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
 										for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
 											work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
-											mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
+											//mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
 										}
 									}
 								}
@@ -255,7 +255,7 @@ public abstract class Parser {
 				tmp = sdf.format(new Date(System.currentTimeMillis()));
 				tmp = f.getPath()+"/"+url+"_"+tmp+".html";
 				if(!Util.WriteFile(tmp, document.html())){
-					mLogger.error("ERR - Can't save the html file.");
+					work.result().addError(Work.Error.ERR, "Can't save the html file.");
 				}
 			}
 		}
@@ -275,11 +275,10 @@ public abstract class Parser {
 		if(aryContents != null){
 			for(Contents contents : aryContents){
 				if(contents != null){
-					idx ++;
 					try {
-						Crawler.Writer.write(contents);
+						idx += Crawler.Writer.write(contents);
 					} catch(Exception e){
-						e.getMessage();
+						urlInfo.result().addError(Work.Error.ERR_WRITE, "Contents write failed");
 					}
 				}
 			}

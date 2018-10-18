@@ -1,6 +1,8 @@
 package com.onycom.crawler.data;
 
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.JSONArray;
 
@@ -34,17 +36,39 @@ public class Duplicate {
 		if(data == null) return null;
 		String ret = null;
 		String value;
-		ret = mRegex.replace("<URL>", Util.ConvertForRegex(info.getURL()));
-		if(mKeys == null) return ret;
-		for(int i = 0 ; i < mKeys.length ; i++){
-			value = data.get(mKeys[i]);
-			if(value != null){
-				ret = ret.replace("<"+i+">", value);
+		ret = mRegex.replace("<$URL>", Util.ConvertForRegex(info.getURL()));
+		
+		int sIdx,eIdx = -1;
+		String key;
+		while((sIdx = ret.indexOf("<$")) != -1){
+			eIdx = ret.indexOf(">", sIdx+2);
+			if(eIdx != -1){
+				key = ret.substring(sIdx+2, eIdx);
+				value = data.get(key);
+				ret = ret.substring(0,sIdx) + value + ret.substring(eIdx+1);
 			}else{
-				ret = null;
 				break;
 			}
 		}
+		
+		//Pattern pattern = Pattern.compile("<\\$[a-zA-Z]+>");
+//		String value = null;
+//		while(matcher.find()){
+//			value = matcher.group();
+//			System.out.println(value);
+//			
+//		}
+		
+		
+//		for(int i = 0 ; i < mKeys.length ; i++){
+//			value = data.get(mKeys[i]);
+//			if(value != null){
+//				ret = ret.replace("<"+i+">", value);
+//			}else{
+//				ret = null;
+//				break;
+//			}
+//		}
 		return ret;
 	}
 }
