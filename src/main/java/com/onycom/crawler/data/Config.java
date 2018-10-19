@@ -89,8 +89,11 @@ public class Config {
 		
 		if(!root.isNull(KEY_CRAWLING_NAME)){
 			CRAWLING_NAME = root.getString(KEY_CRAWLING_NAME);
+			CRAWLING_NAME = CRAWLING_NAME.trim().replace(" ", "_");
 		}else{
-			CRAWLING_NAME = "DEFAULT_CRAWLER";
+			//CRAWLING_NAME = "DEFAULT_CRAWLER";
+			System.out.println("Config ERR : Require crawling name");
+			return false;
 		}
 		
 		if(!root.isNull(KEY_IGNORE_ROBOTS)){

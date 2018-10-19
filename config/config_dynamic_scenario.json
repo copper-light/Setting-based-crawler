@@ -1,0 +1,146 @@
+{
+	"name" : "scen_based_wemakeprice",
+	"seed" : {
+		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
+		"type" : "GET",
+		"data" : [
+			{"key" : "search_keyword", "value" : "<%0%>"},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""},
+			{"key" : "", "value" : ""}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",
+	"crawling_delay" : 0,
+	"crawling_max_count" : -1,
+	"contents_save_type" : "DB",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+
+	"scenario" : [
+		{
+			"depth" : 0,
+			"action" : [
+				{
+					"type": "click",
+					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc",
+					"target_depth" : 1
+				},
+				{
+					"type" : "javascript", 
+					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc", 
+					"value" : "var selector= \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}", 
+					"target_depth" : 0
+				}
+			]
+		},
+		{
+			"depth" : 1,
+			"action" : [
+				{
+					"type" : "switch_window",
+					"value" : "+1"
+				},
+				{
+					"type" : "parse_contents",
+					"selector" : ".deal_tit"
+				},
+				{
+					"type" : "close_window"
+				}
+			]
+		}
+    ],
+    
+	"collect_recode" : [
+		{
+			"depth" : 1,
+			"regex_url" : "",
+			"name" : "T_WMP6",
+			"recode_selector" : "",
+			"column" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"data_type" : "varchar(100)",
+					"data_name" : "title",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":".deal_tit", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "varchar(100)",
+					"data_name" : "price",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector": "#contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#_infoDescription > div:nth-child(1) > div.price > div > strong > em", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#_infoDescription > div:nth-child(2) > div.price > div > strong > em", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "int",
+					"data_name" : "sales_rate",
+					"regex_filter" : ["[0-9]+"],
+					"element" : [
+						{
+							"find_from_root" : false,
+							"selector" : "#contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong", 
+							"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong", 
+						 	"type": "text"
+						},
+						{
+							"from_root" : false,
+							"selector": "#contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong", 
+						 	"type": "text"
+						}
+					]
+				}
+			]
+		}
+    ]
+}

@@ -18,6 +18,7 @@ import java.util.Map;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
+import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.common.CrawlerLog;
 import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
@@ -61,7 +62,9 @@ public class CsvWriter implements Writer{
 		if(mConfig.OUTPUT_FILE_PATH != null && mConfig.OUTPUT_FILE_PATH.length() > 0){
 			outputDir = new File(mConfig.OUTPUT_FILE_PATH);
 		}else{
-			outputDir = new File("./output");
+			SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
+			String tmp = sdf.format(new Date(Crawler.GetStartTime()));
+			outputDir = new File("./output/"+ mConfig.CRAWLING_NAME +"_"+tmp);
 		}
 		
 		if(!outputDir.exists()){

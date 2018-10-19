@@ -246,14 +246,12 @@ public abstract class Parser {
 			if(getConfig().SAVE_HTML && isParsingDocument){
 				SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
 				String tmp = sdf.format(new Date(Crawler.GetStartTime()));
-				String url = work.getDomainURL().replace("https://", "");
-				url = url.replace("http://", "");
-				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ url+"_"+tmp);
+				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ mConfig.CRAWLING_NAME +"_"+tmp);
 				if(!f.exists()){
 					f.mkdirs();
 				}
 				tmp = sdf.format(new Date(System.currentTimeMillis()));
-				tmp = f.getPath()+"/"+url+"_"+tmp+".html";
+				tmp = f.getPath()+"/"+ mConfig.CRAWLING_NAME+"_"+tmp+".html";
 				if(!Util.WriteFile(tmp, document.html())){
 					work.result().addError(Work.Error.ERR, "Can't save the html file.");
 				}

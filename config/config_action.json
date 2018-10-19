@@ -4,7 +4,7 @@
 		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
 		"type" : "GET",
 		"data" : [
-			{"key" : "search_keyword", "value" : "<$0>"},
+			{"key" : "search_keyword", "value" : "<%0%>"},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
 			{"key" : "", "value" : ""},
@@ -15,13 +15,13 @@
 	"crawling_max_depth" : -1,
 	"crawling_type" : "SCENARIO_DYNAMIC",
 	"crawling_delay" : 0,
-	"crawling_max_count" : -1,
-	"crawling_upper_search" : false,
-	"contents_save_type" : "DB",
+	"crawling_max_count" : 10,	
+	"contents_save_type" : "CSV",
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
 	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+	"save_html" : true,
 
 	"scenario" : [
 		{

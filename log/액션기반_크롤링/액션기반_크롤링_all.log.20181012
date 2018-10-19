@@ -1,0 +1,1405 @@
+2018-10-12 13:19:14 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 13:19:20 INFO  Crawler:218 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 13:19:20 INFO  Crawler:218 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 13:19:21 INFO  Crawler:218 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 13:19:22 INFO  Crawler:218 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 13:19:22 INFO  Crawler:218 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 13:19:23 INFO  Crawler:218 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 13:19:23 INFO  Crawler:218 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 13:19:23 INFO  Crawler:218 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 13:19:24 INFO  Crawler:218 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 13:19:24 INFO  Crawler:218 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 13:19:25 INFO  Crawler:218 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 13:19:25 INFO  Crawler:218 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 13:19:25 INFO  Crawler:218 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 13:19:26 INFO  Crawler:218 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 13:19:26 INFO  Crawler:218 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 13:19:26 INFO  Crawler:218 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 13:19:26 INFO  Crawler:218 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 13:19:26 INFO  Crawler:218 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 13:19:28 INFO  Crawler:218 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 13:19:28 INFO  Crawler:218 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 13:19:28 INFO  Crawler:218 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 13:19:28 INFO  Crawler:218 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 13:19:28 INFO  Crawler:218 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 13:19:29 INFO  Crawler:218 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 13:19:30 INFO  Crawler:218 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 13:19:30 INFO  Crawler:218 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 13:19:30 INFO  Crawler:218 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 13:19:30 INFO  Crawler:218 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 13:19:31 INFO  Crawler:218 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 13:19:31 INFO  Crawler:218 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 13:19:31 INFO  Crawler:218 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 13:19:32 INFO  Crawler:218 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 13:19:32 INFO  Crawler:218 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 13:19:33 INFO  Crawler:218 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 13:19:33 INFO  Crawler:218 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 13:19:33 INFO  Crawler:218 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 13:19:33 INFO  Crawler:218 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 13:19:33 INFO  Crawler:218 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 13:19:34 INFO  Crawler:218 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 13:19:34 INFO  Crawler:218 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 13:19:35 INFO  Crawler:218 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 13:19:35 INFO  Crawler:218 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 13:19:35 INFO  Crawler:218 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 13:19:36 INFO  Crawler:218 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 13:19:36 INFO  Crawler:218 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 13:19:36 INFO  Crawler:218 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 13:19:37 INFO  Crawler:218 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 13:19:37 INFO  Crawler:218 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 13:19:38 INFO  Crawler:218 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 13:19:38 INFO  Crawler:218 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 13:19:38 INFO  Crawler:218 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 13:19:38 INFO  Crawler:218 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 13:19:38 INFO  Crawler:218 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 13:19:39 INFO  Crawler:218 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 13:19:40 INFO  Crawler:218 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 13:19:40 INFO  Crawler:218 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 13:19:40 INFO  Crawler:218 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 13:19:40 INFO  Crawler:218 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 13:19:41 INFO  Crawler:218 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 13:19:41 INFO  Crawler:218 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 13:19:41 INFO  Crawler:218 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 13:19:52 ERROR Crawler:211 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:19:52 ERROR Crawler:214 -    - ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:19:52 INFO  Crawler:218 - [Progress 62] save : 12, err : 1, remain_work : 1, total : 63
+2018-10-12 13:20:02 ERROR Crawler:211 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:20:02 ERROR Crawler:214 -    - ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:20:02 INFO  Crawler:218 - [Progress 63] save : 12, err : 2, remain_work : 0, total : 63
+2018-10-12 13:20:03 INFO  Crawler:252 - ============== Finish Crawler =============
+2018-10-12 13:20:03 INFO  Crawler:253 - [total time] 00:00:43
+2018-10-12 13:20:03 INFO  Crawler:254 - [save contents] 12
+2018-10-12 13:20:03 INFO  Crawler:255 - [error work] 2
+2018-10-12 13:20:03 INFO  Crawler:256 - [remain work] 0
+2018-10-12 13:20:03 INFO  Crawler:257 - [total processed work] 63
+2018-10-12 13:27:22 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 13:27:22 INFO  Crawler:191 - name : 액션기반 크롤링
+2018-10-12 13:27:22 INFO  Crawler:192 - CRAWLER_TYPE : SCENARIO_DYNAMIC
+2018-10-12 13:27:22 INFO  Crawler:193 - IGNORE_ROBOTS : true
+2018-10-12 13:27:22 INFO  Crawler:194 - FILTER : 0000
+2018-10-12 13:27:22 INFO  Crawler:198 - SCENARIO : 2
+2018-10-12 13:27:22 INFO  Crawler:199 - COLLECT_RECORD : 1
+2018-10-12 13:27:22 INFO  Crawler:200 - SAVE_TYPE : DB
+2018-10-12 13:27:22 INFO  Crawler:201 - ==========================================
+2018-10-12 13:29:41 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 13:29:41 INFO  Crawler:191 - name : 액션기반 크롤링
+2018-10-12 13:29:41 INFO  Crawler:192 - CRAWLER_TYPE : SCENARIO_DYNAMIC
+2018-10-12 13:29:41 INFO  Crawler:193 - IGNORE_ROBOTS : true
+2018-10-12 13:29:41 INFO  Crawler:194 - FILTER : 0
+2018-10-12 13:29:41 INFO  Crawler:198 - SCENARIO : 2
+2018-10-12 13:29:41 INFO  Crawler:199 - COLLECT_RECORD : 1
+2018-10-12 13:29:41 INFO  Crawler:200 - SAVE_TYPE : DB
+2018-10-12 13:29:41 INFO  Crawler:201 - ==========================================
+2018-10-12 13:29:46 INFO  Crawler:229 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 13:29:47 INFO  Crawler:229 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 13:29:47 INFO  Crawler:229 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 13:29:48 INFO  Crawler:229 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 13:31:03 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 13:31:03 INFO  Crawler:191 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 13:31:03 INFO  Crawler:192 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 13:31:03 INFO  Crawler:193 - IGNORE ROBOTS  : true
+2018-10-12 13:31:03 INFO  Crawler:194 - FILTER COUNT   : 0
+2018-10-12 13:31:03 INFO  Crawler:198 - SCENARIO COUNT : 2
+2018-10-12 13:31:03 INFO  Crawler:199 - COLLECT COUNT  : 1
+2018-10-12 13:31:03 INFO  Crawler:200 - SAVE TYPE      : DB
+2018-10-12 13:31:03 INFO  Crawler:201 - ==========================================
+2018-10-12 13:31:09 INFO  Crawler:229 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 13:31:09 INFO  Crawler:229 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 13:31:09 INFO  Crawler:229 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 13:31:11 INFO  Crawler:229 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 13:31:11 INFO  Crawler:229 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 13:31:11 INFO  Crawler:229 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 13:31:11 INFO  Crawler:229 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 13:31:11 INFO  Crawler:229 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 13:31:13 INFO  Crawler:229 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 13:31:13 INFO  Crawler:229 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 13:31:13 INFO  Crawler:229 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 13:31:13 INFO  Crawler:229 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 13:31:13 INFO  Crawler:229 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 13:31:14 INFO  Crawler:229 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 13:31:14 INFO  Crawler:229 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 13:31:15 INFO  Crawler:229 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 13:31:15 INFO  Crawler:229 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 13:31:15 INFO  Crawler:229 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 13:31:16 INFO  Crawler:229 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 13:31:16 INFO  Crawler:229 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 13:31:16 INFO  Crawler:229 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 13:31:16 INFO  Crawler:229 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 13:31:16 INFO  Crawler:229 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 13:31:17 INFO  Crawler:229 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 13:31:18 INFO  Crawler:229 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 13:31:18 INFO  Crawler:229 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 13:31:18 INFO  Crawler:229 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 13:31:18 INFO  Crawler:229 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 13:31:19 INFO  Crawler:229 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 13:31:19 INFO  Crawler:229 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 13:31:19 INFO  Crawler:229 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 13:31:19 INFO  Crawler:229 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 13:31:19 INFO  Crawler:229 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 13:31:20 INFO  Crawler:229 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 13:31:21 INFO  Crawler:229 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 13:31:21 INFO  Crawler:229 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 13:31:21 INFO  Crawler:229 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 13:31:21 INFO  Crawler:229 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 13:31:22 INFO  Crawler:229 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 13:31:22 INFO  Crawler:229 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 13:31:22 INFO  Crawler:229 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 13:31:22 INFO  Crawler:229 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 13:31:22 INFO  Crawler:229 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 13:31:24 INFO  Crawler:229 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 13:31:24 INFO  Crawler:229 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 13:31:24 INFO  Crawler:229 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 13:31:24 INFO  Crawler:229 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 13:31:24 INFO  Crawler:229 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 13:31:25 INFO  Crawler:229 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 13:31:25 INFO  Crawler:229 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 13:31:25 INFO  Crawler:229 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 13:31:26 INFO  Crawler:229 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 13:31:26 INFO  Crawler:229 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 13:35:51 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 13:35:51 INFO  Crawler:191 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 13:35:51 INFO  Crawler:192 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 13:35:51 INFO  Crawler:193 - IGNORE ROBOTS  : true
+2018-10-12 13:35:51 INFO  Crawler:194 - FILTER COUNT   : 0
+2018-10-12 13:35:51 INFO  Crawler:198 - SCENARIO COUNT : 2
+2018-10-12 13:35:51 INFO  Crawler:199 - COLLECT COUNT  : 1
+2018-10-12 13:35:51 INFO  Crawler:200 - SAVE TYPE      : DB
+2018-10-12 13:35:51 INFO  Crawler:201 - ==========================================
+2018-10-12 13:35:57 INFO  Crawler:229 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 13:35:57 INFO  Crawler:229 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 13:35:57 INFO  Crawler:229 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 13:35:59 INFO  Crawler:229 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 13:35:59 INFO  Crawler:229 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 13:36:00 INFO  Crawler:229 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 13:36:00 INFO  Crawler:229 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 13:36:00 INFO  Crawler:229 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 13:36:02 INFO  Crawler:229 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 13:36:02 INFO  Crawler:229 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 13:36:02 INFO  Crawler:229 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 13:36:02 INFO  Crawler:229 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 13:36:02 INFO  Crawler:229 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 13:36:04 INFO  Crawler:229 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 13:36:04 INFO  Crawler:229 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 13:36:04 INFO  Crawler:229 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 13:36:04 INFO  Crawler:229 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 13:36:04 INFO  Crawler:229 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 13:36:06 INFO  Crawler:229 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 13:36:06 INFO  Crawler:229 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 13:36:06 INFO  Crawler:229 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 13:36:06 INFO  Crawler:229 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 13:36:06 INFO  Crawler:229 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 13:36:08 INFO  Crawler:229 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 13:36:08 INFO  Crawler:229 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 13:36:08 INFO  Crawler:229 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 13:36:08 INFO  Crawler:229 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 13:36:08 INFO  Crawler:229 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 13:36:09 INFO  Crawler:229 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 13:36:09 INFO  Crawler:229 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 13:36:09 INFO  Crawler:229 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 13:36:10 INFO  Crawler:229 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 13:36:10 INFO  Crawler:229 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 13:36:11 INFO  Crawler:229 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 13:36:11 INFO  Crawler:229 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 13:36:11 INFO  Crawler:229 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 13:36:11 INFO  Crawler:229 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 13:36:11 INFO  Crawler:229 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 13:36:12 INFO  Crawler:229 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 13:36:12 INFO  Crawler:229 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 13:36:12 INFO  Crawler:229 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 13:36:13 INFO  Crawler:229 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 13:36:13 INFO  Crawler:229 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 13:36:14 INFO  Crawler:229 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 13:36:14 INFO  Crawler:229 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 13:36:14 INFO  Crawler:229 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 13:36:14 INFO  Crawler:229 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 13:36:14 INFO  Crawler:229 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 13:36:15 INFO  Crawler:229 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 13:36:15 INFO  Crawler:229 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 13:36:15 INFO  Crawler:229 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 13:36:16 INFO  Crawler:229 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 13:36:16 INFO  Crawler:229 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 13:36:17 INFO  Crawler:229 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 13:36:17 INFO  Crawler:229 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 13:36:17 INFO  Crawler:229 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 13:36:17 INFO  Crawler:229 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 13:36:17 INFO  Crawler:229 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 13:36:18 INFO  Crawler:229 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 13:36:18 INFO  Crawler:229 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 13:36:18 INFO  Crawler:229 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 13:36:29 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:36:29 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:36:29 INFO  Crawler:229 - [Progress 62] save : 12, err : 1, remain_work : 1, total : 63
+2018-10-12 13:36:39 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 13:36:39 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 13:36:39 INFO  Crawler:229 - [Progress 63] save : 12, err : 2, remain_work : 0, total : 63
+2018-10-12 13:36:40 INFO  Crawler:263 - ============== Finish Crawler =============
+2018-10-12 13:36:40 INFO  Crawler:264 - [total time] 00:00:44
+2018-10-12 13:36:40 INFO  Crawler:265 - [save contents] 12
+2018-10-12 13:36:40 INFO  Crawler:266 - [error work] 2
+2018-10-12 13:36:40 INFO  Crawler:267 - [remain work] 0
+2018-10-12 13:36:40 INFO  Crawler:268 - [total processed work] 63
+2018-10-12 14:04:37 INFO  Crawler:190 - ============== Start Crawler =============
+2018-10-12 14:04:37 INFO  Crawler:191 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 14:04:37 INFO  Crawler:192 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 14:04:37 INFO  Crawler:193 - IGNORE ROBOTS  : true
+2018-10-12 14:04:37 INFO  Crawler:194 - FILTER COUNT   : 0
+2018-10-12 14:04:37 INFO  Crawler:198 - SCENARIO COUNT : 2
+2018-10-12 14:04:37 INFO  Crawler:199 - COLLECT COUNT  : 1
+2018-10-12 14:04:37 INFO  Crawler:200 - SAVE TYPE      : DB
+2018-10-12 14:04:37 INFO  Crawler:201 - ==========================================
+2018-10-12 14:05:02 INFO  Crawler:229 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 14:05:03 INFO  Crawler:229 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 14:05:03 INFO  Crawler:229 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 14:05:04 INFO  Crawler:229 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 14:05:05 INFO  Crawler:229 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 14:05:05 INFO  Crawler:229 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 14:05:05 INFO  Crawler:229 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 14:05:05 INFO  Crawler:229 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 14:05:06 INFO  Crawler:229 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 14:05:07 INFO  Crawler:229 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 14:05:07 INFO  Crawler:229 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 14:05:07 INFO  Crawler:229 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 14:05:07 INFO  Crawler:229 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 14:05:08 INFO  Crawler:229 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 14:05:08 INFO  Crawler:229 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 14:05:08 INFO  Crawler:229 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 14:05:09 INFO  Crawler:229 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 14:05:09 INFO  Crawler:229 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 14:05:10 INFO  Crawler:229 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 14:05:10 INFO  Crawler:229 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 14:05:10 INFO  Crawler:229 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 14:05:10 INFO  Crawler:229 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 14:05:10 INFO  Crawler:229 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 14:05:11 INFO  Crawler:229 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 14:05:11 INFO  Crawler:229 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 14:05:12 INFO  Crawler:229 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 14:05:12 INFO  Crawler:229 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 14:05:12 INFO  Crawler:229 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 14:05:13 INFO  Crawler:229 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 14:05:13 INFO  Crawler:229 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 14:05:13 INFO  Crawler:229 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 14:05:13 INFO  Crawler:229 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 14:05:13 INFO  Crawler:229 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 14:05:14 INFO  Crawler:229 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 14:05:14 INFO  Crawler:229 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 14:05:14 INFO  Crawler:229 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 14:05:15 INFO  Crawler:229 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 14:05:15 INFO  Crawler:229 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 14:05:16 INFO  Crawler:229 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 14:05:16 INFO  Crawler:229 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 14:05:16 INFO  Crawler:229 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 14:05:16 INFO  Crawler:229 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 14:05:16 INFO  Crawler:229 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 14:05:17 INFO  Crawler:229 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 14:05:17 INFO  Crawler:229 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 14:05:17 INFO  Crawler:229 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 14:05:18 INFO  Crawler:229 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 14:05:18 INFO  Crawler:229 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 14:05:19 INFO  Crawler:229 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 14:05:19 INFO  Crawler:229 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 14:05:19 INFO  Crawler:229 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 14:05:19 INFO  Crawler:229 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 14:05:19 INFO  Crawler:229 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 14:05:20 INFO  Crawler:229 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 14:05:20 INFO  Crawler:229 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 14:05:20 INFO  Crawler:229 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 14:05:20 INFO  Crawler:229 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 14:05:20 INFO  Crawler:229 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 14:05:22 INFO  Crawler:229 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 14:05:22 INFO  Crawler:229 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 14:05:22 INFO  Crawler:229 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 14:05:32 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 14:05:32 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 14:05:32 INFO  Crawler:229 - [Progress 62] save : 12, err : 1, remain_work : 1, total : 63
+2018-10-12 14:05:42 ERROR Crawler:222 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3?=&search_keyword=%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%EB%9E%AD%20%EC%BF%A8%EB%9F%AC
+2018-10-12 14:05:42 ERROR Crawler:225 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-10-12 14:05:42 INFO  Crawler:229 - [Progress 63] save : 12, err : 2, remain_work : 0, total : 63
+2018-10-12 14:05:43 INFO  Crawler:263 - ============== Finish Crawler =============
+2018-10-12 14:05:43 INFO  Crawler:264 - [total time] 00:01:01
+2018-10-12 14:05:43 INFO  Crawler:265 - [save contents] 12
+2018-10-12 14:05:43 INFO  Crawler:266 - [error work] 2
+2018-10-12 14:05:43 INFO  Crawler:267 - [remain work] 0
+2018-10-12 14:05:43 INFO  Crawler:268 - [total processed work] 63
+2018-10-12 15:32:31 INFO  Crawler:196 - ============== Start Crawler =============
+2018-10-12 15:32:31 INFO  Crawler:197 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:32:31 INFO  Crawler:198 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:32:31 INFO  Crawler:199 - IGNORE ROBOTS  : true
+2018-10-12 15:32:31 INFO  Crawler:200 - FILTER COUNT   : 0
+2018-10-12 15:32:31 INFO  Crawler:204 - SCENARIO COUNT : 2
+2018-10-12 15:32:31 INFO  Crawler:205 - COLLECT COUNT  : 1
+2018-10-12 15:32:31 INFO  Crawler:206 - SAVE TYPE      : DB
+2018-10-12 15:32:31 INFO  Crawler:207 - ==========================================
+2018-10-12 15:32:37 INFO  Crawler:235 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:32:38 INFO  Crawler:235 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:32:38 INFO  Crawler:235 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:32:42 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4057475/?source=dealsearch&search_keyword=%3C%240%3E&no=1&_service=3
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:42 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:32:42 INFO  Crawler:235 - [Progress 4] save : 1, err : 8, remain_work : 2, total : 6
+2018-10-12 15:32:42 INFO  Crawler:235 - [Progress 5] save : 1, err : 8, remain_work : 1, total : 6
+2018-10-12 15:32:43 INFO  Crawler:235 - [Progress 6] save : 1, err : 8, remain_work : 2, total : 8
+2018-10-12 15:32:43 INFO  Crawler:235 - [Progress 7] save : 1, err : 8, remain_work : 4, total : 11
+2018-10-12 15:32:43 INFO  Crawler:235 - [Progress 8] save : 1, err : 8, remain_work : 3, total : 11
+2018-10-12 15:32:46 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4054964/?source=dealsearch&search_keyword=%3C%240%3E&no=2&_service=3
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:46 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:32:46 INFO  Crawler:235 - [Progress 9] save : 2, err : 16, remain_work : 2, total : 11
+2018-10-12 15:32:46 INFO  Crawler:235 - [Progress 10] save : 2, err : 16, remain_work : 1, total : 11
+2018-10-12 15:32:46 INFO  Crawler:235 - [Progress 11] save : 2, err : 16, remain_work : 2, total : 13
+2018-10-12 15:32:46 INFO  Crawler:235 - [Progress 12] save : 2, err : 16, remain_work : 4, total : 16
+2018-10-12 15:32:46 INFO  Crawler:235 - [Progress 13] save : 2, err : 16, remain_work : 3, total : 16
+2018-10-12 15:32:49 ERROR Crawler:228 - [ERR URL] http://www.wemakeprice.com/deal/adeal/4044356/?source=dealsearch&search_keyword=%3C%240%3E&no=3&_service=3
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.set_price_area > ul > li.sale > span.num, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(1) > div.price > div > strong > em, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : price, #_infoDescription > div:nth-child(2) > div.price > div > strong > em, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.wprice > div.buy_time > div > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(2) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #_infoDescription > div:nth-child(1) > div.box_inputarea > span > strong, text
+2018-10-12 15:32:49 ERROR Crawler:231 - L ERR_CONTENTS_COL : sales_rate, #contents > div.content-main > div.deal_area > div > div.price_area.app.new > div.price_info.discount > div.buy_time > div > strong, text
+2018-10-12 15:32:49 INFO  Crawler:235 - [Progress 14] save : 3, err : 24, remain_work : 2, total : 16
+2018-10-12 15:32:49 INFO  Crawler:235 - [Progress 15] save : 3, err : 24, remain_work : 1, total : 16
+2018-10-12 15:32:50 INFO  Crawler:235 - [Progress 16] save : 3, err : 24, remain_work : 2, total : 18
+2018-10-12 15:32:50 INFO  Crawler:235 - [Progress 17] save : 3, err : 24, remain_work : 4, total : 21
+2018-10-12 15:32:50 INFO  Crawler:235 - [Progress 18] save : 3, err : 24, remain_work : 3, total : 21
+2018-10-12 15:32:53 INFO  Crawler:235 - [Progress 19] save : 4, err : 24, remain_work : 2, total : 21
+2018-10-12 15:32:53 INFO  Crawler:235 - [Progress 20] save : 4, err : 24, remain_work : 1, total : 21
+2018-10-12 15:32:53 INFO  Crawler:235 - [Progress 21] save : 4, err : 24, remain_work : 2, total : 23
+2018-10-12 15:32:53 INFO  Crawler:235 - [Progress 22] save : 4, err : 24, remain_work : 4, total : 26
+2018-10-12 15:32:53 INFO  Crawler:235 - [Progress 23] save : 4, err : 24, remain_work : 3, total : 26
+2018-10-12 15:32:56 INFO  Crawler:235 - [Progress 24] save : 5, err : 24, remain_work : 2, total : 26
+2018-10-12 15:32:56 INFO  Crawler:235 - [Progress 25] save : 5, err : 24, remain_work : 1, total : 26
+2018-10-12 15:32:56 INFO  Crawler:235 - [Progress 26] save : 5, err : 24, remain_work : 2, total : 28
+2018-10-12 15:32:56 INFO  Crawler:235 - [Progress 27] save : 5, err : 24, remain_work : 4, total : 31
+2018-10-12 15:32:56 INFO  Crawler:235 - [Progress 28] save : 5, err : 24, remain_work : 3, total : 31
+2018-10-12 15:32:59 INFO  Crawler:235 - [Progress 29] save : 6, err : 24, remain_work : 2, total : 31
+2018-10-12 15:32:59 INFO  Crawler:235 - [Progress 30] save : 6, err : 24, remain_work : 1, total : 31
+2018-10-12 15:33:00 INFO  Crawler:235 - [Progress 31] save : 6, err : 24, remain_work : 2, total : 33
+2018-10-12 15:33:00 INFO  Crawler:235 - [Progress 32] save : 6, err : 24, remain_work : 4, total : 36
+2018-10-12 15:33:00 INFO  Crawler:235 - [Progress 33] save : 6, err : 24, remain_work : 3, total : 36
+2018-10-12 15:33:01 INFO  Crawler:235 - [Progress 34] save : 7, err : 24, remain_work : 2, total : 36
+2018-10-12 15:33:01 INFO  Crawler:235 - [Progress 35] save : 7, err : 24, remain_work : 1, total : 36
+2018-10-12 15:33:01 INFO  Crawler:235 - [Progress 36] save : 7, err : 24, remain_work : 2, total : 38
+2018-10-12 15:33:02 INFO  Crawler:235 - [Progress 37] save : 7, err : 24, remain_work : 4, total : 41
+2018-10-12 15:33:02 INFO  Crawler:235 - [Progress 38] save : 7, err : 24, remain_work : 3, total : 41
+2018-10-12 15:33:03 INFO  Crawler:235 - [Progress 39] save : 8, err : 24, remain_work : 2, total : 41
+2018-10-12 15:33:03 INFO  Crawler:235 - [Progress 40] save : 8, err : 24, remain_work : 1, total : 41
+2018-10-12 15:33:03 INFO  Crawler:235 - [Progress 41] save : 8, err : 24, remain_work : 2, total : 43
+2018-10-12 15:33:03 INFO  Crawler:235 - [Progress 42] save : 8, err : 24, remain_work : 4, total : 46
+2018-10-12 15:33:03 INFO  Crawler:235 - [Progress 43] save : 8, err : 24, remain_work : 3, total : 46
+2018-10-12 15:33:04 INFO  Crawler:235 - [Progress 44] save : 9, err : 24, remain_work : 2, total : 46
+2018-10-12 15:33:04 INFO  Crawler:235 - [Progress 45] save : 9, err : 24, remain_work : 1, total : 46
+2018-10-12 15:33:04 INFO  Crawler:235 - [Progress 46] save : 9, err : 24, remain_work : 2, total : 48
+2018-10-12 15:33:05 INFO  Crawler:235 - [Progress 47] save : 9, err : 24, remain_work : 4, total : 51
+2018-10-12 15:33:05 INFO  Crawler:235 - [Progress 48] save : 9, err : 24, remain_work : 3, total : 51
+2018-10-12 15:33:06 INFO  Crawler:235 - [Progress 49] save : 10, err : 24, remain_work : 2, total : 51
+2018-10-12 15:33:06 INFO  Crawler:235 - [Progress 50] save : 10, err : 24, remain_work : 1, total : 51
+2018-10-12 15:33:06 INFO  Crawler:235 - [Progress 51] save : 10, err : 24, remain_work : 2, total : 53
+2018-10-12 15:33:06 INFO  Crawler:235 - [Progress 52] save : 10, err : 24, remain_work : 4, total : 56
+2018-10-12 15:33:06 INFO  Crawler:235 - [Progress 53] save : 10, err : 24, remain_work : 3, total : 56
+2018-10-12 15:33:50 INFO  Crawler:198 - ============== Start Crawler =============
+2018-10-12 15:33:50 INFO  Crawler:199 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:33:50 INFO  Crawler:200 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:33:50 INFO  Crawler:201 - IGNORE ROBOTS  : true
+2018-10-12 15:33:50 INFO  Crawler:202 - FILTER COUNT   : 0
+2018-10-12 15:33:50 INFO  Crawler:206 - SCENARIO COUNT : 2
+2018-10-12 15:33:50 INFO  Crawler:207 - COLLECT COUNT  : 1
+2018-10-12 15:33:50 INFO  Crawler:208 - SAVE TYPE      : DB
+2018-10-12 15:33:50 INFO  Crawler:209 - ==========================================
+2018-10-12 15:33:56 INFO  Crawler:237 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:33:57 INFO  Crawler:237 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:33:57 INFO  Crawler:237 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:34:06 INFO  Crawler:198 - ============== Start Crawler =============
+2018-10-12 15:34:06 INFO  Crawler:199 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:34:06 INFO  Crawler:200 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:34:06 INFO  Crawler:201 - IGNORE ROBOTS  : true
+2018-10-12 15:34:06 INFO  Crawler:202 - FILTER COUNT   : 0
+2018-10-12 15:34:06 INFO  Crawler:206 - SCENARIO COUNT : 2
+2018-10-12 15:34:06 INFO  Crawler:207 - COLLECT COUNT  : 1
+2018-10-12 15:34:06 INFO  Crawler:208 - SAVE TYPE      : DB
+2018-10-12 15:34:06 INFO  Crawler:209 - ==========================================
+2018-10-12 15:34:12 INFO  Crawler:237 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:34:12 INFO  Crawler:237 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:34:13 INFO  Crawler:237 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:34:14 INFO  Crawler:237 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:34:14 INFO  Crawler:237 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:34:14 INFO  Crawler:237 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:34:15 INFO  Crawler:237 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:34:15 INFO  Crawler:237 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:34:16 INFO  Crawler:237 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:34:16 INFO  Crawler:237 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:34:16 INFO  Crawler:237 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:34:16 INFO  Crawler:237 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:34:16 INFO  Crawler:237 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:34:18 INFO  Crawler:237 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:34:18 INFO  Crawler:237 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:34:18 INFO  Crawler:237 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:34:18 INFO  Crawler:237 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:34:18 INFO  Crawler:237 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:34:19 INFO  Crawler:237 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:34:19 INFO  Crawler:237 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:34:19 INFO  Crawler:237 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 15:34:20 INFO  Crawler:237 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 15:34:20 INFO  Crawler:237 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 15:34:23 INFO  Crawler:237 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 15:34:23 INFO  Crawler:237 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 15:34:23 INFO  Crawler:237 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 15:34:24 INFO  Crawler:237 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 15:34:24 INFO  Crawler:237 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 15:34:25 INFO  Crawler:237 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 15:34:25 INFO  Crawler:237 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 15:34:25 INFO  Crawler:237 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 15:34:25 INFO  Crawler:237 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 15:34:25 INFO  Crawler:237 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 15:34:27 INFO  Crawler:237 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 15:34:27 INFO  Crawler:237 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 15:34:27 INFO  Crawler:237 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 15:34:27 INFO  Crawler:237 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 15:34:27 INFO  Crawler:237 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 15:34:30 INFO  Crawler:237 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 15:34:30 INFO  Crawler:237 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 15:34:30 INFO  Crawler:237 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 15:34:31 INFO  Crawler:237 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 15:34:31 INFO  Crawler:237 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 15:34:34 INFO  Crawler:237 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 15:34:34 INFO  Crawler:237 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 15:34:34 INFO  Crawler:237 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 15:34:34 INFO  Crawler:237 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 15:34:34 INFO  Crawler:237 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 15:34:37 INFO  Crawler:237 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 15:34:37 INFO  Crawler:237 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 15:34:37 INFO  Crawler:237 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 15:34:37 INFO  Crawler:237 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 15:34:37 INFO  Crawler:237 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 15:34:40 INFO  Crawler:237 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 15:34:41 INFO  Crawler:237 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 15:34:41 INFO  Crawler:237 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 15:34:41 INFO  Crawler:237 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 15:34:41 INFO  Crawler:237 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 15:34:44 INFO  Crawler:237 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 15:34:44 INFO  Crawler:237 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 15:34:44 INFO  Crawler:237 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 15:34:45 INFO  Crawler:237 - [Progress 62] save : 12, err : 0, remain_work : 4, total : 66
+2018-10-12 15:34:45 INFO  Crawler:237 - [Progress 63] save : 12, err : 0, remain_work : 3, total : 66
+2018-10-12 15:34:46 INFO  Crawler:237 - [Progress 64] save : 13, err : 0, remain_work : 2, total : 66
+2018-10-12 15:34:46 INFO  Crawler:237 - [Progress 65] save : 13, err : 0, remain_work : 1, total : 66
+2018-10-12 15:34:46 INFO  Crawler:237 - [Progress 66] save : 13, err : 0, remain_work : 2, total : 68
+2018-10-12 15:34:46 INFO  Crawler:237 - [Progress 67] save : 13, err : 0, remain_work : 4, total : 71
+2018-10-12 15:34:46 INFO  Crawler:237 - [Progress 68] save : 13, err : 0, remain_work : 3, total : 71
+2018-10-12 15:34:50 INFO  Crawler:237 - [Progress 69] save : 14, err : 0, remain_work : 2, total : 71
+2018-10-12 15:34:51 INFO  Crawler:237 - [Progress 70] save : 14, err : 0, remain_work : 1, total : 71
+2018-10-12 15:34:51 INFO  Crawler:237 - [Progress 71] save : 14, err : 0, remain_work : 2, total : 73
+2018-10-12 15:34:51 INFO  Crawler:237 - [Progress 72] save : 14, err : 0, remain_work : 4, total : 76
+2018-10-12 15:34:51 INFO  Crawler:237 - [Progress 73] save : 14, err : 0, remain_work : 3, total : 76
+2018-10-12 15:34:54 INFO  Crawler:237 - [Progress 74] save : 15, err : 0, remain_work : 2, total : 76
+2018-10-12 15:34:55 INFO  Crawler:237 - [Progress 75] save : 15, err : 0, remain_work : 1, total : 76
+2018-10-12 15:34:55 INFO  Crawler:237 - [Progress 76] save : 15, err : 0, remain_work : 2, total : 78
+2018-10-12 15:34:55 INFO  Crawler:237 - [Progress 77] save : 15, err : 0, remain_work : 4, total : 81
+2018-10-12 15:34:55 INFO  Crawler:237 - [Progress 78] save : 15, err : 0, remain_work : 3, total : 81
+2018-10-12 15:34:59 INFO  Crawler:237 - [Progress 79] save : 16, err : 0, remain_work : 2, total : 81
+2018-10-12 15:34:59 INFO  Crawler:237 - [Progress 80] save : 16, err : 0, remain_work : 1, total : 81
+2018-10-12 15:34:59 INFO  Crawler:237 - [Progress 81] save : 16, err : 0, remain_work : 2, total : 83
+2018-10-12 15:34:59 INFO  Crawler:237 - [Progress 82] save : 16, err : 0, remain_work : 4, total : 86
+2018-10-12 15:34:59 INFO  Crawler:237 - [Progress 83] save : 16, err : 0, remain_work : 3, total : 86
+2018-10-12 15:35:00 INFO  Crawler:237 - [Progress 84] save : 17, err : 0, remain_work : 2, total : 86
+2018-10-12 15:35:00 INFO  Crawler:237 - [Progress 85] save : 17, err : 0, remain_work : 1, total : 86
+2018-10-12 15:35:01 INFO  Crawler:237 - [Progress 86] save : 17, err : 0, remain_work : 2, total : 88
+2018-10-12 15:35:01 INFO  Crawler:237 - [Progress 87] save : 17, err : 0, remain_work : 4, total : 91
+2018-10-12 15:35:01 INFO  Crawler:237 - [Progress 88] save : 17, err : 0, remain_work : 3, total : 91
+2018-10-12 15:35:04 INFO  Crawler:237 - [Progress 89] save : 18, err : 0, remain_work : 2, total : 91
+2018-10-12 15:35:04 INFO  Crawler:237 - [Progress 90] save : 18, err : 0, remain_work : 1, total : 91
+2018-10-12 15:35:04 INFO  Crawler:237 - [Progress 91] save : 18, err : 0, remain_work : 2, total : 93
+2018-10-12 15:35:04 INFO  Crawler:237 - [Progress 92] save : 18, err : 0, remain_work : 4, total : 96
+2018-10-12 15:35:04 INFO  Crawler:237 - [Progress 93] save : 18, err : 0, remain_work : 3, total : 96
+2018-10-12 15:35:23 INFO  Crawler:198 - ============== Start Crawler =============
+2018-10-12 15:35:23 INFO  Crawler:199 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:35:23 INFO  Crawler:200 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:35:23 INFO  Crawler:201 - IGNORE ROBOTS  : true
+2018-10-12 15:35:23 INFO  Crawler:202 - FILTER COUNT   : 0
+2018-10-12 15:35:23 INFO  Crawler:206 - SCENARIO COUNT : 2
+2018-10-12 15:35:23 INFO  Crawler:207 - COLLECT COUNT  : 1
+2018-10-12 15:35:23 INFO  Crawler:208 - SAVE TYPE      : DB
+2018-10-12 15:35:23 INFO  Crawler:209 - ==========================================
+2018-10-12 15:35:29 INFO  Crawler:237 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:35:29 INFO  Crawler:237 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:35:29 INFO  Crawler:237 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:35:30 INFO  Crawler:237 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:35:31 INFO  Crawler:237 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:35:31 INFO  Crawler:237 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:35:31 INFO  Crawler:237 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:35:31 INFO  Crawler:237 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:35:32 INFO  Crawler:237 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:35:32 INFO  Crawler:237 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:35:33 INFO  Crawler:237 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:35:33 INFO  Crawler:237 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:35:33 INFO  Crawler:237 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:35:34 INFO  Crawler:237 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:35:34 INFO  Crawler:237 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:35:34 INFO  Crawler:237 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:35:35 INFO  Crawler:237 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:35:35 INFO  Crawler:237 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:35:36 INFO  Crawler:237 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:35:36 INFO  Crawler:237 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:35:36 INFO  Crawler:237 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 15:35:36 INFO  Crawler:237 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 15:35:36 INFO  Crawler:237 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 15:35:37 INFO  Crawler:237 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 15:35:37 INFO  Crawler:237 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 15:35:38 INFO  Crawler:237 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 15:35:38 INFO  Crawler:237 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 15:35:38 INFO  Crawler:237 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 15:35:39 INFO  Crawler:237 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 15:35:39 INFO  Crawler:237 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 15:35:39 INFO  Crawler:237 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 15:35:39 INFO  Crawler:237 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 15:35:39 INFO  Crawler:237 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 15:35:40 INFO  Crawler:237 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 15:35:41 INFO  Crawler:237 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 15:35:41 INFO  Crawler:237 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 15:35:41 INFO  Crawler:237 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 15:35:41 INFO  Crawler:237 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 15:35:45 INFO  Crawler:237 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 15:35:45 INFO  Crawler:237 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 15:35:45 INFO  Crawler:237 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 15:35:45 INFO  Crawler:237 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 15:35:45 INFO  Crawler:237 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 15:35:47 INFO  Crawler:237 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 15:35:47 INFO  Crawler:237 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 15:35:47 INFO  Crawler:237 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 15:35:47 INFO  Crawler:237 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 15:35:47 INFO  Crawler:237 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 15:35:48 INFO  Crawler:237 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 15:35:48 INFO  Crawler:237 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 15:35:48 INFO  Crawler:237 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 15:35:49 INFO  Crawler:237 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 15:35:49 INFO  Crawler:237 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 15:35:50 INFO  Crawler:237 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 15:35:50 INFO  Crawler:237 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 15:35:50 INFO  Crawler:237 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 15:35:51 INFO  Crawler:237 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 15:35:51 INFO  Crawler:237 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 15:35:52 INFO  Crawler:237 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 15:35:52 INFO  Crawler:237 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 15:35:52 INFO  Crawler:237 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 15:35:52 INFO  Crawler:237 - [Progress 62] save : 12, err : 0, remain_work : 4, total : 66
+2018-10-12 15:35:52 INFO  Crawler:237 - [Progress 63] save : 12, err : 0, remain_work : 3, total : 66
+2018-10-12 15:35:53 INFO  Crawler:237 - [Progress 64] save : 13, err : 0, remain_work : 2, total : 66
+2018-10-12 15:35:53 INFO  Crawler:237 - [Progress 65] save : 13, err : 0, remain_work : 1, total : 66
+2018-10-12 15:35:53 INFO  Crawler:237 - [Progress 66] save : 13, err : 0, remain_work : 2, total : 68
+2018-10-12 15:35:54 INFO  Crawler:237 - [Progress 67] save : 13, err : 0, remain_work : 4, total : 71
+2018-10-12 15:35:54 INFO  Crawler:237 - [Progress 68] save : 13, err : 0, remain_work : 3, total : 71
+2018-10-12 15:35:55 INFO  Crawler:237 - [Progress 69] save : 14, err : 0, remain_work : 2, total : 71
+2018-10-12 15:35:55 INFO  Crawler:237 - [Progress 70] save : 14, err : 0, remain_work : 1, total : 71
+2018-10-12 15:35:55 INFO  Crawler:237 - [Progress 71] save : 14, err : 0, remain_work : 2, total : 73
+2018-10-12 15:35:55 INFO  Crawler:237 - [Progress 72] save : 14, err : 0, remain_work : 4, total : 76
+2018-10-12 15:35:55 INFO  Crawler:237 - [Progress 73] save : 14, err : 0, remain_work : 3, total : 76
+2018-10-12 15:35:56 INFO  Crawler:237 - [Progress 74] save : 15, err : 0, remain_work : 2, total : 76
+2018-10-12 15:35:56 INFO  Crawler:237 - [Progress 75] save : 15, err : 0, remain_work : 1, total : 76
+2018-10-12 15:35:56 INFO  Crawler:237 - [Progress 76] save : 15, err : 0, remain_work : 2, total : 78
+2018-10-12 15:35:57 INFO  Crawler:237 - [Progress 77] save : 15, err : 0, remain_work : 4, total : 81
+2018-10-12 15:35:57 INFO  Crawler:237 - [Progress 78] save : 15, err : 0, remain_work : 3, total : 81
+2018-10-12 15:35:58 INFO  Crawler:237 - [Progress 79] save : 16, err : 0, remain_work : 2, total : 81
+2018-10-12 15:35:58 INFO  Crawler:237 - [Progress 80] save : 16, err : 0, remain_work : 1, total : 81
+2018-10-12 15:35:58 INFO  Crawler:237 - [Progress 81] save : 16, err : 0, remain_work : 2, total : 83
+2018-10-12 15:35:58 INFO  Crawler:237 - [Progress 82] save : 16, err : 0, remain_work : 4, total : 86
+2018-10-12 15:35:58 INFO  Crawler:237 - [Progress 83] save : 16, err : 0, remain_work : 3, total : 86
+2018-10-12 15:35:59 INFO  Crawler:237 - [Progress 84] save : 17, err : 0, remain_work : 2, total : 86
+2018-10-12 15:36:00 INFO  Crawler:237 - [Progress 85] save : 17, err : 0, remain_work : 1, total : 86
+2018-10-12 15:36:00 INFO  Crawler:237 - [Progress 86] save : 17, err : 0, remain_work : 2, total : 88
+2018-10-12 15:36:00 INFO  Crawler:237 - [Progress 87] save : 17, err : 0, remain_work : 4, total : 91
+2018-10-12 15:36:00 INFO  Crawler:237 - [Progress 88] save : 17, err : 0, remain_work : 3, total : 91
+2018-10-12 15:36:01 INFO  Crawler:237 - [Progress 89] save : 18, err : 0, remain_work : 2, total : 91
+2018-10-12 15:36:01 INFO  Crawler:237 - [Progress 90] save : 18, err : 0, remain_work : 1, total : 91
+2018-10-12 15:36:01 INFO  Crawler:237 - [Progress 91] save : 18, err : 0, remain_work : 2, total : 93
+2018-10-12 15:36:02 INFO  Crawler:237 - [Progress 92] save : 18, err : 0, remain_work : 4, total : 96
+2018-10-12 15:36:02 INFO  Crawler:237 - [Progress 93] save : 18, err : 0, remain_work : 3, total : 96
+2018-10-12 15:36:03 INFO  Crawler:237 - [Progress 94] save : 19, err : 0, remain_work : 2, total : 96
+2018-10-12 15:36:03 INFO  Crawler:237 - [Progress 95] save : 19, err : 0, remain_work : 1, total : 96
+2018-10-12 15:36:03 INFO  Crawler:237 - [Progress 96] save : 19, err : 0, remain_work : 2, total : 98
+2018-10-12 15:36:03 INFO  Crawler:237 - [Progress 97] save : 19, err : 0, remain_work : 4, total : 101
+2018-10-12 15:36:03 INFO  Crawler:237 - [Progress 98] save : 19, err : 0, remain_work : 3, total : 101
+2018-10-12 15:36:04 INFO  Crawler:237 - [Progress 99] save : 20, err : 0, remain_work : 2, total : 101
+2018-10-12 15:36:04 INFO  Crawler:237 - [Progress 100] save : 20, err : 0, remain_work : 1, total : 101
+2018-10-12 15:36:04 INFO  Crawler:237 - [Progress 101] save : 20, err : 0, remain_work : 2, total : 103
+2018-10-12 15:36:05 INFO  Crawler:237 - [Progress 102] save : 20, err : 0, remain_work : 4, total : 106
+2018-10-12 15:36:05 INFO  Crawler:237 - [Progress 103] save : 20, err : 0, remain_work : 3, total : 106
+2018-10-12 15:36:06 INFO  Crawler:237 - [Progress 104] save : 21, err : 0, remain_work : 2, total : 106
+2018-10-12 15:36:06 INFO  Crawler:237 - [Progress 105] save : 21, err : 0, remain_work : 1, total : 106
+2018-10-12 15:36:06 INFO  Crawler:237 - [Progress 106] save : 21, err : 0, remain_work : 2, total : 108
+2018-10-12 15:36:06 INFO  Crawler:237 - [Progress 107] save : 21, err : 0, remain_work : 4, total : 111
+2018-10-12 15:36:06 INFO  Crawler:237 - [Progress 108] save : 21, err : 0, remain_work : 3, total : 111
+2018-10-12 15:36:07 INFO  Crawler:237 - [Progress 109] save : 22, err : 0, remain_work : 2, total : 111
+2018-10-12 15:36:07 INFO  Crawler:237 - [Progress 110] save : 22, err : 0, remain_work : 1, total : 111
+2018-10-12 15:36:07 INFO  Crawler:237 - [Progress 111] save : 22, err : 0, remain_work : 2, total : 113
+2018-10-12 15:36:08 INFO  Crawler:237 - [Progress 112] save : 22, err : 0, remain_work : 4, total : 116
+2018-10-12 15:36:08 INFO  Crawler:237 - [Progress 113] save : 22, err : 0, remain_work : 3, total : 116
+2018-10-12 15:36:09 INFO  Crawler:237 - [Progress 114] save : 23, err : 0, remain_work : 2, total : 116
+2018-10-12 15:36:09 INFO  Crawler:237 - [Progress 115] save : 23, err : 0, remain_work : 1, total : 116
+2018-10-12 15:36:09 INFO  Crawler:237 - [Progress 116] save : 23, err : 0, remain_work : 2, total : 118
+2018-10-12 15:36:09 INFO  Crawler:237 - [Progress 117] save : 23, err : 0, remain_work : 4, total : 121
+2018-10-12 15:36:09 INFO  Crawler:237 - [Progress 118] save : 23, err : 0, remain_work : 3, total : 121
+2018-10-12 15:36:10 INFO  Crawler:237 - [Progress 119] save : 24, err : 0, remain_work : 2, total : 121
+2018-10-12 15:36:10 INFO  Crawler:237 - [Progress 120] save : 24, err : 0, remain_work : 1, total : 121
+2018-10-12 15:36:10 INFO  Crawler:237 - [Progress 121] save : 24, err : 0, remain_work : 2, total : 123
+2018-10-12 15:36:11 INFO  Crawler:237 - [Progress 122] save : 24, err : 0, remain_work : 4, total : 126
+2018-10-12 15:36:11 INFO  Crawler:237 - [Progress 123] save : 24, err : 0, remain_work : 3, total : 126
+2018-10-12 15:36:12 INFO  Crawler:237 - [Progress 124] save : 25, err : 0, remain_work : 2, total : 126
+2018-10-12 15:36:12 INFO  Crawler:237 - [Progress 125] save : 25, err : 0, remain_work : 1, total : 126
+2018-10-12 15:36:12 INFO  Crawler:237 - [Progress 126] save : 25, err : 0, remain_work : 2, total : 128
+2018-10-12 15:36:12 INFO  Crawler:237 - [Progress 127] save : 25, err : 0, remain_work : 4, total : 131
+2018-10-12 15:36:12 INFO  Crawler:237 - [Progress 128] save : 25, err : 0, remain_work : 3, total : 131
+2018-10-12 15:36:13 INFO  Crawler:237 - [Progress 129] save : 26, err : 0, remain_work : 2, total : 131
+2018-10-12 15:36:14 INFO  Crawler:237 - [Progress 130] save : 26, err : 0, remain_work : 1, total : 131
+2018-10-12 15:36:14 INFO  Crawler:237 - [Progress 131] save : 26, err : 0, remain_work : 2, total : 133
+2018-10-12 15:36:14 INFO  Crawler:237 - [Progress 132] save : 26, err : 0, remain_work : 4, total : 136
+2018-10-12 15:36:14 INFO  Crawler:237 - [Progress 133] save : 26, err : 0, remain_work : 3, total : 136
+2018-10-12 15:36:15 INFO  Crawler:237 - [Progress 134] save : 27, err : 0, remain_work : 2, total : 136
+2018-10-12 15:36:15 INFO  Crawler:237 - [Progress 135] save : 27, err : 0, remain_work : 1, total : 136
+2018-10-12 15:36:15 INFO  Crawler:237 - [Progress 136] save : 27, err : 0, remain_work : 2, total : 138
+2018-10-12 15:36:15 INFO  Crawler:237 - [Progress 137] save : 27, err : 0, remain_work : 4, total : 141
+2018-10-12 15:36:15 INFO  Crawler:237 - [Progress 138] save : 27, err : 0, remain_work : 3, total : 141
+2018-10-12 15:36:17 INFO  Crawler:237 - [Progress 139] save : 28, err : 0, remain_work : 2, total : 141
+2018-10-12 15:36:17 INFO  Crawler:237 - [Progress 140] save : 28, err : 0, remain_work : 1, total : 141
+2018-10-12 15:36:17 INFO  Crawler:237 - [Progress 141] save : 28, err : 0, remain_work : 2, total : 143
+2018-10-12 15:36:17 INFO  Crawler:237 - [Progress 142] save : 28, err : 0, remain_work : 4, total : 146
+2018-10-12 15:36:17 INFO  Crawler:237 - [Progress 143] save : 28, err : 0, remain_work : 3, total : 146
+2018-10-12 15:36:18 INFO  Crawler:237 - [Progress 144] save : 29, err : 0, remain_work : 2, total : 146
+2018-10-12 15:36:18 INFO  Crawler:237 - [Progress 145] save : 29, err : 0, remain_work : 1, total : 146
+2018-10-12 15:36:18 INFO  Crawler:237 - [Progress 146] save : 29, err : 0, remain_work : 2, total : 148
+2018-10-12 15:36:19 INFO  Crawler:237 - [Progress 147] save : 29, err : 0, remain_work : 4, total : 151
+2018-10-12 15:36:19 INFO  Crawler:237 - [Progress 148] save : 29, err : 0, remain_work : 3, total : 151
+2018-10-12 15:36:20 INFO  Crawler:237 - [Progress 149] save : 30, err : 0, remain_work : 2, total : 151
+2018-10-12 15:36:20 INFO  Crawler:237 - [Progress 150] save : 30, err : 0, remain_work : 1, total : 151
+2018-10-12 15:36:20 INFO  Crawler:237 - [Progress 151] save : 30, err : 0, remain_work : 2, total : 153
+2018-10-12 15:36:21 INFO  Crawler:237 - [Progress 152] save : 30, err : 0, remain_work : 4, total : 156
+2018-10-12 15:36:21 INFO  Crawler:237 - [Progress 153] save : 30, err : 0, remain_work : 3, total : 156
+2018-10-12 15:36:22 INFO  Crawler:237 - [Progress 154] save : 31, err : 0, remain_work : 2, total : 156
+2018-10-12 15:36:22 INFO  Crawler:237 - [Progress 155] save : 31, err : 0, remain_work : 1, total : 156
+2018-10-12 15:36:22 INFO  Crawler:237 - [Progress 156] save : 31, err : 0, remain_work : 2, total : 158
+2018-10-12 15:36:22 INFO  Crawler:237 - [Progress 157] save : 31, err : 0, remain_work : 4, total : 161
+2018-10-12 15:36:22 INFO  Crawler:237 - [Progress 158] save : 31, err : 0, remain_work : 3, total : 161
+2018-10-12 15:36:24 INFO  Crawler:237 - [Progress 159] save : 32, err : 0, remain_work : 2, total : 161
+2018-10-12 15:36:24 INFO  Crawler:237 - [Progress 160] save : 32, err : 0, remain_work : 1, total : 161
+2018-10-12 15:36:24 INFO  Crawler:237 - [Progress 161] save : 32, err : 0, remain_work : 2, total : 163
+2018-10-12 15:36:24 INFO  Crawler:237 - [Progress 162] save : 32, err : 0, remain_work : 4, total : 166
+2018-10-12 15:36:24 INFO  Crawler:237 - [Progress 163] save : 32, err : 0, remain_work : 3, total : 166
+2018-10-12 15:36:25 INFO  Crawler:237 - [Progress 164] save : 33, err : 0, remain_work : 2, total : 166
+2018-10-12 15:36:25 INFO  Crawler:237 - [Progress 165] save : 33, err : 0, remain_work : 1, total : 166
+2018-10-12 15:36:25 INFO  Crawler:237 - [Progress 166] save : 33, err : 0, remain_work : 2, total : 168
+2018-10-12 15:36:26 INFO  Crawler:237 - [Progress 167] save : 33, err : 0, remain_work : 4, total : 171
+2018-10-12 15:36:26 INFO  Crawler:237 - [Progress 168] save : 33, err : 0, remain_work : 3, total : 171
+2018-10-12 15:36:27 INFO  Crawler:237 - [Progress 169] save : 34, err : 0, remain_work : 2, total : 171
+2018-10-12 15:36:27 INFO  Crawler:237 - [Progress 170] save : 34, err : 0, remain_work : 1, total : 171
+2018-10-12 15:36:27 INFO  Crawler:237 - [Progress 171] save : 34, err : 0, remain_work : 2, total : 173
+2018-10-12 15:36:28 INFO  Crawler:237 - [Progress 172] save : 34, err : 0, remain_work : 4, total : 176
+2018-10-12 15:36:28 INFO  Crawler:237 - [Progress 173] save : 34, err : 0, remain_work : 3, total : 176
+2018-10-12 15:36:29 INFO  Crawler:237 - [Progress 174] save : 35, err : 0, remain_work : 2, total : 176
+2018-10-12 15:36:29 INFO  Crawler:237 - [Progress 175] save : 35, err : 0, remain_work : 1, total : 176
+2018-10-12 15:36:29 INFO  Crawler:237 - [Progress 176] save : 35, err : 0, remain_work : 2, total : 178
+2018-10-12 15:36:29 INFO  Crawler:237 - [Progress 177] save : 35, err : 0, remain_work : 4, total : 181
+2018-10-12 15:36:29 INFO  Crawler:237 - [Progress 178] save : 35, err : 0, remain_work : 3, total : 181
+2018-10-12 15:36:30 INFO  Crawler:237 - [Progress 179] save : 36, err : 0, remain_work : 2, total : 181
+2018-10-12 15:36:30 INFO  Crawler:237 - [Progress 180] save : 36, err : 0, remain_work : 1, total : 181
+2018-10-12 15:36:31 INFO  Crawler:237 - [Progress 181] save : 36, err : 0, remain_work : 2, total : 183
+2018-10-12 15:36:31 INFO  Crawler:237 - [Progress 182] save : 36, err : 0, remain_work : 4, total : 186
+2018-10-12 15:36:31 INFO  Crawler:237 - [Progress 183] save : 36, err : 0, remain_work : 3, total : 186
+2018-10-12 15:36:32 INFO  Crawler:237 - [Progress 184] save : 37, err : 0, remain_work : 2, total : 186
+2018-10-12 15:36:32 INFO  Crawler:237 - [Progress 185] save : 37, err : 0, remain_work : 1, total : 186
+2018-10-12 15:36:32 INFO  Crawler:237 - [Progress 186] save : 37, err : 0, remain_work : 2, total : 188
+2018-10-12 15:36:32 INFO  Crawler:237 - [Progress 187] save : 37, err : 0, remain_work : 4, total : 191
+2018-10-12 15:36:32 INFO  Crawler:237 - [Progress 188] save : 37, err : 0, remain_work : 3, total : 191
+2018-10-12 15:36:33 INFO  Crawler:237 - [Progress 189] save : 38, err : 0, remain_work : 2, total : 191
+2018-10-12 15:36:33 INFO  Crawler:237 - [Progress 190] save : 38, err : 0, remain_work : 1, total : 191
+2018-10-12 15:36:34 INFO  Crawler:237 - [Progress 191] save : 38, err : 0, remain_work : 2, total : 193
+2018-10-12 15:36:34 INFO  Crawler:237 - [Progress 192] save : 38, err : 0, remain_work : 4, total : 196
+2018-10-12 15:36:34 INFO  Crawler:237 - [Progress 193] save : 38, err : 0, remain_work : 3, total : 196
+2018-10-12 15:36:35 INFO  Crawler:237 - [Progress 194] save : 39, err : 0, remain_work : 2, total : 196
+2018-10-12 15:36:35 INFO  Crawler:237 - [Progress 195] save : 39, err : 0, remain_work : 1, total : 196
+2018-10-12 15:36:35 INFO  Crawler:237 - [Progress 196] save : 39, err : 0, remain_work : 2, total : 198
+2018-10-12 15:36:35 INFO  Crawler:237 - [Progress 197] save : 39, err : 0, remain_work : 4, total : 201
+2018-10-12 15:36:36 INFO  Crawler:237 - [Progress 198] save : 39, err : 0, remain_work : 3, total : 201
+2018-10-12 15:36:40 INFO  Crawler:237 - [Progress 199] save : 40, err : 0, remain_work : 2, total : 201
+2018-10-12 15:36:40 INFO  Crawler:237 - [Progress 200] save : 40, err : 0, remain_work : 1, total : 201
+2018-10-12 15:36:40 INFO  Crawler:237 - [Progress 201] save : 40, err : 0, remain_work : 2, total : 203
+2018-10-12 15:36:40 INFO  Crawler:237 - [Progress 202] save : 40, err : 0, remain_work : 4, total : 206
+2018-10-12 15:36:40 INFO  Crawler:237 - [Progress 203] save : 40, err : 0, remain_work : 3, total : 206
+2018-10-12 15:36:42 INFO  Crawler:237 - [Progress 204] save : 41, err : 0, remain_work : 2, total : 206
+2018-10-12 15:36:42 INFO  Crawler:237 - [Progress 205] save : 41, err : 0, remain_work : 1, total : 206
+2018-10-12 15:36:42 INFO  Crawler:237 - [Progress 206] save : 41, err : 0, remain_work : 2, total : 208
+2018-10-12 15:36:42 INFO  Crawler:237 - [Progress 207] save : 41, err : 0, remain_work : 4, total : 211
+2018-10-12 15:36:42 INFO  Crawler:237 - [Progress 208] save : 41, err : 0, remain_work : 3, total : 211
+2018-10-12 15:36:45 INFO  Crawler:237 - [Progress 209] save : 42, err : 0, remain_work : 2, total : 211
+2018-10-12 15:36:45 INFO  Crawler:237 - [Progress 210] save : 42, err : 0, remain_work : 1, total : 211
+2018-10-12 15:36:46 INFO  Crawler:237 - [Progress 211] save : 42, err : 0, remain_work : 2, total : 213
+2018-10-12 15:36:46 INFO  Crawler:237 - [Progress 212] save : 42, err : 0, remain_work : 4, total : 216
+2018-10-12 15:36:46 INFO  Crawler:237 - [Progress 213] save : 42, err : 0, remain_work : 3, total : 216
+2018-10-12 15:36:49 INFO  Crawler:237 - [Progress 214] save : 43, err : 0, remain_work : 2, total : 216
+2018-10-12 15:36:49 INFO  Crawler:237 - [Progress 215] save : 43, err : 0, remain_work : 1, total : 216
+2018-10-12 15:36:49 INFO  Crawler:237 - [Progress 216] save : 43, err : 0, remain_work : 2, total : 218
+2018-10-12 15:36:49 INFO  Crawler:237 - [Progress 217] save : 43, err : 0, remain_work : 4, total : 221
+2018-10-12 15:36:49 INFO  Crawler:237 - [Progress 218] save : 43, err : 0, remain_work : 3, total : 221
+2018-10-12 15:36:50 INFO  Crawler:237 - [Progress 219] save : 44, err : 0, remain_work : 2, total : 221
+2018-10-12 15:36:50 INFO  Crawler:237 - [Progress 220] save : 44, err : 0, remain_work : 1, total : 221
+2018-10-12 15:36:51 INFO  Crawler:237 - [Progress 221] save : 44, err : 0, remain_work : 2, total : 223
+2018-10-12 15:36:51 INFO  Crawler:237 - [Progress 222] save : 44, err : 0, remain_work : 4, total : 226
+2018-10-12 15:36:51 INFO  Crawler:237 - [Progress 223] save : 44, err : 0, remain_work : 3, total : 226
+2018-10-12 15:36:52 INFO  Crawler:237 - [Progress 224] save : 45, err : 0, remain_work : 2, total : 226
+2018-10-12 15:36:52 INFO  Crawler:237 - [Progress 225] save : 45, err : 0, remain_work : 1, total : 226
+2018-10-12 15:36:52 INFO  Crawler:237 - [Progress 226] save : 45, err : 0, remain_work : 2, total : 228
+2018-10-12 15:36:53 INFO  Crawler:237 - [Progress 227] save : 45, err : 0, remain_work : 4, total : 231
+2018-10-12 15:36:53 INFO  Crawler:237 - [Progress 228] save : 45, err : 0, remain_work : 3, total : 231
+2018-10-12 15:36:54 INFO  Crawler:237 - [Progress 229] save : 46, err : 0, remain_work : 2, total : 231
+2018-10-12 15:36:54 INFO  Crawler:237 - [Progress 230] save : 46, err : 0, remain_work : 1, total : 231
+2018-10-12 15:36:54 INFO  Crawler:237 - [Progress 231] save : 46, err : 0, remain_work : 2, total : 233
+2018-10-12 15:36:54 INFO  Crawler:237 - [Progress 232] save : 46, err : 0, remain_work : 4, total : 236
+2018-10-12 15:36:54 INFO  Crawler:237 - [Progress 233] save : 46, err : 0, remain_work : 3, total : 236
+2018-10-12 15:36:55 INFO  Crawler:237 - [Progress 234] save : 47, err : 0, remain_work : 2, total : 236
+2018-10-12 15:36:55 INFO  Crawler:237 - [Progress 235] save : 47, err : 0, remain_work : 1, total : 236
+2018-10-12 15:36:56 INFO  Crawler:237 - [Progress 236] save : 47, err : 0, remain_work : 2, total : 238
+2018-10-12 15:36:56 INFO  Crawler:237 - [Progress 237] save : 47, err : 0, remain_work : 4, total : 241
+2018-10-12 15:36:56 INFO  Crawler:237 - [Progress 238] save : 47, err : 0, remain_work : 3, total : 241
+2018-10-12 15:37:00 INFO  Crawler:237 - [Progress 239] save : 48, err : 0, remain_work : 2, total : 241
+2018-10-12 15:37:00 INFO  Crawler:237 - [Progress 240] save : 48, err : 0, remain_work : 1, total : 241
+2018-10-12 15:37:00 INFO  Crawler:237 - [Progress 241] save : 48, err : 0, remain_work : 2, total : 243
+2018-10-12 15:37:00 INFO  Crawler:237 - [Progress 242] save : 48, err : 0, remain_work : 4, total : 246
+2018-10-12 15:37:00 INFO  Crawler:237 - [Progress 243] save : 48, err : 0, remain_work : 3, total : 246
+2018-10-12 15:37:01 INFO  Crawler:237 - [Progress 244] save : 49, err : 0, remain_work : 2, total : 246
+2018-10-12 15:37:01 INFO  Crawler:237 - [Progress 245] save : 49, err : 0, remain_work : 1, total : 246
+2018-10-12 15:37:02 INFO  Crawler:237 - [Progress 246] save : 49, err : 0, remain_work : 2, total : 248
+2018-10-12 15:37:02 INFO  Crawler:237 - [Progress 247] save : 49, err : 0, remain_work : 4, total : 251
+2018-10-12 15:37:02 INFO  Crawler:237 - [Progress 248] save : 49, err : 0, remain_work : 3, total : 251
+2018-10-12 15:37:03 INFO  Crawler:237 - [Progress 249] save : 50, err : 0, remain_work : 2, total : 251
+2018-10-12 15:37:03 INFO  Crawler:237 - [Progress 250] save : 50, err : 0, remain_work : 1, total : 251
+2018-10-12 15:37:03 INFO  Crawler:237 - [Progress 251] save : 50, err : 0, remain_work : 2, total : 253
+2018-10-12 15:37:03 INFO  Crawler:237 - [Progress 252] save : 50, err : 0, remain_work : 4, total : 256
+2018-10-12 15:37:03 INFO  Crawler:237 - [Progress 253] save : 50, err : 0, remain_work : 3, total : 256
+2018-10-12 15:37:04 INFO  Crawler:237 - [Progress 254] save : 51, err : 0, remain_work : 2, total : 256
+2018-10-12 15:37:04 INFO  Crawler:237 - [Progress 255] save : 51, err : 0, remain_work : 1, total : 256
+2018-10-12 15:37:05 INFO  Crawler:237 - [Progress 256] save : 51, err : 0, remain_work : 2, total : 258
+2018-10-12 15:37:05 INFO  Crawler:237 - [Progress 257] save : 51, err : 0, remain_work : 4, total : 261
+2018-10-12 15:37:05 INFO  Crawler:237 - [Progress 258] save : 51, err : 0, remain_work : 3, total : 261
+2018-10-12 15:37:08 INFO  Crawler:237 - [Progress 259] save : 52, err : 0, remain_work : 2, total : 261
+2018-10-12 15:37:08 INFO  Crawler:237 - [Progress 260] save : 52, err : 0, remain_work : 1, total : 261
+2018-10-12 15:37:09 INFO  Crawler:237 - [Progress 261] save : 52, err : 0, remain_work : 2, total : 263
+2018-10-12 15:37:09 INFO  Crawler:237 - [Progress 262] save : 52, err : 0, remain_work : 4, total : 266
+2018-10-12 15:37:09 INFO  Crawler:237 - [Progress 263] save : 52, err : 0, remain_work : 3, total : 266
+2018-10-12 15:37:10 INFO  Crawler:237 - [Progress 264] save : 53, err : 0, remain_work : 2, total : 266
+2018-10-12 15:37:10 INFO  Crawler:237 - [Progress 265] save : 53, err : 0, remain_work : 1, total : 266
+2018-10-12 15:37:10 INFO  Crawler:237 - [Progress 266] save : 53, err : 0, remain_work : 2, total : 268
+2018-10-12 15:37:10 INFO  Crawler:237 - [Progress 267] save : 53, err : 0, remain_work : 4, total : 271
+2018-10-12 15:37:10 INFO  Crawler:237 - [Progress 268] save : 53, err : 0, remain_work : 3, total : 271
+2018-10-12 15:37:12 INFO  Crawler:237 - [Progress 269] save : 54, err : 0, remain_work : 2, total : 271
+2018-10-12 15:37:12 INFO  Crawler:237 - [Progress 270] save : 54, err : 0, remain_work : 1, total : 271
+2018-10-12 15:37:12 INFO  Crawler:237 - [Progress 271] save : 54, err : 0, remain_work : 2, total : 273
+2018-10-12 15:37:12 INFO  Crawler:237 - [Progress 272] save : 54, err : 0, remain_work : 4, total : 276
+2018-10-12 15:37:12 INFO  Crawler:237 - [Progress 273] save : 54, err : 0, remain_work : 3, total : 276
+2018-10-12 15:37:13 INFO  Crawler:237 - [Progress 274] save : 55, err : 0, remain_work : 2, total : 276
+2018-10-12 15:37:13 INFO  Crawler:237 - [Progress 275] save : 55, err : 0, remain_work : 1, total : 276
+2018-10-12 15:37:13 INFO  Crawler:237 - [Progress 276] save : 55, err : 0, remain_work : 2, total : 278
+2018-10-12 15:37:13 INFO  Crawler:237 - [Progress 277] save : 55, err : 0, remain_work : 4, total : 281
+2018-10-12 15:37:13 INFO  Crawler:237 - [Progress 278] save : 55, err : 0, remain_work : 3, total : 281
+2018-10-12 15:37:17 INFO  Crawler:237 - [Progress 279] save : 56, err : 0, remain_work : 2, total : 281
+2018-10-12 15:37:17 INFO  Crawler:237 - [Progress 280] save : 56, err : 0, remain_work : 1, total : 281
+2018-10-12 15:37:18 INFO  Crawler:237 - [Progress 281] save : 56, err : 0, remain_work : 2, total : 283
+2018-10-12 15:37:18 INFO  Crawler:237 - [Progress 282] save : 56, err : 0, remain_work : 4, total : 286
+2018-10-12 15:37:18 INFO  Crawler:237 - [Progress 283] save : 56, err : 0, remain_work : 3, total : 286
+2018-10-12 15:37:21 INFO  Crawler:237 - [Progress 284] save : 57, err : 0, remain_work : 2, total : 286
+2018-10-12 15:37:21 INFO  Crawler:237 - [Progress 285] save : 57, err : 0, remain_work : 1, total : 286
+2018-10-12 15:37:21 INFO  Crawler:237 - [Progress 286] save : 57, err : 0, remain_work : 2, total : 288
+2018-10-12 15:37:22 INFO  Crawler:237 - [Progress 287] save : 57, err : 0, remain_work : 4, total : 291
+2018-10-12 15:37:22 INFO  Crawler:237 - [Progress 288] save : 57, err : 0, remain_work : 3, total : 291
+2018-10-12 15:37:23 INFO  Crawler:237 - [Progress 289] save : 58, err : 0, remain_work : 2, total : 291
+2018-10-12 15:37:23 INFO  Crawler:237 - [Progress 290] save : 58, err : 0, remain_work : 1, total : 291
+2018-10-12 15:37:23 INFO  Crawler:237 - [Progress 291] save : 58, err : 0, remain_work : 2, total : 293
+2018-10-12 15:37:23 INFO  Crawler:237 - [Progress 292] save : 58, err : 0, remain_work : 4, total : 296
+2018-10-12 15:37:23 INFO  Crawler:237 - [Progress 293] save : 58, err : 0, remain_work : 3, total : 296
+2018-10-12 15:37:24 INFO  Crawler:237 - [Progress 294] save : 59, err : 0, remain_work : 2, total : 296
+2018-10-12 15:37:24 INFO  Crawler:237 - [Progress 295] save : 59, err : 0, remain_work : 1, total : 296
+2018-10-12 15:37:24 INFO  Crawler:237 - [Progress 296] save : 59, err : 0, remain_work : 2, total : 298
+2018-10-12 15:37:25 INFO  Crawler:237 - [Progress 297] save : 59, err : 0, remain_work : 4, total : 301
+2018-10-12 15:37:25 INFO  Crawler:237 - [Progress 298] save : 59, err : 0, remain_work : 3, total : 301
+2018-10-12 15:37:26 INFO  Crawler:237 - [Progress 299] save : 60, err : 0, remain_work : 2, total : 301
+2018-10-12 15:37:26 INFO  Crawler:237 - [Progress 300] save : 60, err : 0, remain_work : 1, total : 301
+2018-10-12 15:37:26 INFO  Crawler:237 - [Progress 301] save : 60, err : 0, remain_work : 2, total : 303
+2018-10-12 15:37:27 INFO  Crawler:237 - [Progress 302] save : 60, err : 0, remain_work : 4, total : 306
+2018-10-12 15:37:27 INFO  Crawler:237 - [Progress 303] save : 60, err : 0, remain_work : 3, total : 306
+2018-10-12 15:37:28 INFO  Crawler:237 - [Progress 304] save : 61, err : 0, remain_work : 2, total : 306
+2018-10-12 15:37:28 INFO  Crawler:237 - [Progress 305] save : 61, err : 0, remain_work : 1, total : 306
+2018-10-12 15:37:28 INFO  Crawler:237 - [Progress 306] save : 61, err : 0, remain_work : 2, total : 308
+2018-10-12 15:37:28 INFO  Crawler:237 - [Progress 307] save : 61, err : 0, remain_work : 4, total : 311
+2018-10-12 15:37:28 INFO  Crawler:237 - [Progress 308] save : 61, err : 0, remain_work : 3, total : 311
+2018-10-12 15:37:29 INFO  Crawler:237 - [Progress 309] save : 62, err : 0, remain_work : 2, total : 311
+2018-10-12 15:37:29 INFO  Crawler:237 - [Progress 310] save : 62, err : 0, remain_work : 1, total : 311
+2018-10-12 15:37:29 INFO  Crawler:237 - [Progress 311] save : 62, err : 0, remain_work : 2, total : 313
+2018-10-12 15:37:30 INFO  Crawler:237 - [Progress 312] save : 62, err : 0, remain_work : 4, total : 316
+2018-10-12 15:37:30 INFO  Crawler:237 - [Progress 313] save : 62, err : 0, remain_work : 3, total : 316
+2018-10-12 15:37:31 INFO  Crawler:237 - [Progress 314] save : 63, err : 0, remain_work : 2, total : 316
+2018-10-12 15:37:31 INFO  Crawler:237 - [Progress 315] save : 63, err : 0, remain_work : 1, total : 316
+2018-10-12 15:37:31 INFO  Crawler:237 - [Progress 316] save : 63, err : 0, remain_work : 2, total : 318
+2018-10-12 15:37:31 INFO  Crawler:237 - [Progress 317] save : 63, err : 0, remain_work : 4, total : 321
+2018-10-12 15:37:31 INFO  Crawler:237 - [Progress 318] save : 63, err : 0, remain_work : 3, total : 321
+2018-10-12 15:37:33 INFO  Crawler:237 - [Progress 319] save : 64, err : 0, remain_work : 2, total : 321
+2018-10-12 15:37:33 INFO  Crawler:237 - [Progress 320] save : 64, err : 0, remain_work : 1, total : 321
+2018-10-12 15:37:33 INFO  Crawler:237 - [Progress 321] save : 64, err : 0, remain_work : 2, total : 323
+2018-10-12 15:37:33 INFO  Crawler:237 - [Progress 322] save : 64, err : 0, remain_work : 4, total : 326
+2018-10-12 15:37:33 INFO  Crawler:237 - [Progress 323] save : 64, err : 0, remain_work : 3, total : 326
+2018-10-12 15:37:34 INFO  Crawler:237 - [Progress 324] save : 65, err : 0, remain_work : 2, total : 326
+2018-10-12 15:37:34 INFO  Crawler:237 - [Progress 325] save : 65, err : 0, remain_work : 1, total : 326
+2018-10-12 15:37:34 INFO  Crawler:237 - [Progress 326] save : 65, err : 0, remain_work : 2, total : 328
+2018-10-12 15:37:34 INFO  Crawler:237 - [Progress 327] save : 65, err : 0, remain_work : 4, total : 331
+2018-10-12 15:37:34 INFO  Crawler:237 - [Progress 328] save : 65, err : 0, remain_work : 3, total : 331
+2018-10-12 15:37:36 INFO  Crawler:237 - [Progress 329] save : 66, err : 0, remain_work : 2, total : 331
+2018-10-12 15:37:36 INFO  Crawler:237 - [Progress 330] save : 66, err : 0, remain_work : 1, total : 331
+2018-10-12 15:37:36 INFO  Crawler:237 - [Progress 331] save : 66, err : 0, remain_work : 2, total : 333
+2018-10-12 15:37:36 INFO  Crawler:237 - [Progress 332] save : 66, err : 0, remain_work : 4, total : 336
+2018-10-12 15:37:36 INFO  Crawler:237 - [Progress 333] save : 66, err : 0, remain_work : 3, total : 336
+2018-10-12 15:37:37 INFO  Crawler:237 - [Progress 334] save : 67, err : 0, remain_work : 2, total : 336
+2018-10-12 15:37:37 INFO  Crawler:237 - [Progress 335] save : 67, err : 0, remain_work : 1, total : 336
+2018-10-12 15:37:37 INFO  Crawler:237 - [Progress 336] save : 67, err : 0, remain_work : 2, total : 338
+2018-10-12 15:37:37 INFO  Crawler:237 - [Progress 337] save : 67, err : 0, remain_work : 4, total : 341
+2018-10-12 15:37:37 INFO  Crawler:237 - [Progress 338] save : 67, err : 0, remain_work : 3, total : 341
+2018-10-12 15:37:39 INFO  Crawler:237 - [Progress 339] save : 68, err : 0, remain_work : 2, total : 341
+2018-10-12 15:37:39 INFO  Crawler:237 - [Progress 340] save : 68, err : 0, remain_work : 1, total : 341
+2018-10-12 15:37:39 INFO  Crawler:237 - [Progress 341] save : 68, err : 0, remain_work : 2, total : 343
+2018-10-12 15:37:39 INFO  Crawler:237 - [Progress 342] save : 68, err : 0, remain_work : 4, total : 346
+2018-10-12 15:37:39 INFO  Crawler:237 - [Progress 343] save : 68, err : 0, remain_work : 3, total : 346
+2018-10-12 15:37:40 INFO  Crawler:237 - [Progress 344] save : 69, err : 0, remain_work : 2, total : 346
+2018-10-12 15:37:40 INFO  Crawler:237 - [Progress 345] save : 69, err : 0, remain_work : 1, total : 346
+2018-10-12 15:37:40 INFO  Crawler:237 - [Progress 346] save : 69, err : 0, remain_work : 2, total : 348
+2018-10-12 15:37:41 INFO  Crawler:237 - [Progress 347] save : 69, err : 0, remain_work : 4, total : 351
+2018-10-12 15:37:41 INFO  Crawler:237 - [Progress 348] save : 69, err : 0, remain_work : 3, total : 351
+2018-10-12 15:37:42 INFO  Crawler:237 - [Progress 349] save : 70, err : 0, remain_work : 2, total : 351
+2018-10-12 15:37:42 INFO  Crawler:237 - [Progress 350] save : 70, err : 0, remain_work : 1, total : 351
+2018-10-12 15:37:42 INFO  Crawler:237 - [Progress 351] save : 70, err : 0, remain_work : 2, total : 353
+2018-10-12 15:37:42 INFO  Crawler:237 - [Progress 352] save : 70, err : 0, remain_work : 4, total : 356
+2018-10-12 15:37:42 INFO  Crawler:237 - [Progress 353] save : 70, err : 0, remain_work : 3, total : 356
+2018-10-12 15:37:43 INFO  Crawler:237 - [Progress 354] save : 71, err : 0, remain_work : 2, total : 356
+2018-10-12 15:37:43 INFO  Crawler:237 - [Progress 355] save : 71, err : 0, remain_work : 1, total : 356
+2018-10-12 15:37:43 INFO  Crawler:237 - [Progress 356] save : 71, err : 0, remain_work : 2, total : 358
+2018-10-12 15:37:44 INFO  Crawler:237 - [Progress 357] save : 71, err : 0, remain_work : 4, total : 361
+2018-10-12 15:37:44 INFO  Crawler:237 - [Progress 358] save : 71, err : 0, remain_work : 3, total : 361
+2018-10-12 15:37:45 INFO  Crawler:237 - [Progress 359] save : 72, err : 0, remain_work : 2, total : 361
+2018-10-12 15:37:45 INFO  Crawler:237 - [Progress 360] save : 72, err : 0, remain_work : 1, total : 361
+2018-10-12 15:37:45 INFO  Crawler:237 - [Progress 361] save : 72, err : 0, remain_work : 2, total : 363
+2018-10-12 15:37:45 INFO  Crawler:237 - [Progress 362] save : 72, err : 0, remain_work : 4, total : 366
+2018-10-12 15:37:45 INFO  Crawler:237 - [Progress 363] save : 72, err : 0, remain_work : 3, total : 366
+2018-10-12 15:37:46 INFO  Crawler:237 - [Progress 364] save : 73, err : 0, remain_work : 2, total : 366
+2018-10-12 15:37:46 INFO  Crawler:237 - [Progress 365] save : 73, err : 0, remain_work : 1, total : 366
+2018-10-12 15:37:46 INFO  Crawler:237 - [Progress 366] save : 73, err : 0, remain_work : 2, total : 368
+2018-10-12 15:37:47 INFO  Crawler:237 - [Progress 367] save : 73, err : 0, remain_work : 4, total : 371
+2018-10-12 15:37:47 INFO  Crawler:237 - [Progress 368] save : 73, err : 0, remain_work : 3, total : 371
+2018-10-12 15:37:50 INFO  Crawler:237 - [Progress 369] save : 74, err : 0, remain_work : 2, total : 371
+2018-10-12 15:37:50 INFO  Crawler:237 - [Progress 370] save : 74, err : 0, remain_work : 1, total : 371
+2018-10-12 15:37:50 INFO  Crawler:237 - [Progress 371] save : 74, err : 0, remain_work : 2, total : 373
+2018-10-12 15:37:51 INFO  Crawler:237 - [Progress 372] save : 74, err : 0, remain_work : 4, total : 376
+2018-10-12 15:37:51 INFO  Crawler:237 - [Progress 373] save : 74, err : 0, remain_work : 3, total : 376
+2018-10-12 15:37:52 INFO  Crawler:237 - [Progress 374] save : 75, err : 0, remain_work : 2, total : 376
+2018-10-12 15:37:52 INFO  Crawler:237 - [Progress 375] save : 75, err : 0, remain_work : 1, total : 376
+2018-10-12 15:37:52 INFO  Crawler:237 - [Progress 376] save : 75, err : 0, remain_work : 2, total : 378
+2018-10-12 15:37:52 INFO  Crawler:237 - [Progress 377] save : 75, err : 0, remain_work : 4, total : 381
+2018-10-12 15:37:52 INFO  Crawler:237 - [Progress 378] save : 75, err : 0, remain_work : 3, total : 381
+2018-10-12 15:37:53 INFO  Crawler:237 - [Progress 379] save : 76, err : 0, remain_work : 2, total : 381
+2018-10-12 15:37:53 INFO  Crawler:237 - [Progress 380] save : 76, err : 0, remain_work : 1, total : 381
+2018-10-12 15:37:53 INFO  Crawler:237 - [Progress 381] save : 76, err : 0, remain_work : 2, total : 383
+2018-10-12 15:37:54 INFO  Crawler:237 - [Progress 382] save : 76, err : 0, remain_work : 4, total : 386
+2018-10-12 15:37:54 INFO  Crawler:237 - [Progress 383] save : 76, err : 0, remain_work : 3, total : 386
+2018-10-12 15:37:55 INFO  Crawler:237 - [Progress 384] save : 77, err : 0, remain_work : 2, total : 386
+2018-10-12 15:37:55 INFO  Crawler:237 - [Progress 385] save : 77, err : 0, remain_work : 1, total : 386
+2018-10-12 15:37:55 INFO  Crawler:237 - [Progress 386] save : 77, err : 0, remain_work : 2, total : 388
+2018-10-12 15:37:55 INFO  Crawler:237 - [Progress 387] save : 77, err : 0, remain_work : 4, total : 391
+2018-10-12 15:37:55 INFO  Crawler:237 - [Progress 388] save : 77, err : 0, remain_work : 3, total : 391
+2018-10-12 15:37:59 INFO  Crawler:237 - [Progress 389] save : 78, err : 0, remain_work : 2, total : 391
+2018-10-12 15:37:59 INFO  Crawler:237 - [Progress 390] save : 78, err : 0, remain_work : 1, total : 391
+2018-10-12 15:38:00 INFO  Crawler:237 - [Progress 391] save : 78, err : 0, remain_work : 2, total : 393
+2018-10-12 15:38:00 INFO  Crawler:237 - [Progress 392] save : 78, err : 0, remain_work : 4, total : 396
+2018-10-12 15:38:00 INFO  Crawler:237 - [Progress 393] save : 78, err : 0, remain_work : 3, total : 396
+2018-10-12 15:38:01 INFO  Crawler:237 - [Progress 394] save : 79, err : 0, remain_work : 2, total : 396
+2018-10-12 15:38:01 INFO  Crawler:237 - [Progress 395] save : 79, err : 0, remain_work : 1, total : 396
+2018-10-12 15:38:01 INFO  Crawler:237 - [Progress 396] save : 79, err : 0, remain_work : 2, total : 398
+2018-10-12 15:38:02 INFO  Crawler:237 - [Progress 397] save : 79, err : 0, remain_work : 4, total : 401
+2018-10-12 15:38:02 INFO  Crawler:237 - [Progress 398] save : 79, err : 0, remain_work : 3, total : 401
+2018-10-12 15:38:03 INFO  Crawler:237 - [Progress 399] save : 80, err : 0, remain_work : 2, total : 401
+2018-10-12 15:38:03 INFO  Crawler:237 - [Progress 400] save : 80, err : 0, remain_work : 1, total : 401
+2018-10-12 15:38:03 INFO  Crawler:237 - [Progress 401] save : 80, err : 0, remain_work : 2, total : 403
+2018-10-12 15:38:03 INFO  Crawler:237 - [Progress 402] save : 80, err : 0, remain_work : 4, total : 406
+2018-10-12 15:38:03 INFO  Crawler:237 - [Progress 403] save : 80, err : 0, remain_work : 3, total : 406
+2018-10-12 15:38:04 INFO  Crawler:237 - [Progress 404] save : 81, err : 0, remain_work : 2, total : 406
+2018-10-12 15:38:05 INFO  Crawler:237 - [Progress 405] save : 81, err : 0, remain_work : 1, total : 406
+2018-10-12 15:38:05 INFO  Crawler:237 - [Progress 406] save : 81, err : 0, remain_work : 2, total : 408
+2018-10-12 15:38:05 INFO  Crawler:237 - [Progress 407] save : 81, err : 0, remain_work : 4, total : 411
+2018-10-12 15:38:05 INFO  Crawler:237 - [Progress 408] save : 81, err : 0, remain_work : 3, total : 411
+2018-10-12 15:38:06 INFO  Crawler:237 - [Progress 409] save : 82, err : 0, remain_work : 2, total : 411
+2018-10-12 15:38:06 INFO  Crawler:237 - [Progress 410] save : 82, err : 0, remain_work : 1, total : 411
+2018-10-12 15:38:07 INFO  Crawler:237 - [Progress 411] save : 82, err : 0, remain_work : 2, total : 413
+2018-10-12 15:38:07 INFO  Crawler:237 - [Progress 412] save : 82, err : 0, remain_work : 4, total : 416
+2018-10-12 15:38:07 INFO  Crawler:237 - [Progress 413] save : 82, err : 0, remain_work : 3, total : 416
+2018-10-12 15:38:08 INFO  Crawler:237 - [Progress 414] save : 83, err : 0, remain_work : 2, total : 416
+2018-10-12 15:38:08 INFO  Crawler:237 - [Progress 415] save : 83, err : 0, remain_work : 1, total : 416
+2018-10-12 15:38:09 INFO  Crawler:237 - [Progress 416] save : 83, err : 0, remain_work : 2, total : 418
+2018-10-12 15:38:09 INFO  Crawler:237 - [Progress 417] save : 83, err : 0, remain_work : 4, total : 421
+2018-10-12 15:38:09 INFO  Crawler:237 - [Progress 418] save : 83, err : 0, remain_work : 3, total : 421
+2018-10-12 15:38:10 INFO  Crawler:237 - [Progress 419] save : 84, err : 0, remain_work : 2, total : 421
+2018-10-12 15:38:10 INFO  Crawler:237 - [Progress 420] save : 84, err : 0, remain_work : 1, total : 421
+2018-10-12 15:38:11 INFO  Crawler:237 - [Progress 421] save : 84, err : 0, remain_work : 2, total : 423
+2018-10-12 15:38:11 INFO  Crawler:237 - [Progress 422] save : 84, err : 0, remain_work : 4, total : 426
+2018-10-12 15:38:11 INFO  Crawler:237 - [Progress 423] save : 84, err : 0, remain_work : 3, total : 426
+2018-10-12 15:38:12 INFO  Crawler:237 - [Progress 424] save : 85, err : 0, remain_work : 2, total : 426
+2018-10-12 15:38:12 INFO  Crawler:237 - [Progress 425] save : 85, err : 0, remain_work : 1, total : 426
+2018-10-12 15:38:12 INFO  Crawler:237 - [Progress 426] save : 85, err : 0, remain_work : 2, total : 428
+2018-10-12 15:38:13 INFO  Crawler:237 - [Progress 427] save : 85, err : 0, remain_work : 4, total : 431
+2018-10-12 15:38:13 INFO  Crawler:237 - [Progress 428] save : 85, err : 0, remain_work : 3, total : 431
+2018-10-12 15:38:16 INFO  Crawler:237 - [Progress 429] save : 86, err : 0, remain_work : 2, total : 431
+2018-10-12 15:38:16 INFO  Crawler:237 - [Progress 430] save : 86, err : 0, remain_work : 1, total : 431
+2018-10-12 15:38:16 INFO  Crawler:237 - [Progress 431] save : 86, err : 0, remain_work : 2, total : 433
+2018-10-12 15:38:16 INFO  Crawler:237 - [Progress 432] save : 86, err : 0, remain_work : 4, total : 436
+2018-10-12 15:38:16 INFO  Crawler:237 - [Progress 433] save : 86, err : 0, remain_work : 3, total : 436
+2018-10-12 15:38:20 INFO  Crawler:237 - [Progress 434] save : 87, err : 0, remain_work : 2, total : 436
+2018-10-12 15:38:20 INFO  Crawler:237 - [Progress 435] save : 87, err : 0, remain_work : 1, total : 436
+2018-10-12 15:38:20 INFO  Crawler:237 - [Progress 436] save : 87, err : 0, remain_work : 2, total : 438
+2018-10-12 15:38:20 INFO  Crawler:237 - [Progress 437] save : 87, err : 0, remain_work : 4, total : 441
+2018-10-12 15:38:20 INFO  Crawler:237 - [Progress 438] save : 87, err : 0, remain_work : 3, total : 441
+2018-10-12 15:38:22 INFO  Crawler:237 - [Progress 439] save : 88, err : 0, remain_work : 2, total : 441
+2018-10-12 15:38:22 INFO  Crawler:237 - [Progress 440] save : 88, err : 0, remain_work : 1, total : 441
+2018-10-12 15:38:22 INFO  Crawler:237 - [Progress 441] save : 88, err : 0, remain_work : 2, total : 443
+2018-10-12 15:38:22 INFO  Crawler:237 - [Progress 442] save : 88, err : 0, remain_work : 4, total : 446
+2018-10-12 15:38:22 INFO  Crawler:237 - [Progress 443] save : 88, err : 0, remain_work : 3, total : 446
+2018-10-12 15:38:23 INFO  Crawler:237 - [Progress 444] save : 89, err : 0, remain_work : 2, total : 446
+2018-10-12 15:38:23 INFO  Crawler:237 - [Progress 445] save : 89, err : 0, remain_work : 1, total : 446
+2018-10-12 15:38:23 INFO  Crawler:237 - [Progress 446] save : 89, err : 0, remain_work : 2, total : 448
+2018-10-12 15:38:23 INFO  Crawler:237 - [Progress 447] save : 89, err : 0, remain_work : 4, total : 451
+2018-10-12 15:38:23 INFO  Crawler:237 - [Progress 448] save : 89, err : 0, remain_work : 3, total : 451
+2018-10-12 15:38:24 INFO  Crawler:237 - [Progress 449] save : 90, err : 0, remain_work : 2, total : 451
+2018-10-12 15:38:24 INFO  Crawler:237 - [Progress 450] save : 90, err : 0, remain_work : 1, total : 451
+2018-10-12 15:38:25 INFO  Crawler:237 - [Progress 451] save : 90, err : 0, remain_work : 2, total : 453
+2018-10-12 15:38:25 INFO  Crawler:237 - [Progress 452] save : 90, err : 0, remain_work : 4, total : 456
+2018-10-12 15:38:25 INFO  Crawler:237 - [Progress 453] save : 90, err : 0, remain_work : 3, total : 456
+2018-10-12 15:38:26 INFO  Crawler:237 - [Progress 454] save : 91, err : 0, remain_work : 2, total : 456
+2018-10-12 15:38:27 INFO  Crawler:237 - [Progress 455] save : 91, err : 0, remain_work : 1, total : 456
+2018-10-12 15:38:27 INFO  Crawler:237 - [Progress 456] save : 91, err : 0, remain_work : 2, total : 458
+2018-10-12 15:38:27 INFO  Crawler:237 - [Progress 457] save : 91, err : 0, remain_work : 4, total : 461
+2018-10-12 15:38:27 INFO  Crawler:237 - [Progress 458] save : 91, err : 0, remain_work : 3, total : 461
+2018-10-12 15:38:28 INFO  Crawler:237 - [Progress 459] save : 92, err : 0, remain_work : 2, total : 461
+2018-10-12 15:38:28 INFO  Crawler:237 - [Progress 460] save : 92, err : 0, remain_work : 1, total : 461
+2018-10-12 15:38:28 INFO  Crawler:237 - [Progress 461] save : 92, err : 0, remain_work : 2, total : 463
+2018-10-12 15:38:29 INFO  Crawler:237 - [Progress 462] save : 92, err : 0, remain_work : 4, total : 466
+2018-10-12 15:38:29 INFO  Crawler:237 - [Progress 463] save : 92, err : 0, remain_work : 3, total : 466
+2018-10-12 15:38:30 INFO  Crawler:237 - [Progress 464] save : 93, err : 0, remain_work : 2, total : 466
+2018-10-12 15:38:30 INFO  Crawler:237 - [Progress 465] save : 93, err : 0, remain_work : 1, total : 466
+2018-10-12 15:38:30 INFO  Crawler:237 - [Progress 466] save : 93, err : 0, remain_work : 2, total : 468
+2018-10-12 15:38:30 INFO  Crawler:237 - [Progress 467] save : 93, err : 0, remain_work : 4, total : 471
+2018-10-12 15:38:30 INFO  Crawler:237 - [Progress 468] save : 93, err : 0, remain_work : 3, total : 471
+2018-10-12 15:38:31 INFO  Crawler:237 - [Progress 469] save : 94, err : 0, remain_work : 2, total : 471
+2018-10-12 15:38:31 INFO  Crawler:237 - [Progress 470] save : 94, err : 0, remain_work : 1, total : 471
+2018-10-12 15:38:31 INFO  Crawler:237 - [Progress 471] save : 94, err : 0, remain_work : 2, total : 473
+2018-10-12 15:38:32 INFO  Crawler:237 - [Progress 472] save : 94, err : 0, remain_work : 4, total : 476
+2018-10-12 15:38:32 INFO  Crawler:237 - [Progress 473] save : 94, err : 0, remain_work : 3, total : 476
+2018-10-12 15:38:33 INFO  Crawler:237 - [Progress 474] save : 95, err : 0, remain_work : 2, total : 476
+2018-10-12 15:38:33 INFO  Crawler:237 - [Progress 475] save : 95, err : 0, remain_work : 1, total : 476
+2018-10-12 15:38:33 INFO  Crawler:237 - [Progress 476] save : 95, err : 0, remain_work : 2, total : 478
+2018-10-12 15:38:33 INFO  Crawler:237 - [Progress 477] save : 95, err : 0, remain_work : 4, total : 481
+2018-10-12 15:38:33 INFO  Crawler:237 - [Progress 478] save : 95, err : 0, remain_work : 3, total : 481
+2018-10-12 15:38:34 INFO  Crawler:237 - [Progress 479] save : 96, err : 0, remain_work : 2, total : 481
+2018-10-12 15:38:34 INFO  Crawler:237 - [Progress 480] save : 96, err : 0, remain_work : 1, total : 481
+2018-10-12 15:38:34 INFO  Crawler:237 - [Progress 481] save : 96, err : 0, remain_work : 2, total : 483
+2018-10-12 15:38:35 INFO  Crawler:237 - [Progress 482] save : 96, err : 0, remain_work : 4, total : 486
+2018-10-12 15:38:35 INFO  Crawler:237 - [Progress 483] save : 96, err : 0, remain_work : 3, total : 486
+2018-10-12 15:38:36 INFO  Crawler:237 - [Progress 484] save : 97, err : 0, remain_work : 2, total : 486
+2018-10-12 15:38:36 INFO  Crawler:237 - [Progress 485] save : 97, err : 0, remain_work : 1, total : 486
+2018-10-12 15:38:36 INFO  Crawler:237 - [Progress 486] save : 97, err : 0, remain_work : 2, total : 488
+2018-10-12 15:38:36 INFO  Crawler:237 - [Progress 487] save : 97, err : 0, remain_work : 4, total : 491
+2018-10-12 15:38:36 INFO  Crawler:237 - [Progress 488] save : 97, err : 0, remain_work : 3, total : 491
+2018-10-12 15:38:37 INFO  Crawler:237 - [Progress 489] save : 98, err : 0, remain_work : 2, total : 491
+2018-10-12 15:38:37 INFO  Crawler:237 - [Progress 490] save : 98, err : 0, remain_work : 1, total : 491
+2018-10-12 15:38:38 INFO  Crawler:237 - [Progress 491] save : 98, err : 0, remain_work : 2, total : 493
+2018-10-12 15:38:38 INFO  Crawler:237 - [Progress 492] save : 98, err : 0, remain_work : 4, total : 496
+2018-10-12 15:38:38 INFO  Crawler:237 - [Progress 493] save : 98, err : 0, remain_work : 3, total : 496
+2018-10-12 15:38:39 INFO  Crawler:237 - [Progress 494] save : 99, err : 0, remain_work : 2, total : 496
+2018-10-12 15:38:39 INFO  Crawler:237 - [Progress 495] save : 99, err : 0, remain_work : 1, total : 496
+2018-10-12 15:38:39 INFO  Crawler:237 - [Progress 496] save : 99, err : 0, remain_work : 2, total : 498
+2018-10-12 15:38:39 INFO  Crawler:237 - [Progress 497] save : 99, err : 0, remain_work : 4, total : 501
+2018-10-12 15:38:39 INFO  Crawler:237 - [Progress 498] save : 99, err : 0, remain_work : 3, total : 501
+2018-10-12 15:38:40 INFO  Crawler:237 - [Progress 499] save : 100, err : 0, remain_work : 2, total : 501
+2018-10-12 15:38:40 INFO  Crawler:237 - [Progress 500] save : 100, err : 0, remain_work : 1, total : 501
+2018-10-12 15:38:41 INFO  Crawler:237 - [Progress 501] save : 100, err : 0, remain_work : 2, total : 503
+2018-10-12 15:38:41 INFO  Crawler:237 - [Progress 502] save : 100, err : 0, remain_work : 4, total : 506
+2018-10-12 15:38:41 INFO  Crawler:237 - [Progress 503] save : 100, err : 0, remain_work : 3, total : 506
+2018-10-12 15:38:42 INFO  Crawler:237 - [Progress 504] save : 101, err : 0, remain_work : 2, total : 506
+2018-10-12 15:38:42 INFO  Crawler:237 - [Progress 505] save : 101, err : 0, remain_work : 1, total : 506
+2018-10-12 15:38:42 INFO  Crawler:237 - [Progress 506] save : 101, err : 0, remain_work : 2, total : 508
+2018-10-12 15:38:42 INFO  Crawler:237 - [Progress 507] save : 101, err : 0, remain_work : 4, total : 511
+2018-10-12 15:38:42 INFO  Crawler:237 - [Progress 508] save : 101, err : 0, remain_work : 3, total : 511
+2018-10-12 15:38:43 INFO  Crawler:237 - [Progress 509] save : 102, err : 0, remain_work : 2, total : 511
+2018-10-12 15:38:43 INFO  Crawler:237 - [Progress 510] save : 102, err : 0, remain_work : 1, total : 511
+2018-10-12 15:38:44 INFO  Crawler:237 - [Progress 511] save : 102, err : 0, remain_work : 2, total : 513
+2018-10-12 15:38:44 INFO  Crawler:237 - [Progress 512] save : 102, err : 0, remain_work : 4, total : 516
+2018-10-12 15:38:44 INFO  Crawler:237 - [Progress 513] save : 102, err : 0, remain_work : 3, total : 516
+2018-10-12 15:38:45 INFO  Crawler:237 - [Progress 514] save : 103, err : 0, remain_work : 2, total : 516
+2018-10-12 15:38:45 INFO  Crawler:237 - [Progress 515] save : 103, err : 0, remain_work : 1, total : 516
+2018-10-12 15:38:45 INFO  Crawler:237 - [Progress 516] save : 103, err : 0, remain_work : 2, total : 518
+2018-10-12 15:38:45 INFO  Crawler:237 - [Progress 517] save : 103, err : 0, remain_work : 4, total : 521
+2018-10-12 15:38:45 INFO  Crawler:237 - [Progress 518] save : 103, err : 0, remain_work : 3, total : 521
+2018-10-12 15:38:46 INFO  Crawler:237 - [Progress 519] save : 104, err : 0, remain_work : 2, total : 521
+2018-10-12 15:38:47 INFO  Crawler:237 - [Progress 520] save : 104, err : 0, remain_work : 1, total : 521
+2018-10-12 15:38:47 INFO  Crawler:237 - [Progress 521] save : 104, err : 0, remain_work : 2, total : 523
+2018-10-12 15:38:47 INFO  Crawler:237 - [Progress 522] save : 104, err : 0, remain_work : 4, total : 526
+2018-10-12 15:38:47 INFO  Crawler:237 - [Progress 523] save : 104, err : 0, remain_work : 3, total : 526
+2018-10-12 15:38:48 INFO  Crawler:237 - [Progress 524] save : 105, err : 0, remain_work : 2, total : 526
+2018-10-12 15:38:48 INFO  Crawler:237 - [Progress 525] save : 105, err : 0, remain_work : 1, total : 526
+2018-10-12 15:38:48 INFO  Crawler:237 - [Progress 526] save : 105, err : 0, remain_work : 2, total : 528
+2018-10-12 15:38:48 INFO  Crawler:237 - [Progress 527] save : 105, err : 0, remain_work : 4, total : 531
+2018-10-12 15:38:48 INFO  Crawler:237 - [Progress 528] save : 105, err : 0, remain_work : 3, total : 531
+2018-10-12 15:38:49 INFO  Crawler:237 - [Progress 529] save : 106, err : 0, remain_work : 2, total : 531
+2018-10-12 15:38:49 INFO  Crawler:237 - [Progress 530] save : 106, err : 0, remain_work : 1, total : 531
+2018-10-12 15:38:50 INFO  Crawler:237 - [Progress 531] save : 106, err : 0, remain_work : 2, total : 533
+2018-10-12 15:38:50 INFO  Crawler:237 - [Progress 532] save : 106, err : 0, remain_work : 4, total : 536
+2018-10-12 15:38:50 INFO  Crawler:237 - [Progress 533] save : 106, err : 0, remain_work : 3, total : 536
+2018-10-12 15:38:51 INFO  Crawler:237 - [Progress 534] save : 107, err : 0, remain_work : 2, total : 536
+2018-10-12 15:38:51 INFO  Crawler:237 - [Progress 535] save : 107, err : 0, remain_work : 1, total : 536
+2018-10-12 15:38:51 INFO  Crawler:237 - [Progress 536] save : 107, err : 0, remain_work : 2, total : 538
+2018-10-12 15:38:51 INFO  Crawler:237 - [Progress 537] save : 107, err : 0, remain_work : 4, total : 541
+2018-10-12 15:38:51 INFO  Crawler:237 - [Progress 538] save : 107, err : 0, remain_work : 3, total : 541
+2018-10-12 15:38:52 INFO  Crawler:237 - [Progress 539] save : 108, err : 0, remain_work : 2, total : 541
+2018-10-12 15:38:52 INFO  Crawler:237 - [Progress 540] save : 108, err : 0, remain_work : 1, total : 541
+2018-10-12 15:38:53 INFO  Crawler:237 - [Progress 541] save : 108, err : 0, remain_work : 2, total : 543
+2018-10-12 15:38:53 INFO  Crawler:237 - [Progress 542] save : 108, err : 0, remain_work : 4, total : 546
+2018-10-12 15:38:53 INFO  Crawler:237 - [Progress 543] save : 108, err : 0, remain_work : 3, total : 546
+2018-10-12 15:38:54 INFO  Crawler:237 - [Progress 544] save : 109, err : 0, remain_work : 2, total : 546
+2018-10-12 15:38:54 INFO  Crawler:237 - [Progress 545] save : 109, err : 0, remain_work : 1, total : 546
+2018-10-12 15:38:55 INFO  Crawler:237 - [Progress 546] save : 109, err : 0, remain_work : 2, total : 548
+2018-10-12 15:38:55 INFO  Crawler:237 - [Progress 547] save : 109, err : 0, remain_work : 4, total : 551
+2018-10-12 15:38:55 INFO  Crawler:237 - [Progress 548] save : 109, err : 0, remain_work : 3, total : 551
+2018-10-12 15:38:56 INFO  Crawler:237 - [Progress 549] save : 110, err : 0, remain_work : 2, total : 551
+2018-10-12 15:38:56 INFO  Crawler:237 - [Progress 550] save : 110, err : 0, remain_work : 1, total : 551
+2018-10-12 15:38:56 INFO  Crawler:237 - [Progress 551] save : 110, err : 0, remain_work : 2, total : 553
+2018-10-12 15:38:57 INFO  Crawler:237 - [Progress 552] save : 110, err : 0, remain_work : 4, total : 556
+2018-10-12 15:38:57 INFO  Crawler:237 - [Progress 553] save : 110, err : 0, remain_work : 3, total : 556
+2018-10-12 15:39:00 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 15:39:00 INFO  Crawler:200 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:39:00 INFO  Crawler:201 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:39:00 INFO  Crawler:202 - IGNORE ROBOTS  : true
+2018-10-12 15:39:00 INFO  Crawler:203 - FILTER COUNT   : 0
+2018-10-12 15:39:00 INFO  Crawler:207 - SCENARIO COUNT : 2
+2018-10-12 15:39:00 INFO  Crawler:208 - COLLECT COUNT  : 1
+2018-10-12 15:39:00 INFO  Crawler:209 - SAVE TYPE      : DB
+2018-10-12 15:39:00 INFO  Crawler:211 - CMD PARAMETER  : ./config/config_action.json
+2018-10-12 15:39:00 INFO  Crawler:211 - CMD PARAMETER  : 그래픽카드
+2018-10-12 15:39:00 INFO  Crawler:213 - ==========================================
+2018-10-12 15:39:10 INFO  Crawler:241 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:39:10 INFO  Crawler:241 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:39:10 INFO  Crawler:241 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:39:12 INFO  Crawler:241 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:39:12 INFO  Crawler:241 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:39:13 INFO  Crawler:241 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:39:13 INFO  Crawler:241 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:39:13 INFO  Crawler:241 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:39:14 INFO  Crawler:241 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:39:15 INFO  Crawler:241 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:39:15 INFO  Crawler:241 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:39:15 INFO  Crawler:241 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:39:15 INFO  Crawler:241 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:39:16 INFO  Crawler:241 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:39:16 INFO  Crawler:241 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:39:16 INFO  Crawler:241 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:39:17 INFO  Crawler:241 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:39:17 INFO  Crawler:241 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:39:18 INFO  Crawler:241 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:39:18 INFO  Crawler:241 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:39:18 INFO  Crawler:241 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 15:39:18 INFO  Crawler:241 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 15:39:18 INFO  Crawler:241 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 15:39:20 INFO  Crawler:241 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 15:39:20 INFO  Crawler:241 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 15:39:20 INFO  Crawler:241 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 15:39:20 INFO  Crawler:241 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 15:39:20 INFO  Crawler:241 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 15:39:21 INFO  Crawler:241 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 15:39:22 INFO  Crawler:241 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 15:39:22 INFO  Crawler:241 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 15:39:22 INFO  Crawler:241 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 15:39:22 INFO  Crawler:241 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 15:39:23 INFO  Crawler:241 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 15:39:23 INFO  Crawler:241 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 15:39:23 INFO  Crawler:241 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 15:39:23 INFO  Crawler:241 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 15:39:23 INFO  Crawler:241 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 15:39:27 INFO  Crawler:241 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 15:39:27 INFO  Crawler:241 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 15:39:28 INFO  Crawler:241 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 15:39:28 INFO  Crawler:241 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 15:39:28 INFO  Crawler:241 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 15:40:28 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 15:40:28 INFO  Crawler:200 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:40:28 INFO  Crawler:201 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:40:28 INFO  Crawler:202 - IGNORE ROBOTS  : true
+2018-10-12 15:40:28 INFO  Crawler:203 - FILTER COUNT   : 0
+2018-10-12 15:40:28 INFO  Crawler:207 - SCENARIO COUNT : 2
+2018-10-12 15:40:28 INFO  Crawler:208 - COLLECT COUNT  : 1
+2018-10-12 15:40:28 INFO  Crawler:209 - SAVE TYPE      : DB
+2018-10-12 15:40:28 INFO  Crawler:211 - CMD PARAM 00 : ./config/config_action.json
+2018-10-12 15:40:28 INFO  Crawler:211 - CMD PARAM 01 : 그래픽카드
+2018-10-12 15:40:28 INFO  Crawler:213 - ==========================================
+2018-10-12 15:40:34 INFO  Crawler:241 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:40:34 INFO  Crawler:241 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:40:34 INFO  Crawler:241 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:40:36 INFO  Crawler:241 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:40:36 INFO  Crawler:241 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:40:36 INFO  Crawler:241 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:40:36 INFO  Crawler:241 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:40:36 INFO  Crawler:241 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:40:37 INFO  Crawler:241 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:40:38 INFO  Crawler:241 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:40:38 INFO  Crawler:241 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:40:38 INFO  Crawler:241 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:40:38 INFO  Crawler:241 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:40:39 INFO  Crawler:241 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:40:39 INFO  Crawler:241 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:40:40 INFO  Crawler:241 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:40:40 INFO  Crawler:241 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:40:40 INFO  Crawler:241 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:40:41 INFO  Crawler:241 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:40:41 INFO  Crawler:241 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:40:41 INFO  Crawler:241 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 15:40:42 ERROR WorkRunnable:79 - not found element stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f3d5bf71fe4226781419672ddf64190e
+org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: f3d5bf71fe4226781419672ddf64190e
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:79)
+	at java.lang.Thread.run(Thread.java:748)
+2018-10-12 15:40:42 INFO  Crawler:241 - [Progress 22] save : 4, err : 0, remain_work : 1, total : 23
+2018-10-12 15:40:42 INFO  Crawler:241 - [Progress 23] save : 4, err : 0, remain_work : 2, total : 25
+2018-10-12 15:40:43 INFO  Crawler:241 - [Progress 24] save : 4, err : 0, remain_work : 4, total : 28
+2018-10-12 15:40:43 INFO  Crawler:241 - [Progress 25] save : 4, err : 0, remain_work : 3, total : 28
+2018-10-12 15:50:31 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 15:50:31 INFO  Crawler:200 - CONFIG FILE    : ./config/config_action.json
+2018-10-12 15:50:31 INFO  Crawler:201 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:50:31 INFO  Crawler:202 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:50:31 INFO  Crawler:203 - IGNORE ROBOTS  : true
+2018-10-12 15:50:31 INFO  Crawler:204 - FILTER COUNT   : 0
+2018-10-12 15:50:31 INFO  Crawler:208 - SCENARIO COUNT : 2
+2018-10-12 15:50:31 INFO  Crawler:209 - COLLECT COUNT  : 1
+2018-10-12 15:50:31 INFO  Crawler:210 - SAVE TYPE      : DB
+2018-10-12 15:50:31 INFO  Crawler:212 - CMD PARAM 00 : 그래픽카드
+2018-10-12 15:50:31 INFO  Crawler:214 - ==========================================
+2018-10-12 15:50:37 INFO  Crawler:242 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:50:37 INFO  Crawler:242 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:50:37 INFO  Crawler:242 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:50:39 INFO  Crawler:242 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:50:39 INFO  Crawler:242 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:51:24 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 15:51:24 INFO  Crawler:200 - CONFIG FILE    : ./config/config_action.json
+2018-10-12 15:51:24 INFO  Crawler:201 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:51:24 INFO  Crawler:202 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:51:24 INFO  Crawler:203 - IGNORE ROBOTS  : true
+2018-10-12 15:51:24 INFO  Crawler:204 - FILTER COUNT   : 0
+2018-10-12 15:51:24 INFO  Crawler:208 - SCENARIO COUNT : 2
+2018-10-12 15:51:24 INFO  Crawler:209 - COLLECT COUNT  : 1
+2018-10-12 15:51:24 INFO  Crawler:210 - SAVE TYPE      : DB
+2018-10-12 15:51:24 INFO  Crawler:212 - CMD PARAM 00   : 그래픽카드
+2018-10-12 15:51:24 INFO  Crawler:214 - ==========================================
+2018-10-12 15:51:30 INFO  Crawler:242 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:51:31 INFO  Crawler:242 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:51:31 INFO  Crawler:242 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:51:32 INFO  Crawler:242 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:51:32 INFO  Crawler:242 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:51:32 INFO  Crawler:242 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:51:33 INFO  Crawler:242 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:51:33 INFO  Crawler:242 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:51:34 INFO  Crawler:242 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:51:34 INFO  Crawler:242 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:51:35 INFO  Crawler:242 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:51:35 INFO  Crawler:242 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:51:35 INFO  Crawler:242 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:51:36 INFO  Crawler:242 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:51:36 INFO  Crawler:242 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:51:36 INFO  Crawler:242 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:51:36 INFO  Crawler:242 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:51:37 INFO  Crawler:242 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:51:38 INFO  Crawler:242 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:51:38 INFO  Crawler:242 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:51:48 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 15:51:48 INFO  Crawler:200 - CONFIG FILE    : ./config/config_action.json
+2018-10-12 15:51:48 INFO  Crawler:202 - CMD PARAM 00   : 그래픽카드
+2018-10-12 15:51:48 INFO  Crawler:204 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 15:51:48 INFO  Crawler:205 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 15:51:48 INFO  Crawler:206 - IGNORE ROBOTS  : true
+2018-10-12 15:51:48 INFO  Crawler:207 - FILTER COUNT   : 0
+2018-10-12 15:51:48 INFO  Crawler:211 - SCENARIO COUNT : 2
+2018-10-12 15:51:48 INFO  Crawler:212 - COLLECT COUNT  : 1
+2018-10-12 15:51:48 INFO  Crawler:213 - SAVE TYPE      : DB
+2018-10-12 15:51:48 INFO  Crawler:214 - ==========================================
+2018-10-12 15:51:54 INFO  Crawler:242 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 15:51:55 INFO  Crawler:242 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 15:51:55 INFO  Crawler:242 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 15:51:56 INFO  Crawler:242 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 15:51:56 INFO  Crawler:242 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 15:51:56 INFO  Crawler:242 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 15:51:57 INFO  Crawler:242 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 15:51:57 INFO  Crawler:242 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 15:51:58 INFO  Crawler:242 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 15:51:58 INFO  Crawler:242 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 15:51:58 INFO  Crawler:242 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 15:51:59 INFO  Crawler:242 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 15:51:59 INFO  Crawler:242 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 15:52:00 INFO  Crawler:242 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 15:52:00 INFO  Crawler:242 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 15:52:00 INFO  Crawler:242 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 15:52:00 INFO  Crawler:242 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 15:52:00 INFO  Crawler:242 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 15:52:01 INFO  Crawler:242 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 15:52:02 INFO  Crawler:242 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 15:52:02 INFO  Crawler:242 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 15:52:02 INFO  Crawler:242 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 15:52:02 INFO  Crawler:242 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26
+2018-10-12 15:52:03 INFO  Crawler:242 - [Progress 24] save : 5, err : 0, remain_work : 2, total : 26
+2018-10-12 15:52:03 INFO  Crawler:242 - [Progress 25] save : 5, err : 0, remain_work : 1, total : 26
+2018-10-12 15:52:03 INFO  Crawler:242 - [Progress 26] save : 5, err : 0, remain_work : 2, total : 28
+2018-10-12 15:52:04 INFO  Crawler:242 - [Progress 27] save : 5, err : 0, remain_work : 4, total : 31
+2018-10-12 15:52:04 INFO  Crawler:242 - [Progress 28] save : 5, err : 0, remain_work : 3, total : 31
+2018-10-12 15:52:05 INFO  Crawler:242 - [Progress 29] save : 6, err : 0, remain_work : 2, total : 31
+2018-10-12 15:52:05 INFO  Crawler:242 - [Progress 30] save : 6, err : 0, remain_work : 1, total : 31
+2018-10-12 15:52:05 INFO  Crawler:242 - [Progress 31] save : 6, err : 0, remain_work : 2, total : 33
+2018-10-12 15:52:06 INFO  Crawler:242 - [Progress 32] save : 6, err : 0, remain_work : 4, total : 36
+2018-10-12 15:52:06 INFO  Crawler:242 - [Progress 33] save : 6, err : 0, remain_work : 3, total : 36
+2018-10-12 15:52:07 INFO  Crawler:242 - [Progress 34] save : 7, err : 0, remain_work : 2, total : 36
+2018-10-12 15:52:07 INFO  Crawler:242 - [Progress 35] save : 7, err : 0, remain_work : 1, total : 36
+2018-10-12 15:52:07 INFO  Crawler:242 - [Progress 36] save : 7, err : 0, remain_work : 2, total : 38
+2018-10-12 15:52:07 INFO  Crawler:242 - [Progress 37] save : 7, err : 0, remain_work : 4, total : 41
+2018-10-12 15:52:07 INFO  Crawler:242 - [Progress 38] save : 7, err : 0, remain_work : 3, total : 41
+2018-10-12 15:52:12 INFO  Crawler:242 - [Progress 39] save : 8, err : 0, remain_work : 2, total : 41
+2018-10-12 15:52:12 INFO  Crawler:242 - [Progress 40] save : 8, err : 0, remain_work : 1, total : 41
+2018-10-12 15:52:12 INFO  Crawler:242 - [Progress 41] save : 8, err : 0, remain_work : 2, total : 43
+2018-10-12 15:52:12 INFO  Crawler:242 - [Progress 42] save : 8, err : 0, remain_work : 4, total : 46
+2018-10-12 15:52:13 INFO  Crawler:242 - [Progress 43] save : 8, err : 0, remain_work : 3, total : 46
+2018-10-12 15:52:14 INFO  Crawler:242 - [Progress 44] save : 9, err : 0, remain_work : 2, total : 46
+2018-10-12 15:52:14 INFO  Crawler:242 - [Progress 45] save : 9, err : 0, remain_work : 1, total : 46
+2018-10-12 15:52:14 INFO  Crawler:242 - [Progress 46] save : 9, err : 0, remain_work : 2, total : 48
+2018-10-12 15:52:14 INFO  Crawler:242 - [Progress 47] save : 9, err : 0, remain_work : 4, total : 51
+2018-10-12 15:52:14 INFO  Crawler:242 - [Progress 48] save : 9, err : 0, remain_work : 3, total : 51
+2018-10-12 15:52:15 INFO  Crawler:242 - [Progress 49] save : 10, err : 0, remain_work : 2, total : 51
+2018-10-12 15:52:15 INFO  Crawler:242 - [Progress 50] save : 10, err : 0, remain_work : 1, total : 51
+2018-10-12 15:52:15 INFO  Crawler:242 - [Progress 51] save : 10, err : 0, remain_work : 2, total : 53
+2018-10-12 15:52:16 INFO  Crawler:242 - [Progress 52] save : 10, err : 0, remain_work : 4, total : 56
+2018-10-12 15:52:16 INFO  Crawler:242 - [Progress 53] save : 10, err : 0, remain_work : 3, total : 56
+2018-10-12 15:52:17 INFO  Crawler:242 - [Progress 54] save : 11, err : 0, remain_work : 2, total : 56
+2018-10-12 15:52:17 INFO  Crawler:242 - [Progress 55] save : 11, err : 0, remain_work : 1, total : 56
+2018-10-12 15:52:17 INFO  Crawler:242 - [Progress 56] save : 11, err : 0, remain_work : 2, total : 58
+2018-10-12 15:52:17 INFO  Crawler:242 - [Progress 57] save : 11, err : 0, remain_work : 4, total : 61
+2018-10-12 15:52:17 INFO  Crawler:242 - [Progress 58] save : 11, err : 0, remain_work : 3, total : 61
+2018-10-12 15:52:19 INFO  Crawler:242 - [Progress 59] save : 12, err : 0, remain_work : 2, total : 61
+2018-10-12 15:52:19 INFO  Crawler:242 - [Progress 60] save : 12, err : 0, remain_work : 1, total : 61
+2018-10-12 15:52:19 INFO  Crawler:242 - [Progress 61] save : 12, err : 0, remain_work : 2, total : 63
+2018-10-12 15:52:19 INFO  Crawler:242 - [Progress 62] save : 12, err : 0, remain_work : 4, total : 66
+2018-10-12 15:52:19 INFO  Crawler:242 - [Progress 63] save : 12, err : 0, remain_work : 3, total : 66
+2018-10-12 15:52:20 INFO  Crawler:242 - [Progress 64] save : 13, err : 0, remain_work : 2, total : 66
+2018-10-12 15:52:20 INFO  Crawler:242 - [Progress 65] save : 13, err : 0, remain_work : 1, total : 66
+2018-10-12 15:52:20 INFO  Crawler:242 - [Progress 66] save : 13, err : 0, remain_work : 2, total : 68
+2018-10-12 15:52:21 INFO  Crawler:242 - [Progress 67] save : 13, err : 0, remain_work : 4, total : 71
+2018-10-12 15:52:21 INFO  Crawler:242 - [Progress 68] save : 13, err : 0, remain_work : 3, total : 71
+2018-10-12 15:52:22 INFO  Crawler:242 - [Progress 69] save : 14, err : 0, remain_work : 2, total : 71
+2018-10-12 15:52:22 INFO  Crawler:242 - [Progress 70] save : 14, err : 0, remain_work : 1, total : 71
+2018-10-12 15:52:23 INFO  Crawler:242 - [Progress 71] save : 14, err : 0, remain_work : 2, total : 73
+2018-10-12 15:52:23 INFO  Crawler:242 - [Progress 72] save : 14, err : 0, remain_work : 4, total : 76
+2018-10-12 15:52:23 INFO  Crawler:242 - [Progress 73] save : 14, err : 0, remain_work : 3, total : 76
+2018-10-12 15:52:24 INFO  Crawler:242 - [Progress 74] save : 15, err : 0, remain_work : 2, total : 76
+2018-10-12 15:52:24 INFO  Crawler:242 - [Progress 75] save : 15, err : 0, remain_work : 1, total : 76
+2018-10-12 15:52:24 INFO  Crawler:242 - [Progress 76] save : 15, err : 0, remain_work : 2, total : 78
+2018-10-12 15:52:24 INFO  Crawler:242 - [Progress 77] save : 15, err : 0, remain_work : 4, total : 81
+2018-10-12 15:52:24 INFO  Crawler:242 - [Progress 78] save : 15, err : 0, remain_work : 3, total : 81
+2018-10-12 15:52:25 INFO  Crawler:242 - [Progress 79] save : 16, err : 0, remain_work : 2, total : 81
+2018-10-12 15:52:26 INFO  Crawler:242 - [Progress 80] save : 16, err : 0, remain_work : 1, total : 81
+2018-10-12 15:52:26 INFO  Crawler:242 - [Progress 81] save : 16, err : 0, remain_work : 2, total : 83
+2018-10-12 15:52:26 INFO  Crawler:242 - [Progress 82] save : 16, err : 0, remain_work : 4, total : 86
+2018-10-12 15:52:26 INFO  Crawler:242 - [Progress 83] save : 16, err : 0, remain_work : 3, total : 86
+2018-10-12 15:52:27 INFO  Crawler:242 - [Progress 84] save : 17, err : 0, remain_work : 2, total : 86
+2018-10-12 15:52:27 INFO  Crawler:242 - [Progress 85] save : 17, err : 0, remain_work : 1, total : 86
+2018-10-12 15:52:27 INFO  Crawler:242 - [Progress 86] save : 17, err : 0, remain_work : 2, total : 88
+2018-10-12 15:52:27 INFO  Crawler:242 - [Progress 87] save : 17, err : 0, remain_work : 4, total : 91
+2018-10-12 15:52:27 INFO  Crawler:242 - [Progress 88] save : 17, err : 0, remain_work : 3, total : 91
+2018-10-12 15:52:29 INFO  Crawler:242 - [Progress 89] save : 18, err : 0, remain_work : 2, total : 91
+2018-10-12 15:52:29 INFO  Crawler:242 - [Progress 90] save : 18, err : 0, remain_work : 1, total : 91
+2018-10-12 15:52:29 INFO  Crawler:242 - [Progress 91] save : 18, err : 0, remain_work : 2, total : 93
+2018-10-12 15:52:29 INFO  Crawler:242 - [Progress 92] save : 18, err : 0, remain_work : 4, total : 96
+2018-10-12 15:52:29 INFO  Crawler:242 - [Progress 93] save : 18, err : 0, remain_work : 3, total : 96
+2018-10-12 15:52:30 INFO  Crawler:242 - [Progress 94] save : 19, err : 0, remain_work : 2, total : 96
+2018-10-12 15:52:30 INFO  Crawler:242 - [Progress 95] save : 19, err : 0, remain_work : 1, total : 96
+2018-10-12 15:52:30 INFO  Crawler:242 - [Progress 96] save : 19, err : 0, remain_work : 2, total : 98
+2018-10-12 15:52:31 INFO  Crawler:242 - [Progress 97] save : 19, err : 0, remain_work : 4, total : 101
+2018-10-12 15:52:31 INFO  Crawler:242 - [Progress 98] save : 19, err : 0, remain_work : 3, total : 101
+2018-10-12 15:52:32 INFO  Crawler:242 - [Progress 99] save : 20, err : 0, remain_work : 2, total : 101
+2018-10-12 15:52:32 INFO  Crawler:242 - [Progress 100] save : 20, err : 0, remain_work : 1, total : 101
+2018-10-12 15:52:32 INFO  Crawler:242 - [Progress 101] save : 20, err : 0, remain_work : 2, total : 103
+2018-10-12 15:52:32 INFO  Crawler:242 - [Progress 102] save : 20, err : 0, remain_work : 4, total : 106
+2018-10-12 15:52:32 INFO  Crawler:242 - [Progress 103] save : 20, err : 0, remain_work : 3, total : 106
+2018-10-12 16:58:11 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 16:58:11 INFO  Crawler:200 - CONFIG FILE    : ./config/config_action.json
+2018-10-12 16:58:11 INFO  Crawler:202 - CMD PARAM 00   : 그래픽카드
+2018-10-12 16:58:11 INFO  Crawler:204 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 16:58:11 INFO  Crawler:205 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 16:58:11 INFO  Crawler:206 - IGNORE ROBOTS  : true
+2018-10-12 16:58:11 INFO  Crawler:207 - FILTER COUNT   : 0
+2018-10-12 16:58:11 INFO  Crawler:211 - SCENARIO COUNT : 2
+2018-10-12 16:58:11 INFO  Crawler:212 - COLLECT COUNT  : 1
+2018-10-12 16:58:11 INFO  Crawler:213 - SAVE TYPE      : DB
+2018-10-12 16:58:11 INFO  Crawler:214 - ==========================================
+2018-10-12 17:17:52 INFO  Crawler:199 - ============== Start Crawler =============
+2018-10-12 17:17:52 INFO  Crawler:200 - CONFIG FILE    : ./config/config_action.json
+2018-10-12 17:17:52 INFO  Crawler:202 - CMD PARAM 00   : 그래픽카드
+2018-10-12 17:17:52 INFO  Crawler:204 - CRAWLER NAME   : 액션기반 크롤링
+2018-10-12 17:17:52 INFO  Crawler:205 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-12 17:17:52 INFO  Crawler:206 - IGNORE ROBOTS  : true
+2018-10-12 17:17:52 INFO  Crawler:207 - FILTER COUNT   : 0
+2018-10-12 17:17:52 INFO  Crawler:211 - SCENARIO COUNT : 2
+2018-10-12 17:17:52 INFO  Crawler:212 - COLLECT COUNT  : 1
+2018-10-12 17:17:52 INFO  Crawler:213 - SAVE TYPE      : DB
+2018-10-12 17:17:52 INFO  Crawler:214 - ==========================================
+2018-10-12 17:17:59 INFO  Crawler:242 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-10-12 17:17:59 INFO  Crawler:242 - [Progress 2] save : 0, err : 0, remain_work : 4, total : 6
+2018-10-12 17:17:59 INFO  Crawler:242 - [Progress 3] save : 0, err : 0, remain_work : 3, total : 6
+2018-10-12 17:18:00 INFO  Crawler:242 - [Progress 4] save : 1, err : 0, remain_work : 2, total : 6
+2018-10-12 17:18:01 INFO  Crawler:242 - [Progress 5] save : 1, err : 0, remain_work : 1, total : 6
+2018-10-12 17:18:01 INFO  Crawler:242 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-12 17:18:01 INFO  Crawler:242 - [Progress 7] save : 1, err : 0, remain_work : 4, total : 11
+2018-10-12 17:18:01 INFO  Crawler:242 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-12 17:18:02 INFO  Crawler:242 - [Progress 9] save : 2, err : 0, remain_work : 2, total : 11
+2018-10-12 17:18:03 INFO  Crawler:242 - [Progress 10] save : 2, err : 0, remain_work : 1, total : 11
+2018-10-12 17:18:03 INFO  Crawler:242 - [Progress 11] save : 2, err : 0, remain_work : 2, total : 13
+2018-10-12 17:18:03 INFO  Crawler:242 - [Progress 12] save : 2, err : 0, remain_work : 4, total : 16
+2018-10-12 17:18:03 INFO  Crawler:242 - [Progress 13] save : 2, err : 0, remain_work : 3, total : 16
+2018-10-12 17:18:04 INFO  Crawler:242 - [Progress 14] save : 3, err : 0, remain_work : 2, total : 16
+2018-10-12 17:18:04 INFO  Crawler:242 - [Progress 15] save : 3, err : 0, remain_work : 1, total : 16
+2018-10-12 17:18:04 INFO  Crawler:242 - [Progress 16] save : 3, err : 0, remain_work : 2, total : 18
+2018-10-12 17:18:04 INFO  Crawler:242 - [Progress 17] save : 3, err : 0, remain_work : 4, total : 21
+2018-10-12 17:18:05 INFO  Crawler:242 - [Progress 18] save : 3, err : 0, remain_work : 3, total : 21
+2018-10-12 17:18:06 INFO  Crawler:242 - [Progress 19] save : 4, err : 0, remain_work : 2, total : 21
+2018-10-12 17:18:06 INFO  Crawler:242 - [Progress 20] save : 4, err : 0, remain_work : 1, total : 21
+2018-10-12 17:18:06 INFO  Crawler:242 - [Progress 21] save : 4, err : 0, remain_work : 2, total : 23
+2018-10-12 17:18:06 INFO  Crawler:242 - [Progress 22] save : 4, err : 0, remain_work : 4, total : 26
+2018-10-12 17:18:06 INFO  Crawler:242 - [Progress 23] save : 4, err : 0, remain_work : 3, total : 26

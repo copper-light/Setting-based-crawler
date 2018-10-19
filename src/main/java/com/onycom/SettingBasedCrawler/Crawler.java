@@ -2,8 +2,12 @@ package com.onycom.SettingBasedCrawler;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.Properties;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Level;
@@ -82,12 +86,38 @@ public class Crawler {
 	
 	public void setConfigFile(String filePath, String[] args){
 		mArgs = args;
-		System.out.println("open config file - " + filePath);
+		System.out.println("Open config file - " + filePath);
 		String config = (String) Util.GetConfigFile(filePath);
 		int len = args.length;
+		
+		String regexParams = "<%[0-9]+%>";
+        Pattern pattern = Pattern.compile(regexParams);
+        Matcher matcher = pattern.matcher(config);
+
+        int totalParams = 0;
+        String value = "";
+        Integer cnt = 0;
+        HashMap<String, Integer> paramMap = new HashMap<String, Integer>();
+        while (matcher.find()){
+        	value = matcher.group();
+        	cnt = paramMap.get(value);
+        	if(cnt != null){
+        		cnt ++;
+        	}else{
+        		totalParams++;
+        		cnt = 1;
+        	}
+        	paramMap.put(matcher.group(), cnt);
+        }
+        
+        if(totalParams != (len - 2)){
+        	System.err.println("[ERROR] Mismatching config parameters.");
+        	return;
+        }
+		
 		if(args != null && len >= 3){
 			for(int i = 2 ; i < len ; i++){
-				config = config.replace("<$"+ (i-2) +">", args[i]);
+				config = config.replace("<%"+ (i-2) +"%>", args[i]);
 			}
 		}
 		
@@ -97,7 +127,7 @@ public class Crawler {
 	public void setConfigJson(String jsonConfig) {
 		if(mConfig == null) mConfig = new Config();
 		if(!mConfig.setConfig(jsonConfig)){
-			System.out.println("CONFIG PARSING ERR");
+			System.err.println("[ERROR] Config file parsing failed.");
 			return;
 		}
 		if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_STATIC)){
@@ -109,7 +139,7 @@ public class Crawler {
 		}
     	
 		if(mParser == null){ 
-			System.out.println("[ERROR] Not found parser.");
+			System.err.println("[ERROR] Not found parser.");
 			return;
 		}
 		Scraper.SetConfig(mConfig);
@@ -172,10 +202,13 @@ public class Crawler {
 
 	public void start() {
 		if(mParser == null){
-			System.out.println("[ERROR] Can't start. Config ERR");
+			System.err.println("[ERROR] Can't start. Config err.");
 			return;
 		}
-		CrawlerLog.SetName(mConfig.CRAWLING_NAME);
+		startTime = new Date().getTime();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
+		String time = sdf.format(new Date(startTime));
+		CrawlerLog.SetName(mConfig.CRAWLING_NAME+"_"+time);
 		mLogger = CrawlerLog.GetInstance(Crawler.class);
 		mWorkManager.start();
 	} 
@@ -204,6 +237,7 @@ public class Crawler {
 			mLogger.info("CRAWLER NAME   : " + mConfig.CRAWLING_NAME);
 			mLogger.info("CRAWLER TYPE   : " + mConfig.CRAWLING_TYPE);
 			mLogger.info("IGNORE ROBOTS  : " + mConfig.IGNORE_ROBOTS);
+			mLogger.info("LIMIT_COUNT    : " + mConfig.CRAWLING_MAX_COUNT);
 			mLogger.info("FILTER COUNT   : " + (mConfig.getFilterAllow().size() 
 								     		 + mConfig.getFilterDisallow().size() 
 								             + mConfig.getFilterDuplicate().size() 
@@ -211,6 +245,7 @@ public class Crawler {
 			mLogger.info("SCENARIO COUNT : " + mConfig.getScenarios().size());
 			mLogger.info("COLLECT COUNT  : " + mConfig.getCollects().size());
 			mLogger.info("SAVE TYPE      : " + mConfig.OUTPUT_SAVE_TYPE);
+			mLogger.info("SAVE HTML      : " + mConfig.SAVE_HTML);
 			mLogger.info("==========================================");
 			try {
 				ret = Writer.open();
@@ -220,7 +255,6 @@ public class Crawler {
 			if(ret){
 				ret = Scraper.open();
 			}
-			startTime = new Date().getTime();
 			if(!ret){
 				mLogger.info("============== Terminate Crawler =============");
 				mLogger.error("Can't start Crawler. Initialization failed.");

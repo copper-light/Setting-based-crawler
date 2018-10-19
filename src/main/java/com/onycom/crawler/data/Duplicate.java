@@ -36,12 +36,12 @@ public class Duplicate {
 		if(data == null) return null;
 		String ret = null;
 		String value;
-		ret = mRegex.replace("<$URL>", Util.ConvertForRegex(info.getURL()));
+		ret = mRegex.replace("<%=URL%>", Util.ConvertForRegex(info.getURL()));
 		
 		int sIdx,eIdx = -1;
 		String key;
-		while((sIdx = ret.indexOf("<$")) != -1){
-			eIdx = ret.indexOf(">", sIdx+2);
+		while((sIdx = ret.indexOf("<%=")) != -1){
+			eIdx = ret.indexOf("%>", sIdx+2);
 			if(eIdx != -1){
 				key = ret.substring(sIdx+2, eIdx);
 				value = data.get(key);
@@ -51,24 +51,6 @@ public class Duplicate {
 			}
 		}
 		
-		//Pattern pattern = Pattern.compile("<\\$[a-zA-Z]+>");
-//		String value = null;
-//		while(matcher.find()){
-//			value = matcher.group();
-//			System.out.println(value);
-//			
-//		}
-		
-		
-//		for(int i = 0 ; i < mKeys.length ; i++){
-//			value = data.get(mKeys[i]);
-//			if(value != null){
-//				ret = ret.replace("<"+i+">", value);
-//			}else{
-//				ret = null;
-//				break;
-//			}
-//		}
 		return ret;
 	}
 }

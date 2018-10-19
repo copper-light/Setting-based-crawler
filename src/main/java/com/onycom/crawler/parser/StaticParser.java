@@ -150,7 +150,7 @@ public class StaticParser extends Parser {
 		Work src, des;
 		String regex;
 		List<Duplicate> aryFilterDuplicate = mConfig.getFilterDuplicate();
-		System.out.println("before remove : " + aryNewUrl.size());
+		//System.out.println("before remove : " + aryNewUrl.size());
 		for(int i = 0 ; i < aryNewUrl.size() ; i++){
 			src = aryNewUrl.get(i);
 			for(Duplicate dup : aryFilterDuplicate){
@@ -165,7 +165,7 @@ public class StaticParser extends Parser {
 				}
 			}
 		}
-		System.out.println("after remove : " + aryNewUrl.size());
+		//System.out.println("after remove : " + aryNewUrl.size());
 		return aryNewUrl;
 	}
 
