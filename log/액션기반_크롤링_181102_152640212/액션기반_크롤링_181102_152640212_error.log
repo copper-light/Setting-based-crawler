@@ -1,6 +1,0 @@
-2018-11-02 15:27:00 ERROR Crawler:257 - [ERR URL] http://www.naver.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
-2018-11-02 15:27:00 ERROR Crawler:260 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
-2018-11-02 15:27:10 ERROR Crawler:257 - [ERR URL] http://www.naver.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
-2018-11-02 15:27:10 ERROR Crawler:260 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
-2018-11-02 15:27:21 ERROR Crawler:257 - [ERR URL] http://www.naver.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
-2018-11-02 15:27:21 ERROR Crawler:260 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc

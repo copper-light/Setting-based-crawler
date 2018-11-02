@@ -1,4 +1,0 @@
-2018-10-25 14:08:27 ERROR WorkRunnable:83 - Data key must not be empty
-java.lang.IllegalArgumentException: Data key must not be empty
-	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:83)
-	at java.lang.Thread.run(Thread.java:748)
