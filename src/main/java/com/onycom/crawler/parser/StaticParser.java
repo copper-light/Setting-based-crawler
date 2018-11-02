@@ -17,7 +17,7 @@ import com.onycom.crawler.data.Work;
 /**
  * Get URL 방식의 정적 웹페이지를 파싱하는 구현체
  */
-public class StaticParser extends Parser {
+public class StaticParser extends DefaultParser {
 	
 	public StaticParser(){
 		
@@ -28,7 +28,6 @@ public class StaticParser extends Parser {
 		Map<String, Work> map = new HashMap<String, Work>();
 		List<Work> ret = new ArrayList<Work>();
 		boolean allow = false;
-		
 		Work newInfo;
 		String href, domain_url, sub_url, url;
 		String[] tmp;
@@ -56,7 +55,7 @@ public class StaticParser extends Parser {
 				if(newInfo == null){
 					newInfo = new Work(url).setDepth(++curDepth);
 					map.put(url, newInfo);
-					ret.add(newInfo);
+					ret.add(newInfo.setScraper(urlInfo.getScraper()).setParser(urlInfo.getParser()));
 				}
 			}else{
 //				System.err.println(">> href - " + href);
@@ -68,69 +67,7 @@ public class StaticParser extends Parser {
 		}
 		return ret;
 	}
-	
-	public boolean isAllow(Work curUrlInfo, String targetDomain, String targetSub){
-		boolean ret = false;
-		List<String> aryFilterAllow = mConfig.getFilterAllow();
-		List<String> aryFilterDisallow = mConfig.getFilterDisallow();
-		
-		String url = targetDomain + targetSub;
-		for(String filter : aryFilterAllow){
-			if(filter.matches(Parser.REGEX_START_HTTP)){
-				if(url.matches(filter)){
-					ret = true; break;
-				}
-			}else{
-				if(targetDomain.contentEquals(curUrlInfo.getDomainURL())){
-					if(targetSub.matches(filter)){
-						ret = true; break;
-					}
-				}
-			}
-		}
-		
-		for(String filter : aryFilterDisallow){
-			if(filter.matches(Parser.REGEX_START_HTTP)){
-				if(url.matches(filter)){
-					ret = false; break;
-				}
-			}else{
-				if(targetDomain.contentEquals(curUrlInfo.getDomainURL())){
-					if(targetSub.matches(filter)){
-						ret = false; break;
-					}
-				}
-			}
-		}
-		return ret;
-	}
-	
-	public boolean ifLeaf(Work urlInfo){
-		if(mConfig.CRAWLING_MAX_DEPTH != -1){
-			if(mConfig.CRAWLING_MAX_DEPTH < urlInfo.getDepth()){
-				return true;
-			}
-		}
-		
-		List<String> aryLeafURL = mConfig.getLeafURL();
-		for(String filter : aryLeafURL){
-			if(filter.matches(Parser.REGEX_START_HTTP)){
-				if(urlInfo.getURL().matches(filter)){
-//					System.err.println(">> leaf - " + urlInfo.getURL());
-					//Crawler.DB.insertErr(urlInfo.getURL(), "leaf" );
-					return true;
-				}
-			}else{
-				if(urlInfo.getSubURL().matches(filter)){
-//					System.err.println(">> leaf - " + urlInfo.getURL());
-					//Crawler.DB.insertErr(urlInfo.getURL(), "leaf" );
-					return true;
-				}
-			}
-		}
-		return false;
-	}
-	
+
 	@Override
 	public List<Work> checkDupliate(Work[] aryHistory, List<Work> aryNewUrl) {
 		/* 새로운 URL 내에서의 중복 체크 */

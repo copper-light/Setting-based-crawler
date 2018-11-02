@@ -1,8 +1,8 @@
 package com.onycom.crawler.data;
 
 public class Action{
-	public static String TARGET_BLANK = "blank";
-	public static String TARGET_SELF = "self";
+//	public static String TARGET_BLANK = "blank";
+//	public static String TARGET_SELF = "self";
 	public static String TYPE_CLICK = "click";
 	public static String TYPE_INPUT = "input";
 	public static String TYPE_VERTICAL_SCROLL = "vertical_scroll";

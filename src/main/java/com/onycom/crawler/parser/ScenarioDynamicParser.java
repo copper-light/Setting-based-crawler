@@ -20,7 +20,7 @@ import com.onycom.crawler.data.Scenario;
 import com.onycom.crawler.data.Work;
 import com.onycom.crawler.writer.DBWriter;
 
-public class ScenarioDynamicParser extends Parser {
+public class ScenarioDynamicParser extends DefaultParser {
 	static Logger mLogger = CrawlerLog.GetInstance(ScenarioDynamicParser.class);
 
 	public ScenarioDynamicParser() {

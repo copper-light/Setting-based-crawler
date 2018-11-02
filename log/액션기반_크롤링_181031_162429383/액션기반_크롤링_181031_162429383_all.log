@@ -1,0 +1,219 @@
+2018-10-31 16:24:29 INFO  Crawler:218 - ============== Start Crawler =============
+2018-10-31 16:24:29 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-10-31 16:24:29 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-10-31 16:24:29 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-10-31 16:24:29 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-31 16:24:29 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-10-31 16:24:29 INFO  Crawler:226 - LIMIT_COUNT    : 50
+2018-10-31 16:24:29 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-10-31 16:24:29 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-10-31 16:24:29 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-10-31 16:24:29 INFO  Crawler:233 - SAVE TYPE      : DB
+2018-10-31 16:24:29 INFO  Crawler:234 - SAVE HTML      : true
+2018-10-31 16:24:29 INFO  Crawler:235 - ==========================================
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 1] save : 0, err : 1, remain_work : 1, total : 2
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 2] save : 0, err : 2, remain_work : 1, total : 3
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 3] save : 0, err : 3, remain_work : 1, total : 4
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 4] save : 0, err : 4, remain_work : 1, total : 5
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 5] save : 0, err : 5, remain_work : 1, total : 6
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 6] save : 0, err : 6, remain_work : 1, total : 7
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 7] save : 0, err : 7, remain_work : 1, total : 8
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 8] save : 0, err : 8, remain_work : 1, total : 9
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 9] save : 0, err : 9, remain_work : 1, total : 10
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 10] save : 0, err : 10, remain_work : 1, total : 11
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 11] save : 0, err : 11, remain_work : 1, total : 12
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 12] save : 0, err : 12, remain_work : 1, total : 13
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 13] save : 0, err : 13, remain_work : 1, total : 14
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 14] save : 0, err : 14, remain_work : 1, total : 15
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 15] save : 0, err : 15, remain_work : 1, total : 16
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 16] save : 0, err : 16, remain_work : 1, total : 17
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 17] save : 0, err : 17, remain_work : 1, total : 18
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 18] save : 0, err : 18, remain_work : 1, total : 19
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 19] save : 0, err : 19, remain_work : 1, total : 20
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 20] save : 0, err : 20, remain_work : 1, total : 21
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 21] save : 0, err : 21, remain_work : 1, total : 22
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 22] save : 0, err : 22, remain_work : 1, total : 23
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 23] save : 0, err : 23, remain_work : 1, total : 24
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 24] save : 0, err : 24, remain_work : 1, total : 25
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 25] save : 0, err : 25, remain_work : 1, total : 26
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 26] save : 0, err : 26, remain_work : 1, total : 27
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 27] save : 0, err : 27, remain_work : 1, total : 28
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 28] save : 0, err : 28, remain_work : 1, total : 29
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 29] save : 0, err : 29, remain_work : 1, total : 30
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 30] save : 0, err : 30, remain_work : 1, total : 31
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 31] save : 0, err : 31, remain_work : 1, total : 32
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 32] save : 0, err : 32, remain_work : 1, total : 33
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 33] save : 0, err : 33, remain_work : 1, total : 34
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 34] save : 0, err : 34, remain_work : 1, total : 35
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 35] save : 0, err : 35, remain_work : 1, total : 36
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 36] save : 0, err : 36, remain_work : 1, total : 37
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 37] save : 0, err : 37, remain_work : 1, total : 38
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 38] save : 0, err : 38, remain_work : 1, total : 39
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 39] save : 0, err : 39, remain_work : 1, total : 40
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 40] save : 0, err : 40, remain_work : 1, total : 41
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 41] save : 0, err : 41, remain_work : 1, total : 42
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 42] save : 0, err : 42, remain_work : 1, total : 43
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 43] save : 0, err : 43, remain_work : 1, total : 44
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 44] save : 0, err : 44, remain_work : 1, total : 45
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 45] save : 0, err : 45, remain_work : 1, total : 46
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 46] save : 0, err : 46, remain_work : 1, total : 47
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 47] save : 0, err : 47, remain_work : 1, total : 48
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 48] save : 0, err : 48, remain_work : 1, total : 49
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 49] save : 0, err : 49, remain_work : 1, total : 50
+2018-10-31 16:24:36 ERROR Crawler:257 - [ERR URL] /robots.txt
+2018-10-31 16:24:36 ERROR Crawler:260 - L ERR : Malformed URL: /robots.txt
+java.lang.IllegalArgumentException: Malformed URL: /robots.txt
+2018-10-31 16:24:36 INFO  Crawler:264 - [Progress 50] save : 0, err : 50, remain_work : 1, total : 51
+2018-10-31 16:24:37 INFO  Crawler:298 - ============== Finish Crawler =============
+2018-10-31 16:24:37 INFO  Crawler:299 - [total time] 00:00:07
+2018-10-31 16:24:37 INFO  Crawler:300 - [save contents] 0
+2018-10-31 16:24:37 INFO  Crawler:301 - [error work] 50
+2018-10-31 16:24:37 INFO  Crawler:302 - [remain work] 0
+2018-10-31 16:24:37 INFO  Crawler:303 - [total processed work] 50

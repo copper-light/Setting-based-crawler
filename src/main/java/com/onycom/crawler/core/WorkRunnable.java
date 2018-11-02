@@ -34,37 +34,40 @@ class WorkRunnable implements Runnable{
 	Parser mParser;
 	WorkDeque mWorkDeque;
 	WorkResultQueue mResultQueue;
-	Work mUrlInfo;
+	Work mWork;
 	
-	public WorkRunnable(int id, WorkDeque deque, Parser parser, Work urlInfo){
+	public WorkRunnable(int id, WorkDeque deque, Work work){
 		mId = id;
 		//mCrawler = crawler;
-		mUrlInfo = urlInfo;
-		mParser = parser;
+		mWork = work;
+
 		mWorkDeque = deque;
+		mScraper = work.getScraper();
+		mParser = work.getParser();
 	}
 	
 	public void setWorkResultQueue(WorkResultQueue queue){
 		mResultQueue = queue;
 	}
 	
-	public WorkRunnable setWork(Work urlInfo){
-		mUrlInfo = urlInfo;
+	public WorkRunnable setWork(Work work){
+		mScraper = work.getScraper();
+		mParser = work.getParser();
+		mWork = work;
 		return this;
 	}
 	
 	public void run() {
 		mIsRunning = true;
 		boolean isSuccess = false;
-		Work info = null;
+		Work info = mWork;
 		Document doc = null;
 		List<Work> results = null;
 		//mIsRunning = true;
-		info = mUrlInfo; // mQueue.pullURL();
 		if(info != null){
 			try {
-				doc = Scraper.GetDocument(info);
-				if(doc != null && mParser != null){
+				doc = mScraper.getDocument(info);
+				if(mParser != null){
 					results = mParser.parse(mWorkDeque.getHistory(), info, doc);
 				}
 				isSuccess = true;
@@ -77,24 +80,17 @@ class WorkRunnable implements Runnable{
 				}else{
 					//info.result().addError(Work.Error.ERR_SCEN_ELEMENT, "");
 					mLogger.error("not found element " + e.getMessage(), e.fillInStackTrace());
+					info.result().addError(Work.Error.ERR, "not found element " + e.getMessage());
 				}
-				
-			} catch (KeyManagementException e) {
-				mLogger.error(e.getMessage(), e.fillInStackTrace());
-			} catch (NoSuchAlgorithmException e) {
-				mLogger.error(e.getMessage(), e.fillInStackTrace());
-			} catch (IOException e) {
-				mLogger.error(e.getMessage(), e.fillInStackTrace());
+			} catch (Exception e) {
+				info.result().addError(Work.Error.ERR, e.getMessage() +"\n" + e.fillInStackTrace());
+				//mLogger.error(e.getMessage(), e.fillInStackTrace());
 			}
 		}
-		// 쓰레드 끝나는걸 확인하는 로직을 재 구성해야합니다. 알겠죠?
-		
-//		if(isSuccess){
-//			mListener.done(info, results);
-//		}else{
-//			mListener.error(info);
-//		}
-		
+
+		// history 로 저장하기 때문에 필요없는 객체는 메모리에서 삭제
+		info.setParser(null).setScraper(null);
+
 		mResultQueue.offerResult(new WorkResult(info, results));
 		mIsRunning = false;
 		synchronized (mResultQueue) {

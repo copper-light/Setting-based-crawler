@@ -1,6 +1,8 @@
 package com.onycom.crawler.data;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -10,7 +12,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.google.gson.JsonObject;
 import com.onycom.common.CrawlerLog;
 
 /**
@@ -18,6 +19,8 @@ import com.onycom.common.CrawlerLog;
  */
 public class Config {
 	static Logger mLogger = CrawlerLog.GetInstanceSysout(Config.class);
+	
+	public static final String DATETIME_FORMAT = "yyMMdd_HHmmssSSS";
 
 	public static final String SAVE_TYPE_DB = "DB";
 	public static final String SAVE_TYPE_CSV = "CSV";
@@ -33,8 +36,13 @@ public class Config {
 
 	public static final String COLLECT_COLUMN_TYPE_URL = "URL";
 	public static final String COLLECT_COLUMN_TYPE_DATETIME = "DATETIME";
-	public static final String COLLECT_COLUMN_TYPE_ELEMENT = "ELEMENT	";
-
+	public static final String COLLECT_COLUMN_TYPE_ELEMENT = "ELEMENT";
+	
+	public static final String CONTENTS_TYPE_STRING = "string";
+	public static final String CONTENTS_TYPE_INT = "int";
+	public static final String CONTENTS_TYPE_FLOAT = "float";
+	public static final String CONTENTS_TYPE_FILE = "file";
+	
 	public Work mSeedInfo;
 
 	public boolean IGNORE_ROBOTS = false;
@@ -51,6 +59,13 @@ public class Config {
 	public String OUTPUT_DB_ID = "";
 	public String OUTPUT_DB_PW = "";
 	public String CRAWLING_NAME = "";
+	public String CRAWLING_FILE = "";
+	public Long CRAWLING_START_TIME;
+	public String CRAWLING_NAME_AND_TIME = "";
+
+	public String SELENIUM_DRIVER_NAME = "phantomjs";
+	public String SELENIUM_DRIVER_PATH = "";
+	public boolean SELENIUM_HEADLESS = true;
 	
 	public boolean SAVE_HTML = false;
 
@@ -76,7 +91,10 @@ public class Config {
 	public static final String KEY_OUTPUT_DB_PW = "output_db_pw";
 	public static final String KEY_OUTPUT_DB_PATH = "output_db_path";
 	public static final String KEY_SAVE_HTML = "save_html";
-	public static final boolean KEY_SELENIUM_HEADLESS = true;
+	public static final String KEY_SELENIUM_DRIVER_NAME = "selenium_driver_name";
+	public static final String KEY_SELENIUM_DRIVER_PATH = "selenium_driver_path";
+	public static final String KEY_SELENIUM_HEADLESS = "selenium_headless";
+
 	
 	public boolean setConfig(String config){
 		JSONObject root;
@@ -138,6 +156,18 @@ public class Config {
 		
 		if(!root.isNull(KEY_SAVE_HTML)){
 			SAVE_HTML = root.getBoolean(KEY_SAVE_HTML);
+		}
+
+		if(!root.isNull(KEY_SELENIUM_DRIVER_NAME)){
+			SELENIUM_DRIVER_NAME = root.getString(KEY_SELENIUM_DRIVER_NAME);
+		}
+
+		if(!root.isNull(KEY_SELENIUM_DRIVER_PATH)){
+			SELENIUM_DRIVER_PATH = root.getString(KEY_SELENIUM_DRIVER_PATH).trim();
+		}
+
+		if(!root.isNull(KEY_SELENIUM_HEADLESS)){
+			SELENIUM_HEADLESS = root.getBoolean(KEY_SELENIUM_HEADLESS);
 		}
 //		
 //		if(!root.isNull(KEY_)){
@@ -350,7 +380,16 @@ public class Config {
 			mScenarios.clear(); 
 		}
 		
+		CRAWLING_START_TIME = System.currentTimeMillis();
+		SimpleDateFormat sdf = new SimpleDateFormat(DATETIME_FORMAT); 
+		String strTime = sdf.format(new Date(CRAWLING_START_TIME));
+		CRAWLING_NAME_AND_TIME = CRAWLING_NAME + "_" + strTime;
+		
 		return true;
+	}
+	
+	public long getStartTime(){
+		return CRAWLING_START_TIME;
 	}
 
 	public Work getSeedInfo() {

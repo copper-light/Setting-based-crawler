@@ -1,13 +1,9 @@
 package com.onycom.crawler.core;
 
-import java.io.IOException;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.jsoup.nodes.Document;
+import com.onycom.crawler.scraper.JsoupScraper;
 
 import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.crawler.data.Config;
@@ -17,7 +13,6 @@ import com.onycom.crawler.data.WorkResult;
 import com.onycom.crawler.parser.Parser;
 import com.onycom.crawler.parser.RobotsParser;
 import com.onycom.crawler.scraper.Scraper;
-import com.onycom.crawler.writer.DBWriter;
 
 /**
  * 쓰레드를 관리하는 매니저. 크롤링의 핵심 로직도 담고 있는데, 이를 분리하는 작업이 필요할 것으로 보임
@@ -27,6 +22,7 @@ public class WorkManager {
 	private Thread[] mWorkThread;
 	private WorkRunnable[] mWorkRunnable;
 	private Parser mParser;
+	private Scraper mScraper;
 	private Integer mWorkingCount = 0;
 	private int mThreadPoolSize = 1;
 	private long mWorkDelay = 5000; // ms
@@ -34,11 +30,11 @@ public class WorkManager {
 	private WorkDeque mDeque;
 	private WorkResultQueue mResultQueue;
 	
-	private long mSuccessCount = 0;
-	private long mFailCount = 0;
-	
-	public boolean mIsFallowRobots = false;
-	
+//	private long mSuccessCount = 0;
+//	private long mFailCount = 0;
+//
+//	public boolean mIsFallowRobots = false;
+//
 	public WorkManager(){
 		this(1);
 	}
@@ -63,6 +59,11 @@ public class WorkManager {
 		mParser = parser;
 		return this;
 	}
+
+	public WorkManager setScraper(Scraper scraper) {
+		mScraper = scraper;
+		return this;
+	}
 	
 	public boolean addWork(Work info){
 		return mDeque.offerURL(info);
@@ -71,6 +72,8 @@ public class WorkManager {
 	public void start(){
 		int length = mWorkThread.length;
 		WorkResult workResult;
+		Map<String, Robots> mapRobots = mConfig.getRobots();
+		Robots robots;
 		Work work;
 		List<Work> aryNewWork;
 		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
@@ -85,24 +88,37 @@ public class WorkManager {
 					work = mDeque.pollWork();
 					if(work != null){
 						// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
-						if(!mConfig.IGNORE_ROBOTS && mConfig.getRobots().get(work.getDomainURL()) == null){
-							
-							// 현재 작업 중인 쓰레드들은 작업하도록 나두고
-							// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
-							// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
-							try {
-								mDeque.setAccessMode(WorkDeque.WRITE);
-								Work robotsURL = new Work(work.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
-								Document doc = Scraper.GetDocument(robotsURL);
-								new RobotsParser().parse(null, robotsURL, doc);
-							}catch (Exception e) { 
-								e.printStackTrace();
-							} finally {
-								mDeque.setAccessMode(WorkDeque.READ_AND_WRINE);
+						if(!mConfig.IGNORE_ROBOTS){
+							robots = mapRobots.get(work.getDomainURL());
+							if( robots == null) {
+								// 현재 작업 중인 쓰레드들은 작업하도록 나두고
+								// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
+								// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
+								try {
+									work.setHighPriority(true);
+									mDeque.offerURL(work);
+
+									mDeque.setAccessMode(WorkDeque.WRITE);
+									Work robotsWork = new Work(work.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
+									robotsWork.setScraper(new JsoupScraper()).setParser(new RobotsParser(mConfig));
+									robotsWork.setHighPriority(true);
+									//mDeque.offerURL(robotsWork);
+									work = robotsWork;
+								} catch (Exception e) {
+									e.printStackTrace();
+								} finally {
+									mDeque.setAccessMode(WorkDeque.READ_AND_WRINE);
+								}
+							}else{
+								// 로봇에 의한 차단 판단 로직 추가
+								if(!robots.isAllow("*", work.getSubURL())){
+									continue;
+								}
 							}
 						}
+
 						/**
-						 * 쓰레드 시작 
+						 * 쓰레드 시작
 						 * */
 						synchronized (mWorkingCount){
 							if(mWorkDelay > 0){
@@ -113,10 +129,15 @@ public class WorkManager {
 								}
 							}
 							if((mThreadPoolSize - mWorkingCount) > 0){
+								if(work.getScraper() == null || work.getParser() == null){
+									work.setScraper(mScraper).setParser(mParser);
+								}
+
 								if(mWorkRunnable[i] != null && !mWorkRunnable[i].isRunning()){
 									mWorkThread[i] = new Thread(mWorkRunnable[i].setWork(work));
-								}else{
-									mWorkRunnable[i] = new WorkRunnable(i, mDeque, mParser, work);
+								}else {
+									// work 만의 파서와 스크래퍼를 사용한다면 변경 작업 수행
+									mWorkRunnable[i] = new WorkRunnable(i, mDeque, work);
 									mWorkRunnable[i].setWorkResultQueue(mResultQueue);
 									mWorkThread[i] = new Thread(mWorkRunnable[i]);
 								}
@@ -200,7 +221,7 @@ public class WorkManager {
 //	private int getIdleWorkerCount(){ 
 //		return mThreadPoolSize - mWorkingCount;
 //	}
-	
+
 	public int upWorkingThread() {
 		return ++mWorkingCount;
 	}

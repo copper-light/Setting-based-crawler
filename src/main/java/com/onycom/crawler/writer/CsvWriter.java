@@ -44,7 +44,7 @@ public class CsvWriter implements Writer{
 	
 	public CsvWriter(){
 		mAryCSV = new HashMap<String, CSVFile>();
-		DATE_FORMAT = new SimpleDateFormat("yyMMddHHmmss");
+		DATE_FORMAT = new SimpleDateFormat(Config.DATETIME_FORMAT);
 	}
 
 	public void closeAll(){
@@ -57,14 +57,12 @@ public class CsvWriter implements Writer{
 		mAryCSV.clear();
 	}
 
-	public void openAll() throws Exception {
+	public boolean openAll() throws Exception {
 		File outputDir;
 		if(mConfig.OUTPUT_FILE_PATH != null && mConfig.OUTPUT_FILE_PATH.length() > 0){
 			outputDir = new File(mConfig.OUTPUT_FILE_PATH);
 		}else{
-			SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
-			String tmp = sdf.format(new Date(Crawler.GetStartTime()));
-			outputDir = new File("./output/"+ mConfig.CRAWLING_NAME +"_"+tmp);
+			outputDir = new File("./output/"+ mConfig.CRAWLING_NAME);
 		}
 		
 		if(!outputDir.exists()){
@@ -74,21 +72,42 @@ public class CsvWriter implements Writer{
 		List<CollectRecode> recodes = mConfig.getCollects();
 		String filePath, name;
 		CSVFile cw;
-		String strDate = DATE_FORMAT.format(new Date());
+		//mConfig.
 		for(CollectRecode r : recodes){
 			name = r.getName();
 			cw = mAryCSV.get(name);
 			if(cw == null){
-				filePath = outputDir.getPath() + "/" + name + "_" + strDate +".csv";
+				filePath = outputDir.getPath() + "/" + mConfig.CRAWLING_NAME_AND_TIME +".csv";
 				cw = new CSVFile(filePath);
 				mAryCSV.put(name, cw);
 			}
 			cw.open();
 		}
+
+		return true;
 	}
 	
 	public boolean open() throws Exception {
-		openAll();
+		List<CollectRecode> collects = mConfig.getCollects();
+		String colName;
+		Contents contents;
+		try {
+			openAll();
+			//openAll();
+			for(CollectRecode c : collects){
+				// TABLE NAME
+				contents = new Contents(c.getName(), c.getColumns().size());
+				for(CollectRecode.Column col : c.getColumns()){
+					colName = col.getDataName(); // 컬럼 명
+					contents.add("", "", colName);
+				}
+				write(contents);
+			}
+		} catch (Exception e) {
+			closeAll();
+			mLogger.error(e.getMessage(), e);
+			return false;
+		}
 		return true;
 	}
 
@@ -98,25 +117,6 @@ public class CsvWriter implements Writer{
 
 	public void setConfig(Config config) {
 		mConfig = config;
-		List<CollectRecode> collects = config.getCollects();
-		String colName;
-		Contents contents;
-		try {
-			openAll();
-			for(CollectRecode c : collects){
-				// TABLE NAME
-				contents = new Contents(c.getName(), c.getColumns().size()); 
-				for(CollectRecode.Column col : c.getColumns()){
-					colName = col.getDataName(); // 컬럼 명
-					contents.add("", colName);
-				}
-				write(contents);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			closeAll();
-		}
 	}
 
 	public int write(String... values) throws Exception {

@@ -9,7 +9,6 @@ import java.util.Map;
  * 수집할 콘텐츠 정보를 담고 있는 객체. Config 객체에서 사용함
  * */
 public class CollectRecode {
-	//Map<String, >
 	String mUrl;        /* 데이터 파싱할 URL 표준 정규식 */
 	String mName;       /* 데이터 셋의 명칭 (데이터셋이 저장될 이름) */
 	String mRecodeSelector; /* 하나의 레코드를 식별할 수 있는 최고 작은 단위의 Element */

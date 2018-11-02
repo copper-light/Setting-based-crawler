@@ -14,11 +14,12 @@ import com.onycom.crawler.data.Work;
 /**
  * robots.txt 파일을 파싱하는 구현체
  * */
-public class RobotsParser extends Parser {
+public class RobotsParser implements Parser<Work, Contents> {
 	private static final String KEYWORD_ALLOW = "^(Allow:).*$";
 	private static final String KEYWORD_DISALLOW = "^(Disallow:).*$";
 	private static final String KEYWORD_USER_AGENT = "^(User-agent:).*$";
 	private static final String KEYWORD_CRAWL_DELAY = "^(Crawl-delay:).*$";
+	private Config mConfig;
 //	private static final String KEYWORD_ALLOW = "Allow : ";
 //	private static final String KEYWORD_ALLOW = "Allow : ";
 
@@ -30,10 +31,15 @@ public class RobotsParser extends Parser {
 		}
 		return null;
 	}
+
+	public RobotsParser(Config config){
+		mConfig = config;
+	}
 	
-	@Override
 	public List<Work> parse(Work[] history, Work urlInfo, Document document) {
 		List<Work> ret = new ArrayList<Work>();
+		Robots robots = new Robots(urlInfo.getDomainURL());
+		mConfig.getRobots().put(urlInfo.getDomainURL(), robots);
 		document.outputSettings(new Document.OutputSettings().prettyPrint(false));
 		try {
 			//System.out.println(">>"+urlInfo.getURL());
@@ -41,7 +47,6 @@ public class RobotsParser extends Parser {
 			String data = e.get(0).html();
 			String[] lines = data.split("\n");
 			String userAgent = null;
-			Robots robots = new Robots(urlInfo.getDomainURL());
 			String value;
 			for (String line : lines) {
 				line = line.trim().replace(" ", "");
@@ -60,9 +65,12 @@ public class RobotsParser extends Parser {
 					if(value != null)
 						robots.add(userAgent, Integer.parseInt(value));
 				}else{
-					System.err.println(line);
+					if(line.replace(" ", "").length() > 0) {
+						urlInfo.result().addError(Work.Error.ERR, "robots - This line can't parse commend : " + line);
+					}
 				}
 			}
+
 			//ret.add(robots);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -70,9 +78,7 @@ public class RobotsParser extends Parser {
 		return ret;
 	}
 
-	@Override
-	public List<Work> parseURL(Work urlInfo, Document document) {
-		// TODO Auto-generated method stub
-		return null;
+	public void setConfig(Config config) {
+		mConfig = config;
 	}
 }

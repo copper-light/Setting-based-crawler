@@ -1,0 +1,80 @@
+2018-11-01 11:19:12 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-01 11:19:12 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-11-01 11:19:12 INFO  Crawler:221 - CMD PARAM 00   : 신발
+2018-11-01 11:19:12 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-11-01 11:19:12 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-01 11:19:12 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-11-01 11:19:12 INFO  Crawler:226 - LIMIT_COUNT    : 16
+2018-11-01 11:19:12 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-11-01 11:19:12 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-11-01 11:19:12 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-11-01 11:19:12 INFO  Crawler:233 - SAVE TYPE      : CSV
+2018-11-01 11:19:12 INFO  Crawler:234 - SAVE HTML      : true
+2018-11-01 11:19:12 INFO  Crawler:235 - ==========================================
+2018-11-01 11:19:19 INFO  Crawler:264 - [Progress 1] save : 0, err : 0, remain_work : 1, total : 2
+2018-11-01 11:19:23 INFO  Crawler:264 - [Progress 2] save : 0, err : 0, remain_work : 3, total : 5
+2018-11-01 11:19:24 INFO  Crawler:264 - [Progress 3] save : 0, err : 0, remain_work : 2, total : 5
+2018-11-01 11:19:24 INFO  Crawler:264 - [Progress 4] save : 0, err : 0, remain_work : 4, total : 8
+2018-11-01 11:19:24 INFO  Crawler:264 - [Progress 5] save : 0, err : 0, remain_work : 3, total : 8
+2018-11-01 11:19:35 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EC%8B%A0%EB%B0%9C
+2018-11-01 11:19:35 ERROR Crawler:260 - L ERR_ACTION : .deal_titll
+2018-11-01 11:19:35 INFO  Crawler:264 - [Progress 6] save : 0, err : 1, remain_work : 2, total : 8
+2018-11-01 11:19:37 ERROR WorkRunnable:82 - not found element java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20164
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20164
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20164
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:101)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:453)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:184)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+	... 26 more
+2018-11-01 11:19:37 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EC%8B%A0%EB%B0%9C
+2018-11-01 11:19:37 ERROR Crawler:260 - L ERR : not found element java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:20164
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+2018-11-01 11:19:37 INFO  Crawler:264 - [Progress 7] save : 0, err : 2, remain_work : 1, total : 8
+2018-11-01 11:19:50 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EC%8B%A0%EB%B0%9C
+2018-11-01 11:19:50 ERROR Crawler:260 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-11-01 11:19:50 INFO  Crawler:264 - [Progress 8] save : 0, err : 3, remain_work : 0, total : 8

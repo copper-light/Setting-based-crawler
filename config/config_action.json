@@ -1,7 +1,7 @@
 {
 	"name" : "액션기반 크롤링",
 	"seed" : {
-		"url" : "http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3",
+		"url" : "http://www.naver.com/",
 		"type" : "GET",
 		"data" : [
 			{"key" : "search_keyword", "value" : "<%0%>"},
@@ -11,22 +11,30 @@
 			{"key" : "", "value" : ""}
 		]
 	},
-	"ignore_robots" : true,
+	"ignore_robots" : false,
 	"crawling_max_depth" : -1,
 	"crawling_type" : "SCENARIO_DYNAMIC",
 	"crawling_delay" : 0,
-	"crawling_max_count" : 10,	
+	"crawling_max_count" : 16,
 	"contents_save_type" : "CSV",
 	"output_file_path" : "",
 	"output_db_id" : "root",
 	"output_db_pw" : "sairport2018",
 	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 	"save_html" : true,
+	"selenium_driver_name" : "chrome",
+	"selenium_driver_path" : "",
+	"selenium_headless" : false,
 
 	"scenario" : [
 		{
 			"depth" : 0,
 			"action" : [
+				{
+					"type" : "javascript",
+					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc",
+					"value" : "console.log('test')"
+				},
 				{
 					"type": "click",
 					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc",
@@ -35,7 +43,7 @@
 				{
 					"type" : "javascript", 
 					"selector" : "#search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc", 
-					"value" : "var selector= \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}", 
+					"value" : "var selector= \"#search_deal_area > li:nth-child(1)\"; var els = document.querySelectorAll(selector); for(var i = 0 ; i < els.length ;i++){ els[i].remove()}; if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}",
 					"target_depth" : 0
 				}
 			]
@@ -62,12 +70,12 @@
 		{
 			"depth" : 1,
 			"regex_url" : "",
-			"name" : "T_WMP6",
+			"name" : "T_WMP9",
 			"recode_selector" : "",
 			"column" : [
 				{
 					"type" : "DATETIME",
-					"data_type" : "datetime",
+					"data_type" : "varchar(30)",
 					"data_name" : "collected_time"
 				},
 				{

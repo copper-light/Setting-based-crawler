@@ -9,6 +9,8 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.onycom.crawler.scraper.JsoupScraper;
+import com.onycom.crawler.scraper.SeleniumScraper;
 import org.apache.log4j.FileAppender;
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
@@ -43,8 +45,8 @@ public class Crawler {
 	private WorkManager mWorkManager;
 	
 	static int cnt = 0;
-	static long startTime;
 	Parser mParser;
+	Scraper mScraper;
 	
 	public static DBWriter DB;
 	public static com.onycom.crawler.writer.Writer Writer;
@@ -54,11 +56,10 @@ public class Crawler {
 	public Config mConfig;
 	public String[] mArgs;
 	
-	public Crawler(int size, long delay, Parser parser){
+	public Crawler(int size, long delay){
 		mWorkManager = new WorkManager(size);
 		mWorkManager.setWorkDelay(delay);
 		this.setCrawlerListener(mWMListener);
-		parser = mParser;
 		
 //		String LOG_FILE = "./log/log4j.properties";
 //		Properties logProp = new Properties();
@@ -72,16 +73,8 @@ public class Crawler {
 //		mLogger = CrawlerLog.GetInstance(Crawler.class);
 	}
 	
-	public Crawler(int size, long delay){
-		this(1, 1, null);
-	}
-	
-	public Crawler(Parser parser){
-		this(1, 1, parser);
-	}
-	
 	public Crawler(){
-		this(1, 1, null);
+		this(1, 1);
 	}
 	
 	public void setConfigFile(String filePath, String[] args){
@@ -131,18 +124,23 @@ public class Crawler {
 			return;
 		}
 		if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_STATIC)){
-			setParser(new ScenarioStasticParser());
+			mScraper = new JsoupScraper();
+			mParser = new ScenarioStasticParser();
 		}else if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_DYNAMIC)){
-			setParser(new ScenarioDynamicParser());
-		}else if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_STATIC)){ 
-			setParser(new StaticParser());
+			mScraper = new SeleniumScraper(mConfig);
+			mParser = new ScenarioDynamicParser();
+		}else if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_STATIC)){
+			mScraper = new JsoupScraper();
+			mParser = new StaticParser();
 		}
     	
-		if(mParser == null){ 
+		if(mParser == null || mScraper == null){
 			System.err.println("[ERROR] Not found parser.");
 			return;
+		}else{
+			mWorkManager.setScraper(mScraper).setParser(mParser);
 		}
-		Scraper.SetConfig(mConfig);
+		//mScraper.setConfig(mConfig);
 		mParser.setConfig(mConfig);
 		mWorkManager.setConfig(mConfig);
 		if(mConfig.OUTPUT_SAVE_TYPE.contentEquals(Config.SAVE_TYPE_DB)){
@@ -160,12 +158,6 @@ public class Crawler {
 		if(seed != null){
 			seedUrl(seed);
 		}
-	}
-	
-	private Crawler setParser(Parser parser){
-		mParser = parser;
-		mWorkManager.setParser(parser);
-		return this;
 	}
 	
 	public Crawler seedUrl(Work info) {
@@ -205,20 +197,14 @@ public class Crawler {
 			System.err.println("[ERROR] Can't start. Config err.");
 			return;
 		}
-		startTime = new Date().getTime();
-		SimpleDateFormat sdf = new SimpleDateFormat("yyMMdd_HHmmssSSS"); 
-		String time = sdf.format(new Date(startTime));
-		CrawlerLog.SetName(mConfig.CRAWLING_NAME+"_"+time);
+		
+		CrawlerLog.SetName(mConfig.CRAWLING_NAME_AND_TIME);
 		mLogger = CrawlerLog.GetInstance(Crawler.class);
 		mWorkManager.start();
 	} 
 	
 	public void setCrawlerListener(WorkManagerListener listener){
 		mWorkManager.setManagerListener(listener);
-	}
-	
-	public static Long GetStartTime(){
-		return startTime;
 	}
 	
 	long mTotalSaveCnt = 0;
@@ -249,12 +235,14 @@ public class Crawler {
 			mLogger.info("==========================================");
 			try {
 				ret = Writer.open();
+				if(ret){
+					ret = mScraper.open();
+				}
 			} catch (Exception e) {
-				e.printStackTrace();
+				ret = false;
+				mLogger.error(e.getMessage(), e);
 			}
-			if(ret){
-				ret = Scraper.open();
-			}
+
 			if(!ret){
 				mLogger.info("============== Terminate Crawler =============");
 				mLogger.error("Can't start Crawler. Initialization failed.");
@@ -282,13 +270,13 @@ public class Crawler {
 			/**
 			 * 크롤링 횟수 제한 설정이 있다면, 작업 날리기
 			 * */
-			if(mConfig.CRAWLING_MAX_COUNT != -1 && mProcessedCount >= mConfig.CRAWLING_MAX_COUNT){ 
+			if(mConfig.CRAWLING_MAX_COUNT != -1 && (mTotalSaveCnt + mErrCnt) >= mConfig.CRAWLING_MAX_COUNT){ 
 				workDeque.clear();
 			}
 		}
 
 		public void finish(WorkDeque workDeque) {
-			long e = System.currentTimeMillis() - startTime ;
+			long e = System.currentTimeMillis() - mConfig.getStartTime() ;
 			if(Writer != null){
 				try {
 					Writer.close();
@@ -296,7 +284,7 @@ public class Crawler {
 					e1.printStackTrace();
 				}
 			}
-			Scraper.close();
+			mScraper.close();
 			
 			e = e / 1000;
 			int h=0,m=0,s=0;

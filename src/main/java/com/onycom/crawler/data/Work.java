@@ -2,6 +2,8 @@ package com.onycom.crawler.data;
 
 import java.beans.Encoder;
 import java.io.UnsupportedEncodingException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
@@ -11,6 +13,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.onycom.common.Util;
+import com.onycom.crawler.parser.Parser;
+import com.onycom.crawler.scraper.Scraper;
 import org.apache.http.client.utils.URLEncodedUtils;
 
 /**
@@ -35,11 +40,11 @@ public class Work {
 	public static final byte PARSE_FIND_ACTION =  0x2;
 	
 	int mState = STATE_IDLE;
-	
-	boolean mHighPriority = false; 
+
+	boolean mHighPriority = false;
 	
 	byte mContentType;
-	String mUrl = null;
+	URL mURL = null;
 	String mDomainURL = null;
 	String mSubUrl = null;
 	
@@ -62,7 +67,11 @@ public class Work {
 	 * 크롤러의 검색 범위를 제한하고자 할때 사용한다. 
 	 * 0 은 시드 URL을 의미
 	 * */ 
-	int mDepth = -1; 
+	int mDepth = -1;
+
+	Parser mParser;
+	Scraper mScraper;
+
 	
 	/**
 	 * url 값은 반드시 http와 루트 도메인 주소가 포함된 전체 주소여야 한다.
@@ -71,63 +80,69 @@ public class Work {
 	public Work(String url){
 		setURL(url);
 	}
-	
-	public void setURL(String url){
-		url = url.trim();
+
+	public Work setParser(Parser p){
+		mParser = p;
+		return this;
+	}
+
+	public Work setScraper(Scraper s){
+		mScraper = s;
+		return this;
+	}
+
+	public Parser getParser(){
+		return mParser;
+	}
+
+	public Scraper getScraper() {
+		return mScraper;
+	}
+
+	public void setURL(String strURL){
+		strURL = strURL.trim();
 		
 		/* 마지막 문자가 "/" 이면 삭제할 것
 		 * 모든 URL 연산시 마지막 / 은 없다고 가정하고 진행하기 위해서
 		 * */
-		String lastChar = url.substring(url.length()-1, url.length());
+		String lastChar = strURL.substring(strURL.length()-1);
 		while(true){
 			if(lastChar.equalsIgnoreCase("/")){
-				url = url.substring(0, url.length()-1);
-				lastChar = url.substring(url.length()-1, url.length());
+				strURL = strURL.substring(0, strURL.length()-1);
+				lastChar = strURL.substring(strURL.length()-1);
 			}else{
 				break;
 			}
 		}
-		mUrl = url;
+		String host;
+		String path;
+		String query;
+		String protocol;
+		int port;
 		
-		/* 8 의미 - http:// 또는  htts:// 를 제외하기 위한 길이 */
-		/* 추가 구현 고려 사항 : 주소 인코딩에 대한 고려도 있어야 할 것으로 보임 */
-		if(url != null && url.length() > 8 && url.matches("http(.*)")){
-			/* # 처리 : 페이지 내에 인덱싱 기능이므로 삭제해버린다 */
-			int idx = url.indexOf('#', 8);
-			if(idx != -1){
-				url = url.substring(0, idx);
+		try {
+			URL url = new URL(strURL);
+			
+			port = url.getPort();
+			protocol = url.getProtocol();
+			host = url.getHost();
+			path = url.getPath();
+			query = url.getQuery();
+			
+			if(!protocol.isEmpty() && !host.isEmpty()){
+				mDomainURL = protocol + "://" + host;
 			}
 			
-			/* 도메인과 서브 주소를 분류 */
-			idx = url.indexOf('/', 8);
-			if(idx != -1){
-				mDomainURL = url.substring(0, idx);
-				mSubUrl = url.substring(idx);
-			}else{
-				mDomainURL = url;
-				mSubUrl = "/";
+			if(port != -1){
+				mDomainURL += (":" + port);
 			}
 			
-			/* 쿼리스트링 분류 */
-			String query = null;
-			if (mSubUrl.contentEquals("/")){
-				idx = mDomainURL.indexOf('?', 8);
-				if(idx != -1){
-					if(mDomainURL.length() >= (idx+1)){
-						query = mDomainURL.substring(idx+1);
-					}
-					mDomainURL = mDomainURL.substring(0, idx);
-				}
-			}else{
-				idx = mSubUrl.indexOf('?', 8);
-				if(idx != -1){
-					query = mSubUrl.substring(idx+1);
-					mSubUrl = mSubUrl.substring(0, idx);
-				}
+			if(path != null && !path.isEmpty() && !path.contentEquals("/")){
+				mSubUrl = path;
 			}
 			
-			/* ? 쿼리스트링 데이터 파싱 */
-			if(query != null){
+			if(query!= null && !query.isEmpty()){
+				/* ? 쿼리스트링 데이터 파싱 */
 				String[] row = query.split("&");
 				String[] data;
 				for(String set : row){
@@ -137,6 +152,48 @@ public class Work {
 					}
 				}
 			}
+			mURL = url;
+		} catch (MalformedURLException e) {
+			mURL = null;
+		}
+		
+		/* 8 의미 - http:// 또는  htts:// 를 제외하기 위한 길이 */
+		/* 추가 구현 고려 사항 : 주소 인코딩에 대한 고려도 있어야 할 것으로 보임 */
+//		if(url != null && url.length() > 8 && url.matches("http(.*)")){
+//			/* # 처리 : 페이지 내에 인덱싱 기능이므로 삭제해버린다 */
+//			int idx = url.indexOf('#', 8);
+//			if(idx != -1){
+//				url = url.substring(0, idx);
+//			}
+//			
+//			/* 도메인과 서브 주소를 분류 */
+//			idx = url.indexOf('/', 8);
+//			if(idx != -1){
+//				mDomainURL = url.substring(0, idx);
+//				mSubUrl = url.substring(idx);
+//			}else{
+//				mDomainURL = url;
+//				mSubUrl = "/";
+//			}
+//			
+//			/* 쿼리스트링 분류 */
+//			String query = null;
+//			if (mSubUrl.contentEquals("/")){
+//				idx = mDomainURL.indexOf('?', 8);
+//				if(idx != -1){
+//					if(mDomainURL.length() >= (idx+1)){
+//						query = mDomainURL.substring(idx+1);
+//					}
+//					mDomainURL = mDomainURL.substring(0, idx);
+//				}
+//			}else{
+//				idx = mSubUrl.indexOf('?', 8);
+//				if(idx != -1){
+//					query = mSubUrl.substring(idx+1);
+//					mSubUrl = mSubUrl.substring(0, idx);
+//				}
+//			}
+			
 			
 			/* 주소 인코딩에 대한 고려도 있어야 할 것으로 보임 */
 //			try {
@@ -148,10 +205,10 @@ public class Work {
 //				e.printStackTrace();
 //				mUrl = null;
 //			}
-			
-		}else{
-			mDomainURL = null;
-		}
+//			
+//		}else{
+//			mDomainURL = null;
+//		}
 		
 		mContentType = Work.GET;
 	}
@@ -183,7 +240,7 @@ public class Work {
 	}
 	
 	public String getSubURL(){
-		return mSubUrl;
+		return mURL.getPath();
 	}
 	
 	public byte getContentType(){
@@ -199,7 +256,7 @@ public class Work {
 	}
 	
 	public String getURL(){
-		return mUrl;
+		return toString();
 	}
 	
 	public int getState(){
@@ -235,15 +292,29 @@ public class Work {
 	}
 	
 	public void setData(String key, String value){
-		if(mDataMap == null) mDataMap = new HashMap<String, String>();
-		if(value == null || value == ""){
+		if(mDataMap == null) mDataMap = new HashMap();
+		value = value.trim();
+		if(value == null || value.isEmpty()){
 			if(mDataMap.get(key) == null){
 				return;
-			}else{
-				mDataMap.remove(key);
 			}
 		}
-		mDataMap.put(key, value);
+		int len = value.length();
+		String tmp;
+		StringBuilder newValue = new StringBuilder();
+		for(int i = 0 ; i < len ; i ++){
+			if(Util.CheckHangul(value.charAt(i))){
+				tmp = Util.EncodingUTF8(String.valueOf(value.charAt(i)));
+				if(tmp == null) {
+					newValue = new StringBuilder(value);
+					break;
+				}
+				newValue.append(tmp);
+			}else{
+				newValue.append(String.valueOf(value.charAt(i)));
+			}
+		}
+		mDataMap.put(key, newValue.toString());
 	}
 	
 	public Work setDepth(int depth){
@@ -286,7 +357,9 @@ public class Work {
 				ret += mSubUrl;
 			}
 		}
-		
+//		System.out.println(mDomainURL);
+//		System.out.println(mSubUrl);
+//		System.out.println(ret);
 		String data = this.getDataToString();
 		if(data != null){ 
 			ret += "?" + data;

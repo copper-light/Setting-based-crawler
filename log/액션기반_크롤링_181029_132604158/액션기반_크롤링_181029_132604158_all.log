@@ -1,0 +1,29 @@
+2018-10-29 13:26:04 INFO  Crawler:218 - ============== Start Crawler =============
+2018-10-29 13:26:04 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-10-29 13:26:04 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-10-29 13:26:04 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-10-29 13:26:04 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-29 13:26:04 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-10-29 13:26:04 INFO  Crawler:226 - LIMIT_COUNT    : 10
+2018-10-29 13:26:04 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-10-29 13:26:04 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-10-29 13:26:04 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-10-29 13:26:04 INFO  Crawler:233 - SAVE TYPE      : CSV
+2018-10-29 13:26:04 INFO  Crawler:234 - SAVE HTML      : true
+2018-10-29 13:26:04 INFO  Crawler:235 - ==========================================
+2018-10-29 13:26:12 INFO  Crawler:262 - [Progress 1] save : 0, err : 0, remain_work : 1, total : 2
+2018-10-29 13:26:14 INFO  Crawler:262 - [Progress 2] save : 0, err : 0, remain_work : 2, total : 4
+2018-10-29 13:26:15 INFO  Crawler:262 - [Progress 3] save : 0, err : 0, remain_work : 4, total : 7
+2018-10-29 13:26:15 INFO  Crawler:262 - [Progress 4] save : 0, err : 0, remain_work : 3, total : 7
+2018-10-29 13:26:16 INFO  Crawler:262 - [Progress 5] save : 1, err : 0, remain_work : 2, total : 7
+2018-10-29 13:26:17 INFO  Crawler:262 - [Progress 6] save : 1, err : 0, remain_work : 1, total : 7
+2018-10-29 13:26:17 INFO  Crawler:262 - [Progress 7] save : 1, err : 0, remain_work : 2, total : 9
+2018-10-29 13:26:17 INFO  Crawler:262 - [Progress 8] save : 1, err : 0, remain_work : 4, total : 12
+2018-10-29 13:26:17 INFO  Crawler:262 - [Progress 9] save : 1, err : 0, remain_work : 3, total : 12
+2018-10-29 13:26:19 INFO  Crawler:262 - [Progress 10] save : 2, err : 0, remain_work : 2, total : 12
+2018-10-29 13:26:19 INFO  Crawler:296 - ============== Finish Crawler =============
+2018-10-29 13:26:19 INFO  Crawler:297 - [total time] 00:00:14
+2018-10-29 13:26:19 INFO  Crawler:298 - [save contents] 2
+2018-10-29 13:26:19 INFO  Crawler:299 - [error work] 0
+2018-10-29 13:26:19 INFO  Crawler:300 - [remain work] 0
+2018-10-29 13:26:19 INFO  Crawler:301 - [total processed work] 10

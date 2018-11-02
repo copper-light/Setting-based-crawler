@@ -1,0 +1,128 @@
+2018-11-01 11:25:21 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-01 11:25:21 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-11-01 11:25:21 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-11-01 11:25:21 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-11-01 11:25:21 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-01 11:25:21 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-11-01 11:25:21 INFO  Crawler:226 - LIMIT_COUNT    : 16
+2018-11-01 11:25:21 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-11-01 11:25:21 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-11-01 11:25:21 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-11-01 11:25:21 INFO  Crawler:233 - SAVE TYPE      : CSV
+2018-11-01 11:25:21 INFO  Crawler:234 - SAVE HTML      : true
+2018-11-01 11:25:21 INFO  Crawler:235 - ==========================================
+2018-11-01 11:25:27 INFO  Crawler:264 - [Progress 1] save : 0, err : 0, remain_work : 1, total : 2
+2018-11-01 11:25:31 INFO  Crawler:264 - [Progress 2] save : 0, err : 0, remain_work : 3, total : 5
+2018-11-01 11:25:31 INFO  Crawler:264 - [Progress 3] save : 0, err : 0, remain_work : 2, total : 5
+2018-11-01 11:25:42 INFO  Crawler:264 - [Progress 4] save : 0, err : 0, remain_work : 4, total : 8
+2018-11-01 11:25:42 INFO  Crawler:264 - [Progress 5] save : 0, err : 0, remain_work : 3, total : 8
+2018-11-01 11:25:43 INFO  Crawler:264 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-11-01 11:25:43 INFO  Crawler:264 - [Progress 7] save : 1, err : 0, remain_work : 1, total : 8
+2018-11-01 11:25:44 INFO  Crawler:264 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-11-01 11:25:44 INFO  Crawler:264 - [Progress 9] save : 1, err : 0, remain_work : 2, total : 11
+2018-11-01 11:25:45 INFO  Crawler:264 - [Progress 10] save : 1, err : 0, remain_work : 4, total : 14
+2018-11-01 11:25:45 INFO  Crawler:264 - [Progress 11] save : 1, err : 0, remain_work : 3, total : 14
+2018-11-01 11:25:46 INFO  Crawler:264 - [Progress 12] save : 2, err : 0, remain_work : 2, total : 14
+2018-11-01 11:25:46 INFO  Crawler:264 - [Progress 13] save : 2, err : 0, remain_work : 1, total : 14
+2018-11-01 11:25:46 INFO  Crawler:264 - [Progress 14] save : 2, err : 0, remain_work : 3, total : 17
+2018-11-01 11:25:46 INFO  Crawler:264 - [Progress 15] save : 2, err : 0, remain_work : 2, total : 17
+2018-11-01 11:25:47 INFO  Crawler:264 - [Progress 16] save : 2, err : 0, remain_work : 4, total : 20
+2018-11-01 11:25:47 INFO  Crawler:264 - [Progress 17] save : 2, err : 0, remain_work : 3, total : 20
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 18] save : 3, err : 0, remain_work : 2, total : 20
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 19] save : 3, err : 0, remain_work : 1, total : 20
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 20] save : 3, err : 0, remain_work : 3, total : 23
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 21] save : 3, err : 0, remain_work : 2, total : 23
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 22] save : 3, err : 0, remain_work : 4, total : 26
+2018-11-01 11:25:49 INFO  Crawler:264 - [Progress 23] save : 3, err : 0, remain_work : 3, total : 26
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 24] save : 4, err : 0, remain_work : 2, total : 26
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 25] save : 4, err : 0, remain_work : 1, total : 26
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 26] save : 4, err : 0, remain_work : 3, total : 29
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 27] save : 4, err : 0, remain_work : 2, total : 29
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 28] save : 4, err : 0, remain_work : 4, total : 32
+2018-11-01 11:25:51 INFO  Crawler:264 - [Progress 29] save : 4, err : 0, remain_work : 3, total : 32
+2018-11-01 11:25:53 INFO  Crawler:264 - [Progress 30] save : 5, err : 0, remain_work : 2, total : 32
+2018-11-01 11:25:53 INFO  Crawler:264 - [Progress 31] save : 5, err : 0, remain_work : 1, total : 32
+2018-11-01 11:25:53 INFO  Crawler:264 - [Progress 32] save : 5, err : 0, remain_work : 3, total : 35
+2018-11-01 11:25:53 INFO  Crawler:264 - [Progress 33] save : 5, err : 0, remain_work : 2, total : 35
+2018-11-01 11:25:54 INFO  Crawler:264 - [Progress 34] save : 5, err : 0, remain_work : 4, total : 38
+2018-11-01 11:25:54 INFO  Crawler:264 - [Progress 35] save : 5, err : 0, remain_work : 3, total : 38
+2018-11-01 11:25:55 INFO  Crawler:264 - [Progress 36] save : 6, err : 0, remain_work : 2, total : 38
+2018-11-01 11:25:55 INFO  Crawler:264 - [Progress 37] save : 6, err : 0, remain_work : 1, total : 38
+2018-11-01 11:25:55 INFO  Crawler:264 - [Progress 38] save : 6, err : 0, remain_work : 3, total : 41
+2018-11-01 11:25:55 INFO  Crawler:264 - [Progress 39] save : 6, err : 0, remain_work : 2, total : 41
+2018-11-01 11:25:56 INFO  Crawler:264 - [Progress 40] save : 6, err : 0, remain_work : 4, total : 44
+2018-11-01 11:25:56 INFO  Crawler:264 - [Progress 41] save : 6, err : 0, remain_work : 3, total : 44
+2018-11-01 11:25:57 INFO  Crawler:264 - [Progress 42] save : 7, err : 0, remain_work : 2, total : 44
+2018-11-01 11:25:57 INFO  Crawler:264 - [Progress 43] save : 7, err : 0, remain_work : 1, total : 44
+2018-11-01 11:25:57 INFO  Crawler:264 - [Progress 44] save : 7, err : 0, remain_work : 3, total : 47
+2018-11-01 11:25:57 INFO  Crawler:264 - [Progress 45] save : 7, err : 0, remain_work : 2, total : 47
+2018-11-01 11:25:58 INFO  Crawler:264 - [Progress 46] save : 7, err : 0, remain_work : 4, total : 50
+2018-11-01 11:25:58 INFO  Crawler:264 - [Progress 47] save : 7, err : 0, remain_work : 3, total : 50
+2018-11-01 11:25:59 INFO  Crawler:264 - [Progress 48] save : 8, err : 0, remain_work : 2, total : 50
+2018-11-01 11:25:59 INFO  Crawler:264 - [Progress 49] save : 8, err : 0, remain_work : 1, total : 50
+2018-11-01 11:25:59 INFO  Crawler:264 - [Progress 50] save : 8, err : 0, remain_work : 3, total : 53
+2018-11-01 11:25:59 INFO  Crawler:264 - [Progress 51] save : 8, err : 0, remain_work : 2, total : 53
+2018-11-01 11:26:00 INFO  Crawler:264 - [Progress 52] save : 8, err : 0, remain_work : 4, total : 56
+2018-11-01 11:26:00 INFO  Crawler:264 - [Progress 53] save : 8, err : 0, remain_work : 3, total : 56
+2018-11-01 11:26:10 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
+2018-11-01 11:26:10 ERROR Crawler:260 - L ERR_ACTION : .deal_tit
+2018-11-01 11:26:10 INFO  Crawler:264 - [Progress 54] save : 8, err : 1, remain_work : 2, total : 56
+2018-11-01 11:26:12 ERROR WorkRunnable:82 - not found element java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:41196
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:41196
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:41196
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:101)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.getWindowHandles(RemoteWebDriver.java:453)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:184)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+	... 26 more
+2018-11-01 11:26:12 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
+2018-11-01 11:26:12 ERROR Crawler:260 - L ERR : not found element java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:41196
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+2018-11-01 11:26:12 INFO  Crawler:264 - [Progress 55] save : 8, err : 2, remain_work : 1, total : 56
+2018-11-01 11:26:24 ERROR Crawler:257 - [ERR URL] http://search.wemakeprice.com?search_keyword=%EA%B7%B8%EB%9E%98%ED%94%BD%EC%B9%B4%EB%93%9C
+2018-11-01 11:26:24 ERROR Crawler:260 - L ERR_ACTION : #search_deal_area > li:nth-child(1) > span > a > span.box_desc > strong.tit_desc
+2018-11-01 11:26:24 INFO  Crawler:264 - [Progress 56] save : 8, err : 3, remain_work : 0, total : 56

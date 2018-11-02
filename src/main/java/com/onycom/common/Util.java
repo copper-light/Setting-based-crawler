@@ -1,17 +1,16 @@
 package com.onycom.common;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.net.URL;
+import java.net.URLEncoder;
 import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.concurrent.SynchronousQueue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.imageio.ImageIO;
 
 import org.apache.commons.codec.Charsets;
 import org.jsoup.helper.StringUtil;
@@ -104,8 +103,14 @@ public class Util  {
 	}
 	
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
+
 	public static String EncodingUTF8(String str){
-		return new String(str.getBytes(), UTF_8);
+		try {
+			str = URLEncoder.encode(str, "UTF-8");
+		} catch (UnsupportedEncodingException e) {
+			str = null;
+		}
+		return str;
 	}
 	
 	public static String Remove4ByteEmoji(String str){
@@ -168,5 +173,33 @@ public class Util  {
 			return false;
 		}
 		return true;
+	}
+	
+	public static boolean DownloadFileFromURL(String downloadUrl, String outFilePath){
+		boolean ret = false;
+		try {
+			//String imgUrl = "http://pics.avs.io/200/200/" + code[i] + ".PNG";// http://~~~~~~~~.jpg;  // image url http://pics.avs.io/200/200/KE.png
+			URL url;
+			url = new URL(downloadUrl);
+			String dirName = outFilePath.substring( 0, outFilePath.lastIndexOf('/')); // 이미지 파일명 추출
+			String ext = outFilePath.substring( outFilePath.lastIndexOf('.')+1, outFilePath.length() );  // 이미지 확장자 추출
+			BufferedImage img;
+			img = ImageIO.read(url);
+			File file = new File(dirName);
+			if(!file.exists()) file.mkdirs();
+			ImageIO.write(img, ext, new File(outFilePath));
+			ret = true;
+		} catch (Exception e) {
+			ret = false;
+		}
+		return ret;
+	}
+
+	public static boolean CheckHangul(char cValue) {
+		if (cValue >= 0xAC00 && cValue <= 0xD743) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }

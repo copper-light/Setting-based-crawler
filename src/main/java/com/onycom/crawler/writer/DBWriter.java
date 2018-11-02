@@ -22,6 +22,7 @@ import com.onycom.crawler.data.CollectRecode;
  */
 public class DBWriter implements Writer {
 	static Logger mLogger = CrawlerLog.GetInstance(DBWriter.class);
+	Config mConfig;
 
 	static String DRIVER = "org.mariadb.jdbc.Driver";
 	static String PATH = "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG"; // 172.17.0.10
@@ -48,12 +49,40 @@ public class DBWriter implements Writer {
 			String dbConnectionString = PATH + "?user=" + USER + "&password=" + PW;
 			conn = DriverManager.getConnection(dbConnectionString, properties);
 			// conn = DriverManager.getConnection(PATH, USER, PW, properties);
-
+			mConn = conn;
+			// 콘텐츠 저장을 위한 DB TABLE 을 준비해라!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+			String keys= null;
+			String query = null;
+			try {
+				List<CollectRecode> collects = mConfig.getCollects();
+				String tableName, colName, colType;
+				for (CollectRecode c : collects) {
+					// TABLE NAME
+					tableName = c.getName().toUpperCase();
+					query = "";
+					keys = "";
+					for (CollectRecode.Column col : c.getColumns()) {
+						colName = col.getDataName().toUpperCase(); // 컬럼 명
+						colType = col.getDataType(); // 컬럼 타입
+						query += ", " + colName + " " + colType;
+						if(col.isKey()){
+							keys += ", " + colName;
+						}
+					}
+					if (query.length() > 0) {
+						query = String.format(Q_CREATE_CONTENTS_TABLE, tableName, query, keys);
+						insert(query);
+					}
+				}
+			} catch (Exception e) {
+				mLogger.error("[SQL] " + query, e.fillInStackTrace());
+				close();
+				return false;
+			}
 		} catch (Exception e) {
 			mLogger.error(e.getMessage());
 			return false;
 		}
-		mConn = conn;
 		return true;
 	}
 
@@ -90,45 +119,13 @@ public class DBWriter implements Writer {
 		}
 	}
 
-	public void setConfig(Config mConfig) {
-		PATH = mConfig.OUTPUT_DB_PATH;
-		USER = mConfig.OUTPUT_DB_ID;
-		PW = mConfig.OUTPUT_DB_PW;
-
+	public void setConfig(Config config) {
+		PATH = config.OUTPUT_DB_PATH;
+		USER = config.OUTPUT_DB_ID;
+		PW = config.OUTPUT_DB_PW;
+		mConfig = config;
 		String keys= null;
 		String query = null;
-		// log 저장을 위한 수단 마련
-		// DB 로 저장할 것인가?
-		// FILE 로 떨굴것인가?
-
-		// 콘텐츠 저장을 위한 DB TABLE 을 준비해라!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		try {
-			this.open();
-			List<CollectRecode> collects = mConfig.getCollects();
-			String tableName, colName, colType;
-			for (CollectRecode c : collects) {
-				// TABLE NAME
-				tableName = c.getName().toUpperCase();
-				query = "";
-				keys = "";
-				for (CollectRecode.Column col : c.getColumns()) {
-					colName = col.getDataName().toUpperCase(); // 컬럼 명
-					colType = col.getDataType(); // 컬럼 타입
-					query += ", " + colName + " " + colType;
-					if(col.isKey()){
-						keys += ", " + colName;
-					}
-				}
-				if (query.length() > 0) {
-					query = String.format(Q_CREATE_CONTENTS_TABLE, tableName, query, keys);
-					this.insert(query);
-				}
-			}
-		} catch (Exception e) {
-			mLogger.error("[SQL] " + query, e.fillInStackTrace());
-		} finally {
-			this.close();
-		}
 	}
 
 	public synchronized int write(String... values) throws Exception {
@@ -151,6 +148,10 @@ public class DBWriter implements Writer {
 				} else {
 					cols += "," + kv.key();
 					values += ", \"" + kv.value().replace("\"", "\\\"") + "\"";
+				}
+				
+				if(kv.type().equalsIgnoreCase("file")){
+					
 				}
 			}
 		}

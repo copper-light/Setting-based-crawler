@@ -16,7 +16,7 @@ import com.onycom.crawler.data.Work;
 public class ScenarioStasticParser extends StaticParser{
 
 	@Override
-	public List<Work> parseURL(Work urlInfo, Document document) {
+	public List<Work> parseURL(Work work, Document document) {
 		List<Work> ret = new ArrayList<Work>();
 		Elements els;
 		Scenario scen;
@@ -25,11 +25,11 @@ public class ScenarioStasticParser extends StaticParser{
 		String tmp[];
 		boolean allow = false;
 		
-		if(super.ifLeaf(urlInfo)){
+		if(super.ifLeaf(work)){
 			return ret;
 		}
 		
-		int curDepth = urlInfo.getDepth();
+		int curDepth = work.getDepth();
 		Map<Integer, Scenario> scenarios = getConfig().getScenarios();
 		
 		if(scenarios != null){
@@ -48,21 +48,22 @@ public class ScenarioStasticParser extends StaticParser{
 						for(Element e : els){
 							href = e.attr("href").trim();
 							if(href.length() == 0) continue;
-							tmp = Util.SplitDomainAndSubURL(urlInfo, href);
+							tmp = Util.SplitDomainAndSubURL(work, href);
 							domain_url = tmp[0];
 							sub_url = tmp[1];
 							url = domain_url + sub_url;
 							
 							if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
 									getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
-								allow = super.isAllow(urlInfo, domain_url, sub_url);
+								allow = super.isAllow(work, domain_url, sub_url);
 								if(allow) ret.add(new Work(url).setDepth(depth));
 							}else{
-								ret.add(new Work(url).setDepth(depth));
+								ret.add(new Work(url)
+											.setDepth(depth));
 							}
 						}
 					}else{
-						urlInfo.result().addError(Work.Error.ERR_SCEN_ELEMENT, action.getSelector());
+						work.result().addError(Work.Error.ERR_SCEN_ELEMENT, action.getSelector());
 					}
 				}
 			}

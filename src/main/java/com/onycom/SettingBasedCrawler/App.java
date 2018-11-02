@@ -37,10 +37,10 @@ public class App
     	    	c.setConfigFile(config_path, args);
     	    	c.start();
     		}else{
-    			System.out.println("Config file is not exists");
+    			System.err.println("[ERROR] Config file is not exists");
     		}
     	}else{
-    		System.out.println("Config file is not exists");
+    		System.err.println("[ERROR] Config file is not exists");
     	}
     }
 }

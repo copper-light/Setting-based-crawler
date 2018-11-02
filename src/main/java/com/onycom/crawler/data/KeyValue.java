@@ -3,13 +3,16 @@ package com.onycom.crawler.data;
 public class KeyValue {
 	String key;
 	String value;
-	static KeyValue Create(String key, String value){
-		return new KeyValue(key, value);
+	String type;
+	
+	static KeyValue Create(String key, String type, String value){
+		return new KeyValue(key, type, value);
 	}
 	
-	public KeyValue(String key, String value){
+	public KeyValue(String key, String type, String value){
 		this.key = key;
 		this.value = value;
+		this.type = type;
 	}
 	
 	public String key(){
@@ -18,6 +21,10 @@ public class KeyValue {
 	
 	public String value(){
 		return this.value;
+	}
+	
+	public String type(){
+		return this.type;
 	}
 	
 	public void key(String key){

@@ -1,0 +1,18 @@
+2018-10-29 10:40:36 INFO  Crawler:218 - ============== Start Crawler =============
+2018-10-29 10:40:36 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-10-29 10:40:36 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-10-29 10:40:36 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-10-29 10:40:36 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-29 10:40:36 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-10-29 10:40:36 INFO  Crawler:226 - LIMIT_COUNT    : 10
+2018-10-29 10:40:36 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-10-29 10:40:36 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-10-29 10:40:36 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-10-29 10:40:36 INFO  Crawler:233 - SAVE TYPE      : CSV
+2018-10-29 10:40:36 INFO  Crawler:234 - SAVE HTML      : true
+2018-10-29 10:40:36 INFO  Crawler:235 - ==========================================
+2018-10-29 10:42:06 ERROR Crawler:255 - [ERR URL] http://search.wemakeprice.com/robots.txt
+2018-10-29 10:42:06 ERROR Crawler:258 - L ERR : robots - This line can't parse commend : 
+2018-10-29 10:42:06 ERROR Crawler:258 - L ERR : robots - This line can't parse commend : 
+2018-10-29 10:42:06 ERROR Crawler:258 - L ERR : robots - This line can't parse commend : 
+2018-10-29 10:42:06 INFO  Crawler:262 - [Progress 1] save : 0, err : 3, remain_work : 1, total : 2

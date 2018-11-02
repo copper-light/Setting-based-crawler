@@ -34,6 +34,6 @@ public interface Writer {
 	
 	/** 
 	 * 콘텐츠 저장
-	 * @param contents 저장할 콘텐츠 객체 배열 */
+	 * @param aryContents 저장할 콘텐츠 객체 배열 */
 	public int write(List<Contents> aryContents) throws Exception ;
 }

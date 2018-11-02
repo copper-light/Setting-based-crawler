@@ -1,0 +1,36 @@
+2018-10-31 16:39:03 INFO  Crawler:218 - ============== Start Crawler =============
+2018-10-31 16:39:03 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-10-31 16:39:03 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-10-31 16:39:03 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-10-31 16:39:03 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-31 16:39:03 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-10-31 16:39:03 INFO  Crawler:226 - LIMIT_COUNT    : 50
+2018-10-31 16:39:03 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-10-31 16:39:03 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-10-31 16:39:03 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-10-31 16:39:03 INFO  Crawler:233 - SAVE TYPE      : DB
+2018-10-31 16:39:03 INFO  Crawler:234 - SAVE HTML      : true
+2018-10-31 16:39:03 INFO  Crawler:235 - ==========================================
+2018-10-31 16:39:09 INFO  Crawler:264 - [Progress 1] save : 0, err : 0, remain_work : 1, total : 2
+2018-10-31 16:39:12 INFO  Crawler:264 - [Progress 2] save : 0, err : 0, remain_work : 3, total : 5
+2018-10-31 16:39:12 INFO  Crawler:264 - [Progress 3] save : 0, err : 0, remain_work : 2, total : 5
+2018-10-31 16:39:12 INFO  Crawler:264 - [Progress 4] save : 0, err : 0, remain_work : 4, total : 8
+2018-10-31 16:39:13 INFO  Crawler:264 - [Progress 5] save : 0, err : 0, remain_work : 3, total : 8
+2018-10-31 16:39:14 INFO  Crawler:264 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-31 16:39:14 INFO  Crawler:264 - [Progress 7] save : 1, err : 0, remain_work : 1, total : 8
+2018-10-31 16:39:14 INFO  Crawler:264 - [Progress 8] save : 1, err : 0, remain_work : 3, total : 11
+2018-10-31 16:39:14 INFO  Crawler:264 - [Progress 9] save : 1, err : 0, remain_work : 2, total : 11
+2018-10-31 16:39:15 INFO  Crawler:264 - [Progress 10] save : 1, err : 0, remain_work : 4, total : 14
+2018-10-31 16:39:15 INFO  Crawler:264 - [Progress 11] save : 1, err : 0, remain_work : 3, total : 14
+2018-10-31 16:39:16 INFO  Crawler:264 - [Progress 12] save : 2, err : 0, remain_work : 2, total : 14
+2018-10-31 16:39:16 INFO  Crawler:264 - [Progress 13] save : 2, err : 0, remain_work : 1, total : 14
+2018-10-31 16:39:16 INFO  Crawler:264 - [Progress 14] save : 2, err : 0, remain_work : 3, total : 17
+2018-10-31 16:39:17 INFO  Crawler:264 - [Progress 15] save : 2, err : 0, remain_work : 2, total : 17
+2018-10-31 16:39:17 INFO  Crawler:264 - [Progress 16] save : 2, err : 0, remain_work : 4, total : 20
+2018-10-31 16:39:17 INFO  Crawler:264 - [Progress 17] save : 2, err : 0, remain_work : 3, total : 20
+2018-10-31 16:39:18 INFO  Crawler:264 - [Progress 18] save : 3, err : 0, remain_work : 2, total : 20
+2018-10-31 16:39:18 INFO  Crawler:264 - [Progress 19] save : 3, err : 0, remain_work : 1, total : 20
+2018-10-31 16:39:19 INFO  Crawler:264 - [Progress 20] save : 3, err : 0, remain_work : 3, total : 23
+2018-10-31 16:39:19 INFO  Crawler:264 - [Progress 21] save : 3, err : 0, remain_work : 2, total : 23
+2018-10-31 16:39:20 INFO  Crawler:264 - [Progress 22] save : 3, err : 0, remain_work : 4, total : 26
+2018-10-31 16:39:20 INFO  Crawler:264 - [Progress 23] save : 3, err : 0, remain_work : 3, total : 26

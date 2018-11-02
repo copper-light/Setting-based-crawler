@@ -1,0 +1,52 @@
+2018-10-29 13:40:46 INFO  Crawler:218 - ============== Start Crawler =============
+2018-10-29 13:40:46 INFO  Crawler:219 - CONFIG FILE    : ./config/config_action.json
+2018-10-29 13:40:46 INFO  Crawler:221 - CMD PARAM 00   : 그래픽카드
+2018-10-29 13:40:46 INFO  Crawler:223 - CRAWLER NAME   : 액션기반_크롤링
+2018-10-29 13:40:46 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-10-29 13:40:46 INFO  Crawler:225 - IGNORE ROBOTS  : false
+2018-10-29 13:40:46 INFO  Crawler:226 - LIMIT_COUNT    : 10
+2018-10-29 13:40:46 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-10-29 13:40:46 INFO  Crawler:231 - SCENARIO COUNT : 2
+2018-10-29 13:40:46 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-10-29 13:40:46 INFO  Crawler:233 - SAVE TYPE      : CSV
+2018-10-29 13:40:46 INFO  Crawler:234 - SAVE HTML      : true
+2018-10-29 13:40:46 INFO  Crawler:235 - ==========================================
+2018-10-29 13:40:51 INFO  Crawler:262 - [Progress 1] save : 0, err : 0, remain_work : 1, total : 2
+2018-10-29 13:40:53 INFO  Crawler:262 - [Progress 2] save : 0, err : 0, remain_work : 3, total : 5
+2018-10-29 13:40:54 INFO  Crawler:262 - [Progress 3] save : 0, err : 0, remain_work : 2, total : 5
+2018-10-29 13:40:56 INFO  Crawler:262 - [Progress 4] save : 0, err : 0, remain_work : 4, total : 8
+2018-10-29 13:40:56 INFO  Crawler:262 - [Progress 5] save : 0, err : 0, remain_work : 3, total : 8
+2018-10-29 13:40:56 INFO  Crawler:262 - [Progress 6] save : 1, err : 0, remain_work : 2, total : 8
+2018-10-29 13:40:56 INFO  Crawler:262 - [Progress 7] save : 1, err : 0, remain_work : 1, total : 8
+2018-10-29 13:40:59 ERROR WorkRunnable:82 - not found element {"errorMessage":"undefined is not a constructor (evaluating 'els.forEach(function(v) { v.remove()} )')","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"266","Content-Type":"application/json; charset=utf-8","Host":"localhost:32299","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"script\":\"var selector= \\\"#search_deal_area > li:nth-child(1)\\\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}\",\"args\":[\"\"]}","url":"/execute","urlParsed":{"anchor":"","query":"","file":"execute","directory":"/","path":"/execute","relative":"/execute","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/execute","queryKey":{},"chunks":["execute"]},"urlOriginal":"/session/d027ed20-db34-11e8-a2a4-afd74052f08b/execute"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.WebDriverException: {"errorMessage":"undefined is not a constructor (evaluating 'els.forEach(function(v) { v.remove()} )')","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"266","Content-Type":"application/json; charset=utf-8","Host":"localhost:32299","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"script\":\"var selector= \\\"#search_deal_area > li:nth-child(1)\\\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}\",\"args\":[\"\"]}","url":"/execute","urlParsed":{"anchor":"","query":"","file":"execute","directory":"/","path":"/execute","relative":"/execute","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/execute","queryKey":{},"chunks":["execute"]},"urlOriginal":"/session/d027ed20-db34-11e8-a2a4-afd74052f08b/execute"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:482)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:122)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.WebDriverException: {"errorMessage":"undefined is not a constructor (evaluating 'els.forEach(function(v) { v.remove()} )')","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"266","Content-Type":"application/json; charset=utf-8","Host":"localhost:32299","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"script\":\"var selector= \\\"#search_deal_area > li:nth-child(1)\\\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}\",\"args\":[\"\"]}","url":"/execute","urlParsed":{"anchor":"","query":"","file":"execute","directory":"/","path":"/execute","relative":"/execute","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/execute","queryKey":{},"chunks":["execute"]},"urlOriginal":"/session/d027ed20-db34-11e8-a2a4-afd74052f08b/execute"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-10-29 13:40:59 ERROR Crawler:255 - [ERR URL] http://search.wemakeprice.com/search?search_cate=top&_service=5&_type=3
+2018-10-29 13:40:59 ERROR Crawler:258 - L ERR : not found element {"errorMessage":"undefined is not a constructor (evaluating 'els.forEach(function(v) { v.remove()} )')","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"266","Content-Type":"application/json; charset=utf-8","Host":"localhost:32299","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"script\":\"var selector= \\\"#search_deal_area > li:nth-child(1)\\\"; var els = document.querySelectorAll(selector); els.forEach(function(v) { v.remove()} ); if(document.querySelectorAll(selector).length == 0){ window.scrollBy(0,0); window.scrollBy(0,500)}\",\"args\":[\"\"]}","url":"/execute","urlParsed":{"anchor":"","query":"","file":"execute","directory":"/","path":"/execute","relative":"/execute","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/execute","queryKey":{},"chunks":["execute"]},"urlOriginal":"/session/d027ed20-db34-11e8-a2a4-afd74052f08b/execute"}}
+Command duration or timeout: 0 milliseconds
+2018-10-29 13:40:59 INFO  Crawler:262 - [Progress 8] save : 1, err : 1, remain_work : 0, total : 8
+2018-10-29 13:40:59 INFO  Crawler:296 - ============== Finish Crawler =============
+2018-10-29 13:40:59 INFO  Crawler:297 - [total time] 00:00:12
+2018-10-29 13:40:59 INFO  Crawler:298 - [save contents] 1
+2018-10-29 13:40:59 INFO  Crawler:299 - [error work] 1
+2018-10-29 13:40:59 INFO  Crawler:300 - [remain work] 0
+2018-10-29 13:40:59 INFO  Crawler:301 - [total processed work] 8

@@ -34,9 +34,6 @@ public class WorkDeque {
 	 * 방문한 페이지 목록 중복 페이지 방지
 	 */
 	List<Work> mHistory;
-	
-	// test 용 DB 연결
-	DBWriter mDB;
 
 	private Queue<Work> mResultQueue;
 	
@@ -44,7 +41,6 @@ public class WorkDeque {
 		mDueue = new LinkedList<Work>();
 		mResultQueue = new LinkedList<Work>(); 
 		mHistory = new ArrayList<Work>();
-		mDB = new DBWriter();
 	}
 
 	public synchronized void setAccessMode(byte mode) {
