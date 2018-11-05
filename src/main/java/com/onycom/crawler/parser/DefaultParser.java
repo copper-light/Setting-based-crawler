@@ -6,7 +6,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -24,6 +29,7 @@ import com.onycom.crawler.data.Action;
 import com.onycom.crawler.data.CollectRecode;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
+import com.onycom.crawler.data.Dictionary;
 import com.onycom.crawler.data.Work;
 
 /** 
@@ -133,9 +139,20 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 		Contents contents;
 		
 		List<CollectRecode> aryRecode = mConfig.getCollects();
+		Dictionary dict = mConfig.getDictionary();
+		HashMap<String, Boolean> mapKeyword = null;
+		
+		if(dict.hasDict()){
+			mapKeyword = new HashMap<String, Boolean>();
+			for(int i = 0 ; i < dict.getKeyWordList().size() ; i ++){
+				mapKeyword.put(dict.getKeyWordList().get(i), false);
+			}
+		}
+		
 		Pattern pattern;
 		Matcher matcher;
 		boolean isParsingDocument = false;
+		boolean inDict = false;
 		for(CollectRecode recode : aryRecode){
 			//mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
@@ -192,6 +209,10 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 										}
 										/* 데이터를 찾았으면 중단 */
 										if(value != null){
+											if(dict.hasDict()){
+												checkInDict(mapKeyword, value);
+											}
+											
 											/* 데이터 전처리 */
 											value = Util.Remove4ByteEmoji(value);
 											/* regex 필터링 */
@@ -216,8 +237,8 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 								}
 							}
 							if(value != null){
-								//mLogger.debug("  [parse content] " +data_name + " @ "+ value);
 								contents.add(data_name, data_type, value);
+								//mLogger.debug("  [parse content] " +data_name + " @ "+ value);
 							}else{
 								if(colEls != null && colEls.size() > 0){ 
 									/* 엘리먼트를 찾았는데 데이터가 empty 거나 필터링에 걸린 것 */ 
@@ -234,7 +255,15 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 							}
 						}
 						if(contents.size() > 0){
-							aryContents.add(contents);
+							if(dict.hasDict()){
+								String strDicts = dictToString(mapKeyword);
+								if(strDicts != null){
+									System.out.println("[Dict] " + strDicts);
+									aryContents.add(contents);
+								}
+							}else{
+								aryContents.add(contents);
+							}
 						}
 					}
 				}
@@ -278,6 +307,73 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 			}
 		}
 		return idx;
+	}
+	
+	private boolean checkInDict(Map<String, Boolean> mapDict, String data){
+		if(mapDict == null) return false;
+		boolean ret = false, ok = false;
+		Iterator<Entry<String, Boolean>> iterator = mapDict.entrySet().iterator();
+		Entry<String, Boolean> e;
+		char c, k;
+		
+		while(iterator.hasNext()){
+			e = iterator.next();
+			if(!e.getValue()){
+				int idx = data.toLowerCase().indexOf(e.getKey().toLowerCase());
+				if(idx != -1){
+					ok = true;
+					if(idx > 0){
+						c = data.charAt(idx-1);
+						k = e.getKey().charAt(0);
+						
+						// data.charAt(idx-1) key의 첫글자 한글이면 한글이 아닐때  ok
+						// data.charAt(idx-1) key의 첫글자 영어면 영어이 아닐때  ok	
+						if(Util.CheckEng(k)){
+							if(Util.CheckEng(c)){
+								ok = false; 
+							}
+						}
+					}
+					
+					if(idx < data.length()-e.getKey().length()){
+						c = data.charAt(idx+e.getKey().length());
+						k = e.getKey().charAt(e.getKey().length()-1);
+						// data.charAt(idx+e.getKey().length()) key 마지막 글자 한글이면 한글이 아닐때  ok
+						// data.charAt(idx+e.getKey().length()) key 마지막 글자 영어면 영어이 아닐때  ok
+						if(Util.CheckEng(k)){
+							if(Util.CheckEng(c)){
+								ok = false; 
+							}
+						}
+
+					}
+					if(ok){
+						mapDict.put(e.getKey(), true);
+						ret = true;
+					}
+				}
+			}else{
+				ret = true;
+			}
+		}
+		return ret;
+	}
+	
+	private String dictToString(Map<String, Boolean> mapDict){ 
+		String ret = null; 
+		Iterator<Entry<String, Boolean>> iterator = mapDict.entrySet().iterator();
+		Entry<String, Boolean> e;
+		while(iterator.hasNext()){
+			e = iterator.next();
+			if(e.getValue()){
+				if(ret != null){
+					ret += ","+e.getKey();
+				}else{
+					ret = e.getKey();
+				}
+			}
+		}
+		return ret;
 	}
 	
 	public boolean isAllow(Work curUrlInfo, String targetDomain, String targetSub){

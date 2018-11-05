@@ -1,0 +1,27 @@
+2018-11-05 18:46:14 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-05 18:46:14 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-05 18:46:14 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-05 18:46:14 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-05 18:46:14 INFO  Crawler:225 - CRAWLER DELAY  : 1 sec
+2018-11-05 18:46:14 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-05 18:46:14 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-05 18:46:14 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-05 18:46:14 INFO  Crawler:232 - SCENARIO COUNT : 3
+2018-11-05 18:46:14 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-05 18:46:14 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-05 18:46:14 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-05 18:46:14 INFO  Crawler:236 - ==========================================
+2018-11-05 18:46:16 INFO  Crawler:265 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-11-05 18:46:18 ERROR Crawler:258 - [ERR URL] https://news.naver.com?mode=LPOD&date=20181104&mid=sec&oid=138&listType=title
+2018-11-05 18:46:18 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-05 18:46:18 INFO  Crawler:265 - [Progress 2] save : 0, err : 1, remain_work : 1, total : 3
+2018-11-05 18:46:19 ERROR Crawler:258 - [ERR URL] https://news.naver.com?mode=LPOD&date=20181103&mid=sec&oid=138&listType=title
+2018-11-05 18:46:19 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-05 18:46:19 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.pagenavi_day > a:nth-child(7)
+2018-11-05 18:46:19 INFO  Crawler:265 - [Progress 3] save : 0, err : 3, remain_work : 0, total : 3
+2018-11-05 18:46:19 INFO  Crawler:299 - ============== Finish Crawler =============
+2018-11-05 18:46:19 INFO  Crawler:300 - [total time] 00:00:05
+2018-11-05 18:46:19 INFO  Crawler:301 - [save contents] 0
+2018-11-05 18:46:19 INFO  Crawler:302 - [error work] 3
+2018-11-05 18:46:19 INFO  Crawler:303 - [remain work] 0
+2018-11-05 18:46:19 INFO  Crawler:304 - [total processed work] 3

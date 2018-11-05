@@ -1,0 +1,19 @@
+2018-11-05 20:19:53 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-05 20:19:53 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-05 20:19:53 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-05 20:19:53 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-05 20:19:53 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-05 20:19:53 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-05 20:19:53 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-05 20:19:53 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-05 20:19:53 INFO  Crawler:232 - SCENARIO COUNT : 4
+2018-11-05 20:19:53 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-05 20:19:53 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-05 20:19:53 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-05 20:19:53 INFO  Crawler:236 - ==========================================
+2018-11-05 20:19:58 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181105&mid=sec&oid=138&listType=title
+2018-11-05 20:19:58 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-05 20:19:58 INFO  Crawler:265 - [Progress 1] save : 0, err : 1, remain_work : 52, total : 53
+2018-11-05 20:20:01 INFO  Crawler:265 - [Progress 2] save : 1, err : 1, remain_work : 51, total : 53
+2018-11-05 20:20:05 INFO  Crawler:265 - [Progress 3] save : 1, err : 1, remain_work : 50, total : 53
+2018-11-05 20:20:08 INFO  Crawler:265 - [Progress 4] save : 1, err : 1, remain_work : 49, total : 53

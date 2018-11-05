@@ -2,10 +2,12 @@ package com.onycom.common;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.SynchronousQueue;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,6 +27,49 @@ import com.onycom.crawler.data.Work;
 public class Util  {
 	
 	static String[] SPLIT_URL_TOKEN = {"/", "?" ,"#"};
+	
+	public static URL GetURL(String src_url, String des_url){
+		URL ret = null;
+		try {
+			
+			if(des_url.startsWith("http")){
+				ret = new URL(des_url);
+			}else{
+				//String domain;
+				int find;
+				if(des_url.charAt(0) == '/'){
+					find = src_url.substring(7).indexOf("/"); 
+					if(find != -1){
+						ret = new URL(src_url.substring(0, find) + des_url);
+					}else{
+						ret = new URL(src_url += des_url);
+					}
+				}else if(des_url.charAt(0) == '?'){
+					ret = new URL(src_url);
+					ret = new URL(ret.getProtocol() + "://" 
+							+ ret.getHost()
+							+ ((ret.getPort() != -1)? ":"+ret.getProtocol() : "")+"/"
+							+ ret.getPath()+des_url);
+				}else if(des_url.charAt(0) == '#'){
+					ret = new URL(src_url);
+				}else {
+					ret = new URL(src_url += des_url);
+				}
+			}
+		} catch (MalformedURLException e) {
+			return null;
+		}
+		
+		return ret;
+	}
+	
+	public static String GetDomain(URL url){
+		return url.getProtocol() + "://" 
+				+ url.getHost()
+				+ ((url.getPort() != -1)? ":"+url.getProtocol() : "");
+	}
+	
+	
 	public static String[] SplitDomainAndSubURL(Work urlInfo, String target){
 		String[] ret = new String[2];
 		int idx;
@@ -197,6 +242,14 @@ public class Util  {
 
 	public static boolean CheckHangul(char cValue) {
 		if (cValue >= 0xAC00 && cValue <= 0xD743) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public static boolean CheckEng(char cValue){
+		if (cValue >= 'a' && cValue <= 'z' || cValue >= 'A' && cValue <= 'Z') {
 			return true;
 		} else {
 			return false;

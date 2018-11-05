@@ -1,0 +1,39 @@
+2018-11-05 16:43:23 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-05 16:43:23 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-05 16:43:23 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-05 16:43:23 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-05 16:43:23 INFO  Crawler:225 - IGNORE ROBOTS  : true
+2018-11-05 16:43:23 INFO  Crawler:226 - LIMIT_COUNT    : 5
+2018-11-05 16:43:23 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-11-05 16:43:23 INFO  Crawler:231 - SCENARIO COUNT : 1
+2018-11-05 16:43:23 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-11-05 16:43:23 INFO  Crawler:233 - SAVE TYPE      : DB
+2018-11-05 16:43:23 INFO  Crawler:234 - SAVE HTML      : false
+2018-11-05 16:43:23 INFO  Crawler:235 - ==========================================
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 1] save : 0, err : 0, remain_work : 50, total : 51
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067028
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 2] save : 0, err : 1, remain_work : 49, total : 51
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067027
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 3] save : 0, err : 2, remain_work : 48, total : 51
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067026
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 4] save : 0, err : 3, remain_work : 47, total : 51
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067025
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 5] save : 0, err : 4, remain_work : 46, total : 51
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067024
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 INFO  Crawler:264 - [Progress 6] save : 0, err : 5, remain_work : 45, total : 51
+2018-11-05 16:43:25 INFO  Crawler:298 - ============== Finish Crawler =============
+2018-11-05 16:43:25 INFO  Crawler:299 - [total time] 00:00:02
+2018-11-05 16:43:25 INFO  Crawler:300 - [save contents] 0
+2018-11-05 16:43:25 INFO  Crawler:301 - [error work] 5
+2018-11-05 16:43:25 INFO  Crawler:302 - [remain work] 0
+2018-11-05 16:43:25 INFO  Crawler:303 - [total processed work] 6

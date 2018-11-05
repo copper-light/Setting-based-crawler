@@ -74,10 +74,16 @@ public class Config {
 	List<String> mFilterDisallow; // 접속하지 않는 URL(또는 패턴)
 	List<String> mLeafURL; // 크롤링 마지막 URL(또는 패턴) : 해당 페이지의 링크는 수집하지 않는다
 
+	Dictionary mDictionary;
+	
 	List<CollectRecode> mCollects; // 수집할 콘텐츠
+	
+	
 	Map<Integer, Scenario> mScenarios;
 
 	Map<String, Robots> mRobots;
+	
+	
 
 	public static final String KEY_CRAWLING_NAME = "name";
 	public static final String KEY_IGNORE_ROBOTS = "ignore_robots";
@@ -94,7 +100,6 @@ public class Config {
 	public static final String KEY_SELENIUM_DRIVER_NAME = "selenium_driver_name";
 	public static final String KEY_SELENIUM_DRIVER_PATH = "selenium_driver_path";
 	public static final String KEY_SELENIUM_HEADLESS = "selenium_headless";
-
 	
 	public boolean setConfig(String config){
 		JSONObject root;
@@ -219,7 +224,7 @@ public class Config {
 				}
 			}
 		}catch(JSONException e){ // seed 파싱을 못할 경우 크롤링을 아예 진행하지 않도록
-			System.out.println("Config ERR : seed");
+			System.err.println("Config ERR : seed");
 			return false;
 		}
 		
@@ -281,7 +286,7 @@ public class Config {
 		CollectRecode.Column.Element[] elements;
 		CollectRecode.Column.Element el;
 		if(root.isNull("collect_recode")){
-			mLogger.info("Config err : collect_recode");
+			System.err.println("Config err : collect_recode");
 			return false;
 		}else{
 			array = root.getJSONArray("collect_recode");
@@ -377,7 +382,30 @@ public class Config {
 				}
 			}
 		} catch (JSONException e){ 
+			System.err.println("Config err : Scenario " + e.getMessage() );
 			mScenarios.clear(); 
+		}
+		
+		
+		try{
+			mDictionary = new Dictionary();
+			JSONObject jsonObjectDict = root.getJSONObject("word_dictionary");
+			// 단어사전 DB 정보가 있는가?
+			if(!jsonObjectDict.isNull("dictionary_db")){
+				
+			}
+			// 단어사전 키워드가 설정파일에 있는가?
+			// 목적 : 콘텐츠에 해당 키워드가 있는 데이터만 수집함
+			if(!jsonObjectDict.isNull("collect_keyword")){
+				array = jsonObjectDict.getJSONArray("collect_keyword");
+				for(int i = 0 ; i < array.length() ; i++){
+					mDictionary.addKeyword(array.getString(i));
+				}
+				
+			}
+		}catch(JSONException e){
+			System.err.println("Config err : Dictionary");
+			return false;
 		}
 		
 		CRAWLING_START_TIME = System.currentTimeMillis();
@@ -422,5 +450,9 @@ public class Config {
 
 	public List<CollectRecode> getCollects() {
 		return mCollects;// 수집할 콘텐츠
+	}
+	
+	public Dictionary getDictionary(){
+		return mDictionary;
 	}
 }

@@ -74,6 +74,15 @@ public class Robots {
 		return ret;
 	}
 	
+	public int getDelay(String userAgent){
+		if(userAgent == null) userAgent = "*";
+		User user = mMapUsers.get(userAgent);
+		if(user == null){
+			user = mMapUsers.get("*");
+		}
+		return user.delay;
+	}
+	
 	class User{
 		String userAgent;
 		int delay;

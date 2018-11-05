@@ -1,0 +1,39 @@
+2018-11-05 16:38:42 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-05 16:38:42 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-05 16:38:42 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-05 16:38:42 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-05 16:38:42 INFO  Crawler:225 - IGNORE ROBOTS  : true
+2018-11-05 16:38:42 INFO  Crawler:226 - LIMIT_COUNT    : 5
+2018-11-05 16:38:42 INFO  Crawler:227 - FILTER COUNT   : 0
+2018-11-05 16:38:42 INFO  Crawler:231 - SCENARIO COUNT : 1
+2018-11-05 16:38:42 INFO  Crawler:232 - COLLECT COUNT  : 1
+2018-11-05 16:38:42 INFO  Crawler:233 - SAVE TYPE      : DB
+2018-11-05 16:38:42 INFO  Crawler:234 - SAVE HTML      : false
+2018-11-05 16:38:42 INFO  Crawler:235 - ==========================================
+2018-11-05 16:38:44 INFO  Crawler:264 - [Progress 1] save : 0, err : 0, remain_work : 50, total : 51
+2018-11-05 16:38:44 INFO  Crawler:264 - [Progress 2] save : 0, err : 0, remain_work : 49, total : 51
+2018-11-05 16:38:44 INFO  Crawler:264 - [Progress 3] save : 0, err : 0, remain_work : 48, total : 51
+2018-11-05 16:38:44 INFO  Crawler:264 - [Progress 4] save : 0, err : 0, remain_work : 47, total : 51
+2018-11-05 16:38:44 INFO  Crawler:264 - [Progress 5] save : 0, err : 0, remain_work : 46, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 6] save : 0, err : 0, remain_work : 45, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 7] save : 0, err : 0, remain_work : 44, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 8] save : 1, err : 0, remain_work : 43, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 9] save : 1, err : 0, remain_work : 42, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 10] save : 1, err : 0, remain_work : 41, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 11] save : 1, err : 0, remain_work : 40, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 12] save : 1, err : 0, remain_work : 39, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 13] save : 1, err : 0, remain_work : 38, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 14] save : 2, err : 0, remain_work : 37, total : 51
+2018-11-05 16:38:45 INFO  Crawler:264 - [Progress 15] save : 2, err : 0, remain_work : 36, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 16] save : 3, err : 0, remain_work : 35, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 17] save : 3, err : 0, remain_work : 34, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 18] save : 3, err : 0, remain_work : 33, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 19] save : 4, err : 0, remain_work : 32, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 20] save : 4, err : 0, remain_work : 31, total : 51
+2018-11-05 16:38:46 INFO  Crawler:264 - [Progress 21] save : 5, err : 0, remain_work : 30, total : 51
+2018-11-05 16:38:46 INFO  Crawler:298 - ============== Finish Crawler =============
+2018-11-05 16:38:46 INFO  Crawler:299 - [total time] 00:00:04
+2018-11-05 16:38:46 INFO  Crawler:300 - [save contents] 5
+2018-11-05 16:38:46 INFO  Crawler:301 - [error work] 0
+2018-11-05 16:38:46 INFO  Crawler:302 - [remain work] 0
+2018-11-05 16:38:46 INFO  Crawler:303 - [total processed work] 21

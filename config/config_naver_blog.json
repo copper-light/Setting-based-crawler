@@ -1,7 +1,6 @@
 {
-	"seed_url" : "https://section.blog.naver.com/Search/Post.nhn?pageNo=1&rangeType=ALL&orderBy=sim&keyword=%ED%99%8D%EC%82%BC",
 	"seed" : {
-		"url" : "https://section.blog.naver.com/Search/Post.nhn?pageNo=1&rangeType=ALL&orderBy=sim&keyword=%ED%99%8D%EC%82%BC",
+		"url" : "https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=138",
 		"type" : "GET",
 		"data" : [
 			{"key" : "", "value" : ""},
@@ -13,9 +12,9 @@
 	},
 	"ignore_robots" : true,
 	"crawling_max_depth" : -1,
-	"crawling_type" : "SCENARIO_DYNAMIC",
+	"crawling_type" : "SCENARIO_STATIC",
 	"crawling_delay" : 0,
-	"crawling_max_count" : -1,
+	"crawling_max_count" : 5,
 	"crawling_upper_search" : false,
 	"contents_save_type" : "DB",
 	"output_file_path" : "",
@@ -53,6 +52,19 @@
 			]
 		}
 	],
+
+	"word_dictionary" : {
+		"dictionary_db" : {
+			"path" : "",
+			"id" : "",
+			"pw" : "",
+			"select_query" : ""
+		},
+		"collect_keyword" : [
+			"빅데이터", "IoT", "AI", "인공지능"
+		]
+	},
+
 	"collect" : [
 		{
 			"depth" : 3,

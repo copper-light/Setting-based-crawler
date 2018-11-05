@@ -1,0 +1,15 @@
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067028
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067027
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067026
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067025
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+2018-11-05 16:43:25 ERROR Crawler:257 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067024
+2018-11-05 16:43:25 ERROR Crawler:260 - L ERR : String index out of range: -14
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14

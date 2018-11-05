@@ -25,7 +25,7 @@ public class WorkManager {
 	private Scraper mScraper;
 	private Integer mWorkingCount = 0;
 	private int mThreadPoolSize = 1;
-	private long mWorkDelay = 5000; // ms
+	private int mWorkDelay = 5; // sec
 	private WorkManagerListener mManagerListener;
 	private WorkDeque mDeque;
 	private WorkResultQueue mResultQueue;
@@ -51,7 +51,7 @@ public class WorkManager {
 		mManagerListener = managerListener;
 	}
 	
-	public void setWorkDelay(long delay){
+	public void setWorkDelay(int delay){
 		mWorkDelay = delay;
 	}
 	
@@ -76,6 +76,8 @@ public class WorkManager {
 		Robots robots;
 		Work work;
 		List<Work> aryNewWork;
+		int robotDelay = 0;
+		long delay = mWorkDelay * 1000;
 		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
 		if(mManagerListener!= null)	{
 			if(!mManagerListener.start()){
@@ -90,7 +92,7 @@ public class WorkManager {
 						// info 의 root URL 의 robot 파싱이 있는지 확인하고 없으면 파싱 시작
 						if(!mConfig.IGNORE_ROBOTS){
 							robots = mapRobots.get(work.getDomainURL());
-							if( robots == null) {
+							if(robots == null) {
 								// 현재 작업 중인 쓰레드들은 작업하도록 나두고
 								// 새로운 작업을 수행은 일시정지하기 위하여 쓰기전용 모드로 변경
 								// q 를 읽었을때 null 이면 자동으로 알아서 쓰레드들이 멈출테니까.
@@ -112,7 +114,15 @@ public class WorkManager {
 							}else{
 								// 로봇에 의한 차단 판단 로직 추가
 								if(!robots.isAllow("*", work.getSubURL())){
+									System.out.println("[deny robots] " +work.getSubURL());
 									continue;
+								}
+								
+								robotDelay = robots.getDelay("*");
+								if(mWorkDelay > robotDelay){
+									delay = mWorkDelay * 1000;
+								}else{
+									delay = robotDelay * 1000;
 								}
 							}
 						}
@@ -121,9 +131,9 @@ public class WorkManager {
 						 * 쓰레드 시작
 						 * */
 						synchronized (mWorkingCount){
-							if(mWorkDelay > 0){
+							if(delay > 0){
 								try {
-									Thread.sleep(mWorkDelay);
+									Thread.sleep(delay);
 								} catch (InterruptedException e) {
 									e.printStackTrace();
 								}
@@ -153,21 +163,22 @@ public class WorkManager {
 			 * 쓰레드 result 관리
 			 * 쓰레드가 종료되면 mResultQueue 에 작업한 내용과 결과를 저장함
 			 * */
-			mResultQueue.resultWait();
-			while((workResult = mResultQueue.pollResult()) != null){
-				mWorkingCount --;
-				work = workResult.getCurWork();
-				aryNewWork = workResult.getNewWorks();
-				if(aryNewWork != null){
-					for(Work newWork : aryNewWork){
-						if(isAllowURL(newWork)){
-							mDeque.offerURL(newWork);
+			if(mWorkingCount > 0){
+				mResultQueue.resultWait();
+				while((workResult = mResultQueue.pollResult()) != null){
+					mWorkingCount --;
+					work = workResult.getCurWork();
+					aryNewWork = workResult.getNewWorks();
+					if(aryNewWork != null){
+						for(Work newWork : aryNewWork){
+							if(isAllowURL(newWork)){
+								mDeque.offerURL(newWork);
+							}
 						}
 					}
+					if(mManagerListener!= null)	mManagerListener.progress(work, mDeque);
 				}
-				if(mManagerListener!= null)	mManagerListener.progress(work, mDeque);
 			}
-			
 			/**
 			 * 크롤러 종료 조건
 			 * 실행할 작업이 없고 + 현재 동작하고 있는 작업도 없으면 종료

@@ -956,3 +956,4 @@
 [INFO  - 2018-10-31T07:57:39.595Z] Session [6979f500-dce2-11e8-b4f5-9bd3d5048043] - page.customHeaders:  - {}
 [INFO  - 2018-10-31T07:57:41.525Z] Session [6979f500-dce2-11e8-b4f5-9bd3d5048043] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
 [INFO  - 2018-10-31T07:57:41.526Z] Session [6979f500-dce2-11e8-b4f5-9bd3d5048043] - page.customHeaders:  - {}
+[INFO  - 2018-11-05T01:45:06.936Z] GhostDriver - Main - running on port 45092

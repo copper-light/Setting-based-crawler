@@ -1,8 +1,11 @@
 package com.onycom.crawler.parser;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+import javax.swing.plaf.synth.SynthSeparatorUI;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -31,7 +34,6 @@ public class ScenarioStasticParser extends StaticParser{
 		
 		int curDepth = work.getDepth();
 		Map<Integer, Scenario> scenarios = getConfig().getScenarios();
-		
 		if(scenarios != null){
 			int depth;
 			int len = scenarios.size();
@@ -49,8 +51,9 @@ public class ScenarioStasticParser extends StaticParser{
 							href = e.attr("href").trim();
 							if(href.length() == 0) continue;
 							tmp = Util.SplitDomainAndSubURL(work, href);
-							domain_url = tmp[0];
-							sub_url = tmp[1];
+							URL new_url = Util.GetURL(work.toString(), href);
+							domain_url = Util.GetDomain(new_url);
+							sub_url = new_url.getPath() + ((new_url.getQuery()!=null)? "?" + new_url.getQuery() : "");
 							url = domain_url + sub_url;
 							
 							if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&

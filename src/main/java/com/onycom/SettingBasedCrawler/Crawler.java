@@ -56,7 +56,7 @@ public class Crawler {
 	public Config mConfig;
 	public String[] mArgs;
 	
-	public Crawler(int size, long delay){
+	public Crawler(int size, int delay){
 		mWorkManager = new WorkManager(size);
 		mWorkManager.setWorkDelay(delay);
 		this.setCrawlerListener(mWMListener);
@@ -222,6 +222,7 @@ public class Crawler {
 			}
 			mLogger.info("CRAWLER NAME   : " + mConfig.CRAWLING_NAME);
 			mLogger.info("CRAWLER TYPE   : " + mConfig.CRAWLING_TYPE);
+			mLogger.info("CRAWLER DELAY  : " + mConfig.CRAWLING_DELAY + " sec");
 			mLogger.info("IGNORE ROBOTS  : " + mConfig.IGNORE_ROBOTS);
 			mLogger.info("LIMIT_COUNT    : " + mConfig.CRAWLING_MAX_COUNT);
 			mLogger.info("FILTER COUNT   : " + (mConfig.getFilterAllow().size() 

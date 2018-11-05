@@ -1,0 +1,122 @@
+{
+	"name" : "naver_news",
+	"seed" : {
+		"url" : "https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&listType=title",
+		"type" : "GET",
+		"data" : [
+			{"key" : "date", "value" : "20181105"},
+			{"key" : "oid", "value" : "138"}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_STATIC",
+	"crawling_delay" : 3,
+	"crawling_max_count" : -1,
+	"contents_save_type" : "DB",
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+
+	"scenario" : [
+        {
+			"depth" : 0,
+			"action" : [
+				{"selector" : "div.list_body > ul > li > a", "target_depth" : 4},
+				{"selector" : "#main_content > div.paging > a", "target_depth" : 3},
+				{"selector" : "#main_content > div.pagenavi_day > a:nth-child(3)", "target_depth" : 2},
+				{"selector" : "#main_content > div.pagenavi_day > a:nth-child(5)", "target_depth" : 1}
+			]
+		},
+		{
+			"depth" : 1,
+			"action" : [
+				{"selector" : "div.list_body > ul > li > a", "target_depth" : 4},
+				{"selector" : "#main_content > div.paging > a", "target_depth" : 3},
+				{"selector" : "#main_content > div.pagenavi_day > a:nth-child(7)", "target_depth" : 1}
+			]
+		},
+		{
+			"depth" : 2,
+			"action" : [
+				{"selector" : "div.list_body > ul > li > a", "target_depth" : 4},
+				{"selector" : "#main_content > div.paging > a", "target_depth" : 3}
+			]
+		},
+		{
+			"depth" : 3,
+			"action" : [
+				{"selector" : "div.list_body > ul > li > a", "target_depth" : 4}
+			]
+		}
+    ],
+	
+	"word_dictionary" : {
+		"dictionary_db" : {
+			"path" : "",
+			"id" : "",
+			"pw" : "",
+			"select_query" : ""
+		},
+		"collect_keyword" : [
+			"빅데이터", "IoT", "AI", "인공지능", "사물인터넷"
+		]
+	},
+
+	"collect_recode" : [
+		{
+			"depth" : 4,
+			"name" : "T_NAVER_NEWS2",
+			"column" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"data_type" : "varchar(200)",
+					"data_name" : "title",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#articleTitle", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "text",
+					"data_name" : "contents",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#articleBodyContents", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "varchar(100)",
+					"data_name" : "date",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#main_content > div.article_header > div.article_info > div > span", 
+						 	"type": "text"
+						}
+					]
+				}
+			]
+		}
+    ]
+    
+}

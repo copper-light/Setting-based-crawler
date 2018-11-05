@@ -63,15 +63,14 @@ public class JsoupScraper implements Scraper{
         // Map<String,String> cookies = mCOOKIE.get(urlInfo.getRootURL());
         // if(cookies != null) conn.cookies(cookies);
         conn.userAgent(Crawler.USER_AGENT_NAME);
-
-        if (work.getData() != null && work.getData().size() > 0) {
-            for (String key : work.getData().keySet()) {
-                if(key != null && !key.isEmpty()) {
-                    conn.data(key, work.getData().get(key));
+        if (work.getContentType() == Work.POST) {
+        	if (work.getData() != null && work.getData().size() > 0) {
+                for (String key : work.getData().keySet()) {
+                    if(key != null && !key.isEmpty()) {
+                        conn.data(key, work.getData().get(key));
+                    }
                 }
             }
-        }
-        if (work.getContentType() == Work.POST) {
             doc = conn.ignoreContentType(true).post();
         } else { // urlInfo.getType() == URLInfo.GET
             doc = conn.ignoreContentType(true).get();

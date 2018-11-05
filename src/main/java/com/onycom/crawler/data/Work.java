@@ -136,9 +136,9 @@ public class Work {
 			if(port != -1){
 				mDomainURL += (":" + port);
 			}
-			
 			if(path != null && !path.isEmpty() && !path.contentEquals("/")){
 				mSubUrl = path;
+				
 			}
 			
 			if(query!= null && !query.isEmpty()){
