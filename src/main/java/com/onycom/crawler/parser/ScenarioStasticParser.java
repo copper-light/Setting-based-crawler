@@ -25,7 +25,7 @@ public class ScenarioStasticParser extends StaticParser{
 		Scenario scen;
 		Action action;
 		String href, url, domain_url, sub_url;
-		String tmp[];
+		URL new_url;
 		boolean allow = false;
 		
 		if(super.ifLeaf(work)){
@@ -49,24 +49,28 @@ public class ScenarioStasticParser extends StaticParser{
 					if(els.size() > 0){
 						for(Element e : els){
 							href = e.attr("href").trim();
-							if(href.length() == 0) continue;
-							tmp = Util.SplitDomainAndSubURL(work, href);
-							URL new_url = Util.GetURL(work.toString(), href);
-							domain_url = Util.GetDomain(new_url);
-							sub_url = new_url.getPath() + ((new_url.getQuery()!=null)? "?" + new_url.getQuery() : "");
-							url = domain_url + sub_url;
-							
-							if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
-									getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
-								allow = super.isAllow(work, domain_url, sub_url);
-								if(allow) ret.add(new Work(url).setDepth(depth));
+							if(href.length() == 0) continue;	
+							//tmp = Util.SplitDomainAndSubURL(work, href);
+							new_url = Util.GetURL(work.toString(), href);
+							if(new_url != null){
+								domain_url = Util.GetDomain(new_url);
+								
+								sub_url = new_url.getPath() + ((new_url.getQuery()!=null)? "?" + new_url.getQuery() : "");
+								url = domain_url + sub_url;
+								
+								if(getConfig().getFilterAllow() != null && getConfig().getFilterAllow().size() > 0 &&
+										getConfig().getFilterDisallow() != null  && getConfig().getFilterDisallow().size() > 0){
+									allow = super.isAllow(work, domain_url, sub_url);
+									if(allow) ret.add(new Work(url, mConfig.CHARACTER_SET).setDepth(depth));
+								}else{
+									ret.add(new Work(url, mConfig.CHARACTER_SET).setDepth(depth));
+								}
 							}else{
-								ret.add(new Work(url)
-											.setDepth(depth));
+								work.result().addError(Work.Error.ERR_URL, "URL parse err : " + href, null);
 							}
 						}
 					}else{
-						work.result().addError(Work.Error.ERR_SCEN_ELEMENT, action.getSelector());
+						work.result().addError(Work.Error.ERR_SCEN_ELEMENT, action.getSelector(), null);
 					}
 				}
 			}

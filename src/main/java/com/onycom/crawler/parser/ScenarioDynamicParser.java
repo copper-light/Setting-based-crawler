@@ -75,7 +75,7 @@ public class ScenarioDynamicParser extends DefaultParser {
 			action = urlInfo.getAction();
 			for (int i = 0; i < els.size(); i++) {
 				el = els.get(i);
-				newUrlInfo = new Work(urlInfo.getURL());
+				newUrlInfo = new Work(urlInfo.getURL(), mConfig.CHARACTER_SET);
 				newUrlInfo.setDepth(urlInfo.getDepth());
 				newUrlInfo.setHighPriority(true);
 				newUrlInfo.setAction(
@@ -102,7 +102,7 @@ public class ScenarioDynamicParser extends DefaultParser {
 						target_depth = action.getTargetDepth(); /* 시나리오변경 */
 						selector = action.getSelector(); /* selector */
 						empty_selector = action.getEmptySelector();
-						newUrlInfo = new Work(urlInfo.getURL()).setDepth(target_depth);
+						newUrlInfo = new Work(urlInfo.getURL(), mConfig.CHARACTER_SET).setDepth(target_depth);
 						newUrlInfo.setHighPriority(true);
 						newUrlInfo.setAction(new Action(target_depth, selector, empty_selector, type, value));
 						ret.add(newUrlInfo);

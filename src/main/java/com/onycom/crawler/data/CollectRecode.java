@@ -65,8 +65,8 @@ public class CollectRecode {
 //		add(false, type, elements, data_type, data_name, allow_null, regex);
 //	}
 	
-	public void add(boolean key, String type, Column.Element[] elements, String data_type, String data_name, boolean allow_null, String[] regex){
-		Column col = new Column(type, elements, data_type, data_name);
+	public void add(boolean key, String type, Column.Element[] elements, String data_type, String data_name, boolean allow_null, String[] regex, String value){
+		Column col = new Column(type, elements, data_type, data_name, value);
 		col.setRegexFilter(regex);
 		col.setKey(key);
 		col.setAllowNull(allow_null);
@@ -98,15 +98,25 @@ public class CollectRecode {
 		Element[] elements;       /* 태그 selector 패턴 */
 		String data_type;      /* 저장될 데이터 타입 */
 		String data_name;      /* 저장될 데이터 이름 */
+		String value = null;
 		boolean key = false;
 		boolean allow_null = false;
 		String[] regex_filter;
 		
-		public Column(String type, Element[] elments, String data_type, String data_name){
+		public Column(String type, Element[] elments, String data_type, String data_name, String value){
 			this.elements = elments;
 			this.type = type;
 			this.data_type = data_type;
 			this.data_name = data_name;
+			this.value = value;
+		}
+		
+		public void setValue(String value){
+			this.value = value;
+		}
+		
+		public String getValue(){
+			return this.value;
 		}
 		
 		public void setKey(boolean key){

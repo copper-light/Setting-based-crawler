@@ -1,0 +1,73 @@
+2018-11-07 17:26:34 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 17:26:34 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 17:27:49 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=138&page=2
+2018-11-07 17:27:49 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:28:17 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002491062
+2018-11-07 17:28:17 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 17:28:17 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 17:28:17 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 17:28:17 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 17:29:17 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=2
+2018-11-07 17:29:17 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:20 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=3
+2018-11-07 17:29:20 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:23 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=4
+2018-11-07 17:29:23 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:26 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=5
+2018-11-07 17:29:26 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:29 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=6
+2018-11-07 17:29:29 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:32 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=7
+2018-11-07 17:29:32 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:35 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=8
+2018-11-07 17:29:35 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:29:38 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=9
+2018-11-07 17:29:38 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:30:50 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181106&mid=sec&oid=293
+2018-11-07 17:30:50 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 17:30:54 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181105&mid=sec&oid=293
+2018-11-07 17:30:54 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 17:31:58 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=2
+2018-11-07 17:31:58 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:02 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=3
+2018-11-07 17:32:02 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:05 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=4
+2018-11-07 17:32:05 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:08 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=5
+2018-11-07 17:32:08 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:11 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=6
+2018-11-07 17:32:11 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:14 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=031&page=7
+2018-11-07 17:32:14 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:32:33 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=030&aid=0002756502
+2018-11-07 17:32:33 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 17:32:33 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 17:32:33 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 17:32:33 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 17:32:33 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 17:32:52 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=030&aid=0002756496
+2018-11-07 17:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 17:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 17:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 17:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 17:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 17:33:32 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=2
+2018-11-07 17:33:32 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:35 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=3
+2018-11-07 17:33:35 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:38 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=4
+2018-11-07 17:33:38 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:41 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=5
+2018-11-07 17:33:41 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:44 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=6
+2018-11-07 17:33:44 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:47 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=7
+2018-11-07 17:33:47 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:50 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=8
+2018-11-07 17:33:50 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:54 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=9
+2018-11-07 17:33:54 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:33:57 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=10
+2018-11-07 17:33:57 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:34:00 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=030&page=11
+2018-11-07 17:34:00 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a

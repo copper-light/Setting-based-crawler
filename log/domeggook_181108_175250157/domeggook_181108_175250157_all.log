@@ -1,0 +1,77 @@
+2018-11-08 17:52:50 INFO  Crawler:222 - ============== Start Crawler =============
+2018-11-08 17:52:50 INFO  Crawler:223 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-08 17:52:50 INFO  Crawler:226 - CMD PARAM 00   : 김
+2018-11-08 17:52:50 INFO  Crawler:229 - CRAWLER NAME   : domeggook
+2018-11-08 17:52:50 INFO  Crawler:230 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-08 17:52:50 INFO  Crawler:231 - CRAWLER DELAY  : 1 sec
+2018-11-08 17:52:50 INFO  Crawler:232 - IGNORE ROBOTS  : true
+2018-11-08 17:52:50 INFO  Crawler:233 - LIMIT_COUNT    : 5
+2018-11-08 17:52:50 INFO  Crawler:234 - FILTER COUNT   : 0
+2018-11-08 17:52:50 INFO  Crawler:238 - SCENARIO COUNT : 2
+2018-11-08 17:52:50 INFO  Crawler:239 - COLLECT COUNT  : 1
+2018-11-08 17:52:50 INFO  Crawler:240 - SAVE TYPE      : DB
+2018-11-08 17:52:50 INFO  Crawler:241 - SAVE HTML      : true
+2018-11-08 17:52:50 INFO  Crawler:242 - ==========================================
+2018-11-08 17:53:00 INFO  Crawler:272 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-11-08 17:53:01 INFO  Crawler:272 - [Progress 2] save : 0, err : 0, remain_work : 51, total : 53
+2018-11-08 17:53:03 INFO  Crawler:272 - [Progress 3] save : 0, err : 0, remain_work : 53, total : 56
+2018-11-08 17:53:04 INFO  Crawler:272 - [Progress 4] save : 0, err : 0, remain_work : 52, total : 56
+2018-11-08 17:53:06 INFO  Crawler:272 - [Progress 5] save : 1, err : 0, remain_work : 51, total : 56
+2018-11-08 17:53:08 INFO  Crawler:272 - [Progress 6] save : 1, err : 0, remain_work : 50, total : 56
+2018-11-08 17:53:09 INFO  Crawler:272 - [Progress 7] save : 1, err : 0, remain_work : 52, total : 59
+2018-11-08 17:53:10 INFO  Crawler:272 - [Progress 8] save : 1, err : 0, remain_work : 51, total : 59
+2018-11-08 17:53:12 INFO  Crawler:272 - [Progress 9] save : 2, err : 0, remain_work : 50, total : 59
+2018-11-08 17:53:14 INFO  Crawler:272 - [Progress 10] save : 2, err : 0, remain_work : 49, total : 59
+2018-11-08 17:53:15 INFO  Crawler:272 - [Progress 11] save : 2, err : 0, remain_work : 51, total : 62
+2018-11-08 17:53:16 INFO  Crawler:272 - [Progress 12] save : 2, err : 0, remain_work : 50, total : 62
+2018-11-08 17:53:18 INFO  Crawler:272 - [Progress 13] save : 3, err : 0, remain_work : 49, total : 62
+2018-11-08 17:53:19 INFO  Crawler:272 - [Progress 14] save : 3, err : 0, remain_work : 48, total : 62
+2018-11-08 17:53:21 INFO  Crawler:272 - [Progress 15] save : 3, err : 0, remain_work : 50, total : 65
+2018-11-08 17:53:22 INFO  Crawler:272 - [Progress 16] save : 3, err : 0, remain_work : 49, total : 65
+2018-11-08 17:53:24 INFO  Crawler:272 - [Progress 17] save : 4, err : 0, remain_work : 48, total : 65
+2018-11-08 17:53:25 INFO  Crawler:272 - [Progress 18] save : 4, err : 0, remain_work : 47, total : 65
+2018-11-08 17:53:26 INFO  Crawler:272 - [Progress 19] save : 4, err : 0, remain_work : 49, total : 68
+2018-11-08 17:53:27 INFO  Crawler:272 - [Progress 20] save : 4, err : 0, remain_work : 48, total : 68
+2018-11-08 17:53:30 ERROR Crawler:264 - [ERR URL] http://domeggook.com/8125503?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 17:53:30 ERROR Crawler:267 - L ERR_WRITE : Contents write failed : Duplicate entry '8125503' for key 'PRIMARY'
+2018-11-08 17:53:30 INFO  Crawler:272 - [Progress 21] save : 4, err : 1, remain_work : 47, total : 68
+2018-11-08 17:53:30 INFO  Crawler:306 - ============== Finish Crawler =============
+2018-11-08 17:53:30 INFO  Crawler:307 - [total time] 00:00:39
+2018-11-08 17:53:30 INFO  Crawler:308 - [save contents] 4
+2018-11-08 17:53:30 INFO  Crawler:309 - [error work] 1
+2018-11-08 17:53:30 INFO  Crawler:310 - [remain work] 0
+2018-11-08 17:53:30 INFO  Crawler:311 - [total processed work] 21
+2018-11-08 17:53:30 INFO  Crawler:222 - ============== Start Crawler =============
+2018-11-08 17:53:30 INFO  Crawler:223 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-08 17:53:30 INFO  Crawler:226 - CMD PARAM 00   : 라면
+2018-11-08 17:53:30 INFO  Crawler:229 - CRAWLER NAME   : domeggook
+2018-11-08 17:53:30 INFO  Crawler:230 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-08 17:53:30 INFO  Crawler:231 - CRAWLER DELAY  : 1 sec
+2018-11-08 17:53:30 INFO  Crawler:232 - IGNORE ROBOTS  : true
+2018-11-08 17:53:30 INFO  Crawler:233 - LIMIT_COUNT    : 5
+2018-11-08 17:53:30 INFO  Crawler:234 - FILTER COUNT   : 0
+2018-11-08 17:53:30 INFO  Crawler:238 - SCENARIO COUNT : 2
+2018-11-08 17:53:30 INFO  Crawler:239 - COLLECT COUNT  : 1
+2018-11-08 17:53:30 INFO  Crawler:240 - SAVE TYPE      : DB
+2018-11-08 17:53:30 INFO  Crawler:241 - SAVE HTML      : true
+2018-11-08 17:53:30 INFO  Crawler:242 - ==========================================
+2018-11-08 17:53:30 ERROR Crawler:250 - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.setSize(RemoteWebDriver.java:801)
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:363)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:246)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:207)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:57)
+2018-11-08 17:53:30 INFO  Crawler:254 - ============== Terminate Crawler =============
+2018-11-08 17:53:30 ERROR Crawler:255 - Can't start Crawler. Initialization failed.

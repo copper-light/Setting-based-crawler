@@ -1,0 +1,112 @@
+2018-11-07 18:03:03 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 18:03:03 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 18:03:03 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 18:03:03 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 18:03:03 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 18:03:03 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 18:03:03 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 18:03:03 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 18:03:03 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 18:03:03 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 18:03:03 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 18:03:03 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 18:03:03 INFO  Crawler:236 - ==========================================
+2018-11-07 18:03:08 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 6, total : 7
+2018-11-07 18:03:11 INFO  Crawler:266 - [Progress 2] save : 0, err : 0, remain_work : 29, total : 31
+2018-11-07 18:03:14 INFO  Crawler:266 - [Progress 3] save : 0, err : 0, remain_work : 64, total : 67
+2018-11-07 18:03:17 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 18:03:17 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 18:03:17 INFO  Crawler:266 - [Progress 4] save : 0, err : 1, remain_work : 85, total : 89
+2018-11-07 18:03:20 INFO  Crawler:266 - [Progress 5] save : 0, err : 1, remain_work : 112, total : 117
+2018-11-07 18:03:23 INFO  Crawler:266 - [Progress 6] save : 0, err : 1, remain_work : 145, total : 151
+2018-11-07 18:03:26 INFO  Crawler:266 - [Progress 7] save : 0, err : 1, remain_work : 170, total : 177
+2018-11-07 18:03:29 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067127
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:29 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:29 INFO  Crawler:266 - [Progress 8] save : 0, err : 9, remain_work : 169, total : 177
+2018-11-07 18:03:32 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067126
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:32 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:32 INFO  Crawler:266 - [Progress 9] save : 0, err : 17, remain_work : 168, total : 177
+2018-11-07 18:03:36 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067125
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:36 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:36 INFO  Crawler:266 - [Progress 10] save : 0, err : 25, remain_work : 167, total : 177
+2018-11-07 18:03:39 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067124
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:39 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:39 INFO  Crawler:266 - [Progress 11] save : 0, err : 33, remain_work : 166, total : 177
+2018-11-07 18:03:42 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067123
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:42 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:42 INFO  Crawler:266 - [Progress 12] save : 0, err : 41, remain_work : 165, total : 177
+2018-11-07 18:03:45 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067122
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:45 INFO  Crawler:266 - [Progress 13] save : 0, err : 49, remain_work : 164, total : 177
+2018-11-07 18:03:48 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067121
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:48 INFO  Crawler:266 - [Progress 14] save : 0, err : 57, remain_work : 163, total : 177
+2018-11-07 18:03:51 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067120
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:51 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:51 INFO  Crawler:266 - [Progress 15] save : 0, err : 65, remain_work : 162, total : 177
+2018-11-07 18:03:54 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067119
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 18:03:54 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 18:03:54 INFO  Crawler:266 - [Progress 16] save : 0, err : 73, remain_work : 161, total : 177

@@ -35,7 +35,9 @@ public class Config {
 	public static final String DEAULT_HTML_FILE_PATH = "./html";
 
 	public static final String COLLECT_COLUMN_TYPE_URL = "URL";
+	public static final String COLLECT_COLUMN_TYPE_KEYWORD = "KEYWORD";
 	public static final String COLLECT_COLUMN_TYPE_DATETIME = "DATETIME";
+	public static final String COLLECT_COLUMN_TYPE_TEXT = "TEXT";
 	public static final String COLLECT_COLUMN_TYPE_ELEMENT = "ELEMENT";
 	
 	public static final String CONTENTS_TYPE_STRING = "string";
@@ -62,6 +64,8 @@ public class Config {
 	public String CRAWLING_FILE = "";
 	public Long CRAWLING_START_TIME;
 	public String CRAWLING_NAME_AND_TIME = "";
+	
+	public String CHARACTER_SET = "UTF-8";
 
 	public String SELENIUM_DRIVER_NAME = "phantomjs";
 	public String SELENIUM_DRIVER_PATH = "";
@@ -100,6 +104,7 @@ public class Config {
 	public static final String KEY_SELENIUM_DRIVER_NAME = "selenium_driver_name";
 	public static final String KEY_SELENIUM_DRIVER_PATH = "selenium_driver_path";
 	public static final String KEY_SELENIUM_HEADLESS = "selenium_headless";
+	public static final String KEY_CHARACTER_SET = "charset";
 	
 	public boolean setConfig(String config){
 		JSONObject root;
@@ -174,6 +179,10 @@ public class Config {
 		if(!root.isNull(KEY_SELENIUM_HEADLESS)){
 			SELENIUM_HEADLESS = root.getBoolean(KEY_SELENIUM_HEADLESS);
 		}
+		
+		if(!root.isNull(KEY_CHARACTER_SET)){
+			CHARACTER_SET = root.getString(KEY_CHARACTER_SET);
+		}
 //		
 //		if(!root.isNull(KEY_)){
 //			IGNORE_ROBOTS = root.getBoolean(KEY_IGNORE_ROBOTS);
@@ -201,7 +210,7 @@ public class Config {
 		 * */
 		try{
 			object = root.getJSONObject("seed");
-			mSeedInfo = new Work(object.getString("url"));
+			mSeedInfo = new Work(object.getString("url"), CHARACTER_SET);
 			mSeedInfo.setDepth(0); // 루트로 인식
 			if(object.isNull("type")) {
 				mSeedInfo.setContentType(Work.GET);
@@ -220,7 +229,7 @@ public class Config {
 					object = array.getJSONObject(i);
 					key = object.getString("key");
 					value = object.getString("value");
-					mSeedInfo.setData(key, value);
+					mSeedInfo.setData(key, value, CHARACTER_SET);
 				}
 			}
 		}catch(JSONException e){ // seed 파싱을 못할 경우 크롤링을 아예 진행하지 않도록
@@ -327,18 +336,19 @@ public class Config {
 								elements[k] = 
 										new CollectRecode.Column.Element(
 												jsonElement.isNull("selector")? "": jsonElement.getString("selector"), 
-												jsonElement.isNull("type")? "": jsonElement.getString("type"),
+												jsonElement.isNull("type")? "text": jsonElement.getString("type"), // element의 값 타입 attr or text
 												jsonElement.isNull("from_root")? false: jsonElement.getBoolean("from_root"));
 							}
 						}
 						
-						recode.add(col.isNull("key")? false : true,
-								   col.isNull("type")? "" : col.getString("type"),
+						recode.add(col.isNull("key")? false : col.getBoolean("key"),
+								   col.isNull("type")? COLLECT_COLUMN_TYPE_ELEMENT : col.getString("type"), // 수집 타입 time, url, element, keyword ...
 								   elements,
-								   col.isNull("data_type")? "" : col.getString("data_type"), 
+								   col.isNull("data_type")? "text" : col.getString("data_type"),  // 데이터 저장 타입
 								   col.isNull("data_name")? "" : col.getString("data_name"),
 								   col.isNull("allow_null")? false : col.getBoolean("allow_null"),
-								   regexs);
+								   regexs,
+								   col.isNull("value")? null : col.getString("value"));
 					}
 					mCollects.add(recode);
 				} catch (JSONException e) { 
@@ -388,20 +398,23 @@ public class Config {
 		
 		
 		try{
-			mDictionary = new Dictionary();
-			JSONObject jsonObjectDict = root.getJSONObject("word_dictionary");
-			// 단어사전 DB 정보가 있는가?
-			if(!jsonObjectDict.isNull("dictionary_db")){
+			if(!root.isNull("word_dictionary")){
+				mDictionary = new Dictionary();
 				
-			}
-			// 단어사전 키워드가 설정파일에 있는가?
-			// 목적 : 콘텐츠에 해당 키워드가 있는 데이터만 수집함
-			if(!jsonObjectDict.isNull("collect_keyword")){
-				array = jsonObjectDict.getJSONArray("collect_keyword");
-				for(int i = 0 ; i < array.length() ; i++){
-					mDictionary.addKeyword(array.getString(i));
+				JSONObject jsonObjectDict = root.getJSONObject("word_dictionary");
+				// 단어사전 DB 정보가 있는가?
+				if(!jsonObjectDict.isNull("dictionary_db")){
+					
 				}
-				
+				// 단어사전 키워드가 설정파일에 있는가?
+				// 목적 : 콘텐츠에 해당 키워드가 있는 데이터만 수집함
+				if(!jsonObjectDict.isNull("collect_keyword")){
+					array = jsonObjectDict.getJSONArray("collect_keyword");
+					for(int i = 0 ; i < array.length() ; i++){
+						mDictionary.addKeyword(array.getString(i));
+					}
+					
+				}
 			}
 		}catch(JSONException e){
 			System.err.println("Config err : Dictionary");

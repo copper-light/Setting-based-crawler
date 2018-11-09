@@ -1,0 +1,17 @@
+2018-11-08 17:56:54 ERROR WorkRunnable:82 - not found element Remote browser did not respond to getCurrentUrl
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 17:56:54 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 17:56:54 ERROR Crawler:269 - L ERR : not found element Remote browser did not respond to getCurrentUrl
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: RemoteWebDriver
+2018-11-08 17:56:55 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 17:56:55 ERROR Crawler:269 - L ERR_ACTION : html > :nth-child(2) > :nth-child(11) > :nth-child(1) > :nth-child(1) > :nth-child(11) > :nth-child(2) > :nth-child(2) > :nth-child(2) > :nth-child(2)

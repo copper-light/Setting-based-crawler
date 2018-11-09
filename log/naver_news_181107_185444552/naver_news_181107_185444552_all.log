@@ -1,0 +1,299 @@
+2018-11-07 18:54:44 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 18:54:44 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 18:54:44 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 18:54:44 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 18:54:44 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 18:54:44 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 18:54:44 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 18:54:44 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 18:54:44 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 18:54:44 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 18:54:44 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 18:54:44 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 18:54:44 INFO  Crawler:236 - ==========================================
+2018-11-07 18:54:49 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 6, total : 7
+2018-11-07 18:54:52 INFO  Crawler:266 - [Progress 2] save : 0, err : 0, remain_work : 29, total : 31
+2018-11-07 18:54:55 INFO  Crawler:266 - [Progress 3] save : 0, err : 0, remain_work : 65, total : 68
+2018-11-07 18:54:58 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 18:54:58 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 18:54:58 INFO  Crawler:266 - [Progress 4] save : 0, err : 1, remain_work : 86, total : 90
+2018-11-07 18:55:01 INFO  Crawler:266 - [Progress 5] save : 0, err : 1, remain_work : 113, total : 118
+2018-11-07 18:55:04 INFO  Crawler:266 - [Progress 6] save : 0, err : 1, remain_work : 146, total : 152
+2018-11-07 18:55:07 INFO  Crawler:266 - [Progress 7] save : 0, err : 1, remain_work : 172, total : 179
+2018-11-07 18:55:10 INFO  Crawler:266 - [Progress 8] save : 0, err : 1, remain_work : 171, total : 179
+2018-11-07 18:55:13 INFO  Crawler:266 - [Progress 9] save : 0, err : 1, remain_work : 170, total : 179
+2018-11-07 18:55:17 INFO  Crawler:266 - [Progress 10] save : 0, err : 1, remain_work : 169, total : 179
+2018-11-07 18:55:20 INFO  Crawler:266 - [Progress 11] save : 0, err : 1, remain_work : 168, total : 179
+2018-11-07 18:55:23 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067123
+2018-11-07 18:55:23 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067123' for key 'PRIMARY'
+2018-11-07 18:55:23 INFO  Crawler:266 - [Progress 12] save : 0, err : 2, remain_work : 167, total : 179
+2018-11-07 18:55:26 INFO  Crawler:266 - [Progress 13] save : 0, err : 2, remain_work : 166, total : 179
+2018-11-07 18:55:29 INFO  Crawler:266 - [Progress 14] save : 0, err : 2, remain_work : 165, total : 179
+2018-11-07 18:55:32 INFO  Crawler:266 - [Progress 15] save : 0, err : 2, remain_work : 164, total : 179
+2018-11-07 18:55:35 INFO  Crawler:266 - [Progress 16] save : 0, err : 2, remain_work : 163, total : 179
+2018-11-07 18:55:38 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067118
+2018-11-07 18:55:38 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067118' for key 'PRIMARY'
+2018-11-07 18:55:38 INFO  Crawler:266 - [Progress 17] save : 0, err : 3, remain_work : 162, total : 179
+2018-11-07 18:55:41 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067117
+2018-11-07 18:55:41 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067117' for key 'PRIMARY'
+2018-11-07 18:55:41 INFO  Crawler:266 - [Progress 18] save : 0, err : 4, remain_work : 161, total : 179
+2018-11-07 18:55:44 INFO  Crawler:266 - [Progress 19] save : 0, err : 4, remain_work : 160, total : 179
+2018-11-07 18:55:47 INFO  Crawler:266 - [Progress 20] save : 0, err : 4, remain_work : 159, total : 179
+2018-11-07 18:55:50 INFO  Crawler:266 - [Progress 21] save : 0, err : 4, remain_work : 158, total : 179
+2018-11-07 18:55:54 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067113
+2018-11-07 18:55:54 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067113' for key 'PRIMARY'
+2018-11-07 18:55:54 INFO  Crawler:266 - [Progress 22] save : 0, err : 5, remain_work : 157, total : 179
+2018-11-07 18:55:57 INFO  Crawler:266 - [Progress 23] save : 0, err : 5, remain_work : 156, total : 179
+2018-11-07 18:56:00 INFO  Crawler:266 - [Progress 24] save : 0, err : 5, remain_work : 155, total : 179
+2018-11-07 18:56:03 INFO  Crawler:266 - [Progress 25] save : 0, err : 5, remain_work : 154, total : 179
+2018-11-07 18:56:06 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067109
+2018-11-07 18:56:06 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067109' for key 'PRIMARY'
+2018-11-07 18:56:06 INFO  Crawler:266 - [Progress 26] save : 0, err : 6, remain_work : 153, total : 179
+2018-11-07 18:56:09 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067108
+2018-11-07 18:56:09 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067108' for key 'PRIMARY'
+2018-11-07 18:56:09 INFO  Crawler:266 - [Progress 27] save : 0, err : 7, remain_work : 152, total : 179
+2018-11-07 18:56:12 INFO  Crawler:266 - [Progress 28] save : 0, err : 7, remain_work : 171, total : 199
+2018-11-07 18:56:15 INFO  Crawler:266 - [Progress 29] save : 0, err : 7, remain_work : 172, total : 201
+2018-11-07 18:56:18 INFO  Crawler:266 - [Progress 30] save : 0, err : 7, remain_work : 193, total : 223
+2018-11-07 18:56:21 INFO  Crawler:266 - [Progress 31] save : 0, err : 7, remain_work : 214, total : 245
+2018-11-07 18:56:25 INFO  Crawler:266 - [Progress 32] save : 0, err : 7, remain_work : 213, total : 245
+2018-11-07 18:56:28 INFO  Crawler:266 - [Progress 33] save : 0, err : 7, remain_work : 212, total : 245
+2018-11-07 18:56:31 INFO  Crawler:266 - [Progress 34] save : 0, err : 7, remain_work : 211, total : 245
+2018-11-07 18:56:34 INFO  Crawler:266 - [Progress 35] save : 0, err : 7, remain_work : 210, total : 245
+2018-11-07 18:56:37 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002490780
+2018-11-07 18:56:37 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002490780' for key 'PRIMARY'
+2018-11-07 18:56:37 INFO  Crawler:266 - [Progress 36] save : 0, err : 8, remain_work : 209, total : 245
+2018-11-07 18:56:40 INFO  Crawler:266 - [Progress 37] save : 0, err : 8, remain_work : 208, total : 245
+2018-11-07 18:56:43 INFO  Crawler:266 - [Progress 38] save : 0, err : 8, remain_work : 207, total : 245
+2018-11-07 18:56:46 INFO  Crawler:266 - [Progress 39] save : 1, err : 8, remain_work : 206, total : 245
+2018-11-07 18:56:49 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002491128
+2018-11-07 18:56:49 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002491128' for key 'PRIMARY'
+2018-11-07 18:56:49 INFO  Crawler:266 - [Progress 40] save : 1, err : 9, remain_work : 205, total : 245
+2018-11-07 18:56:52 INFO  Crawler:266 - [Progress 41] save : 1, err : 9, remain_work : 204, total : 245
+2018-11-07 18:56:55 INFO  Crawler:266 - [Progress 42] save : 1, err : 9, remain_work : 203, total : 245
+2018-11-07 18:56:58 INFO  Crawler:266 - [Progress 43] save : 1, err : 9, remain_work : 202, total : 245
+2018-11-07 18:57:02 INFO  Crawler:266 - [Progress 44] save : 1, err : 9, remain_work : 201, total : 245
+2018-11-07 18:57:05 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002491123
+2018-11-07 18:57:05 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002491123' for key 'PRIMARY'
+2018-11-07 18:57:05 INFO  Crawler:266 - [Progress 45] save : 1, err : 10, remain_work : 200, total : 245
+2018-11-07 18:57:08 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002491122
+2018-11-07 18:57:08 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002491122' for key 'PRIMARY'
+2018-11-07 18:57:08 INFO  Crawler:266 - [Progress 46] save : 1, err : 11, remain_work : 199, total : 245
+2018-11-07 18:57:11 INFO  Crawler:266 - [Progress 47] save : 1, err : 11, remain_work : 198, total : 245
+2018-11-07 18:57:14 INFO  Crawler:266 - [Progress 48] save : 1, err : 11, remain_work : 197, total : 245
+2018-11-07 18:57:17 INFO  Crawler:266 - [Progress 49] save : 1, err : 11, remain_work : 196, total : 245
+2018-11-07 18:57:20 INFO  Crawler:266 - [Progress 50] save : 1, err : 11, remain_work : 195, total : 245
+2018-11-07 18:57:23 INFO  Crawler:266 - [Progress 51] save : 1, err : 11, remain_work : 194, total : 245
+2018-11-07 18:57:26 INFO  Crawler:266 - [Progress 52] save : 1, err : 11, remain_work : 193, total : 245
+2018-11-07 18:57:29 INFO  Crawler:266 - [Progress 53] save : 1, err : 11, remain_work : 192, total : 245
+2018-11-07 18:57:32 INFO  Crawler:266 - [Progress 54] save : 1, err : 11, remain_work : 191, total : 245
+2018-11-07 18:57:36 INFO  Crawler:266 - [Progress 55] save : 1, err : 11, remain_work : 190, total : 245
+2018-11-07 18:57:39 INFO  Crawler:266 - [Progress 56] save : 1, err : 11, remain_work : 189, total : 245
+2018-11-07 18:57:42 INFO  Crawler:266 - [Progress 57] save : 1, err : 11, remain_work : 208, total : 265
+2018-11-07 18:57:45 INFO  Crawler:266 - [Progress 58] save : 1, err : 11, remain_work : 227, total : 285
+2018-11-07 18:57:48 INFO  Crawler:266 - [Progress 59] save : 1, err : 11, remain_work : 246, total : 305
+2018-11-07 18:57:51 INFO  Crawler:266 - [Progress 60] save : 1, err : 11, remain_work : 265, total : 325
+2018-11-07 18:57:54 INFO  Crawler:266 - [Progress 61] save : 1, err : 11, remain_work : 284, total : 345
+2018-11-07 18:57:57 INFO  Crawler:266 - [Progress 62] save : 1, err : 11, remain_work : 303, total : 365
+2018-11-07 18:58:00 INFO  Crawler:266 - [Progress 63] save : 1, err : 11, remain_work : 322, total : 385
+2018-11-07 18:58:03 INFO  Crawler:266 - [Progress 64] save : 1, err : 11, remain_work : 341, total : 405
+2018-11-07 18:58:06 INFO  Crawler:266 - [Progress 65] save : 1, err : 11, remain_work : 360, total : 425
+2018-11-07 18:58:09 INFO  Crawler:266 - [Progress 66] save : 1, err : 11, remain_work : 379, total : 445
+2018-11-07 18:58:12 INFO  Crawler:266 - [Progress 67] save : 1, err : 11, remain_work : 412, total : 479
+2018-11-07 18:58:15 INFO  Crawler:266 - [Progress 68] save : 1, err : 11, remain_work : 446, total : 514
+2018-11-07 18:58:19 INFO  Crawler:266 - [Progress 69] save : 1, err : 11, remain_work : 445, total : 514
+2018-11-07 18:58:22 INFO  Crawler:266 - [Progress 70] save : 1, err : 11, remain_work : 444, total : 514
+2018-11-07 18:58:25 INFO  Crawler:266 - [Progress 71] save : 1, err : 11, remain_work : 443, total : 514
+2018-11-07 18:58:28 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023084
+2018-11-07 18:58:28 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023084' for key 'PRIMARY'
+2018-11-07 18:58:28 INFO  Crawler:266 - [Progress 72] save : 1, err : 12, remain_work : 442, total : 514
+2018-11-07 18:58:31 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023083
+2018-11-07 18:58:31 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023083' for key 'PRIMARY'
+2018-11-07 18:58:31 INFO  Crawler:266 - [Progress 73] save : 1, err : 13, remain_work : 441, total : 514
+2018-11-07 18:58:34 INFO  Crawler:266 - [Progress 74] save : 1, err : 13, remain_work : 440, total : 514
+2018-11-07 18:58:37 INFO  Crawler:266 - [Progress 75] save : 1, err : 13, remain_work : 439, total : 514
+2018-11-07 18:58:40 INFO  Crawler:266 - [Progress 76] save : 1, err : 13, remain_work : 438, total : 514
+2018-11-07 18:58:43 INFO  Crawler:266 - [Progress 77] save : 1, err : 13, remain_work : 437, total : 514
+2018-11-07 18:58:46 INFO  Crawler:266 - [Progress 78] save : 1, err : 13, remain_work : 436, total : 514
+2018-11-07 18:58:49 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023077
+2018-11-07 18:58:49 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023077' for key 'PRIMARY'
+2018-11-07 18:58:49 INFO  Crawler:266 - [Progress 79] save : 1, err : 14, remain_work : 435, total : 514
+2018-11-07 18:58:52 INFO  Crawler:266 - [Progress 80] save : 1, err : 14, remain_work : 434, total : 514
+2018-11-07 18:58:56 INFO  Crawler:266 - [Progress 81] save : 1, err : 14, remain_work : 433, total : 514
+2018-11-07 18:58:59 INFO  Crawler:266 - [Progress 82] save : 1, err : 14, remain_work : 432, total : 514
+2018-11-07 18:59:02 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023073
+2018-11-07 18:59:02 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023073' for key 'PRIMARY'
+2018-11-07 18:59:02 INFO  Crawler:266 - [Progress 83] save : 1, err : 15, remain_work : 431, total : 514
+2018-11-07 18:59:05 INFO  Crawler:266 - [Progress 84] save : 1, err : 15, remain_work : 430, total : 514
+2018-11-07 18:59:08 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023071
+2018-11-07 18:59:08 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023071' for key 'PRIMARY'
+2018-11-07 18:59:08 INFO  Crawler:266 - [Progress 85] save : 1, err : 16, remain_work : 429, total : 514
+2018-11-07 18:59:11 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023070
+2018-11-07 18:59:11 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023070' for key 'PRIMARY'
+2018-11-07 18:59:11 INFO  Crawler:266 - [Progress 86] save : 1, err : 17, remain_work : 428, total : 514
+2018-11-07 18:59:14 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=293&aid=0000023069
+2018-11-07 18:59:14 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000023069' for key 'PRIMARY'
+2018-11-07 18:59:14 INFO  Crawler:266 - [Progress 87] save : 1, err : 18, remain_work : 427, total : 514
+2018-11-07 18:59:17 INFO  Crawler:266 - [Progress 88] save : 1, err : 18, remain_work : 426, total : 514
+2018-11-07 18:59:20 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181106&mid=sec&oid=293
+2018-11-07 18:59:20 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 18:59:20 INFO  Crawler:266 - [Progress 89] save : 1, err : 19, remain_work : 445, total : 534
+2018-11-07 18:59:23 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181105&mid=sec&oid=293
+2018-11-07 18:59:23 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 18:59:23 INFO  Crawler:266 - [Progress 90] save : 1, err : 20, remain_work : 465, total : 555
+2018-11-07 18:59:26 INFO  Crawler:266 - [Progress 91] save : 1, err : 20, remain_work : 464, total : 555
+2018-11-07 18:59:29 INFO  Crawler:266 - [Progress 92] save : 1, err : 20, remain_work : 463, total : 555
+2018-11-07 18:59:33 INFO  Crawler:266 - [Progress 93] save : 1, err : 20, remain_work : 462, total : 555
+2018-11-07 18:59:36 INFO  Crawler:266 - [Progress 94] save : 1, err : 20, remain_work : 461, total : 555
+2018-11-07 18:59:39 INFO  Crawler:266 - [Progress 95] save : 1, err : 20, remain_work : 460, total : 555
+2018-11-07 18:59:42 INFO  Crawler:266 - [Progress 96] save : 1, err : 20, remain_work : 459, total : 555
+2018-11-07 18:59:45 INFO  Crawler:266 - [Progress 97] save : 1, err : 20, remain_work : 458, total : 555
+2018-11-07 18:59:48 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=031&aid=0000471510
+2018-11-07 18:59:48 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000471510' for key 'PRIMARY'
+2018-11-07 18:59:48 INFO  Crawler:266 - [Progress 98] save : 1, err : 21, remain_work : 457, total : 555
+2018-11-07 18:59:51 INFO  Crawler:266 - [Progress 99] save : 1, err : 21, remain_work : 456, total : 555
+2018-11-07 18:59:54 INFO  Crawler:266 - [Progress 100] save : 1, err : 21, remain_work : 455, total : 555
+2018-11-07 18:59:57 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=031&aid=0000471507
+2018-11-07 18:59:57 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000471507' for key 'PRIMARY'
+2018-11-07 18:59:57 INFO  Crawler:266 - [Progress 101] save : 1, err : 22, remain_work : 454, total : 555
+2018-11-07 19:00:01 INFO  Crawler:266 - [Progress 102] save : 1, err : 22, remain_work : 453, total : 555
+2018-11-07 19:00:04 INFO  Crawler:266 - [Progress 103] save : 1, err : 22, remain_work : 452, total : 555
+2018-11-07 19:00:07 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=031&aid=0000471504
+2018-11-07 19:00:07 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0000471504' for key 'PRIMARY'
+2018-11-07 19:00:07 INFO  Crawler:266 - [Progress 104] save : 1, err : 23, remain_work : 451, total : 555
+2018-11-07 19:00:10 INFO  Crawler:266 - [Progress 105] save : 1, err : 23, remain_work : 450, total : 555
+2018-11-07 19:00:13 INFO  Crawler:266 - [Progress 106] save : 1, err : 23, remain_work : 449, total : 555
+2018-11-07 19:00:16 INFO  Crawler:266 - [Progress 107] save : 1, err : 23, remain_work : 448, total : 555
+2018-11-07 19:00:19 INFO  Crawler:266 - [Progress 108] save : 1, err : 23, remain_work : 447, total : 555
+2018-11-07 19:00:22 INFO  Crawler:266 - [Progress 109] save : 1, err : 23, remain_work : 446, total : 555
+2018-11-07 19:00:25 INFO  Crawler:266 - [Progress 110] save : 1, err : 23, remain_work : 445, total : 555
+2018-11-07 19:00:28 INFO  Crawler:266 - [Progress 111] save : 1, err : 23, remain_work : 464, total : 575
+2018-11-07 19:00:31 INFO  Crawler:266 - [Progress 112] save : 1, err : 23, remain_work : 483, total : 595
+2018-11-07 19:00:34 INFO  Crawler:266 - [Progress 113] save : 1, err : 23, remain_work : 502, total : 615
+2018-11-07 19:00:38 INFO  Crawler:266 - [Progress 114] save : 1, err : 23, remain_work : 521, total : 635
+2018-11-07 19:00:41 INFO  Crawler:266 - [Progress 115] save : 1, err : 23, remain_work : 540, total : 655
+2018-11-07 19:00:44 INFO  Crawler:266 - [Progress 116] save : 1, err : 23, remain_work : 556, total : 672
+2018-11-07 19:00:47 INFO  Crawler:266 - [Progress 117] save : 1, err : 23, remain_work : 582, total : 699
+2018-11-07 19:00:50 INFO  Crawler:266 - [Progress 118] save : 1, err : 23, remain_work : 608, total : 726
+2018-11-07 19:00:53 INFO  Crawler:266 - [Progress 119] save : 1, err : 23, remain_work : 607, total : 726
+2018-11-07 19:00:56 INFO  Crawler:266 - [Progress 120] save : 1, err : 23, remain_work : 606, total : 726
+2018-11-07 19:00:59 INFO  Crawler:266 - [Progress 121] save : 1, err : 23, remain_work : 605, total : 726
+2018-11-07 19:01:02 INFO  Crawler:266 - [Progress 122] save : 1, err : 23, remain_work : 604, total : 726
+2018-11-07 19:01:05 INFO  Crawler:266 - [Progress 123] save : 1, err : 23, remain_work : 603, total : 726
+2018-11-07 19:01:08 INFO  Crawler:266 - [Progress 124] save : 1, err : 23, remain_work : 602, total : 726
+2018-11-07 19:01:11 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=030&aid=0002756514
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 19:01:11 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 19:01:11 INFO  Crawler:266 - [Progress 125] save : 1, err : 31, remain_work : 601, total : 726
+2018-11-07 19:01:15 INFO  Crawler:266 - [Progress 126] save : 1, err : 31, remain_work : 600, total : 726
+2018-11-07 19:01:18 INFO  Crawler:266 - [Progress 127] save : 1, err : 31, remain_work : 599, total : 726
+2018-11-07 19:01:21 INFO  Crawler:266 - [Progress 128] save : 1, err : 31, remain_work : 598, total : 726
+2018-11-07 19:01:24 INFO  Crawler:266 - [Progress 129] save : 1, err : 31, remain_work : 597, total : 726
+2018-11-07 19:01:27 INFO  Crawler:266 - [Progress 130] save : 1, err : 31, remain_work : 596, total : 726
+2018-11-07 19:01:30 INFO  Crawler:266 - [Progress 131] save : 1, err : 31, remain_work : 595, total : 726
+2018-11-07 19:01:33 INFO  Crawler:266 - [Progress 132] save : 1, err : 31, remain_work : 594, total : 726
+2018-11-07 19:01:36 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=030&aid=0002756506
+2018-11-07 19:01:36 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002756506' for key 'PRIMARY'
+2018-11-07 19:01:36 INFO  Crawler:266 - [Progress 133] save : 1, err : 32, remain_work : 593, total : 726
+2018-11-07 19:01:39 INFO  Crawler:266 - [Progress 134] save : 1, err : 32, remain_work : 592, total : 726
+2018-11-07 19:01:42 INFO  Crawler:266 - [Progress 135] save : 1, err : 32, remain_work : 591, total : 726
+2018-11-07 19:01:45 INFO  Crawler:266 - [Progress 136] save : 1, err : 32, remain_work : 590, total : 726
+2018-11-07 19:01:48 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=030&aid=0002756502
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : id, head > meta:nth-child(12), attr
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #articleTitle, text
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : title, #content > div > div.content > div > div.news_headline > h4, text
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #articleBodyContents, text
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : contents, #newsEndContents, text
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #main_content > div.article_header > div.article_info > div > span, text
+2018-11-07 19:01:48 ERROR Crawler:261 - L ERR_CONTENTS_COL : date, #content > div > div.content > div > div.news_headline > div > span:nth-child(1), text
+2018-11-07 19:01:48 INFO  Crawler:266 - [Progress 137] save : 1, err : 40, remain_work : 589, total : 726
+2018-11-07 19:01:52 INFO  Crawler:266 - [Progress 138] save : 1, err : 40, remain_work : 588, total : 726
+2018-11-07 19:01:55 INFO  Crawler:266 - [Progress 139] save : 1, err : 40, remain_work : 587, total : 726
+2018-11-07 19:01:58 INFO  Crawler:266 - [Progress 140] save : 1, err : 40, remain_work : 586, total : 726
+2018-11-07 19:02:01 INFO  Crawler:266 - [Progress 141] save : 1, err : 40, remain_work : 605, total : 746
+2018-11-07 19:02:04 INFO  Crawler:266 - [Progress 142] save : 1, err : 40, remain_work : 624, total : 766
+2018-11-07 19:02:07 INFO  Crawler:266 - [Progress 143] save : 1, err : 40, remain_work : 643, total : 786
+2018-11-07 19:02:10 INFO  Crawler:266 - [Progress 144] save : 1, err : 40, remain_work : 662, total : 806
+2018-11-07 19:02:13 INFO  Crawler:266 - [Progress 145] save : 1, err : 40, remain_work : 681, total : 826
+2018-11-07 19:02:16 INFO  Crawler:266 - [Progress 146] save : 1, err : 40, remain_work : 700, total : 846
+2018-11-07 19:02:19 INFO  Crawler:266 - [Progress 147] save : 1, err : 40, remain_work : 719, total : 866
+2018-11-07 19:02:22 INFO  Crawler:266 - [Progress 148] save : 1, err : 40, remain_work : 738, total : 886
+2018-11-07 19:02:25 INFO  Crawler:266 - [Progress 149] save : 1, err : 40, remain_work : 757, total : 906
+2018-11-07 19:02:29 INFO  Crawler:266 - [Progress 150] save : 1, err : 40, remain_work : 776, total : 926
+2018-11-07 19:02:32 INFO  Crawler:266 - [Progress 151] save : 1, err : 40, remain_work : 809, total : 960
+2018-11-07 19:02:35 INFO  Crawler:266 - [Progress 152] save : 1, err : 40, remain_work : 842, total : 994
+2018-11-07 19:02:38 INFO  Crawler:266 - [Progress 153] save : 1, err : 40, remain_work : 841, total : 994
+2018-11-07 19:02:41 INFO  Crawler:266 - [Progress 154] save : 1, err : 40, remain_work : 840, total : 994
+2018-11-07 19:02:44 INFO  Crawler:266 - [Progress 155] save : 1, err : 40, remain_work : 839, total : 994
+2018-11-07 19:02:47 INFO  Crawler:266 - [Progress 156] save : 1, err : 40, remain_work : 838, total : 994
+2018-11-07 19:02:50 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=092&aid=0002149747
+2018-11-07 19:02:50 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002149747' for key 'PRIMARY'
+2018-11-07 19:02:50 INFO  Crawler:266 - [Progress 157] save : 1, err : 41, remain_work : 837, total : 994
+2018-11-07 19:02:53 INFO  Crawler:266 - [Progress 158] save : 1, err : 41, remain_work : 836, total : 994
+2018-11-07 19:02:56 INFO  Crawler:266 - [Progress 159] save : 1, err : 41, remain_work : 835, total : 994
+2018-11-07 19:02:59 INFO  Crawler:266 - [Progress 160] save : 1, err : 41, remain_work : 834, total : 994
+2018-11-07 19:03:02 INFO  Crawler:266 - [Progress 161] save : 1, err : 41, remain_work : 833, total : 994
+2018-11-07 19:03:05 INFO  Crawler:266 - [Progress 162] save : 1, err : 41, remain_work : 832, total : 994
+2018-11-07 19:03:09 INFO  Crawler:266 - [Progress 163] save : 1, err : 41, remain_work : 831, total : 994
+2018-11-07 19:03:12 INFO  Crawler:266 - [Progress 164] save : 1, err : 41, remain_work : 830, total : 994
+2018-11-07 19:03:15 INFO  Crawler:266 - [Progress 165] save : 1, err : 41, remain_work : 829, total : 994
+2018-11-07 19:03:18 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=092&aid=0002149738
+2018-11-07 19:03:18 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002149738' for key 'PRIMARY'
+2018-11-07 19:03:18 INFO  Crawler:266 - [Progress 166] save : 1, err : 42, remain_work : 828, total : 994
+2018-11-07 19:03:21 INFO  Crawler:266 - [Progress 167] save : 1, err : 42, remain_work : 827, total : 994
+2018-11-07 19:03:24 INFO  Crawler:266 - [Progress 168] save : 1, err : 42, remain_work : 826, total : 994
+2018-11-07 19:03:27 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=092&aid=0002149735
+2018-11-07 19:03:27 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002149735' for key 'PRIMARY'
+2018-11-07 19:03:27 INFO  Crawler:266 - [Progress 169] save : 1, err : 43, remain_work : 825, total : 994
+2018-11-07 19:03:30 INFO  Crawler:266 - [Progress 170] save : 1, err : 43, remain_work : 824, total : 994
+2018-11-07 19:03:33 INFO  Crawler:266 - [Progress 171] save : 1, err : 43, remain_work : 823, total : 994
+2018-11-07 19:03:36 INFO  Crawler:266 - [Progress 172] save : 1, err : 43, remain_work : 822, total : 994
+2018-11-07 19:03:39 INFO  Crawler:266 - [Progress 173] save : 1, err : 43, remain_work : 841, total : 1014
+2018-11-07 19:03:42 INFO  Crawler:266 - [Progress 174] save : 1, err : 43, remain_work : 860, total : 1034
+2018-11-07 19:03:46 INFO  Crawler:266 - [Progress 175] save : 1, err : 43, remain_work : 879, total : 1054
+2018-11-07 19:03:49 INFO  Crawler:266 - [Progress 176] save : 1, err : 43, remain_work : 898, total : 1074
+2018-11-07 19:03:52 INFO  Crawler:266 - [Progress 177] save : 1, err : 43, remain_work : 898, total : 1075
+2018-11-07 19:03:55 INFO  Crawler:266 - [Progress 178] save : 1, err : 43, remain_work : 921, total : 1099
+2018-11-07 19:03:58 INFO  Crawler:266 - [Progress 179] save : 1, err : 43, remain_work : 946, total : 1125
+2018-11-07 19:04:01 INFO  Crawler:266 - [Progress 180] save : 2, err : 43, remain_work : 945, total : 1125
+2018-11-07 19:04:04 INFO  Crawler:266 - [Progress 181] save : 3, err : 43, remain_work : 944, total : 1125
+2018-11-07 19:04:07 INFO  Crawler:266 - [Progress 182] save : 3, err : 43, remain_work : 943, total : 1125
+2018-11-07 19:04:10 INFO  Crawler:266 - [Progress 183] save : 4, err : 43, remain_work : 942, total : 1125
+2018-11-07 19:04:13 INFO  Crawler:266 - [Progress 184] save : 4, err : 43, remain_work : 941, total : 1125
+2018-11-07 19:04:16 INFO  Crawler:266 - [Progress 185] save : 5, err : 43, remain_work : 940, total : 1125
+2018-11-07 19:04:19 INFO  Crawler:266 - [Progress 186] save : 5, err : 43, remain_work : 939, total : 1125
+2018-11-07 19:04:22 INFO  Crawler:266 - [Progress 187] save : 5, err : 43, remain_work : 938, total : 1125
+2018-11-07 19:04:26 INFO  Crawler:266 - [Progress 188] save : 6, err : 43, remain_work : 937, total : 1125
+2018-11-07 19:04:29 INFO  Crawler:266 - [Progress 189] save : 6, err : 43, remain_work : 936, total : 1125
+2018-11-07 19:04:32 INFO  Crawler:266 - [Progress 190] save : 7, err : 43, remain_work : 935, total : 1125
+2018-11-07 19:04:35 INFO  Crawler:266 - [Progress 191] save : 7, err : 43, remain_work : 934, total : 1125
+2018-11-07 19:04:38 INFO  Crawler:266 - [Progress 192] save : 7, err : 43, remain_work : 933, total : 1125
+2018-11-07 19:04:41 INFO  Crawler:266 - [Progress 193] save : 7, err : 43, remain_work : 932, total : 1125
+2018-11-07 19:04:44 INFO  Crawler:266 - [Progress 194] save : 7, err : 43, remain_work : 931, total : 1125
+2018-11-07 19:04:47 INFO  Crawler:266 - [Progress 195] save : 8, err : 43, remain_work : 930, total : 1125
+2018-11-07 19:04:50 INFO  Crawler:266 - [Progress 196] save : 9, err : 43, remain_work : 929, total : 1125
+2018-11-07 19:04:53 INFO  Crawler:266 - [Progress 197] save : 9, err : 43, remain_work : 928, total : 1125
+2018-11-07 19:04:56 INFO  Crawler:266 - [Progress 198] save : 10, err : 43, remain_work : 927, total : 1125
+2018-11-07 19:04:59 INFO  Crawler:266 - [Progress 199] save : 11, err : 43, remain_work : 926, total : 1125
+2018-11-07 19:05:03 INFO  Crawler:266 - [Progress 200] save : 12, err : 43, remain_work : 925, total : 1125
+2018-11-07 19:05:06 INFO  Crawler:266 - [Progress 201] save : 12, err : 43, remain_work : 924, total : 1125
+2018-11-07 19:05:09 INFO  Crawler:266 - [Progress 202] save : 12, err : 43, remain_work : 923, total : 1125
+2018-11-07 19:05:12 INFO  Crawler:266 - [Progress 203] save : 12, err : 43, remain_work : 922, total : 1125
+2018-11-07 19:05:15 INFO  Crawler:266 - [Progress 204] save : 12, err : 43, remain_work : 921, total : 1125
+2018-11-07 19:05:18 INFO  Crawler:266 - [Progress 205] save : 12, err : 43, remain_work : 920, total : 1125
+2018-11-07 19:05:21 INFO  Crawler:266 - [Progress 206] save : 12, err : 43, remain_work : 919, total : 1125
+2018-11-07 19:05:24 INFO  Crawler:266 - [Progress 207] save : 12, err : 43, remain_work : 918, total : 1125
+2018-11-07 19:05:27 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=138&aid=0002067079
+2018-11-07 19:05:27 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry 'aid=0002067079' for key 'PRIMARY'
+2018-11-07 19:05:27 INFO  Crawler:266 - [Progress 208] save : 12, err : 44, remain_work : 917, total : 1125
+2018-11-07 19:05:30 INFO  Crawler:266 - [Progress 209] save : 12, err : 44, remain_work : 916, total : 1125
+2018-11-07 19:05:33 INFO  Crawler:266 - [Progress 210] save : 12, err : 44, remain_work : 915, total : 1125
+2018-11-07 19:05:36 INFO  Crawler:266 - [Progress 211] save : 12, err : 44, remain_work : 914, total : 1125
+2018-11-07 19:05:39 INFO  Crawler:266 - [Progress 212] save : 12, err : 44, remain_work : 913, total : 1125

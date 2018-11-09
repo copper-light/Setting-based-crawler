@@ -142,7 +142,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 		Dictionary dict = mConfig.getDictionary();
 		HashMap<String, Boolean> mapKeyword = null;
 		
-		if(dict.hasDict()){
+		if(dict!= null && dict.hasDict()){
 			mapKeyword = new HashMap<String, Boolean>();
 			for(int i = 0 ; i < dict.getKeyWordList().size() ; i ++){
 				mapKeyword.put(dict.getKeyWordList().get(i), false);
@@ -153,6 +153,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 		Matcher matcher;
 		boolean isParsingDocument = false;
 		boolean inDict = false;
+		CollectRecode.Column keywordColumn = null;
 		for(CollectRecode recode : aryRecode){
 			//mLogger.debug("[Visiting page] " + document.title() + " @ " + work.getURL());
 			aryContents = null;
@@ -178,7 +179,9 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 								value = currentURL;
 							}else if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_DATETIME)){
 								value = currentDateTime;
-							}else{ //if(c.getType().equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_TAG))
+							}else if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_TEXT)){
+								value = collectCol.getValue();
+							}else if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_ELEMENT)){
 								if(collectCol.getElements() != null && collectCol.getElements().length > 0){
 									/* Column 찾는 selector 가 여러개 일 때, 가장 먼저 나오는 것만 파싱*/
 									for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
@@ -209,7 +212,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 										}
 										/* 데이터를 찾았으면 중단 */
 										if(value != null){
-											if(dict.hasDict()){
+											if(dict != null && dict.hasDict()){
 												checkInDict(mapKeyword, value);
 											}
 											
@@ -235,6 +238,9 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 										
 									}
 								}
+							}else if(type.equalsIgnoreCase(Config.COLLECT_COLUMN_TYPE_KEYWORD)){
+								keywordColumn = collectCol;
+								continue;
 							}
 							if(value != null){
 								contents.add(data_name, data_type, value);
@@ -247,7 +253,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 									if(!collectCol.isAllowNull()){
 										//mLogger.error("[ERR : Not found element] " + collectCol.getDataName()); 
 										for(CollectRecode.Column.Element collectElement : collectCol.getElements()){
-											work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType());
+											work.result().addError(Work.Error.ERR_CONTENTS_COL, collectCol.getDataName() +", " +collectElement.getSelector() +", " + collectElement.getType(), null);
 											//mLogger.error("-> " + collectElement.getSelector() +" @ " + collectElement.getType());
 										}
 									}
@@ -255,10 +261,13 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 							}
 						}
 						if(contents.size() > 0){
-							if(dict.hasDict()){
+							if(dict != null &&  dict.hasDict()){
 								String strDicts = dictToString(mapKeyword);
 								if(strDicts != null){
 									System.out.println("[Dict] " + strDicts);
+									if(keywordColumn != null){
+										contents.add(keywordColumn.getDataName(), keywordColumn.getType(), strDicts);
+									}
 									aryContents.add(contents);
 								}
 							}else{
@@ -270,7 +279,6 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 			}
 			
 			if(getConfig().SAVE_HTML && isParsingDocument){
-				
 				File f = new File(Config.DEAULT_HTML_FILE_PATH+"/"+ mConfig.CRAWLING_NAME_AND_TIME);
 				if(!f.exists()){
 					f.mkdirs();
@@ -278,7 +286,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 				String strTime = new SimpleDateFormat(Config.DATETIME_FORMAT).format(new Date(System.currentTimeMillis()));
 				strTime = f.getPath()+"/"+ mConfig.CRAWLING_NAME+"_"+strTime+".html";
 				if(!Util.WriteFile(strTime, document.html())){
-					work.result().addError(Work.Error.ERR, "Can't save the html file.");
+					work.result().addError(Work.Error.ERR, "Can't save the html file.", null);
 				}
 			}
 		}
@@ -301,7 +309,7 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 					try {
 						idx += Crawler.Writer.write(contents);
 					} catch(Exception e){
-						urlInfo.result().addError(Work.Error.ERR_WRITE, "Contents write failed : " + e.getMessage());
+						urlInfo.result().addError(Work.Error.ERR_WRITE, "Contents write failed : " + e.getMessage(), e);
 					}
 				}
 			}
@@ -309,6 +317,10 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 		return idx;
 	}
 	
+	/**
+	 * 추출된 데이터 안에 단어사전 키워드가 있는지 검색
+	 * 구현 발단은 검색어를 사용하지 못하고 실제 데이터에서 찾아봐야할때 사용
+	 * */
 	private boolean checkInDict(Map<String, Boolean> mapDict, String data){
 		if(mapDict == null) return false;
 		boolean ret = false, ok = false;
@@ -322,12 +334,16 @@ public abstract class DefaultParser implements Parser<Work, Contents> {
 				int idx = data.toLowerCase().indexOf(e.getKey().toLowerCase());
 				if(idx != -1){
 					ok = true;
+
+					// 영어 단어 검색시 유효한 단어 검색을 위해서 키워드 앞,뒤자리 단어가 같은 유형의 언어면 검색에서 제외함
+					// ex) daily 에서 ai 를 검색하지 "않기" 위해 
 					if(idx > 0){
 						c = data.charAt(idx-1);
 						k = e.getKey().charAt(0);
 						
 						// data.charAt(idx-1) key의 첫글자 한글이면 한글이 아닐때  ok
 						// data.charAt(idx-1) key의 첫글자 영어면 영어이 아닐때  ok	
+
 						if(Util.CheckEng(k)){
 							if(Util.CheckEng(c)){
 								ok = false; 

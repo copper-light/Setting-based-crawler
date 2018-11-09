@@ -1,0 +1,89 @@
+2018-11-07 17:34:42 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 17:34:42 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 17:34:42 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 17:34:42 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 17:34:42 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 17:34:42 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 17:34:42 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 17:34:42 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 17:34:42 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 17:34:42 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 17:34:42 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 17:34:42 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 17:34:42 INFO  Crawler:236 - ==========================================
+2018-11-07 17:34:47 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 6, total : 7
+2018-11-07 17:34:50 INFO  Crawler:266 - [Progress 2] save : 0, err : 0, remain_work : 28, total : 30
+2018-11-07 17:34:53 INFO  Crawler:266 - [Progress 3] save : 0, err : 0, remain_work : 62, total : 65
+2018-11-07 17:34:56 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 17:34:56 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 17:34:56 INFO  Crawler:266 - [Progress 4] save : 0, err : 1, remain_work : 83, total : 87
+2018-11-07 17:34:59 INFO  Crawler:266 - [Progress 5] save : 0, err : 1, remain_work : 110, total : 115
+2018-11-07 17:35:03 INFO  Crawler:266 - [Progress 6] save : 0, err : 1, remain_work : 143, total : 149
+2018-11-07 17:35:06 INFO  Crawler:266 - [Progress 7] save : 0, err : 1, remain_work : 168, total : 175
+2018-11-07 17:35:09 INFO  Crawler:266 - [Progress 8] save : 1, err : 1, remain_work : 167, total : 175
+2018-11-07 17:35:12 INFO  Crawler:266 - [Progress 9] save : 2, err : 1, remain_work : 166, total : 175
+2018-11-07 17:35:15 INFO  Crawler:266 - [Progress 10] save : 2, err : 1, remain_work : 165, total : 175
+2018-11-07 17:35:18 INFO  Crawler:266 - [Progress 11] save : 2, err : 1, remain_work : 164, total : 175
+2018-11-07 17:35:21 INFO  Crawler:266 - [Progress 12] save : 2, err : 1, remain_work : 163, total : 175
+2018-11-07 17:35:24 INFO  Crawler:266 - [Progress 13] save : 3, err : 1, remain_work : 162, total : 175
+2018-11-07 17:35:27 INFO  Crawler:266 - [Progress 14] save : 3, err : 1, remain_work : 161, total : 175
+2018-11-07 17:35:30 INFO  Crawler:266 - [Progress 15] save : 3, err : 1, remain_work : 160, total : 175
+2018-11-07 17:35:33 INFO  Crawler:266 - [Progress 16] save : 3, err : 1, remain_work : 159, total : 175
+2018-11-07 17:35:36 INFO  Crawler:266 - [Progress 17] save : 4, err : 1, remain_work : 158, total : 175
+2018-11-07 17:35:40 INFO  Crawler:266 - [Progress 18] save : 5, err : 1, remain_work : 157, total : 175
+2018-11-07 17:35:43 INFO  Crawler:266 - [Progress 19] save : 6, err : 1, remain_work : 156, total : 175
+2018-11-07 17:35:46 INFO  Crawler:266 - [Progress 20] save : 7, err : 1, remain_work : 155, total : 175
+2018-11-07 17:35:49 INFO  Crawler:266 - [Progress 21] save : 7, err : 1, remain_work : 154, total : 175
+2018-11-07 17:35:52 INFO  Crawler:266 - [Progress 22] save : 8, err : 1, remain_work : 153, total : 175
+2018-11-07 17:35:55 INFO  Crawler:266 - [Progress 23] save : 8, err : 1, remain_work : 152, total : 175
+2018-11-07 17:35:58 INFO  Crawler:266 - [Progress 24] save : 9, err : 1, remain_work : 151, total : 175
+2018-11-07 17:36:01 INFO  Crawler:266 - [Progress 25] save : 9, err : 1, remain_work : 150, total : 175
+2018-11-07 17:36:04 INFO  Crawler:266 - [Progress 26] save : 9, err : 1, remain_work : 149, total : 175
+2018-11-07 17:36:07 INFO  Crawler:266 - [Progress 27] save : 10, err : 1, remain_work : 148, total : 175
+2018-11-07 17:36:10 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=138&page=2
+2018-11-07 17:36:10 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:36:10 INFO  Crawler:266 - [Progress 28] save : 10, err : 2, remain_work : 147, total : 175
+2018-11-07 17:36:14 INFO  Crawler:266 - [Progress 29] save : 10, err : 2, remain_work : 168, total : 197
+2018-11-07 17:36:17 INFO  Crawler:266 - [Progress 30] save : 10, err : 2, remain_work : 189, total : 219
+2018-11-07 17:36:20 INFO  Crawler:266 - [Progress 31] save : 10, err : 2, remain_work : 188, total : 219
+2018-11-07 17:36:23 INFO  Crawler:266 - [Progress 32] save : 10, err : 2, remain_work : 187, total : 219
+2018-11-07 17:36:26 INFO  Crawler:266 - [Progress 33] save : 10, err : 2, remain_work : 186, total : 219
+2018-11-07 17:36:29 INFO  Crawler:266 - [Progress 34] save : 10, err : 2, remain_work : 185, total : 219
+2018-11-07 17:36:32 INFO  Crawler:266 - [Progress 35] save : 11, err : 2, remain_work : 184, total : 219
+2018-11-07 17:36:35 INFO  Crawler:266 - [Progress 36] save : 11, err : 2, remain_work : 183, total : 219
+2018-11-07 17:36:38 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/read.nhn?mode=LPOD&mid=sec&oid=029&aid=0002491062
+2018-11-07 17:36:38 ERROR Crawler:261 - L ERR_CONTENTS_COL : press, #main_content > div.article_header > div.press_logo > a > img, attr
+2018-11-07 17:36:38 INFO  Crawler:266 - [Progress 37] save : 11, err : 3, remain_work : 182, total : 219
+2018-11-07 17:36:41 INFO  Crawler:266 - [Progress 38] save : 11, err : 3, remain_work : 181, total : 219
+2018-11-07 17:36:44 INFO  Crawler:266 - [Progress 39] save : 11, err : 3, remain_work : 180, total : 219
+2018-11-07 17:36:48 INFO  Crawler:266 - [Progress 40] save : 11, err : 3, remain_work : 179, total : 219
+2018-11-07 17:36:51 INFO  Crawler:266 - [Progress 41] save : 11, err : 3, remain_work : 178, total : 219
+2018-11-07 17:36:54 INFO  Crawler:266 - [Progress 42] save : 11, err : 3, remain_work : 177, total : 219
+2018-11-07 17:36:57 INFO  Crawler:266 - [Progress 43] save : 11, err : 3, remain_work : 176, total : 219
+2018-11-07 17:37:00 INFO  Crawler:266 - [Progress 44] save : 12, err : 3, remain_work : 175, total : 219
+2018-11-07 17:37:04 INFO  Crawler:266 - [Progress 45] save : 12, err : 3, remain_work : 174, total : 219
+2018-11-07 17:37:07 INFO  Crawler:266 - [Progress 46] save : 12, err : 3, remain_work : 173, total : 219
+2018-11-07 17:37:10 INFO  Crawler:266 - [Progress 47] save : 12, err : 3, remain_work : 172, total : 219
+2018-11-07 17:37:13 INFO  Crawler:266 - [Progress 48] save : 12, err : 3, remain_work : 171, total : 219
+2018-11-07 17:37:16 INFO  Crawler:266 - [Progress 49] save : 13, err : 3, remain_work : 170, total : 219
+2018-11-07 17:37:19 INFO  Crawler:266 - [Progress 50] save : 13, err : 3, remain_work : 169, total : 219
+2018-11-07 17:37:22 INFO  Crawler:266 - [Progress 51] save : 13, err : 3, remain_work : 168, total : 219
+2018-11-07 17:37:25 INFO  Crawler:266 - [Progress 52] save : 13, err : 3, remain_work : 167, total : 219
+2018-11-07 17:37:28 INFO  Crawler:266 - [Progress 53] save : 13, err : 3, remain_work : 166, total : 219
+2018-11-07 17:37:31 INFO  Crawler:266 - [Progress 54] save : 13, err : 3, remain_work : 165, total : 219
+2018-11-07 17:37:34 INFO  Crawler:266 - [Progress 55] save : 13, err : 3, remain_work : 164, total : 219
+2018-11-07 17:37:38 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=2
+2018-11-07 17:37:38 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:37:38 INFO  Crawler:266 - [Progress 56] save : 13, err : 4, remain_work : 163, total : 219
+2018-11-07 17:37:41 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=3
+2018-11-07 17:37:41 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:37:41 INFO  Crawler:266 - [Progress 57] save : 13, err : 5, remain_work : 162, total : 219
+2018-11-07 17:37:44 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=4
+2018-11-07 17:37:44 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:37:44 INFO  Crawler:266 - [Progress 58] save : 13, err : 6, remain_work : 161, total : 219
+2018-11-07 17:37:47 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=5
+2018-11-07 17:37:47 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:37:47 INFO  Crawler:266 - [Progress 59] save : 13, err : 7, remain_work : 160, total : 219
+2018-11-07 17:37:50 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181107&mid=sec&oid=029&page=6
+2018-11-07 17:37:50 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.list_body > ul > li > a
+2018-11-07 17:37:50 INFO  Crawler:266 - [Progress 60] save : 13, err : 8, remain_work : 159, total : 219

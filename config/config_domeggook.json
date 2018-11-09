@@ -1,0 +1,117 @@
+{
+	"name" : "domeggook",
+	"param_list" : [
+		["김"],
+		["라면"],
+		["우동"]
+	],
+
+	"seed" : {
+		"url" : "http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl",
+		"type" : "GET",
+		"data" : [
+			{"key" : "sw", "value" : "<%0%>"}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",	
+	"crawling_delay" : 0.5,
+	"crawling_max_count" : -1,
+	"contents_save_type" : "DB",
+	"save_html" : true,
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+	"charset" : "EUC-KR",
+	"selenium_driver_name" : "chrome",
+	"selenium_headless" : false,
+
+	"scenario" : [
+        {
+			"depth" : 0,
+			"action" : [
+				{"type": "click", "selector" : "div.main > a", "target_depth" : 1},
+				{"type": "click", "selector" : "#lPage > a.btn.af1", "target_depth" : 0}
+			]
+		},
+		{
+			"depth" : 1,
+			"action" : [
+				{
+					"type" : "switch_window", "value" : "+1"
+				},
+				{
+					"type": "parse_contents", "selector" : "#lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle"
+				},
+				{
+					"type" : "close_window"
+				}
+			]
+		}
+	],
+	
+	"collect_recode" : [
+		{
+			"depth" : 1,
+			"name" : "T_DOMEGGOOK_1",
+			"column" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"type" : "keyword",
+					"data_type" : "varchar(100)",
+					"data_name" : "keyword"
+				},
+				{
+					"data_type" : "varchar(50)",
+					"data_name" : "id",
+					"regex_filter" : ["(?<=com/)[0-9]+"],
+					"key" : true,
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"head > meta:nth-child(18)", 
+						 	"type": "attr=content"
+						}
+					]
+					
+				},
+				{
+					"data_type" : "varchar(200)",
+					"data_name" : "goods_name",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"#lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle", 
+						 	"type": "text"
+						}
+					]
+				},
+				{
+					"data_type" : "int",
+					"data_name" : "price",
+					"regex_filter" : ["[0-9]+"],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"div.lInfoSellPrice > b", 
+						 	"type": "text"
+						}
+					]
+				}
+			]
+		}
+    ]
+    
+}

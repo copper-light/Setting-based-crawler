@@ -1,0 +1,23 @@
+2018-11-08 15:57:04 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-08 15:57:04 INFO  Crawler:219 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-08 15:57:04 INFO  Crawler:223 - CRAWLER NAME   : domeggook
+2018-11-08 15:57:04 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-08 15:57:04 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-08 15:57:04 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-08 15:57:04 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-08 15:57:04 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-08 15:57:04 INFO  Crawler:232 - SCENARIO COUNT : 2
+2018-11-08 15:57:04 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-08 15:57:04 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-08 15:57:04 INFO  Crawler:235 - SAVE HTML      : true
+2018-11-08 15:57:04 INFO  Crawler:236 - ==========================================
+2018-11-08 15:57:15 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 2, total : 3
+2018-11-08 15:57:18 INFO  Crawler:266 - [Progress 2] save : 0, err : 0, remain_work : 53, total : 55
+2018-11-08 15:57:23 INFO  Crawler:266 - [Progress 3] save : 0, err : 0, remain_work : 53, total : 56
+2018-11-08 15:57:37 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 15:57:37 ERROR Crawler:261 - L ERR_ACTION : #lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle
+2018-11-08 15:57:37 INFO  Crawler:266 - [Progress 4] save : 0, err : 1, remain_work : 52, total : 56
+2018-11-08 15:57:42 INFO  Crawler:266 - [Progress 5] save : 0, err : 1, remain_work : 52, total : 57
+2018-11-08 15:57:56 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 15:57:56 ERROR Crawler:261 - L ERR_ACTION : #lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle
+2018-11-08 15:57:56 INFO  Crawler:266 - [Progress 6] save : 0, err : 2, remain_work : 51, total : 57

@@ -1,0 +1,5 @@
+2018-11-07 13:50:52 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181105&mid=sec&oid=138&listType=title
+2018-11-07 13:50:52 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 13:50:52 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.pagenavi_day > a:nth-child(5)
+2018-11-07 13:50:57 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&date=20181106&mid=sec&oid=138&listType=title
+2018-11-07 13:50:57 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a

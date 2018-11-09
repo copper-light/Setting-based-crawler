@@ -47,6 +47,7 @@ public class Work {
 	URL mURL = null;
 	String mDomainURL = null;
 	String mSubUrl = null;
+	String mEncodingType = "UTF-8";
 	
 	byte mParseType = PARSE_NORMAL;
 	Action mAction;
@@ -60,7 +61,7 @@ public class Work {
 	
 	Map<String, String> mDataMap;
 	
-	char[] URL_SPLIT_CHAR = {'/','?','#'};
+//	char[] URL_SPLIT_CHAR = {'/','?','#'};
 	
 	/**
 	 * 시드 URL으로부터 몆 번 링크 타고 들어갔는지 횟수
@@ -77,10 +78,14 @@ public class Work {
 	 * url 값은 반드시 http와 루트 도메인 주소가 포함된 전체 주소여야 한다.
 	 * 그 외의 형식이라면 NULL 반환
 	 * */
-	public Work(String url){
-		setURL(url);
+	public Work(String url, String encodingType){
+		setURL(url, encodingType);
 	}
 
+//	public Work(String url){
+//		setURL(url, mEncodingType);
+//	}	
+	
 	public Work setParser(Parser p){
 		mParser = p;
 		return this;
@@ -98,8 +103,12 @@ public class Work {
 	public Scraper getScraper() {
 		return mScraper;
 	}
-
+	
 	public void setURL(String strURL){
+		setURL(strURL, mEncodingType);
+	}
+
+	public void setURL(String strURL, String encodingType){
 		strURL = strURL.trim();
 		
 		/* 마지막 문자가 "/" 이면 삭제할 것
@@ -148,7 +157,7 @@ public class Work {
 				for(String set : row){
 					data = set.split("=");
 					if(data.length == 2){
-						setData(data[0], data[1]);
+						setData(data[0], data[1], encodingType);
 					}
 				}
 			}
@@ -291,7 +300,7 @@ public class Work {
 		return mParseType;
 	}
 	
-	public void setData(String key, String value){
+	public void setData(String key, String value, String encodeType){
 		if(mDataMap == null) mDataMap = new HashMap();
 		value = value.trim();
 		if(value == null || value.isEmpty()){
@@ -304,7 +313,7 @@ public class Work {
 		StringBuilder newValue = new StringBuilder();
 		for(int i = 0 ; i < len ; i ++){
 			if(Util.CheckHangul(value.charAt(i))){
-				tmp = Util.EncodingUTF8(String.valueOf(value.charAt(i)));
+				tmp = Util.Encoding(String.valueOf(value.charAt(i)), encodeType);
 				if(tmp == null) {
 					newValue = new StringBuilder(value);
 					break;
@@ -424,10 +433,11 @@ public class Work {
 			return this.isSuccess;
 		}
 		
-		public void addError(byte type, String msg){
+		public void addError(byte type, String msg, Exception exception){
 			Error e = new Error();
 			e.type = type;
 			e.msg = msg;
+			e.exception = exception;
 			e.timeMs = System.currentTimeMillis();
 			
 			this.errorList.add(e);
@@ -452,6 +462,7 @@ public class Work {
 		long timeMs;
 		byte type;
 		String msg;
+		Exception exception;
 		
 		public Error(){
 		}

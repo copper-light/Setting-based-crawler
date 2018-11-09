@@ -1,0 +1,26 @@
+2018-11-07 16:58:57 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 16:58:57 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 16:58:57 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 16:58:57 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 16:58:57 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 16:58:57 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 16:58:57 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 16:58:57 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 16:58:57 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 16:58:57 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 16:58:57 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 16:58:57 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 16:58:57 INFO  Crawler:236 - ==========================================
+2018-11-07 16:59:02 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 6, total : 7
+2018-11-07 16:59:05 INFO  Crawler:266 - [Progress 2] save : 0, err : 0, remain_work : 26, total : 28
+2018-11-07 16:59:08 INFO  Crawler:266 - [Progress 3] save : 0, err : 0, remain_work : 58, total : 61
+2018-11-07 16:59:11 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 16:59:11 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a
+2018-11-07 16:59:11 INFO  Crawler:266 - [Progress 4] save : 0, err : 1, remain_work : 77, total : 81
+2018-11-07 16:59:14 INFO  Crawler:266 - [Progress 5] save : 0, err : 1, remain_work : 101, total : 106
+2018-11-07 16:59:17 INFO  Crawler:266 - [Progress 6] save : 0, err : 1, remain_work : 132, total : 138
+2018-11-07 16:59:20 INFO  Crawler:266 - [Progress 7] save : 0, err : 1, remain_work : 154, total : 161
+2018-11-07 16:59:23 INFO  Crawler:266 - [Progress 8] save : 0, err : 1, remain_work : 153, total : 161
+2018-11-07 16:59:27 INFO  Crawler:266 - [Progress 9] save : 0, err : 1, remain_work : 152, total : 161
+2018-11-07 16:59:30 INFO  Crawler:266 - [Progress 10] save : 0, err : 1, remain_work : 151, total : 161
+2018-11-07 16:59:33 INFO  Crawler:266 - [Progress 11] save : 1, err : 1, remain_work : 150, total : 161

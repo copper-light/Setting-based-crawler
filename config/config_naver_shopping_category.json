@@ -1,0 +1,90 @@
+{
+	"name" : "domeggook",
+	"param_list" : [
+		["김"],
+		["라면"],
+		["우동"]
+	],
+
+	"seed" : {
+		"url" : "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC",
+		"type" : "GET",
+		"data" : [
+			{"key" : "query", "value" : "김"}
+		]
+	},
+	"ignore_robots" : true,
+	"crawling_max_depth" : -1,
+	"crawling_type" : "SCENARIO_DYNAMIC",	
+	"crawling_delay" : 0.5,
+	"crawling_max_count" : -1,
+	"contents_save_type" : "CSV",
+	"save_html" : true,
+	"output_file_path" : "",
+	"output_db_id" : "root",
+	"output_db_pw" : "sairport2018",
+	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+	"charset" : "UTF-8",
+	"selenium_driver_name" : "chrome",
+	"selenium_headless" : false,
+
+	"scenario" : [
+        {
+			"depth" : 0,
+			"action" : [
+				{"type":"parse_contents", "selector" : "#_search_list"}
+			]
+		}
+	],
+	
+	"collect_recode" : [
+		{
+			"depth" : 0,
+			"name" : "T_NAVER_SHP_CATEGORY_1",
+			"recode_selector" : "#_search_list > div.search_list.basis > ul > li > div.info",
+			"column" : [
+				{
+					"type" : "DATETIME",
+					"data_type" : "datetime",
+					"data_name" : "collected_time"
+				},
+				{
+					"type" : "URL",
+					"data_type" : "varchar(300)",
+					"data_name" : "url"
+				},
+				{
+					"type" : "text",
+					"data_type" : "varchar(300)",
+					"data_name" : "keyword",
+					"value" : "김"
+				},
+				{
+					"data_type" : "varchar(200)",
+					"data_name" : "category",
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"span.depth > a", 
+						 	"type": "text"
+						}
+					]
+					
+				},
+				{
+					"data_type" : "varchar(200)",
+					"data_name" : "goods_name",
+					"regex_filter" : [],
+					"element" : [
+						{
+							"from_root" : false,
+							"selector":"a.tit", 
+						 	"type": "text"
+						}
+					]
+				}
+			]
+		}
+    ]
+    
+}

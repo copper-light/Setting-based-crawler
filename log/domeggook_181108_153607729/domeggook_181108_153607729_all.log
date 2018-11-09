@@ -1,0 +1,23 @@
+2018-11-08 15:36:07 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-08 15:36:07 INFO  Crawler:219 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-08 15:36:07 INFO  Crawler:223 - CRAWLER NAME   : domeggook
+2018-11-08 15:36:07 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-08 15:36:07 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-08 15:36:07 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-08 15:36:07 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-08 15:36:07 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-08 15:36:07 INFO  Crawler:232 - SCENARIO COUNT : 1
+2018-11-08 15:36:07 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-08 15:36:07 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-08 15:36:07 INFO  Crawler:235 - SAVE HTML      : true
+2018-11-08 15:36:07 INFO  Crawler:236 - ==========================================
+2018-11-08 15:36:12 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 15:36:12 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.main > a
+2018-11-08 15:36:12 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #lPage > a.btn.af1
+2018-11-08 15:36:12 INFO  Crawler:266 - [Progress 1] save : 0, err : 2, remain_work : 0, total : 1
+2018-11-08 15:36:12 INFO  Crawler:300 - ============== Finish Crawler =============
+2018-11-08 15:36:12 INFO  Crawler:301 - [total time] 00:00:04
+2018-11-08 15:36:12 INFO  Crawler:302 - [save contents] 0
+2018-11-08 15:36:12 INFO  Crawler:303 - [error work] 2
+2018-11-08 15:36:12 INFO  Crawler:304 - [remain work] 0
+2018-11-08 15:36:12 INFO  Crawler:305 - [total processed work] 1

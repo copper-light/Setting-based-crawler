@@ -75,15 +75,16 @@ class WorkRunnable implements Runnable{
 				mLogger.error(e.getMessage(), e.fillInStackTrace());
 			} catch (WebDriverException e) { // javascript + element 못찾을때 오류
 				if(e.toString().indexOf("Runtime.evaluate") != -1){
-					info.result().addError(Work.Error.ERR_ACTION, "javascript syntax err - " + e.getMessage());
+					info.result().addError(Work.Error.ERR_ACTION, "javascript syntax err - " + e.getMessage(), e);
 					//mLogger.error("javascript syntax err " + e.getMessage(), e.fillInStackTrace());
 				}else{
 					//info.result().addError(Work.Error.ERR_SCEN_ELEMENT, "");
 					mLogger.error("not found element " + e.getMessage(), e.fillInStackTrace());
-					info.result().addError(Work.Error.ERR, "not found element " + e.getMessage());
+					info.result().addError(Work.Error.ERR, "not found element " + e.getMessage(), e);
 				}
 			} catch (Exception e) {
-				info.result().addError(Work.Error.ERR, e.getMessage() +"\n" + e.fillInStackTrace());
+				e.printStackTrace();
+				info.result().addError(Work.Error.ERR, e.getMessage() +"\n" + e.fillInStackTrace(), e);
 				//mLogger.error(e.getMessage(), e.fillInStackTrace());
 			}
 		}

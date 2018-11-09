@@ -101,7 +101,7 @@ public class WorkManager {
 									mDeque.offerURL(work);
 
 									mDeque.setAccessMode(WorkDeque.WRITE);
-									Work robotsWork = new Work(work.getDomainURL() + Crawler.FILE_NAME_ROBOTS);
+									Work robotsWork = new Work(work.getDomainURL() + Crawler.FILE_NAME_ROBOTS, mConfig.CHARACTER_SET);
 									robotsWork.setScraper(new JsoupScraper()).setParser(new RobotsParser(mConfig));
 									robotsWork.setHighPriority(true);
 									//mDeque.offerURL(robotsWork);

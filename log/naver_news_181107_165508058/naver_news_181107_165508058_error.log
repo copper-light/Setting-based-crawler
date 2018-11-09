@@ -1,0 +1,3 @@
+2018-11-07 16:55:15 ERROR Crawler:258 - [ERR URL] https://news.n/main/list.nhn?mode=LPOD&mid=sec&oid=138
+2018-11-07 16:55:15 ERROR Crawler:261 - L ERR : news.n
+java.net.UnknownHostException: news.n

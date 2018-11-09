@@ -1,0 +1,18 @@
+2018-11-07 16:55:08 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 16:55:08 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 16:55:08 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 16:55:08 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 16:55:08 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 16:55:08 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 16:55:08 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 16:55:08 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 16:55:08 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 16:55:08 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 16:55:08 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 16:55:08 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 16:55:08 INFO  Crawler:236 - ==========================================
+2018-11-07 16:55:12 INFO  Crawler:266 - [Progress 1] save : 0, err : 0, remain_work : 6, total : 7
+2018-11-07 16:55:15 ERROR Crawler:258 - [ERR URL] https://news.n/main/list.nhn?mode=LPOD&mid=sec&oid=138
+2018-11-07 16:55:15 ERROR Crawler:261 - L ERR : news.n
+java.net.UnknownHostException: news.n
+2018-11-07 16:55:15 INFO  Crawler:266 - [Progress 2] save : 0, err : 1, remain_work : 5, total : 7

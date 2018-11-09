@@ -55,6 +55,7 @@ public class Crawler {
 	
 	public Config mConfig;
 	public String[] mArgs;
+	public String mConfigPath;
 	
 	public Crawler(int size, int delay){
 		mWorkManager = new WorkManager(size);
@@ -79,9 +80,10 @@ public class Crawler {
 	
 	public void setConfigFile(String filePath, String[] args){
 		mArgs = args;
-		System.out.println("Open config file - " + filePath);
+		mConfigPath = filePath;
+		//System.out.println("Open config file - " + filePath);
 		String config = (String) Util.GetConfigFile(filePath);
-		int len = args.length;
+		
 		
 		String regexParams = "<%[0-9]+%>";
         Pattern pattern = Pattern.compile(regexParams);
@@ -103,17 +105,19 @@ public class Crawler {
         	paramMap.put(matcher.group(), cnt);
         }
         
-        if(totalParams != (len - 2)){
+        int len = 0;
+        if(args != null){
+        	len = args.length;
+        }
+        if(totalParams != (len)){
         	System.err.println("[ERROR] Mismatching config parameters.");
         	return;
         }
-		
-		if(args != null && len >= 3){
-			for(int i = 2 ; i < len ; i++){
-				config = config.replace("<%"+ (i-2) +"%>", args[i]);
+		if(len > 0){
+			for(int i =  0 ; i < len ; i++){
+				config = config.replace("<%"+ (i) +"%>", args[i]);
 			}
 		}
-		
 		setConfigJson(config);
 	}
 
@@ -188,7 +192,7 @@ public class Crawler {
 	
 	public Crawler seedUrl(String url) {
 		if(url == null) return this;
-		Work info = new Work(url);
+		Work info = new Work(url, mConfig.CHARACTER_SET);
 		return seedUrl(info); 
 	}
 
@@ -199,7 +203,9 @@ public class Crawler {
 		}
 		
 		CrawlerLog.SetName(mConfig.CRAWLING_NAME_AND_TIME);
-		mLogger = CrawlerLog.GetInstance(Crawler.class);
+		if(mLogger == null){
+			mLogger = CrawlerLog.GetInstance(Crawler.class);
+		}
 		mWorkManager.start();
 	} 
 	
@@ -216,9 +222,11 @@ public class Crawler {
 		public boolean start() {
 			boolean ret = false;
 			mLogger.info("============== Start Crawler =============");
-			mLogger.info("CONFIG FILE    : " + mArgs[1]);
-			for(int i = 2 ; i < mArgs.length ; i++){
-				mLogger.info(String.format("CMD PARAM %02d   : %s", (i-2), mArgs[i]));
+			mLogger.info("CONFIG FILE    : " + mConfigPath);
+			if(mArgs != null){
+				for(int i = 0 ; i < mArgs.length ; i++){
+					mLogger.info(String.format("CMD PARAM %02d   : %s", (i), mArgs[i]));
+				}
 			}
 			mLogger.info("CRAWLER NAME   : " + mConfig.CRAWLING_NAME);
 			mLogger.info("CRAWLER TYPE   : " + mConfig.CRAWLING_TYPE);
@@ -259,11 +267,13 @@ public class Crawler {
 				mErrCnt += work.result().getErrorList().size();
 				for(Work.Error err : work.result().getErrorList()){
 					mLogger.error("L " + err.toStringTypeAndMsg());
+					//mLogger.error("L " + err.);
 				}
 			}
 			
-			mLogger.info(String.format("[Progress %d] save : %d, err : %d, remain_work : %d, total : %d", 
+			mLogger.info(String.format("[Progress %d] elaped time : %s, save : %d, err : %d, remain_work : %d, total : %d",
 												mProcessedCount,
+												Util.GetElapedTime(mConfig.getStartTime()),
 												mTotalSaveCnt,
 												mErrCnt,
 												workDeque.getSize(),
@@ -277,7 +287,6 @@ public class Crawler {
 		}
 
 		public void finish(WorkDeque workDeque) {
-			long e = System.currentTimeMillis() - mConfig.getStartTime() ;
 			if(Writer != null){
 				try {
 					Writer.close();
@@ -287,17 +296,8 @@ public class Crawler {
 			}
 			mScraper.close();
 			
-			e = e / 1000;
-			int h=0,m=0,s=0;
-			if(e > 0){
-				h = (int) e / (3600);
-				m = (int) e % 3600;
-				m = (m > 0)? m/60 : 0;
-				s = (int) e % 60;
-			}
-			
 			mLogger.info("============== Finish Crawler =============");
-			mLogger.info("[total time] "+ String.format("%02d:%02d:%02d", h,m, s));
+			mLogger.info("[total time] "+ Util.GetElapedTime(mConfig.getStartTime()));
 			mLogger.info("[save contents] "+ mTotalSaveCnt);
 			mLogger.info("[error work] "+ mErrCnt);
 			mLogger.info("[remain work] "+ workDeque.getSize());

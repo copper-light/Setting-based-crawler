@@ -38,9 +38,9 @@ public class Util  {
 				//String domain;
 				int find;
 				if(des_url.charAt(0) == '/'){
-					find = src_url.substring(7).indexOf("/"); 
+					find = src_url.substring(8).indexOf("/"); 
 					if(find != -1){
-						ret = new URL(src_url.substring(0, find) + des_url);
+						ret = new URL(src_url.substring(0, 8+find) + des_url);
 					}else{
 						ret = new URL(src_url += des_url);
 					}
@@ -48,7 +48,7 @@ public class Util  {
 					ret = new URL(src_url);
 					ret = new URL(ret.getProtocol() + "://" 
 							+ ret.getHost()
-							+ ((ret.getPort() != -1)? ":"+ret.getProtocol() : "")+"/"
+							+ ((ret.getPort() != -1)? ":"+ret.getProtocol() : "")
 							+ ret.getPath()+des_url);
 				}else if(des_url.charAt(0) == '#'){
 					ret = new URL(src_url);
@@ -57,6 +57,7 @@ public class Util  {
 				}
 			}
 		} catch (MalformedURLException e) {
+			e.printStackTrace();
 			return null;
 		}
 		
@@ -149,9 +150,9 @@ public class Util  {
 	
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
 
-	public static String EncodingUTF8(String str){
+	public static String Encoding(String str, String encodeType){
 		try {
-			str = URLEncoder.encode(str, "UTF-8");
+			str = URLEncoder.encode(str, encodeType);
 		} catch (UnsupportedEncodingException e) {
 			str = null;
 		}
@@ -254,5 +255,18 @@ public class Util  {
 		} else {
 			return false;
 		}
+	}
+	
+	public static String GetElapedTime(long e){
+		e = System.currentTimeMillis() - e;
+		e = e / 1000;
+		int h=0,m=0,s=0;
+		if(e > 0){
+			h = (int) e / (3600);
+			m = (int) e % 3600;
+			m = (m > 0)? m/60 : 0;
+			s = (int) e % 60;
+		}
+		return String.format("%02d:%02d:%02d", h, m, s);
 	}
 }

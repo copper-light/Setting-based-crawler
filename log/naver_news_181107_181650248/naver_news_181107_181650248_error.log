@@ -1,0 +1,2 @@
+2018-11-07 18:17:04 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=293
+2018-11-07 18:17:04 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #main_content > div.paging > a

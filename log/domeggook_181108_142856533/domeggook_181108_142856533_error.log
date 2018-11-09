@@ -1,0 +1,3 @@
+2018-11-08 14:29:01 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%EA%B9%80
+2018-11-08 14:29:01 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : div.main > a
+2018-11-08 14:29:01 ERROR Crawler:261 - L ERR_SCEN_ELEMENT : #lPage > a.btn.af1

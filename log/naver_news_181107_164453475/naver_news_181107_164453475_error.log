@@ -1,0 +1,3 @@
+2018-11-07 16:44:58 ERROR Crawler:258 - [ERR URL] https://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&oid=138
+2018-11-07 16:44:58 ERROR Crawler:261 - L ERR : null
+java.lang.NullPointerException

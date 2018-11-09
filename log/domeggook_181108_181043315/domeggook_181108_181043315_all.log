@@ -1,0 +1,1197 @@
+2018-11-08 18:10:43 INFO  Crawler:224 - ============== Start Crawler =============
+2018-11-08 18:10:43 INFO  Crawler:225 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-08 18:10:43 INFO  Crawler:228 - CMD PARAM 00   : 김
+2018-11-08 18:10:43 INFO  Crawler:231 - CRAWLER NAME   : domeggook
+2018-11-08 18:10:43 INFO  Crawler:232 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-08 18:10:43 INFO  Crawler:233 - CRAWLER DELAY  : 0 sec
+2018-11-08 18:10:43 INFO  Crawler:234 - IGNORE ROBOTS  : true
+2018-11-08 18:10:43 INFO  Crawler:235 - LIMIT_COUNT    : -1
+2018-11-08 18:10:43 INFO  Crawler:236 - FILTER COUNT   : 0
+2018-11-08 18:10:43 INFO  Crawler:240 - SCENARIO COUNT : 2
+2018-11-08 18:10:43 INFO  Crawler:241 - COLLECT COUNT  : 1
+2018-11-08 18:10:43 INFO  Crawler:242 - SAVE TYPE      : DB
+2018-11-08 18:10:43 INFO  Crawler:243 - SAVE HTML      : true
+2018-11-08 18:10:43 INFO  Crawler:244 - ==========================================
+2018-11-08 18:10:56 INFO  Crawler:274 - [Progress 1] elaped time : 00:00:12, save : 0, err : 0, remain_work : 2, total : 3
+2018-11-08 18:10:56 INFO  Crawler:274 - [Progress 2] elaped time : 00:00:13, save : 0, err : 0, remain_work : 53, total : 55
+2018-11-08 18:10:56 INFO  Crawler:274 - [Progress 3] elaped time : 00:00:13, save : 0, err : 0, remain_work : 55, total : 58
+2018-11-08 18:10:57 INFO  Crawler:274 - [Progress 4] elaped time : 00:00:13, save : 0, err : 0, remain_work : 54, total : 58
+2018-11-08 18:10:59 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8031622?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:10:59 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8031622' for key 'PRIMARY'
+2018-11-08 18:10:59 INFO  Crawler:274 - [Progress 5] elaped time : 00:00:15, save : 0, err : 1, remain_work : 53, total : 58
+2018-11-08 18:10:59 INFO  Crawler:274 - [Progress 6] elaped time : 00:00:16, save : 0, err : 1, remain_work : 52, total : 58
+2018-11-08 18:10:59 INFO  Crawler:274 - [Progress 7] elaped time : 00:00:16, save : 0, err : 1, remain_work : 54, total : 61
+2018-11-08 18:10:59 INFO  Crawler:274 - [Progress 8] elaped time : 00:00:16, save : 0, err : 1, remain_work : 53, total : 61
+2018-11-08 18:11:01 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7515374?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:01 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7515374' for key 'PRIMARY'
+2018-11-08 18:11:01 INFO  Crawler:274 - [Progress 9] elaped time : 00:00:18, save : 0, err : 2, remain_work : 52, total : 61
+2018-11-08 18:11:01 INFO  Crawler:274 - [Progress 10] elaped time : 00:00:18, save : 0, err : 2, remain_work : 51, total : 61
+2018-11-08 18:11:02 INFO  Crawler:274 - [Progress 11] elaped time : 00:00:18, save : 0, err : 2, remain_work : 53, total : 64
+2018-11-08 18:11:02 INFO  Crawler:274 - [Progress 12] elaped time : 00:00:19, save : 0, err : 2, remain_work : 52, total : 64
+2018-11-08 18:11:03 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8269048?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:03 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8269048' for key 'PRIMARY'
+2018-11-08 18:11:03 INFO  Crawler:274 - [Progress 13] elaped time : 00:00:20, save : 0, err : 3, remain_work : 51, total : 64
+2018-11-08 18:11:04 INFO  Crawler:274 - [Progress 14] elaped time : 00:00:20, save : 0, err : 3, remain_work : 50, total : 64
+2018-11-08 18:11:04 INFO  Crawler:274 - [Progress 15] elaped time : 00:00:21, save : 0, err : 3, remain_work : 52, total : 67
+2018-11-08 18:11:04 INFO  Crawler:274 - [Progress 16] elaped time : 00:00:21, save : 0, err : 3, remain_work : 51, total : 67
+2018-11-08 18:11:06 ERROR Crawler:266 - [ERR URL] http://domeggook.com/1744303?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:06 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '1744303' for key 'PRIMARY'
+2018-11-08 18:11:06 INFO  Crawler:274 - [Progress 17] elaped time : 00:00:22, save : 0, err : 4, remain_work : 50, total : 67
+2018-11-08 18:11:06 INFO  Crawler:274 - [Progress 18] elaped time : 00:00:22, save : 0, err : 4, remain_work : 49, total : 67
+2018-11-08 18:11:06 INFO  Crawler:274 - [Progress 19] elaped time : 00:00:23, save : 0, err : 4, remain_work : 51, total : 70
+2018-11-08 18:11:06 INFO  Crawler:274 - [Progress 20] elaped time : 00:00:23, save : 0, err : 4, remain_work : 50, total : 70
+2018-11-08 18:11:08 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8093887?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:08 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8093887' for key 'PRIMARY'
+2018-11-08 18:11:08 INFO  Crawler:274 - [Progress 21] elaped time : 00:00:25, save : 0, err : 5, remain_work : 49, total : 70
+2018-11-08 18:11:08 INFO  Crawler:274 - [Progress 22] elaped time : 00:00:25, save : 0, err : 5, remain_work : 48, total : 70
+2018-11-08 18:11:09 INFO  Crawler:274 - [Progress 23] elaped time : 00:00:26, save : 0, err : 5, remain_work : 50, total : 73
+2018-11-08 18:11:09 INFO  Crawler:274 - [Progress 24] elaped time : 00:00:26, save : 0, err : 5, remain_work : 49, total : 73
+2018-11-08 18:11:10 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7189460?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:10 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7189460' for key 'PRIMARY'
+2018-11-08 18:11:10 INFO  Crawler:274 - [Progress 25] elaped time : 00:00:27, save : 0, err : 6, remain_work : 48, total : 73
+2018-11-08 18:11:11 INFO  Crawler:274 - [Progress 26] elaped time : 00:00:27, save : 0, err : 6, remain_work : 47, total : 73
+2018-11-08 18:11:11 INFO  Crawler:274 - [Progress 27] elaped time : 00:00:28, save : 0, err : 6, remain_work : 49, total : 76
+2018-11-08 18:11:11 INFO  Crawler:274 - [Progress 28] elaped time : 00:00:28, save : 0, err : 6, remain_work : 48, total : 76
+2018-11-08 18:11:13 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7545296?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:13 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7545296' for key 'PRIMARY'
+2018-11-08 18:11:13 INFO  Crawler:274 - [Progress 29] elaped time : 00:00:29, save : 0, err : 7, remain_work : 47, total : 76
+2018-11-08 18:11:13 INFO  Crawler:274 - [Progress 30] elaped time : 00:00:29, save : 0, err : 7, remain_work : 46, total : 76
+2018-11-08 18:11:13 INFO  Crawler:274 - [Progress 31] elaped time : 00:00:30, save : 0, err : 7, remain_work : 48, total : 79
+2018-11-08 18:11:13 INFO  Crawler:274 - [Progress 32] elaped time : 00:00:30, save : 0, err : 7, remain_work : 47, total : 79
+2018-11-08 18:11:15 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6412500?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:15 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6412500' for key 'PRIMARY'
+2018-11-08 18:11:15 INFO  Crawler:274 - [Progress 33] elaped time : 00:00:32, save : 0, err : 8, remain_work : 46, total : 79
+2018-11-08 18:11:16 INFO  Crawler:274 - [Progress 34] elaped time : 00:00:32, save : 0, err : 8, remain_work : 45, total : 79
+2018-11-08 18:11:16 INFO  Crawler:274 - [Progress 35] elaped time : 00:00:33, save : 0, err : 8, remain_work : 47, total : 82
+2018-11-08 18:11:16 INFO  Crawler:274 - [Progress 36] elaped time : 00:00:33, save : 0, err : 8, remain_work : 46, total : 82
+2018-11-08 18:11:18 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6412499?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:18 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6412499' for key 'PRIMARY'
+2018-11-08 18:11:18 INFO  Crawler:274 - [Progress 37] elaped time : 00:00:35, save : 0, err : 9, remain_work : 45, total : 82
+2018-11-08 18:11:19 INFO  Crawler:274 - [Progress 38] elaped time : 00:00:35, save : 0, err : 9, remain_work : 44, total : 82
+2018-11-08 18:11:19 INFO  Crawler:274 - [Progress 39] elaped time : 00:00:36, save : 0, err : 9, remain_work : 46, total : 85
+2018-11-08 18:11:19 INFO  Crawler:274 - [Progress 40] elaped time : 00:00:36, save : 0, err : 9, remain_work : 45, total : 85
+2018-11-08 18:11:21 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6154659?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:21 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6154659' for key 'PRIMARY'
+2018-11-08 18:11:21 INFO  Crawler:274 - [Progress 41] elaped time : 00:00:38, save : 0, err : 10, remain_work : 44, total : 85
+2018-11-08 18:11:21 INFO  Crawler:274 - [Progress 42] elaped time : 00:00:38, save : 0, err : 10, remain_work : 43, total : 85
+2018-11-08 18:11:21 INFO  Crawler:274 - [Progress 43] elaped time : 00:00:38, save : 0, err : 10, remain_work : 45, total : 88
+2018-11-08 18:11:21 INFO  Crawler:274 - [Progress 44] elaped time : 00:00:38, save : 0, err : 10, remain_work : 44, total : 88
+2018-11-08 18:11:23 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7418882?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:23 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7418882' for key 'PRIMARY'
+2018-11-08 18:11:23 INFO  Crawler:274 - [Progress 45] elaped time : 00:00:40, save : 0, err : 11, remain_work : 43, total : 88
+2018-11-08 18:11:23 INFO  Crawler:274 - [Progress 46] elaped time : 00:00:40, save : 0, err : 11, remain_work : 42, total : 88
+2018-11-08 18:11:23 INFO  Crawler:274 - [Progress 47] elaped time : 00:00:40, save : 0, err : 11, remain_work : 44, total : 91
+2018-11-08 18:11:23 INFO  Crawler:274 - [Progress 48] elaped time : 00:00:40, save : 0, err : 11, remain_work : 43, total : 91
+2018-11-08 18:11:25 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8192040?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:25 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8192040' for key 'PRIMARY'
+2018-11-08 18:11:25 INFO  Crawler:274 - [Progress 49] elaped time : 00:00:42, save : 0, err : 12, remain_work : 42, total : 91
+2018-11-08 18:11:25 INFO  Crawler:274 - [Progress 50] elaped time : 00:00:42, save : 0, err : 12, remain_work : 41, total : 91
+2018-11-08 18:11:26 INFO  Crawler:274 - [Progress 51] elaped time : 00:00:42, save : 0, err : 12, remain_work : 43, total : 94
+2018-11-08 18:11:26 INFO  Crawler:274 - [Progress 52] elaped time : 00:00:42, save : 0, err : 12, remain_work : 42, total : 94
+2018-11-08 18:11:27 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7080854?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:27 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7080854' for key 'PRIMARY'
+2018-11-08 18:11:27 INFO  Crawler:274 - [Progress 53] elaped time : 00:00:44, save : 0, err : 13, remain_work : 41, total : 94
+2018-11-08 18:11:27 INFO  Crawler:274 - [Progress 54] elaped time : 00:00:44, save : 0, err : 13, remain_work : 40, total : 94
+2018-11-08 18:11:28 INFO  Crawler:274 - [Progress 55] elaped time : 00:00:45, save : 0, err : 13, remain_work : 42, total : 97
+2018-11-08 18:11:28 INFO  Crawler:274 - [Progress 56] elaped time : 00:00:45, save : 0, err : 13, remain_work : 41, total : 97
+2018-11-08 18:11:29 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6982198?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:29 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6982198' for key 'PRIMARY'
+2018-11-08 18:11:29 INFO  Crawler:274 - [Progress 57] elaped time : 00:00:46, save : 0, err : 14, remain_work : 40, total : 97
+2018-11-08 18:11:30 INFO  Crawler:274 - [Progress 58] elaped time : 00:00:46, save : 0, err : 14, remain_work : 39, total : 97
+2018-11-08 18:11:30 INFO  Crawler:274 - [Progress 59] elaped time : 00:00:47, save : 0, err : 14, remain_work : 41, total : 100
+2018-11-08 18:11:30 INFO  Crawler:274 - [Progress 60] elaped time : 00:00:47, save : 0, err : 14, remain_work : 40, total : 100
+2018-11-08 18:11:32 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6982202?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:32 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6982202' for key 'PRIMARY'
+2018-11-08 18:11:32 INFO  Crawler:274 - [Progress 61] elaped time : 00:00:48, save : 0, err : 15, remain_work : 39, total : 100
+2018-11-08 18:11:32 INFO  Crawler:274 - [Progress 62] elaped time : 00:00:48, save : 0, err : 15, remain_work : 38, total : 100
+2018-11-08 18:11:32 INFO  Crawler:274 - [Progress 63] elaped time : 00:00:49, save : 0, err : 15, remain_work : 40, total : 103
+2018-11-08 18:11:32 INFO  Crawler:274 - [Progress 64] elaped time : 00:00:49, save : 0, err : 15, remain_work : 39, total : 103
+2018-11-08 18:11:34 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6653618?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:34 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6653618' for key 'PRIMARY'
+2018-11-08 18:11:34 INFO  Crawler:274 - [Progress 65] elaped time : 00:00:51, save : 0, err : 16, remain_work : 38, total : 103
+2018-11-08 18:11:34 INFO  Crawler:274 - [Progress 66] elaped time : 00:00:51, save : 0, err : 16, remain_work : 37, total : 103
+2018-11-08 18:11:35 INFO  Crawler:274 - [Progress 67] elaped time : 00:00:51, save : 0, err : 16, remain_work : 39, total : 106
+2018-11-08 18:11:35 INFO  Crawler:274 - [Progress 68] elaped time : 00:00:51, save : 0, err : 16, remain_work : 38, total : 106
+2018-11-08 18:11:36 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970715?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:36 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970715' for key 'PRIMARY'
+2018-11-08 18:11:36 INFO  Crawler:274 - [Progress 69] elaped time : 00:00:53, save : 0, err : 17, remain_work : 37, total : 106
+2018-11-08 18:11:36 INFO  Crawler:274 - [Progress 70] elaped time : 00:00:53, save : 0, err : 17, remain_work : 36, total : 106
+2018-11-08 18:11:37 INFO  Crawler:274 - [Progress 71] elaped time : 00:00:53, save : 0, err : 17, remain_work : 38, total : 109
+2018-11-08 18:11:37 INFO  Crawler:274 - [Progress 72] elaped time : 00:00:53, save : 0, err : 17, remain_work : 37, total : 109
+2018-11-08 18:11:38 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972226?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:38 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972226' for key 'PRIMARY'
+2018-11-08 18:11:38 INFO  Crawler:274 - [Progress 73] elaped time : 00:00:55, save : 0, err : 18, remain_work : 36, total : 109
+2018-11-08 18:11:38 INFO  Crawler:274 - [Progress 74] elaped time : 00:00:55, save : 0, err : 18, remain_work : 35, total : 109
+2018-11-08 18:11:39 INFO  Crawler:274 - [Progress 75] elaped time : 00:00:55, save : 0, err : 18, remain_work : 37, total : 112
+2018-11-08 18:11:39 INFO  Crawler:274 - [Progress 76] elaped time : 00:00:55, save : 0, err : 18, remain_work : 36, total : 112
+2018-11-08 18:11:40 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7401190?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:40 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7401190' for key 'PRIMARY'
+2018-11-08 18:11:40 INFO  Crawler:274 - [Progress 77] elaped time : 00:00:57, save : 0, err : 19, remain_work : 35, total : 112
+2018-11-08 18:11:40 INFO  Crawler:274 - [Progress 78] elaped time : 00:00:57, save : 0, err : 19, remain_work : 34, total : 112
+2018-11-08 18:11:41 INFO  Crawler:274 - [Progress 79] elaped time : 00:00:57, save : 0, err : 19, remain_work : 36, total : 115
+2018-11-08 18:11:41 INFO  Crawler:274 - [Progress 80] elaped time : 00:00:57, save : 0, err : 19, remain_work : 35, total : 115
+2018-11-08 18:11:43 ERROR Crawler:266 - [ERR URL] http://domeggook.com/4445104?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:43 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '4445104' for key 'PRIMARY'
+2018-11-08 18:11:43 INFO  Crawler:274 - [Progress 81] elaped time : 00:00:59, save : 0, err : 20, remain_work : 34, total : 115
+2018-11-08 18:11:43 INFO  Crawler:274 - [Progress 82] elaped time : 00:01:00, save : 0, err : 20, remain_work : 33, total : 115
+2018-11-08 18:11:44 INFO  Crawler:274 - [Progress 83] elaped time : 00:01:00, save : 0, err : 20, remain_work : 35, total : 118
+2018-11-08 18:11:44 INFO  Crawler:274 - [Progress 84] elaped time : 00:01:00, save : 0, err : 20, remain_work : 34, total : 118
+2018-11-08 18:11:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/3400135?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:45 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '3400135' for key 'PRIMARY'
+2018-11-08 18:11:45 INFO  Crawler:274 - [Progress 85] elaped time : 00:01:02, save : 0, err : 21, remain_work : 33, total : 118
+2018-11-08 18:11:45 INFO  Crawler:274 - [Progress 86] elaped time : 00:01:02, save : 0, err : 21, remain_work : 32, total : 118
+2018-11-08 18:11:46 INFO  Crawler:274 - [Progress 87] elaped time : 00:01:03, save : 0, err : 21, remain_work : 34, total : 121
+2018-11-08 18:11:46 INFO  Crawler:274 - [Progress 88] elaped time : 00:01:03, save : 0, err : 21, remain_work : 33, total : 121
+2018-11-08 18:11:47 ERROR Crawler:266 - [ERR URL] http://domeggook.com/4445122?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:47 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '4445122' for key 'PRIMARY'
+2018-11-08 18:11:47 INFO  Crawler:274 - [Progress 89] elaped time : 00:01:04, save : 0, err : 22, remain_work : 32, total : 121
+2018-11-08 18:11:48 INFO  Crawler:274 - [Progress 90] elaped time : 00:01:05, save : 0, err : 22, remain_work : 31, total : 121
+2018-11-08 18:11:48 INFO  Crawler:274 - [Progress 91] elaped time : 00:01:05, save : 0, err : 22, remain_work : 33, total : 124
+2018-11-08 18:11:48 INFO  Crawler:274 - [Progress 92] elaped time : 00:01:05, save : 0, err : 22, remain_work : 32, total : 124
+2018-11-08 18:11:50 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6154667?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:50 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6154667' for key 'PRIMARY'
+2018-11-08 18:11:50 INFO  Crawler:274 - [Progress 93] elaped time : 00:01:06, save : 0, err : 23, remain_work : 31, total : 124
+2018-11-08 18:11:50 INFO  Crawler:274 - [Progress 94] elaped time : 00:01:06, save : 0, err : 23, remain_work : 30, total : 124
+2018-11-08 18:11:50 INFO  Crawler:274 - [Progress 95] elaped time : 00:01:07, save : 0, err : 23, remain_work : 32, total : 127
+2018-11-08 18:11:50 INFO  Crawler:274 - [Progress 96] elaped time : 00:01:07, save : 0, err : 23, remain_work : 31, total : 127
+2018-11-08 18:11:52 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6921119?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:52 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6921119' for key 'PRIMARY'
+2018-11-08 18:11:52 INFO  Crawler:274 - [Progress 97] elaped time : 00:01:08, save : 0, err : 24, remain_work : 30, total : 127
+2018-11-08 18:11:52 INFO  Crawler:274 - [Progress 98] elaped time : 00:01:08, save : 0, err : 24, remain_work : 29, total : 127
+2018-11-08 18:11:52 INFO  Crawler:274 - [Progress 99] elaped time : 00:01:09, save : 0, err : 24, remain_work : 31, total : 130
+2018-11-08 18:11:52 INFO  Crawler:274 - [Progress 100] elaped time : 00:01:09, save : 0, err : 24, remain_work : 30, total : 130
+2018-11-08 18:11:54 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125503?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:54 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125503' for key 'PRIMARY'
+2018-11-08 18:11:54 INFO  Crawler:274 - [Progress 101] elaped time : 00:01:10, save : 0, err : 25, remain_work : 29, total : 130
+2018-11-08 18:11:54 INFO  Crawler:274 - [Progress 102] elaped time : 00:01:10, save : 0, err : 25, remain_work : 28, total : 130
+2018-11-08 18:11:54 INFO  Crawler:274 - [Progress 103] elaped time : 00:01:11, save : 0, err : 25, remain_work : 30, total : 133
+2018-11-08 18:11:54 INFO  Crawler:274 - [Progress 104] elaped time : 00:01:11, save : 0, err : 25, remain_work : 29, total : 133
+2018-11-08 18:11:56 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5104395?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:56 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5104395' for key 'PRIMARY'
+2018-11-08 18:11:56 INFO  Crawler:274 - [Progress 105] elaped time : 00:01:12, save : 0, err : 26, remain_work : 28, total : 133
+2018-11-08 18:11:56 INFO  Crawler:274 - [Progress 106] elaped time : 00:01:12, save : 0, err : 26, remain_work : 27, total : 133
+2018-11-08 18:11:56 INFO  Crawler:274 - [Progress 107] elaped time : 00:01:13, save : 0, err : 26, remain_work : 29, total : 136
+2018-11-08 18:11:56 INFO  Crawler:274 - [Progress 108] elaped time : 00:01:13, save : 0, err : 26, remain_work : 28, total : 136
+2018-11-08 18:11:58 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7033267?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:11:58 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7033267' for key 'PRIMARY'
+2018-11-08 18:11:58 INFO  Crawler:274 - [Progress 109] elaped time : 00:01:14, save : 0, err : 27, remain_work : 27, total : 136
+2018-11-08 18:11:58 INFO  Crawler:274 - [Progress 110] elaped time : 00:01:14, save : 0, err : 27, remain_work : 26, total : 136
+2018-11-08 18:11:58 INFO  Crawler:274 - [Progress 111] elaped time : 00:01:15, save : 0, err : 27, remain_work : 28, total : 139
+2018-11-08 18:11:58 INFO  Crawler:274 - [Progress 112] elaped time : 00:01:15, save : 0, err : 27, remain_work : 27, total : 139
+2018-11-08 18:12:00 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7034333?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:00 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7034333' for key 'PRIMARY'
+2018-11-08 18:12:00 INFO  Crawler:274 - [Progress 113] elaped time : 00:01:16, save : 0, err : 28, remain_work : 26, total : 139
+2018-11-08 18:12:00 INFO  Crawler:274 - [Progress 114] elaped time : 00:01:17, save : 0, err : 28, remain_work : 25, total : 139
+2018-11-08 18:12:00 INFO  Crawler:274 - [Progress 115] elaped time : 00:01:17, save : 0, err : 28, remain_work : 27, total : 142
+2018-11-08 18:12:00 INFO  Crawler:274 - [Progress 116] elaped time : 00:01:17, save : 0, err : 28, remain_work : 26, total : 142
+2018-11-08 18:12:02 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8226700?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:02 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8226700' for key 'PRIMARY'
+2018-11-08 18:12:02 INFO  Crawler:274 - [Progress 117] elaped time : 00:01:18, save : 0, err : 29, remain_work : 25, total : 142
+2018-11-08 18:12:02 INFO  Crawler:274 - [Progress 118] elaped time : 00:01:18, save : 0, err : 29, remain_work : 24, total : 142
+2018-11-08 18:12:02 INFO  Crawler:274 - [Progress 119] elaped time : 00:01:19, save : 0, err : 29, remain_work : 26, total : 145
+2018-11-08 18:12:02 INFO  Crawler:274 - [Progress 120] elaped time : 00:01:19, save : 0, err : 29, remain_work : 25, total : 145
+2018-11-08 18:12:04 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6930733?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:04 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6930733' for key 'PRIMARY'
+2018-11-08 18:12:04 INFO  Crawler:274 - [Progress 121] elaped time : 00:01:20, save : 0, err : 30, remain_work : 24, total : 145
+2018-11-08 18:12:04 INFO  Crawler:274 - [Progress 122] elaped time : 00:01:21, save : 0, err : 30, remain_work : 23, total : 145
+2018-11-08 18:12:04 INFO  Crawler:274 - [Progress 123] elaped time : 00:01:21, save : 0, err : 30, remain_work : 25, total : 148
+2018-11-08 18:12:04 INFO  Crawler:274 - [Progress 124] elaped time : 00:01:21, save : 0, err : 30, remain_work : 24, total : 148
+2018-11-08 18:12:06 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8102828?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:06 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8102828' for key 'PRIMARY'
+2018-11-08 18:12:06 INFO  Crawler:274 - [Progress 125] elaped time : 00:01:23, save : 0, err : 31, remain_work : 23, total : 148
+2018-11-08 18:12:06 INFO  Crawler:274 - [Progress 126] elaped time : 00:01:23, save : 0, err : 31, remain_work : 22, total : 148
+2018-11-08 18:12:06 INFO  Crawler:274 - [Progress 127] elaped time : 00:01:23, save : 0, err : 31, remain_work : 24, total : 151
+2018-11-08 18:12:06 INFO  Crawler:274 - [Progress 128] elaped time : 00:01:23, save : 0, err : 31, remain_work : 23, total : 151
+2018-11-08 18:12:08 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096277?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:08 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096277' for key 'PRIMARY'
+2018-11-08 18:12:08 INFO  Crawler:274 - [Progress 129] elaped time : 00:01:24, save : 0, err : 32, remain_work : 22, total : 151
+2018-11-08 18:12:08 INFO  Crawler:274 - [Progress 130] elaped time : 00:01:25, save : 0, err : 32, remain_work : 21, total : 151
+2018-11-08 18:12:08 INFO  Crawler:274 - [Progress 131] elaped time : 00:01:25, save : 0, err : 32, remain_work : 23, total : 154
+2018-11-08 18:12:08 INFO  Crawler:274 - [Progress 132] elaped time : 00:01:25, save : 0, err : 32, remain_work : 22, total : 154
+2018-11-08 18:12:11 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096274?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:11 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096274' for key 'PRIMARY'
+2018-11-08 18:12:11 INFO  Crawler:274 - [Progress 133] elaped time : 00:01:27, save : 0, err : 33, remain_work : 21, total : 154
+2018-11-08 18:12:11 INFO  Crawler:274 - [Progress 134] elaped time : 00:01:27, save : 0, err : 33, remain_work : 20, total : 154
+2018-11-08 18:12:11 INFO  Crawler:274 - [Progress 135] elaped time : 00:01:28, save : 0, err : 33, remain_work : 22, total : 157
+2018-11-08 18:12:11 INFO  Crawler:274 - [Progress 136] elaped time : 00:01:28, save : 0, err : 33, remain_work : 21, total : 157
+2018-11-08 18:12:13 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8093972?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:13 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8093972' for key 'PRIMARY'
+2018-11-08 18:12:13 INFO  Crawler:274 - [Progress 137] elaped time : 00:01:29, save : 0, err : 34, remain_work : 20, total : 157
+2018-11-08 18:12:13 INFO  Crawler:274 - [Progress 138] elaped time : 00:01:29, save : 0, err : 34, remain_work : 19, total : 157
+2018-11-08 18:12:13 INFO  Crawler:274 - [Progress 139] elaped time : 00:01:30, save : 0, err : 34, remain_work : 21, total : 160
+2018-11-08 18:12:13 INFO  Crawler:274 - [Progress 140] elaped time : 00:01:30, save : 0, err : 34, remain_work : 20, total : 160
+2018-11-08 18:12:14 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7468910?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:14 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7468910' for key 'PRIMARY'
+2018-11-08 18:12:14 INFO  Crawler:274 - [Progress 141] elaped time : 00:01:31, save : 0, err : 35, remain_work : 19, total : 160
+2018-11-08 18:12:15 INFO  Crawler:274 - [Progress 142] elaped time : 00:01:31, save : 0, err : 35, remain_work : 18, total : 160
+2018-11-08 18:12:15 INFO  Crawler:274 - [Progress 143] elaped time : 00:01:32, save : 0, err : 35, remain_work : 20, total : 163
+2018-11-08 18:12:15 INFO  Crawler:274 - [Progress 144] elaped time : 00:01:32, save : 0, err : 35, remain_work : 19, total : 163
+2018-11-08 18:12:16 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7468906?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:16 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7468906' for key 'PRIMARY'
+2018-11-08 18:12:16 INFO  Crawler:274 - [Progress 145] elaped time : 00:01:33, save : 0, err : 36, remain_work : 18, total : 163
+2018-11-08 18:12:16 INFO  Crawler:274 - [Progress 146] elaped time : 00:01:33, save : 0, err : 36, remain_work : 17, total : 163
+2018-11-08 18:12:17 INFO  Crawler:274 - [Progress 147] elaped time : 00:01:33, save : 0, err : 36, remain_work : 19, total : 166
+2018-11-08 18:12:17 INFO  Crawler:274 - [Progress 148] elaped time : 00:01:33, save : 0, err : 36, remain_work : 18, total : 166
+2018-11-08 18:12:19 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8024559?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:19 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8024559' for key 'PRIMARY'
+2018-11-08 18:12:19 INFO  Crawler:274 - [Progress 149] elaped time : 00:01:35, save : 0, err : 37, remain_work : 17, total : 166
+2018-11-08 18:12:19 INFO  Crawler:274 - [Progress 150] elaped time : 00:01:35, save : 0, err : 37, remain_work : 16, total : 166
+2018-11-08 18:12:19 INFO  Crawler:274 - [Progress 151] elaped time : 00:01:36, save : 0, err : 37, remain_work : 18, total : 169
+2018-11-08 18:12:19 INFO  Crawler:274 - [Progress 152] elaped time : 00:01:36, save : 0, err : 37, remain_work : 17, total : 169
+2018-11-08 18:12:20 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970712?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:20 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970712' for key 'PRIMARY'
+2018-11-08 18:12:20 INFO  Crawler:274 - [Progress 153] elaped time : 00:01:37, save : 0, err : 38, remain_work : 16, total : 169
+2018-11-08 18:12:21 INFO  Crawler:274 - [Progress 154] elaped time : 00:01:37, save : 0, err : 38, remain_work : 15, total : 169
+2018-11-08 18:12:21 INFO  Crawler:274 - [Progress 155] elaped time : 00:01:38, save : 0, err : 38, remain_work : 17, total : 172
+2018-11-08 18:12:21 INFO  Crawler:274 - [Progress 156] elaped time : 00:01:38, save : 0, err : 38, remain_work : 16, total : 172
+2018-11-08 18:12:23 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970718?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:23 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970718' for key 'PRIMARY'
+2018-11-08 18:12:23 INFO  Crawler:274 - [Progress 157] elaped time : 00:01:39, save : 0, err : 39, remain_work : 15, total : 172
+2018-11-08 18:12:23 INFO  Crawler:274 - [Progress 158] elaped time : 00:01:39, save : 0, err : 39, remain_work : 14, total : 172
+2018-11-08 18:12:23 INFO  Crawler:274 - [Progress 159] elaped time : 00:01:40, save : 0, err : 39, remain_work : 16, total : 175
+2018-11-08 18:12:23 INFO  Crawler:274 - [Progress 160] elaped time : 00:01:40, save : 0, err : 39, remain_work : 15, total : 175
+2018-11-08 18:12:24 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970717?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:24 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970717' for key 'PRIMARY'
+2018-11-08 18:12:24 INFO  Crawler:274 - [Progress 161] elaped time : 00:01:41, save : 0, err : 40, remain_work : 14, total : 175
+2018-11-08 18:12:25 INFO  Crawler:274 - [Progress 162] elaped time : 00:01:41, save : 0, err : 40, remain_work : 13, total : 175
+2018-11-08 18:12:25 INFO  Crawler:274 - [Progress 163] elaped time : 00:01:42, save : 0, err : 40, remain_work : 15, total : 178
+2018-11-08 18:12:25 INFO  Crawler:274 - [Progress 164] elaped time : 00:01:42, save : 0, err : 40, remain_work : 14, total : 178
+2018-11-08 18:12:27 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970716?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:27 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970716' for key 'PRIMARY'
+2018-11-08 18:12:27 INFO  Crawler:274 - [Progress 165] elaped time : 00:01:43, save : 0, err : 41, remain_work : 13, total : 178
+2018-11-08 18:12:27 INFO  Crawler:274 - [Progress 166] elaped time : 00:01:43, save : 0, err : 41, remain_work : 12, total : 178
+2018-11-08 18:12:27 INFO  Crawler:274 - [Progress 167] elaped time : 00:01:44, save : 0, err : 41, remain_work : 14, total : 181
+2018-11-08 18:12:27 INFO  Crawler:274 - [Progress 168] elaped time : 00:01:44, save : 0, err : 41, remain_work : 13, total : 181
+2018-11-08 18:12:29 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970713?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:29 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970713' for key 'PRIMARY'
+2018-11-08 18:12:29 INFO  Crawler:274 - [Progress 169] elaped time : 00:01:45, save : 0, err : 42, remain_work : 12, total : 181
+2018-11-08 18:12:29 INFO  Crawler:274 - [Progress 170] elaped time : 00:01:45, save : 0, err : 42, remain_work : 11, total : 181
+2018-11-08 18:12:29 INFO  Crawler:274 - [Progress 171] elaped time : 00:01:46, save : 0, err : 42, remain_work : 13, total : 184
+2018-11-08 18:12:29 INFO  Crawler:274 - [Progress 172] elaped time : 00:01:46, save : 0, err : 42, remain_work : 12, total : 184
+2018-11-08 18:12:30 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970711?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:30 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970711' for key 'PRIMARY'
+2018-11-08 18:12:30 INFO  Crawler:274 - [Progress 173] elaped time : 00:01:47, save : 0, err : 43, remain_work : 11, total : 184
+2018-11-08 18:12:30 INFO  Crawler:274 - [Progress 174] elaped time : 00:01:47, save : 0, err : 43, remain_work : 10, total : 184
+2018-11-08 18:12:31 INFO  Crawler:274 - [Progress 175] elaped time : 00:01:48, save : 0, err : 43, remain_work : 12, total : 187
+2018-11-08 18:12:31 INFO  Crawler:274 - [Progress 176] elaped time : 00:01:48, save : 0, err : 43, remain_work : 11, total : 187
+2018-11-08 18:12:32 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970710?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:32 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970710' for key 'PRIMARY'
+2018-11-08 18:12:32 INFO  Crawler:274 - [Progress 177] elaped time : 00:01:49, save : 0, err : 44, remain_work : 10, total : 187
+2018-11-08 18:12:32 INFO  Crawler:274 - [Progress 178] elaped time : 00:01:49, save : 0, err : 44, remain_work : 9, total : 187
+2018-11-08 18:12:33 INFO  Crawler:274 - [Progress 179] elaped time : 00:01:49, save : 0, err : 44, remain_work : 11, total : 190
+2018-11-08 18:12:33 INFO  Crawler:274 - [Progress 180] elaped time : 00:01:49, save : 0, err : 44, remain_work : 10, total : 190
+2018-11-08 18:12:34 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7970709?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:34 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7970709' for key 'PRIMARY'
+2018-11-08 18:12:34 INFO  Crawler:274 - [Progress 181] elaped time : 00:01:51, save : 0, err : 45, remain_work : 9, total : 190
+2018-11-08 18:12:34 INFO  Crawler:274 - [Progress 182] elaped time : 00:01:51, save : 0, err : 45, remain_work : 8, total : 190
+2018-11-08 18:12:35 INFO  Crawler:274 - [Progress 183] elaped time : 00:01:51, save : 0, err : 45, remain_work : 10, total : 193
+2018-11-08 18:12:35 INFO  Crawler:274 - [Progress 184] elaped time : 00:01:51, save : 0, err : 45, remain_work : 9, total : 193
+2018-11-08 18:12:36 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7971973?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:36 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7971973' for key 'PRIMARY'
+2018-11-08 18:12:36 INFO  Crawler:274 - [Progress 185] elaped time : 00:01:53, save : 0, err : 46, remain_work : 8, total : 193
+2018-11-08 18:12:36 INFO  Crawler:274 - [Progress 186] elaped time : 00:01:53, save : 0, err : 46, remain_work : 7, total : 193
+2018-11-08 18:12:37 INFO  Crawler:274 - [Progress 187] elaped time : 00:01:53, save : 0, err : 46, remain_work : 9, total : 196
+2018-11-08 18:12:37 INFO  Crawler:274 - [Progress 188] elaped time : 00:01:53, save : 0, err : 46, remain_work : 8, total : 196
+2018-11-08 18:12:38 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7971964?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:38 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7971964' for key 'PRIMARY'
+2018-11-08 18:12:38 INFO  Crawler:274 - [Progress 189] elaped time : 00:01:55, save : 0, err : 47, remain_work : 7, total : 196
+2018-11-08 18:12:38 INFO  Crawler:274 - [Progress 190] elaped time : 00:01:55, save : 0, err : 47, remain_work : 6, total : 196
+2018-11-08 18:12:38 INFO  Crawler:274 - [Progress 191] elaped time : 00:01:55, save : 0, err : 47, remain_work : 8, total : 199
+2018-11-08 18:12:39 INFO  Crawler:274 - [Progress 192] elaped time : 00:01:55, save : 0, err : 47, remain_work : 7, total : 199
+2018-11-08 18:12:40 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7971956?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:40 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7971956' for key 'PRIMARY'
+2018-11-08 18:12:40 INFO  Crawler:274 - [Progress 193] elaped time : 00:01:57, save : 0, err : 48, remain_work : 6, total : 199
+2018-11-08 18:12:40 INFO  Crawler:274 - [Progress 194] elaped time : 00:01:57, save : 0, err : 48, remain_work : 5, total : 199
+2018-11-08 18:12:41 INFO  Crawler:274 - [Progress 195] elaped time : 00:01:57, save : 0, err : 48, remain_work : 7, total : 202
+2018-11-08 18:12:41 INFO  Crawler:274 - [Progress 196] elaped time : 00:01:57, save : 0, err : 48, remain_work : 6, total : 202
+2018-11-08 18:12:43 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972227?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:43 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972227' for key 'PRIMARY'
+2018-11-08 18:12:43 INFO  Crawler:274 - [Progress 197] elaped time : 00:01:59, save : 0, err : 49, remain_work : 5, total : 202
+2018-11-08 18:12:43 INFO  Crawler:274 - [Progress 198] elaped time : 00:02:00, save : 0, err : 49, remain_work : 4, total : 202
+2018-11-08 18:12:43 INFO  Crawler:274 - [Progress 199] elaped time : 00:02:00, save : 0, err : 49, remain_work : 6, total : 205
+2018-11-08 18:12:43 INFO  Crawler:274 - [Progress 200] elaped time : 00:02:00, save : 0, err : 49, remain_work : 5, total : 205
+2018-11-08 18:12:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972224?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:45 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972224' for key 'PRIMARY'
+2018-11-08 18:12:45 INFO  Crawler:274 - [Progress 201] elaped time : 00:02:01, save : 0, err : 50, remain_work : 4, total : 205
+2018-11-08 18:12:45 INFO  Crawler:274 - [Progress 202] elaped time : 00:02:01, save : 0, err : 50, remain_work : 3, total : 205
+2018-11-08 18:12:45 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:12:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:45 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:12:45 INFO  Crawler:274 - [Progress 203] elaped time : 00:02:02, save : 0, err : 51, remain_work : 2, total : 205
+2018-11-08 18:12:45 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:12:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 18:12:45 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:12:45 INFO  Crawler:274 - [Progress 204] elaped time : 00:02:02, save : 0, err : 52, remain_work : 1, total : 205
+2018-11-08 18:12:47 INFO  Crawler:274 - [Progress 205] elaped time : 00:02:03, save : 0, err : 52, remain_work : 2, total : 207
+2018-11-08 18:12:47 INFO  Crawler:274 - [Progress 206] elaped time : 00:02:04, save : 0, err : 52, remain_work : 53, total : 259
+2018-11-08 18:12:47 INFO  Crawler:274 - [Progress 207] elaped time : 00:02:04, save : 0, err : 52, remain_work : 55, total : 262
+2018-11-08 18:12:47 INFO  Crawler:274 - [Progress 208] elaped time : 00:02:04, save : 0, err : 52, remain_work : 54, total : 262
+2018-11-08 18:12:49 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972222?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:49 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972222' for key 'PRIMARY'
+2018-11-08 18:12:49 INFO  Crawler:274 - [Progress 209] elaped time : 00:02:05, save : 0, err : 53, remain_work : 53, total : 262
+2018-11-08 18:12:49 INFO  Crawler:274 - [Progress 210] elaped time : 00:02:05, save : 0, err : 53, remain_work : 52, total : 262
+2018-11-08 18:12:49 INFO  Crawler:274 - [Progress 211] elaped time : 00:02:06, save : 0, err : 53, remain_work : 54, total : 265
+2018-11-08 18:12:49 INFO  Crawler:274 - [Progress 212] elaped time : 00:02:06, save : 0, err : 53, remain_work : 53, total : 265
+2018-11-08 18:12:50 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972230?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:50 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972230' for key 'PRIMARY'
+2018-11-08 18:12:50 INFO  Crawler:274 - [Progress 213] elaped time : 00:02:07, save : 0, err : 54, remain_work : 52, total : 265
+2018-11-08 18:12:50 INFO  Crawler:274 - [Progress 214] elaped time : 00:02:07, save : 0, err : 54, remain_work : 51, total : 265
+2018-11-08 18:12:51 INFO  Crawler:274 - [Progress 215] elaped time : 00:02:08, save : 0, err : 54, remain_work : 53, total : 268
+2018-11-08 18:12:51 INFO  Crawler:274 - [Progress 216] elaped time : 00:02:08, save : 0, err : 54, remain_work : 52, total : 268
+2018-11-08 18:12:53 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7972228?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:53 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7972228' for key 'PRIMARY'
+2018-11-08 18:12:53 INFO  Crawler:274 - [Progress 217] elaped time : 00:02:09, save : 0, err : 55, remain_work : 51, total : 268
+2018-11-08 18:12:53 INFO  Crawler:274 - [Progress 218] elaped time : 00:02:09, save : 0, err : 55, remain_work : 50, total : 268
+2018-11-08 18:12:53 INFO  Crawler:274 - [Progress 219] elaped time : 00:02:10, save : 0, err : 55, remain_work : 52, total : 271
+2018-11-08 18:12:53 INFO  Crawler:274 - [Progress 220] elaped time : 00:02:10, save : 0, err : 55, remain_work : 51, total : 271
+2018-11-08 18:12:55 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7436354?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:55 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7436354' for key 'PRIMARY'
+2018-11-08 18:12:55 INFO  Crawler:274 - [Progress 221] elaped time : 00:02:12, save : 0, err : 56, remain_work : 50, total : 271
+2018-11-08 18:12:55 INFO  Crawler:274 - [Progress 222] elaped time : 00:02:12, save : 0, err : 56, remain_work : 49, total : 271
+2018-11-08 18:12:56 INFO  Crawler:274 - [Progress 223] elaped time : 00:02:13, save : 0, err : 56, remain_work : 51, total : 274
+2018-11-08 18:12:56 INFO  Crawler:274 - [Progress 224] elaped time : 00:02:13, save : 0, err : 56, remain_work : 50, total : 274
+2018-11-08 18:12:57 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096463?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:57 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096463' for key 'PRIMARY'
+2018-11-08 18:12:57 INFO  Crawler:274 - [Progress 225] elaped time : 00:02:14, save : 0, err : 57, remain_work : 49, total : 274
+2018-11-08 18:12:57 INFO  Crawler:274 - [Progress 226] elaped time : 00:02:14, save : 0, err : 57, remain_work : 48, total : 274
+2018-11-08 18:12:58 INFO  Crawler:274 - [Progress 227] elaped time : 00:02:14, save : 0, err : 57, remain_work : 50, total : 277
+2018-11-08 18:12:58 INFO  Crawler:274 - [Progress 228] elaped time : 00:02:14, save : 0, err : 57, remain_work : 49, total : 277
+2018-11-08 18:12:59 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096464?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:12:59 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096464' for key 'PRIMARY'
+2018-11-08 18:12:59 INFO  Crawler:274 - [Progress 229] elaped time : 00:02:16, save : 0, err : 58, remain_work : 48, total : 277
+2018-11-08 18:12:59 INFO  Crawler:274 - [Progress 230] elaped time : 00:02:16, save : 0, err : 58, remain_work : 47, total : 277
+2018-11-08 18:13:00 INFO  Crawler:274 - [Progress 231] elaped time : 00:02:16, save : 0, err : 58, remain_work : 49, total : 280
+2018-11-08 18:13:00 INFO  Crawler:274 - [Progress 232] elaped time : 00:02:16, save : 0, err : 58, remain_work : 48, total : 280
+2018-11-08 18:13:01 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7404970?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:01 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7404970' for key 'PRIMARY'
+2018-11-08 18:13:01 INFO  Crawler:274 - [Progress 233] elaped time : 00:02:18, save : 0, err : 59, remain_work : 47, total : 280
+2018-11-08 18:13:01 INFO  Crawler:274 - [Progress 234] elaped time : 00:02:18, save : 0, err : 59, remain_work : 46, total : 280
+2018-11-08 18:13:02 INFO  Crawler:274 - [Progress 235] elaped time : 00:02:18, save : 0, err : 59, remain_work : 48, total : 283
+2018-11-08 18:13:02 INFO  Crawler:274 - [Progress 236] elaped time : 00:02:18, save : 0, err : 59, remain_work : 47, total : 283
+2018-11-08 18:13:03 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7404968?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:03 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7404968' for key 'PRIMARY'
+2018-11-08 18:13:03 INFO  Crawler:274 - [Progress 237] elaped time : 00:02:19, save : 0, err : 60, remain_work : 46, total : 283
+2018-11-08 18:13:03 INFO  Crawler:274 - [Progress 238] elaped time : 00:02:20, save : 0, err : 60, remain_work : 45, total : 283
+2018-11-08 18:13:03 INFO  Crawler:274 - [Progress 239] elaped time : 00:02:20, save : 0, err : 60, remain_work : 47, total : 286
+2018-11-08 18:13:03 INFO  Crawler:274 - [Progress 240] elaped time : 00:02:20, save : 0, err : 60, remain_work : 46, total : 286
+2018-11-08 18:13:05 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6918047?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:05 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6918047' for key 'PRIMARY'
+2018-11-08 18:13:05 INFO  Crawler:274 - [Progress 241] elaped time : 00:02:22, save : 0, err : 61, remain_work : 45, total : 286
+2018-11-08 18:13:06 INFO  Crawler:274 - [Progress 242] elaped time : 00:02:22, save : 0, err : 61, remain_work : 44, total : 286
+2018-11-08 18:13:06 INFO  Crawler:274 - [Progress 243] elaped time : 00:02:23, save : 0, err : 61, remain_work : 46, total : 289
+2018-11-08 18:13:06 INFO  Crawler:274 - [Progress 244] elaped time : 00:02:23, save : 0, err : 61, remain_work : 45, total : 289
+2018-11-08 18:13:08 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5929102?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:08 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5929102' for key 'PRIMARY'
+2018-11-08 18:13:08 INFO  Crawler:274 - [Progress 245] elaped time : 00:02:24, save : 0, err : 62, remain_work : 44, total : 289
+2018-11-08 18:13:08 INFO  Crawler:274 - [Progress 246] elaped time : 00:02:25, save : 0, err : 62, remain_work : 43, total : 289
+2018-11-08 18:13:08 INFO  Crawler:274 - [Progress 247] elaped time : 00:02:25, save : 0, err : 62, remain_work : 45, total : 292
+2018-11-08 18:13:08 INFO  Crawler:274 - [Progress 248] elaped time : 00:02:25, save : 0, err : 62, remain_work : 44, total : 292
+2018-11-08 18:13:10 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5929145?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:10 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5929145' for key 'PRIMARY'
+2018-11-08 18:13:10 INFO  Crawler:274 - [Progress 249] elaped time : 00:02:26, save : 0, err : 63, remain_work : 43, total : 292
+2018-11-08 18:13:10 INFO  Crawler:274 - [Progress 250] elaped time : 00:02:26, save : 0, err : 63, remain_work : 42, total : 292
+2018-11-08 18:13:10 INFO  Crawler:274 - [Progress 251] elaped time : 00:02:27, save : 0, err : 63, remain_work : 44, total : 295
+2018-11-08 18:13:10 INFO  Crawler:274 - [Progress 252] elaped time : 00:02:27, save : 0, err : 63, remain_work : 43, total : 295
+2018-11-08 18:13:11 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8266984?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:11 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8266984' for key 'PRIMARY'
+2018-11-08 18:13:11 INFO  Crawler:274 - [Progress 253] elaped time : 00:02:28, save : 0, err : 64, remain_work : 42, total : 295
+2018-11-08 18:13:11 INFO  Crawler:274 - [Progress 254] elaped time : 00:02:28, save : 0, err : 64, remain_work : 41, total : 295
+2018-11-08 18:13:12 INFO  Crawler:274 - [Progress 255] elaped time : 00:02:29, save : 0, err : 64, remain_work : 43, total : 298
+2018-11-08 18:13:12 INFO  Crawler:274 - [Progress 256] elaped time : 00:02:29, save : 0, err : 64, remain_work : 42, total : 298
+2018-11-08 18:13:13 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5726945?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:13 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5726945' for key 'PRIMARY'
+2018-11-08 18:13:13 INFO  Crawler:274 - [Progress 257] elaped time : 00:02:30, save : 0, err : 65, remain_work : 41, total : 298
+2018-11-08 18:13:13 INFO  Crawler:274 - [Progress 258] elaped time : 00:02:30, save : 0, err : 65, remain_work : 40, total : 298
+2018-11-08 18:13:14 INFO  Crawler:274 - [Progress 259] elaped time : 00:02:30, save : 0, err : 65, remain_work : 42, total : 301
+2018-11-08 18:13:14 INFO  Crawler:274 - [Progress 260] elaped time : 00:02:30, save : 0, err : 65, remain_work : 41, total : 301
+2018-11-08 18:13:15 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7411482?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:15 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7411482' for key 'PRIMARY'
+2018-11-08 18:13:15 INFO  Crawler:274 - [Progress 261] elaped time : 00:02:32, save : 0, err : 66, remain_work : 40, total : 301
+2018-11-08 18:13:15 INFO  Crawler:274 - [Progress 262] elaped time : 00:02:32, save : 0, err : 66, remain_work : 39, total : 301
+2018-11-08 18:13:15 INFO  Crawler:274 - [Progress 263] elaped time : 00:02:32, save : 0, err : 66, remain_work : 41, total : 304
+2018-11-08 18:13:15 INFO  Crawler:274 - [Progress 264] elaped time : 00:02:32, save : 0, err : 66, remain_work : 40, total : 304
+2018-11-08 18:13:17 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7411147?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:17 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7411147' for key 'PRIMARY'
+2018-11-08 18:13:17 INFO  Crawler:274 - [Progress 265] elaped time : 00:02:33, save : 0, err : 67, remain_work : 39, total : 304
+2018-11-08 18:13:17 INFO  Crawler:274 - [Progress 266] elaped time : 00:02:34, save : 0, err : 67, remain_work : 38, total : 304
+2018-11-08 18:13:17 INFO  Crawler:274 - [Progress 267] elaped time : 00:02:34, save : 0, err : 67, remain_work : 40, total : 307
+2018-11-08 18:13:17 INFO  Crawler:274 - [Progress 268] elaped time : 00:02:34, save : 0, err : 67, remain_work : 39, total : 307
+2018-11-08 18:13:19 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6003317?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:19 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6003317' for key 'PRIMARY'
+2018-11-08 18:13:19 INFO  Crawler:274 - [Progress 269] elaped time : 00:02:35, save : 0, err : 68, remain_work : 38, total : 307
+2018-11-08 18:13:19 INFO  Crawler:274 - [Progress 270] elaped time : 00:02:35, save : 0, err : 68, remain_work : 37, total : 307
+2018-11-08 18:13:19 INFO  Crawler:274 - [Progress 271] elaped time : 00:02:36, save : 0, err : 68, remain_work : 39, total : 310
+2018-11-08 18:13:19 INFO  Crawler:274 - [Progress 272] elaped time : 00:02:36, save : 0, err : 68, remain_work : 38, total : 310
+2018-11-08 18:13:20 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6003315?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:20 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6003315' for key 'PRIMARY'
+2018-11-08 18:13:20 INFO  Crawler:274 - [Progress 273] elaped time : 00:02:37, save : 0, err : 69, remain_work : 37, total : 310
+2018-11-08 18:13:20 INFO  Crawler:274 - [Progress 274] elaped time : 00:02:37, save : 0, err : 69, remain_work : 36, total : 310
+2018-11-08 18:13:21 INFO  Crawler:274 - [Progress 275] elaped time : 00:02:37, save : 0, err : 69, remain_work : 38, total : 313
+2018-11-08 18:13:21 INFO  Crawler:274 - [Progress 276] elaped time : 00:02:38, save : 0, err : 69, remain_work : 37, total : 313
+2018-11-08 18:13:22 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5987368?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:22 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5987368' for key 'PRIMARY'
+2018-11-08 18:13:22 INFO  Crawler:274 - [Progress 277] elaped time : 00:02:39, save : 0, err : 70, remain_work : 36, total : 313
+2018-11-08 18:13:22 INFO  Crawler:274 - [Progress 278] elaped time : 00:02:39, save : 0, err : 70, remain_work : 35, total : 313
+2018-11-08 18:13:23 INFO  Crawler:274 - [Progress 279] elaped time : 00:02:39, save : 0, err : 70, remain_work : 37, total : 316
+2018-11-08 18:13:23 INFO  Crawler:274 - [Progress 280] elaped time : 00:02:39, save : 0, err : 70, remain_work : 36, total : 316
+2018-11-08 18:13:25 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5987353?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:25 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5987353' for key 'PRIMARY'
+2018-11-08 18:13:25 INFO  Crawler:274 - [Progress 281] elaped time : 00:02:41, save : 0, err : 71, remain_work : 35, total : 316
+2018-11-08 18:13:25 INFO  Crawler:274 - [Progress 282] elaped time : 00:02:41, save : 0, err : 71, remain_work : 34, total : 316
+2018-11-08 18:13:25 INFO  Crawler:274 - [Progress 283] elaped time : 00:02:42, save : 0, err : 71, remain_work : 36, total : 319
+2018-11-08 18:13:25 INFO  Crawler:274 - [Progress 284] elaped time : 00:02:42, save : 0, err : 71, remain_work : 35, total : 319
+2018-11-08 18:13:27 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096946?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:27 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096946' for key 'PRIMARY'
+2018-11-08 18:13:27 INFO  Crawler:274 - [Progress 285] elaped time : 00:02:43, save : 0, err : 72, remain_work : 34, total : 319
+2018-11-08 18:13:27 INFO  Crawler:274 - [Progress 286] elaped time : 00:02:44, save : 0, err : 72, remain_work : 33, total : 319
+2018-11-08 18:13:27 INFO  Crawler:274 - [Progress 287] elaped time : 00:02:44, save : 0, err : 72, remain_work : 35, total : 322
+2018-11-08 18:13:27 INFO  Crawler:274 - [Progress 288] elaped time : 00:02:44, save : 0, err : 72, remain_work : 34, total : 322
+2018-11-08 18:13:29 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096948?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:29 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096948' for key 'PRIMARY'
+2018-11-08 18:13:29 INFO  Crawler:274 - [Progress 289] elaped time : 00:02:45, save : 0, err : 73, remain_work : 33, total : 322
+2018-11-08 18:13:29 INFO  Crawler:274 - [Progress 290] elaped time : 00:02:46, save : 0, err : 73, remain_work : 32, total : 322
+2018-11-08 18:13:29 INFO  Crawler:274 - [Progress 291] elaped time : 00:02:46, save : 0, err : 73, remain_work : 34, total : 325
+2018-11-08 18:13:30 INFO  Crawler:274 - [Progress 292] elaped time : 00:02:46, save : 0, err : 73, remain_work : 33, total : 325
+2018-11-08 18:13:31 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096944?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:31 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096944' for key 'PRIMARY'
+2018-11-08 18:13:31 INFO  Crawler:274 - [Progress 293] elaped time : 00:02:48, save : 0, err : 74, remain_work : 32, total : 325
+2018-11-08 18:13:31 INFO  Crawler:274 - [Progress 294] elaped time : 00:02:48, save : 0, err : 74, remain_work : 31, total : 325
+2018-11-08 18:13:31 INFO  Crawler:274 - [Progress 295] elaped time : 00:02:48, save : 0, err : 74, remain_work : 33, total : 328
+2018-11-08 18:13:31 INFO  Crawler:274 - [Progress 296] elaped time : 00:02:48, save : 0, err : 74, remain_work : 32, total : 328
+2018-11-08 18:13:33 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096945?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:33 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096945' for key 'PRIMARY'
+2018-11-08 18:13:33 INFO  Crawler:274 - [Progress 297] elaped time : 00:02:49, save : 0, err : 75, remain_work : 31, total : 328
+2018-11-08 18:13:33 INFO  Crawler:274 - [Progress 298] elaped time : 00:02:49, save : 0, err : 75, remain_work : 30, total : 328
+2018-11-08 18:13:33 INFO  Crawler:274 - [Progress 299] elaped time : 00:02:50, save : 0, err : 75, remain_work : 32, total : 331
+2018-11-08 18:13:33 INFO  Crawler:274 - [Progress 300] elaped time : 00:02:50, save : 0, err : 75, remain_work : 31, total : 331
+2018-11-08 18:13:34 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096721?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:34 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096721' for key 'PRIMARY'
+2018-11-08 18:13:34 INFO  Crawler:274 - [Progress 301] elaped time : 00:02:51, save : 0, err : 76, remain_work : 30, total : 331
+2018-11-08 18:13:35 INFO  Crawler:274 - [Progress 302] elaped time : 00:02:51, save : 0, err : 76, remain_work : 29, total : 331
+2018-11-08 18:13:35 INFO  Crawler:274 - [Progress 303] elaped time : 00:02:52, save : 0, err : 76, remain_work : 31, total : 334
+2018-11-08 18:13:35 INFO  Crawler:274 - [Progress 304] elaped time : 00:02:52, save : 0, err : 76, remain_work : 30, total : 334
+2018-11-08 18:13:36 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096719?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:36 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096719' for key 'PRIMARY'
+2018-11-08 18:13:36 INFO  Crawler:274 - [Progress 305] elaped time : 00:02:53, save : 0, err : 77, remain_work : 29, total : 334
+2018-11-08 18:13:36 INFO  Crawler:274 - [Progress 306] elaped time : 00:02:53, save : 0, err : 77, remain_work : 28, total : 334
+2018-11-08 18:13:37 INFO  Crawler:274 - [Progress 307] elaped time : 00:02:53, save : 0, err : 77, remain_work : 30, total : 337
+2018-11-08 18:13:37 INFO  Crawler:274 - [Progress 308] elaped time : 00:02:53, save : 0, err : 77, remain_work : 29, total : 337
+2018-11-08 18:13:38 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096935?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:38 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096935' for key 'PRIMARY'
+2018-11-08 18:13:38 INFO  Crawler:274 - [Progress 309] elaped time : 00:02:55, save : 0, err : 78, remain_work : 28, total : 337
+2018-11-08 18:13:38 INFO  Crawler:274 - [Progress 310] elaped time : 00:02:55, save : 0, err : 78, remain_work : 27, total : 337
+2018-11-08 18:13:38 INFO  Crawler:274 - [Progress 311] elaped time : 00:02:55, save : 0, err : 78, remain_work : 29, total : 340
+2018-11-08 18:13:38 INFO  Crawler:274 - [Progress 312] elaped time : 00:02:55, save : 0, err : 78, remain_work : 28, total : 340
+2018-11-08 18:13:40 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8096933?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:40 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8096933' for key 'PRIMARY'
+2018-11-08 18:13:40 INFO  Crawler:274 - [Progress 313] elaped time : 00:02:56, save : 0, err : 79, remain_work : 27, total : 340
+2018-11-08 18:13:40 INFO  Crawler:274 - [Progress 314] elaped time : 00:02:57, save : 0, err : 79, remain_work : 26, total : 340
+2018-11-08 18:13:40 INFO  Crawler:274 - [Progress 315] elaped time : 00:02:57, save : 0, err : 79, remain_work : 28, total : 343
+2018-11-08 18:13:40 INFO  Crawler:274 - [Progress 316] elaped time : 00:02:57, save : 0, err : 79, remain_work : 27, total : 343
+2018-11-08 18:13:43 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097044?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:43 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097044' for key 'PRIMARY'
+2018-11-08 18:13:43 INFO  Crawler:274 - [Progress 317] elaped time : 00:02:59, save : 0, err : 80, remain_work : 26, total : 343
+2018-11-08 18:13:43 INFO  Crawler:274 - [Progress 318] elaped time : 00:02:59, save : 0, err : 80, remain_work : 25, total : 343
+2018-11-08 18:13:43 INFO  Crawler:274 - [Progress 319] elaped time : 00:03:00, save : 0, err : 80, remain_work : 27, total : 346
+2018-11-08 18:13:43 INFO  Crawler:274 - [Progress 320] elaped time : 00:03:00, save : 0, err : 80, remain_work : 26, total : 346
+2018-11-08 18:13:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097042?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:45 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097042' for key 'PRIMARY'
+2018-11-08 18:13:45 INFO  Crawler:274 - [Progress 321] elaped time : 00:03:01, save : 0, err : 81, remain_work : 25, total : 346
+2018-11-08 18:13:45 INFO  Crawler:274 - [Progress 322] elaped time : 00:03:02, save : 0, err : 81, remain_work : 24, total : 346
+2018-11-08 18:13:45 INFO  Crawler:274 - [Progress 323] elaped time : 00:03:02, save : 0, err : 81, remain_work : 26, total : 349
+2018-11-08 18:13:45 INFO  Crawler:274 - [Progress 324] elaped time : 00:03:02, save : 0, err : 81, remain_work : 25, total : 349
+2018-11-08 18:13:47 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097018?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:47 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097018' for key 'PRIMARY'
+2018-11-08 18:13:47 INFO  Crawler:274 - [Progress 325] elaped time : 00:03:04, save : 0, err : 82, remain_work : 24, total : 349
+2018-11-08 18:13:47 INFO  Crawler:274 - [Progress 326] elaped time : 00:03:04, save : 0, err : 82, remain_work : 23, total : 349
+2018-11-08 18:13:48 INFO  Crawler:274 - [Progress 327] elaped time : 00:03:05, save : 0, err : 82, remain_work : 25, total : 352
+2018-11-08 18:13:48 INFO  Crawler:274 - [Progress 328] elaped time : 00:03:05, save : 0, err : 82, remain_work : 24, total : 352
+2018-11-08 18:13:49 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097020?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:49 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097020' for key 'PRIMARY'
+2018-11-08 18:13:49 INFO  Crawler:274 - [Progress 329] elaped time : 00:03:06, save : 0, err : 83, remain_work : 23, total : 352
+2018-11-08 18:13:49 INFO  Crawler:274 - [Progress 330] elaped time : 00:03:06, save : 0, err : 83, remain_work : 22, total : 352
+2018-11-08 18:13:50 INFO  Crawler:274 - [Progress 331] elaped time : 00:03:06, save : 0, err : 83, remain_work : 24, total : 355
+2018-11-08 18:13:50 INFO  Crawler:274 - [Progress 332] elaped time : 00:03:06, save : 0, err : 83, remain_work : 23, total : 355
+2018-11-08 18:13:51 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097039?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:51 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097039' for key 'PRIMARY'
+2018-11-08 18:13:51 INFO  Crawler:274 - [Progress 333] elaped time : 00:03:08, save : 0, err : 84, remain_work : 22, total : 355
+2018-11-08 18:13:51 INFO  Crawler:274 - [Progress 334] elaped time : 00:03:08, save : 0, err : 84, remain_work : 21, total : 355
+2018-11-08 18:13:52 INFO  Crawler:274 - [Progress 335] elaped time : 00:03:08, save : 0, err : 84, remain_work : 23, total : 358
+2018-11-08 18:13:52 INFO  Crawler:274 - [Progress 336] elaped time : 00:03:08, save : 0, err : 84, remain_work : 22, total : 358
+2018-11-08 18:13:53 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097038?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:53 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097038' for key 'PRIMARY'
+2018-11-08 18:13:53 INFO  Crawler:274 - [Progress 337] elaped time : 00:03:10, save : 0, err : 85, remain_work : 21, total : 358
+2018-11-08 18:13:53 INFO  Crawler:274 - [Progress 338] elaped time : 00:03:10, save : 0, err : 85, remain_work : 20, total : 358
+2018-11-08 18:13:54 INFO  Crawler:274 - [Progress 339] elaped time : 00:03:10, save : 0, err : 85, remain_work : 22, total : 361
+2018-11-08 18:13:54 INFO  Crawler:274 - [Progress 340] elaped time : 00:03:10, save : 0, err : 85, remain_work : 21, total : 361
+2018-11-08 18:13:55 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097031?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:55 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097031' for key 'PRIMARY'
+2018-11-08 18:13:55 INFO  Crawler:274 - [Progress 341] elaped time : 00:03:12, save : 0, err : 86, remain_work : 20, total : 361
+2018-11-08 18:13:55 INFO  Crawler:274 - [Progress 342] elaped time : 00:03:12, save : 0, err : 86, remain_work : 19, total : 361
+2018-11-08 18:13:56 INFO  Crawler:274 - [Progress 343] elaped time : 00:03:13, save : 0, err : 86, remain_work : 21, total : 364
+2018-11-08 18:13:56 INFO  Crawler:274 - [Progress 344] elaped time : 00:03:13, save : 0, err : 86, remain_work : 20, total : 364
+2018-11-08 18:13:57 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097028?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:13:57 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097028' for key 'PRIMARY'
+2018-11-08 18:13:57 INFO  Crawler:274 - [Progress 345] elaped time : 00:03:14, save : 0, err : 87, remain_work : 19, total : 364
+2018-11-08 18:13:57 INFO  Crawler:274 - [Progress 346] elaped time : 00:03:14, save : 0, err : 87, remain_work : 18, total : 364
+2018-11-08 18:13:58 INFO  Crawler:274 - [Progress 347] elaped time : 00:03:15, save : 0, err : 87, remain_work : 20, total : 367
+2018-11-08 18:13:58 INFO  Crawler:274 - [Progress 348] elaped time : 00:03:15, save : 0, err : 87, remain_work : 19, total : 367
+2018-11-08 18:14:00 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125533?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:00 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125533' for key 'PRIMARY'
+2018-11-08 18:14:00 INFO  Crawler:274 - [Progress 349] elaped time : 00:03:16, save : 0, err : 88, remain_work : 18, total : 367
+2018-11-08 18:14:00 INFO  Crawler:274 - [Progress 350] elaped time : 00:03:16, save : 0, err : 88, remain_work : 17, total : 367
+2018-11-08 18:14:00 INFO  Crawler:274 - [Progress 351] elaped time : 00:03:17, save : 0, err : 88, remain_work : 19, total : 370
+2018-11-08 18:14:00 INFO  Crawler:274 - [Progress 352] elaped time : 00:03:17, save : 0, err : 88, remain_work : 18, total : 370
+2018-11-08 18:14:02 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125507?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:02 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125507' for key 'PRIMARY'
+2018-11-08 18:14:02 INFO  Crawler:274 - [Progress 353] elaped time : 00:03:18, save : 0, err : 89, remain_work : 17, total : 370
+2018-11-08 18:14:02 INFO  Crawler:274 - [Progress 354] elaped time : 00:03:18, save : 0, err : 89, remain_work : 16, total : 370
+2018-11-08 18:14:02 INFO  Crawler:274 - [Progress 355] elaped time : 00:03:19, save : 0, err : 89, remain_work : 18, total : 373
+2018-11-08 18:14:02 INFO  Crawler:274 - [Progress 356] elaped time : 00:03:19, save : 0, err : 89, remain_work : 17, total : 373
+2018-11-08 18:14:05 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6835984?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:05 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6835984' for key 'PRIMARY'
+2018-11-08 18:14:05 INFO  Crawler:274 - [Progress 357] elaped time : 00:03:22, save : 0, err : 90, remain_work : 16, total : 373
+2018-11-08 18:14:06 INFO  Crawler:274 - [Progress 358] elaped time : 00:03:22, save : 0, err : 90, remain_work : 15, total : 373
+2018-11-08 18:14:06 INFO  Crawler:274 - [Progress 359] elaped time : 00:03:23, save : 0, err : 90, remain_work : 17, total : 376
+2018-11-08 18:14:06 INFO  Crawler:274 - [Progress 360] elaped time : 00:03:23, save : 0, err : 90, remain_work : 16, total : 376
+2018-11-08 18:14:07 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7758234?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:07 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7758234' for key 'PRIMARY'
+2018-11-08 18:14:07 INFO  Crawler:274 - [Progress 361] elaped time : 00:03:24, save : 0, err : 91, remain_work : 15, total : 376
+2018-11-08 18:14:07 INFO  Crawler:274 - [Progress 362] elaped time : 00:03:24, save : 0, err : 91, remain_work : 14, total : 376
+2018-11-08 18:14:08 INFO  Crawler:274 - [Progress 363] elaped time : 00:03:24, save : 0, err : 91, remain_work : 16, total : 379
+2018-11-08 18:14:08 INFO  Crawler:274 - [Progress 364] elaped time : 00:03:24, save : 0, err : 91, remain_work : 15, total : 379
+2018-11-08 18:14:09 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7757944?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:09 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7757944' for key 'PRIMARY'
+2018-11-08 18:14:09 INFO  Crawler:274 - [Progress 365] elaped time : 00:03:25, save : 0, err : 92, remain_work : 14, total : 379
+2018-11-08 18:14:09 INFO  Crawler:274 - [Progress 366] elaped time : 00:03:26, save : 0, err : 92, remain_work : 13, total : 379
+2018-11-08 18:14:09 INFO  Crawler:274 - [Progress 367] elaped time : 00:03:26, save : 0, err : 92, remain_work : 15, total : 382
+2018-11-08 18:14:09 INFO  Crawler:274 - [Progress 368] elaped time : 00:03:26, save : 0, err : 92, remain_work : 14, total : 382
+2018-11-08 18:14:11 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7758268?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:11 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7758268' for key 'PRIMARY'
+2018-11-08 18:14:11 INFO  Crawler:274 - [Progress 369] elaped time : 00:03:27, save : 0, err : 93, remain_work : 13, total : 382
+2018-11-08 18:14:11 INFO  Crawler:274 - [Progress 370] elaped time : 00:03:27, save : 0, err : 93, remain_work : 12, total : 382
+2018-11-08 18:14:11 INFO  Crawler:274 - [Progress 371] elaped time : 00:03:28, save : 0, err : 93, remain_work : 14, total : 385
+2018-11-08 18:14:11 INFO  Crawler:274 - [Progress 372] elaped time : 00:03:28, save : 0, err : 93, remain_work : 13, total : 385
+2018-11-08 18:14:12 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7758205?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:12 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7758205' for key 'PRIMARY'
+2018-11-08 18:14:12 INFO  Crawler:274 - [Progress 373] elaped time : 00:03:29, save : 0, err : 94, remain_work : 12, total : 385
+2018-11-08 18:14:12 INFO  Crawler:274 - [Progress 374] elaped time : 00:03:29, save : 0, err : 94, remain_work : 11, total : 385
+2018-11-08 18:14:13 INFO  Crawler:274 - [Progress 375] elaped time : 00:03:29, save : 0, err : 94, remain_work : 13, total : 388
+2018-11-08 18:14:13 INFO  Crawler:274 - [Progress 376] elaped time : 00:03:29, save : 0, err : 94, remain_work : 12, total : 388
+2018-11-08 18:14:14 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7758201?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:14 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7758201' for key 'PRIMARY'
+2018-11-08 18:14:14 INFO  Crawler:274 - [Progress 377] elaped time : 00:03:31, save : 0, err : 95, remain_work : 11, total : 388
+2018-11-08 18:14:14 INFO  Crawler:274 - [Progress 378] elaped time : 00:03:31, save : 0, err : 95, remain_work : 10, total : 388
+2018-11-08 18:14:14 INFO  Crawler:274 - [Progress 379] elaped time : 00:03:31, save : 0, err : 95, remain_work : 12, total : 391
+2018-11-08 18:14:14 INFO  Crawler:274 - [Progress 380] elaped time : 00:03:31, save : 0, err : 95, remain_work : 11, total : 391
+2018-11-08 18:14:16 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7758195?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:16 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7758195' for key 'PRIMARY'
+2018-11-08 18:14:16 INFO  Crawler:274 - [Progress 381] elaped time : 00:03:32, save : 0, err : 96, remain_work : 10, total : 391
+2018-11-08 18:14:16 INFO  Crawler:274 - [Progress 382] elaped time : 00:03:32, save : 0, err : 96, remain_work : 9, total : 391
+2018-11-08 18:14:16 INFO  Crawler:274 - [Progress 383] elaped time : 00:03:33, save : 0, err : 96, remain_work : 11, total : 394
+2018-11-08 18:14:16 INFO  Crawler:274 - [Progress 384] elaped time : 00:03:33, save : 0, err : 96, remain_work : 10, total : 394
+2018-11-08 18:14:17 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7757952?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:17 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7757952' for key 'PRIMARY'
+2018-11-08 18:14:17 INFO  Crawler:274 - [Progress 385] elaped time : 00:03:34, save : 0, err : 97, remain_work : 9, total : 394
+2018-11-08 18:14:17 INFO  Crawler:274 - [Progress 386] elaped time : 00:03:34, save : 0, err : 97, remain_work : 8, total : 394
+2018-11-08 18:14:18 INFO  Crawler:274 - [Progress 387] elaped time : 00:03:34, save : 0, err : 97, remain_work : 10, total : 397
+2018-11-08 18:14:18 INFO  Crawler:274 - [Progress 388] elaped time : 00:03:34, save : 0, err : 97, remain_work : 9, total : 397
+2018-11-08 18:14:19 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7757920?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:19 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7757920' for key 'PRIMARY'
+2018-11-08 18:14:19 INFO  Crawler:274 - [Progress 389] elaped time : 00:03:36, save : 0, err : 98, remain_work : 8, total : 397
+2018-11-08 18:14:20 INFO  Crawler:274 - [Progress 390] elaped time : 00:03:36, save : 0, err : 98, remain_work : 7, total : 397
+2018-11-08 18:14:20 INFO  Crawler:274 - [Progress 391] elaped time : 00:03:36, save : 0, err : 98, remain_work : 9, total : 400
+2018-11-08 18:14:20 INFO  Crawler:274 - [Progress 392] elaped time : 00:03:37, save : 0, err : 98, remain_work : 8, total : 400
+2018-11-08 18:14:21 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7757916?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:21 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7757916' for key 'PRIMARY'
+2018-11-08 18:14:21 INFO  Crawler:274 - [Progress 393] elaped time : 00:03:38, save : 0, err : 99, remain_work : 7, total : 400
+2018-11-08 18:14:21 INFO  Crawler:274 - [Progress 394] elaped time : 00:03:38, save : 0, err : 99, remain_work : 6, total : 400
+2018-11-08 18:14:21 INFO  Crawler:274 - [Progress 395] elaped time : 00:03:38, save : 0, err : 99, remain_work : 8, total : 403
+2018-11-08 18:14:21 INFO  Crawler:274 - [Progress 396] elaped time : 00:03:38, save : 0, err : 99, remain_work : 7, total : 403
+2018-11-08 18:14:23 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7756200?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:23 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7756200' for key 'PRIMARY'
+2018-11-08 18:14:23 INFO  Crawler:274 - [Progress 397] elaped time : 00:03:39, save : 0, err : 100, remain_work : 6, total : 403
+2018-11-08 18:14:23 INFO  Crawler:274 - [Progress 398] elaped time : 00:03:39, save : 0, err : 100, remain_work : 5, total : 403
+2018-11-08 18:14:23 INFO  Crawler:274 - [Progress 399] elaped time : 00:03:40, save : 0, err : 100, remain_work : 7, total : 406
+2018-11-08 18:14:23 INFO  Crawler:274 - [Progress 400] elaped time : 00:03:40, save : 0, err : 100, remain_work : 6, total : 406
+2018-11-08 18:14:24 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7757913?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:24 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7757913' for key 'PRIMARY'
+2018-11-08 18:14:24 INFO  Crawler:274 - [Progress 401] elaped time : 00:03:41, save : 0, err : 101, remain_work : 5, total : 406
+2018-11-08 18:14:24 INFO  Crawler:274 - [Progress 402] elaped time : 00:03:41, save : 0, err : 101, remain_work : 4, total : 406
+2018-11-08 18:14:25 INFO  Crawler:274 - [Progress 403] elaped time : 00:03:41, save : 0, err : 101, remain_work : 6, total : 409
+2018-11-08 18:14:25 INFO  Crawler:274 - [Progress 404] elaped time : 00:03:41, save : 0, err : 101, remain_work : 5, total : 409
+2018-11-08 18:14:26 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8025353?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:26 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8025353' for key 'PRIMARY'
+2018-11-08 18:14:26 INFO  Crawler:274 - [Progress 405] elaped time : 00:03:43, save : 0, err : 102, remain_work : 4, total : 409
+2018-11-08 18:14:26 INFO  Crawler:274 - [Progress 406] elaped time : 00:03:43, save : 0, err : 102, remain_work : 3, total : 409
+2018-11-08 18:14:26 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:14:26 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:26 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:14:26 INFO  Crawler:274 - [Progress 407] elaped time : 00:03:43, save : 0, err : 103, remain_work : 2, total : 409
+2018-11-08 18:14:26 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:14:26 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 18:14:26 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:14:26 INFO  Crawler:274 - [Progress 408] elaped time : 00:03:43, save : 0, err : 104, remain_work : 1, total : 409
+2018-11-08 18:14:28 INFO  Crawler:274 - [Progress 409] elaped time : 00:03:44, save : 0, err : 104, remain_work : 2, total : 411
+2018-11-08 18:14:28 INFO  Crawler:274 - [Progress 410] elaped time : 00:03:44, save : 0, err : 104, remain_work : 53, total : 463
+2018-11-08 18:14:28 INFO  Crawler:274 - [Progress 411] elaped time : 00:03:45, save : 0, err : 104, remain_work : 55, total : 466
+2018-11-08 18:14:28 INFO  Crawler:274 - [Progress 412] elaped time : 00:03:45, save : 0, err : 104, remain_work : 54, total : 466
+2018-11-08 18:14:29 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8010684?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 18:14:29 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8010684' for key 'PRIMARY'
+2018-11-08 18:14:29 INFO  Crawler:274 - [Progress 413] elaped time : 00:03:46, save : 0, err : 106, remain_work : 53, total : 466
+2018-11-08 18:14:29 INFO  Crawler:274 - [Progress 414] elaped time : 00:03:46, save : 0, err : 106, remain_work : 52, total : 466
+2018-11-08 18:14:30 INFO  Crawler:274 - [Progress 415] elaped time : 00:03:46, save : 0, err : 106, remain_work : 54, total : 469
+2018-11-08 18:14:30 INFO  Crawler:274 - [Progress 416] elaped time : 00:03:46, save : 0, err : 106, remain_work : 53, total : 469
+2018-11-08 18:14:31 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8051553?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:31 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8051553' for key 'PRIMARY'
+2018-11-08 18:14:31 INFO  Crawler:274 - [Progress 417] elaped time : 00:03:48, save : 0, err : 107, remain_work : 52, total : 469
+2018-11-08 18:14:31 INFO  Crawler:274 - [Progress 418] elaped time : 00:03:48, save : 0, err : 107, remain_work : 51, total : 469
+2018-11-08 18:14:31 INFO  Crawler:274 - [Progress 419] elaped time : 00:03:48, save : 0, err : 107, remain_work : 53, total : 472
+2018-11-08 18:14:31 INFO  Crawler:274 - [Progress 420] elaped time : 00:03:48, save : 0, err : 107, remain_work : 52, total : 472
+2018-11-08 18:14:32 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7756134?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:32 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7756134' for key 'PRIMARY'
+2018-11-08 18:14:32 INFO  Crawler:274 - [Progress 421] elaped time : 00:03:49, save : 0, err : 108, remain_work : 51, total : 472
+2018-11-08 18:14:33 INFO  Crawler:274 - [Progress 422] elaped time : 00:03:49, save : 0, err : 108, remain_work : 50, total : 472
+2018-11-08 18:14:33 INFO  Crawler:274 - [Progress 423] elaped time : 00:03:50, save : 0, err : 108, remain_work : 52, total : 475
+2018-11-08 18:14:33 INFO  Crawler:274 - [Progress 424] elaped time : 00:03:50, save : 0, err : 108, remain_work : 51, total : 475
+2018-11-08 18:14:34 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8021918?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:34 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8021918' for key 'PRIMARY'
+2018-11-08 18:14:34 INFO  Crawler:274 - [Progress 425] elaped time : 00:03:51, save : 0, err : 109, remain_work : 50, total : 475
+2018-11-08 18:14:34 INFO  Crawler:274 - [Progress 426] elaped time : 00:03:51, save : 0, err : 109, remain_work : 49, total : 475
+2018-11-08 18:14:34 INFO  Crawler:274 - [Progress 427] elaped time : 00:03:51, save : 0, err : 109, remain_work : 51, total : 478
+2018-11-08 18:14:34 INFO  Crawler:274 - [Progress 428] elaped time : 00:03:51, save : 0, err : 109, remain_work : 50, total : 478
+2018-11-08 18:14:36 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8021886?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:36 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8021886' for key 'PRIMARY'
+2018-11-08 18:14:36 INFO  Crawler:274 - [Progress 429] elaped time : 00:03:52, save : 0, err : 110, remain_work : 49, total : 478
+2018-11-08 18:14:36 INFO  Crawler:274 - [Progress 430] elaped time : 00:03:52, save : 0, err : 110, remain_work : 48, total : 478
+2018-11-08 18:14:36 INFO  Crawler:274 - [Progress 431] elaped time : 00:03:53, save : 0, err : 110, remain_work : 50, total : 481
+2018-11-08 18:14:36 INFO  Crawler:274 - [Progress 432] elaped time : 00:03:53, save : 0, err : 110, remain_work : 49, total : 481
+2018-11-08 18:14:38 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6930730?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:38 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6930730' for key 'PRIMARY'
+2018-11-08 18:14:38 INFO  Crawler:274 - [Progress 433] elaped time : 00:03:54, save : 0, err : 111, remain_work : 48, total : 481
+2018-11-08 18:14:38 INFO  Crawler:274 - [Progress 434] elaped time : 00:03:54, save : 0, err : 111, remain_work : 47, total : 481
+2018-11-08 18:14:38 INFO  Crawler:274 - [Progress 435] elaped time : 00:03:55, save : 0, err : 111, remain_work : 49, total : 484
+2018-11-08 18:14:38 INFO  Crawler:274 - [Progress 436] elaped time : 00:03:55, save : 0, err : 111, remain_work : 48, total : 484
+2018-11-08 18:14:40 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6930732?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:40 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6930732' for key 'PRIMARY'
+2018-11-08 18:14:40 INFO  Crawler:274 - [Progress 437] elaped time : 00:03:56, save : 0, err : 112, remain_work : 47, total : 484
+2018-11-08 18:14:40 INFO  Crawler:274 - [Progress 438] elaped time : 00:03:57, save : 0, err : 112, remain_work : 46, total : 484
+2018-11-08 18:14:40 INFO  Crawler:274 - [Progress 439] elaped time : 00:03:57, save : 0, err : 112, remain_work : 48, total : 487
+2018-11-08 18:14:40 INFO  Crawler:274 - [Progress 440] elaped time : 00:03:57, save : 0, err : 112, remain_work : 47, total : 487
+2018-11-08 18:14:42 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6930731?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:42 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6930731' for key 'PRIMARY'
+2018-11-08 18:14:42 INFO  Crawler:274 - [Progress 441] elaped time : 00:03:58, save : 0, err : 113, remain_work : 46, total : 487
+2018-11-08 18:14:42 INFO  Crawler:274 - [Progress 442] elaped time : 00:03:58, save : 0, err : 113, remain_work : 45, total : 487
+2018-11-08 18:14:42 INFO  Crawler:274 - [Progress 443] elaped time : 00:03:59, save : 0, err : 113, remain_work : 47, total : 490
+2018-11-08 18:14:42 INFO  Crawler:274 - [Progress 444] elaped time : 00:03:59, save : 0, err : 113, remain_work : 46, total : 490
+2018-11-08 18:14:43 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8021730?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:43 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8021730' for key 'PRIMARY'
+2018-11-08 18:14:43 INFO  Crawler:274 - [Progress 445] elaped time : 00:04:00, save : 0, err : 114, remain_work : 45, total : 490
+2018-11-08 18:14:44 INFO  Crawler:274 - [Progress 446] elaped time : 00:04:00, save : 0, err : 114, remain_work : 44, total : 490
+2018-11-08 18:14:44 INFO  Crawler:274 - [Progress 447] elaped time : 00:04:01, save : 0, err : 114, remain_work : 46, total : 493
+2018-11-08 18:14:44 INFO  Crawler:274 - [Progress 448] elaped time : 00:04:01, save : 0, err : 114, remain_work : 45, total : 493
+2018-11-08 18:14:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8021681?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:45 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8021681' for key 'PRIMARY'
+2018-11-08 18:14:45 INFO  Crawler:274 - [Progress 449] elaped time : 00:04:02, save : 0, err : 115, remain_work : 44, total : 493
+2018-11-08 18:14:45 INFO  Crawler:274 - [Progress 450] elaped time : 00:04:02, save : 0, err : 115, remain_work : 43, total : 493
+2018-11-08 18:14:46 INFO  Crawler:274 - [Progress 451] elaped time : 00:04:02, save : 0, err : 115, remain_work : 45, total : 496
+2018-11-08 18:14:46 INFO  Crawler:274 - [Progress 452] elaped time : 00:04:02, save : 0, err : 115, remain_work : 44, total : 496
+2018-11-08 18:14:47 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8093966?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:47 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8093966' for key 'PRIMARY'
+2018-11-08 18:14:47 INFO  Crawler:274 - [Progress 453] elaped time : 00:04:04, save : 0, err : 116, remain_work : 43, total : 496
+2018-11-08 18:14:47 INFO  Crawler:274 - [Progress 454] elaped time : 00:04:04, save : 0, err : 116, remain_work : 42, total : 496
+2018-11-08 18:14:47 INFO  Crawler:274 - [Progress 455] elaped time : 00:04:04, save : 0, err : 116, remain_work : 44, total : 499
+2018-11-08 18:14:47 INFO  Crawler:274 - [Progress 456] elaped time : 00:04:04, save : 0, err : 116, remain_work : 43, total : 499
+2018-11-08 18:14:49 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8093912?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:49 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8093912' for key 'PRIMARY'
+2018-11-08 18:14:49 INFO  Crawler:274 - [Progress 457] elaped time : 00:04:06, save : 0, err : 117, remain_work : 42, total : 499
+2018-11-08 18:14:49 INFO  Crawler:274 - [Progress 458] elaped time : 00:04:06, save : 0, err : 117, remain_work : 41, total : 499
+2018-11-08 18:14:49 INFO  Crawler:274 - [Progress 459] elaped time : 00:04:06, save : 0, err : 117, remain_work : 43, total : 502
+2018-11-08 18:14:49 INFO  Crawler:274 - [Progress 460] elaped time : 00:04:06, save : 0, err : 117, remain_work : 42, total : 502
+2018-11-08 18:14:51 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7811904?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:51 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7811904' for key 'PRIMARY'
+2018-11-08 18:14:51 INFO  Crawler:274 - [Progress 461] elaped time : 00:04:07, save : 0, err : 118, remain_work : 41, total : 502
+2018-11-08 18:14:51 INFO  Crawler:274 - [Progress 462] elaped time : 00:04:08, save : 0, err : 118, remain_work : 40, total : 502
+2018-11-08 18:14:51 INFO  Crawler:274 - [Progress 463] elaped time : 00:04:08, save : 0, err : 118, remain_work : 42, total : 505
+2018-11-08 18:14:51 INFO  Crawler:274 - [Progress 464] elaped time : 00:04:08, save : 0, err : 118, remain_work : 41, total : 505
+2018-11-08 18:14:53 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7811895?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:53 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7811895' for key 'PRIMARY'
+2018-11-08 18:14:53 INFO  Crawler:274 - [Progress 465] elaped time : 00:04:09, save : 0, err : 119, remain_work : 40, total : 505
+2018-11-08 18:14:53 INFO  Crawler:274 - [Progress 466] elaped time : 00:04:09, save : 0, err : 119, remain_work : 39, total : 505
+2018-11-08 18:14:53 INFO  Crawler:274 - [Progress 467] elaped time : 00:04:10, save : 0, err : 119, remain_work : 41, total : 508
+2018-11-08 18:14:53 INFO  Crawler:274 - [Progress 468] elaped time : 00:04:10, save : 0, err : 119, remain_work : 40, total : 508
+2018-11-08 18:14:55 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7811894?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:55 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7811894' for key 'PRIMARY'
+2018-11-08 18:14:55 INFO  Crawler:274 - [Progress 469] elaped time : 00:04:11, save : 0, err : 120, remain_work : 39, total : 508
+2018-11-08 18:14:55 INFO  Crawler:274 - [Progress 470] elaped time : 00:04:12, save : 0, err : 120, remain_work : 38, total : 508
+2018-11-08 18:14:55 INFO  Crawler:274 - [Progress 471] elaped time : 00:04:12, save : 0, err : 120, remain_work : 40, total : 511
+2018-11-08 18:14:55 INFO  Crawler:274 - [Progress 472] elaped time : 00:04:12, save : 0, err : 120, remain_work : 39, total : 511
+2018-11-08 18:14:56 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8203039?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:56 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8203039' for key 'PRIMARY'
+2018-11-08 18:14:56 INFO  Crawler:274 - [Progress 473] elaped time : 00:04:13, save : 0, err : 121, remain_work : 38, total : 511
+2018-11-08 18:14:57 INFO  Crawler:274 - [Progress 474] elaped time : 00:04:13, save : 0, err : 121, remain_work : 37, total : 511
+2018-11-08 18:14:57 INFO  Crawler:274 - [Progress 475] elaped time : 00:04:14, save : 0, err : 121, remain_work : 39, total : 514
+2018-11-08 18:14:57 INFO  Crawler:274 - [Progress 476] elaped time : 00:04:14, save : 0, err : 121, remain_work : 38, total : 514
+2018-11-08 18:14:58 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7818617?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:14:58 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7818617' for key 'PRIMARY'
+2018-11-08 18:14:58 INFO  Crawler:274 - [Progress 477] elaped time : 00:04:15, save : 0, err : 122, remain_work : 37, total : 514
+2018-11-08 18:14:58 INFO  Crawler:274 - [Progress 478] elaped time : 00:04:15, save : 0, err : 122, remain_work : 36, total : 514
+2018-11-08 18:14:59 INFO  Crawler:274 - [Progress 479] elaped time : 00:04:15, save : 0, err : 122, remain_work : 38, total : 517
+2018-11-08 18:14:59 INFO  Crawler:274 - [Progress 480] elaped time : 00:04:15, save : 0, err : 122, remain_work : 37, total : 517
+2018-11-08 18:15:00 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6271564?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:00 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6271564' for key 'PRIMARY'
+2018-11-08 18:15:00 INFO  Crawler:274 - [Progress 481] elaped time : 00:04:17, save : 0, err : 123, remain_work : 36, total : 517
+2018-11-08 18:15:00 INFO  Crawler:274 - [Progress 482] elaped time : 00:04:17, save : 0, err : 123, remain_work : 35, total : 517
+2018-11-08 18:15:00 INFO  Crawler:274 - [Progress 483] elaped time : 00:04:17, save : 0, err : 123, remain_work : 37, total : 520
+2018-11-08 18:15:01 INFO  Crawler:274 - [Progress 484] elaped time : 00:04:17, save : 0, err : 123, remain_work : 36, total : 520
+2018-11-08 18:15:02 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8097238?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:02 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8097238' for key 'PRIMARY'
+2018-11-08 18:15:02 INFO  Crawler:274 - [Progress 485] elaped time : 00:04:19, save : 0, err : 124, remain_work : 35, total : 520
+2018-11-08 18:15:02 INFO  Crawler:274 - [Progress 486] elaped time : 00:04:19, save : 0, err : 124, remain_work : 34, total : 520
+2018-11-08 18:15:03 INFO  Crawler:274 - [Progress 487] elaped time : 00:04:19, save : 0, err : 124, remain_work : 36, total : 523
+2018-11-08 18:15:03 INFO  Crawler:274 - [Progress 488] elaped time : 00:04:19, save : 0, err : 124, remain_work : 35, total : 523
+2018-11-08 18:15:04 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7006720?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:04 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7006720' for key 'PRIMARY'
+2018-11-08 18:15:04 INFO  Crawler:274 - [Progress 489] elaped time : 00:04:21, save : 0, err : 125, remain_work : 34, total : 523
+2018-11-08 18:15:04 INFO  Crawler:274 - [Progress 490] elaped time : 00:04:21, save : 0, err : 125, remain_work : 33, total : 523
+2018-11-08 18:15:05 INFO  Crawler:274 - [Progress 491] elaped time : 00:04:21, save : 0, err : 125, remain_work : 35, total : 526
+2018-11-08 18:15:05 INFO  Crawler:274 - [Progress 492] elaped time : 00:04:21, save : 0, err : 125, remain_work : 34, total : 526
+2018-11-08 18:15:06 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8102974?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:06 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8102974' for key 'PRIMARY'
+2018-11-08 18:15:06 INFO  Crawler:274 - [Progress 493] elaped time : 00:04:22, save : 0, err : 126, remain_work : 33, total : 526
+2018-11-08 18:15:06 INFO  Crawler:274 - [Progress 494] elaped time : 00:04:23, save : 0, err : 126, remain_work : 32, total : 526
+2018-11-08 18:15:06 INFO  Crawler:274 - [Progress 495] elaped time : 00:04:23, save : 0, err : 126, remain_work : 34, total : 529
+2018-11-08 18:15:06 INFO  Crawler:274 - [Progress 496] elaped time : 00:04:23, save : 0, err : 126, remain_work : 33, total : 529
+2018-11-08 18:15:11 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7088086?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:11 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7088086' for key 'PRIMARY'
+2018-11-08 18:15:11 INFO  Crawler:274 - [Progress 497] elaped time : 00:04:27, save : 0, err : 127, remain_work : 32, total : 529
+2018-11-08 18:15:11 INFO  Crawler:274 - [Progress 498] elaped time : 00:04:27, save : 0, err : 127, remain_work : 31, total : 529
+2018-11-08 18:15:11 INFO  Crawler:274 - [Progress 499] elaped time : 00:04:28, save : 0, err : 127, remain_work : 33, total : 532
+2018-11-08 18:15:11 INFO  Crawler:274 - [Progress 500] elaped time : 00:04:28, save : 0, err : 127, remain_work : 32, total : 532
+2018-11-08 18:15:12 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7420544?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:12 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7420544' for key 'PRIMARY'
+2018-11-08 18:15:12 INFO  Crawler:274 - [Progress 501] elaped time : 00:04:29, save : 0, err : 128, remain_work : 31, total : 532
+2018-11-08 18:15:13 INFO  Crawler:274 - [Progress 502] elaped time : 00:04:29, save : 0, err : 128, remain_work : 30, total : 532
+2018-11-08 18:15:13 INFO  Crawler:274 - [Progress 503] elaped time : 00:04:30, save : 0, err : 128, remain_work : 32, total : 535
+2018-11-08 18:15:13 INFO  Crawler:274 - [Progress 504] elaped time : 00:04:30, save : 0, err : 128, remain_work : 31, total : 535
+2018-11-08 18:15:14 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7651991?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:14 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7651991' for key 'PRIMARY'
+2018-11-08 18:15:14 INFO  Crawler:274 - [Progress 505] elaped time : 00:04:31, save : 0, err : 129, remain_work : 30, total : 535
+2018-11-08 18:15:14 INFO  Crawler:274 - [Progress 506] elaped time : 00:04:31, save : 0, err : 129, remain_work : 29, total : 535
+2018-11-08 18:15:15 INFO  Crawler:274 - [Progress 507] elaped time : 00:04:31, save : 0, err : 129, remain_work : 31, total : 538
+2018-11-08 18:15:15 INFO  Crawler:274 - [Progress 508] elaped time : 00:04:31, save : 0, err : 129, remain_work : 30, total : 538
+2018-11-08 18:15:16 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7647657?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:16 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7647657' for key 'PRIMARY'
+2018-11-08 18:15:16 INFO  Crawler:274 - [Progress 509] elaped time : 00:04:33, save : 0, err : 130, remain_work : 29, total : 538
+2018-11-08 18:15:16 INFO  Crawler:274 - [Progress 510] elaped time : 00:04:33, save : 0, err : 130, remain_work : 28, total : 538
+2018-11-08 18:15:16 INFO  Crawler:274 - [Progress 511] elaped time : 00:04:33, save : 0, err : 130, remain_work : 30, total : 541
+2018-11-08 18:15:16 INFO  Crawler:274 - [Progress 512] elaped time : 00:04:33, save : 0, err : 130, remain_work : 29, total : 541
+2018-11-08 18:15:18 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7756131?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:18 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7756131' for key 'PRIMARY'
+2018-11-08 18:15:18 INFO  Crawler:274 - [Progress 513] elaped time : 00:04:34, save : 0, err : 131, remain_work : 28, total : 541
+2018-11-08 18:15:18 INFO  Crawler:274 - [Progress 514] elaped time : 00:04:34, save : 0, err : 131, remain_work : 27, total : 541
+2018-11-08 18:15:18 INFO  Crawler:274 - [Progress 515] elaped time : 00:04:35, save : 0, err : 131, remain_work : 29, total : 544
+2018-11-08 18:15:18 INFO  Crawler:274 - [Progress 516] elaped time : 00:04:35, save : 0, err : 131, remain_work : 28, total : 544
+2018-11-08 18:15:19 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7755683?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:19 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7755683' for key 'PRIMARY'
+2018-11-08 18:15:19 INFO  Crawler:274 - [Progress 517] elaped time : 00:04:36, save : 0, err : 132, remain_work : 27, total : 544
+2018-11-08 18:15:19 INFO  Crawler:274 - [Progress 518] elaped time : 00:04:36, save : 0, err : 132, remain_work : 26, total : 544
+2018-11-08 18:15:20 INFO  Crawler:274 - [Progress 519] elaped time : 00:04:36, save : 0, err : 132, remain_work : 28, total : 547
+2018-11-08 18:15:20 INFO  Crawler:274 - [Progress 520] elaped time : 00:04:36, save : 0, err : 132, remain_work : 27, total : 547
+2018-11-08 18:15:21 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7755632?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:21 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7755632' for key 'PRIMARY'
+2018-11-08 18:15:21 INFO  Crawler:274 - [Progress 521] elaped time : 00:04:38, save : 0, err : 133, remain_work : 26, total : 547
+2018-11-08 18:15:21 INFO  Crawler:274 - [Progress 522] elaped time : 00:04:38, save : 0, err : 133, remain_work : 25, total : 547
+2018-11-08 18:15:22 INFO  Crawler:274 - [Progress 523] elaped time : 00:04:38, save : 0, err : 133, remain_work : 27, total : 550
+2018-11-08 18:15:22 INFO  Crawler:274 - [Progress 524] elaped time : 00:04:38, save : 0, err : 133, remain_work : 26, total : 550
+2018-11-08 18:15:23 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7755558?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:23 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7755558' for key 'PRIMARY'
+2018-11-08 18:15:23 INFO  Crawler:274 - [Progress 525] elaped time : 00:04:39, save : 0, err : 134, remain_work : 25, total : 550
+2018-11-08 18:15:23 INFO  Crawler:274 - [Progress 526] elaped time : 00:04:40, save : 0, err : 134, remain_work : 24, total : 550
+2018-11-08 18:15:23 INFO  Crawler:274 - [Progress 527] elaped time : 00:04:40, save : 0, err : 134, remain_work : 26, total : 553
+2018-11-08 18:15:23 INFO  Crawler:274 - [Progress 528] elaped time : 00:04:40, save : 0, err : 134, remain_work : 25, total : 553
+2018-11-08 18:15:25 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7420339?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:25 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7420339' for key 'PRIMARY'
+2018-11-08 18:15:25 INFO  Crawler:274 - [Progress 529] elaped time : 00:04:41, save : 0, err : 135, remain_work : 24, total : 553
+2018-11-08 18:15:25 INFO  Crawler:274 - [Progress 530] elaped time : 00:04:41, save : 0, err : 135, remain_work : 23, total : 553
+2018-11-08 18:15:25 INFO  Crawler:274 - [Progress 531] elaped time : 00:04:42, save : 0, err : 135, remain_work : 25, total : 556
+2018-11-08 18:15:25 INFO  Crawler:274 - [Progress 532] elaped time : 00:04:42, save : 0, err : 135, remain_work : 24, total : 556
+2018-11-08 18:15:26 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7420260?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:26 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7420260' for key 'PRIMARY'
+2018-11-08 18:15:26 INFO  Crawler:274 - [Progress 533] elaped time : 00:04:43, save : 0, err : 136, remain_work : 23, total : 556
+2018-11-08 18:15:27 INFO  Crawler:274 - [Progress 534] elaped time : 00:04:44, save : 0, err : 136, remain_work : 22, total : 556
+2018-11-08 18:15:27 INFO  Crawler:274 - [Progress 535] elaped time : 00:04:44, save : 0, err : 136, remain_work : 24, total : 559
+2018-11-08 18:15:27 INFO  Crawler:274 - [Progress 536] elaped time : 00:04:44, save : 0, err : 136, remain_work : 23, total : 559
+2018-11-08 18:15:29 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273559?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:29 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273559' for key 'PRIMARY'
+2018-11-08 18:15:29 INFO  Crawler:274 - [Progress 537] elaped time : 00:04:45, save : 0, err : 137, remain_work : 22, total : 559
+2018-11-08 18:15:29 INFO  Crawler:274 - [Progress 538] elaped time : 00:04:45, save : 0, err : 137, remain_work : 21, total : 559
+2018-11-08 18:15:29 INFO  Crawler:274 - [Progress 539] elaped time : 00:04:46, save : 0, err : 137, remain_work : 23, total : 562
+2018-11-08 18:15:29 INFO  Crawler:274 - [Progress 540] elaped time : 00:04:46, save : 0, err : 137, remain_work : 22, total : 562
+2018-11-08 18:15:30 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273551?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:30 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273551' for key 'PRIMARY'
+2018-11-08 18:15:30 INFO  Crawler:274 - [Progress 541] elaped time : 00:04:47, save : 0, err : 138, remain_work : 21, total : 562
+2018-11-08 18:15:30 INFO  Crawler:274 - [Progress 542] elaped time : 00:04:47, save : 0, err : 138, remain_work : 20, total : 562
+2018-11-08 18:15:31 INFO  Crawler:274 - [Progress 543] elaped time : 00:04:47, save : 0, err : 138, remain_work : 22, total : 565
+2018-11-08 18:15:31 INFO  Crawler:274 - [Progress 544] elaped time : 00:04:48, save : 0, err : 138, remain_work : 21, total : 565
+2018-11-08 18:15:33 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273508?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:33 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273508' for key 'PRIMARY'
+2018-11-08 18:15:33 INFO  Crawler:274 - [Progress 545] elaped time : 00:04:49, save : 0, err : 139, remain_work : 20, total : 565
+2018-11-08 18:15:33 INFO  Crawler:274 - [Progress 546] elaped time : 00:04:49, save : 0, err : 139, remain_work : 19, total : 565
+2018-11-08 18:15:33 INFO  Crawler:274 - [Progress 547] elaped time : 00:04:50, save : 0, err : 139, remain_work : 21, total : 568
+2018-11-08 18:15:33 INFO  Crawler:274 - [Progress 548] elaped time : 00:04:50, save : 0, err : 139, remain_work : 20, total : 568
+2018-11-08 18:15:34 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273504?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:34 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273504' for key 'PRIMARY'
+2018-11-08 18:15:34 INFO  Crawler:274 - [Progress 549] elaped time : 00:04:51, save : 0, err : 140, remain_work : 19, total : 568
+2018-11-08 18:15:34 INFO  Crawler:274 - [Progress 550] elaped time : 00:04:51, save : 0, err : 140, remain_work : 18, total : 568
+2018-11-08 18:15:35 INFO  Crawler:274 - [Progress 551] elaped time : 00:04:51, save : 0, err : 140, remain_work : 20, total : 571
+2018-11-08 18:15:35 INFO  Crawler:274 - [Progress 552] elaped time : 00:04:51, save : 0, err : 140, remain_work : 19, total : 571
+2018-11-08 18:15:36 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273491?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:36 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273491' for key 'PRIMARY'
+2018-11-08 18:15:36 INFO  Crawler:274 - [Progress 553] elaped time : 00:04:53, save : 0, err : 141, remain_work : 18, total : 571
+2018-11-08 18:15:36 INFO  Crawler:274 - [Progress 554] elaped time : 00:04:53, save : 0, err : 141, remain_work : 17, total : 571
+2018-11-08 18:15:37 INFO  Crawler:274 - [Progress 555] elaped time : 00:04:53, save : 0, err : 141, remain_work : 19, total : 574
+2018-11-08 18:15:37 INFO  Crawler:274 - [Progress 556] elaped time : 00:04:53, save : 0, err : 141, remain_work : 18, total : 574
+2018-11-08 18:15:38 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8273490?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:38 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8273490' for key 'PRIMARY'
+2018-11-08 18:15:38 INFO  Crawler:274 - [Progress 557] elaped time : 00:04:55, save : 0, err : 142, remain_work : 17, total : 574
+2018-11-08 18:15:38 INFO  Crawler:274 - [Progress 558] elaped time : 00:04:55, save : 0, err : 142, remain_work : 16, total : 574
+2018-11-08 18:15:39 INFO  Crawler:274 - [Progress 559] elaped time : 00:04:55, save : 0, err : 142, remain_work : 18, total : 577
+2018-11-08 18:15:39 INFO  Crawler:274 - [Progress 560] elaped time : 00:04:55, save : 0, err : 142, remain_work : 17, total : 577
+2018-11-08 18:15:40 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7430090?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:40 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7430090' for key 'PRIMARY'
+2018-11-08 18:15:40 INFO  Crawler:274 - [Progress 561] elaped time : 00:04:57, save : 0, err : 143, remain_work : 16, total : 577
+2018-11-08 18:15:40 INFO  Crawler:274 - [Progress 562] elaped time : 00:04:57, save : 0, err : 143, remain_work : 15, total : 577
+2018-11-08 18:15:40 INFO  Crawler:274 - [Progress 563] elaped time : 00:04:57, save : 0, err : 143, remain_work : 17, total : 580
+2018-11-08 18:15:40 INFO  Crawler:274 - [Progress 564] elaped time : 00:04:57, save : 0, err : 143, remain_work : 16, total : 580
+2018-11-08 18:15:42 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5987366?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:42 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5987366' for key 'PRIMARY'
+2018-11-08 18:15:42 INFO  Crawler:274 - [Progress 565] elaped time : 00:04:58, save : 0, err : 144, remain_work : 15, total : 580
+2018-11-08 18:15:42 INFO  Crawler:274 - [Progress 566] elaped time : 00:04:59, save : 0, err : 144, remain_work : 14, total : 580
+2018-11-08 18:15:42 INFO  Crawler:274 - [Progress 567] elaped time : 00:04:59, save : 0, err : 144, remain_work : 16, total : 583
+2018-11-08 18:15:42 INFO  Crawler:274 - [Progress 568] elaped time : 00:04:59, save : 0, err : 144, remain_work : 15, total : 583
+2018-11-08 18:15:44 ERROR Crawler:266 - [ERR URL] http://domeggook.com/5263665?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:44 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '5263665' for key 'PRIMARY'
+2018-11-08 18:15:44 INFO  Crawler:274 - [Progress 569] elaped time : 00:05:00, save : 0, err : 145, remain_work : 14, total : 583
+2018-11-08 18:15:44 INFO  Crawler:274 - [Progress 570] elaped time : 00:05:00, save : 0, err : 145, remain_work : 13, total : 583
+2018-11-08 18:15:44 INFO  Crawler:274 - [Progress 571] elaped time : 00:05:01, save : 0, err : 145, remain_work : 15, total : 586
+2018-11-08 18:15:44 INFO  Crawler:274 - [Progress 572] elaped time : 00:05:01, save : 0, err : 145, remain_work : 14, total : 586
+2018-11-08 18:15:45 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125542?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:45 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125542' for key 'PRIMARY'
+2018-11-08 18:15:45 INFO  Crawler:274 - [Progress 573] elaped time : 00:05:02, save : 0, err : 146, remain_work : 13, total : 586
+2018-11-08 18:15:45 INFO  Crawler:274 - [Progress 574] elaped time : 00:05:02, save : 0, err : 146, remain_work : 12, total : 586
+2018-11-08 18:15:46 INFO  Crawler:274 - [Progress 575] elaped time : 00:05:03, save : 0, err : 146, remain_work : 14, total : 589
+2018-11-08 18:15:46 INFO  Crawler:274 - [Progress 576] elaped time : 00:05:03, save : 0, err : 146, remain_work : 13, total : 589
+2018-11-08 18:15:47 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125538?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:47 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125538' for key 'PRIMARY'
+2018-11-08 18:15:47 INFO  Crawler:274 - [Progress 577] elaped time : 00:05:04, save : 0, err : 147, remain_work : 12, total : 589
+2018-11-08 18:15:47 INFO  Crawler:274 - [Progress 578] elaped time : 00:05:04, save : 0, err : 147, remain_work : 11, total : 589
+2018-11-08 18:15:48 INFO  Crawler:274 - [Progress 579] elaped time : 00:05:04, save : 0, err : 147, remain_work : 13, total : 592
+2018-11-08 18:15:48 INFO  Crawler:274 - [Progress 580] elaped time : 00:05:04, save : 0, err : 147, remain_work : 12, total : 592
+2018-11-08 18:15:49 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125528?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:49 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125528' for key 'PRIMARY'
+2018-11-08 18:15:49 INFO  Crawler:274 - [Progress 581] elaped time : 00:05:06, save : 0, err : 148, remain_work : 11, total : 592
+2018-11-08 18:15:49 INFO  Crawler:274 - [Progress 582] elaped time : 00:05:06, save : 0, err : 148, remain_work : 10, total : 592
+2018-11-08 18:15:49 INFO  Crawler:274 - [Progress 583] elaped time : 00:05:06, save : 0, err : 148, remain_work : 12, total : 595
+2018-11-08 18:15:49 INFO  Crawler:274 - [Progress 584] elaped time : 00:05:06, save : 0, err : 148, remain_work : 11, total : 595
+2018-11-08 18:15:51 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125523?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:51 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125523' for key 'PRIMARY'
+2018-11-08 18:15:51 INFO  Crawler:274 - [Progress 585] elaped time : 00:05:08, save : 0, err : 149, remain_work : 10, total : 595
+2018-11-08 18:15:51 INFO  Crawler:274 - [Progress 586] elaped time : 00:05:08, save : 0, err : 149, remain_work : 9, total : 595
+2018-11-08 18:15:52 INFO  Crawler:274 - [Progress 587] elaped time : 00:05:08, save : 0, err : 149, remain_work : 11, total : 598
+2018-11-08 18:15:52 INFO  Crawler:274 - [Progress 588] elaped time : 00:05:08, save : 0, err : 149, remain_work : 10, total : 598
+2018-11-08 18:15:53 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125511?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:53 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125511' for key 'PRIMARY'
+2018-11-08 18:15:53 INFO  Crawler:274 - [Progress 589] elaped time : 00:05:10, save : 0, err : 150, remain_work : 9, total : 598
+2018-11-08 18:15:53 INFO  Crawler:274 - [Progress 590] elaped time : 00:05:10, save : 0, err : 150, remain_work : 8, total : 598
+2018-11-08 18:15:53 INFO  Crawler:274 - [Progress 591] elaped time : 00:05:10, save : 0, err : 150, remain_work : 10, total : 601
+2018-11-08 18:15:53 INFO  Crawler:274 - [Progress 592] elaped time : 00:05:10, save : 0, err : 150, remain_work : 9, total : 601
+2018-11-08 18:15:55 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125501?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:55 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125501' for key 'PRIMARY'
+2018-11-08 18:15:55 INFO  Crawler:274 - [Progress 593] elaped time : 00:05:11, save : 0, err : 151, remain_work : 8, total : 601
+2018-11-08 18:15:55 INFO  Crawler:274 - [Progress 594] elaped time : 00:05:11, save : 0, err : 151, remain_work : 7, total : 601
+2018-11-08 18:15:55 INFO  Crawler:274 - [Progress 595] elaped time : 00:05:12, save : 0, err : 151, remain_work : 9, total : 604
+2018-11-08 18:15:55 INFO  Crawler:274 - [Progress 596] elaped time : 00:05:12, save : 0, err : 151, remain_work : 8, total : 604
+2018-11-08 18:15:57 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8125496?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:57 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8125496' for key 'PRIMARY'
+2018-11-08 18:15:57 INFO  Crawler:274 - [Progress 597] elaped time : 00:05:14, save : 0, err : 152, remain_work : 7, total : 604
+2018-11-08 18:15:57 INFO  Crawler:274 - [Progress 598] elaped time : 00:05:14, save : 0, err : 152, remain_work : 6, total : 604
+2018-11-08 18:15:57 INFO  Crawler:274 - [Progress 599] elaped time : 00:05:14, save : 0, err : 152, remain_work : 8, total : 607
+2018-11-08 18:15:57 INFO  Crawler:274 - [Progress 600] elaped time : 00:05:14, save : 0, err : 152, remain_work : 7, total : 607
+2018-11-08 18:15:59 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6888789?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:15:59 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6888789' for key 'PRIMARY'
+2018-11-08 18:15:59 INFO  Crawler:274 - [Progress 601] elaped time : 00:05:15, save : 0, err : 153, remain_work : 6, total : 607
+2018-11-08 18:15:59 INFO  Crawler:274 - [Progress 602] elaped time : 00:05:15, save : 0, err : 153, remain_work : 5, total : 607
+2018-11-08 18:15:59 INFO  Crawler:274 - [Progress 603] elaped time : 00:05:16, save : 0, err : 153, remain_work : 7, total : 610
+2018-11-08 18:15:59 INFO  Crawler:274 - [Progress 604] elaped time : 00:05:16, save : 0, err : 153, remain_work : 6, total : 610
+2018-11-08 18:16:00 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6875369?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:16:00 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6875369' for key 'PRIMARY'
+2018-11-08 18:16:00 INFO  Crawler:274 - [Progress 605] elaped time : 00:05:17, save : 0, err : 154, remain_work : 5, total : 610
+2018-11-08 18:16:01 INFO  Crawler:274 - [Progress 606] elaped time : 00:05:18, save : 0, err : 154, remain_work : 4, total : 610
+2018-11-08 18:16:01 INFO  Crawler:274 - [Progress 607] elaped time : 00:05:18, save : 0, err : 154, remain_work : 6, total : 613
+2018-11-08 18:16:01 INFO  Crawler:274 - [Progress 608] elaped time : 00:05:18, save : 0, err : 154, remain_work : 5, total : 613
+2018-11-08 18:16:03 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8025373?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:16:03 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8025373' for key 'PRIMARY'
+2018-11-08 18:16:03 INFO  Crawler:274 - [Progress 609] elaped time : 00:05:20, save : 0, err : 155, remain_work : 4, total : 613
+2018-11-08 18:16:03 INFO  Crawler:274 - [Progress 610] elaped time : 00:05:20, save : 0, err : 155, remain_work : 3, total : 613
+2018-11-08 18:16:03 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:16:03 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:16:03 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:16:03 INFO  Crawler:274 - [Progress 611] elaped time : 00:05:20, save : 0, err : 156, remain_work : 2, total : 613
+2018-11-08 18:16:03 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-08 18:16:03 ERROR Crawler:266 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 18:16:03 ERROR Crawler:269 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:4116}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: a623ad3e66aacfa02ff1ef11495c6c25
+2018-11-08 18:16:03 INFO  Crawler:274 - [Progress 612] elaped time : 00:05:20, save : 0, err : 157, remain_work : 1, total : 613
+2018-11-08 18:16:05 INFO  Crawler:274 - [Progress 613] elaped time : 00:05:22, save : 0, err : 157, remain_work : 2, total : 615
+2018-11-08 18:16:05 INFO  Crawler:274 - [Progress 614] elaped time : 00:05:22, save : 0, err : 157, remain_work : 53, total : 667
+2018-11-08 18:16:05 INFO  Crawler:274 - [Progress 615] elaped time : 00:05:22, save : 0, err : 157, remain_work : 55, total : 670
+2018-11-08 18:16:05 INFO  Crawler:274 - [Progress 616] elaped time : 00:05:22, save : 0, err : 157, remain_work : 54, total : 670
+2018-11-08 18:16:07 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8025331?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:07 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8025331' for key 'PRIMARY'
+2018-11-08 18:16:07 INFO  Crawler:274 - [Progress 617] elaped time : 00:05:24, save : 0, err : 158, remain_work : 53, total : 670
+2018-11-08 18:16:07 INFO  Crawler:274 - [Progress 618] elaped time : 00:05:24, save : 0, err : 158, remain_work : 52, total : 670
+2018-11-08 18:16:08 INFO  Crawler:274 - [Progress 619] elaped time : 00:05:24, save : 0, err : 158, remain_work : 54, total : 673
+2018-11-08 18:16:08 INFO  Crawler:274 - [Progress 620] elaped time : 00:05:24, save : 0, err : 158, remain_work : 53, total : 673
+2018-11-08 18:16:09 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8010718?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 18:16:09 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8010718' for key 'PRIMARY'
+2018-11-08 18:16:09 INFO  Crawler:274 - [Progress 621] elaped time : 00:05:26, save : 0, err : 160, remain_work : 52, total : 673
+2018-11-08 18:16:09 INFO  Crawler:274 - [Progress 622] elaped time : 00:05:26, save : 0, err : 160, remain_work : 51, total : 673
+2018-11-08 18:16:09 INFO  Crawler:274 - [Progress 623] elaped time : 00:05:26, save : 0, err : 160, remain_work : 53, total : 676
+2018-11-08 18:16:09 INFO  Crawler:274 - [Progress 624] elaped time : 00:05:26, save : 0, err : 160, remain_work : 52, total : 676
+2018-11-08 18:16:11 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7999072?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 18:16:11 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7999072' for key 'PRIMARY'
+2018-11-08 18:16:11 INFO  Crawler:274 - [Progress 625] elaped time : 00:05:28, save : 0, err : 162, remain_work : 51, total : 676
+2018-11-08 18:16:11 INFO  Crawler:274 - [Progress 626] elaped time : 00:05:28, save : 0, err : 162, remain_work : 50, total : 676
+2018-11-08 18:16:11 INFO  Crawler:274 - [Progress 627] elaped time : 00:05:28, save : 0, err : 162, remain_work : 52, total : 679
+2018-11-08 18:16:11 INFO  Crawler:274 - [Progress 628] elaped time : 00:05:28, save : 0, err : 162, remain_work : 51, total : 679
+2018-11-08 18:16:13 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6124358?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:13 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6124358' for key 'PRIMARY'
+2018-11-08 18:16:13 INFO  Crawler:274 - [Progress 629] elaped time : 00:05:30, save : 0, err : 163, remain_work : 50, total : 679
+2018-11-08 18:16:13 INFO  Crawler:274 - [Progress 630] elaped time : 00:05:30, save : 0, err : 163, remain_work : 49, total : 679
+2018-11-08 18:16:14 INFO  Crawler:274 - [Progress 631] elaped time : 00:05:30, save : 0, err : 163, remain_work : 51, total : 682
+2018-11-08 18:16:14 INFO  Crawler:274 - [Progress 632] elaped time : 00:05:31, save : 0, err : 163, remain_work : 50, total : 682
+2018-11-08 18:16:15 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7206370?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:15 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7206370' for key 'PRIMARY'
+2018-11-08 18:16:15 INFO  Crawler:274 - [Progress 633] elaped time : 00:05:32, save : 0, err : 164, remain_work : 49, total : 682
+2018-11-08 18:16:15 INFO  Crawler:274 - [Progress 634] elaped time : 00:05:32, save : 0, err : 164, remain_work : 48, total : 682
+2018-11-08 18:16:16 INFO  Crawler:274 - [Progress 635] elaped time : 00:05:33, save : 0, err : 164, remain_work : 50, total : 685
+2018-11-08 18:16:16 INFO  Crawler:274 - [Progress 636] elaped time : 00:05:33, save : 0, err : 164, remain_work : 49, total : 685
+2018-11-08 18:16:17 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8131875?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:17 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8131875' for key 'PRIMARY'
+2018-11-08 18:16:17 INFO  Crawler:274 - [Progress 637] elaped time : 00:05:34, save : 0, err : 165, remain_work : 48, total : 685
+2018-11-08 18:16:18 INFO  Crawler:274 - [Progress 638] elaped time : 00:05:34, save : 0, err : 165, remain_work : 47, total : 685
+2018-11-08 18:16:18 INFO  Crawler:274 - [Progress 639] elaped time : 00:05:35, save : 0, err : 165, remain_work : 49, total : 688
+2018-11-08 18:16:18 INFO  Crawler:274 - [Progress 640] elaped time : 00:05:35, save : 0, err : 165, remain_work : 48, total : 688
+2018-11-08 18:16:19 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8083535?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:19 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8083535' for key 'PRIMARY'
+2018-11-08 18:16:19 INFO  Crawler:274 - [Progress 641] elaped time : 00:05:36, save : 0, err : 166, remain_work : 47, total : 688
+2018-11-08 18:16:19 INFO  Crawler:274 - [Progress 642] elaped time : 00:05:36, save : 0, err : 166, remain_work : 46, total : 688
+2018-11-08 18:16:20 INFO  Crawler:274 - [Progress 643] elaped time : 00:05:36, save : 0, err : 166, remain_work : 48, total : 691
+2018-11-08 18:16:20 INFO  Crawler:274 - [Progress 644] elaped time : 00:05:36, save : 0, err : 166, remain_work : 47, total : 691
+2018-11-08 18:16:21 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7086133?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:21 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7086133' for key 'PRIMARY'
+2018-11-08 18:16:21 INFO  Crawler:274 - [Progress 645] elaped time : 00:05:38, save : 0, err : 167, remain_work : 46, total : 691
+2018-11-08 18:16:21 INFO  Crawler:274 - [Progress 646] elaped time : 00:05:38, save : 0, err : 167, remain_work : 45, total : 691
+2018-11-08 18:16:22 INFO  Crawler:274 - [Progress 647] elaped time : 00:05:38, save : 0, err : 167, remain_work : 47, total : 694
+2018-11-08 18:16:22 INFO  Crawler:274 - [Progress 648] elaped time : 00:05:38, save : 0, err : 167, remain_work : 46, total : 694
+2018-11-08 18:16:23 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7539161?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:23 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7539161' for key 'PRIMARY'
+2018-11-08 18:16:23 INFO  Crawler:274 - [Progress 649] elaped time : 00:05:40, save : 0, err : 168, remain_work : 45, total : 694
+2018-11-08 18:16:23 INFO  Crawler:274 - [Progress 650] elaped time : 00:05:40, save : 0, err : 168, remain_work : 44, total : 694
+2018-11-08 18:16:24 INFO  Crawler:274 - [Progress 651] elaped time : 00:05:40, save : 0, err : 168, remain_work : 46, total : 697
+2018-11-08 18:16:24 INFO  Crawler:274 - [Progress 652] elaped time : 00:05:40, save : 0, err : 168, remain_work : 45, total : 697
+2018-11-08 18:16:25 ERROR Crawler:266 - [ERR URL] http://domeggook.com/7492909?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:25 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '7492909' for key 'PRIMARY'
+2018-11-08 18:16:25 INFO  Crawler:274 - [Progress 653] elaped time : 00:05:42, save : 0, err : 169, remain_work : 44, total : 697
+2018-11-08 18:16:25 INFO  Crawler:274 - [Progress 654] elaped time : 00:05:42, save : 0, err : 169, remain_work : 43, total : 697
+2018-11-08 18:16:25 INFO  Crawler:274 - [Progress 655] elaped time : 00:05:42, save : 0, err : 169, remain_work : 45, total : 700
+2018-11-08 18:16:25 INFO  Crawler:274 - [Progress 656] elaped time : 00:05:42, save : 0, err : 169, remain_work : 44, total : 700
+2018-11-08 18:16:27 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8006360?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:27 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8006360' for key 'PRIMARY'
+2018-11-08 18:16:27 INFO  Crawler:274 - [Progress 657] elaped time : 00:05:43, save : 0, err : 170, remain_work : 43, total : 700
+2018-11-08 18:16:27 INFO  Crawler:274 - [Progress 658] elaped time : 00:05:43, save : 0, err : 170, remain_work : 42, total : 700
+2018-11-08 18:16:27 INFO  Crawler:274 - [Progress 659] elaped time : 00:05:44, save : 0, err : 170, remain_work : 44, total : 703
+2018-11-08 18:16:27 INFO  Crawler:274 - [Progress 660] elaped time : 00:05:44, save : 0, err : 170, remain_work : 43, total : 703
+2018-11-08 18:16:28 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8006359?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:28 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8006359' for key 'PRIMARY'
+2018-11-08 18:16:28 INFO  Crawler:274 - [Progress 661] elaped time : 00:05:45, save : 0, err : 171, remain_work : 42, total : 703
+2018-11-08 18:16:28 INFO  Crawler:274 - [Progress 662] elaped time : 00:05:45, save : 0, err : 171, remain_work : 41, total : 703
+2018-11-08 18:16:29 INFO  Crawler:274 - [Progress 663] elaped time : 00:05:45, save : 0, err : 171, remain_work : 43, total : 706
+2018-11-08 18:16:29 INFO  Crawler:274 - [Progress 664] elaped time : 00:05:45, save : 0, err : 171, remain_work : 42, total : 706
+2018-11-08 18:16:30 ERROR Crawler:266 - [ERR URL] http://domeggook.com/8006358?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:30 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '8006358' for key 'PRIMARY'
+2018-11-08 18:16:30 INFO  Crawler:274 - [Progress 665] elaped time : 00:05:47, save : 0, err : 172, remain_work : 41, total : 706
+2018-11-08 18:16:30 INFO  Crawler:274 - [Progress 666] elaped time : 00:05:47, save : 0, err : 172, remain_work : 40, total : 706
+2018-11-08 18:16:31 INFO  Crawler:274 - [Progress 667] elaped time : 00:05:47, save : 0, err : 172, remain_work : 42, total : 709
+2018-11-08 18:16:31 INFO  Crawler:274 - [Progress 668] elaped time : 00:05:47, save : 0, err : 172, remain_work : 41, total : 709
+2018-11-08 18:16:32 ERROR Crawler:266 - [ERR URL] http://domeggook.com/6841831?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 18:16:32 ERROR Crawler:269 - L ERR_WRITE : Contents write failed : Duplicate entry '6841831' for key 'PRIMARY'
+2018-11-08 18:16:32 INFO  Crawler:274 - [Progress 669] elaped time : 00:05:49, save : 0, err : 173, remain_work : 40, total : 709
+2018-11-08 18:16:32 INFO  Crawler:274 - [Progress 670] elaped time : 00:05:49, save : 0, err : 173, remain_work : 39, total : 709
+2018-11-08 18:16:33 INFO  Crawler:274 - [Progress 671] elaped time : 00:05:49, save : 0, err : 173, remain_work : 41, total : 712
+2018-11-08 18:16:33 INFO  Crawler:274 - [Progress 672] elaped time : 00:05:49, save : 0, err : 173, remain_work : 40, total : 712

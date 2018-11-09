@@ -1,0 +1,2 @@
+2018-11-08 17:47:56 ERROR Crawler:264 - [ERR URL] http://domeggook.com/8031622?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 17:47:56 ERROR Crawler:267 - L ERR_WRITE : Contents write failed : Duplicate entry '8031622' for key 'PRIMARY'

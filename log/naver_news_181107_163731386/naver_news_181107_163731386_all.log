@@ -1,0 +1,13 @@
+2018-11-07 16:37:31 INFO  Crawler:218 - ============== Start Crawler =============
+2018-11-07 16:37:31 INFO  Crawler:219 - CONFIG FILE    : ./config/config_naver_news.json
+2018-11-07 16:37:31 INFO  Crawler:223 - CRAWLER NAME   : naver_news
+2018-11-07 16:37:31 INFO  Crawler:224 - CRAWLER TYPE   : SCENARIO_STATIC
+2018-11-07 16:37:31 INFO  Crawler:225 - CRAWLER DELAY  : 3 sec
+2018-11-07 16:37:31 INFO  Crawler:226 - IGNORE ROBOTS  : true
+2018-11-07 16:37:31 INFO  Crawler:227 - LIMIT_COUNT    : -1
+2018-11-07 16:37:31 INFO  Crawler:228 - FILTER COUNT   : 0
+2018-11-07 16:37:31 INFO  Crawler:232 - SCENARIO COUNT : 5
+2018-11-07 16:37:31 INFO  Crawler:233 - COLLECT COUNT  : 1
+2018-11-07 16:37:31 INFO  Crawler:234 - SAVE TYPE      : DB
+2018-11-07 16:37:31 INFO  Crawler:235 - SAVE HTML      : false
+2018-11-07 16:37:31 INFO  Crawler:236 - ==========================================

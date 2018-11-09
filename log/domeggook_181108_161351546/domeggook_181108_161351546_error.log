@@ -1,0 +1,464 @@
+2018-11-08 16:14:09 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8031622?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:09 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8031622' for key 'PRIMARY'
+2018-11-08 16:14:16 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7515374?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:16 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7515374' for key 'PRIMARY'
+2018-11-08 16:14:23 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8269048?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:23 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8269048' for key 'PRIMARY'
+2018-11-08 16:14:29 ERROR Crawler:258 - [ERR URL] http://domeggook.com/1744303?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:29 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '1744303' for key 'PRIMARY'
+2018-11-08 16:14:36 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8093887?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:36 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8093887' for key 'PRIMARY'
+2018-11-08 16:14:43 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7189460?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:43 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7189460' for key 'PRIMARY'
+2018-11-08 16:14:54 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7545296?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:14:54 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7545296' for key 'PRIMARY'
+2018-11-08 16:15:04 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6412500?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:04 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6412500' for key 'PRIMARY'
+2018-11-08 16:15:10 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6412499?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:10 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6412499' for key 'PRIMARY'
+2018-11-08 16:15:21 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6154659?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:21 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6154659' for key 'PRIMARY'
+2018-11-08 16:15:30 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7418882?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:30 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7418882' for key 'PRIMARY'
+2018-11-08 16:15:37 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8192040?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:37 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8192040' for key 'PRIMARY'
+2018-11-08 16:15:45 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7080854?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:45 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7080854' for key 'PRIMARY'
+2018-11-08 16:15:53 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6982198?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:15:53 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6982198' for key 'PRIMARY'
+2018-11-08 16:16:01 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6982202?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:01 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6982202' for key 'PRIMARY'
+2018-11-08 16:16:09 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6653618?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:09 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6653618' for key 'PRIMARY'
+2018-11-08 16:16:16 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970715?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:16 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970715' for key 'PRIMARY'
+2018-11-08 16:16:23 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7972226?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:23 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7972226' for key 'PRIMARY'
+2018-11-08 16:16:29 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7401190?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:29 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7401190' for key 'PRIMARY'
+2018-11-08 16:16:41 ERROR Crawler:258 - [ERR URL] http://domeggook.com/4445104?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:41 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '4445104' for key 'PRIMARY'
+2018-11-08 16:16:52 ERROR Crawler:258 - [ERR URL] http://domeggook.com/3400135?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:16:52 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '3400135' for key 'PRIMARY'
+2018-11-08 16:17:03 ERROR Crawler:258 - [ERR URL] http://domeggook.com/4445122?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:03 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '4445122' for key 'PRIMARY'
+2018-11-08 16:17:13 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6154667?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:13 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6154667' for key 'PRIMARY'
+2018-11-08 16:17:19 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6921119?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:19 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6921119' for key 'PRIMARY'
+2018-11-08 16:17:26 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8125503?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:26 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8125503' for key 'PRIMARY'
+2018-11-08 16:17:33 ERROR Crawler:258 - [ERR URL] http://domeggook.com/5104395?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:33 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '5104395' for key 'PRIMARY'
+2018-11-08 16:17:41 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7033267?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:41 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7033267' for key 'PRIMARY'
+2018-11-08 16:17:47 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7034333?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:47 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7034333' for key 'PRIMARY'
+2018-11-08 16:17:57 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8226700?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:17:57 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8226700' for key 'PRIMARY'
+2018-11-08 16:18:21 ERROR Crawler:258 - [ERR URL] http://domeggook.com/6930733?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:21 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '6930733' for key 'PRIMARY'
+2018-11-08 16:18:30 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8102828?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:30 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8102828' for key 'PRIMARY'
+2018-11-08 16:18:37 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8096277?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:37 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8096277' for key 'PRIMARY'
+2018-11-08 16:18:44 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8096274?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:44 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8096274' for key 'PRIMARY'
+2018-11-08 16:18:51 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8093972?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:51 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8093972' for key 'PRIMARY'
+2018-11-08 16:18:57 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7468910?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:18:57 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7468910' for key 'PRIMARY'
+2018-11-08 16:19:04 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7468906?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:04 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7468906' for key 'PRIMARY'
+2018-11-08 16:19:10 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8024559?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:10 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '8024559' for key 'PRIMARY'
+2018-11-08 16:19:17 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970712?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:17 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970712' for key 'PRIMARY'
+2018-11-08 16:19:24 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970718?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:24 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970718' for key 'PRIMARY'
+2018-11-08 16:19:30 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970717?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:30 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970717' for key 'PRIMARY'
+2018-11-08 16:19:38 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970716?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:38 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970716' for key 'PRIMARY'
+2018-11-08 16:19:44 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7970713?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:19:44 ERROR Crawler:261 - L ERR_WRITE : Contents write failed : Duplicate entry '7970713' for key 'PRIMARY'
+2018-11-08 16:20:44 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241327\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241327/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241327\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241327/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241327\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241327/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:20:44 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:20:44 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241327\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241327/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:20:48 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241328\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241328/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241328\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241328/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241328\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241328/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:20:48 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 16:20:48 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661241328\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661241328/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:26:29 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652696\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652696/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652696\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652696/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652696\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652696/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:26:29 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 16:26:29 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652696\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652696/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:26:33 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652697\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652697/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652697\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652697/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652697\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652697/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:26:33 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=2
+2018-11-08 16:26:33 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661652697\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661652697/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:26:45 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8010684?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 16:26:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:32:23 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997736\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997736/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997736\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997736/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997736\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997736/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:32:23 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 16:32:23 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997736\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997736/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:32:27 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997737\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997737/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997737\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997737/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997737\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997737/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:32:27 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=3
+2018-11-08 16:32:27 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541661997737\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541661997737/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:32:45 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8010718?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:32:45 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:32:52 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7999072?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:32:52 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:35:15 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8010792?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:35:15 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:35:21 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8010782?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:35:21 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:35:27 ERROR Crawler:258 - [ERR URL] http://domeggook.com/8010769?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:35:27 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:37:59 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351868\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351868/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351868\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351868/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351868\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351868/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:37:59 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:37:59 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351868\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351868/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:38:03 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351869\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351869/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351869\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351869/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351869\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351869/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:38:03 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=4
+2018-11-08 16:38:03 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662351869\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662351869/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:43:56 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688356\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688356/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688356\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688356/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688356\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688356/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:43:56 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=5
+2018-11-08 16:43:56 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688356\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688356/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:44:00 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688357\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688357/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688357\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688357/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688357\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688357/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:44:00 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=5
+2018-11-08 16:44:00 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541662688357\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541662688357/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:49:47 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047574\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047574/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047574\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047574/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047574\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047574/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:49:47 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=6
+2018-11-08 16:49:47 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047574\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047574/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:49:51 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047575\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047575/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047575\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047575/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047575\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047575/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:49:51 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=6
+2018-11-08 16:49:51 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663047575\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663047575/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:54:09 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7385952?sfc=ttl&sf=ttl&sw=%B1%E8&pg=7
+2018-11-08 16:54:09 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:54:18 ERROR Crawler:258 - [ERR URL] http://domeggook.com/7462931?sfc=ttl&sf=ttl&sw=%B1%E8&pg=7
+2018-11-08 16:54:18 ERROR Crawler:261 - L ERR_CONTENTS_COL : price, div.lInfoSellPrice > b, text
+2018-11-08 16:56:00 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395744\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395744/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395744\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395744/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395744\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395744/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:56:00 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=7
+2018-11-08 16:56:00 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395744\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395744/click"}}
+Command duration or timeout: 0 milliseconds
+2018-11-08 16:56:04 ERROR WorkRunnable:82 - not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395745\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395745/click"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395745\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395745/click"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:94)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.ElementNotVisibleException: {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395745\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395745/click"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: driver.version: unknown
+2018-11-08 16:56:04 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8&pg=7
+2018-11-08 16:56:04 ERROR Crawler:261 - L ERR : not found element {"errorMessage":"Element is not currently visible and may not be manipulated","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"27","Content-Type":"application/json; charset=utf-8","Host":"localhost:36948","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"id\":\":wdc:1541663395745\"}","url":"/click","urlParsed":{"anchor":"","query":"","file":"click","directory":"/","path":"/click","relative":"/click","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/click","queryKey":{},"chunks":["click"]},"urlOriginal":"/session/daff9c40-e325-11e8-a8ab-4fd89ce1941d/element/:wdc:1541663395745/click"}}
+Command duration or timeout: 0 milliseconds

@@ -66,7 +66,7 @@ public class RobotsParser implements Parser<Work, Contents> {
 						robots.add(userAgent, Integer.parseInt(value));
 				}else{
 					if(line.replace(" ", "").length() > 0) {
-						urlInfo.result().addError(Work.Error.ERR, "robots - This line can't parse commend : " + line);
+						urlInfo.result().addError(Work.Error.ERR, "robots - This line can't parse commend : " + line, null);
 					}
 				}
 			}

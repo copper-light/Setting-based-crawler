@@ -35,8 +35,10 @@ public class DBWriter implements Writer {
 
 	static final String Q_INSERT_CONTENTS = "INSERT INTO %s (%s) VALUES (%s)";
 
-	static final String Q_CREATE_CONTENTS_TABLE = "CREATE TABLE IF NOT EXISTS %s ("
-			+ "ROW_ID INT(11) NOT NULL AUTO_INCREMENT %s, PRIMARY KEY (ROW_ID %s))";
+//	static final String Q_CREATE_CONTENTS_TABLE = "CREATE TABLE IF NOT EXISTS %s ("
+//			+ "ROW_ID INT(11) NOT NULL AUTO_INCREMENT %s, PRIMARY KEY (ROW_ID %s))";
+	
+	static final String Q_CREATE_CONTENTS_TABLE = "CREATE TABLE IF NOT EXISTS %s (%s %s)";
 
 	Connection mConn;
 
@@ -64,11 +66,20 @@ public class DBWriter implements Writer {
 					for (CollectRecode.Column col : c.getColumns()) {
 						colName = col.getDataName().toUpperCase(); // 컬럼 명
 						colType = col.getDataType(); // 컬럼 타입
-						query += ", " + colName + " " + colType;
+						if(query.isEmpty()){
+							query = colName + " " + colType;
+						}else{
+							query += ", " + colName + " " + colType;
+						}
 						if(col.isKey()){
-							keys += ", " + colName;
+							if(keys.isEmpty()) {
+								keys= ",PRIMARY KEY (" + colName;
+							}else{
+								keys += ", " + colName;
+							}
 						}
 					}
+					if(!keys.isEmpty()) keys+=")";
 					if (query.length() > 0) {
 						query = String.format(Q_CREATE_CONTENTS_TABLE, tableName, query, keys);
 						insert(query);

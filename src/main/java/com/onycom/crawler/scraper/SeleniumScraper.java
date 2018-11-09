@@ -57,10 +57,10 @@ public class SeleniumScraper implements Scraper {
 
     public Document getDocument(Work work) throws  Exception {
         Document ret = null;
-        List<String> checkSelector;
+        //List<String> checkSelector;
         WebElement we = null;
         List<WebElement> wes = null;
-        String newWindow;
+        //String newWindow;
         Action action = work.getAction();
 
         // urlInfo.setParentWindow(mSeleniumDriver.getWindowHandle());
@@ -72,7 +72,7 @@ public class SeleniumScraper implements Scraper {
                 wes = waitingForAllElements(mSeleniumDriver, 10, selector, empty_selector);
                 if (wes == null) { // 못찾음
                     //mLogger.error("Not found element : " + selector);
-                    work.result().addError(Work.Error.ERR_ACTION, selector);
+                    work.result().addError(Work.Error.ERR_ACTION, selector, null);
                     return null;
                 }
                 if (wes.isEmpty()) { // 이제 없음
@@ -90,14 +90,14 @@ public class SeleniumScraper implements Scraper {
                     we = wes.get(0);
                     // System.err.println("[action] "+action.getType() +" @ "
                     // +selector);
-                    if (action.getType().contentEquals(Action.TYPE_CLICK)) {
+                    if (action.getType().equalsIgnoreCase(Action.TYPE_CLICK)) {
                         we.click();
-                    } else if (action.getType().contentEquals(Action.TYPE_INPUT) && value != null) {
+                    } else if (action.getType().equalsIgnoreCase(Action.TYPE_INPUT) && value != null) {
                         we.sendKeys(value);
-                    } else if (action.getType().contentEquals(Action.TYPE_VERTICAL_SCROLL) && value != null) {
+                    } else if (action.getType().equalsIgnoreCase(Action.TYPE_VERTICAL_SCROLL) && value != null) {
                         JavascriptExecutor jse = (JavascriptExecutor) mSeleniumDriver;
                         jse.executeScript("window.scrollBy(0," + value + ")", "");
-                    } else if (action.getType().contentEquals(Action.TYPE_SELECT) && value != null) {
+                    } else if (action.getType().equalsIgnoreCase(Action.TYPE_SELECT) && value != null) {
                         Select dropdown = new Select(we);
                         try {
                             int intValue = Integer.parseInt(value);
@@ -107,7 +107,7 @@ public class SeleniumScraper implements Scraper {
                             // 처리
                             dropdown.selectByValue(value);
                         }
-                    } else if (action.getType().contentEquals(Action.TYPE_JAVASCRIPT) && value != null) {
+                    } else if (action.getType().equalsIgnoreCase(Action.TYPE_JAVASCRIPT) && value != null) {
                         JavascriptExecutor jse = (JavascriptExecutor) mSeleniumDriver;
                         Iterator<String> it = mJSData.keySet().iterator();
                         String k, v;
@@ -157,7 +157,7 @@ public class SeleniumScraper implements Scraper {
                     ret = Jsoup.parse(mSeleniumDriver.getPageSource());
                 }
             } else {
-                if (action.getType().contentEquals(Action.TYPE_SWITCH_WINDOW)) {
+                if (action.getType().equalsIgnoreCase(Action.TYPE_SWITCH_WINDOW)) {
                     ArrayList<String> tab = new ArrayList<String>(mSeleniumDriver.getWindowHandles());
                     int cur_idx = 0;
                     int tab_size = tab.size();
@@ -180,7 +180,7 @@ public class SeleniumScraper implements Scraper {
                             mSeleniumDriver.switchTo().window(tab.get(new_idx));
                         }
                     }
-                } else if (action.getType().contentEquals(Action.TYPE_CLOSE_WINDOW)) {
+                } else if (action.getType().equalsIgnoreCase(Action.TYPE_CLOSE_WINDOW)) {
                     ArrayList<String> tab = new ArrayList<String>(mSeleniumDriver.getWindowHandles());
                     int tab_size = tab.size();
                     int cur_idx = 0;
@@ -204,11 +204,11 @@ public class SeleniumScraper implements Scraper {
                     } else {
                         mSeleniumDriver.switchTo().window(tab.get(tab_size - 1));
                     }
-                } else if (action.getType().contentEquals(Action.TYPE_BACKWORD_WINDOW)) {
+                } else if (action.getType().equalsIgnoreCase(Action.TYPE_BACKWORD_WINDOW)) {
                     mSeleniumDriver.navigate().back();
-                } else if (action.getType().contentEquals(Action.TYPE_FORWORD_WINDOW)) {
+                } else if (action.getType().equalsIgnoreCase(Action.TYPE_FORWORD_WINDOW)) {
                     mSeleniumDriver.navigate().forward();
-                } else if (action.getType().contentEquals(Action.TYPE_REFRESH_WINDOW)) {
+                } else if (action.getType().equalsIgnoreCase(Action.TYPE_REFRESH_WINDOW)) {
                     mSeleniumDriver.navigate().refresh();
                 } else if (action.getType().equalsIgnoreCase(Action.TYPE_CLOSE_POPUP)) {
                     if (value != null) {
@@ -372,6 +372,7 @@ public class SeleniumScraper implements Scraper {
     private static void quitSelenium() {
         if (mSeleniumDriver != null) {
             mSeleniumDriver.quit();
+            mSeleniumDriver = null;
         }
     }
 }

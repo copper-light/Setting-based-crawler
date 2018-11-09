@@ -1,0 +1,4 @@
+2018-11-08 15:57:37 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 15:57:37 ERROR Crawler:261 - L ERR_ACTION : #lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle
+2018-11-08 15:57:56 ERROR Crawler:258 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%B1%E8
+2018-11-08 15:57:56 ERROR Crawler:261 - L ERR_ACTION : #lInfoList > div.lInfoTopTitleIdWrap > div.lInfoTitle

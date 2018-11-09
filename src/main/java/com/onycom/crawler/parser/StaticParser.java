@@ -53,7 +53,7 @@ public class StaticParser extends DefaultParser {
 			if(allow){
 				newInfo = map.get(url); 
 				if(newInfo == null){
-					newInfo = new Work(url).setDepth(++curDepth);
+					newInfo = new Work(url, mConfig.CHARACTER_SET).setDepth(++curDepth);
 					map.put(url, newInfo);
 					ret.add(newInfo.setScraper(urlInfo.getScraper()).setParser(urlInfo.getParser()));
 				}
