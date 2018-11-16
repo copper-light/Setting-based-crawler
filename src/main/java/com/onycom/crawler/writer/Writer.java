@@ -9,7 +9,6 @@ import com.onycom.crawler.data.Contents;
  * 콘텐츠 저장 인터페이스
  * */
 public interface Writer {
-	
 	/** 
 	 * 열기 */
 	public boolean open() throws Exception ;

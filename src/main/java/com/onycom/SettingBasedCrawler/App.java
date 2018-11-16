@@ -1,6 +1,7 @@
 package com.onycom.SettingBasedCrawler;
 
 import java.io.File;
+import java.net.URISyntaxException;
 
 import com.onycom.crawler.core.*;
 
@@ -14,16 +15,19 @@ public class App
 //    	Crawler c = new Crawler(1, 0);
 //    	c.setConfigFile("./config/config_DC_superidea.json");
 //    	c.start();
-
+    	
     	String config_path = null;
     	if(args != null){
     		int len = args.length;
     		if(len >= 2){
-    			if(args[0].equalsIgnoreCase("-config")){
+    			if(args[0].equalsIgnoreCase("-config_file")){
     				config_path = args[1];
+    			}else{
+    				System.out.println("input parameter : -config_file [FILE_PATH] -params [arg0] [argN]");
+    				return;
     			}
     		}else{
-    			System.out.println("input parameter : -config [FILE_PATH] -params [arg0] [argN]");
+    			System.out.println("input parameter : -config_file [FILE_PATH] -params [arg0] [argN]");
     			return;
     		}
     	}
@@ -34,13 +38,7 @@ public class App
     		if(config_path != null && !config_path.isEmpty()){
     			Crawler c = new Crawler(1, 0);
     			if(args.length >= 4){
-    				if(args[2].equalsIgnoreCase("-params_db")){
-        				/*
-        				 * DB 연결
-        				 * 리스트 반환 
-        				 * */
-    					// args[3];
-        			}else if(args[2].equalsIgnoreCase("-params")){
+    				if(args[2].equalsIgnoreCase("-params")){
         				params = new String[1][args.length - 3];
         				for(int j = 3 ;j  < args.length ; j++){
         					params[0][j-3] = args[j];
@@ -48,13 +46,13 @@ public class App
         			}
     				for(int i = 0 ; i < params.length ; i++){
         				for(int j = 0; j < params[i].length ; j++){
-        	    			c.setConfigFile(config_path, params[i]);
+        	    			c.setConfig(config_path, null, params[i]);
         	    	    	c.start();
         				}
         			}
     			}else{
     				params = null;
-	    			c.setConfigFile(config_path, null);
+	    			c.setConfig(config_path, null, null);
 	    	    	c.start();
     			}
     			

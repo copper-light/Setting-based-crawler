@@ -1,0 +1,14 @@
+2018-11-13 15:56:48 INFO  Crawler:227 - ============== Start Crawler =============
+2018-11-13 15:56:48 INFO  Crawler:228 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-13 15:56:48 INFO  Crawler:232 - CMD PARAM 00   : 노숙인
+2018-11-13 15:56:48 INFO  Crawler:235 - CRAWLER NAME   : naver_category
+2018-11-13 15:56:48 INFO  Crawler:236 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-13 15:56:48 INFO  Crawler:237 - CRAWLER DELAY  : 1 sec
+2018-11-13 15:56:48 INFO  Crawler:238 - IGNORE ROBOTS  : true
+2018-11-13 15:56:48 INFO  Crawler:239 - LIMIT_COUNT    : -1
+2018-11-13 15:56:48 INFO  Crawler:240 - FILTER COUNT   : 0
+2018-11-13 15:56:48 INFO  Crawler:244 - SCENARIO COUNT : 1
+2018-11-13 15:56:48 INFO  Crawler:245 - COLLECT COUNT  : 1
+2018-11-13 15:56:48 INFO  Crawler:246 - SAVE TYPE      : DB
+2018-11-13 15:56:48 INFO  Crawler:247 - SAVE HTML      : true
+2018-11-13 15:56:48 INFO  Crawler:248 - ==========================================

@@ -1,0 +1,358 @@
+2018-11-12 13:19:48 INFO  Crawler:181 - ============== Start Crawler =============
+2018-11-12 13:19:48 INFO  Crawler:182 - CONFIG FILE    : 
+2018-11-12 13:19:48 INFO  Crawler:188 - CRAWLER NAME   : domeggook
+2018-11-12 13:19:48 INFO  Crawler:189 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 13:19:48 INFO  Crawler:190 - CRAWLER DELAY  : 0 sec
+2018-11-12 13:19:48 INFO  Crawler:191 - IGNORE ROBOTS  : true
+2018-11-12 13:19:48 INFO  Crawler:192 - LIMIT_COUNT    : -1
+2018-11-12 13:19:48 INFO  Crawler:193 - FILTER COUNT   : 0
+2018-11-12 13:19:48 INFO  Crawler:197 - SCENARIO COUNT : 2
+2018-11-12 13:19:48 INFO  Crawler:198 - COLLECT COUNT  : 1
+2018-11-12 13:19:48 INFO  Crawler:199 - SAVE TYPE      : DB
+2018-11-12 13:19:48 INFO  Crawler:200 - SAVE HTML      : true
+2018-11-12 13:19:48 INFO  Crawler:201 - ==========================================
+2018-11-12 13:19:57 INFO  Crawler:231 - [Progress 1] elaped time : 00:00:09, save : 0, err : 0, remain_work : 2, total : 3
+2018-11-12 13:19:57 INFO  Crawler:231 - [Progress 2] elaped time : 00:00:09, save : 0, err : 0, remain_work : 52, total : 54
+2018-11-12 13:19:58 INFO  Crawler:231 - [Progress 3] elaped time : 00:00:09, save : 0, err : 0, remain_work : 54, total : 57
+2018-11-12 13:19:58 INFO  Crawler:231 - [Progress 4] elaped time : 00:00:09, save : 0, err : 0, remain_work : 53, total : 57
+2018-11-12 13:20:00 INFO  Crawler:231 - [Progress 5] elaped time : 00:00:12, save : 1, err : 0, remain_work : 52, total : 57
+2018-11-12 13:20:01 INFO  Crawler:231 - [Progress 6] elaped time : 00:00:12, save : 1, err : 0, remain_work : 51, total : 57
+2018-11-12 13:20:01 INFO  Crawler:231 - [Progress 7] elaped time : 00:00:12, save : 1, err : 0, remain_work : 53, total : 60
+2018-11-12 13:20:01 INFO  Crawler:231 - [Progress 8] elaped time : 00:00:12, save : 1, err : 0, remain_work : 52, total : 60
+2018-11-12 13:20:03 INFO  Crawler:231 - [Progress 9] elaped time : 00:00:14, save : 2, err : 0, remain_work : 51, total : 60
+2018-11-12 13:20:03 INFO  Crawler:231 - [Progress 10] elaped time : 00:00:14, save : 2, err : 0, remain_work : 50, total : 60
+2018-11-12 13:20:03 INFO  Crawler:231 - [Progress 11] elaped time : 00:00:15, save : 2, err : 0, remain_work : 52, total : 63
+2018-11-12 13:20:03 INFO  Crawler:231 - [Progress 12] elaped time : 00:00:15, save : 2, err : 0, remain_work : 51, total : 63
+2018-11-12 13:20:08 INFO  Crawler:231 - [Progress 13] elaped time : 00:00:20, save : 3, err : 0, remain_work : 50, total : 63
+2018-11-12 13:20:08 INFO  Crawler:231 - [Progress 14] elaped time : 00:00:20, save : 3, err : 0, remain_work : 49, total : 63
+2018-11-12 13:20:09 INFO  Crawler:231 - [Progress 15] elaped time : 00:00:20, save : 3, err : 0, remain_work : 51, total : 66
+2018-11-12 13:20:09 INFO  Crawler:231 - [Progress 16] elaped time : 00:00:20, save : 3, err : 0, remain_work : 50, total : 66
+2018-11-12 13:20:11 INFO  Crawler:231 - [Progress 17] elaped time : 00:00:22, save : 4, err : 0, remain_work : 49, total : 66
+2018-11-12 13:20:11 INFO  Crawler:231 - [Progress 18] elaped time : 00:00:22, save : 4, err : 0, remain_work : 48, total : 66
+2018-11-12 13:20:11 INFO  Crawler:231 - [Progress 19] elaped time : 00:00:22, save : 4, err : 0, remain_work : 50, total : 69
+2018-11-12 13:20:11 INFO  Crawler:231 - [Progress 20] elaped time : 00:00:22, save : 4, err : 0, remain_work : 49, total : 69
+2018-11-12 13:20:13 INFO  Crawler:231 - [Progress 21] elaped time : 00:00:24, save : 5, err : 0, remain_work : 48, total : 69
+2018-11-12 13:20:13 INFO  Crawler:231 - [Progress 22] elaped time : 00:00:24, save : 5, err : 0, remain_work : 47, total : 69
+2018-11-12 13:20:13 INFO  Crawler:231 - [Progress 23] elaped time : 00:00:24, save : 5, err : 0, remain_work : 49, total : 72
+2018-11-12 13:20:13 INFO  Crawler:231 - [Progress 24] elaped time : 00:00:24, save : 5, err : 0, remain_work : 48, total : 72
+2018-11-12 13:20:15 INFO  Crawler:231 - [Progress 25] elaped time : 00:00:26, save : 6, err : 0, remain_work : 47, total : 72
+2018-11-12 13:20:15 INFO  Crawler:231 - [Progress 26] elaped time : 00:00:26, save : 6, err : 0, remain_work : 46, total : 72
+2018-11-12 13:20:15 INFO  Crawler:231 - [Progress 27] elaped time : 00:00:26, save : 6, err : 0, remain_work : 48, total : 75
+2018-11-12 13:20:15 INFO  Crawler:231 - [Progress 28] elaped time : 00:00:26, save : 6, err : 0, remain_work : 47, total : 75
+2018-11-12 13:20:16 INFO  Crawler:231 - [Progress 29] elaped time : 00:00:28, save : 7, err : 0, remain_work : 46, total : 75
+2018-11-12 13:20:17 INFO  Crawler:231 - [Progress 30] elaped time : 00:00:28, save : 7, err : 0, remain_work : 45, total : 75
+2018-11-12 13:20:17 INFO  Crawler:231 - [Progress 31] elaped time : 00:00:28, save : 7, err : 0, remain_work : 47, total : 78
+2018-11-12 13:20:17 INFO  Crawler:231 - [Progress 32] elaped time : 00:00:28, save : 7, err : 0, remain_work : 46, total : 78
+2018-11-12 13:20:18 INFO  Crawler:231 - [Progress 33] elaped time : 00:00:30, save : 8, err : 0, remain_work : 45, total : 78
+2018-11-12 13:20:18 INFO  Crawler:231 - [Progress 34] elaped time : 00:00:30, save : 8, err : 0, remain_work : 44, total : 78
+2018-11-12 13:20:19 INFO  Crawler:231 - [Progress 35] elaped time : 00:00:30, save : 8, err : 0, remain_work : 46, total : 81
+2018-11-12 13:20:19 INFO  Crawler:231 - [Progress 36] elaped time : 00:00:30, save : 8, err : 0, remain_work : 45, total : 81
+2018-11-12 13:20:20 INFO  Crawler:231 - [Progress 37] elaped time : 00:00:32, save : 9, err : 0, remain_work : 44, total : 81
+2018-11-12 13:20:20 INFO  Crawler:231 - [Progress 38] elaped time : 00:00:32, save : 9, err : 0, remain_work : 43, total : 81
+2018-11-12 13:20:21 INFO  Crawler:231 - [Progress 39] elaped time : 00:00:32, save : 9, err : 0, remain_work : 45, total : 84
+2018-11-12 13:20:21 INFO  Crawler:231 - [Progress 40] elaped time : 00:00:32, save : 9, err : 0, remain_work : 44, total : 84
+2018-11-12 13:20:22 INFO  Crawler:231 - [Progress 41] elaped time : 00:00:33, save : 10, err : 0, remain_work : 43, total : 84
+2018-11-12 13:20:22 INFO  Crawler:231 - [Progress 42] elaped time : 00:00:34, save : 10, err : 0, remain_work : 42, total : 84
+2018-11-12 13:20:23 INFO  Crawler:231 - [Progress 43] elaped time : 00:00:34, save : 10, err : 0, remain_work : 44, total : 87
+2018-11-12 13:20:23 INFO  Crawler:231 - [Progress 44] elaped time : 00:00:34, save : 10, err : 0, remain_work : 43, total : 87
+2018-11-12 13:20:24 INFO  Crawler:231 - [Progress 45] elaped time : 00:00:35, save : 11, err : 0, remain_work : 42, total : 87
+2018-11-12 13:20:24 INFO  Crawler:231 - [Progress 46] elaped time : 00:00:36, save : 11, err : 0, remain_work : 41, total : 87
+2018-11-12 13:20:25 INFO  Crawler:231 - [Progress 47] elaped time : 00:00:36, save : 11, err : 0, remain_work : 43, total : 90
+2018-11-12 13:20:25 INFO  Crawler:231 - [Progress 48] elaped time : 00:00:36, save : 11, err : 0, remain_work : 42, total : 90
+2018-11-12 13:20:27 INFO  Crawler:231 - [Progress 49] elaped time : 00:00:38, save : 12, err : 0, remain_work : 41, total : 90
+2018-11-12 13:20:27 INFO  Crawler:231 - [Progress 50] elaped time : 00:00:38, save : 12, err : 0, remain_work : 40, total : 90
+2018-11-12 13:20:27 INFO  Crawler:231 - [Progress 51] elaped time : 00:00:38, save : 12, err : 0, remain_work : 42, total : 93
+2018-11-12 13:20:27 INFO  Crawler:231 - [Progress 52] elaped time : 00:00:38, save : 12, err : 0, remain_work : 41, total : 93
+2018-11-12 13:20:29 INFO  Crawler:231 - [Progress 53] elaped time : 00:00:40, save : 13, err : 0, remain_work : 40, total : 93
+2018-11-12 13:20:29 INFO  Crawler:231 - [Progress 54] elaped time : 00:00:40, save : 13, err : 0, remain_work : 39, total : 93
+2018-11-12 13:20:29 INFO  Crawler:231 - [Progress 55] elaped time : 00:00:41, save : 13, err : 0, remain_work : 41, total : 96
+2018-11-12 13:20:29 INFO  Crawler:231 - [Progress 56] elaped time : 00:00:41, save : 13, err : 0, remain_work : 40, total : 96
+2018-11-12 13:20:31 INFO  Crawler:231 - [Progress 57] elaped time : 00:00:42, save : 14, err : 0, remain_work : 39, total : 96
+2018-11-12 13:20:31 INFO  Crawler:231 - [Progress 58] elaped time : 00:00:42, save : 14, err : 0, remain_work : 38, total : 96
+2018-11-12 13:20:31 INFO  Crawler:231 - [Progress 59] elaped time : 00:00:43, save : 14, err : 0, remain_work : 40, total : 99
+2018-11-12 13:20:31 INFO  Crawler:231 - [Progress 60] elaped time : 00:00:43, save : 14, err : 0, remain_work : 39, total : 99
+2018-11-12 13:20:33 INFO  Crawler:231 - [Progress 61] elaped time : 00:00:44, save : 15, err : 0, remain_work : 38, total : 99
+2018-11-12 13:20:33 INFO  Crawler:231 - [Progress 62] elaped time : 00:00:44, save : 15, err : 0, remain_work : 37, total : 99
+2018-11-12 13:20:33 INFO  Crawler:231 - [Progress 63] elaped time : 00:00:44, save : 15, err : 0, remain_work : 39, total : 102
+2018-11-12 13:20:33 INFO  Crawler:231 - [Progress 64] elaped time : 00:00:45, save : 15, err : 0, remain_work : 38, total : 102
+2018-11-12 13:20:35 INFO  Crawler:231 - [Progress 65] elaped time : 00:00:46, save : 16, err : 0, remain_work : 37, total : 102
+2018-11-12 13:20:35 INFO  Crawler:231 - [Progress 66] elaped time : 00:00:46, save : 16, err : 0, remain_work : 36, total : 102
+2018-11-12 13:20:35 INFO  Crawler:231 - [Progress 67] elaped time : 00:00:47, save : 16, err : 0, remain_work : 38, total : 105
+2018-11-12 13:20:35 INFO  Crawler:231 - [Progress 68] elaped time : 00:00:47, save : 16, err : 0, remain_work : 37, total : 105
+2018-11-12 13:20:37 INFO  Crawler:231 - [Progress 69] elaped time : 00:00:48, save : 17, err : 0, remain_work : 36, total : 105
+2018-11-12 13:20:37 INFO  Crawler:231 - [Progress 70] elaped time : 00:00:48, save : 17, err : 0, remain_work : 35, total : 105
+2018-11-12 13:20:38 INFO  Crawler:231 - [Progress 71] elaped time : 00:00:49, save : 17, err : 0, remain_work : 37, total : 108
+2018-11-12 13:20:38 INFO  Crawler:231 - [Progress 72] elaped time : 00:00:49, save : 17, err : 0, remain_work : 36, total : 108
+2018-11-12 13:20:39 INFO  Crawler:231 - [Progress 73] elaped time : 00:00:50, save : 18, err : 0, remain_work : 35, total : 108
+2018-11-12 13:20:39 INFO  Crawler:231 - [Progress 74] elaped time : 00:00:50, save : 18, err : 0, remain_work : 34, total : 108
+2018-11-12 13:20:39 INFO  Crawler:231 - [Progress 75] elaped time : 00:00:51, save : 18, err : 0, remain_work : 36, total : 111
+2018-11-12 13:20:39 INFO  Crawler:231 - [Progress 76] elaped time : 00:00:51, save : 18, err : 0, remain_work : 35, total : 111
+2018-11-12 13:20:41 INFO  Crawler:231 - [Progress 77] elaped time : 00:00:53, save : 19, err : 0, remain_work : 34, total : 111
+2018-11-12 13:20:41 INFO  Crawler:231 - [Progress 78] elaped time : 00:00:53, save : 19, err : 0, remain_work : 33, total : 111
+2018-11-12 13:20:42 INFO  Crawler:231 - [Progress 79] elaped time : 00:00:53, save : 19, err : 0, remain_work : 35, total : 114
+2018-11-12 13:20:42 INFO  Crawler:231 - [Progress 80] elaped time : 00:00:53, save : 19, err : 0, remain_work : 34, total : 114
+2018-11-12 13:20:43 INFO  Crawler:231 - [Progress 81] elaped time : 00:00:55, save : 20, err : 0, remain_work : 33, total : 114
+2018-11-12 13:20:43 INFO  Crawler:231 - [Progress 82] elaped time : 00:00:55, save : 20, err : 0, remain_work : 32, total : 114
+2018-11-12 13:20:44 INFO  Crawler:231 - [Progress 83] elaped time : 00:00:55, save : 20, err : 0, remain_work : 34, total : 117
+2018-11-12 13:20:44 INFO  Crawler:231 - [Progress 84] elaped time : 00:00:55, save : 20, err : 0, remain_work : 33, total : 117
+2018-11-12 13:20:45 INFO  Crawler:231 - [Progress 85] elaped time : 00:00:57, save : 21, err : 0, remain_work : 32, total : 117
+2018-11-12 13:20:45 INFO  Crawler:231 - [Progress 86] elaped time : 00:00:57, save : 21, err : 0, remain_work : 31, total : 117
+2018-11-12 13:20:46 INFO  Crawler:231 - [Progress 87] elaped time : 00:00:57, save : 21, err : 0, remain_work : 33, total : 120
+2018-11-12 13:20:46 INFO  Crawler:231 - [Progress 88] elaped time : 00:00:57, save : 21, err : 0, remain_work : 32, total : 120
+2018-11-12 13:20:47 INFO  Crawler:231 - [Progress 89] elaped time : 00:00:58, save : 22, err : 0, remain_work : 31, total : 120
+2018-11-12 13:20:47 INFO  Crawler:231 - [Progress 90] elaped time : 00:00:58, save : 22, err : 0, remain_work : 30, total : 120
+2018-11-12 13:20:47 INFO  Crawler:231 - [Progress 91] elaped time : 00:00:59, save : 22, err : 0, remain_work : 32, total : 123
+2018-11-12 13:20:47 INFO  Crawler:231 - [Progress 92] elaped time : 00:00:59, save : 22, err : 0, remain_work : 31, total : 123
+2018-11-12 13:20:49 INFO  Crawler:231 - [Progress 93] elaped time : 00:01:00, save : 23, err : 0, remain_work : 30, total : 123
+2018-11-12 13:20:49 INFO  Crawler:231 - [Progress 94] elaped time : 00:01:00, save : 23, err : 0, remain_work : 29, total : 123
+2018-11-12 13:20:49 INFO  Crawler:231 - [Progress 95] elaped time : 00:01:01, save : 23, err : 0, remain_work : 31, total : 126
+2018-11-12 13:20:49 INFO  Crawler:231 - [Progress 96] elaped time : 00:01:01, save : 23, err : 0, remain_work : 30, total : 126
+2018-11-12 13:20:51 INFO  Crawler:231 - [Progress 97] elaped time : 00:01:02, save : 24, err : 0, remain_work : 29, total : 126
+2018-11-12 13:20:51 INFO  Crawler:231 - [Progress 98] elaped time : 00:01:02, save : 24, err : 0, remain_work : 28, total : 126
+2018-11-12 13:20:51 INFO  Crawler:231 - [Progress 99] elaped time : 00:01:02, save : 24, err : 0, remain_work : 30, total : 129
+2018-11-12 13:20:51 INFO  Crawler:231 - [Progress 100] elaped time : 00:01:02, save : 24, err : 0, remain_work : 29, total : 129
+2018-11-12 13:20:53 INFO  Crawler:231 - [Progress 101] elaped time : 00:01:04, save : 25, err : 0, remain_work : 28, total : 129
+2018-11-12 13:20:53 INFO  Crawler:231 - [Progress 102] elaped time : 00:01:04, save : 25, err : 0, remain_work : 27, total : 129
+2018-11-12 13:20:53 INFO  Crawler:231 - [Progress 103] elaped time : 00:01:05, save : 25, err : 0, remain_work : 29, total : 132
+2018-11-12 13:20:53 INFO  Crawler:231 - [Progress 104] elaped time : 00:01:05, save : 25, err : 0, remain_work : 28, total : 132
+2018-11-12 13:20:55 INFO  Crawler:231 - [Progress 105] elaped time : 00:01:06, save : 26, err : 0, remain_work : 27, total : 132
+2018-11-12 13:20:55 INFO  Crawler:231 - [Progress 106] elaped time : 00:01:06, save : 26, err : 0, remain_work : 26, total : 132
+2018-11-12 13:20:55 INFO  Crawler:231 - [Progress 107] elaped time : 00:01:07, save : 26, err : 0, remain_work : 28, total : 135
+2018-11-12 13:20:55 INFO  Crawler:231 - [Progress 108] elaped time : 00:01:07, save : 26, err : 0, remain_work : 27, total : 135
+2018-11-12 13:20:57 INFO  Crawler:231 - [Progress 109] elaped time : 00:01:08, save : 27, err : 0, remain_work : 26, total : 135
+2018-11-12 13:20:57 INFO  Crawler:231 - [Progress 110] elaped time : 00:01:08, save : 27, err : 0, remain_work : 25, total : 135
+2018-11-12 13:20:57 INFO  Crawler:231 - [Progress 111] elaped time : 00:01:08, save : 27, err : 0, remain_work : 27, total : 138
+2018-11-12 13:20:57 INFO  Crawler:231 - [Progress 112] elaped time : 00:01:09, save : 27, err : 0, remain_work : 26, total : 138
+2018-11-12 13:20:59 INFO  Crawler:231 - [Progress 113] elaped time : 00:01:10, save : 28, err : 0, remain_work : 25, total : 138
+2018-11-12 13:20:59 INFO  Crawler:231 - [Progress 114] elaped time : 00:01:10, save : 28, err : 0, remain_work : 24, total : 138
+2018-11-12 13:20:59 INFO  Crawler:231 - [Progress 115] elaped time : 00:01:10, save : 28, err : 0, remain_work : 26, total : 141
+2018-11-12 13:20:59 INFO  Crawler:231 - [Progress 116] elaped time : 00:01:10, save : 28, err : 0, remain_work : 25, total : 141
+2018-11-12 13:21:01 INFO  Crawler:231 - [Progress 117] elaped time : 00:01:12, save : 29, err : 0, remain_work : 24, total : 141
+2018-11-12 13:21:01 INFO  Crawler:231 - [Progress 118] elaped time : 00:01:12, save : 29, err : 0, remain_work : 23, total : 141
+2018-11-12 13:21:01 INFO  Crawler:231 - [Progress 119] elaped time : 00:01:13, save : 29, err : 0, remain_work : 25, total : 144
+2018-11-12 13:21:01 INFO  Crawler:231 - [Progress 120] elaped time : 00:01:13, save : 29, err : 0, remain_work : 24, total : 144
+2018-11-12 13:21:03 INFO  Crawler:231 - [Progress 121] elaped time : 00:01:14, save : 30, err : 0, remain_work : 23, total : 144
+2018-11-12 13:21:03 INFO  Crawler:231 - [Progress 122] elaped time : 00:01:14, save : 30, err : 0, remain_work : 22, total : 144
+2018-11-12 13:21:03 INFO  Crawler:231 - [Progress 123] elaped time : 00:01:15, save : 30, err : 0, remain_work : 24, total : 147
+2018-11-12 13:21:03 INFO  Crawler:231 - [Progress 124] elaped time : 00:01:15, save : 30, err : 0, remain_work : 23, total : 147
+2018-11-12 13:21:05 INFO  Crawler:231 - [Progress 125] elaped time : 00:01:16, save : 31, err : 0, remain_work : 22, total : 147
+2018-11-12 13:21:05 INFO  Crawler:231 - [Progress 126] elaped time : 00:01:16, save : 31, err : 0, remain_work : 21, total : 147
+2018-11-12 13:21:05 INFO  Crawler:231 - [Progress 127] elaped time : 00:01:17, save : 31, err : 0, remain_work : 23, total : 150
+2018-11-12 13:21:05 INFO  Crawler:231 - [Progress 128] elaped time : 00:01:17, save : 31, err : 0, remain_work : 22, total : 150
+2018-11-12 13:21:08 INFO  Crawler:231 - [Progress 129] elaped time : 00:01:19, save : 32, err : 0, remain_work : 21, total : 150
+2018-11-12 13:21:08 INFO  Crawler:231 - [Progress 130] elaped time : 00:01:19, save : 32, err : 0, remain_work : 20, total : 150
+2018-11-12 13:21:08 INFO  Crawler:231 - [Progress 131] elaped time : 00:01:20, save : 32, err : 0, remain_work : 22, total : 153
+2018-11-12 13:21:08 INFO  Crawler:231 - [Progress 132] elaped time : 00:01:20, save : 32, err : 0, remain_work : 21, total : 153
+2018-11-12 13:21:10 INFO  Crawler:231 - [Progress 133] elaped time : 00:01:21, save : 33, err : 0, remain_work : 20, total : 153
+2018-11-12 13:21:10 INFO  Crawler:231 - [Progress 134] elaped time : 00:01:22, save : 33, err : 0, remain_work : 19, total : 153
+2018-11-12 13:21:11 INFO  Crawler:231 - [Progress 135] elaped time : 00:01:22, save : 33, err : 0, remain_work : 21, total : 156
+2018-11-12 13:21:11 INFO  Crawler:231 - [Progress 136] elaped time : 00:01:22, save : 33, err : 0, remain_work : 20, total : 156
+2018-11-12 13:21:12 INFO  Crawler:231 - [Progress 137] elaped time : 00:01:23, save : 34, err : 0, remain_work : 19, total : 156
+2018-11-12 13:21:12 INFO  Crawler:231 - [Progress 138] elaped time : 00:01:23, save : 34, err : 0, remain_work : 18, total : 156
+2018-11-12 13:21:12 INFO  Crawler:231 - [Progress 139] elaped time : 00:01:24, save : 34, err : 0, remain_work : 20, total : 159
+2018-11-12 13:21:12 INFO  Crawler:231 - [Progress 140] elaped time : 00:01:24, save : 34, err : 0, remain_work : 19, total : 159
+2018-11-12 13:21:14 INFO  Crawler:231 - [Progress 141] elaped time : 00:01:25, save : 35, err : 0, remain_work : 18, total : 159
+2018-11-12 13:21:14 INFO  Crawler:231 - [Progress 142] elaped time : 00:01:26, save : 35, err : 0, remain_work : 17, total : 159
+2018-11-12 13:21:15 INFO  Crawler:231 - [Progress 143] elaped time : 00:01:26, save : 35, err : 0, remain_work : 19, total : 162
+2018-11-12 13:21:15 INFO  Crawler:231 - [Progress 144] elaped time : 00:01:26, save : 35, err : 0, remain_work : 18, total : 162
+2018-11-12 13:21:16 INFO  Crawler:231 - [Progress 145] elaped time : 00:01:27, save : 36, err : 0, remain_work : 17, total : 162
+2018-11-12 13:21:16 INFO  Crawler:231 - [Progress 146] elaped time : 00:01:28, save : 36, err : 0, remain_work : 16, total : 162
+2018-11-12 13:21:16 INFO  Crawler:231 - [Progress 147] elaped time : 00:01:28, save : 36, err : 0, remain_work : 18, total : 165
+2018-11-12 13:21:17 INFO  Crawler:231 - [Progress 148] elaped time : 00:01:28, save : 36, err : 0, remain_work : 17, total : 165
+2018-11-12 13:21:18 INFO  Crawler:231 - [Progress 149] elaped time : 00:01:29, save : 37, err : 0, remain_work : 16, total : 165
+2018-11-12 13:21:18 INFO  Crawler:231 - [Progress 150] elaped time : 00:01:29, save : 37, err : 0, remain_work : 15, total : 165
+2018-11-12 13:21:18 INFO  Crawler:231 - [Progress 151] elaped time : 00:01:30, save : 37, err : 0, remain_work : 17, total : 168
+2018-11-12 13:21:18 INFO  Crawler:231 - [Progress 152] elaped time : 00:01:30, save : 37, err : 0, remain_work : 16, total : 168
+2018-11-12 13:21:20 INFO  Crawler:231 - [Progress 153] elaped time : 00:01:32, save : 38, err : 0, remain_work : 15, total : 168
+2018-11-12 13:21:20 INFO  Crawler:231 - [Progress 154] elaped time : 00:01:32, save : 38, err : 0, remain_work : 14, total : 168
+2018-11-12 13:21:21 INFO  Crawler:231 - [Progress 155] elaped time : 00:01:32, save : 38, err : 0, remain_work : 16, total : 171
+2018-11-12 13:21:21 INFO  Crawler:231 - [Progress 156] elaped time : 00:01:32, save : 38, err : 0, remain_work : 15, total : 171
+2018-11-12 13:21:22 INFO  Crawler:231 - [Progress 157] elaped time : 00:01:34, save : 39, err : 0, remain_work : 14, total : 171
+2018-11-12 13:21:23 INFO  Crawler:231 - [Progress 158] elaped time : 00:01:34, save : 39, err : 0, remain_work : 13, total : 171
+2018-11-12 13:21:23 INFO  Crawler:231 - [Progress 159] elaped time : 00:01:35, save : 39, err : 0, remain_work : 15, total : 174
+2018-11-12 13:21:23 INFO  Crawler:231 - [Progress 160] elaped time : 00:01:35, save : 39, err : 0, remain_work : 14, total : 174
+2018-11-12 13:21:25 INFO  Crawler:231 - [Progress 161] elaped time : 00:01:36, save : 40, err : 0, remain_work : 13, total : 174
+2018-11-12 13:21:25 INFO  Crawler:231 - [Progress 162] elaped time : 00:01:36, save : 40, err : 0, remain_work : 12, total : 174
+2018-11-12 13:21:25 INFO  Crawler:231 - [Progress 163] elaped time : 00:01:37, save : 40, err : 0, remain_work : 14, total : 177
+2018-11-12 13:21:25 INFO  Crawler:231 - [Progress 164] elaped time : 00:01:37, save : 40, err : 0, remain_work : 13, total : 177
+2018-11-12 13:21:27 INFO  Crawler:231 - [Progress 165] elaped time : 00:01:38, save : 41, err : 0, remain_work : 12, total : 177
+2018-11-12 13:21:27 INFO  Crawler:231 - [Progress 166] elaped time : 00:01:38, save : 41, err : 0, remain_work : 11, total : 177
+2018-11-12 13:21:27 INFO  Crawler:231 - [Progress 167] elaped time : 00:01:38, save : 41, err : 0, remain_work : 13, total : 180
+2018-11-12 13:21:27 INFO  Crawler:231 - [Progress 168] elaped time : 00:01:39, save : 41, err : 0, remain_work : 12, total : 180
+2018-11-12 13:21:29 INFO  Crawler:231 - [Progress 169] elaped time : 00:01:40, save : 42, err : 0, remain_work : 11, total : 180
+2018-11-12 13:21:29 INFO  Crawler:231 - [Progress 170] elaped time : 00:01:40, save : 42, err : 0, remain_work : 10, total : 180
+2018-11-12 13:21:29 INFO  Crawler:231 - [Progress 171] elaped time : 00:01:41, save : 42, err : 0, remain_work : 12, total : 183
+2018-11-12 13:21:29 INFO  Crawler:231 - [Progress 172] elaped time : 00:01:41, save : 42, err : 0, remain_work : 11, total : 183
+2018-11-12 13:21:31 INFO  Crawler:231 - [Progress 173] elaped time : 00:01:42, save : 43, err : 0, remain_work : 10, total : 183
+2018-11-12 13:21:31 INFO  Crawler:231 - [Progress 174] elaped time : 00:01:42, save : 43, err : 0, remain_work : 9, total : 183
+2018-11-12 13:21:31 INFO  Crawler:231 - [Progress 175] elaped time : 00:01:43, save : 43, err : 0, remain_work : 11, total : 186
+2018-11-12 13:21:31 INFO  Crawler:231 - [Progress 176] elaped time : 00:01:43, save : 43, err : 0, remain_work : 10, total : 186
+2018-11-12 13:21:33 INFO  Crawler:231 - [Progress 177] elaped time : 00:01:45, save : 44, err : 0, remain_work : 9, total : 186
+2018-11-12 13:21:33 INFO  Crawler:231 - [Progress 178] elaped time : 00:01:45, save : 44, err : 0, remain_work : 8, total : 186
+2018-11-12 13:21:34 INFO  Crawler:231 - [Progress 179] elaped time : 00:01:45, save : 44, err : 0, remain_work : 10, total : 189
+2018-11-12 13:21:34 INFO  Crawler:231 - [Progress 180] elaped time : 00:01:45, save : 44, err : 0, remain_work : 9, total : 189
+2018-11-12 13:21:35 INFO  Crawler:231 - [Progress 181] elaped time : 00:01:46, save : 45, err : 0, remain_work : 8, total : 189
+2018-11-12 13:21:35 INFO  Crawler:231 - [Progress 182] elaped time : 00:01:47, save : 45, err : 0, remain_work : 7, total : 189
+2018-11-12 13:21:36 INFO  Crawler:231 - [Progress 183] elaped time : 00:01:47, save : 45, err : 0, remain_work : 9, total : 192
+2018-11-12 13:21:36 INFO  Crawler:231 - [Progress 184] elaped time : 00:01:47, save : 45, err : 0, remain_work : 8, total : 192
+2018-11-12 13:21:37 INFO  Crawler:231 - [Progress 185] elaped time : 00:01:48, save : 46, err : 0, remain_work : 7, total : 192
+2018-11-12 13:21:37 INFO  Crawler:231 - [Progress 186] elaped time : 00:01:48, save : 46, err : 0, remain_work : 6, total : 192
+2018-11-12 13:21:37 INFO  Crawler:231 - [Progress 187] elaped time : 00:01:49, save : 46, err : 0, remain_work : 8, total : 195
+2018-11-12 13:21:37 INFO  Crawler:231 - [Progress 188] elaped time : 00:01:49, save : 46, err : 0, remain_work : 7, total : 195
+2018-11-12 13:21:39 INFO  Crawler:231 - [Progress 189] elaped time : 00:01:50, save : 47, err : 0, remain_work : 6, total : 195
+2018-11-12 13:21:39 INFO  Crawler:231 - [Progress 190] elaped time : 00:01:50, save : 47, err : 0, remain_work : 5, total : 195
+2018-11-12 13:21:39 INFO  Crawler:231 - [Progress 191] elaped time : 00:01:51, save : 47, err : 0, remain_work : 7, total : 198
+2018-11-12 13:21:39 INFO  Crawler:231 - [Progress 192] elaped time : 00:01:51, save : 47, err : 0, remain_work : 6, total : 198
+2018-11-12 13:21:41 INFO  Crawler:231 - [Progress 193] elaped time : 00:01:53, save : 48, err : 0, remain_work : 5, total : 198
+2018-11-12 13:21:42 INFO  Crawler:231 - [Progress 194] elaped time : 00:01:53, save : 48, err : 0, remain_work : 4, total : 198
+2018-11-12 13:21:42 INFO  Crawler:231 - [Progress 195] elaped time : 00:01:53, save : 48, err : 0, remain_work : 6, total : 201
+2018-11-12 13:21:42 INFO  Crawler:231 - [Progress 196] elaped time : 00:01:53, save : 48, err : 0, remain_work : 5, total : 201
+2018-11-12 13:21:43 INFO  Crawler:231 - [Progress 197] elaped time : 00:01:55, save : 49, err : 0, remain_work : 4, total : 201
+2018-11-12 13:21:43 INFO  Crawler:231 - [Progress 198] elaped time : 00:01:55, save : 49, err : 0, remain_work : 3, total : 201
+2018-11-12 13:21:44 INFO  Crawler:231 - [Progress 199] elaped time : 00:01:55, save : 49, err : 0, remain_work : 5, total : 204
+2018-11-12 13:21:44 INFO  Crawler:231 - [Progress 200] elaped time : 00:01:55, save : 49, err : 0, remain_work : 4, total : 204
+2018-11-12 13:21:45 INFO  Crawler:231 - [Progress 201] elaped time : 00:01:56, save : 50, err : 0, remain_work : 3, total : 204
+2018-11-12 13:21:45 INFO  Crawler:231 - [Progress 202] elaped time : 00:01:57, save : 50, err : 0, remain_work : 2, total : 204
+2018-11-12 13:21:45 ERROR WorkRunnable:82 - not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:2898}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 2272b154182a8b5644925c4cb5b98e7e
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:2898}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 2272b154182a8b5644925c4cb5b98e7e
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-12 13:21:45 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:21:45 ERROR Crawler:226 - L ERR : not found element element not interactable
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-94HKRVCK', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\onycom\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:2898}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 2272b154182a8b5644925c4cb5b98e7e
+2018-11-12 13:21:45 INFO  Crawler:231 - [Progress 203] elaped time : 00:01:57, save : 50, err : 1, remain_work : 1, total : 204
+2018-11-12 13:21:47 INFO  Crawler:231 - [Progress 204] elaped time : 00:01:58, save : 50, err : 1, remain_work : 2, total : 206
+2018-11-12 13:21:47 INFO  Crawler:231 - [Progress 205] elaped time : 00:01:58, save : 50, err : 1, remain_work : 54, total : 259
+2018-11-12 13:21:47 INFO  Crawler:231 - [Progress 206] elaped time : 00:01:59, save : 50, err : 1, remain_work : 56, total : 262
+2018-11-12 13:21:47 INFO  Crawler:231 - [Progress 207] elaped time : 00:01:59, save : 50, err : 1, remain_work : 55, total : 262
+2018-11-12 13:21:49 INFO  Crawler:231 - [Progress 208] elaped time : 00:02:00, save : 51, err : 1, remain_work : 54, total : 262
+2018-11-12 13:21:49 INFO  Crawler:231 - [Progress 209] elaped time : 00:02:00, save : 51, err : 1, remain_work : 53, total : 262
+2018-11-12 13:21:49 INFO  Crawler:231 - [Progress 210] elaped time : 00:02:01, save : 51, err : 1, remain_work : 55, total : 265
+2018-11-12 13:21:49 INFO  Crawler:231 - [Progress 211] elaped time : 00:02:01, save : 51, err : 1, remain_work : 54, total : 265
+2018-11-12 13:21:51 INFO  Crawler:231 - [Progress 212] elaped time : 00:02:02, save : 52, err : 1, remain_work : 53, total : 265
+2018-11-12 13:21:51 INFO  Crawler:231 - [Progress 213] elaped time : 00:02:02, save : 52, err : 1, remain_work : 52, total : 265
+2018-11-12 13:21:51 INFO  Crawler:231 - [Progress 214] elaped time : 00:02:02, save : 52, err : 1, remain_work : 54, total : 268
+2018-11-12 13:21:51 INFO  Crawler:231 - [Progress 215] elaped time : 00:02:02, save : 52, err : 1, remain_work : 53, total : 268
+2018-11-12 13:21:52 INFO  Crawler:231 - [Progress 216] elaped time : 00:02:04, save : 53, err : 1, remain_work : 52, total : 268
+2018-11-12 13:21:52 INFO  Crawler:231 - [Progress 217] elaped time : 00:02:04, save : 53, err : 1, remain_work : 51, total : 268
+2018-11-12 13:21:53 INFO  Crawler:231 - [Progress 218] elaped time : 00:02:04, save : 53, err : 1, remain_work : 53, total : 271
+2018-11-12 13:21:53 INFO  Crawler:231 - [Progress 219] elaped time : 00:02:04, save : 53, err : 1, remain_work : 52, total : 271
+2018-11-12 13:21:54 INFO  Crawler:231 - [Progress 220] elaped time : 00:02:06, save : 54, err : 1, remain_work : 51, total : 271
+2018-11-12 13:21:54 INFO  Crawler:231 - [Progress 221] elaped time : 00:02:06, save : 54, err : 1, remain_work : 50, total : 271
+2018-11-12 13:21:55 INFO  Crawler:231 - [Progress 222] elaped time : 00:02:06, save : 54, err : 1, remain_work : 52, total : 274
+2018-11-12 13:21:55 INFO  Crawler:231 - [Progress 223] elaped time : 00:02:06, save : 54, err : 1, remain_work : 51, total : 274
+2018-11-12 13:21:56 INFO  Crawler:231 - [Progress 224] elaped time : 00:02:07, save : 55, err : 1, remain_work : 50, total : 274
+2018-11-12 13:21:56 INFO  Crawler:231 - [Progress 225] elaped time : 00:02:07, save : 55, err : 1, remain_work : 49, total : 274
+2018-11-12 13:21:56 INFO  Crawler:231 - [Progress 226] elaped time : 00:02:08, save : 55, err : 1, remain_work : 51, total : 277
+2018-11-12 13:21:56 INFO  Crawler:231 - [Progress 227] elaped time : 00:02:08, save : 55, err : 1, remain_work : 50, total : 277
+2018-11-12 13:21:58 INFO  Crawler:231 - [Progress 228] elaped time : 00:02:09, save : 56, err : 1, remain_work : 49, total : 277
+2018-11-12 13:21:58 INFO  Crawler:231 - [Progress 229] elaped time : 00:02:09, save : 56, err : 1, remain_work : 48, total : 277
+2018-11-12 13:21:58 INFO  Crawler:231 - [Progress 230] elaped time : 00:02:10, save : 56, err : 1, remain_work : 50, total : 280
+2018-11-12 13:21:58 INFO  Crawler:231 - [Progress 231] elaped time : 00:02:10, save : 56, err : 1, remain_work : 49, total : 280
+2018-11-12 13:22:00 INFO  Crawler:231 - [Progress 232] elaped time : 00:02:11, save : 57, err : 1, remain_work : 48, total : 280
+2018-11-12 13:22:00 INFO  Crawler:231 - [Progress 233] elaped time : 00:02:11, save : 57, err : 1, remain_work : 47, total : 280
+2018-11-12 13:22:00 INFO  Crawler:231 - [Progress 234] elaped time : 00:02:11, save : 57, err : 1, remain_work : 49, total : 283
+2018-11-12 13:22:00 INFO  Crawler:231 - [Progress 235] elaped time : 00:02:11, save : 57, err : 1, remain_work : 48, total : 283
+2018-11-12 13:22:01 INFO  Crawler:231 - [Progress 236] elaped time : 00:02:13, save : 58, err : 1, remain_work : 47, total : 283
+2018-11-12 13:22:01 INFO  Crawler:231 - [Progress 237] elaped time : 00:02:13, save : 58, err : 1, remain_work : 46, total : 283
+2018-11-12 13:22:02 INFO  Crawler:231 - [Progress 238] elaped time : 00:02:13, save : 58, err : 1, remain_work : 48, total : 286
+2018-11-12 13:22:02 INFO  Crawler:231 - [Progress 239] elaped time : 00:02:13, save : 58, err : 1, remain_work : 47, total : 286
+2018-11-12 13:22:03 INFO  Crawler:231 - [Progress 240] elaped time : 00:02:14, save : 59, err : 1, remain_work : 46, total : 286
+2018-11-12 13:22:03 INFO  Crawler:231 - [Progress 241] elaped time : 00:02:14, save : 59, err : 1, remain_work : 45, total : 286
+2018-11-12 13:22:03 INFO  Crawler:231 - [Progress 242] elaped time : 00:02:15, save : 59, err : 1, remain_work : 47, total : 289
+2018-11-12 13:22:03 INFO  Crawler:231 - [Progress 243] elaped time : 00:02:15, save : 59, err : 1, remain_work : 46, total : 289
+2018-11-12 13:22:05 INFO  Crawler:231 - [Progress 244] elaped time : 00:02:16, save : 60, err : 1, remain_work : 45, total : 289
+2018-11-12 13:22:05 INFO  Crawler:231 - [Progress 245] elaped time : 00:02:16, save : 60, err : 1, remain_work : 44, total : 289
+2018-11-12 13:22:05 INFO  Crawler:231 - [Progress 246] elaped time : 00:02:17, save : 60, err : 1, remain_work : 46, total : 292
+2018-11-12 13:22:05 INFO  Crawler:231 - [Progress 247] elaped time : 00:02:17, save : 60, err : 1, remain_work : 45, total : 292
+2018-11-12 13:22:07 INFO  Crawler:231 - [Progress 248] elaped time : 00:02:18, save : 61, err : 1, remain_work : 44, total : 292
+2018-11-12 13:22:07 INFO  Crawler:231 - [Progress 249] elaped time : 00:02:18, save : 61, err : 1, remain_work : 43, total : 292
+2018-11-12 13:22:07 INFO  Crawler:231 - [Progress 250] elaped time : 00:02:18, save : 61, err : 1, remain_work : 45, total : 295
+2018-11-12 13:22:07 INFO  Crawler:231 - [Progress 251] elaped time : 00:02:18, save : 61, err : 1, remain_work : 44, total : 295
+2018-11-12 13:22:08 INFO  Crawler:231 - [Progress 252] elaped time : 00:02:20, save : 62, err : 1, remain_work : 43, total : 295
+2018-11-12 13:22:08 INFO  Crawler:231 - [Progress 253] elaped time : 00:02:20, save : 62, err : 1, remain_work : 42, total : 295
+2018-11-12 13:22:09 INFO  Crawler:231 - [Progress 254] elaped time : 00:02:20, save : 62, err : 1, remain_work : 44, total : 298
+2018-11-12 13:22:09 INFO  Crawler:231 - [Progress 255] elaped time : 00:02:20, save : 62, err : 1, remain_work : 43, total : 298
+2018-11-12 13:22:10 INFO  Crawler:231 - [Progress 256] elaped time : 00:02:21, save : 63, err : 1, remain_work : 42, total : 298
+2018-11-12 13:22:10 INFO  Crawler:231 - [Progress 257] elaped time : 00:02:21, save : 63, err : 1, remain_work : 41, total : 298
+2018-11-12 13:22:10 INFO  Crawler:231 - [Progress 258] elaped time : 00:02:22, save : 63, err : 1, remain_work : 43, total : 301
+2018-11-12 13:22:10 INFO  Crawler:231 - [Progress 259] elaped time : 00:02:22, save : 63, err : 1, remain_work : 42, total : 301
+2018-11-12 13:22:12 INFO  Crawler:231 - [Progress 260] elaped time : 00:02:23, save : 64, err : 1, remain_work : 41, total : 301
+2018-11-12 13:22:12 INFO  Crawler:231 - [Progress 261] elaped time : 00:02:23, save : 64, err : 1, remain_work : 40, total : 301
+2018-11-12 13:22:12 INFO  Crawler:231 - [Progress 262] elaped time : 00:02:23, save : 64, err : 1, remain_work : 42, total : 304
+2018-11-12 13:22:12 INFO  Crawler:231 - [Progress 263] elaped time : 00:02:23, save : 64, err : 1, remain_work : 41, total : 304
+2018-11-12 13:22:13 INFO  Crawler:231 - [Progress 264] elaped time : 00:02:25, save : 65, err : 1, remain_work : 40, total : 304
+2018-11-12 13:22:13 INFO  Crawler:231 - [Progress 265] elaped time : 00:02:25, save : 65, err : 1, remain_work : 39, total : 304
+2018-11-12 13:22:14 INFO  Crawler:231 - [Progress 266] elaped time : 00:02:25, save : 65, err : 1, remain_work : 41, total : 307
+2018-11-12 13:22:14 INFO  Crawler:231 - [Progress 267] elaped time : 00:02:25, save : 65, err : 1, remain_work : 40, total : 307
+2018-11-12 13:22:15 INFO  Crawler:231 - [Progress 268] elaped time : 00:02:26, save : 66, err : 1, remain_work : 39, total : 307
+2018-11-12 13:22:15 INFO  Crawler:231 - [Progress 269] elaped time : 00:02:27, save : 66, err : 1, remain_work : 38, total : 307
+2018-11-12 13:22:16 INFO  Crawler:231 - [Progress 270] elaped time : 00:02:27, save : 66, err : 1, remain_work : 40, total : 310
+2018-11-12 13:22:16 INFO  Crawler:231 - [Progress 271] elaped time : 00:02:27, save : 66, err : 1, remain_work : 39, total : 310
+2018-11-12 13:22:17 INFO  Crawler:231 - [Progress 272] elaped time : 00:02:28, save : 67, err : 1, remain_work : 38, total : 310
+2018-11-12 13:22:17 INFO  Crawler:231 - [Progress 273] elaped time : 00:02:28, save : 67, err : 1, remain_work : 37, total : 310
+2018-11-12 13:22:17 INFO  Crawler:231 - [Progress 274] elaped time : 00:02:28, save : 67, err : 1, remain_work : 39, total : 313
+2018-11-12 13:22:17 INFO  Crawler:231 - [Progress 275] elaped time : 00:02:29, save : 67, err : 1, remain_work : 38, total : 313
+2018-11-12 13:22:18 INFO  Crawler:231 - [Progress 276] elaped time : 00:02:30, save : 68, err : 1, remain_work : 37, total : 313
+2018-11-12 13:22:18 INFO  Crawler:231 - [Progress 277] elaped time : 00:02:30, save : 68, err : 1, remain_work : 36, total : 313
+2018-11-12 13:22:19 INFO  Crawler:231 - [Progress 278] elaped time : 00:02:30, save : 68, err : 1, remain_work : 38, total : 316
+2018-11-12 13:22:19 INFO  Crawler:231 - [Progress 279] elaped time : 00:02:30, save : 68, err : 1, remain_work : 37, total : 316
+2018-11-12 13:22:20 INFO  Crawler:231 - [Progress 280] elaped time : 00:02:31, save : 69, err : 1, remain_work : 36, total : 316
+2018-11-12 13:22:20 INFO  Crawler:231 - [Progress 281] elaped time : 00:02:32, save : 69, err : 1, remain_work : 35, total : 316
+2018-11-12 13:22:21 INFO  Crawler:231 - [Progress 282] elaped time : 00:02:32, save : 69, err : 1, remain_work : 37, total : 319
+2018-11-12 13:22:21 INFO  Crawler:231 - [Progress 283] elaped time : 00:02:32, save : 69, err : 1, remain_work : 36, total : 319
+2018-11-12 13:22:22 INFO  Crawler:231 - [Progress 284] elaped time : 00:02:33, save : 70, err : 1, remain_work : 35, total : 319
+2018-11-12 13:22:22 INFO  Crawler:231 - [Progress 285] elaped time : 00:02:33, save : 70, err : 1, remain_work : 34, total : 319
+2018-11-12 13:22:22 INFO  Crawler:231 - [Progress 286] elaped time : 00:02:34, save : 70, err : 1, remain_work : 36, total : 322
+2018-11-12 13:22:22 INFO  Crawler:231 - [Progress 287] elaped time : 00:02:34, save : 70, err : 1, remain_work : 35, total : 322
+2018-11-12 13:22:24 INFO  Crawler:231 - [Progress 288] elaped time : 00:02:35, save : 71, err : 1, remain_work : 34, total : 322
+2018-11-12 13:22:24 INFO  Crawler:231 - [Progress 289] elaped time : 00:02:35, save : 71, err : 1, remain_work : 33, total : 322
+2018-11-12 13:22:25 INFO  Crawler:231 - [Progress 290] elaped time : 00:02:36, save : 71, err : 1, remain_work : 35, total : 325
+2018-11-12 13:22:25 INFO  Crawler:231 - [Progress 291] elaped time : 00:02:36, save : 71, err : 1, remain_work : 34, total : 325
+2018-11-12 13:22:26 INFO  Crawler:231 - [Progress 292] elaped time : 00:02:37, save : 72, err : 1, remain_work : 33, total : 325
+2018-11-12 13:22:26 INFO  Crawler:231 - [Progress 293] elaped time : 00:02:37, save : 72, err : 1, remain_work : 32, total : 325
+2018-11-12 13:22:26 INFO  Crawler:231 - [Progress 294] elaped time : 00:02:38, save : 72, err : 1, remain_work : 34, total : 328
+2018-11-12 13:22:26 INFO  Crawler:231 - [Progress 295] elaped time : 00:02:38, save : 72, err : 1, remain_work : 33, total : 328
+2018-11-12 13:22:28 INFO  Crawler:231 - [Progress 296] elaped time : 00:02:39, save : 73, err : 1, remain_work : 32, total : 328
+2018-11-12 13:22:28 INFO  Crawler:231 - [Progress 297] elaped time : 00:02:39, save : 73, err : 1, remain_work : 31, total : 328
+2018-11-12 13:22:28 INFO  Crawler:231 - [Progress 298] elaped time : 00:02:40, save : 73, err : 1, remain_work : 33, total : 331
+2018-11-12 13:22:28 INFO  Crawler:231 - [Progress 299] elaped time : 00:02:40, save : 73, err : 1, remain_work : 32, total : 331
+2018-11-12 13:22:30 INFO  Crawler:231 - [Progress 300] elaped time : 00:02:41, save : 74, err : 1, remain_work : 31, total : 331
+2018-11-12 13:22:30 INFO  Crawler:231 - [Progress 301] elaped time : 00:02:41, save : 74, err : 1, remain_work : 30, total : 331
+2018-11-12 13:22:30 INFO  Crawler:231 - [Progress 302] elaped time : 00:02:42, save : 74, err : 1, remain_work : 32, total : 334
+2018-11-12 13:22:30 INFO  Crawler:231 - [Progress 303] elaped time : 00:02:42, save : 74, err : 1, remain_work : 31, total : 334
+2018-11-12 13:22:32 INFO  Crawler:231 - [Progress 304] elaped time : 00:02:43, save : 75, err : 1, remain_work : 30, total : 334
+2018-11-12 13:22:32 INFO  Crawler:231 - [Progress 305] elaped time : 00:02:43, save : 75, err : 1, remain_work : 29, total : 334
+2018-11-12 13:22:32 INFO  Crawler:231 - [Progress 306] elaped time : 00:02:44, save : 75, err : 1, remain_work : 31, total : 337
+2018-11-12 13:22:32 INFO  Crawler:231 - [Progress 307] elaped time : 00:02:44, save : 75, err : 1, remain_work : 30, total : 337
+2018-11-12 13:22:34 INFO  Crawler:231 - [Progress 308] elaped time : 00:02:45, save : 76, err : 1, remain_work : 29, total : 337
+2018-11-12 13:22:34 INFO  Crawler:231 - [Progress 309] elaped time : 00:02:45, save : 76, err : 1, remain_work : 28, total : 337
+2018-11-12 13:22:34 INFO  Crawler:231 - [Progress 310] elaped time : 00:02:46, save : 76, err : 1, remain_work : 30, total : 340
+2018-11-12 13:22:34 INFO  Crawler:231 - [Progress 311] elaped time : 00:02:46, save : 76, err : 1, remain_work : 29, total : 340
+2018-11-12 13:22:36 INFO  Crawler:231 - [Progress 312] elaped time : 00:02:47, save : 77, err : 1, remain_work : 28, total : 340
+2018-11-12 13:22:36 INFO  Crawler:231 - [Progress 313] elaped time : 00:02:47, save : 77, err : 1, remain_work : 27, total : 340
+2018-11-12 13:22:36 INFO  Crawler:231 - [Progress 314] elaped time : 00:02:48, save : 77, err : 1, remain_work : 29, total : 343
+2018-11-12 13:22:36 INFO  Crawler:231 - [Progress 315] elaped time : 00:02:48, save : 77, err : 1, remain_work : 28, total : 343

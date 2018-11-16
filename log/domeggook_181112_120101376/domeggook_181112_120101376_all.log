@@ -1,0 +1,15 @@
+2018-11-12 12:01:01 INFO  Crawler:181 - ============== Start Crawler =============
+2018-11-12 12:01:01 INFO  Crawler:182 - CONFIG FILE    : 
+2018-11-12 12:01:01 INFO  Crawler:188 - CRAWLER NAME   : domeggook
+2018-11-12 12:01:01 INFO  Crawler:189 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 12:01:01 INFO  Crawler:190 - CRAWLER DELAY  : 0 sec
+2018-11-12 12:01:01 INFO  Crawler:191 - IGNORE ROBOTS  : true
+2018-11-12 12:01:01 INFO  Crawler:192 - LIMIT_COUNT    : -1
+2018-11-12 12:01:01 INFO  Crawler:193 - FILTER COUNT   : 0
+2018-11-12 12:01:01 INFO  Crawler:197 - SCENARIO COUNT : 2
+2018-11-12 12:01:01 INFO  Crawler:198 - COLLECT COUNT  : 1
+2018-11-12 12:01:01 INFO  Crawler:199 - SAVE TYPE      : DB
+2018-11-12 12:01:01 INFO  Crawler:200 - SAVE HTML      : true
+2018-11-12 12:01:01 INFO  Crawler:201 - ==========================================
+2018-11-12 12:01:01 INFO  Crawler:213 - ============== Terminate Crawler =============
+2018-11-12 12:01:01 ERROR Crawler:214 - Can't start Crawler. Initialization failed.

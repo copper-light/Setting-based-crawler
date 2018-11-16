@@ -1,18 +1,35 @@
 package com.onycom.crawler.data;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URISyntaxException;
+import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.onycom.SettingBasedCrawler.App;
 import com.onycom.common.CrawlerLog;
+import com.onycom.common.DBManager;
+import com.onycom.common.Util;
+
+import au.com.bytecode.opencsv.CSVReader;
 
 /**
  * 설정 정보를 담는 객체. json 형태의 설정파일을 파싱하여 객체화함
@@ -46,7 +63,12 @@ public class Config {
 	public static final String CONTENTS_TYPE_FILE = "file";
 	
 	public Work mSeedInfo;
-
+	
+	public String GET_ARGUMENTS_TYPE = "conf"; // db, csv, cmd, conf 
+	public String GET_ARGUMENTS_QUERY = "";
+	public String GET_ARGUMENTS_ = "";
+	public String[][] GET_ARGUMENTS_LIST;
+	
 	public boolean IGNORE_ROBOTS = false;
 
 	public String CRAWLING_TYPE = CRAWLING_TYPE_STATIC;
@@ -57,9 +79,9 @@ public class Config {
 
 	public String OUTPUT_SAVE_TYPE = SAVE_TYPE_CSV; // json, xml, db;
 	public String OUTPUT_FILE_PATH = DEAULT_OUTPUT_FILE_PATH;
-	public String OUTPUT_DB_PATH = "";
-	public String OUTPUT_DB_ID = "";
-	public String OUTPUT_DB_PW = "";
+	public String DB_PATH = "";
+	public String DB_ID = "";
+	public String DB_PW = "";
 	public String CRAWLING_NAME = "";
 	public String CRAWLING_FILE = "";
 	public Long CRAWLING_START_TIME;
@@ -87,8 +109,8 @@ public class Config {
 
 	Map<String, Robots> mRobots;
 	
+	String[] mPostProcessingQuery;
 	
-
 	public static final String KEY_CRAWLING_NAME = "name";
 	public static final String KEY_IGNORE_ROBOTS = "ignore_robots";
 	public static final String KEY_CRAWLING_MAX_DEPTH = "crawling_max_depth";
@@ -97,30 +119,280 @@ public class Config {
 	public static final String KEY_CRAWLING_TYPE = "crawling_type";
 	public static final String KEY_CONTENTS_SAVE_TYPE = "contents_save_type";
 	public static final String KEY_OUTPUT_FILE_PATH = "output_file_path";
-	public static final String KEY_OUTPUT_DB_ID = "output_db_id";
-	public static final String KEY_OUTPUT_DB_PW = "output_db_pw";
-	public static final String KEY_OUTPUT_DB_PATH = "output_db_path";
+	public static final String KEY_DB_ID = "db_id";
+	public static final String KEY_DB_PW = "db_pw";
+	public static final String KEY_DB_PATH = "db_path";
 	public static final String KEY_SAVE_HTML = "save_html";
 	public static final String KEY_SELENIUM_DRIVER_NAME = "selenium_driver_name";
 	public static final String KEY_SELENIUM_DRIVER_PATH = "selenium_driver_path";
 	public static final String KEY_SELENIUM_HEADLESS = "selenium_headless";
 	public static final String KEY_CHARACTER_SET = "charset";
 	
-	public boolean setConfig(String config){
+
+	private static final String KET_ARGUMENTS = "arguments";
+	private static final String KEY_GET_ARGUMENTS_TYPE = "get_type";
+	private static final String KEY_GET_ARGUMENTS_QUERY = "query";
+	private static final String KEY_GET_ARGUMENTS_LIST = "list";
+	
+	private static final String KEY_GET_ARGUMENTS_CSV_FILE_PATH = "file_path";
+	
+	private static final String KEY_POST_PROCESSING = "post_processing";
+	private static final String KEY_POST_PROCESSING_QUERY = "query";
+	
+	String mConfigStr;
+	
+	String mFileName = "";
+	int mConfigCursor = 0;
+	
+	public String[] getCurArguments(){
+		if(GET_ARGUMENTS_LIST == null || mConfigCursor == 0) return null;
+		return GET_ARGUMENTS_LIST[mConfigCursor-1];
+	}
+	
+	public String getConfigFileName(){
+		return mFileName;
+	}
+	
+	public boolean setConfig(String filePath, String[] metaArgs, String[] crawlingArgs){
+    	try {
+			File jarFile = new File(App.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
+			System.out.println(jarFile.getParent());
+		} catch (URISyntaxException e) {
+			e.printStackTrace();
+		}
+		
+		mFileName = filePath;
+		String configStr = (String) Util.GetConfigFile(filePath);
+		mConfigStr = configStr;
+		setMetaConfig(configStr, metaArgs, crawlingArgs);
+		return updateNext();
+	}
+	
+	public String configParseArgs(String configStr, String[] args){
+		String config = configStr;
+		
+		String regexParams = "<%[0-9]+%>";
+        Pattern pattern = Pattern.compile(regexParams);
+        Matcher matcher = pattern.matcher(config);
+
+        int totalParams = 0;
+        String value = "";
+        Integer cnt = 0;
+        HashMap<String, Integer> paramMap = new HashMap<String, Integer>();
+        while (matcher.find()){
+        	value = matcher.group();
+        	cnt = paramMap.get(value);
+        	if(cnt != null){
+        		cnt ++;
+        	}else{
+        		totalParams++;
+        		cnt = 1;
+        	}
+        	paramMap.put(matcher.group(), cnt);
+        }
+        
+        int len = 0;
+        if(args != null){
+        	len = args.length;
+        }
+        if(totalParams != (len)){
+        	System.err.println("[ERROR] Mismatching config parameters.");
+        	return null;
+        }
+		if(len > 0){
+			for(int i =  0 ; i < len ; i++){
+				config = config.replace("<%"+ (i) +"%>", args[i]);
+			}
+		}
+		return config;
+	}
+	
+	/**
+	 * 크롤러 처음 실행후 변하지 않는 중요 정보 
+	 */
+	public boolean setMetaConfig(String config, String metaArgs[], String[] crawlingArgs){
+		boolean ret = false;
+		JSONObject root, jObj;
+		JSONArray jAry;
+		try{
+			root = new JSONObject(config);
+
+			if(!root.isNull(KEY_CRAWLING_NAME)){
+				CRAWLING_NAME = root.getString(KEY_CRAWLING_NAME);
+				CRAWLING_NAME = CRAWLING_NAME.trim().replace(" ", "_");
+			}else{
+				System.out.println("Config ERR : Require crawling name");
+				return false;
+			}
+			
+			if(!root.isNull(KEY_DB_ID)){
+				DB_ID = root.getString(KEY_DB_ID);
+			}
+			
+			if(!root.isNull(KEY_DB_PW)){
+				DB_PW = root.getString(KEY_DB_PW);
+			}
+			
+			if(!root.isNull(KEY_DB_PATH)){
+				DB_PATH = root.getString(KEY_DB_PATH);
+			}
+			
+			// 커맨드 우선
+			if(crawlingArgs != null && crawlingArgs.length > 0){
+				GET_ARGUMENTS_LIST = new String[1][crawlingArgs.length];
+				GET_ARGUMENTS_LIST[0] = crawlingArgs;
+			}else{
+				if(!root.isNull(KET_ARGUMENTS)){
+					jObj = root.getJSONObject(KET_ARGUMENTS);
+					if(!jObj.isNull(KEY_GET_ARGUMENTS_TYPE)){
+						GET_ARGUMENTS_TYPE = jObj.getString(KEY_GET_ARGUMENTS_TYPE);
+					}
+					
+					if(GET_ARGUMENTS_TYPE.equalsIgnoreCase("conf")){
+						if(!jObj.isNull(KEY_GET_ARGUMENTS_LIST)){
+							jAry = jObj.getJSONArray(KEY_GET_ARGUMENTS_LIST);
+							int len_i = jAry.length();
+							int len_j = 0;
+							JSONArray jAry2;
+							GET_ARGUMENTS_LIST = new String[len_i][];
+							for(int i = 0 ; i < len_i ; i++){
+								jAry2 = jAry.getJSONArray(i);
+								len_j = jAry2.length();
+								GET_ARGUMENTS_LIST[i] = new String[len_j];
+								for(int j = 0 ; j < len_j ; j++){
+									if(!jAry2.getString(j).isEmpty()){
+										GET_ARGUMENTS_LIST[i][j] = jAry2.getString(j);
+									}else{
+										System.err.println("Config ERR : agrument is empty.");
+										return false;
+									}
+								}
+							}
+							//GET_ARGUMENTS_LIST = new String[jAry.length()];
+						}
+					}else if(GET_ARGUMENTS_TYPE.equalsIgnoreCase("db")){
+						if(!jObj.isNull(KEY_GET_ARGUMENTS_QUERY)){
+							GET_ARGUMENTS_QUERY = jObj.getString(KEY_GET_ARGUMENTS_QUERY);
+							DBManager dbm = new DBManager();
+							if(dbm.open(DB_PATH, DB_ID, DB_PW)){
+								List<DataMap> datas = dbm.select(GET_ARGUMENTS_QUERY);
+								if(datas != null){
+									int len_i = datas.size();
+									int j = 0;
+									DataMap row;
+									GET_ARGUMENTS_LIST = new String[len_i][];
+									for(int i = 0 ; i < len_i ; i++){
+										j = 0;
+										GET_ARGUMENTS_LIST[i] = new String[datas.get(i).size()];
+										row = datas.get(i);
+										Set<String> set = row.keySet();
+										Iterator iter = set.iterator();
+										while ( iter.hasNext() ) {
+											GET_ARGUMENTS_LIST[i][j] = String.valueOf(row.get((String) iter.next()));
+											j++;
+										}
+									}
+								}
+								dbm.close();
+							}
+						}
+					}else if(GET_ARGUMENTS_TYPE.equalsIgnoreCase("csv")){
+						if(!jObj.isNull(KEY_GET_ARGUMENTS_QUERY)){
+							String query = jObj.getString(KEY_GET_ARGUMENTS_QUERY);
+							if(!jObj.isNull(KEY_GET_ARGUMENTS_CSV_FILE_PATH)){
+								String filePath = jObj.getString(KEY_GET_ARGUMENTS_CSV_FILE_PATH);
+								File file = new File(filePath);
+								if(!file.exists()) {
+									System.err.println("Config ERR : argument csv file is not exists.");
+									return false;
+								}
+								try {
+									String encode = "UTF-8";
+									if(!jObj.isNull("file_encode")){
+										encode = jObj.getString("file_encode");
+									}
+									CSVReader reader = new CSVReader(new InputStreamReader(new FileInputStream(filePath), encode));
+									List<String[]> datas = reader.readAll();
+									if(datas != null && datas.size() > 1){
+										String[] row;
+										GET_ARGUMENTS_LIST = new String[datas.size()-1][];
+										
+										// header 첫행 제외 로직 포함
+										for(int i = 1 ; i < datas.size() ; i ++){
+											row = datas.get(i);
+											GET_ARGUMENTS_LIST[i-1] = new String[1];
+											GET_ARGUMENTS_LIST[i-1][0] = row[Integer.parseInt(query)];
+										}
+									}
+								} catch (IOException e1){
+									e1.printStackTrace();
+								}
+							}
+						}
+					}
+				}
+			}
+			
+			if(!root.isNull(KEY_POST_PROCESSING)){
+				jObj = root.getJSONObject(KEY_POST_PROCESSING);
+				if(!jObj.isNull(KEY_POST_PROCESSING_QUERY)){
+					jAry = jObj.getJSONArray(KEY_POST_PROCESSING_QUERY);
+					if(jAry.length() > 0){
+						mPostProcessingQuery = new String[jAry.length()];
+						for(int i = 0 ; i < mPostProcessingQuery.length ; i++){
+							mPostProcessingQuery[i] = jAry.getString(i);
+						}
+					}
+				}
+			}
+			
+		}catch(JSONException e){
+			System.err.println("Config ERR : wrong config file");
+			return false;
+		}
+
+		CRAWLING_START_TIME = System.currentTimeMillis();
+		SimpleDateFormat sdf = new SimpleDateFormat(DATETIME_FORMAT); 
+		String strTime = sdf.format(new Date(CRAWLING_START_TIME));
+		CRAWLING_NAME_AND_TIME = CRAWLING_NAME + "_" + strTime;
+			
+		return ret;
+	}
+
+	public int configCount(){
+		if(GET_ARGUMENTS_LIST != null) return GET_ARGUMENTS_LIST.length;
+		else return 1;
+	}
+	
+	public boolean updateNext(){
+		if(GET_ARGUMENTS_LIST != null){
+			if(GET_ARGUMENTS_LIST.length > mConfigCursor){
+				setCrawlingConfig(mConfigStr, GET_ARGUMENTS_LIST[mConfigCursor++]);
+				return true;
+			}else{
+				return false;
+			}
+		}else{
+			if(mConfigCursor == 0){
+				mConfigCursor++;
+				return setCrawlingConfig(mConfigStr, null);
+			}else{
+				return false;
+			}
+		}
+	}
+	
+	/**
+	 * 크롤러 실행 후 변할수 있는 정보
+	 * */
+	public boolean setCrawlingConfig(String config, String[] args){
+		config = configParseArgs(config, args);
+		if(config == null) return false;
 		JSONObject root;
 		try{
 			root = new JSONObject(config);
 		}catch(JSONException e){
 			System.out.println("Config ERR : wrong config file");
-			return false;
-		}
-		
-		if(!root.isNull(KEY_CRAWLING_NAME)){
-			CRAWLING_NAME = root.getString(KEY_CRAWLING_NAME);
-			CRAWLING_NAME = CRAWLING_NAME.trim().replace(" ", "_");
-		}else{
-			//CRAWLING_NAME = "DEFAULT_CRAWLER";
-			System.out.println("Config ERR : Require crawling name");
 			return false;
 		}
 		
@@ -150,18 +422,6 @@ public class Config {
 		
 		if(!root.isNull(KEY_OUTPUT_FILE_PATH)){
 			OUTPUT_FILE_PATH = root.getString(KEY_OUTPUT_FILE_PATH);
-		}
-		
-		if(!root.isNull(KEY_OUTPUT_DB_ID)){
-			OUTPUT_DB_ID = root.getString(KEY_OUTPUT_DB_ID);
-		}
-		
-		if(!root.isNull(KEY_OUTPUT_DB_PW)){
-			OUTPUT_DB_PW = root.getString(KEY_OUTPUT_DB_PW);
-		}
-		
-		if(!root.isNull(KEY_OUTPUT_DB_PATH)){
-			OUTPUT_DB_PATH = root.getString(KEY_OUTPUT_DB_PATH);
 		}
 		
 		if(!root.isNull(KEY_SAVE_HTML)){
@@ -421,12 +681,11 @@ public class Config {
 			return false;
 		}
 		
-		CRAWLING_START_TIME = System.currentTimeMillis();
-		SimpleDateFormat sdf = new SimpleDateFormat(DATETIME_FORMAT); 
-		String strTime = sdf.format(new Date(CRAWLING_START_TIME));
-		CRAWLING_NAME_AND_TIME = CRAWLING_NAME + "_" + strTime;
-		
 		return true;
+	}
+	
+	public String[] getPostProcessingQuery(){
+		return mPostProcessingQuery;
 	}
 	
 	public long getStartTime(){

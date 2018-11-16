@@ -54,7 +54,7 @@ public class Crawler {
 	public static Logger mLogger;
 	
 	public Config mConfig;
-	public String[] mArgs;
+	public String[] mCrawlingArgs;
 	public String mConfigPath;
 	
 	public Crawler(int size, int delay){
@@ -77,56 +77,20 @@ public class Crawler {
 	public Crawler(){
 		this(1, 1);
 	}
-	
-	public void setConfigFile(String filePath, String[] args){
-		mArgs = args;
-		mConfigPath = filePath;
-		//System.out.println("Open config file - " + filePath);
-		String config = (String) Util.GetConfigFile(filePath);
-		
-		
-		String regexParams = "<%[0-9]+%>";
-        Pattern pattern = Pattern.compile(regexParams);
-        Matcher matcher = pattern.matcher(config);
 
-        int totalParams = 0;
-        String value = "";
-        Integer cnt = 0;
-        HashMap<String, Integer> paramMap = new HashMap<String, Integer>();
-        while (matcher.find()){
-        	value = matcher.group();
-        	cnt = paramMap.get(value);
-        	if(cnt != null){
-        		cnt ++;
-        	}else{
-        		totalParams++;
-        		cnt = 1;
-        	}
-        	paramMap.put(matcher.group(), cnt);
-        }
-        
-        int len = 0;
-        if(args != null){
-        	len = args.length;
-        }
-        if(totalParams != (len)){
-        	System.err.println("[ERROR] Mismatching config parameters.");
-        	return;
-        }
-		if(len > 0){
-			for(int i =  0 ; i < len ; i++){
-				config = config.replace("<%"+ (i) +"%>", args[i]);
+	public boolean setConfig(String filePath, String[] argsMeta, String[] argsCrawling) {
+		if(mConfig == null) {
+			mConfig = new Config();
+			if(!mConfig.setConfig(filePath, argsMeta, argsCrawling)){
+				System.err.println("[ERROR] Config file parsing failed.");
+				return false;
+			}
+		}else{
+			if(!mConfig.updateNext()){
+				return false;
 			}
 		}
-		setConfigJson(config);
-	}
-
-	public void setConfigJson(String jsonConfig) {
-		if(mConfig == null) mConfig = new Config();
-		if(!mConfig.setConfig(jsonConfig)){
-			System.err.println("[ERROR] Config file parsing failed.");
-			return;
-		}
+		
 		if(mConfig.CRAWLING_TYPE.contentEquals(Config.CRAWLING_TYPE_SCENARIO_STATIC)){
 			mScraper = new JsoupScraper();
 			mParser = new ScenarioStasticParser();
@@ -140,7 +104,7 @@ public class Crawler {
     	
 		if(mParser == null || mScraper == null){
 			System.err.println("[ERROR] Not found parser.");
-			return;
+			return false;
 		}else{
 			mWorkManager.setScraper(mScraper).setParser(mParser);
 		}
@@ -148,20 +112,21 @@ public class Crawler {
 		mParser.setConfig(mConfig);
 		mWorkManager.setConfig(mConfig);
 		if(mConfig.OUTPUT_SAVE_TYPE.contentEquals(Config.SAVE_TYPE_DB)){
-			DB = new DBWriter();
-			Writer = DB;
+			if(DB == null){
+				Writer = DB = new DBWriter();
+			}
 		}else{
-			DB = new DBWriter();
-			Writer = new CsvWriter();
+			if(DB == null) DB = new DBWriter();
+			if(Writer == null) Writer = new CsvWriter();
 		}
+//		if(DB == null) DB = new DBWriter();
+//		DB.setConfig(mConfig);
 		Writer.setConfig(mConfig);
-		
-//			if(DB == null) DB = new DBWriter();
-//			DB.setConfig(mConfig);
 		Work seed = mConfig.getSeedInfo();
 		if(seed != null){
 			seedUrl(seed);
 		}
+		return true;
 	}
 	
 	public Crawler seedUrl(Work info) {
@@ -206,7 +171,40 @@ public class Crawler {
 		if(mLogger == null){
 			mLogger = CrawlerLog.GetInstance(Crawler.class);
 		}
-		mWorkManager.start();
+		do {
+			mWorkManager.start();
+		}while(setConfig(null,null,null));
+		if(Writer != null){
+			//Writer.
+			if(Writer.getClass() == DBWriter.class){
+				String[] query = mConfig.getPostProcessingQuery();
+				for(int i = 0 ; i < query.length ; i++){
+					DBWriter dbw = (DBWriter) Writer;
+					mLogger.info("============== Post processing =============");
+					try {
+						dbw.insert(query[i]);
+						mLogger.info("processing query "+ i+ " :" + query[i]);
+					} catch (Exception e) {
+						//e.printStackTrace();
+						mLogger.error("err query : " + e.getMessage());
+					}
+				}
+			}
+			try {
+				Writer.close();
+			} catch (Exception e1) {
+				e1.printStackTrace();
+			}
+		}
+		if(mProcessedCount > 0){
+			mLogger.info("============== 	 =============");
+			mLogger.info("[total time] "+ Util.GetElapedTime(mConfig.getStartTime()));
+			mLogger.info("[save contents] "+ mTotalSaveCnt);
+			mLogger.info("[error work] "+ mErrCnt);
+			mLogger.info("[remain work] "+ mRemainWork);
+			mLogger.info("[total processed work] " + mProcessedCount);
+		}
+		if(mScraper != null) mScraper.close();
 	} 
 	
 	public void setCrawlerListener(WorkManagerListener listener){
@@ -216,32 +214,54 @@ public class Crawler {
 	long mTotalSaveCnt = 0;
 	long mErrCnt = 0;
 	long mProcessedCount = 0;
+	long mRemainWork = 0;
+	long mWorkSaveCnt = 0;
+	long mWorkErrCnt = 0;
 	static Logger mErrorLogger = null;
 	WorkManagerListener mWMListener = new WorkManagerListener() {
 		
 		public boolean start() {
 			boolean ret = false;
-			mLogger.info("============== Start Crawler =============");
-			mLogger.info("CONFIG FILE    : " + mConfigPath);
-			if(mArgs != null){
-				for(int i = 0 ; i < mArgs.length ; i++){
-					mLogger.info(String.format("CMD PARAM %02d   : %s", (i), mArgs[i]));
+			String[] args = mConfig.getCurArguments();
+			mWorkSaveCnt = 0;
+			mWorkErrCnt = 0;
+			if(mProcessedCount == 0){
+				mLogger.info("============== Start Crawler =============");
+				mLogger.info("CONFIG FILE    : " + mConfig.getConfigFileName());
+				if(mConfig.GET_ARGUMENTS_LIST != null && mConfig.GET_ARGUMENTS_LIST.length > 0){
+					mLogger.info("ARG LIST COUNT : " + mConfig.GET_ARGUMENTS_LIST.length);
+				}
+				if(args != null){
+					//String[] args = mConfig.GET_ARGUMENTS_LIST[mCo];
+					for(int i = 0 ; i < args.length ; i++){
+						mLogger.info(String.format("CMD PARAM %02d   : %s", (i), args[i]));
+					}
+				}
+				mLogger.info("CRAWLER NAME   : " + mConfig.CRAWLING_NAME);
+				mLogger.info("CRAWLER TYPE   : " + mConfig.CRAWLING_TYPE);
+				mLogger.info("CRAWLER DELAY  : " + mConfig.CRAWLING_DELAY + " sec");
+				mLogger.info("IGNORE ROBOTS  : " + mConfig.IGNORE_ROBOTS);
+				mLogger.info("LIMIT_COUNT    : " + mConfig.CRAWLING_MAX_COUNT);
+				mLogger.info("FILTER COUNT   : " + (mConfig.getFilterAllow().size() 
+									     		 + mConfig.getFilterDisallow().size() 
+									             + mConfig.getFilterDuplicate().size() 
+									             + mConfig.getLeafURL().size()));
+				mLogger.info("SCENARIO COUNT : " + mConfig.getScenarios().size());
+				mLogger.info("COLLECT COUNT  : " + mConfig.getCollects().size());
+				mLogger.info("SAVE TYPE      : " + mConfig.OUTPUT_SAVE_TYPE);
+				mLogger.info("SAVE HTML      : " + mConfig.SAVE_HTML);
+				mLogger.info("==========================================");
+			}else{
+				if(args != null){
+					mLogger.info("============== update params =============");
+					//String[] args = mConfig.GET_ARGUMENTS_LIST[mCo];
+					for(int i = 0 ; i < args.length ; i++){
+						mLogger.info(String.format("CMD PARAM %02d   : %s", (i), args[i]));
+					}
+					mLogger.info("==========================================");
 				}
 			}
-			mLogger.info("CRAWLER NAME   : " + mConfig.CRAWLING_NAME);
-			mLogger.info("CRAWLER TYPE   : " + mConfig.CRAWLING_TYPE);
-			mLogger.info("CRAWLER DELAY  : " + mConfig.CRAWLING_DELAY + " sec");
-			mLogger.info("IGNORE ROBOTS  : " + mConfig.IGNORE_ROBOTS);
-			mLogger.info("LIMIT_COUNT    : " + mConfig.CRAWLING_MAX_COUNT);
-			mLogger.info("FILTER COUNT   : " + (mConfig.getFilterAllow().size() 
-								     		 + mConfig.getFilterDisallow().size() 
-								             + mConfig.getFilterDuplicate().size() 
-								             + mConfig.getLeafURL().size()));
-			mLogger.info("SCENARIO COUNT : " + mConfig.getScenarios().size());
-			mLogger.info("COLLECT COUNT  : " + mConfig.getCollects().size());
-			mLogger.info("SAVE TYPE      : " + mConfig.OUTPUT_SAVE_TYPE);
-			mLogger.info("SAVE HTML      : " + mConfig.SAVE_HTML);
-			mLogger.info("==========================================");
+			
 			try {
 				ret = Writer.open();
 				if(ret){
@@ -262,46 +282,37 @@ public class Crawler {
 		public void progress(Work work, WorkDeque workDeque) {
 			mProcessedCount++;
 			mTotalSaveCnt += work.result().getSaveCount();
+			mWorkSaveCnt += work.result().getSaveCount();
+			
 			if(work.result().getErrorList().size() > 0){
 				mLogger.error("[ERR URL] " + work.getURL());
 				mErrCnt += work.result().getErrorList().size();
+				mWorkErrCnt += work.result().getErrorList().size();
 				for(Work.Error err : work.result().getErrorList()){
 					mLogger.error("L " + err.toStringTypeAndMsg());
 					//mLogger.error("L " + err.);
 				}
 			}
 			
-			mLogger.info(String.format("[Progress %d] elaped time : %s, save : %d, err : %d, remain_work : %d, total : %d",
+			mLogger.info(String.format("[Progress %d] elaped time : %s, curSave : %d, Totalsave : %d, curErr : %d, totalErr : %d, remain_work : %d, total : %d",
 												mProcessedCount,
 												Util.GetElapedTime(mConfig.getStartTime()),
+												mWorkSaveCnt,
 												mTotalSaveCnt,
+												mWorkErrCnt,
 												mErrCnt,
 												workDeque.getSize(),
 												workDeque.getHistorySize()));
 			/**
 			 * 크롤링 횟수 제한 설정이 있다면, 작업 날리기
 			 * */
-			if(mConfig.CRAWLING_MAX_COUNT != -1 && (mTotalSaveCnt + mErrCnt) >= mConfig.CRAWLING_MAX_COUNT){ 
+			if(mConfig.CRAWLING_MAX_COUNT != -1 && (mWorkSaveCnt + mWorkErrCnt) >= mConfig.CRAWLING_MAX_COUNT){ 
 				workDeque.clear();
 			}
 		}
 
 		public void finish(WorkDeque workDeque) {
-			if(Writer != null){
-				try {
-					Writer.close();
-				} catch (Exception e1) {
-					e1.printStackTrace();
-				}
-			}
-			mScraper.close();
-			
-			mLogger.info("============== Finish Crawler =============");
-			mLogger.info("[total time] "+ Util.GetElapedTime(mConfig.getStartTime()));
-			mLogger.info("[save contents] "+ mTotalSaveCnt);
-			mLogger.info("[error work] "+ mErrCnt);
-			mLogger.info("[remain work] "+ workDeque.getSize());
-			mLogger.info("[total processed work] " + mProcessedCount);
+			mRemainWork += workDeque.getSize();
 		}
 		
 		public void error() {

@@ -1,0 +1,1567 @@
+2018-11-13 10:00:06 INFO  Crawler:227 - ============== Start Crawler =============
+2018-11-13 10:00:06 INFO  Crawler:228 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-13 10:00:06 INFO  Crawler:232 - CMD PARAM 00   : 노숙인
+2018-11-13 10:00:06 INFO  Crawler:235 - CRAWLER NAME   : naver_category
+2018-11-13 10:00:06 INFO  Crawler:236 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-13 10:00:06 INFO  Crawler:237 - CRAWLER DELAY  : 1 sec
+2018-11-13 10:00:06 INFO  Crawler:238 - IGNORE ROBOTS  : true
+2018-11-13 10:00:06 INFO  Crawler:239 - LIMIT_COUNT    : -1
+2018-11-13 10:00:06 INFO  Crawler:240 - FILTER COUNT   : 0
+2018-11-13 10:00:06 INFO  Crawler:244 - SCENARIO COUNT : 1
+2018-11-13 10:00:06 INFO  Crawler:245 - COLLECT COUNT  : 1
+2018-11-13 10:00:06 INFO  Crawler:246 - SAVE TYPE      : DB
+2018-11-13 10:00:06 INFO  Crawler:247 - SAVE HTML      : true
+2018-11-13 10:00:06 INFO  Crawler:248 - ==========================================
+2018-11-13 10:00:15 INFO  Crawler:289 - [Progress 1] elaped time : 00:00:09, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-13 10:00:17 INFO  Crawler:289 - [Progress 2] elaped time : 00:00:11, save : 80, err : 0, remain_work : 0, total : 2
+2018-11-13 10:00:17 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:17 INFO  Crawler:254 - CMD PARAM 00   : 변사
+2018-11-13 10:00:17 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:19 INFO  Crawler:289 - [Progress 3] elaped time : 00:00:02, save : 80, err : 0, remain_work : 1, total : 4
+2018-11-13 10:00:21 INFO  Crawler:289 - [Progress 4] elaped time : 00:00:03, save : 160, err : 0, remain_work : 0, total : 4
+2018-11-13 10:00:21 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:21 INFO  Crawler:254 - CMD PARAM 00   : 핀덴
+2018-11-13 10:00:21 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:23 INFO  Crawler:289 - [Progress 5] elaped time : 00:00:02, save : 160, err : 0, remain_work : 1, total : 6
+2018-11-13 10:00:24 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%80%EB%8D%B4
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:24 INFO  Crawler:289 - [Progress 6] elaped time : 00:00:03, save : 242, err : 8, remain_work : 0, total : 6
+2018-11-13 10:00:24 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:24 INFO  Crawler:254 - CMD PARAM 00   : 카카
+2018-11-13 10:00:24 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:27 INFO  Crawler:289 - [Progress 7] elaped time : 00:00:02, save : 242, err : 8, remain_work : 1, total : 8
+2018-11-13 10:00:28 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B9%B4%EC%B9%B4
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:28 INFO  Crawler:289 - [Progress 8] elaped time : 00:00:03, save : 322, err : 16, remain_work : 0, total : 8
+2018-11-13 10:00:28 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:28 INFO  Crawler:254 - CMD PARAM 00   : 생뚱맞
+2018-11-13 10:00:28 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:30 INFO  Crawler:289 - [Progress 9] elaped time : 00:00:01, save : 322, err : 16, remain_work : 1, total : 10
+2018-11-13 10:00:31 INFO  Crawler:289 - [Progress 10] elaped time : 00:00:02, save : 322, err : 16, remain_work : 0, total : 10
+2018-11-13 10:00:31 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:31 INFO  Crawler:254 - CMD PARAM 00   : 북촌
+2018-11-13 10:00:31 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:33 INFO  Crawler:289 - [Progress 11] elaped time : 00:00:02, save : 322, err : 16, remain_work : 1, total : 12
+2018-11-13 10:00:34 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B6%81%EC%B4%8C
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:34 INFO  Crawler:289 - [Progress 12] elaped time : 00:00:03, save : 402, err : 24, remain_work : 0, total : 12
+2018-11-13 10:00:34 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:34 INFO  Crawler:254 - CMD PARAM 00   : 소행
+2018-11-13 10:00:34 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:37 INFO  Crawler:289 - [Progress 13] elaped time : 00:00:02, save : 402, err : 24, remain_work : 1, total : 14
+2018-11-13 10:00:38 INFO  Crawler:289 - [Progress 14] elaped time : 00:00:03, save : 482, err : 24, remain_work : 0, total : 14
+2018-11-13 10:00:38 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:38 INFO  Crawler:254 - CMD PARAM 00   : 창덕궁
+2018-11-13 10:00:38 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:40 INFO  Crawler:289 - [Progress 15] elaped time : 00:00:02, save : 482, err : 24, remain_work : 1, total : 16
+2018-11-13 10:00:41 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B0%BD%EB%8D%95%EA%B6%81
+2018-11-13 10:00:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:41 INFO  Crawler:289 - [Progress 16] elaped time : 00:00:03, save : 562, err : 28, remain_work : 0, total : 16
+2018-11-13 10:00:41 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:41 INFO  Crawler:254 - CMD PARAM 00   : 창경궁
+2018-11-13 10:00:41 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:44 INFO  Crawler:289 - [Progress 17] elaped time : 00:00:02, save : 562, err : 28, remain_work : 1, total : 18
+2018-11-13 10:00:45 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B0%BD%EA%B2%BD%EA%B6%81
+2018-11-13 10:00:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:45 INFO  Crawler:289 - [Progress 18] elaped time : 00:00:03, save : 642, err : 33, remain_work : 0, total : 18
+2018-11-13 10:00:45 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:45 INFO  Crawler:254 - CMD PARAM 00   : 동궐
+2018-11-13 10:00:45 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:47 INFO  Crawler:289 - [Progress 19] elaped time : 00:00:01, save : 642, err : 33, remain_work : 1, total : 20
+2018-11-13 10:00:48 INFO  Crawler:289 - [Progress 20] elaped time : 00:00:03, save : 688, err : 33, remain_work : 0, total : 20
+2018-11-13 10:00:48 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:48 INFO  Crawler:254 - CMD PARAM 00   : 경희궁
+2018-11-13 10:00:48 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:51 INFO  Crawler:289 - [Progress 21] elaped time : 00:00:02, save : 688, err : 33, remain_work : 1, total : 22
+2018-11-13 10:00:52 INFO  Crawler:289 - [Progress 22] elaped time : 00:00:03, save : 768, err : 33, remain_work : 0, total : 22
+2018-11-13 10:00:52 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:52 INFO  Crawler:254 - CMD PARAM 00   : 궐
+2018-11-13 10:00:52 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:54 INFO  Crawler:289 - [Progress 23] elaped time : 00:00:02, save : 768, err : 33, remain_work : 1, total : 24
+2018-11-13 10:00:55 INFO  Crawler:289 - [Progress 24] elaped time : 00:00:03, save : 848, err : 33, remain_work : 0, total : 24
+2018-11-13 10:00:55 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:55 INFO  Crawler:254 - CMD PARAM 00   : 북면
+2018-11-13 10:00:55 INFO  Crawler:256 - ==========================================
+2018-11-13 10:00:58 INFO  Crawler:289 - [Progress 25] elaped time : 00:00:02, save : 848, err : 33, remain_work : 1, total : 26
+2018-11-13 10:00:59 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B6%81%EB%A9%B4
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:00:59 INFO  Crawler:289 - [Progress 26] elaped time : 00:00:03, save : 928, err : 41, remain_work : 0, total : 26
+2018-11-13 10:00:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:00:59 INFO  Crawler:254 - CMD PARAM 00   : 훼
+2018-11-13 10:00:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:01 INFO  Crawler:289 - [Progress 27] elaped time : 00:00:02, save : 928, err : 41, remain_work : 1, total : 28
+2018-11-13 10:01:03 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%9B%BC
+2018-11-13 10:01:03 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:03 INFO  Crawler:289 - [Progress 28] elaped time : 00:00:03, save : 1008, err : 42, remain_work : 0, total : 28
+2018-11-13 10:01:03 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:03 INFO  Crawler:254 - CMD PARAM 00   : 가로림만
+2018-11-13 10:01:03 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:05 INFO  Crawler:289 - [Progress 29] elaped time : 00:00:01, save : 1008, err : 42, remain_work : 1, total : 30
+2018-11-13 10:01:06 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%80%EB%A1%9C%EB%A6%BC%EB%A7%8C
+2018-11-13 10:01:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:06 INFO  Crawler:289 - [Progress 30] elaped time : 00:00:03, save : 1017, err : 43, remain_work : 0, total : 30
+2018-11-13 10:01:06 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:06 INFO  Crawler:254 - CMD PARAM 00   : 서산시
+2018-11-13 10:01:06 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:08 INFO  Crawler:289 - [Progress 31] elaped time : 00:00:02, save : 1017, err : 43, remain_work : 1, total : 32
+2018-11-13 10:01:09 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%9C%EC%82%B0%EC%8B%9C
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:09 INFO  Crawler:289 - [Progress 32] elaped time : 00:00:03, save : 1097, err : 51, remain_work : 0, total : 32
+2018-11-13 10:01:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:09 INFO  Crawler:254 - CMD PARAM 00   : 동문동
+2018-11-13 10:01:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:12 INFO  Crawler:289 - [Progress 33] elaped time : 00:00:03, save : 1097, err : 51, remain_work : 1, total : 34
+2018-11-13 10:01:14 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8F%99%EB%AC%B8%EB%8F%99
+2018-11-13 10:01:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:14 INFO  Crawler:289 - [Progress 34] elaped time : 00:00:04, save : 1177, err : 52, remain_work : 0, total : 34
+2018-11-13 10:01:14 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:14 INFO  Crawler:254 - CMD PARAM 00   : 풍력
+2018-11-13 10:01:14 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:16 INFO  Crawler:289 - [Progress 35] elaped time : 00:00:02, save : 1177, err : 52, remain_work : 1, total : 36
+2018-11-13 10:01:18 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%92%8D%EB%A0%A5
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:18 INFO  Crawler:289 - [Progress 36] elaped time : 00:00:03, save : 1257, err : 60, remain_work : 0, total : 36
+2018-11-13 10:01:18 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:18 INFO  Crawler:254 - CMD PARAM 00   : 건룸
+2018-11-13 10:01:18 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:19 INFO  Crawler:289 - [Progress 37] elaped time : 00:00:01, save : 1257, err : 60, remain_work : 1, total : 38
+2018-11-13 10:01:20 INFO  Crawler:289 - [Progress 38] elaped time : 00:00:02, save : 1257, err : 60, remain_work : 0, total : 38
+2018-11-13 10:01:20 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:20 INFO  Crawler:254 - CMD PARAM 00   : 민회
+2018-11-13 10:01:20 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:22 INFO  Crawler:289 - [Progress 39] elaped time : 00:00:02, save : 1257, err : 60, remain_work : 1, total : 40
+2018-11-13 10:01:23 INFO  Crawler:289 - [Progress 40] elaped time : 00:00:03, save : 1285, err : 60, remain_work : 0, total : 40
+2018-11-13 10:01:23 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:23 INFO  Crawler:254 - CMD PARAM 00   : 수남
+2018-11-13 10:01:23 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:26 INFO  Crawler:289 - [Progress 41] elaped time : 00:00:02, save : 1285, err : 60, remain_work : 1, total : 42
+2018-11-13 10:01:27 INFO  Crawler:289 - [Progress 42] elaped time : 00:00:03, save : 1365, err : 60, remain_work : 0, total : 42
+2018-11-13 10:01:27 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:27 INFO  Crawler:254 - CMD PARAM 00   : 보수동책방골목
+2018-11-13 10:01:27 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:29 INFO  Crawler:289 - [Progress 43] elaped time : 00:00:02, save : 1365, err : 60, remain_work : 1, total : 44
+2018-11-13 10:01:31 INFO  Crawler:289 - [Progress 44] elaped time : 00:00:03, save : 1445, err : 60, remain_work : 0, total : 44
+2018-11-13 10:01:31 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:31 INFO  Crawler:254 - CMD PARAM 00   : 코콤
+2018-11-13 10:01:31 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:33 INFO  Crawler:289 - [Progress 45] elaped time : 00:00:02, save : 1445, err : 60, remain_work : 1, total : 46
+2018-11-13 10:01:34 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%BD%94%EC%BD%A4
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:34 INFO  Crawler:289 - [Progress 46] elaped time : 00:00:03, save : 1529, err : 68, remain_work : 0, total : 46
+2018-11-13 10:01:34 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:34 INFO  Crawler:254 - CMD PARAM 00   : 대청동
+2018-11-13 10:01:34 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:37 INFO  Crawler:289 - [Progress 47] elaped time : 00:00:02, save : 1529, err : 68, remain_work : 1, total : 48
+2018-11-13 10:01:38 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8C%80%EC%B2%AD%EB%8F%99
+2018-11-13 10:01:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:38 INFO  Crawler:289 - [Progress 48] elaped time : 00:00:03, save : 1609, err : 70, remain_work : 0, total : 48
+2018-11-13 10:01:38 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:38 INFO  Crawler:254 - CMD PARAM 00   : 유탑
+2018-11-13 10:01:38 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:40 INFO  Crawler:289 - [Progress 49] elaped time : 00:00:02, save : 1609, err : 70, remain_work : 1, total : 50
+2018-11-13 10:01:41 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9C%A0%ED%83%91
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:41 INFO  Crawler:289 - [Progress 50] elaped time : 00:00:03, save : 1689, err : 78, remain_work : 0, total : 50
+2018-11-13 10:01:41 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:41 INFO  Crawler:254 - CMD PARAM 00   : 라르고
+2018-11-13 10:01:41 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:44 INFO  Crawler:289 - [Progress 51] elaped time : 00:00:02, save : 1689, err : 78, remain_work : 1, total : 52
+2018-11-13 10:01:45 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%9D%BC%EB%A5%B4%EA%B3%A0
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:45 INFO  Crawler:289 - [Progress 52] elaped time : 00:00:03, save : 1769, err : 86, remain_work : 0, total : 52
+2018-11-13 10:01:45 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:45 INFO  Crawler:254 - CMD PARAM 00   : 미스에이
+2018-11-13 10:01:45 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:47 INFO  Crawler:289 - [Progress 53] elaped time : 00:00:02, save : 1769, err : 86, remain_work : 1, total : 54
+2018-11-13 10:01:48 INFO  Crawler:289 - [Progress 54] elaped time : 00:00:03, save : 1849, err : 86, remain_work : 0, total : 54
+2018-11-13 10:01:48 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:48 INFO  Crawler:254 - CMD PARAM 00   : 앙리
+2018-11-13 10:01:48 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:51 INFO  Crawler:289 - [Progress 55] elaped time : 00:00:02, save : 1849, err : 86, remain_work : 1, total : 56
+2018-11-13 10:01:52 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%99%EB%A6%AC
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:52 INFO  Crawler:289 - [Progress 56] elaped time : 00:00:03, save : 1929, err : 94, remain_work : 0, total : 56
+2018-11-13 10:01:52 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:52 INFO  Crawler:254 - CMD PARAM 00   : 보그
+2018-11-13 10:01:52 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:55 INFO  Crawler:289 - [Progress 57] elaped time : 00:00:02, save : 1929, err : 94, remain_work : 1, total : 58
+2018-11-13 10:01:56 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B3%B4%EA%B7%B8
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:01:56 INFO  Crawler:289 - [Progress 58] elaped time : 00:00:03, save : 2009, err : 102, remain_work : 0, total : 58
+2018-11-13 10:01:56 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:56 INFO  Crawler:254 - CMD PARAM 00   : 띠리리
+2018-11-13 10:01:56 INFO  Crawler:256 - ==========================================
+2018-11-13 10:01:58 INFO  Crawler:289 - [Progress 59] elaped time : 00:00:01, save : 2009, err : 102, remain_work : 1, total : 60
+2018-11-13 10:01:59 INFO  Crawler:289 - [Progress 60] elaped time : 00:00:02, save : 2010, err : 102, remain_work : 0, total : 60
+2018-11-13 10:01:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:01:59 INFO  Crawler:254 - CMD PARAM 00   : 뇨카
+2018-11-13 10:01:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:00 INFO  Crawler:289 - [Progress 61] elaped time : 00:00:01, save : 2010, err : 102, remain_work : 1, total : 62
+2018-11-13 10:02:01 INFO  Crawler:289 - [Progress 62] elaped time : 00:00:02, save : 2011, err : 102, remain_work : 0, total : 62
+2018-11-13 10:02:01 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:01 INFO  Crawler:254 - CMD PARAM 00   : 머신건
+2018-11-13 10:02:01 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:04 INFO  Crawler:289 - [Progress 63] elaped time : 00:00:02, save : 2011, err : 102, remain_work : 1, total : 64
+2018-11-13 10:02:05 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A8%B8%EC%8B%A0%EA%B1%B4
+2018-11-13 10:02:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:05 INFO  Crawler:289 - [Progress 64] elaped time : 00:00:03, save : 2091, err : 103, remain_work : 0, total : 64
+2018-11-13 10:02:05 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:05 INFO  Crawler:254 - CMD PARAM 00   : 글램
+2018-11-13 10:02:05 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:07 INFO  Crawler:289 - [Progress 65] elaped time : 00:00:02, save : 2091, err : 103, remain_work : 1, total : 66
+2018-11-13 10:02:09 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%80%EB%9E%A8
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:09 INFO  Crawler:289 - [Progress 66] elaped time : 00:00:03, save : 2171, err : 111, remain_work : 0, total : 66
+2018-11-13 10:02:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:09 INFO  Crawler:254 - CMD PARAM 00   : 달마시안
+2018-11-13 10:02:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:11 INFO  Crawler:289 - [Progress 67] elaped time : 00:00:02, save : 2171, err : 111, remain_work : 1, total : 68
+2018-11-13 10:02:12 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%AC%EB%A7%88%EC%8B%9C%EC%95%88
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:12 INFO  Crawler:289 - [Progress 68] elaped time : 00:00:03, save : 2251, err : 119, remain_work : 0, total : 68
+2018-11-13 10:02:12 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:12 INFO  Crawler:254 - CMD PARAM 00   : 리복
+2018-11-13 10:02:12 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:15 INFO  Crawler:289 - [Progress 69] elaped time : 00:00:02, save : 2251, err : 119, remain_work : 1, total : 70
+2018-11-13 10:02:16 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A6%AC%EB%B3%B5
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:16 INFO  Crawler:289 - [Progress 70] elaped time : 00:00:03, save : 2335, err : 127, remain_work : 0, total : 70
+2018-11-13 10:02:16 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:16 INFO  Crawler:254 - CMD PARAM 00   : 퓨리
+2018-11-13 10:02:16 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:19 INFO  Crawler:289 - [Progress 71] elaped time : 00:00:02, save : 2335, err : 127, remain_work : 1, total : 72
+2018-11-13 10:02:20 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%93%A8%EB%A6%AC
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:20 INFO  Crawler:289 - [Progress 72] elaped time : 00:00:03, save : 2419, err : 135, remain_work : 0, total : 72
+2018-11-13 10:02:20 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:20 INFO  Crawler:254 - CMD PARAM 00   : 질렀는데
+2018-11-13 10:02:20 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:22 INFO  Crawler:289 - [Progress 73] elaped time : 00:00:01, save : 2419, err : 135, remain_work : 1, total : 74
+2018-11-13 10:02:23 INFO  Crawler:289 - [Progress 74] elaped time : 00:00:02, save : 2419, err : 135, remain_work : 0, total : 74
+2018-11-13 10:02:23 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:23 INFO  Crawler:254 - CMD PARAM 00   : 쉐라톤
+2018-11-13 10:02:23 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:25 INFO  Crawler:289 - [Progress 75] elaped time : 00:00:02, save : 2419, err : 135, remain_work : 1, total : 76
+2018-11-13 10:02:26 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%89%90%EB%9D%BC%ED%86%A4
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:26 INFO  Crawler:289 - [Progress 76] elaped time : 00:00:03, save : 2499, err : 143, remain_work : 0, total : 76
+2018-11-13 10:02:26 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:26 INFO  Crawler:254 - CMD PARAM 00   : 마카오
+2018-11-13 10:02:26 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:29 INFO  Crawler:289 - [Progress 77] elaped time : 00:00:02, save : 2499, err : 143, remain_work : 1, total : 78
+2018-11-13 10:02:30 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%88%EC%B9%B4%EC%98%A4
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:30 INFO  Crawler:289 - [Progress 78] elaped time : 00:00:03, save : 2579, err : 151, remain_work : 0, total : 78
+2018-11-13 10:02:30 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:30 INFO  Crawler:254 - CMD PARAM 00   : 할증
+2018-11-13 10:02:30 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:33 INFO  Crawler:289 - [Progress 79] elaped time : 00:00:02, save : 2579, err : 151, remain_work : 1, total : 80
+2018-11-13 10:02:34 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%A0%EC%A6%9D
+2018-11-13 10:02:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:34 INFO  Crawler:289 - [Progress 80] elaped time : 00:00:03, save : 2645, err : 152, remain_work : 0, total : 80
+2018-11-13 10:02:34 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:34 INFO  Crawler:254 - CMD PARAM 00   : 선셰
+2018-11-13 10:02:34 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:35 INFO  Crawler:289 - [Progress 81] elaped time : 00:00:01, save : 2645, err : 152, remain_work : 1, total : 82
+2018-11-13 10:02:36 INFO  Crawler:289 - [Progress 82] elaped time : 00:00:02, save : 2645, err : 152, remain_work : 0, total : 82
+2018-11-13 10:02:36 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:36 INFO  Crawler:254 - CMD PARAM 00   : 휠입니
+2018-11-13 10:02:36 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:38 INFO  Crawler:289 - [Progress 83] elaped time : 00:00:01, save : 2645, err : 152, remain_work : 1, total : 84
+2018-11-13 10:02:39 INFO  Crawler:289 - [Progress 84] elaped time : 00:00:02, save : 2647, err : 152, remain_work : 0, total : 84
+2018-11-13 10:02:39 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:39 INFO  Crawler:254 - CMD PARAM 00   : 상거래
+2018-11-13 10:02:39 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:42 INFO  Crawler:289 - [Progress 85] elaped time : 00:00:02, save : 2647, err : 152, remain_work : 1, total : 86
+2018-11-13 10:02:43 INFO  Crawler:289 - [Progress 86] elaped time : 00:00:03, save : 2727, err : 152, remain_work : 0, total : 86
+2018-11-13 10:02:43 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:43 INFO  Crawler:254 - CMD PARAM 00   : 예입
+2018-11-13 10:02:43 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:45 INFO  Crawler:289 - [Progress 87] elaped time : 00:00:02, save : 2727, err : 152, remain_work : 1, total : 88
+2018-11-13 10:02:47 INFO  Crawler:289 - [Progress 88] elaped time : 00:00:03, save : 2807, err : 152, remain_work : 0, total : 88
+2018-11-13 10:02:47 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:47 INFO  Crawler:254 - CMD PARAM 00   : 임시회
+2018-11-13 10:02:47 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:49 INFO  Crawler:289 - [Progress 89] elaped time : 00:00:01, save : 2807, err : 152, remain_work : 1, total : 90
+2018-11-13 10:02:50 INFO  Crawler:289 - [Progress 90] elaped time : 00:00:02, save : 2812, err : 152, remain_work : 0, total : 90
+2018-11-13 10:02:50 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:50 INFO  Crawler:254 - CMD PARAM 00   : 치앙마이
+2018-11-13 10:02:50 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:52 INFO  Crawler:289 - [Progress 91] elaped time : 00:00:02, save : 2812, err : 152, remain_work : 1, total : 92
+2018-11-13 10:02:53 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B9%98%EC%95%99%EB%A7%88%EC%9D%B4
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:53 INFO  Crawler:289 - [Progress 92] elaped time : 00:00:03, save : 2892, err : 160, remain_work : 0, total : 92
+2018-11-13 10:02:53 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:53 INFO  Crawler:254 - CMD PARAM 00   : 교육법
+2018-11-13 10:02:53 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:55 INFO  Crawler:289 - [Progress 93] elaped time : 00:00:02, save : 2892, err : 160, remain_work : 1, total : 94
+2018-11-13 10:02:57 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%90%EC%9C%A1%EB%B2%95
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:02:57 INFO  Crawler:289 - [Progress 94] elaped time : 00:00:03, save : 2972, err : 168, remain_work : 0, total : 94
+2018-11-13 10:02:57 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:57 INFO  Crawler:254 - CMD PARAM 00   : 원터골
+2018-11-13 10:02:57 INFO  Crawler:256 - ==========================================
+2018-11-13 10:02:58 INFO  Crawler:289 - [Progress 95] elaped time : 00:00:01, save : 2972, err : 168, remain_work : 1, total : 96
+2018-11-13 10:02:59 INFO  Crawler:289 - [Progress 96] elaped time : 00:00:02, save : 2972, err : 168, remain_work : 0, total : 96
+2018-11-13 10:02:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:02:59 INFO  Crawler:254 - CMD PARAM 00   : 우면산
+2018-11-13 10:02:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:02 INFO  Crawler:289 - [Progress 97] elaped time : 00:00:02, save : 2972, err : 168, remain_work : 1, total : 98
+2018-11-13 10:03:03 INFO  Crawler:289 - [Progress 98] elaped time : 00:00:03, save : 3052, err : 168, remain_work : 0, total : 98
+2018-11-13 10:03:03 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:03 INFO  Crawler:254 - CMD PARAM 00   : 타이난
+2018-11-13 10:03:03 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:05 INFO  Crawler:289 - [Progress 99] elaped time : 00:00:02, save : 3052, err : 168, remain_work : 1, total : 100
+2018-11-13 10:03:07 INFO  Crawler:289 - [Progress 100] elaped time : 00:00:03, save : 3132, err : 168, remain_work : 0, total : 100
+2018-11-13 10:03:07 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:07 INFO  Crawler:254 - CMD PARAM 00   : 골프채
+2018-11-13 10:03:07 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:10 INFO  Crawler:289 - [Progress 101] elaped time : 00:00:03, save : 3132, err : 168, remain_work : 1, total : 102
+2018-11-13 10:03:11 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B3%A8%ED%94%84%EC%B1%84
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:11 INFO  Crawler:289 - [Progress 102] elaped time : 00:00:04, save : 3216, err : 176, remain_work : 0, total : 102
+2018-11-13 10:03:11 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:11 INFO  Crawler:254 - CMD PARAM 00   : 항취
+2018-11-13 10:03:11 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:13 INFO  Crawler:289 - [Progress 103] elaped time : 00:00:02, save : 3216, err : 176, remain_work : 1, total : 104
+2018-11-13 10:03:15 INFO  Crawler:289 - [Progress 104] elaped time : 00:00:03, save : 3296, err : 176, remain_work : 0, total : 104
+2018-11-13 10:03:15 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:15 INFO  Crawler:254 - CMD PARAM 00   : 조공
+2018-11-13 10:03:15 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:17 INFO  Crawler:289 - [Progress 105] elaped time : 00:00:02, save : 3296, err : 176, remain_work : 1, total : 106
+2018-11-13 10:03:18 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A1%B0%EA%B3%B5
+2018-11-13 10:03:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:18 INFO  Crawler:289 - [Progress 106] elaped time : 00:00:03, save : 3376, err : 177, remain_work : 0, total : 106
+2018-11-13 10:03:18 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:18 INFO  Crawler:254 - CMD PARAM 00   : 게자리
+2018-11-13 10:03:18 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:21 INFO  Crawler:289 - [Progress 107] elaped time : 00:00:02, save : 3376, err : 177, remain_work : 1, total : 108
+2018-11-13 10:03:22 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B2%8C%EC%9E%90%EB%A6%AC
+2018-11-13 10:03:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:22 INFO  Crawler:289 - [Progress 108] elaped time : 00:00:03, save : 3456, err : 180, remain_work : 0, total : 108
+2018-11-13 10:03:22 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:22 INFO  Crawler:254 - CMD PARAM 00   : 집결
+2018-11-13 10:03:22 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:24 INFO  Crawler:289 - [Progress 109] elaped time : 00:00:02, save : 3456, err : 180, remain_work : 1, total : 110
+2018-11-13 10:03:25 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A7%91%EA%B2%B0
+2018-11-13 10:03:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:25 INFO  Crawler:289 - [Progress 110] elaped time : 00:00:03, save : 3536, err : 181, remain_work : 0, total : 110
+2018-11-13 10:03:25 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:25 INFO  Crawler:254 - CMD PARAM 00   : 구립
+2018-11-13 10:03:25 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:28 INFO  Crawler:289 - [Progress 111] elaped time : 00:00:02, save : 3536, err : 181, remain_work : 1, total : 112
+2018-11-13 10:03:29 INFO  Crawler:289 - [Progress 112] elaped time : 00:00:03, save : 3616, err : 181, remain_work : 0, total : 112
+2018-11-13 10:03:29 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:29 INFO  Crawler:254 - CMD PARAM 00   : 천거
+2018-11-13 10:03:29 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:31 INFO  Crawler:289 - [Progress 113] elaped time : 00:00:02, save : 3616, err : 181, remain_work : 1, total : 114
+2018-11-13 10:03:33 INFO  Crawler:289 - [Progress 114] elaped time : 00:00:03, save : 3696, err : 181, remain_work : 0, total : 114
+2018-11-13 10:03:33 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:33 INFO  Crawler:254 - CMD PARAM 00   : 로큐브
+2018-11-13 10:03:33 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:35 INFO  Crawler:289 - [Progress 115] elaped time : 00:00:02, save : 3696, err : 181, remain_work : 1, total : 116
+2018-11-13 10:03:36 INFO  Crawler:289 - [Progress 116] elaped time : 00:00:03, save : 3776, err : 181, remain_work : 0, total : 116
+2018-11-13 10:03:36 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:36 INFO  Crawler:254 - CMD PARAM 00   : 미나토
+2018-11-13 10:03:36 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:38 INFO  Crawler:289 - [Progress 117] elaped time : 00:00:02, save : 3776, err : 181, remain_work : 1, total : 118
+2018-11-13 10:03:40 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AF%B8%EB%82%98%ED%86%A0
+2018-11-13 10:03:40 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:40 INFO  Crawler:289 - [Progress 118] elaped time : 00:00:03, save : 3856, err : 182, remain_work : 0, total : 118
+2018-11-13 10:03:40 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:40 INFO  Crawler:254 - CMD PARAM 00   : 모카
+2018-11-13 10:03:40 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:42 INFO  Crawler:289 - [Progress 119] elaped time : 00:00:02, save : 3856, err : 182, remain_work : 1, total : 120
+2018-11-13 10:03:43 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%A8%EC%B9%B4
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:43 INFO  Crawler:289 - [Progress 120] elaped time : 00:00:03, save : 3936, err : 190, remain_work : 0, total : 120
+2018-11-13 10:03:43 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:43 INFO  Crawler:254 - CMD PARAM 00   : 슈팅
+2018-11-13 10:03:43 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:46 INFO  Crawler:289 - [Progress 121] elaped time : 00:00:02, save : 3936, err : 190, remain_work : 1, total : 122
+2018-11-13 10:03:47 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%88%ED%8C%85
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:47 INFO  Crawler:289 - [Progress 122] elaped time : 00:00:03, save : 4016, err : 198, remain_work : 0, total : 122
+2018-11-13 10:03:47 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:47 INFO  Crawler:254 - CMD PARAM 00   : 갯
+2018-11-13 10:03:47 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:49 INFO  Crawler:289 - [Progress 123] elaped time : 00:00:02, save : 4016, err : 198, remain_work : 1, total : 124
+2018-11-13 10:03:51 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%AF
+2018-11-13 10:03:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:51 INFO  Crawler:289 - [Progress 124] elaped time : 00:00:03, save : 4096, err : 201, remain_work : 0, total : 124
+2018-11-13 10:03:51 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:51 INFO  Crawler:254 - CMD PARAM 00   : 릴찌낚시
+2018-11-13 10:03:51 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:53 INFO  Crawler:289 - [Progress 125] elaped time : 00:00:02, save : 4096, err : 201, remain_work : 1, total : 126
+2018-11-13 10:03:54 INFO  Crawler:289 - [Progress 126] elaped time : 00:00:03, save : 4176, err : 201, remain_work : 0, total : 126
+2018-11-13 10:03:54 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:54 INFO  Crawler:254 - CMD PARAM 00   : 보건관리
+2018-11-13 10:03:54 INFO  Crawler:256 - ==========================================
+2018-11-13 10:03:57 INFO  Crawler:289 - [Progress 127] elaped time : 00:00:02, save : 4176, err : 201, remain_work : 1, total : 128
+2018-11-13 10:03:58 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B3%B4%EA%B1%B4%EA%B4%80%EB%A6%AC
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:03:58 INFO  Crawler:289 - [Progress 128] elaped time : 00:00:03, save : 4256, err : 209, remain_work : 0, total : 128
+2018-11-13 10:03:58 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:03:58 INFO  Crawler:254 - CMD PARAM 00   : 기변
+2018-11-13 10:03:58 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:00 INFO  Crawler:289 - [Progress 129] elaped time : 00:00:02, save : 4256, err : 209, remain_work : 1, total : 130
+2018-11-13 10:04:02 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EB%B3%80
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:02 INFO  Crawler:289 - [Progress 130] elaped time : 00:00:03, save : 4336, err : 217, remain_work : 0, total : 130
+2018-11-13 10:04:02 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:02 INFO  Crawler:254 - CMD PARAM 00   : 막심
+2018-11-13 10:04:02 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:04 INFO  Crawler:289 - [Progress 131] elaped time : 00:00:02, save : 4336, err : 217, remain_work : 1, total : 132
+2018-11-13 10:04:05 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%89%EC%8B%AC
+2018-11-13 10:04:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:05 INFO  Crawler:289 - [Progress 132] elaped time : 00:00:03, save : 4416, err : 221, remain_work : 0, total : 132
+2018-11-13 10:04:05 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:05 INFO  Crawler:254 - CMD PARAM 00   : 괴정
+2018-11-13 10:04:05 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:08 INFO  Crawler:289 - [Progress 133] elaped time : 00:00:02, save : 4416, err : 221, remain_work : 1, total : 134
+2018-11-13 10:04:09 INFO  Crawler:289 - [Progress 134] elaped time : 00:00:03, save : 4496, err : 221, remain_work : 0, total : 134
+2018-11-13 10:04:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:09 INFO  Crawler:254 - CMD PARAM 00   : 큿
+2018-11-13 10:04:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:10 INFO  Crawler:289 - [Progress 135] elaped time : 00:00:01, save : 4496, err : 221, remain_work : 1, total : 136
+2018-11-13 10:04:12 INFO  Crawler:289 - [Progress 136] elaped time : 00:00:02, save : 4496, err : 221, remain_work : 0, total : 136
+2018-11-13 10:04:12 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:12 INFO  Crawler:254 - CMD PARAM 00   : 팟
+2018-11-13 10:04:12 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:14 INFO  Crawler:289 - [Progress 137] elaped time : 00:00:02, save : 4496, err : 221, remain_work : 1, total : 138
+2018-11-13 10:04:15 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8C%9F
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:15 INFO  Crawler:289 - [Progress 138] elaped time : 00:00:03, save : 4576, err : 229, remain_work : 0, total : 138
+2018-11-13 10:04:15 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:15 INFO  Crawler:254 - CMD PARAM 00   : 화이트데이
+2018-11-13 10:04:15 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:18 INFO  Crawler:289 - [Progress 139] elaped time : 00:00:02, save : 4576, err : 229, remain_work : 1, total : 140
+2018-11-13 10:04:19 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%99%94%EC%9D%B4%ED%8A%B8%EB%8D%B0%EC%9D%B4
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:19 INFO  Crawler:289 - [Progress 140] elaped time : 00:00:03, save : 4656, err : 237, remain_work : 0, total : 140
+2018-11-13 10:04:19 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:19 INFO  Crawler:254 - CMD PARAM 00   : 무슈
+2018-11-13 10:04:19 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:21 INFO  Crawler:289 - [Progress 141] elaped time : 00:00:02, save : 4656, err : 237, remain_work : 1, total : 142
+2018-11-13 10:04:23 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AC%B4%EC%8A%88
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:23 INFO  Crawler:289 - [Progress 142] elaped time : 00:00:03, save : 4736, err : 245, remain_work : 0, total : 142
+2018-11-13 10:04:23 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:23 INFO  Crawler:254 - CMD PARAM 00   : 드랍
+2018-11-13 10:04:23 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:25 INFO  Crawler:289 - [Progress 143] elaped time : 00:00:02, save : 4736, err : 245, remain_work : 1, total : 144
+2018-11-13 10:04:26 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%93%9C%EB%9E%8D
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:26 INFO  Crawler:289 - [Progress 144] elaped time : 00:00:03, save : 4816, err : 253, remain_work : 0, total : 144
+2018-11-13 10:04:26 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:26 INFO  Crawler:254 - CMD PARAM 00   : 포통
+2018-11-13 10:04:26 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:28 INFO  Crawler:289 - [Progress 145] elaped time : 00:00:01, save : 4816, err : 253, remain_work : 1, total : 146
+2018-11-13 10:04:29 INFO  Crawler:289 - [Progress 146] elaped time : 00:00:02, save : 4828, err : 253, remain_work : 0, total : 146
+2018-11-13 10:04:29 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:29 INFO  Crawler:254 - CMD PARAM 00   : 수송기
+2018-11-13 10:04:29 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:32 INFO  Crawler:289 - [Progress 147] elaped time : 00:00:02, save : 4828, err : 253, remain_work : 1, total : 148
+2018-11-13 10:04:33 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%88%98%EC%86%A1%EA%B8%B0
+2018-11-13 10:04:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:33 INFO  Crawler:289 - [Progress 148] elaped time : 00:00:03, save : 4908, err : 255, remain_work : 0, total : 148
+2018-11-13 10:04:33 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:33 INFO  Crawler:254 - CMD PARAM 00   : 샘딘
+2018-11-13 10:04:33 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:35 INFO  Crawler:289 - [Progress 149] elaped time : 00:00:02, save : 4908, err : 255, remain_work : 1, total : 150
+2018-11-13 10:04:37 INFO  Crawler:289 - [Progress 150] elaped time : 00:00:03, save : 4988, err : 255, remain_work : 0, total : 150
+2018-11-13 10:04:37 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:37 INFO  Crawler:254 - CMD PARAM 00   : 단박
+2018-11-13 10:04:37 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:39 INFO  Crawler:289 - [Progress 151] elaped time : 00:00:02, save : 4988, err : 255, remain_work : 1, total : 152
+2018-11-13 10:04:40 INFO  Crawler:289 - [Progress 152] elaped time : 00:00:03, save : 5068, err : 255, remain_work : 0, total : 152
+2018-11-13 10:04:40 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:40 INFO  Crawler:254 - CMD PARAM 00   : 교육학
+2018-11-13 10:04:40 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:42 INFO  Crawler:289 - [Progress 153] elaped time : 00:00:02, save : 5068, err : 255, remain_work : 1, total : 154
+2018-11-13 10:04:44 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%90%EC%9C%A1%ED%95%99
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:44 INFO  Crawler:289 - [Progress 154] elaped time : 00:00:03, save : 5148, err : 263, remain_work : 0, total : 154
+2018-11-13 10:04:44 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:44 INFO  Crawler:254 - CMD PARAM 00   : 음운론
+2018-11-13 10:04:44 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:46 INFO  Crawler:289 - [Progress 155] elaped time : 00:00:02, save : 5148, err : 263, remain_work : 1, total : 156
+2018-11-13 10:04:47 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%8C%EC%9A%B4%EB%A1%A0
+2018-11-13 10:04:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:04:47 INFO  Crawler:289 - [Progress 156] elaped time : 00:00:03, save : 5228, err : 264, remain_work : 0, total : 156
+2018-11-13 10:04:47 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:47 INFO  Crawler:254 - CMD PARAM 00   : 형태론
+2018-11-13 10:04:47 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:49 INFO  Crawler:289 - [Progress 157] elaped time : 00:00:02, save : 5228, err : 264, remain_work : 1, total : 158
+2018-11-13 10:04:51 INFO  Crawler:289 - [Progress 158] elaped time : 00:00:03, save : 5308, err : 264, remain_work : 0, total : 158
+2018-11-13 10:04:51 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:51 INFO  Crawler:254 - CMD PARAM 00   : 통사론
+2018-11-13 10:04:51 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:53 INFO  Crawler:289 - [Progress 159] elaped time : 00:00:02, save : 5308, err : 264, remain_work : 1, total : 160
+2018-11-13 10:04:54 INFO  Crawler:289 - [Progress 160] elaped time : 00:00:03, save : 5388, err : 264, remain_work : 0, total : 160
+2018-11-13 10:04:54 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:54 INFO  Crawler:254 - CMD PARAM 00   : 의미론
+2018-11-13 10:04:54 INFO  Crawler:256 - ==========================================
+2018-11-13 10:04:56 INFO  Crawler:289 - [Progress 161] elaped time : 00:00:02, save : 5388, err : 264, remain_work : 1, total : 162
+2018-11-13 10:04:58 INFO  Crawler:289 - [Progress 162] elaped time : 00:00:03, save : 5468, err : 264, remain_work : 0, total : 162
+2018-11-13 10:04:58 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:04:58 INFO  Crawler:254 - CMD PARAM 00   : 국어교육
+2018-11-13 10:04:58 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:00 INFO  Crawler:289 - [Progress 163] elaped time : 00:00:02, save : 5468, err : 264, remain_work : 1, total : 164
+2018-11-13 10:05:01 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%AD%EC%96%B4%EA%B5%90%EC%9C%A1
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:01 INFO  Crawler:289 - [Progress 164] elaped time : 00:00:03, save : 5548, err : 272, remain_work : 0, total : 164
+2018-11-13 10:05:01 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:01 INFO  Crawler:254 - CMD PARAM 00   : 이노브
+2018-11-13 10:05:01 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:04 INFO  Crawler:289 - [Progress 165] elaped time : 00:00:02, save : 5548, err : 272, remain_work : 1, total : 166
+2018-11-13 10:05:05 INFO  Crawler:289 - [Progress 166] elaped time : 00:00:03, save : 5628, err : 272, remain_work : 0, total : 166
+2018-11-13 10:05:05 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:05 INFO  Crawler:254 - CMD PARAM 00   : 러너
+2018-11-13 10:05:05 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:08 INFO  Crawler:289 - [Progress 167] elaped time : 00:00:02, save : 5628, err : 272, remain_work : 1, total : 168
+2018-11-13 10:05:09 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%9F%AC%EB%84%88
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:09 INFO  Crawler:289 - [Progress 168] elaped time : 00:00:04, save : 5712, err : 280, remain_work : 0, total : 168
+2018-11-13 10:05:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:09 INFO  Crawler:254 - CMD PARAM 00   : 버둥거릴때
+2018-11-13 10:05:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:11 INFO  Crawler:289 - [Progress 169] elaped time : 00:00:01, save : 5712, err : 280, remain_work : 1, total : 170
+2018-11-13 10:05:12 INFO  Crawler:289 - [Progress 170] elaped time : 00:00:02, save : 5712, err : 280, remain_work : 0, total : 170
+2018-11-13 10:05:12 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:12 INFO  Crawler:254 - CMD PARAM 00   : 때무
+2018-11-13 10:05:12 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:14 INFO  Crawler:289 - [Progress 171] elaped time : 00:00:01, save : 5712, err : 280, remain_work : 1, total : 172
+2018-11-13 10:05:15 INFO  Crawler:289 - [Progress 172] elaped time : 00:00:03, save : 5716, err : 280, remain_work : 0, total : 172
+2018-11-13 10:05:15 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:15 INFO  Crawler:254 - CMD PARAM 00   : 누크
+2018-11-13 10:05:15 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:17 INFO  Crawler:289 - [Progress 173] elaped time : 00:00:02, save : 5716, err : 280, remain_work : 1, total : 174
+2018-11-13 10:05:19 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%88%84%ED%81%AC
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:19 INFO  Crawler:289 - [Progress 174] elaped time : 00:00:03, save : 5800, err : 288, remain_work : 0, total : 174
+2018-11-13 10:05:19 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:19 INFO  Crawler:254 - CMD PARAM 00   : 삿갓
+2018-11-13 10:05:19 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:21 INFO  Crawler:289 - [Progress 175] elaped time : 00:00:02, save : 5800, err : 288, remain_work : 1, total : 176
+2018-11-13 10:05:22 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%BF%EA%B0%93
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:22 INFO  Crawler:289 - [Progress 176] elaped time : 00:00:03, save : 5880, err : 296, remain_work : 0, total : 176
+2018-11-13 10:05:22 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:22 INFO  Crawler:254 - CMD PARAM 00   : 바이오쇼크
+2018-11-13 10:05:22 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:25 INFO  Crawler:289 - [Progress 177] elaped time : 00:00:02, save : 5880, err : 296, remain_work : 1, total : 178
+2018-11-13 10:05:26 INFO  Crawler:289 - [Progress 178] elaped time : 00:00:03, save : 5960, err : 296, remain_work : 0, total : 178
+2018-11-13 10:05:26 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:26 INFO  Crawler:254 - CMD PARAM 00   : 몽고메리
+2018-11-13 10:05:26 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:28 INFO  Crawler:289 - [Progress 179] elaped time : 00:00:02, save : 5960, err : 296, remain_work : 1, total : 180
+2018-11-13 10:05:30 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%BD%EA%B3%A0%EB%A9%94%EB%A6%AC
+2018-11-13 10:05:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:05:30 INFO  Crawler:289 - [Progress 180] elaped time : 00:00:03, save : 6040, err : 301, remain_work : 0, total : 180
+2018-11-13 10:05:30 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:30 INFO  Crawler:254 - CMD PARAM 00   : 컴스탁
+2018-11-13 10:05:30 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:32 INFO  Crawler:289 - [Progress 181] elaped time : 00:00:02, save : 6040, err : 301, remain_work : 1, total : 182
+2018-11-13 10:05:33 INFO  Crawler:289 - [Progress 182] elaped time : 00:00:03, save : 6117, err : 301, remain_work : 0, total : 182
+2018-11-13 10:05:33 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:33 INFO  Crawler:254 - CMD PARAM 00   : 쌔려밟아
+2018-11-13 10:05:33 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:35 INFO  Crawler:289 - [Progress 183] elaped time : 00:00:01, save : 6117, err : 301, remain_work : 1, total : 184
+2018-11-13 10:05:36 INFO  Crawler:289 - [Progress 184] elaped time : 00:00:02, save : 6117, err : 301, remain_work : 0, total : 184
+2018-11-13 10:05:36 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:36 INFO  Crawler:254 - CMD PARAM 00   : 락등
+2018-11-13 10:05:36 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:37 INFO  Crawler:289 - [Progress 185] elaped time : 00:00:01, save : 6117, err : 301, remain_work : 1, total : 186
+2018-11-13 10:05:39 INFO  Crawler:289 - [Progress 186] elaped time : 00:00:02, save : 6118, err : 301, remain_work : 0, total : 186
+2018-11-13 10:05:39 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:39 INFO  Crawler:254 - CMD PARAM 00   : 열소
+2018-11-13 10:05:39 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:40 INFO  Crawler:289 - [Progress 187] elaped time : 00:00:01, save : 6118, err : 301, remain_work : 1, total : 188
+2018-11-13 10:05:42 INFO  Crawler:289 - [Progress 188] elaped time : 00:00:03, save : 6147, err : 301, remain_work : 0, total : 188
+2018-11-13 10:05:42 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:42 INFO  Crawler:254 - CMD PARAM 00   : 승아
+2018-11-13 10:05:42 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:44 INFO  Crawler:289 - [Progress 189] elaped time : 00:00:02, save : 6147, err : 301, remain_work : 1, total : 190
+2018-11-13 10:05:45 INFO  Crawler:289 - [Progress 190] elaped time : 00:00:03, save : 6227, err : 301, remain_work : 0, total : 190
+2018-11-13 10:05:45 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:45 INFO  Crawler:254 - CMD PARAM 00   : 승준
+2018-11-13 10:05:45 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:47 INFO  Crawler:289 - [Progress 191] elaped time : 00:00:01, save : 6227, err : 301, remain_work : 1, total : 192
+2018-11-13 10:05:48 INFO  Crawler:289 - [Progress 192] elaped time : 00:00:03, save : 6258, err : 301, remain_work : 0, total : 192
+2018-11-13 10:05:48 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:48 INFO  Crawler:254 - CMD PARAM 00   : 교범
+2018-11-13 10:05:48 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:50 INFO  Crawler:289 - [Progress 193] elaped time : 00:00:01, save : 6258, err : 301, remain_work : 1, total : 194
+2018-11-13 10:05:51 INFO  Crawler:289 - [Progress 194] elaped time : 00:00:02, save : 6288, err : 301, remain_work : 0, total : 194
+2018-11-13 10:05:51 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:51 INFO  Crawler:254 - CMD PARAM 00   : 환금
+2018-11-13 10:05:51 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:54 INFO  Crawler:289 - [Progress 195] elaped time : 00:00:02, save : 6288, err : 301, remain_work : 1, total : 196
+2018-11-13 10:05:55 INFO  Crawler:289 - [Progress 196] elaped time : 00:00:04, save : 6368, err : 301, remain_work : 0, total : 196
+2018-11-13 10:05:55 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:55 INFO  Crawler:254 - CMD PARAM 00   : 무독
+2018-11-13 10:05:55 INFO  Crawler:256 - ==========================================
+2018-11-13 10:05:58 INFO  Crawler:289 - [Progress 197] elaped time : 00:00:02, save : 6368, err : 301, remain_work : 1, total : 198
+2018-11-13 10:05:59 INFO  Crawler:289 - [Progress 198] elaped time : 00:00:03, save : 6448, err : 301, remain_work : 0, total : 198
+2018-11-13 10:05:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:05:59 INFO  Crawler:254 - CMD PARAM 00   : 해항
+2018-11-13 10:05:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:02 INFO  Crawler:289 - [Progress 199] elaped time : 00:00:02, save : 6448, err : 301, remain_work : 1, total : 200
+2018-11-13 10:06:03 INFO  Crawler:289 - [Progress 200] elaped time : 00:00:03, save : 6528, err : 301, remain_work : 0, total : 200
+2018-11-13 10:06:03 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:03 INFO  Crawler:254 - CMD PARAM 00   : 건교부
+2018-11-13 10:06:03 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:04 INFO  Crawler:289 - [Progress 201] elaped time : 00:00:01, save : 6528, err : 301, remain_work : 1, total : 202
+2018-11-13 10:06:05 INFO  Crawler:289 - [Progress 202] elaped time : 00:00:02, save : 6528, err : 301, remain_work : 0, total : 202
+2018-11-13 10:06:05 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:05 INFO  Crawler:254 - CMD PARAM 00   : 장보고
+2018-11-13 10:06:05 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:08 INFO  Crawler:289 - [Progress 203] elaped time : 00:00:02, save : 6528, err : 301, remain_work : 1, total : 204
+2018-11-13 10:06:09 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%A5%EB%B3%B4%EA%B3%A0
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:09 INFO  Crawler:289 - [Progress 204] elaped time : 00:00:03, save : 6608, err : 309, remain_work : 0, total : 204
+2018-11-13 10:06:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:09 INFO  Crawler:254 - CMD PARAM 00   : 통일신라
+2018-11-13 10:06:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:11 INFO  Crawler:289 - [Progress 205] elaped time : 00:00:02, save : 6608, err : 309, remain_work : 1, total : 206
+2018-11-13 10:06:13 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%86%B5%EC%9D%BC%EC%8B%A0%EB%9D%BC
+2018-11-13 10:06:13 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:13 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:13 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:13 INFO  Crawler:289 - [Progress 206] elaped time : 00:00:03, save : 6688, err : 312, remain_work : 0, total : 206
+2018-11-13 10:06:13 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:13 INFO  Crawler:254 - CMD PARAM 00   : 백옥
+2018-11-13 10:06:13 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:15 INFO  Crawler:289 - [Progress 207] elaped time : 00:00:02, save : 6688, err : 312, remain_work : 1, total : 208
+2018-11-13 10:06:17 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B0%B1%EC%98%A5
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:17 INFO  Crawler:289 - [Progress 208] elaped time : 00:00:04, save : 6771, err : 320, remain_work : 0, total : 208
+2018-11-13 10:06:17 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:17 INFO  Crawler:254 - CMD PARAM 00   : 고퀄리티
+2018-11-13 10:06:17 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:19 INFO  Crawler:289 - [Progress 209] elaped time : 00:00:02, save : 6771, err : 320, remain_work : 1, total : 210
+2018-11-13 10:06:21 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B3%A0%ED%80%84%EB%A6%AC%ED%8B%B0
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:21 INFO  Crawler:289 - [Progress 210] elaped time : 00:00:03, save : 6855, err : 328, remain_work : 0, total : 210
+2018-11-13 10:06:21 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:21 INFO  Crawler:254 - CMD PARAM 00   : 만이천원
+2018-11-13 10:06:21 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:22 INFO  Crawler:289 - [Progress 211] elaped time : 00:00:01, save : 6855, err : 328, remain_work : 1, total : 212
+2018-11-13 10:06:23 INFO  Crawler:289 - [Progress 212] elaped time : 00:00:02, save : 6855, err : 328, remain_work : 0, total : 212
+2018-11-13 10:06:23 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:23 INFO  Crawler:254 - CMD PARAM 00   : 짐칸
+2018-11-13 10:06:23 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:25 INFO  Crawler:289 - [Progress 213] elaped time : 00:00:02, save : 6855, err : 328, remain_work : 1, total : 214
+2018-11-13 10:06:27 INFO  Crawler:289 - [Progress 214] elaped time : 00:00:03, save : 6935, err : 328, remain_work : 0, total : 214
+2018-11-13 10:06:27 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:27 INFO  Crawler:254 - CMD PARAM 00   : 매직아이
+2018-11-13 10:06:27 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:29 INFO  Crawler:289 - [Progress 215] elaped time : 00:00:02, save : 6935, err : 328, remain_work : 1, total : 216
+2018-11-13 10:06:30 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%A4%EC%A7%81%EC%95%84%EC%9D%B4
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:30 INFO  Crawler:289 - [Progress 216] elaped time : 00:00:03, save : 7015, err : 336, remain_work : 0, total : 216
+2018-11-13 10:06:30 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:30 INFO  Crawler:254 - CMD PARAM 00   : 뷰어
+2018-11-13 10:06:30 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:33 INFO  Crawler:289 - [Progress 217] elaped time : 00:00:02, save : 7015, err : 336, remain_work : 1, total : 218
+2018-11-13 10:06:34 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B7%B0%EC%96%B4
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:34 INFO  Crawler:289 - [Progress 218] elaped time : 00:00:03, save : 7095, err : 344, remain_work : 0, total : 218
+2018-11-13 10:06:34 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:34 INFO  Crawler:254 - CMD PARAM 00   : 티몬
+2018-11-13 10:06:34 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:37 INFO  Crawler:289 - [Progress 219] elaped time : 00:00:02, save : 7095, err : 344, remain_work : 1, total : 220
+2018-11-13 10:06:38 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8B%B0%EB%AA%AC
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:38 INFO  Crawler:289 - [Progress 220] elaped time : 00:00:04, save : 7175, err : 352, remain_work : 0, total : 220
+2018-11-13 10:06:38 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:38 INFO  Crawler:254 - CMD PARAM 00   : 쿠팡
+2018-11-13 10:06:38 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:40 INFO  Crawler:289 - [Progress 221] elaped time : 00:00:02, save : 7175, err : 352, remain_work : 1, total : 222
+2018-11-13 10:06:42 INFO  Crawler:289 - [Progress 222] elaped time : 00:00:03, save : 7255, err : 352, remain_work : 0, total : 222
+2018-11-13 10:06:42 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:42 INFO  Crawler:254 - CMD PARAM 00   : 미디
+2018-11-13 10:06:42 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:44 INFO  Crawler:289 - [Progress 223] elaped time : 00:00:02, save : 7255, err : 352, remain_work : 1, total : 224
+2018-11-13 10:06:46 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AF%B8%EB%94%94
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:46 INFO  Crawler:289 - [Progress 224] elaped time : 00:00:03, save : 7335, err : 360, remain_work : 0, total : 224
+2018-11-13 10:06:46 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:46 INFO  Crawler:254 - CMD PARAM 00   : 피치항공
+2018-11-13 10:06:46 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:48 INFO  Crawler:289 - [Progress 225] elaped time : 00:00:02, save : 7335, err : 360, remain_work : 1, total : 226
+2018-11-13 10:06:49 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%94%BC%EC%B9%98%ED%95%AD%EA%B3%B5
+2018-11-13 10:06:49 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:49 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:49 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:06:49 INFO  Crawler:289 - [Progress 226] elaped time : 00:00:03, save : 7415, err : 363, remain_work : 0, total : 226
+2018-11-13 10:06:49 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:49 INFO  Crawler:254 - CMD PARAM 00   : 스사
+2018-11-13 10:06:49 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:52 INFO  Crawler:289 - [Progress 227] elaped time : 00:00:02, save : 7415, err : 363, remain_work : 1, total : 228
+2018-11-13 10:06:53 INFO  Crawler:289 - [Progress 228] elaped time : 00:00:03, save : 7495, err : 363, remain_work : 0, total : 228
+2018-11-13 10:06:53 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:53 INFO  Crawler:254 - CMD PARAM 00   : 감전사
+2018-11-13 10:06:53 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:55 INFO  Crawler:289 - [Progress 229] elaped time : 00:00:02, save : 7495, err : 363, remain_work : 1, total : 230
+2018-11-13 10:06:56 INFO  Crawler:289 - [Progress 230] elaped time : 00:00:03, save : 7575, err : 363, remain_work : 0, total : 230
+2018-11-13 10:06:56 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:56 INFO  Crawler:254 - CMD PARAM 00   : 대청댐
+2018-11-13 10:06:56 INFO  Crawler:256 - ==========================================
+2018-11-13 10:06:58 INFO  Crawler:289 - [Progress 231] elaped time : 00:00:02, save : 7575, err : 363, remain_work : 1, total : 232
+2018-11-13 10:06:59 INFO  Crawler:289 - [Progress 232] elaped time : 00:00:03, save : 7579, err : 363, remain_work : 0, total : 232
+2018-11-13 10:06:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:06:59 INFO  Crawler:254 - CMD PARAM 00   : 집객
+2018-11-13 10:06:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:01 INFO  Crawler:289 - [Progress 233] elaped time : 00:00:01, save : 7579, err : 363, remain_work : 1, total : 234
+2018-11-13 10:07:02 INFO  Crawler:289 - [Progress 234] elaped time : 00:00:02, save : 7589, err : 363, remain_work : 0, total : 234
+2018-11-13 10:07:02 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:02 INFO  Crawler:254 - CMD PARAM 00   : 빅토리
+2018-11-13 10:07:02 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:05 INFO  Crawler:289 - [Progress 235] elaped time : 00:00:02, save : 7589, err : 363, remain_work : 1, total : 236
+2018-11-13 10:07:06 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B9%85%ED%86%A0%EB%A6%AC
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:06 INFO  Crawler:289 - [Progress 236] elaped time : 00:00:03, save : 7669, err : 371, remain_work : 0, total : 236
+2018-11-13 10:07:06 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:06 INFO  Crawler:254 - CMD PARAM 00   : 송악산
+2018-11-13 10:07:06 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:08 INFO  Crawler:289 - [Progress 237] elaped time : 00:00:02, save : 7669, err : 371, remain_work : 1, total : 238
+2018-11-13 10:07:10 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%86%A1%EC%95%85%EC%82%B0
+2018-11-13 10:07:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:10 INFO  Crawler:289 - [Progress 238] elaped time : 00:00:03, save : 7749, err : 375, remain_work : 0, total : 238
+2018-11-13 10:07:10 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:10 INFO  Crawler:254 - CMD PARAM 00   : 테디베어
+2018-11-13 10:07:10 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:12 INFO  Crawler:289 - [Progress 239] elaped time : 00:00:02, save : 7749, err : 375, remain_work : 1, total : 240
+2018-11-13 10:07:14 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%85%8C%EB%94%94%EB%B2%A0%EC%96%B4
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:14 INFO  Crawler:289 - [Progress 240] elaped time : 00:00:04, save : 7833, err : 383, remain_work : 0, total : 240
+2018-11-13 10:07:14 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:14 INFO  Crawler:254 - CMD PARAM 00   : 었습니
+2018-11-13 10:07:14 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:16 INFO  Crawler:289 - [Progress 241] elaped time : 00:00:01, save : 7833, err : 383, remain_work : 1, total : 242
+2018-11-13 10:07:17 INFO  Crawler:289 - [Progress 242] elaped time : 00:00:02, save : 7834, err : 383, remain_work : 0, total : 242
+2018-11-13 10:07:17 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:17 INFO  Crawler:254 - CMD PARAM 00   : 레그룸공간
+2018-11-13 10:07:17 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:18 INFO  Crawler:289 - [Progress 243] elaped time : 00:00:01, save : 7834, err : 383, remain_work : 1, total : 244
+2018-11-13 10:07:19 INFO  Crawler:289 - [Progress 244] elaped time : 00:00:02, save : 7834, err : 383, remain_work : 0, total : 244
+2018-11-13 10:07:19 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:19 INFO  Crawler:254 - CMD PARAM 00   : 국감
+2018-11-13 10:07:19 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:21 INFO  Crawler:289 - [Progress 245] elaped time : 00:00:01, save : 7834, err : 383, remain_work : 1, total : 246
+2018-11-13 10:07:22 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%AD%EA%B0%90
+2018-11-13 10:07:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:07:22 INFO  Crawler:289 - [Progress 246] elaped time : 00:00:03, save : 7840, err : 385, remain_work : 0, total : 246
+2018-11-13 10:07:22 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:22 INFO  Crawler:254 - CMD PARAM 00   : 고흥길
+2018-11-13 10:07:22 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:24 INFO  Crawler:289 - [Progress 247] elaped time : 00:00:01, save : 7840, err : 385, remain_work : 1, total : 248
+2018-11-13 10:07:25 INFO  Crawler:289 - [Progress 248] elaped time : 00:00:02, save : 7840, err : 385, remain_work : 0, total : 248
+2018-11-13 10:07:25 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:25 INFO  Crawler:254 - CMD PARAM 00   : 권영세
+2018-11-13 10:07:25 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:27 INFO  Crawler:289 - [Progress 249] elaped time : 00:00:01, save : 7840, err : 385, remain_work : 1, total : 250
+2018-11-13 10:07:28 INFO  Crawler:289 - [Progress 250] elaped time : 00:00:02, save : 7859, err : 385, remain_work : 0, total : 250
+2018-11-13 10:07:28 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:28 INFO  Crawler:254 - CMD PARAM 00   : 김광원
+2018-11-13 10:07:28 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:30 INFO  Crawler:289 - [Progress 251] elaped time : 00:00:02, save : 7859, err : 385, remain_work : 1, total : 252
+2018-11-13 10:07:31 INFO  Crawler:289 - [Progress 252] elaped time : 00:00:03, save : 7911, err : 385, remain_work : 0, total : 252
+2018-11-13 10:07:31 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:31 INFO  Crawler:254 - CMD PARAM 00   : 김덕룡
+2018-11-13 10:07:31 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:33 INFO  Crawler:289 - [Progress 253] elaped time : 00:00:01, save : 7911, err : 385, remain_work : 1, total : 254
+2018-11-13 10:07:34 INFO  Crawler:289 - [Progress 254] elaped time : 00:00:02, save : 7915, err : 385, remain_work : 0, total : 254
+2018-11-13 10:07:34 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:34 INFO  Crawler:254 - CMD PARAM 00   : 김무성
+2018-11-13 10:07:34 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:36 INFO  Crawler:289 - [Progress 255] elaped time : 00:00:01, save : 7915, err : 385, remain_work : 1, total : 256
+2018-11-13 10:07:37 INFO  Crawler:289 - [Progress 256] elaped time : 00:00:02, save : 7923, err : 385, remain_work : 0, total : 256
+2018-11-13 10:07:37 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:37 INFO  Crawler:254 - CMD PARAM 00   : 김용갑
+2018-11-13 10:07:37 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:39 INFO  Crawler:289 - [Progress 257] elaped time : 00:00:02, save : 7923, err : 385, remain_work : 1, total : 258
+2018-11-13 10:07:41 INFO  Crawler:289 - [Progress 258] elaped time : 00:00:03, save : 8003, err : 385, remain_work : 0, total : 258
+2018-11-13 10:07:41 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:41 INFO  Crawler:254 - CMD PARAM 00   : 김원웅
+2018-11-13 10:07:41 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:42 INFO  Crawler:289 - [Progress 259] elaped time : 00:00:01, save : 8003, err : 385, remain_work : 1, total : 260
+2018-11-13 10:07:43 INFO  Crawler:289 - [Progress 260] elaped time : 00:00:02, save : 8003, err : 385, remain_work : 0, total : 260
+2018-11-13 10:07:43 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:43 INFO  Crawler:254 - CMD PARAM 00   : 김진표
+2018-11-13 10:07:43 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:46 INFO  Crawler:289 - [Progress 261] elaped time : 00:00:02, save : 8003, err : 385, remain_work : 1, total : 262
+2018-11-13 10:07:47 INFO  Crawler:289 - [Progress 262] elaped time : 00:00:03, save : 8083, err : 385, remain_work : 0, total : 262
+2018-11-13 10:07:47 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:47 INFO  Crawler:254 - CMD PARAM 00   : 남경필
+2018-11-13 10:07:47 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:49 INFO  Crawler:289 - [Progress 263] elaped time : 00:00:01, save : 8083, err : 385, remain_work : 1, total : 264
+2018-11-13 10:07:50 INFO  Crawler:289 - [Progress 264] elaped time : 00:00:02, save : 8097, err : 385, remain_work : 0, total : 264
+2018-11-13 10:07:50 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:50 INFO  Crawler:254 - CMD PARAM 00   : 문희상
+2018-11-13 10:07:50 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:52 INFO  Crawler:289 - [Progress 265] elaped time : 00:00:01, save : 8097, err : 385, remain_work : 1, total : 266
+2018-11-13 10:07:53 INFO  Crawler:289 - [Progress 266] elaped time : 00:00:02, save : 8105, err : 385, remain_work : 0, total : 266
+2018-11-13 10:07:53 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:53 INFO  Crawler:254 - CMD PARAM 00   : 병방
+2018-11-13 10:07:53 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:55 INFO  Crawler:289 - [Progress 267] elaped time : 00:00:02, save : 8105, err : 385, remain_work : 1, total : 268
+2018-11-13 10:07:56 INFO  Crawler:289 - [Progress 268] elaped time : 00:00:03, save : 8185, err : 385, remain_work : 0, total : 268
+2018-11-13 10:07:56 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:56 INFO  Crawler:254 - CMD PARAM 00   : 퓩퓩
+2018-11-13 10:07:56 INFO  Crawler:256 - ==========================================
+2018-11-13 10:07:58 INFO  Crawler:289 - [Progress 269] elaped time : 00:00:01, save : 8185, err : 385, remain_work : 1, total : 270
+2018-11-13 10:07:59 INFO  Crawler:289 - [Progress 270] elaped time : 00:00:02, save : 8185, err : 385, remain_work : 0, total : 270
+2018-11-13 10:07:59 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:07:59 INFO  Crawler:254 - CMD PARAM 00   : 잠복기
+2018-11-13 10:07:59 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:00 INFO  Crawler:289 - [Progress 271] elaped time : 00:00:01, save : 8185, err : 385, remain_work : 1, total : 272
+2018-11-13 10:08:02 INFO  Crawler:289 - [Progress 272] elaped time : 00:00:02, save : 8188, err : 385, remain_work : 0, total : 272
+2018-11-13 10:08:02 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:02 INFO  Crawler:254 - CMD PARAM 00   : 공권력
+2018-11-13 10:08:02 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:03 INFO  Crawler:289 - [Progress 273] elaped time : 00:00:01, save : 8188, err : 385, remain_work : 1, total : 274
+2018-11-13 10:08:04 INFO  Crawler:289 - [Progress 274] elaped time : 00:00:02, save : 8195, err : 385, remain_work : 0, total : 274
+2018-11-13 10:08:04 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:04 INFO  Crawler:254 - CMD PARAM 00   : 털렸
+2018-11-13 10:08:04 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:06 INFO  Crawler:289 - [Progress 275] elaped time : 00:00:01, save : 8195, err : 385, remain_work : 1, total : 276
+2018-11-13 10:08:07 INFO  Crawler:289 - [Progress 276] elaped time : 00:00:02, save : 8195, err : 385, remain_work : 0, total : 276
+2018-11-13 10:08:07 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:07 INFO  Crawler:254 - CMD PARAM 00   : 회보
+2018-11-13 10:08:07 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:09 INFO  Crawler:289 - [Progress 277] elaped time : 00:00:02, save : 8195, err : 385, remain_work : 1, total : 278
+2018-11-13 10:08:11 INFO  Crawler:289 - [Progress 278] elaped time : 00:00:03, save : 8275, err : 385, remain_work : 0, total : 278
+2018-11-13 10:08:11 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:11 INFO  Crawler:254 - CMD PARAM 00   : 심장질환
+2018-11-13 10:08:11 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:13 INFO  Crawler:289 - [Progress 279] elaped time : 00:00:02, save : 8275, err : 385, remain_work : 1, total : 280
+2018-11-13 10:08:14 INFO  Crawler:289 - [Progress 280] elaped time : 00:00:03, save : 8355, err : 385, remain_work : 0, total : 280
+2018-11-13 10:08:14 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:14 INFO  Crawler:254 - CMD PARAM 00   : 정책금융
+2018-11-13 10:08:14 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:17 INFO  Crawler:289 - [Progress 281] elaped time : 00:00:02, save : 8355, err : 385, remain_work : 1, total : 282
+2018-11-13 10:08:18 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%95%EC%B1%85%EA%B8%88%EC%9C%B5
+2018-11-13 10:08:18 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:18 INFO  Crawler:289 - [Progress 282] elaped time : 00:00:03, save : 8435, err : 386, remain_work : 0, total : 282
+2018-11-13 10:08:18 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:18 INFO  Crawler:254 - CMD PARAM 00   : 삼베
+2018-11-13 10:08:18 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:20 INFO  Crawler:289 - [Progress 283] elaped time : 00:00:02, save : 8435, err : 386, remain_work : 1, total : 284
+2018-11-13 10:08:22 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%BC%EB%B2%A0
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:22 INFO  Crawler:289 - [Progress 284] elaped time : 00:00:03, save : 8516, err : 394, remain_work : 0, total : 284
+2018-11-13 10:08:22 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:22 INFO  Crawler:254 - CMD PARAM 00   : 베틀
+2018-11-13 10:08:22 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:24 INFO  Crawler:289 - [Progress 285] elaped time : 00:00:02, save : 8516, err : 394, remain_work : 1, total : 286
+2018-11-13 10:08:25 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B2%A0%ED%8B%80
+2018-11-13 10:08:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:25 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:25 INFO  Crawler:289 - [Progress 286] elaped time : 00:00:03, save : 8597, err : 399, remain_work : 0, total : 286
+2018-11-13 10:08:25 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:25 INFO  Crawler:254 - CMD PARAM 00   : 왓아이원트
+2018-11-13 10:08:25 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:28 INFO  Crawler:289 - [Progress 287] elaped time : 00:00:02, save : 8597, err : 399, remain_work : 1, total : 288
+2018-11-13 10:08:29 INFO  Crawler:289 - [Progress 288] elaped time : 00:00:03, save : 8680, err : 399, remain_work : 0, total : 288
+2018-11-13 10:08:29 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:29 INFO  Crawler:254 - CMD PARAM 00   : 왕십리
+2018-11-13 10:08:29 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:31 INFO  Crawler:289 - [Progress 289] elaped time : 00:00:02, save : 8680, err : 399, remain_work : 1, total : 290
+2018-11-13 10:08:33 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%99%95%EC%8B%AD%EB%A6%AC
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:33 INFO  Crawler:289 - [Progress 290] elaped time : 00:00:03, save : 8760, err : 407, remain_work : 0, total : 290
+2018-11-13 10:08:33 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:33 INFO  Crawler:254 - CMD PARAM 00   : 부부싸움
+2018-11-13 10:08:33 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:35 INFO  Crawler:289 - [Progress 291] elaped time : 00:00:02, save : 8760, err : 407, remain_work : 1, total : 292
+2018-11-13 10:08:36 INFO  Crawler:289 - [Progress 292] elaped time : 00:00:03, save : 8840, err : 407, remain_work : 0, total : 292
+2018-11-13 10:08:36 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:36 INFO  Crawler:254 - CMD PARAM 00   : 시간제
+2018-11-13 10:08:36 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:38 INFO  Crawler:289 - [Progress 293] elaped time : 00:00:02, save : 8840, err : 407, remain_work : 1, total : 294
+2018-11-13 10:08:40 INFO  Crawler:289 - [Progress 294] elaped time : 00:00:03, save : 8920, err : 407, remain_work : 0, total : 294
+2018-11-13 10:08:40 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:40 INFO  Crawler:254 - CMD PARAM 00   : 열어젖힌
+2018-11-13 10:08:40 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:42 INFO  Crawler:289 - [Progress 295] elaped time : 00:00:01, save : 8920, err : 407, remain_work : 1, total : 296
+2018-11-13 10:08:43 INFO  Crawler:289 - [Progress 296] elaped time : 00:00:02, save : 8929, err : 407, remain_work : 0, total : 296
+2018-11-13 10:08:43 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:43 INFO  Crawler:254 - CMD PARAM 00   : 애리조나
+2018-11-13 10:08:43 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:45 INFO  Crawler:289 - [Progress 297] elaped time : 00:00:02, save : 8929, err : 407, remain_work : 1, total : 298
+2018-11-13 10:08:47 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%A0%EB%A6%AC%EC%A1%B0%EB%82%98
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:47 INFO  Crawler:289 - [Progress 298] elaped time : 00:00:03, save : 9009, err : 415, remain_work : 0, total : 298
+2018-11-13 10:08:47 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:47 INFO  Crawler:254 - CMD PARAM 00   : 망사
+2018-11-13 10:08:47 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:49 INFO  Crawler:289 - [Progress 299] elaped time : 00:00:02, save : 9009, err : 415, remain_work : 1, total : 300
+2018-11-13 10:08:51 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%9D%EC%82%AC
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:51 INFO  Crawler:289 - [Progress 300] elaped time : 00:00:04, save : 9089, err : 423, remain_work : 0, total : 300
+2018-11-13 10:08:51 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:51 INFO  Crawler:254 - CMD PARAM 00   : 기번
+2018-11-13 10:08:51 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:53 INFO  Crawler:289 - [Progress 301] elaped time : 00:00:02, save : 9089, err : 423, remain_work : 1, total : 302
+2018-11-13 10:08:54 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EB%B2%88
+2018-11-13 10:08:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:08:54 INFO  Crawler:289 - [Progress 302] elaped time : 00:00:03, save : 9169, err : 426, remain_work : 0, total : 302
+2018-11-13 10:08:54 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:54 INFO  Crawler:254 - CMD PARAM 00   : 윤수인
+2018-11-13 10:08:54 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:56 INFO  Crawler:289 - [Progress 303] elaped time : 00:00:01, save : 9169, err : 426, remain_work : 1, total : 304
+2018-11-13 10:08:57 INFO  Crawler:289 - [Progress 304] elaped time : 00:00:02, save : 9169, err : 426, remain_work : 0, total : 304
+2018-11-13 10:08:57 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:08:57 INFO  Crawler:254 - CMD PARAM 00   : 김희
+2018-11-13 10:08:57 INFO  Crawler:256 - ==========================================
+2018-11-13 10:08:59 INFO  Crawler:289 - [Progress 305] elaped time : 00:00:02, save : 9169, err : 426, remain_work : 1, total : 306
+2018-11-13 10:09:01 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B9%80%ED%9D%AC
+2018-11-13 10:09:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:01 INFO  Crawler:289 - [Progress 306] elaped time : 00:00:03, save : 9249, err : 429, remain_work : 0, total : 306
+2018-11-13 10:09:01 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:01 INFO  Crawler:254 - CMD PARAM 00   : 찻집
+2018-11-13 10:09:01 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:03 INFO  Crawler:289 - [Progress 307] elaped time : 00:00:02, save : 9249, err : 429, remain_work : 1, total : 308
+2018-11-13 10:09:05 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B0%BB%EC%A7%91
+2018-11-13 10:09:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:05 INFO  Crawler:289 - [Progress 308] elaped time : 00:00:03, save : 9329, err : 430, remain_work : 0, total : 308
+2018-11-13 10:09:05 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:05 INFO  Crawler:254 - CMD PARAM 00   : 엘더
+2018-11-13 10:09:05 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:07 INFO  Crawler:289 - [Progress 309] elaped time : 00:00:02, save : 9329, err : 430, remain_work : 1, total : 310
+2018-11-13 10:09:09 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%97%98%EB%8D%94
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:09 INFO  Crawler:289 - [Progress 310] elaped time : 00:00:04, save : 9413, err : 438, remain_work : 0, total : 310
+2018-11-13 10:09:09 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:09 INFO  Crawler:254 - CMD PARAM 00   : 역외
+2018-11-13 10:09:09 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:11 INFO  Crawler:289 - [Progress 311] elaped time : 00:00:02, save : 9413, err : 438, remain_work : 1, total : 312
+2018-11-13 10:09:12 INFO  Crawler:289 - [Progress 312] elaped time : 00:00:03, save : 9458, err : 438, remain_work : 0, total : 312
+2018-11-13 10:09:12 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:12 INFO  Crawler:254 - CMD PARAM 00   : 미나미알프스
+2018-11-13 10:09:12 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:14 INFO  Crawler:289 - [Progress 313] elaped time : 00:00:01, save : 9458, err : 438, remain_work : 1, total : 314
+2018-11-13 10:09:15 INFO  Crawler:289 - [Progress 314] elaped time : 00:00:02, save : 9467, err : 438, remain_work : 0, total : 314
+2018-11-13 10:09:15 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:15 INFO  Crawler:254 - CMD PARAM 00   : 쉐이크
+2018-11-13 10:09:15 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:17 INFO  Crawler:289 - [Progress 315] elaped time : 00:00:02, save : 9467, err : 438, remain_work : 1, total : 316
+2018-11-13 10:09:19 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%89%90%EC%9D%B4%ED%81%AC
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:19 INFO  Crawler:289 - [Progress 316] elaped time : 00:00:03, save : 9551, err : 446, remain_work : 0, total : 316
+2018-11-13 10:09:19 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:19 INFO  Crawler:254 - CMD PARAM 00   : 아작
+2018-11-13 10:09:19 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:21 INFO  Crawler:289 - [Progress 317] elaped time : 00:00:02, save : 9551, err : 446, remain_work : 1, total : 318
+2018-11-13 10:09:22 INFO  Crawler:289 - [Progress 318] elaped time : 00:00:03, save : 9631, err : 446, remain_work : 0, total : 318
+2018-11-13 10:09:22 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:22 INFO  Crawler:254 - CMD PARAM 00   : 킨뿌산
+2018-11-13 10:09:22 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:24 INFO  Crawler:289 - [Progress 319] elaped time : 00:00:01, save : 9631, err : 446, remain_work : 1, total : 320
+2018-11-13 10:09:25 INFO  Crawler:289 - [Progress 320] elaped time : 00:00:02, save : 9631, err : 446, remain_work : 0, total : 320
+2018-11-13 10:09:25 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:25 INFO  Crawler:254 - CMD PARAM 00   : 뉴요커
+2018-11-13 10:09:25 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:27 INFO  Crawler:289 - [Progress 321] elaped time : 00:00:02, save : 9631, err : 446, remain_work : 1, total : 322
+2018-11-13 10:09:28 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%89%B4%EC%9A%94%EC%BB%A4
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:28 INFO  Crawler:289 - [Progress 322] elaped time : 00:00:03, save : 9711, err : 454, remain_work : 0, total : 322
+2018-11-13 10:09:28 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:28 INFO  Crawler:254 - CMD PARAM 00   : 패셔
+2018-11-13 10:09:28 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:31 INFO  Crawler:289 - [Progress 323] elaped time : 00:00:02, save : 9711, err : 454, remain_work : 1, total : 324
+2018-11-13 10:09:32 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8C%A8%EC%85%94
+2018-11-13 10:09:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:32 INFO  Crawler:289 - [Progress 324] elaped time : 00:00:03, save : 9791, err : 455, remain_work : 0, total : 324
+2018-11-13 10:09:32 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:32 INFO  Crawler:254 - CMD PARAM 00   : 민족주의
+2018-11-13 10:09:32 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:34 INFO  Crawler:289 - [Progress 325] elaped time : 00:00:02, save : 9791, err : 455, remain_work : 1, total : 326
+2018-11-13 10:09:36 INFO  Crawler:289 - [Progress 326] elaped time : 00:00:03, save : 9871, err : 455, remain_work : 0, total : 326
+2018-11-13 10:09:36 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:36 INFO  Crawler:254 - CMD PARAM 00   : 김연아
+2018-11-13 10:09:36 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:38 INFO  Crawler:289 - [Progress 327] elaped time : 00:00:02, save : 9871, err : 455, remain_work : 1, total : 328
+2018-11-13 10:09:39 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B9%80%EC%97%B0%EC%95%84
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:39 INFO  Crawler:289 - [Progress 328] elaped time : 00:00:03, save : 9951, err : 463, remain_work : 0, total : 328
+2018-11-13 10:09:39 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:39 INFO  Crawler:254 - CMD PARAM 00   : 채권
+2018-11-13 10:09:39 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:41 INFO  Crawler:289 - [Progress 329] elaped time : 00:00:02, save : 9951, err : 463, remain_work : 1, total : 330
+2018-11-13 10:09:43 INFO  Crawler:289 - [Progress 330] elaped time : 00:00:03, save : 10031, err : 463, remain_work : 0, total : 330
+2018-11-13 10:09:43 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:43 INFO  Crawler:254 - CMD PARAM 00   : 금호
+2018-11-13 10:09:43 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:45 INFO  Crawler:289 - [Progress 331] elaped time : 00:00:02, save : 10031, err : 463, remain_work : 1, total : 332
+2018-11-13 10:09:46 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%88%ED%98%B8
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:46 INFO  Crawler:289 - [Progress 332] elaped time : 00:00:03, save : 10111, err : 471, remain_work : 0, total : 332
+2018-11-13 10:09:46 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:46 INFO  Crawler:254 - CMD PARAM 00   : 블록딜
+2018-11-13 10:09:46 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:49 INFO  Crawler:289 - [Progress 333] elaped time : 00:00:02, save : 10111, err : 471, remain_work : 1, total : 334
+2018-11-13 10:09:50 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B8%94%EB%A1%9D%EB%94%9C
+2018-11-13 10:09:50 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:50 INFO  Crawler:289 - [Progress 334] elaped time : 00:00:03, save : 10191, err : 472, remain_work : 0, total : 334
+2018-11-13 10:09:50 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:50 INFO  Crawler:254 - CMD PARAM 00   : 롱쇼트
+2018-11-13 10:09:50 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:53 INFO  Crawler:289 - [Progress 335] elaped time : 00:00:02, save : 10191, err : 472, remain_work : 1, total : 336
+2018-11-13 10:09:54 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A1%B1%EC%87%BC%ED%8A%B8
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:09:54 INFO  Crawler:289 - [Progress 336] elaped time : 00:00:03, save : 10271, err : 480, remain_work : 0, total : 336
+2018-11-13 10:09:54 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:54 INFO  Crawler:254 - CMD PARAM 00   : 장선
+2018-11-13 10:09:54 INFO  Crawler:256 - ==========================================
+2018-11-13 10:09:56 INFO  Crawler:289 - [Progress 337] elaped time : 00:00:02, save : 10271, err : 480, remain_work : 1, total : 338
+2018-11-13 10:09:58 INFO  Crawler:289 - [Progress 338] elaped time : 00:00:03, save : 10351, err : 480, remain_work : 0, total : 338
+2018-11-13 10:09:58 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:09:58 INFO  Crawler:254 - CMD PARAM 00   : 주춤
+2018-11-13 10:09:58 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:00 INFO  Crawler:289 - [Progress 339] elaped time : 00:00:02, save : 10351, err : 480, remain_work : 1, total : 340
+2018-11-13 10:10:02 INFO  Crawler:289 - [Progress 340] elaped time : 00:00:03, save : 10431, err : 480, remain_work : 0, total : 340
+2018-11-13 10:10:02 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:02 INFO  Crawler:254 - CMD PARAM 00   : 선실
+2018-11-13 10:10:02 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:05 INFO  Crawler:289 - [Progress 341] elaped time : 00:00:02, save : 10431, err : 480, remain_work : 1, total : 342
+2018-11-13 10:10:06 INFO  Crawler:289 - [Progress 342] elaped time : 00:00:04, save : 10511, err : 480, remain_work : 0, total : 342
+2018-11-13 10:10:06 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:06 INFO  Crawler:254 - CMD PARAM 00   : 싸이렌
+2018-11-13 10:10:06 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:09 INFO  Crawler:289 - [Progress 343] elaped time : 00:00:02, save : 10511, err : 480, remain_work : 1, total : 344
+2018-11-13 10:10:10 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%B8%EC%9D%B4%EB%A0%8C
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:10 INFO  Crawler:289 - [Progress 344] elaped time : 00:00:03, save : 10595, err : 488, remain_work : 0, total : 344
+2018-11-13 10:10:10 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:10 INFO  Crawler:254 - CMD PARAM 00   : 예컨데
+2018-11-13 10:10:10 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:12 INFO  Crawler:289 - [Progress 345] elaped time : 00:00:01, save : 10595, err : 488, remain_work : 1, total : 346
+2018-11-13 10:10:13 INFO  Crawler:289 - [Progress 346] elaped time : 00:00:02, save : 10596, err : 488, remain_work : 0, total : 346
+2018-11-13 10:10:13 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:13 INFO  Crawler:254 - CMD PARAM 00   : 망포역
+2018-11-13 10:10:13 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:15 INFO  Crawler:289 - [Progress 347] elaped time : 00:00:02, save : 10596, err : 488, remain_work : 1, total : 348
+2018-11-13 10:10:17 INFO  Crawler:289 - [Progress 348] elaped time : 00:00:03, save : 10676, err : 488, remain_work : 0, total : 348
+2018-11-13 10:10:17 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:17 INFO  Crawler:254 - CMD PARAM 00   : 식육목
+2018-11-13 10:10:17 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:19 INFO  Crawler:289 - [Progress 349] elaped time : 00:00:02, save : 10676, err : 488, remain_work : 1, total : 350
+2018-11-13 10:10:20 INFO  Crawler:289 - [Progress 350] elaped time : 00:00:03, save : 10754, err : 488, remain_work : 0, total : 350
+2018-11-13 10:10:20 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:20 INFO  Crawler:254 - CMD PARAM 00   : 츤데레
+2018-11-13 10:10:20 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:23 INFO  Crawler:289 - [Progress 351] elaped time : 00:00:02, save : 10754, err : 488, remain_work : 1, total : 352
+2018-11-13 10:10:24 INFO  Crawler:289 - [Progress 352] elaped time : 00:00:04, save : 10834, err : 488, remain_work : 0, total : 352
+2018-11-13 10:10:24 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:24 INFO  Crawler:254 - CMD PARAM 00   : 클린턴
+2018-11-13 10:10:24 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:27 INFO  Crawler:289 - [Progress 353] elaped time : 00:00:02, save : 10834, err : 488, remain_work : 1, total : 354
+2018-11-13 10:10:28 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%81%B4%EB%A6%B0%ED%84%B4
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:28 INFO  Crawler:289 - [Progress 354] elaped time : 00:00:04, save : 10914, err : 495, remain_work : 0, total : 354
+2018-11-13 10:10:28 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:28 INFO  Crawler:254 - CMD PARAM 00   : 애묘
+2018-11-13 10:10:28 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:31 INFO  Crawler:289 - [Progress 355] elaped time : 00:00:02, save : 10914, err : 495, remain_work : 1, total : 356
+2018-11-13 10:10:32 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%A0%EB%AC%98
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:32 INFO  Crawler:289 - [Progress 356] elaped time : 00:00:03, save : 10994, err : 503, remain_work : 0, total : 356
+2018-11-13 10:10:32 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:32 INFO  Crawler:254 - CMD PARAM 00   : 삭스
+2018-11-13 10:10:32 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:36 INFO  Crawler:289 - [Progress 357] elaped time : 00:00:03, save : 10994, err : 503, remain_work : 1, total : 358
+2018-11-13 10:10:37 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AD%EC%8A%A4
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:37 INFO  Crawler:289 - [Progress 358] elaped time : 00:00:05, save : 11078, err : 511, remain_work : 0, total : 358
+2018-11-13 10:10:37 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:37 INFO  Crawler:254 - CMD PARAM 00   : 군락
+2018-11-13 10:10:37 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:40 INFO  Crawler:289 - [Progress 359] elaped time : 00:00:02, save : 11078, err : 511, remain_work : 1, total : 360
+2018-11-13 10:10:41 INFO  Crawler:289 - [Progress 360] elaped time : 00:00:03, save : 11158, err : 511, remain_work : 0, total : 360
+2018-11-13 10:10:41 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:41 INFO  Crawler:254 - CMD PARAM 00   : 나스
+2018-11-13 10:10:41 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:44 INFO  Crawler:289 - [Progress 361] elaped time : 00:00:02, save : 11158, err : 511, remain_work : 1, total : 362
+2018-11-13 10:10:45 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%82%98%EC%8A%A4
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:10:45 INFO  Crawler:289 - [Progress 362] elaped time : 00:00:04, save : 11242, err : 519, remain_work : 0, total : 362
+2018-11-13 10:10:45 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:45 INFO  Crawler:254 - CMD PARAM 00   : 어뎁티브
+2018-11-13 10:10:45 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:47 INFO  Crawler:289 - [Progress 363] elaped time : 00:00:01, save : 11242, err : 519, remain_work : 1, total : 364
+2018-11-13 10:10:48 INFO  Crawler:289 - [Progress 364] elaped time : 00:00:02, save : 11249, err : 519, remain_work : 0, total : 364
+2018-11-13 10:10:48 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:48 INFO  Crawler:254 - CMD PARAM 00   : 헤드렘프
+2018-11-13 10:10:48 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:51 INFO  Crawler:289 - [Progress 365] elaped time : 00:00:02, save : 11249, err : 519, remain_work : 1, total : 366
+2018-11-13 10:10:52 INFO  Crawler:289 - [Progress 366] elaped time : 00:00:03, save : 11329, err : 519, remain_work : 0, total : 366
+2018-11-13 10:10:52 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:52 INFO  Crawler:254 - CMD PARAM 00   : 괜츈
+2018-11-13 10:10:52 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:54 INFO  Crawler:289 - [Progress 367] elaped time : 00:00:01, save : 11329, err : 519, remain_work : 1, total : 368
+2018-11-13 10:10:55 INFO  Crawler:289 - [Progress 368] elaped time : 00:00:02, save : 11329, err : 519, remain_work : 0, total : 368
+2018-11-13 10:10:55 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:55 INFO  Crawler:254 - CMD PARAM 00   : 중재요청
+2018-11-13 10:10:55 INFO  Crawler:256 - ==========================================
+2018-11-13 10:10:56 INFO  Crawler:289 - [Progress 369] elaped time : 00:00:01, save : 11329, err : 519, remain_work : 1, total : 370
+2018-11-13 10:10:57 INFO  Crawler:289 - [Progress 370] elaped time : 00:00:02, save : 11329, err : 519, remain_work : 0, total : 370
+2018-11-13 10:10:57 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:10:57 INFO  Crawler:254 - CMD PARAM 00   : 교통법규
+2018-11-13 10:10:57 INFO  Crawler:256 - ==========================================
+2018-11-13 10:11:00 INFO  Crawler:289 - [Progress 371] elaped time : 00:00:02, save : 11329, err : 519, remain_work : 1, total : 372
+2018-11-13 10:11:01 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%90%ED%86%B5%EB%B2%95%EA%B7%9C
+2018-11-13 10:11:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:11:01 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:11:01 INFO  Crawler:289 - [Progress 372] elaped time : 00:00:03, save : 11409, err : 521, remain_work : 0, total : 372
+2018-11-13 10:11:01 INFO  Crawler:251 - ============== update params =============
+2018-11-13 10:11:01 INFO  Crawler:254 - CMD PARAM 00   : 노랫말
+2018-11-13 10:11:01 INFO  Crawler:256 - ==========================================
+2018-11-13 10:11:03 INFO  Crawler:289 - [Progress 373] elaped time : 00:00:02, save : 11409, err : 521, remain_work : 1, total : 374
+2018-11-13 10:11:05 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%85%B8%EB%9E%AB%EB%A7%90
+2018-11-13 10:11:05 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:11:05 INFO  Crawler:289 - [Progress 374] elaped time : 00:00:03, save : 11489, err : 522, remain_work : 0, total : 374
+2018-11-13 10:11:07 INFO  Crawler:289 - [Progress 375] elaped time : 00:00:06, save : 11489, err : 522, remain_work : 1, total : 376
+2018-11-13 10:11:08 ERROR Crawler:281 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%85%B8%EB%9E%AB%EB%A7%90
+2018-11-13 10:11:08 ERROR Crawler:284 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 10:11:08 INFO  Crawler:289 - [Progress 376] elaped time : 00:00:07, save : 11569, err : 523, remain_work : 0, total : 376
+2018-11-13 10:11:08 INFO  Crawler:179 - ============== Finish Crawler =============
+2018-11-13 10:11:08 INFO  Crawler:180 - [total time] 00:00:07
+2018-11-13 10:11:08 INFO  Crawler:181 - [save contents] 11569
+2018-11-13 10:11:08 INFO  Crawler:182 - [error work] 523
+2018-11-13 10:11:08 INFO  Crawler:183 - [remain work] 0
+2018-11-13 10:11:08 INFO  Crawler:184 - [total processed work] 376
+2018-11-13 10:11:09 INFO  Crawler:194 - ============== Post processing =============
+2018-11-13 10:11:09 INFO  Crawler:195 - [process query] SELECT T1.KEYWORD as d1, 'Y' as d2 FROM ( SELECT KEYWORD, MAX(A.CNT) as MAX_CNT, SUM(A.CNT) as CNT, count(*) as category_count FROM ( SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY ) AS A GROUP BY KEYWORD) AS T1,(SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY) AS T2 WHERE T1.KEYWORD = T2.KEYWORD AND T1.MAX_CNT = T2.CNT AND T1.CNT >= 70 AND T1.MAX_CNT > (T1.CNT * 0.5)

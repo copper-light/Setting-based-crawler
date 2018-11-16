@@ -1,0 +1,26 @@
+2018-11-12 13:23:31 INFO  Crawler:181 - ============== Start Crawler =============
+2018-11-12 13:23:31 INFO  Crawler:182 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-12 13:23:31 INFO  Crawler:188 - CRAWLER NAME   : domeggook
+2018-11-12 13:23:31 INFO  Crawler:189 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 13:23:31 INFO  Crawler:190 - CRAWLER DELAY  : 0 sec
+2018-11-12 13:23:31 INFO  Crawler:191 - IGNORE ROBOTS  : true
+2018-11-12 13:23:31 INFO  Crawler:192 - LIMIT_COUNT    : -1
+2018-11-12 13:23:31 INFO  Crawler:193 - FILTER COUNT   : 0
+2018-11-12 13:23:31 INFO  Crawler:197 - SCENARIO COUNT : 2
+2018-11-12 13:23:31 INFO  Crawler:198 - COLLECT COUNT  : 1
+2018-11-12 13:23:31 INFO  Crawler:199 - SAVE TYPE      : DB
+2018-11-12 13:23:31 INFO  Crawler:200 - SAVE HTML      : true
+2018-11-12 13:23:31 INFO  Crawler:201 - ==========================================
+2018-11-12 13:23:40 INFO  Crawler:231 - [Progress 1] elaped time : 00:00:09, save : 0, err : 0, remain_work : 2, total : 3
+2018-11-12 13:23:51 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:23:51 ERROR Crawler:226 - L ERR_ACTION : div.main > a:nth-child(1)
+2018-11-12 13:23:51 INFO  Crawler:231 - [Progress 2] elaped time : 00:00:19, save : 0, err : 1, remain_work : 1, total : 3
+2018-11-12 13:24:01 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:24:01 ERROR Crawler:226 - L ERR_ACTION : #lPage > a.btn.af1dd
+2018-11-12 13:24:01 INFO  Crawler:231 - [Progress 3] elaped time : 00:00:29, save : 0, err : 2, remain_work : 0, total : 3
+2018-11-12 13:24:02 INFO  Crawler:256 - ============== Finish Crawler =============
+2018-11-12 13:24:02 INFO  Crawler:257 - [total time] 00:00:30
+2018-11-12 13:24:02 INFO  Crawler:258 - [save contents] 0
+2018-11-12 13:24:02 INFO  Crawler:259 - [error work] 2
+2018-11-12 13:24:02 INFO  Crawler:260 - [remain work] 0
+2018-11-12 13:24:02 INFO  Crawler:261 - [total processed work] 3

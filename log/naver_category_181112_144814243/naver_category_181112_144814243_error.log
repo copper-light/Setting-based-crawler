@@ -1,0 +1,6 @@
+2018-11-12 14:48:21 ERROR Crawler:264 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&query=%EA%B9%80
+2018-11-12 14:48:21 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:48:21 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:48:21 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:48:21 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:48:21 ERROR Crawler:255 - Can't start Crawler. Initialization failed.

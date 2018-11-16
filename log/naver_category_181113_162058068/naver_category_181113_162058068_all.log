@@ -1,0 +1,39 @@
+2018-11-13 16:20:58 INFO  Crawler:230 - ============== Start Crawler =============
+2018-11-13 16:20:58 INFO  Crawler:231 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-13 16:20:58 INFO  Crawler:235 - CMD PARAM 00   : 노숙인
+2018-11-13 16:20:58 INFO  Crawler:238 - CRAWLER NAME   : naver_category
+2018-11-13 16:20:58 INFO  Crawler:239 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-13 16:20:58 INFO  Crawler:240 - CRAWLER DELAY  : 1 sec
+2018-11-13 16:20:58 INFO  Crawler:241 - IGNORE ROBOTS  : true
+2018-11-13 16:20:58 INFO  Crawler:242 - LIMIT_COUNT    : -1
+2018-11-13 16:20:58 INFO  Crawler:243 - FILTER COUNT   : 0
+2018-11-13 16:20:58 INFO  Crawler:247 - SCENARIO COUNT : 1
+2018-11-13 16:20:58 INFO  Crawler:248 - COLLECT COUNT  : 1
+2018-11-13 16:20:58 INFO  Crawler:249 - SAVE TYPE      : DB
+2018-11-13 16:20:58 INFO  Crawler:250 - SAVE HTML      : true
+2018-11-13 16:20:58 INFO  Crawler:251 - ==========================================
+2018-11-13 16:21:07 INFO  Crawler:292 - [Progress 1] elaped time : 00:00:09, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-13 16:21:09 INFO  Crawler:292 - [Progress 2] elaped time : 00:00:11, save : 80, err : 0, remain_work : 0, total : 2
+2018-11-13 16:21:09 INFO  Crawler:254 - ============== update params =============
+2018-11-13 16:21:09 INFO  Crawler:257 - CMD PARAM 00   : 변사
+2018-11-13 16:21:09 INFO  Crawler:259 - ==========================================
+2018-11-13 16:21:11 INFO  Crawler:292 - [Progress 3] elaped time : 00:00:13, save : 80, err : 0, remain_work : 1, total : 4
+2018-11-13 16:21:13 INFO  Crawler:292 - [Progress 4] elaped time : 00:00:15, save : 160, err : 0, remain_work : 0, total : 4
+2018-11-13 16:21:13 INFO  Crawler:254 - ============== update params =============
+2018-11-13 16:21:13 INFO  Crawler:257 - CMD PARAM 00   : 핀덴
+2018-11-13 16:21:13 INFO  Crawler:259 - ==========================================
+2018-11-13 16:21:16 INFO  Crawler:292 - [Progress 5] elaped time : 00:00:18, save : 160, err : 0, remain_work : 1, total : 6
+2018-11-13 16:21:18 ERROR Crawler:284 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%80%EB%8D%B4
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 ERROR Crawler:287 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-13 16:21:18 INFO  Crawler:292 - [Progress 6] elaped time : 00:00:20, save : 242, err : 8, remain_work : 0, total : 6
+2018-11-13 16:21:18 INFO  Crawler:254 - ============== update params =============
+2018-11-13 16:21:18 INFO  Crawler:257 - CMD PARAM 00   : 카카
+2018-11-13 16:21:18 INFO  Crawler:259 - ==========================================
+2018-11-13 16:21:20 INFO  Crawler:292 - [Progress 7] elaped time : 00:00:22, save : 242, err : 8, remain_work : 1, total : 8

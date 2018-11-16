@@ -1,0 +1,24 @@
+2018-11-12 16:09:14 INFO  Crawler:212 - ============== Start Crawler =============
+2018-11-12 16:09:14 INFO  Crawler:213 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 16:09:14 INFO  Crawler:217 - CMD PARAM 00   : 占쏙옙占�
+2018-11-12 16:09:14 INFO  Crawler:220 - CRAWLER NAME   : naver_category
+2018-11-12 16:09:14 INFO  Crawler:221 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 16:09:14 INFO  Crawler:222 - CRAWLER DELAY  : 1 sec
+2018-11-12 16:09:14 INFO  Crawler:223 - IGNORE ROBOTS  : true
+2018-11-12 16:09:14 INFO  Crawler:224 - LIMIT_COUNT    : -1
+2018-11-12 16:09:14 INFO  Crawler:225 - FILTER COUNT   : 0
+2018-11-12 16:09:14 INFO  Crawler:229 - SCENARIO COUNT : 1
+2018-11-12 16:09:14 INFO  Crawler:230 - COLLECT COUNT  : 1
+2018-11-12 16:09:14 INFO  Crawler:231 - SAVE TYPE      : DB
+2018-11-12 16:09:14 INFO  Crawler:232 - SAVE HTML      : true
+2018-11-12 16:09:14 INFO  Crawler:233 - ==========================================
+2018-11-12 16:09:22 INFO  Crawler:274 - [Progress 1] elaped time : 00:00:08, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-12 16:09:24 INFO  Crawler:274 - [Progress 2] elaped time : 00:00:09, save : 0, err : 0, remain_work : 0, total : 2
+2018-11-12 16:09:24 INFO  Crawler:236 - ============== update params =============
+2018-11-12 16:09:24 INFO  Crawler:239 - CMD PARAM 00   : 占쏙옙占쏙옙
+2018-11-12 16:09:24 INFO  Crawler:241 - ==========================================
+2018-11-12 16:09:25 INFO  Crawler:274 - [Progress 3] elaped time : 00:00:01, save : 0, err : 0, remain_work : 1, total : 4
+2018-11-12 16:09:26 INFO  Crawler:274 - [Progress 4] elaped time : 00:00:02, save : 0, err : 0, remain_work : 0, total : 4
+2018-11-12 16:09:26 INFO  Crawler:236 - ============== update params =============
+2018-11-12 16:09:26 INFO  Crawler:239 - CMD PARAM 00   : 占쏙옙
+2018-11-12 16:09:26 INFO  Crawler:241 - ==========================================

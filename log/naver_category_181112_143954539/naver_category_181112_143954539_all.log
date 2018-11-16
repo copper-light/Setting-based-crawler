@@ -1,0 +1,78 @@
+2018-11-12 14:39:54 INFO  Crawler:200 - ============== Start Crawler =============
+2018-11-12 14:39:54 INFO  Crawler:201 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 14:39:54 INFO  Crawler:207 - CRAWLER NAME   : naver_category
+2018-11-12 14:39:54 INFO  Crawler:208 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 14:39:54 INFO  Crawler:209 - CRAWLER DELAY  : 0 sec
+2018-11-12 14:39:54 INFO  Crawler:210 - IGNORE ROBOTS  : true
+2018-11-12 14:39:54 INFO  Crawler:211 - LIMIT_COUNT    : -1
+2018-11-12 14:39:54 INFO  Crawler:212 - FILTER COUNT   : 0
+2018-11-12 14:39:54 INFO  Crawler:216 - SCENARIO COUNT : 1
+2018-11-12 14:39:54 INFO  Crawler:217 - COLLECT COUNT  : 1
+2018-11-12 14:39:54 INFO  Crawler:218 - SAVE TYPE      : CSV
+2018-11-12 14:39:54 INFO  Crawler:219 - SAVE HTML      : true
+2018-11-12 14:39:54 INFO  Crawler:220 - ==========================================
+2018-11-12 14:40:02 INFO  Crawler:250 - [Progress 1] elaped time : 00:00:07, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-12 14:40:02 ERROR Crawler:242 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&query=%EA%B9%80
+2018-11-12 14:40:02 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:02 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:02 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:02 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:02 INFO  Crawler:250 - [Progress 2] elaped time : 00:00:08, save : 44, err : 4, remain_work : 0, total : 2
+2018-11-12 14:40:02 INFO  Crawler:266 - ============== Finish Crawler =============
+2018-11-12 14:40:02 INFO  Crawler:267 - [total time] 00:00:08
+2018-11-12 14:40:02 INFO  Crawler:268 - [save contents] 44
+2018-11-12 14:40:02 INFO  Crawler:269 - [error work] 4
+2018-11-12 14:40:02 INFO  Crawler:270 - [remain work] 0
+2018-11-12 14:40:02 INFO  Crawler:271 - [total processed work] 2
+2018-11-12 14:40:02 INFO  Crawler:200 - ============== Start Crawler =============
+2018-11-12 14:40:02 INFO  Crawler:201 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 14:40:02 INFO  Crawler:207 - CRAWLER NAME   : naver_category
+2018-11-12 14:40:02 INFO  Crawler:208 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 14:40:02 INFO  Crawler:209 - CRAWLER DELAY  : 0 sec
+2018-11-12 14:40:02 INFO  Crawler:210 - IGNORE ROBOTS  : true
+2018-11-12 14:40:02 INFO  Crawler:211 - LIMIT_COUNT    : -1
+2018-11-12 14:40:02 INFO  Crawler:212 - FILTER COUNT   : 0
+2018-11-12 14:40:02 INFO  Crawler:216 - SCENARIO COUNT : 1
+2018-11-12 14:40:02 INFO  Crawler:217 - COLLECT COUNT  : 1
+2018-11-12 14:40:02 INFO  Crawler:218 - SAVE TYPE      : CSV
+2018-11-12 14:40:02 INFO  Crawler:219 - SAVE HTML      : true
+2018-11-12 14:40:02 INFO  Crawler:220 - ==========================================
+2018-11-12 14:40:04 INFO  Crawler:250 - [Progress 3] elaped time : 00:00:01, save : 44, err : 4, remain_work : 1, total : 4
+2018-11-12 14:40:04 ERROR Crawler:242 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&query=%EB%9D%BC%EB%A9%B4
+2018-11-12 14:40:04 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:04 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:04 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:04 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:04 INFO  Crawler:250 - [Progress 4] elaped time : 00:00:02, save : 88, err : 8, remain_work : 0, total : 4
+2018-11-12 14:40:04 INFO  Crawler:266 - ============== Finish Crawler =============
+2018-11-12 14:40:04 INFO  Crawler:267 - [total time] 00:00:02
+2018-11-12 14:40:04 INFO  Crawler:268 - [save contents] 88
+2018-11-12 14:40:04 INFO  Crawler:269 - [error work] 8
+2018-11-12 14:40:04 INFO  Crawler:270 - [remain work] 0
+2018-11-12 14:40:04 INFO  Crawler:271 - [total processed work] 4
+2018-11-12 14:40:04 INFO  Crawler:200 - ============== Start Crawler =============
+2018-11-12 14:40:04 INFO  Crawler:201 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 14:40:04 INFO  Crawler:207 - CRAWLER NAME   : naver_category
+2018-11-12 14:40:04 INFO  Crawler:208 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 14:40:04 INFO  Crawler:209 - CRAWLER DELAY  : 0 sec
+2018-11-12 14:40:04 INFO  Crawler:210 - IGNORE ROBOTS  : true
+2018-11-12 14:40:04 INFO  Crawler:211 - LIMIT_COUNT    : -1
+2018-11-12 14:40:04 INFO  Crawler:212 - FILTER COUNT   : 0
+2018-11-12 14:40:04 INFO  Crawler:216 - SCENARIO COUNT : 1
+2018-11-12 14:40:04 INFO  Crawler:217 - COLLECT COUNT  : 1
+2018-11-12 14:40:04 INFO  Crawler:218 - SAVE TYPE      : CSV
+2018-11-12 14:40:04 INFO  Crawler:219 - SAVE HTML      : true
+2018-11-12 14:40:04 INFO  Crawler:220 - ==========================================
+2018-11-12 14:40:06 INFO  Crawler:250 - [Progress 5] elaped time : 00:00:01, save : 88, err : 8, remain_work : 1, total : 6
+2018-11-12 14:40:06 ERROR Crawler:242 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&query=%EC%9A%B0%EB%8F%99
+2018-11-12 14:40:06 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:06 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:06 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:06 ERROR Crawler:245 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:40:06 INFO  Crawler:250 - [Progress 6] elaped time : 00:00:01, save : 132, err : 12, remain_work : 0, total : 6
+2018-11-12 14:40:06 INFO  Crawler:266 - ============== Finish Crawler =============
+2018-11-12 14:40:06 INFO  Crawler:267 - [total time] 00:00:01
+2018-11-12 14:40:06 INFO  Crawler:268 - [save contents] 132
+2018-11-12 14:40:06 INFO  Crawler:269 - [error work] 12
+2018-11-12 14:40:06 INFO  Crawler:270 - [remain work] 0
+2018-11-12 14:40:06 INFO  Crawler:271 - [total processed work] 6

@@ -1,0 +1,16 @@
+2018-11-12 13:58:14 ERROR Crawler:242 - [ERR URL] http://domeggook.com/7767997?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:58:14 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '7767997' for key 'PRIMARY'
+2018-11-12 13:58:17 ERROR Crawler:242 - [ERR URL] http://domeggook.com/8086145?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:58:17 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '8086145' for key 'PRIMARY'
+2018-11-12 13:58:18 ERROR Crawler:242 - [ERR URL] http://domeggook.com/6246910?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:58:18 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '6246910' for key 'PRIMARY'
+2018-11-12 13:58:22 ERROR Crawler:242 - [ERR URL] http://domeggook.com/7449352?sfc=ttl&sf=ttl&sw=%B6%F3%B8%E9
+2018-11-12 13:58:22 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '7449352' for key 'PRIMARY'
+2018-11-12 13:58:24 ERROR Crawler:242 - [ERR URL] http://domeggook.com/6109878?sfc=ttl&sf=ttl&sw=%B6%F3%B8%E9
+2018-11-12 13:58:24 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '6109878' for key 'PRIMARY'
+2018-11-12 13:58:26 ERROR Crawler:242 - [ERR URL] http://domeggook.com/8276623?sfc=ttl&sf=ttl&sw=%B6%F3%B8%E9
+2018-11-12 13:58:26 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '8276623' for key 'PRIMARY'
+2018-11-12 13:58:27 ERROR Crawler:242 - [ERR URL] http://domeggook.com/7228873?sfc=ttl&sf=ttl&sw=%B6%F3%B8%E9
+2018-11-12 13:58:27 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '7228873' for key 'PRIMARY'
+2018-11-12 13:58:31 ERROR Crawler:242 - [ERR URL] http://domeggook.com/8003482?sfc=ttl&sf=ttl&sw=%BE%C6%C4%A7
+2018-11-12 13:58:31 ERROR Crawler:245 - L ERR_WRITE : Contents write failed : Duplicate entry '8003482' for key 'PRIMARY'

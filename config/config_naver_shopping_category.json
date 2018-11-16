@@ -1,29 +1,30 @@
 {
-	"name" : "domeggook",
-	"param_list" : [
-		["김"],
-		["라면"],
-		["우동"]
-	],
+	"name" : "naver_category",
+	"arguments" :{
+		"get_type" : "csv",
+		"file_path" : "./config/keyword.csv",
+		"query" : "0"
+	},
+	
+	"db_id" : "root",
+	"db_pw" : "sairport2018",
+	"db_path" : "jdbc:sqlite:./data.db",
 
 	"seed" : {
-		"url" : "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC",
+		"url" : "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC&pagingSize=80",
 		"type" : "GET",
 		"data" : [
-			{"key" : "query", "value" : "김"}
+			{"key" : "query", "value" : "<%0%>"}
 		]
 	},
 	"ignore_robots" : true,
 	"crawling_max_depth" : -1,
 	"crawling_type" : "SCENARIO_DYNAMIC",	
-	"crawling_delay" : 0.5,
+	"crawling_delay" : 1,
 	"crawling_max_count" : -1,
-	"contents_save_type" : "CSV",
-	"save_html" : true,
+	"contents_save_type" : "DB",
+	"save_html" : false,
 	"output_file_path" : "",
-	"output_db_id" : "root",
-	"output_db_pw" : "sairport2018",
-	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 	"charset" : "UTF-8",
 	"selenium_driver_name" : "chrome",
 	"selenium_headless" : false,
@@ -57,7 +58,7 @@
 					"type" : "text",
 					"data_type" : "varchar(300)",
 					"data_name" : "keyword",
-					"value" : "김"
+					"value" : "<%0%>"
 				},
 				{
 					"data_type" : "varchar(200)",
@@ -85,6 +86,11 @@
 				}
 			]
 		}
-    ]
-    
+	],
+	
+	"post_processing" : {
+		"query" : [
+			"SELECT T1.KEYWORD as d1, 'Y' as d2 FROM ( SELECT KEYWORD, MAX(A.CNT) as MAX_CNT, SUM(A.CNT) as CNT, count(*) as category_count FROM ( SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY ) AS A GROUP BY KEYWORD) AS T1,(SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY) AS T2 WHERE T1.KEYWORD = T2.KEYWORD AND T1.MAX_CNT = T2.CNT AND T1.CNT >= 70 AND T1.MAX_CNT > (T1.CNT * 0.5)"
+		]
+	}
 }

@@ -43,12 +43,20 @@ public class DBWriter implements Writer {
 	Connection mConn;
 
 	public synchronized boolean open() throws Exception {
-		Class.forName(DRIVER);
+		
 		Connection conn = null;
 		try {
 			Properties properties = new Properties();
 			properties.put("connectTimeout", "300000");
-			String dbConnectionString = PATH + "?user=" + USER + "&password=" + PW;
+			String dbConnectionString;
+			if(PATH.indexOf("sqlite") != -1){
+				Class.forName("org.sqlite.JDBC");
+				dbConnectionString = PATH;
+			}else{
+				Class.forName(DRIVER);
+				dbConnectionString = PATH + "?user=" + USER + "&password=" + PW;
+			}
+						
 			conn = DriverManager.getConnection(dbConnectionString, properties);
 			// conn = DriverManager.getConnection(PATH, USER, PW, properties);
 			mConn = conn;
@@ -115,7 +123,7 @@ public class DBWriter implements Writer {
 //		}
 //	}
 
-	private synchronized int insert(String query) throws Exception {
+	public synchronized int insert(String query) throws Exception {
 		mConn.prepareStatement(query).execute();
 		return 1;
 	}
@@ -131,9 +139,9 @@ public class DBWriter implements Writer {
 	}
 
 	public void setConfig(Config config) {
-		PATH = config.OUTPUT_DB_PATH;
-		USER = config.OUTPUT_DB_ID;
-		PW = config.OUTPUT_DB_PW;
+		PATH = config.DB_PATH;
+		USER = config.DB_ID;
+		PW = config.DB_PW;
 		mConfig = config;
 		String keys= null;
 		String query = null;

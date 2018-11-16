@@ -1,10 +1,18 @@
 {
 	"name" : "domeggook",
-	"param_list" : [
-		["김"],
-		["라면"],
-		["우동"]
-	],
+	
+	"arguments" : {
+		"get_type" : "conf",
+		"list": [
+			["장난감"],
+			["라면"],
+			["아침"]
+		]
+	},
+
+	"db_id" : "root",
+	"db_pw" : "sairport2018",
+	"db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 
 	"seed" : {
 		"url" : "http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl",
@@ -21,9 +29,6 @@
 	"contents_save_type" : "DB",
 	"save_html" : true,
 	"output_file_path" : "",
-	"output_db_id" : "root",
-	"output_db_pw" : "sairport2018",
-	"output_db_path" : "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 	"charset" : "EUC-KR",
 	"selenium_driver_name" : "chrome",
 	"selenium_headless" : false,
@@ -32,8 +37,7 @@
         {
 			"depth" : 0,
 			"action" : [
-				{"type": "click", "selector" : "div.main > a", "target_depth" : 1},
-				{"type": "click", "selector" : "#lPage > a.btn.af1", "target_depth" : 0}
+				{"type": "click", "selector" : "li:nth-child(1) > div.main > a", "target_depth" : 1}
 			]
 		},
 		{

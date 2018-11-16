@@ -1,0 +1,4 @@
+2018-11-12 13:23:51 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:23:51 ERROR Crawler:226 - L ERR_ACTION : div.main > a:nth-child(1)
+2018-11-12 13:24:01 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:24:01 ERROR Crawler:226 - L ERR_ACTION : #lPage > a.btn.af1dd

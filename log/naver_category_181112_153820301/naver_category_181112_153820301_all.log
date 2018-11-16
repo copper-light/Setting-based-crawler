@@ -1,0 +1,39 @@
+2018-11-12 15:38:20 INFO  Crawler:212 - ============== Start Crawler =============
+2018-11-12 15:38:20 INFO  Crawler:213 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 15:38:20 INFO  Crawler:217 - CMD PARAM 00   : �ܾ�
+2018-11-12 15:38:20 INFO  Crawler:220 - CRAWLER NAME   : naver_category
+2018-11-12 15:38:20 INFO  Crawler:221 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 15:38:20 INFO  Crawler:222 - CRAWLER DELAY  : 0 sec
+2018-11-12 15:38:20 INFO  Crawler:223 - IGNORE ROBOTS  : true
+2018-11-12 15:38:20 INFO  Crawler:224 - LIMIT_COUNT    : -1
+2018-11-12 15:38:20 INFO  Crawler:225 - FILTER COUNT   : 0
+2018-11-12 15:38:20 INFO  Crawler:229 - SCENARIO COUNT : 1
+2018-11-12 15:38:20 INFO  Crawler:230 - COLLECT COUNT  : 1
+2018-11-12 15:38:20 INFO  Crawler:231 - SAVE TYPE      : DB
+2018-11-12 15:38:20 INFO  Crawler:232 - SAVE HTML      : true
+2018-11-12 15:38:20 INFO  Crawler:233 - ==========================================
+2018-11-12 15:38:27 INFO  Crawler:274 - [Progress 1] elaped time : 00:00:07, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-12 15:38:27 INFO  Crawler:274 - [Progress 2] elaped time : 00:00:07, save : 0, err : 0, remain_work : 0, total : 2
+2018-11-12 15:38:27 INFO  Crawler:236 - ============== update params =============
+2018-11-12 15:38:27 INFO  Crawler:239 - CMD PARAM 00   : ���
+2018-11-12 15:38:27 INFO  Crawler:241 - ==========================================
+2018-11-12 15:38:28 INFO  Crawler:274 - [Progress 3] elaped time : 00:00:00, save : 0, err : 0, remain_work : 1, total : 4
+2018-11-12 15:38:28 INFO  Crawler:274 - [Progress 4] elaped time : 00:00:00, save : 0, err : 0, remain_work : 0, total : 4
+2018-11-12 15:38:28 INFO  Crawler:236 - ============== update params =============
+2018-11-12 15:38:28 INFO  Crawler:239 - CMD PARAM 00   : ����
+2018-11-12 15:38:28 INFO  Crawler:241 - ==========================================
+2018-11-12 15:38:29 INFO  Crawler:274 - [Progress 5] elaped time : 00:00:00, save : 0, err : 0, remain_work : 1, total : 6
+2018-11-12 15:38:29 INFO  Crawler:274 - [Progress 6] elaped time : 00:00:00, save : 0, err : 0, remain_work : 0, total : 6
+2018-11-12 15:38:29 INFO  Crawler:236 - ============== update params =============
+2018-11-12 15:38:29 INFO  Crawler:239 - CMD PARAM 00   : ��
+2018-11-12 15:38:29 INFO  Crawler:241 - ==========================================
+2018-11-12 15:38:29 INFO  Crawler:274 - [Progress 7] elaped time : 00:00:00, save : 0, err : 0, remain_work : 1, total : 8
+2018-11-12 15:38:29 INFO  Crawler:274 - [Progress 8] elaped time : 00:00:00, save : 0, err : 0, remain_work : 0, total : 8
+2018-11-12 15:38:29 INFO  Crawler:236 - ============== update params =============
+2018-11-12 15:38:29 INFO  Crawler:239 - CMD PARAM 00   : ����
+2018-11-12 15:38:29 INFO  Crawler:241 - ==========================================
+2018-11-12 15:38:30 INFO  Crawler:274 - [Progress 9] elaped time : 00:00:00, save : 0, err : 0, remain_work : 1, total : 10
+2018-11-12 15:38:30 INFO  Crawler:274 - [Progress 10] elaped time : 00:00:00, save : 0, err : 0, remain_work : 0, total : 10
+2018-11-12 15:38:30 INFO  Crawler:236 - ============== update params =============
+2018-11-12 15:38:30 INFO  Crawler:239 - CMD PARAM 00   : ���
+2018-11-12 15:38:30 INFO  Crawler:241 - ==========================================

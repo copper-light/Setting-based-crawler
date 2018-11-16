@@ -1,0 +1,6 @@
+2018-11-12 13:48:26 ERROR Crawler:233 - [ERR URL] http://domeggook.com/7767997?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:48:26 ERROR Crawler:236 - L ERR_WRITE : Contents write failed : Duplicate entry '7767997' for key 'PRIMARY'
+2018-11-12 13:48:30 ERROR Crawler:233 - [ERR URL] http://domeggook.com/8086145?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:48:30 ERROR Crawler:236 - L ERR_WRITE : Contents write failed : Duplicate entry '8086145' for key 'PRIMARY'
+2018-11-12 13:48:32 ERROR Crawler:233 - [ERR URL] http://domeggook.com/6246910?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:48:32 ERROR Crawler:236 - L ERR_WRITE : Contents write failed : Duplicate entry '6246910' for key 'PRIMARY'

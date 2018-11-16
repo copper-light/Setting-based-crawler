@@ -1,0 +1,9 @@
+2018-11-12 13:25:26 ERROR Crawler:223 - [ERR URL] http://domeggook.com/7767997?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:25:26 ERROR Crawler:226 - L ERR_WRITE : Contents write failed : Duplicate entry '7767997' for key 'PRIMARY'
+2018-11-12 13:25:28 ERROR Crawler:223 - [ERR URL] http://domeggook.com/8086145?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:25:28 ERROR Crawler:226 - L ERR : Can't save the html file.
+2018-11-12 13:25:30 ERROR Crawler:223 - [ERR URL] http://domeggook.com/6246910?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:25:30 ERROR Crawler:226 - L ERR : Can't save the html file.
+2018-11-12 13:25:30 ERROR Crawler:226 - L ERR_WRITE : Contents write failed : Duplicate entry '6246910' for key 'PRIMARY'
+2018-11-12 13:25:40 ERROR Crawler:223 - [ERR URL] http://domeggook.com/main/item/itemList.php?sfc=ttl&sf=ttl&sw=%C0%E5%B3%AD%B0%A8
+2018-11-12 13:25:40 ERROR Crawler:226 - L ERR_ACTION : #lPage > a.btn.af1dd

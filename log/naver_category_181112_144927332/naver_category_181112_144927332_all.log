@@ -1,0 +1,36 @@
+2018-11-12 14:49:27 INFO  Crawler:211 - ============== Start Crawler =============
+2018-11-12 14:49:27 INFO  Crawler:212 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-12 14:49:27 INFO  Crawler:216 - CMD PARAM 00   : 김
+2018-11-12 14:49:27 INFO  Crawler:219 - CRAWLER NAME   : naver_category
+2018-11-12 14:49:27 INFO  Crawler:220 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 14:49:27 INFO  Crawler:221 - CRAWLER DELAY  : 0 sec
+2018-11-12 14:49:27 INFO  Crawler:222 - IGNORE ROBOTS  : true
+2018-11-12 14:49:27 INFO  Crawler:223 - LIMIT_COUNT    : -1
+2018-11-12 14:49:27 INFO  Crawler:224 - FILTER COUNT   : 0
+2018-11-12 14:49:27 INFO  Crawler:228 - SCENARIO COUNT : 1
+2018-11-12 14:49:27 INFO  Crawler:229 - COLLECT COUNT  : 1
+2018-11-12 14:49:27 INFO  Crawler:230 - SAVE TYPE      : CSV
+2018-11-12 14:49:27 INFO  Crawler:231 - SAVE HTML      : true
+2018-11-12 14:49:27 INFO  Crawler:232 - ==========================================
+2018-11-12 14:49:35 INFO  Crawler:272 - [Progress 1] elaped time : 00:00:07, save : 0, err : 0, remain_work : 1, total : 2
+2018-11-12 14:49:35 ERROR Crawler:264 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&query=%EA%B9%80
+2018-11-12 14:49:35 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:49:35 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:49:35 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:49:35 ERROR Crawler:267 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 14:49:35 INFO  Crawler:272 - [Progress 2] elaped time : 00:00:08, save : 44, err : 4, remain_work : 0, total : 2
+2018-11-12 14:49:35 INFO  Crawler:243 - ============== update params =============
+2018-11-12 14:49:35 INFO  Crawler:247 - CMD PARAM 00   : 라면
+2018-11-12 14:49:35 INFO  Crawler:250 - ==========================================
+2018-11-12 14:49:35 INFO  Crawler:254 - ============== Terminate Crawler =============
+2018-11-12 14:49:35 ERROR Crawler:255 - Can't start Crawler. Initialization failed.
+2018-11-12 14:49:35 INFO  Crawler:243 - ============== update params =============
+2018-11-12 14:49:35 INFO  Crawler:247 - CMD PARAM 00   : 우동
+2018-11-12 14:49:35 INFO  Crawler:250 - ==========================================
+2018-11-12 14:49:35 INFO  Crawler:254 - ============== Terminate Crawler =============
+2018-11-12 14:49:35 ERROR Crawler:255 - Can't start Crawler. Initialization failed.
+2018-11-12 14:49:35 INFO  Crawler:179 - ============== Finish Crawler =============
+2018-11-12 14:49:35 INFO  Crawler:180 - [total time] 00:00:00
+2018-11-12 14:49:35 INFO  Crawler:181 - [save contents] 44
+2018-11-12 14:49:35 INFO  Crawler:182 - [error work] 4
+2018-11-12 14:49:35 INFO  Crawler:184 - [total processed work] 2

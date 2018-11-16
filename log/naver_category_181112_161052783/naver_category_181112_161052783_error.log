@@ -1,0 +1,1914 @@
+2018-11-12 16:11:03 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:03 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%95%8C
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%95%8C%EB%AC%B8
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B2%BD%EC%9A%B0
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B2%83
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%82%98
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%B5
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%B4
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%88%98
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A2%80
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B0%8F
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%89%B4
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:11:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B7%B8
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%89%90%EB%B3%B4%EB%A0%88
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%85%8D%EC%8A%A4%ED%8A%B8
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B2%A4%EC%B8%A0
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8C%8D%EC%9A%A9
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%84%EC%9A%B0%EB%94%94
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%93%B1
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%BC%EC%84%B1
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B7%B8%EA%B2%83
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A5%B4%EB%85%B8
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EC%A7%84
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B9%84%EA%B5%90
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:54 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%A4%EC%82%AC
+2018-11-12 16:12:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8D%94
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:12:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%A4%EB%A7%88
+2018-11-12 16:13:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%A0
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8F%AD%EC%8A%A4%EB%B0%94%EA%B2%90
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%A5%EC%86%8C
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EB%9E%8C
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9A%B0%EB%A6%AC
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%82%B4
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8F%99%EC%98%81%EC%83%81
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%AC%EB%B6%84
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B2%BD%EA%B8%B0%EB%8F%84
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4%ED%8B%B0%EC%BB%A4
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EB%8A%A5
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%81%B4%EB%9E%98%EC%8A%A4
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:13:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%85%84
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B3%B5%EA%B0%84
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%80
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B9%B4%EB%8B%88%EB%B0%9C
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%9C
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B0%A8%EB%9F%89
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A3%BC
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%BC
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8E%B8%EC%9D%98
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%A0%EB%B0%9C
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:41 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:45 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%9C%ED%92%88
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9A%A9
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:14:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%90
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%BD%94%EB%9E%80%EB%8F%84
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%84%EC%9D%B4
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:14 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%B1%EB%A0%B9
+2018-11-12 16:15:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%ED%83%80
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B3%B3
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%8C
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B7%B8%EB%9E%9C%EC%A0%B8
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%9B%EC%82%B0
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%88%AC%EC%8B%BC
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AF%B8%EB%8B%88%EC%BF%A0%ED%8D%BC
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B6%84
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%98%EB%82%98
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:15:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%98%EB%82%98%EB%8B%98
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%97%90%EC%84%9C
+2018-11-12 16:16:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C%EC%8A%A4%ED%85%9C
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%86%8C%EB%82%98%ED%83%80
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%84%EB%B0%98%EB%96%BC
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C%EC%84%A4
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B0%A8
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8C%80%EC%9A%B0
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%A0%ED%98%95
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%88
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C%EA%B0%84
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%88%EC%A0%84
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%A8%EB%8B%9D
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8D%94%EB%89%B4
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%91%B8%EC%A1%B0
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%B8%ED%94%BC%EB%8B%88%ED%8B%B0
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:16:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%88%98%EB%82%A9
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%80%EC%A7%80
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:08 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%80
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C%EB%A6%AC%EC%A6%88
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B9%8C%EB%9D%BC
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:20 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A3%BC%EB%B0%A9
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A4%91
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%80%EA%B2%A9
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%8C
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%A8
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%A8%EB%91%90
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%94%94%EC%A0%A4
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B9%8C%EC%A7%80
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A7%91
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:17:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%9B%84
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%A4%EB%A5%B8
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%A8%EB%93%A0
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9B%94
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%84
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8C%80%ED%95%9C
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8F%98%EB%82%98%ED%83%80
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:33 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8F%AC%EB%A5%B4%EC%89%90
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8F%AC%EB%A5%B4%ED%85%8C
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8F%98%EB%A0%8C%ED%86%A0
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4%ED%8F%AC%EC%B8%A0
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8F%84%EC%9A%94%ED%83%80
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%ED%9A%8C
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:18:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A0%89%EC%84%9C%EC%8A%A4
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%94%84%EB%9D%BC%EC%9D%B4%EB%93%9C
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B5%AC%EC%A1%B0
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%81%AC%EB%A3%A8%EC%A6%88
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:16 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B0%94%EB%A1%9C
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%9C
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%95%EB%8F%84
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%83%9D%ED%99%9C
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%A0%EC%B6%95
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B0%80%EC%9E%A5
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9A%95%EC%8B%A4
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%83%9D%EA%B0%81
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:56 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%B8%B5
+2018-11-12 16:19:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:19:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9C%84%ED%95%B4
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B0%A9
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:04 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%90%EC%8B%A0
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:07 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%A8%EC%8A%B5
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:11 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AC%BC
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:15 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B1%B0%EB%A6%AC
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:19 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%B4%EC%83%81
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:23 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%97%AC%EB%9F%AC%EB%B6%84
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:27 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:31 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%83%81%ED%83%9C
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:35 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%81%EC%BB%A8
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%95%EB%A7%90
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B1%B0%EC%8B%A4
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A4%91%EA%B3%A0%EC%B0%A8
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:50 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%88%EC%9D%8C
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:54 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%99%B8
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:20:58 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8F%AC%EB%93%9C
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%9C%EB%84%A4%EC%8B%9C%EC%8A%A4
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B6%80%EB%B6%84
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9A%94
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4%ED%8F%AC%ED%8B%B0%EC%A7%80
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EC%8B%A4
+2018-11-12 16:21:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A7%80%EA%B8%88
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%A8%EC%A7%80
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%B8%EB%8C%80
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B3%BC%EB%B3%B4
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4%ED%8C%8C%ED%81%AC
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%84%EA%B8%B0
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%95%EB%B3%B4
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:48 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%9C%EB%B9%84%EC%8A%A4
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:21:52 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%A5%EC%B9%98
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%95%9E
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%BF%A0%ED%8E%98
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%BC%ED%83%80%ED%8E%98
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B9%84
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A0%89
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%97%90%EC%BF%A0%EC%8A%A4
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AC%B8%EC%A0%9C
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%A4
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A7%88%ED%8B%B0%EC%A6%88
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8B%B0%EB%B3%BC%EB%A6%AC
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:40 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%97%91%EC%84%BC%ED%8A%B8
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:44 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%90
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EC%97%85
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AF%B8%EB%8B%88
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:22:56 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%98%90%ED%95%9C
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:00 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%A5%EB%B9%84
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%84%88%EB%AC%B4
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8D%94%EC%9A%B1
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:12 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8A%A4%EB%A7%88%ED%8A%B8
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:18 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%90
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:22 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8F%84%EC%96%B4
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:26 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%82%A0
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:30 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%8B%9C%EA%B3%B5
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:34 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B1%B0
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:38 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EA%B4%80
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:42 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%B0%EC%97%85
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:46 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%84%B8%EA%B3%84
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:49 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B0%A9%EB%B2%95
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:53 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%86%8D
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:23:57 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9D%B4%EC%A0%9C
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:01 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%94%94%EC%9E%90%EC%9D%B8
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:05 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%9C%EA%B5%AD
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:09 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A7%81%EC%A0%91
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:13 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%88%88
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%98%A4%EB%8A%98
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9C%84
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:24 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%98%90
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:28 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%90%EA%B8%B0
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%98%A4
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%B2%88
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EC%9A%A9
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%96%B4%EB%A8%B8%EB%8B%88
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8B%A4%EC%8B%9C
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%8F%84
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AA%BB
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:24:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%95%B4
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:02 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:06 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%86%B5%ED%95%B4
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:10 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A7%80%EC%97%AD
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:14 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%82%AC%EA%B3%A0
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:17 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%9A%A8%EA%B3%BC
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:21 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A8%B8%EC%8A%A4%ED%83%B1
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:25 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%88%A0
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:29 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%8C%90%EB%A7%A4
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:32 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%AC%BC%EB%A1%A0
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:36 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%93%B1%EB%A1%9D
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:39 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%A0%84%ED%99%94
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:43 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%84%B0
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:47 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%BB%A8%ED%8A%B8%EB%A6%AC
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:51 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A6%AC
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:55 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:266 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%A6%AC
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-12 16:25:59 ERROR Crawler:269 - L ERR_CONTENTS_COL : category, span.depth > a, text

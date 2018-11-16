@@ -1,0 +1,13 @@
+2018-11-12 14:35:18 INFO  Crawler:200 - ============== Start Crawler =============
+2018-11-12 14:35:18 INFO  Crawler:201 - CONFIG FILE    : ./config/config_domeggook.json
+2018-11-12 14:35:18 INFO  Crawler:207 - CRAWLER NAME   : domeggook
+2018-11-12 14:35:18 INFO  Crawler:208 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-12 14:35:18 INFO  Crawler:209 - CRAWLER DELAY  : 0 sec
+2018-11-12 14:35:18 INFO  Crawler:210 - IGNORE ROBOTS  : true
+2018-11-12 14:35:18 INFO  Crawler:211 - LIMIT_COUNT    : -1
+2018-11-12 14:35:18 INFO  Crawler:212 - FILTER COUNT   : 0
+2018-11-12 14:35:18 INFO  Crawler:216 - SCENARIO COUNT : 2
+2018-11-12 14:35:18 INFO  Crawler:217 - COLLECT COUNT  : 1
+2018-11-12 14:35:18 INFO  Crawler:218 - SAVE TYPE      : DB
+2018-11-12 14:35:18 INFO  Crawler:219 - SAVE HTML      : true
+2018-11-12 14:35:18 INFO  Crawler:220 - ==========================================
