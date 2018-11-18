@@ -1,0 +1,45 @@
+2018-11-18 18:18:57 ERROR Crawler:272 - 
+java.lang.NullPointerException
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:356)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:268)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:175)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:56)
+2018-11-18 18:18:57 ERROR Crawler:277 - Can't start Crawler. Initialization failed.
+2018-11-18 18:18:58 ERROR Crawler:272 - 
+java.lang.NullPointerException
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:356)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:268)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:175)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:56)
+2018-11-18 18:18:58 ERROR Crawler:277 - Can't start Crawler. Initialization failed.
+2018-11-18 18:19:00 ERROR Crawler:272 - 
+java.lang.NullPointerException
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:356)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:268)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:175)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:56)
+2018-11-18 18:19:00 ERROR Crawler:277 - Can't start Crawler. Initialization failed.
+2018-11-18 18:19:03 ERROR Crawler:272 - 
+java.lang.NullPointerException
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:356)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:268)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:175)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:56)
+2018-11-18 18:19:03 ERROR Crawler:277 - Can't start Crawler. Initialization failed.
+2018-11-18 18:19:04 ERROR Crawler:272 - 
+java.lang.NullPointerException
+	at com.onycom.crawler.scraper.SeleniumScraper.connectSelenium(SeleniumScraper.java:356)
+	at com.onycom.crawler.scraper.SeleniumScraper.open(SeleniumScraper.java:51)
+	at com.onycom.SettingBasedCrawler.Crawler$1.start(Crawler.java:268)
+	at com.onycom.crawler.core.WorkManager.start(WorkManager.java:83)
+	at com.onycom.SettingBasedCrawler.Crawler.start(Crawler.java:175)
+	at com.onycom.SettingBasedCrawler.App.main(App.java:56)
+2018-11-18 18:19:04 ERROR Crawler:277 - Can't start Crawler. Initialization failed.

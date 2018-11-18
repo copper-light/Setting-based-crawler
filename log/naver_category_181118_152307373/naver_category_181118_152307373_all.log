@@ -1,0 +1,76 @@
+2018-11-18 15:23:07 INFO  Crawler:229 - ============== Start Crawler =============
+2018-11-18 15:23:07 INFO  Crawler:230 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-18 15:23:07 INFO  Crawler:232 - ARG LIST COUNT : 19
+2018-11-18 15:23:07 INFO  Crawler:237 - CMD PARAM 00   : 기아
+2018-11-18 15:23:07 INFO  Crawler:240 - CRAWLER NAME   : naver_category
+2018-11-18 15:23:07 INFO  Crawler:241 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-18 15:23:07 INFO  Crawler:242 - CRAWLER DELAY  : 0.8 sec
+2018-11-18 15:23:07 INFO  Crawler:243 - IGNORE ROBOTS  : true
+2018-11-18 15:23:07 INFO  Crawler:244 - LIMIT_COUNT    : 10
+2018-11-18 15:23:07 INFO  Crawler:245 - FILTER COUNT   : 0
+2018-11-18 15:23:07 INFO  Crawler:249 - SCENARIO COUNT : 1
+2018-11-18 15:23:07 INFO  Crawler:250 - COLLECT COUNT  : 1
+2018-11-18 15:23:07 INFO  Crawler:251 - SAVE TYPE      : DB
+2018-11-18 15:23:07 INFO  Crawler:252 - SAVE HTML      : false
+2018-11-18 15:23:07 INFO  Crawler:253 - ==========================================
+2018-11-18 15:23:11 INFO  Crawler:297 - [Progress 1] elaped time : 00:00:04, curSave : 0, Totalsave : 0, curErr : 0, totalErr : 0, remain_work : 2, total : 3
+2018-11-18 15:23:15 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:15 INFO  Crawler:297 - [Progress 2] elaped time : 00:00:07, curSave : 80, Totalsave : 80, curErr : 8, totalErr : 8, remain_work : 1, total : 3
+2018-11-18 15:23:15 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:23:15 INFO  Crawler:259 - CMD PARAM 00   : 현대
+2018-11-18 15:23:15 INFO  Crawler:261 - ==========================================
+2018-11-18 15:23:19 INFO  Crawler:297 - [Progress 3] elaped time : 00:00:12, curSave : 0, Totalsave : 80, curErr : 0, totalErr : 8, remain_work : 2, total : 6
+2018-11-18 15:23:22 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DATA.GOODS_ID)
+2018-11-18 15:23:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DATA.GOODS_ID)
+2018-11-18 15:23:22 INFO  Crawler:297 - [Progress 4] elaped time : 00:00:15, curSave : 78, Totalsave : 158, curErr : 10, totalErr : 18, remain_work : 1, total : 6
+2018-11-18 15:23:22 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:23:22 INFO  Crawler:259 - CMD PARAM 00   : 자동차
+2018-11-18 15:23:22 INFO  Crawler:261 - ==========================================
+2018-11-18 15:23:28 INFO  Crawler:297 - [Progress 5] elaped time : 00:00:20, curSave : 0, Totalsave : 158, curErr : 0, totalErr : 18, remain_work : 2, total : 9
+2018-11-18 15:23:31 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EC%9E%90%EB%8F%99%EC%B0%A8
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DATA.GOODS_ID)
+2018-11-18 15:23:31 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: DATA.GOODS_ID)
+2018-11-18 15:23:31 INFO  Crawler:297 - [Progress 6] elaped time : 00:00:23, curSave : 78, Totalsave : 236, curErr : 10, totalErr : 28, remain_work : 1, total : 9
+2018-11-18 15:23:31 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:23:31 INFO  Crawler:259 - CMD PARAM 00   : 김
+2018-11-18 15:23:31 INFO  Crawler:261 - ==========================================
+2018-11-18 15:23:35 INFO  Crawler:297 - [Progress 7] elaped time : 00:00:27, curSave : 0, Totalsave : 236, curErr : 0, totalErr : 28, remain_work : 2, total : 12
+2018-11-18 15:23:38 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B9%80
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 15:23:38 INFO  Crawler:297 - [Progress 8] elaped time : 00:00:31, curSave : 84, Totalsave : 320, curErr : 8, totalErr : 36, remain_work : 1, total : 12
+2018-11-18 15:23:38 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:23:38 INFO  Crawler:259 - CMD PARAM 00   : 광천김
+2018-11-18 15:23:38 INFO  Crawler:261 - ==========================================
+2018-11-18 15:23:42 INFO  Crawler:297 - [Progress 9] elaped time : 00:00:35, curSave : 0, Totalsave : 320, curErr : 0, totalErr : 36, remain_work : 2, total : 15

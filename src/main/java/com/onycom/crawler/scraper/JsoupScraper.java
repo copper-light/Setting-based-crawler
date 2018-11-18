@@ -79,4 +79,9 @@ public class JsoupScraper implements Scraper{
         return doc;
     }
 
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

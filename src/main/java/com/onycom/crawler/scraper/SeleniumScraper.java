@@ -134,13 +134,6 @@ public class SeleniumScraper implements Scraper {
                             }
                         }
                     }
-                    // 로딩 확인하고
-                    // if(urlInfo.getLoadCheckSelectors() != null &&
-                    // urlInfo.getLoadCheckSelectors().size() > 0){
-                    // for(String s : urlInfo.getLoadCheckSelectors()){
-                    // waitingForElement(mSeleniumDriver, s);
-                    // }
-                    // }
                     if (action.getTargetDepth() != -1) {
                         work.setParseType(Work.PARSE_SCENARIO);
                         work.setDepth(action.getTargetDepth());
@@ -228,6 +221,7 @@ public class SeleniumScraper implements Scraper {
         } else { // 액션 없는 seed 일 경우
             // URL 호출
             mSeleniumDriver.get(work.toString());
+            //mSeleniumDriver.
 
             // // 로딩 확인하고
             // if(urlInfo.getLoadCheckSelectors() != null){
@@ -273,7 +267,7 @@ public class SeleniumScraper implements Scraper {
 
     private static List<WebElement> waitingForAllElements(WebDriver wd, int wait_sec, String selector,
                                                           String empty_selector) {
-        List<WebElement> ret;
+        List<WebElement> ret = null;
         WebElement check_sub_load;
         long ms = wait_sec * 1000;
         long startTime = System.currentTimeMillis();
@@ -319,9 +313,9 @@ public class SeleniumScraper implements Scraper {
 
     private static boolean connectSelenium(Config config) {
         String os = System.getProperty("os.name").toLowerCase();
-        try {
-            if(config.SELENIUM_DRIVER_NAME.equalsIgnoreCase("chrome")){
-                if (mSeleniumDriver == null) {
+        if (mSeleniumDriver == null) {
+	        try {
+	            if(config.SELENIUM_DRIVER_NAME.equalsIgnoreCase("chrome")){
                     if(config.SELENIUM_DRIVER_PATH.isEmpty()){
                         if(os.indexOf("win") >= 0){
                             System.setProperty("webdriver.chrome.driver", "./web_driver/chromedriver.exe");
@@ -339,33 +333,33 @@ public class SeleniumScraper implements Scraper {
                         options.addArguments("headless");
                     }
                     mSeleniumDriver = new ChromeDriver(options);
-                }
-            }else{
-                DesiredCapabilities DesireCaps = new DesiredCapabilities();
-                if(config.SELENIUM_DRIVER_PATH.isEmpty()){
-                    if(os.indexOf("win") >= 0){
-                        DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                                "./web_driver/phantomjs.exe");
-                    }else{
-                        DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                                "./web_driver/phantomjs");
-                    }
-
-                }else {
-                    DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                            config.SELENIUM_DRIVER_PATH);
-                }
-
-                DesireCaps.setJavascriptEnabled(true);
-                //DesireCaps.setCapability("takesScreenshot", true);
-                mSeleniumDriver = new PhantomJSDriver(DesireCaps);
-            }
-            mSeleniumDriver.manage().window().setSize(new Dimension(1920, 1080));
-        } catch (IllegalStateException e) {
-            mLogger.error("Not found SeleniumDriver");
-            return false;
-        }
-
+	            }else{
+	                DesiredCapabilities DesireCaps = new DesiredCapabilities();
+	                if(config.SELENIUM_DRIVER_PATH.isEmpty()){
+	                    if(os.indexOf("win") >= 0){
+	                        DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+	                                "./web_driver/phantomjs.exe");
+	                    }else{
+	                        DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+	                                "./web_driver/phantomjs");
+	                    }
+	
+	                }else {
+	                    DesireCaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
+	                            config.SELENIUM_DRIVER_PATH);
+	                }
+	
+	                DesireCaps.setJavascriptEnabled(true);
+	                //DesireCaps.setCapability("takesScreenshot", true);
+	                mSeleniumDriver = new PhantomJSDriver(DesireCaps);
+	                mSeleniumDriver.manage().window().setSize(new Dimension(1920, 1080));
+	            }
+	            
+	        } catch (IllegalStateException e) {
+	            mLogger.error("Not found SeleniumDriver");
+	            return false;
+	        }
+	    }
         return true;
     }
 
@@ -375,4 +369,25 @@ public class SeleniumScraper implements Scraper {
             mSeleniumDriver = null;
         }
     }
+
+
+	public void clear() {
+		if(mSeleniumDriver != null) {
+            ArrayList<String> tab = new ArrayList<String>(mSeleniumDriver.getWindowHandles());
+            
+//            if(mSeleniumDriver.getClass() == PhantomJSDriver.class) {
+//            	((PhantomJSDriver) mSeleniumDriver).executeScript("window.open()", "");
+//            }else if(mSeleniumDriver.getClass() == ChromeDriver.class) {
+//            	JavascriptExecutor jse = (JavascriptExecutor) mSeleniumDriver;
+//                jse.executeScript("window.open()", "");
+//            }
+            JavascriptExecutor jse = (JavascriptExecutor) mSeleniumDriver;
+            jse.executeScript("window.open()", "");
+            
+            for(int i = 0 ; i < tab.size() ; i ++) {
+            	mSeleniumDriver.switchTo().window(tab.get(i));
+            	if((tab.size() -1) > i) mSeleniumDriver.close();
+            }
+		}
+	}
 }

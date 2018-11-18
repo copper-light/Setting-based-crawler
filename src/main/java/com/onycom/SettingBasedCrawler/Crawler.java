@@ -197,7 +197,7 @@ public class Crawler {
 			}
 		}
 		if(mProcessedCount > 0){
-			mLogger.info("============== 	 =============");
+			mLogger.info("============== Finish Crawling =============");
 			mLogger.info("[total time] "+ Util.GetElapedTime(mConfig.getStartTime()));
 			mLogger.info("[save contents] "+ mTotalSaveCnt);
 			mLogger.info("[error work] "+ mErrCnt);
@@ -313,6 +313,7 @@ public class Crawler {
 
 		public void finish(WorkDeque workDeque) {
 			mRemainWork += workDeque.getSize();
+			mScraper.clear();
 		}
 		
 		public void error() {

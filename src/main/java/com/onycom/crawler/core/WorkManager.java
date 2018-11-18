@@ -25,7 +25,7 @@ public class WorkManager {
 	private Scraper mScraper;
 	private Integer mWorkingCount = 0;
 	private int mThreadPoolSize = 1;
-	private int mWorkDelay = 5; // sec
+	private float mWorkDelay = 5; // sec
 	private WorkManagerListener mManagerListener;
 	private WorkDeque mDeque;
 	private WorkResultQueue mResultQueue;
@@ -77,7 +77,7 @@ public class WorkManager {
 		Work work;
 		List<Work> aryNewWork;
 		int robotDelay = 0;
-		long delay = mWorkDelay * 1000;
+		long delay = (long)(mWorkDelay * 1000);
 		//System.err.println("start notifyWorker() " + url + " / " + mThreadPoolSize);
 		if(mManagerListener!= null)	{
 			if(!mManagerListener.start()){
@@ -120,7 +120,7 @@ public class WorkManager {
 								
 								robotDelay = robots.getDelay("*");
 								if(mWorkDelay > robotDelay){
-									delay = mWorkDelay * 1000;
+									delay = (long)(mWorkDelay * 1000);
 								}else{
 									delay = robotDelay * 1000;
 								}

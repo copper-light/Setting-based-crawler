@@ -72,7 +72,7 @@ public class Config {
 	public boolean IGNORE_ROBOTS = false;
 
 	public String CRAWLING_TYPE = CRAWLING_TYPE_STATIC;
-	public int CRAWLING_DELAY = -1; // ms
+	public float CRAWLING_DELAY = -1; // ms
 	public int CRAWLING_MAX_COUNT = -1;
 	public int CRAWLING_MAX_DEPTH = -1;
 	public boolean CRAWLING_UPPER_SEARCH = false;
@@ -405,7 +405,7 @@ public class Config {
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_DELAY)){
-			CRAWLING_DELAY = root.getInt(KEY_CRAWLING_DELAY);
+			CRAWLING_DELAY = root.getFloat(KEY_CRAWLING_DELAY);
 		}
 		
 		if(!root.isNull(KEY_CRAWLING_MAX_COUNT)){

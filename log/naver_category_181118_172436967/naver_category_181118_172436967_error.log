@@ -1,0 +1,355 @@
+2018-11-18 17:24:44 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=3&viewType=list&sort=rel
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=4&viewType=list&sort=rel
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=5&viewType=list&sort=rel
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=6&viewType=list&sort=rel
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=7&viewType=list&sort=rel
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=8&viewType=list&sort=rel
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=9&viewType=list&sort=rel
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:54 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=10&viewType=list&sort=rel
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=11&viewType=list&sort=rel
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:57 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=12&viewType=list&sort=rel
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:58 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=13&viewType=list&sort=rel
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:24:59 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=14&viewType=list&sort=rel
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:01 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=15&viewType=list&sort=rel
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:02 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=16&viewType=list&sort=rel
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:03 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=17&viewType=list&sort=rel
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:04 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=18&viewType=list&sort=rel
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:06 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=19&viewType=list&sort=rel
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:07 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=20&viewType=list&sort=rel
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=21&viewType=list&sort=rel
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:10 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=22&viewType=list&sort=rel
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=23&viewType=list&sort=rel
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=24&viewType=list&sort=rel
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=25&viewType=list&sort=rel
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=26&viewType=list&sort=rel
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=27&viewType=list&sort=rel
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=28&viewType=list&sort=rel
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=29&viewType=list&sort=rel
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=30&viewType=list&sort=rel
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=31&viewType=list&sort=rel
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=32&viewType=list&sort=rel
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=33&viewType=list&sort=rel
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=34&viewType=list&sort=rel
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=35&viewType=list&sort=rel
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=36&viewType=list&sort=rel
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=37&viewType=list&sort=rel
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=38&viewType=list&sort=rel
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=39&viewType=list&sort=rel
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:34 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=40&viewType=list&sort=rel
+2018-11-18 17:25:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 17:25:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text

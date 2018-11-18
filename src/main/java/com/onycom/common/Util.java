@@ -183,28 +183,6 @@ public class Util  {
 				return selector;
 			}
 		}
-		//e.get
-		
-		
-//		if (id().length() > 0)
-//            return "#" + id();
-//
-//        // Translate HTML namespace ns:tag to CSS namespace syntax ns|tag
-//        String tagName = tagName().replace(':', '|');
-//        StringBuilder selector = new StringBuilder(tagName);
-//        String classes = StringUtil.join(classNames(), ".");
-//        if (classes.length() > 0)
-//            selector.append('.').append(classes);
-//
-//        if (parent() == null || parent() instanceof Document) // don't add Document to selector, as will always have a html node
-//            return selector.toString();
-//
-//        selector.insert(0, " > ");
-//        if (parent().select(selector.toString()).size() > 1)
-//            selector.append(String.format(
-//                ":nth-child(%d)", elementSiblingIndex() + 1));
-//
-//        return parent().cssSelector() + selector.toString();
 	}
 	
 	public static boolean WriteFile(String path, String data){

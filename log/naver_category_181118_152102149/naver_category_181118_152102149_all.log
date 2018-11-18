@@ -1,0 +1,73 @@
+2018-11-18 15:21:02 INFO  Crawler:229 - ============== Start Crawler =============
+2018-11-18 15:21:02 INFO  Crawler:230 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-18 15:21:02 INFO  Crawler:232 - ARG LIST COUNT : 19
+2018-11-18 15:21:02 INFO  Crawler:237 - CMD PARAM 00   : 기아
+2018-11-18 15:21:02 INFO  Crawler:240 - CRAWLER NAME   : naver_category
+2018-11-18 15:21:02 INFO  Crawler:241 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-18 15:21:02 INFO  Crawler:242 - CRAWLER DELAY  : 0.8 sec
+2018-11-18 15:21:02 INFO  Crawler:243 - IGNORE ROBOTS  : true
+2018-11-18 15:21:02 INFO  Crawler:244 - LIMIT_COUNT    : 9000
+2018-11-18 15:21:02 INFO  Crawler:245 - FILTER COUNT   : 0
+2018-11-18 15:21:02 INFO  Crawler:249 - SCENARIO COUNT : 1
+2018-11-18 15:21:02 INFO  Crawler:250 - COLLECT COUNT  : 1
+2018-11-18 15:21:02 INFO  Crawler:251 - SAVE TYPE      : DB
+2018-11-18 15:21:02 INFO  Crawler:252 - SAVE HTML      : false
+2018-11-18 15:21:02 INFO  Crawler:253 - ==========================================
+2018-11-18 15:21:07 ERROR WorkRunnable:82 - not found element {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:5985","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/21ea7fe0-eafa-11e8-9039-d7e00f99f7c5/url"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.NoSuchWindowException: {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:5985","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/21ea7fe0-eafa-11e8-9039-d7e00f99f7c5/url"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:228)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.NoSuchWindowException: {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:5985","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/21ea7fe0-eafa-11e8-9039-d7e00f99f7c5/url"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-4C1D4UJ', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+2018-11-18 15:21:07 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-18 15:21:07 ERROR Crawler:292 - L ERR : not found element {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:5985","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/21ea7fe0-eafa-11e8-9039-d7e00f99f7c5/url"}}
+Command duration or timeout: 0 milliseconds
+2018-11-18 15:21:07 INFO  Crawler:297 - [Progress 1] elaped time : 00:00:05, curSave : 0, Totalsave : 0, curErr : 1, totalErr : 1, remain_work : 0, total : 1
+2018-11-18 15:21:07 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:21:07 INFO  Crawler:259 - CMD PARAM 00   : 현대
+2018-11-18 15:21:07 INFO  Crawler:261 - ==========================================
+2018-11-18 15:21:09 ERROR WorkRunnable:82 - not found element {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:16431","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/235e8240-eafa-11e8-bcae-5d6c313c8f74/url"}}
+Command duration or timeout: 0 milliseconds
+org.openqa.selenium.NoSuchWindowException: {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:16431","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/235e8240-eafa-11e8-bcae-5d6c313c8f74/url"}}
+Command duration or timeout: 0 milliseconds
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:82)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:140)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.phantomjs.PhantomJSCommandExecutor.execute(PhantomJSCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.onycom.crawler.scraper.SeleniumScraper.getDocument(SeleniumScraper.java:228)
+	at com.onycom.crawler.core.WorkRunnable.run(WorkRunnable.java:69)
+	... 1 more
+Caused by: org.openqa.selenium.NoSuchWindowException: {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:16431","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/235e8240-eafa-11e8-bcae-5d6c313c8f74/url"}}
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'DESKTOP-4C1D4UJ', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+2018-11-18 15:21:09 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80
+2018-11-18 15:21:09 ERROR Crawler:292 - L ERR : not found element {"errorMessage":"Currently Window handle/name is invalid (closed?)","request":{"headers":{"Accept-Encoding":"gzip","Connection":"Keep-Alive","Content-Length":"109","Content-Type":"application/json; charset=utf-8","Host":"localhost:16431","User-Agent":"okhttp/3.9.1"},"httpVersion":"1.1","method":"POST","post":"{\"url\":\"https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/235e8240-eafa-11e8-bcae-5d6c313c8f74/url"}}
+Command duration or timeout: 0 milliseconds
+2018-11-18 15:21:09 INFO  Crawler:297 - [Progress 2] elaped time : 00:00:07, curSave : 0, Totalsave : 0, curErr : 1, totalErr : 2, remain_work : 0, total : 2
+2018-11-18 15:21:09 INFO  Crawler:256 - ============== update params =============
+2018-11-18 15:21:09 INFO  Crawler:259 - CMD PARAM 00   : 자동차
+2018-11-18 15:21:09 INFO  Crawler:261 - ==========================================

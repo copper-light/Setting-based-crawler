@@ -1,96 +1,106 @@
 {
-	"name" : "naver_category",
-	"arguments" :{
-		"get_type" : "csv",
-		"file_path" : "./config/keyword.csv",
-		"query" : "0"
+	"name": "naver_category",
+	"arguments": {
+		"get_type": "csv",
+		"file_path": "D:\\Downloads\\crawler\\euc-kr_sample.csv",
+		"query": "0",
+		"file_encode": "euc-kr"
 	},
-	
-	"db_id" : "root",
-	"db_pw" : "sairport2018",
-	"db_path" : "jdbc:sqlite:./data.db",
-
-	"seed" : {
-		"url" : "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC&pagingSize=80",
-		"type" : "GET",
-		"data" : [
-			{"key" : "query", "value" : "<%0%>"}
+	"db_id": "root",
+	"db_pw": "sairport2018",
+	"db_path": "jdbc:sqlite:./sqlite.db",
+	"seed": {
+		"url": "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC&pagingSize=80",
+		"type": "GET",
+		"data": [
+			{
+				"key": "query",
+				"value": "<%0%>"
+			}
 		]
 	},
-	"ignore_robots" : true,
-	"crawling_max_depth" : -1,
-	"crawling_type" : "SCENARIO_DYNAMIC",	
-	"crawling_delay" : 1,
-	"crawling_max_count" : -1,
-	"contents_save_type" : "DB",
-	"save_html" : false,
-	"output_file_path" : "",
-	"charset" : "UTF-8",
-	"selenium_driver_name" : "chrome",
-	"selenium_headless" : false,
-
-	"scenario" : [
-        {
-			"depth" : 0,
-			"action" : [
-				{"type":"parse_contents", "selector" : "#_search_list"}
+	"ignore_robots": true,
+	"crawling_max_depth": -1,
+	"crawling_type": "SCENARIO_DYNAMIC",
+	"crawling_delay": 0.5,
+	"crawling_max_count": 9000,
+	"contents_save_type": "DB",
+	"save_html": false,
+	"output_file_path": "",
+	"charset": "UTF-8",
+	"selenium_driver_name": "chromeeee",
+	"selenium_headless": true,
+	"scenario": [
+		{
+			"depth": 0,
+			"action": [
+				{
+					"type": "parse_contents",
+					"selector": "#_search_list"
+				},
+				{
+					"type": "click",
+					"selector": "#_result_paging > a.next",
+					"target_depth": 0
+				}
 			]
 		}
 	],
-	
-	"collect_recode" : [
+	"collect_recode": [
 		{
-			"depth" : 0,
-			"name" : "T_NAVER_SHP_CATEGORY_1",
-			"recode_selector" : "#_search_list > div.search_list.basis > ul > li > div.info",
-			"column" : [
+			"depth": 0,
+			"name": "data",
+			"recode_selector": "li._itemSection",
+			"column": [
 				{
-					"type" : "DATETIME",
-					"data_type" : "datetime",
-					"data_name" : "collected_time"
+					"type": "text",
+					"data_type": "varchar(300)",
+					"data_name": "keyword",
+					"value": "<%0%>"
 				},
 				{
-					"type" : "URL",
-					"data_type" : "varchar(300)",
-					"data_name" : "url"
-				},
-				{
-					"type" : "text",
-					"data_type" : "varchar(300)",
-					"data_name" : "keyword",
-					"value" : "<%0%>"
-				},
-				{
-					"data_type" : "varchar(200)",
-					"data_name" : "category",
-					"element" : [
+					"data_type": "varchar(200)",
+					"data_name": "category",
+					"element": [
 						{
-							"from_root" : false,
-							"selector":"span.depth > a", 
-						 	"type": "text"
+							"from_root": false,
+							"selector": "span.depth > a",
+							"type": "text"
 						}
 					]
-					
 				},
 				{
-					"data_type" : "varchar(200)",
-					"data_name" : "goods_name",
-					"regex_filter" : [],
-					"element" : [
+					"data_type": "varchar(200)",
+					"data_name": "goods_name",
+					"regex_filter": [],
+					"element": [
 						{
-							"from_root" : false,
-							"selector":"a.tit", 
-						 	"type": "text"
+							"from_root": false,
+							"selector": "a.tit",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(20)",
+					"data_name": "goods_id",
+					"key": true,
+					"element": [
+						{
+							"from_root": false,
+							"selector": "a.jjim",
+							"type": "attr=data-nv-mid"
 						}
 					]
 				}
 			]
 		}
 	],
-	
-	"post_processing" : {
-		"query" : [
-			"SELECT T1.KEYWORD as d1, 'Y' as d2 FROM ( SELECT KEYWORD, MAX(A.CNT) as MAX_CNT, SUM(A.CNT) as CNT, count(*) as category_count FROM ( SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY ) AS A GROUP BY KEYWORD) AS T1,(SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM T_NAVER_SHP_CATEGORY_1 GROUP BY KEYWORD, CATEGORY) AS T2 WHERE T1.KEYWORD = T2.KEYWORD AND T1.MAX_CNT = T2.CNT AND T1.CNT >= 70 AND T1.MAX_CNT > (T1.CNT * 0.5)"
+	"post_processing": {
+		"query": [
+			"CREATE TABLE IF NOT EXISTS RESULT (KEYWORD VARCHAR(30), MAX_CNT INT, TOTAL_COUNT INT, CATEGORY VARCHAR(100))",
+			"DELETE FROM RESULT",
+			"INSERT INTO RESULT (KEYWORD, MAX_CNT, TOTAL_COUNT, CATEGORY) SELECT KEYWORD, MAX(A.CNT) as MAX_CNT, SUM(A.CNT) as CNT, A.category FROM (SELECT KEYWORD, COUNT(*) AS CNT, CATEGORY FROM 'DATA' GROUP BY KEYWORD, CATEGORY HAVING CATEGORY IS NOT NULL ) AS A GROUP BY KEYWORD"
 		]
 	}
 }

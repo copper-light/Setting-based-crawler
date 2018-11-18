@@ -1,0 +1,422 @@
+2018-11-18 16:58:03 INFO  Crawler:229 - ============== Start Crawler =============
+2018-11-18 16:58:03 INFO  Crawler:230 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-18 16:58:03 INFO  Crawler:232 - ARG LIST COUNT : 19
+2018-11-18 16:58:03 INFO  Crawler:237 - CMD PARAM 00   : 기아
+2018-11-18 16:58:03 INFO  Crawler:240 - CRAWLER NAME   : naver_category
+2018-11-18 16:58:03 INFO  Crawler:241 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-18 16:58:03 INFO  Crawler:242 - CRAWLER DELAY  : 0.5 sec
+2018-11-18 16:58:03 INFO  Crawler:243 - IGNORE ROBOTS  : true
+2018-11-18 16:58:03 INFO  Crawler:244 - LIMIT_COUNT    : 9000
+2018-11-18 16:58:03 INFO  Crawler:245 - FILTER COUNT   : 0
+2018-11-18 16:58:03 INFO  Crawler:249 - SCENARIO COUNT : 1
+2018-11-18 16:58:03 INFO  Crawler:250 - COLLECT COUNT  : 1
+2018-11-18 16:58:03 INFO  Crawler:251 - SAVE TYPE      : DB
+2018-11-18 16:58:03 INFO  Crawler:252 - SAVE HTML      : false
+2018-11-18 16:58:03 INFO  Crawler:253 - ==========================================
+2018-11-18 16:58:07 INFO  Crawler:297 - [Progress 1] elaped time : 00:00:04, curSave : 0, Totalsave : 0, curErr : 0, totalErr : 0, remain_work : 2, total : 3
+2018-11-18 16:58:08 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:08 INFO  Crawler:297 - [Progress 2] elaped time : 00:00:04, curSave : 0, Totalsave : 0, curErr : 8, totalErr : 8, remain_work : 1, total : 3
+2018-11-18 16:58:09 INFO  Crawler:297 - [Progress 3] elaped time : 00:00:05, curSave : 0, Totalsave : 0, curErr : 8, totalErr : 8, remain_work : 2, total : 5
+2018-11-18 16:58:09 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:09 INFO  Crawler:297 - [Progress 4] elaped time : 00:00:06, curSave : 0, Totalsave : 0, curErr : 16, totalErr : 16, remain_work : 1, total : 5
+2018-11-18 16:58:10 INFO  Crawler:297 - [Progress 5] elaped time : 00:00:06, curSave : 0, Totalsave : 0, curErr : 16, totalErr : 16, remain_work : 2, total : 7
+2018-11-18 16:58:11 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=3&viewType=list&sort=rel
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:11 INFO  Crawler:297 - [Progress 6] elaped time : 00:00:07, curSave : 0, Totalsave : 0, curErr : 24, totalErr : 24, remain_work : 1, total : 7
+2018-11-18 16:58:11 INFO  Crawler:297 - [Progress 7] elaped time : 00:00:08, curSave : 0, Totalsave : 0, curErr : 24, totalErr : 24, remain_work : 2, total : 9
+2018-11-18 16:58:12 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=4&viewType=list&sort=rel
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:12 INFO  Crawler:297 - [Progress 8] elaped time : 00:00:08, curSave : 0, Totalsave : 0, curErr : 32, totalErr : 32, remain_work : 1, total : 9
+2018-11-18 16:58:13 INFO  Crawler:297 - [Progress 9] elaped time : 00:00:09, curSave : 0, Totalsave : 0, curErr : 32, totalErr : 32, remain_work : 2, total : 11
+2018-11-18 16:58:14 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=5&viewType=list&sort=rel
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:14 INFO  Crawler:297 - [Progress 10] elaped time : 00:00:10, curSave : 15, Totalsave : 15, curErr : 40, totalErr : 40, remain_work : 1, total : 11
+2018-11-18 16:58:14 INFO  Crawler:297 - [Progress 11] elaped time : 00:00:11, curSave : 15, Totalsave : 15, curErr : 40, totalErr : 40, remain_work : 2, total : 13
+2018-11-18 16:58:15 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=6&viewType=list&sort=rel
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:15 INFO  Crawler:297 - [Progress 12] elaped time : 00:00:11, curSave : 15, Totalsave : 15, curErr : 48, totalErr : 48, remain_work : 1, total : 13
+2018-11-18 16:58:16 INFO  Crawler:297 - [Progress 13] elaped time : 00:00:12, curSave : 15, Totalsave : 15, curErr : 48, totalErr : 48, remain_work : 2, total : 15
+2018-11-18 16:58:16 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=7&viewType=list&sort=rel
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:16 INFO  Crawler:297 - [Progress 14] elaped time : 00:00:13, curSave : 18, Totalsave : 18, curErr : 56, totalErr : 56, remain_work : 1, total : 15
+2018-11-18 16:58:17 INFO  Crawler:297 - [Progress 15] elaped time : 00:00:13, curSave : 18, Totalsave : 18, curErr : 56, totalErr : 56, remain_work : 2, total : 17
+2018-11-18 16:58:18 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=8&viewType=list&sort=rel
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:18 INFO  Crawler:297 - [Progress 16] elaped time : 00:00:14, curSave : 20, Totalsave : 20, curErr : 64, totalErr : 64, remain_work : 1, total : 17
+2018-11-18 16:58:18 INFO  Crawler:297 - [Progress 17] elaped time : 00:00:15, curSave : 20, Totalsave : 20, curErr : 64, totalErr : 64, remain_work : 2, total : 19
+2018-11-18 16:58:19 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=9&viewType=list&sort=rel
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:19 INFO  Crawler:297 - [Progress 18] elaped time : 00:00:15, curSave : 20, Totalsave : 20, curErr : 72, totalErr : 72, remain_work : 1, total : 19
+2018-11-18 16:58:19 INFO  Crawler:297 - [Progress 19] elaped time : 00:00:16, curSave : 20, Totalsave : 20, curErr : 72, totalErr : 72, remain_work : 2, total : 21
+2018-11-18 16:58:20 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=10&viewType=list&sort=rel
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:20 INFO  Crawler:297 - [Progress 20] elaped time : 00:00:17, curSave : 20, Totalsave : 20, curErr : 80, totalErr : 80, remain_work : 1, total : 21
+2018-11-18 16:58:21 INFO  Crawler:297 - [Progress 21] elaped time : 00:00:17, curSave : 20, Totalsave : 20, curErr : 80, totalErr : 80, remain_work : 2, total : 23
+2018-11-18 16:58:21 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=11&viewType=list&sort=rel
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:21 INFO  Crawler:297 - [Progress 22] elaped time : 00:00:18, curSave : 20, Totalsave : 20, curErr : 88, totalErr : 88, remain_work : 1, total : 23
+2018-11-18 16:58:22 INFO  Crawler:297 - [Progress 23] elaped time : 00:00:18, curSave : 20, Totalsave : 20, curErr : 88, totalErr : 88, remain_work : 2, total : 25
+2018-11-18 16:58:23 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=12&viewType=list&sort=rel
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:23 INFO  Crawler:297 - [Progress 24] elaped time : 00:00:19, curSave : 20, Totalsave : 20, curErr : 96, totalErr : 96, remain_work : 1, total : 25
+2018-11-18 16:58:23 INFO  Crawler:297 - [Progress 25] elaped time : 00:00:20, curSave : 20, Totalsave : 20, curErr : 96, totalErr : 96, remain_work : 2, total : 27
+2018-11-18 16:58:24 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=13&viewType=list&sort=rel
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:24 INFO  Crawler:297 - [Progress 26] elaped time : 00:00:20, curSave : 20, Totalsave : 20, curErr : 104, totalErr : 104, remain_work : 1, total : 27
+2018-11-18 16:58:25 INFO  Crawler:297 - [Progress 27] elaped time : 00:00:21, curSave : 20, Totalsave : 20, curErr : 104, totalErr : 104, remain_work : 2, total : 29
+2018-11-18 16:58:25 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=14&viewType=list&sort=rel
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:25 INFO  Crawler:297 - [Progress 28] elaped time : 00:00:22, curSave : 20, Totalsave : 20, curErr : 112, totalErr : 112, remain_work : 1, total : 29
+2018-11-18 16:58:26 INFO  Crawler:297 - [Progress 29] elaped time : 00:00:22, curSave : 20, Totalsave : 20, curErr : 112, totalErr : 112, remain_work : 2, total : 31
+2018-11-18 16:58:26 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=15&viewType=list&sort=rel
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:26 INFO  Crawler:297 - [Progress 30] elaped time : 00:00:23, curSave : 21, Totalsave : 21, curErr : 120, totalErr : 120, remain_work : 1, total : 31
+2018-11-18 16:58:27 INFO  Crawler:297 - [Progress 31] elaped time : 00:00:24, curSave : 21, Totalsave : 21, curErr : 120, totalErr : 120, remain_work : 2, total : 33
+2018-11-18 16:58:28 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=16&viewType=list&sort=rel
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:28 INFO  Crawler:297 - [Progress 32] elaped time : 00:00:24, curSave : 21, Totalsave : 21, curErr : 128, totalErr : 128, remain_work : 1, total : 33
+2018-11-18 16:58:28 INFO  Crawler:297 - [Progress 33] elaped time : 00:00:25, curSave : 21, Totalsave : 21, curErr : 128, totalErr : 128, remain_work : 2, total : 35
+2018-11-18 16:58:29 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=17&viewType=list&sort=rel
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:29 INFO  Crawler:297 - [Progress 34] elaped time : 00:00:25, curSave : 23, Totalsave : 23, curErr : 136, totalErr : 136, remain_work : 1, total : 35
+2018-11-18 16:58:30 INFO  Crawler:297 - [Progress 35] elaped time : 00:00:26, curSave : 23, Totalsave : 23, curErr : 136, totalErr : 136, remain_work : 2, total : 37
+2018-11-18 16:58:30 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=18&viewType=list&sort=rel
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:30 INFO  Crawler:297 - [Progress 36] elaped time : 00:00:27, curSave : 23, Totalsave : 23, curErr : 144, totalErr : 144, remain_work : 1, total : 37
+2018-11-18 16:58:31 INFO  Crawler:297 - [Progress 37] elaped time : 00:00:27, curSave : 23, Totalsave : 23, curErr : 144, totalErr : 144, remain_work : 2, total : 39
+2018-11-18 16:58:32 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=19&viewType=list&sort=rel
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:32 INFO  Crawler:297 - [Progress 38] elaped time : 00:00:28, curSave : 23, Totalsave : 23, curErr : 152, totalErr : 152, remain_work : 1, total : 39
+2018-11-18 16:58:32 INFO  Crawler:297 - [Progress 39] elaped time : 00:00:29, curSave : 23, Totalsave : 23, curErr : 152, totalErr : 152, remain_work : 2, total : 41
+2018-11-18 16:58:33 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=20&viewType=list&sort=rel
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:33 INFO  Crawler:297 - [Progress 40] elaped time : 00:00:29, curSave : 25, Totalsave : 25, curErr : 160, totalErr : 160, remain_work : 1, total : 41
+2018-11-18 16:58:34 INFO  Crawler:297 - [Progress 41] elaped time : 00:00:30, curSave : 25, Totalsave : 25, curErr : 160, totalErr : 160, remain_work : 2, total : 43
+2018-11-18 16:58:34 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=21&viewType=list&sort=rel
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:34 INFO  Crawler:297 - [Progress 42] elaped time : 00:00:31, curSave : 25, Totalsave : 25, curErr : 168, totalErr : 168, remain_work : 1, total : 43
+2018-11-18 16:58:35 INFO  Crawler:297 - [Progress 43] elaped time : 00:00:31, curSave : 25, Totalsave : 25, curErr : 168, totalErr : 168, remain_work : 2, total : 45
+2018-11-18 16:58:35 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=22&viewType=list&sort=rel
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:35 INFO  Crawler:297 - [Progress 44] elaped time : 00:00:32, curSave : 25, Totalsave : 25, curErr : 176, totalErr : 176, remain_work : 1, total : 45
+2018-11-18 16:58:36 INFO  Crawler:297 - [Progress 45] elaped time : 00:00:33, curSave : 25, Totalsave : 25, curErr : 176, totalErr : 176, remain_work : 2, total : 47
+2018-11-18 16:58:37 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=23&viewType=list&sort=rel
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:37 INFO  Crawler:297 - [Progress 46] elaped time : 00:00:33, curSave : 26, Totalsave : 26, curErr : 184, totalErr : 184, remain_work : 1, total : 47
+2018-11-18 16:58:37 INFO  Crawler:297 - [Progress 47] elaped time : 00:00:34, curSave : 26, Totalsave : 26, curErr : 184, totalErr : 184, remain_work : 2, total : 49
+2018-11-18 16:58:38 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=24&viewType=list&sort=rel
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:38 INFO  Crawler:297 - [Progress 48] elaped time : 00:00:35, curSave : 26, Totalsave : 26, curErr : 192, totalErr : 192, remain_work : 1, total : 49
+2018-11-18 16:58:39 INFO  Crawler:297 - [Progress 49] elaped time : 00:00:35, curSave : 26, Totalsave : 26, curErr : 192, totalErr : 192, remain_work : 2, total : 51
+2018-11-18 16:58:39 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=25&viewType=list&sort=rel
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:39 INFO  Crawler:297 - [Progress 50] elaped time : 00:00:36, curSave : 26, Totalsave : 26, curErr : 200, totalErr : 200, remain_work : 1, total : 51
+2018-11-18 16:58:40 INFO  Crawler:297 - [Progress 51] elaped time : 00:00:36, curSave : 26, Totalsave : 26, curErr : 200, totalErr : 200, remain_work : 2, total : 53
+2018-11-18 16:58:41 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=26&viewType=list&sort=rel
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:41 INFO  Crawler:297 - [Progress 52] elaped time : 00:00:37, curSave : 26, Totalsave : 26, curErr : 208, totalErr : 208, remain_work : 1, total : 53
+2018-11-18 16:58:41 INFO  Crawler:297 - [Progress 53] elaped time : 00:00:38, curSave : 26, Totalsave : 26, curErr : 208, totalErr : 208, remain_work : 2, total : 55
+2018-11-18 16:58:42 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=27&viewType=list&sort=rel
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:42 INFO  Crawler:297 - [Progress 54] elaped time : 00:00:38, curSave : 26, Totalsave : 26, curErr : 216, totalErr : 216, remain_work : 1, total : 55
+2018-11-18 16:58:42 INFO  Crawler:297 - [Progress 55] elaped time : 00:00:39, curSave : 26, Totalsave : 26, curErr : 216, totalErr : 216, remain_work : 2, total : 57
+2018-11-18 16:58:43 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=28&viewType=list&sort=rel
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:43 INFO  Crawler:297 - [Progress 56] elaped time : 00:00:40, curSave : 26, Totalsave : 26, curErr : 224, totalErr : 224, remain_work : 1, total : 57
+2018-11-18 16:58:44 INFO  Crawler:297 - [Progress 57] elaped time : 00:00:40, curSave : 26, Totalsave : 26, curErr : 224, totalErr : 224, remain_work : 2, total : 59
+2018-11-18 16:58:44 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=29&viewType=list&sort=rel
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:44 INFO  Crawler:297 - [Progress 58] elaped time : 00:00:41, curSave : 26, Totalsave : 26, curErr : 232, totalErr : 232, remain_work : 1, total : 59
+2018-11-18 16:58:45 INFO  Crawler:297 - [Progress 59] elaped time : 00:00:42, curSave : 26, Totalsave : 26, curErr : 232, totalErr : 232, remain_work : 2, total : 61
+2018-11-18 16:58:46 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=30&viewType=list&sort=rel
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:46 INFO  Crawler:297 - [Progress 60] elaped time : 00:00:42, curSave : 26, Totalsave : 26, curErr : 240, totalErr : 240, remain_work : 1, total : 61
+2018-11-18 16:58:46 INFO  Crawler:297 - [Progress 61] elaped time : 00:00:43, curSave : 26, Totalsave : 26, curErr : 240, totalErr : 240, remain_work : 2, total : 63
+2018-11-18 16:58:47 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=31&viewType=list&sort=rel
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:47 INFO  Crawler:297 - [Progress 62] elaped time : 00:00:43, curSave : 27, Totalsave : 27, curErr : 248, totalErr : 248, remain_work : 1, total : 63
+2018-11-18 16:58:48 INFO  Crawler:297 - [Progress 63] elaped time : 00:00:44, curSave : 27, Totalsave : 27, curErr : 248, totalErr : 248, remain_work : 2, total : 65
+2018-11-18 16:58:48 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=32&viewType=list&sort=rel
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:48 INFO  Crawler:297 - [Progress 64] elaped time : 00:00:45, curSave : 30, Totalsave : 30, curErr : 256, totalErr : 256, remain_work : 1, total : 65
+2018-11-18 16:58:49 INFO  Crawler:297 - [Progress 65] elaped time : 00:00:45, curSave : 30, Totalsave : 30, curErr : 256, totalErr : 256, remain_work : 2, total : 67
+2018-11-18 16:58:50 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=33&viewType=list&sort=rel
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:50 INFO  Crawler:297 - [Progress 66] elaped time : 00:00:46, curSave : 30, Totalsave : 30, curErr : 264, totalErr : 264, remain_work : 1, total : 67
+2018-11-18 16:58:50 INFO  Crawler:297 - [Progress 67] elaped time : 00:00:47, curSave : 30, Totalsave : 30, curErr : 264, totalErr : 264, remain_work : 2, total : 69
+2018-11-18 16:58:51 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=34&viewType=list&sort=rel
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:51 INFO  Crawler:297 - [Progress 68] elaped time : 00:00:47, curSave : 30, Totalsave : 30, curErr : 272, totalErr : 272, remain_work : 1, total : 69
+2018-11-18 16:58:52 INFO  Crawler:297 - [Progress 69] elaped time : 00:00:48, curSave : 30, Totalsave : 30, curErr : 272, totalErr : 272, remain_work : 2, total : 71
+2018-11-18 16:58:52 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=35&viewType=list&sort=rel
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:52 INFO  Crawler:297 - [Progress 70] elaped time : 00:00:49, curSave : 30, Totalsave : 30, curErr : 280, totalErr : 280, remain_work : 1, total : 71
+2018-11-18 16:58:53 INFO  Crawler:297 - [Progress 71] elaped time : 00:00:49, curSave : 30, Totalsave : 30, curErr : 280, totalErr : 280, remain_work : 2, total : 73
+2018-11-18 16:58:53 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=36&viewType=list&sort=rel
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:53 INFO  Crawler:297 - [Progress 72] elaped time : 00:00:50, curSave : 30, Totalsave : 30, curErr : 288, totalErr : 288, remain_work : 1, total : 73
+2018-11-18 16:58:54 INFO  Crawler:297 - [Progress 73] elaped time : 00:00:51, curSave : 30, Totalsave : 30, curErr : 288, totalErr : 288, remain_work : 2, total : 75
+2018-11-18 16:58:55 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=37&viewType=list&sort=rel
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-18 16:58:55 INFO  Crawler:297 - [Progress 74] elaped time : 00:00:51, curSave : 30, Totalsave : 30, curErr : 296, totalErr : 296, remain_work : 1, total : 75

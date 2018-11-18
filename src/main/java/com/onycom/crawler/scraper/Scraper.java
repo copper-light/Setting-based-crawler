@@ -14,4 +14,6 @@ public interface Scraper {
 
 	Document getDocument(Work work) throws Exception;
 	//void setConfig(Config config);
+	
+	void clear();
 }
