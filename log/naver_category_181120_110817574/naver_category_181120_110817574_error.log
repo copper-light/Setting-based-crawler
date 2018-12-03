@@ -1,0 +1,33 @@
+2018-11-20 11:08:24 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 11:08:29 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11123149561' for key 'PRIMARY'
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13920346913' for key 'PRIMARY'
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15621134005' for key 'PRIMARY'
+2018-11-20 11:08:30 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:30 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14462961727' for key 'PRIMARY'
+2018-11-20 11:08:31 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:08:31 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15621191956' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81374019827' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14104409365' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15615720722' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14428158697' for key 'PRIMARY'
+2018-11-20 11:08:39 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%95%8C%EB%AC%B8
+2018-11-20 11:08:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 11:08:43 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%95%8C%EB%AC%B8&origQuery=%EB%95%8C%EB%AC%B8&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14126458356' for key 'PRIMARY'
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80054097314' for key 'PRIMARY'
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8963011495' for key 'PRIMARY'
+2018-11-20 11:08:46 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B2%BD%EC%9A%B0&origQuery=%EA%B2%BD%EC%9A%B0&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:08:46 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357312270' for key 'PRIMARY'
+2018-11-20 11:08:46 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356219664' for key 'PRIMARY'
+2018-11-20 11:08:56 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%82%98&origQuery=%EB%82%98&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:56 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16121313539' for key 'PRIMARY'
+2018-11-20 11:09:02 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&origQuery=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:09:02 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16189356365' for key 'PRIMARY'
+2018-11-20 11:09:02 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16189437186' for key 'PRIMARY'
+2018-11-20 11:09:03 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&origQuery=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:09:03 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16192893006' for key 'PRIMARY'
+2018-11-20 11:09:08 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%8B%B5&origQuery=%EB%8B%B5&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:09:08 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15800422140' for key 'PRIMARY'

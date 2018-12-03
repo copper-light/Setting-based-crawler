@@ -16,6 +16,7 @@ public class Action{
 	public static String TYPE_FORWORD_WINDOW = "forword_window";
 	public static String TYPE_REFRESH_WINDOW = "refresh_window";
 	public static String TYPE_CLOSE_POPUP = "close_popup";
+	public static String TYPE_REMOVE_ELEMENTS = "remove_elements";
 
 	/**
 	 * depth 에 따라 시나리오가 흘러감

@@ -57,6 +57,8 @@ public class Crawler {
 	public String[] mCrawlingArgs;
 	public String mConfigPath;
 	
+	public static String BASE_PATH;
+	
 	public Crawler(int size, int delay){
 		mWorkManager = new WorkManager(size);
 		mWorkManager.setWorkDelay(delay);
@@ -167,7 +169,7 @@ public class Crawler {
 			return;
 		}
 		
-		CrawlerLog.SetName(mConfig.CRAWLING_NAME_AND_TIME);
+		CrawlerLog.SetName(mConfig.CRAWLING_NAME);
 		if(mLogger == null){
 			mLogger = CrawlerLog.GetInstance(Crawler.class);
 		}
@@ -303,6 +305,9 @@ public class Crawler {
 												mErrCnt,
 												workDeque.getSize(),
 												workDeque.getHistorySize()));
+			
+			System.out.println();
+			//mLogger.info(String.format());
 			/**
 			 * 크롤링 횟수 제한 설정이 있다면, 작업 날리기
 			 * */

@@ -8,6 +8,8 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
+import com.onycom.SettingBasedCrawler.Crawler;
+
 public class CrawlerLog {
 	static Logger mLogger;
 	
@@ -18,8 +20,8 @@ public class CrawlerLog {
 	}
 	
 	public static Logger GetInstanceSysout(Class logClass) {
-		String fileName = null;
-		String logName = LOGGER_NAME; 
+//		String fileName = null;
+//		String logName = LOGGER_NAME; 
 		mLogger = Logger.getLogger(logClass);
 		// 로그 파일 대한 패턴을 정의
 		String pattern = "%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n";
@@ -47,15 +49,16 @@ public class CrawlerLog {
 
 		DailyRollingFileAppender appender = null;
 		try {
-			fileName = "./log/" + logName + "/" + logName +"_error.log";
+			fileName = Crawler.BASE_PATH+ "/log/" + logName + "/" + logName +"_error.log";
 			appender = new DailyRollingFileAppender(layout, fileName, datePattern);
 			appender.setThreshold(Level.ERROR);
 			mLogger.addAppender(appender);
 
-			fileName = "./log/" + logName + "/" + logName +"_all.log";
+			fileName = Crawler.BASE_PATH+ "/log/" + logName + "/" + logName +"_all.log";
 			appender = new DailyRollingFileAppender(layout, fileName, datePattern);
 			appender.setThreshold(Level.ALL);
 			mLogger.addAppender(appender);
+			
 		} catch (IOException ioe) {
 			ioe.printStackTrace();
 		}

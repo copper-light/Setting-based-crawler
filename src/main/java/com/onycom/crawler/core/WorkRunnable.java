@@ -80,7 +80,7 @@ class WorkRunnable implements Runnable{
 				}else{
 					//info.result().addError(Work.Error.ERR_SCEN_ELEMENT, "");
 					mLogger.error("not found element " + e.getMessage(), e.fillInStackTrace());
-					info.result().addError(Work.Error.ERR, "not found element " + e.getMessage(), e);
+					info.result().addError(Work.Error.ERR, "not found element [" + info.getAction().getSelector() + " ] " + e.getMessage(), e);
 				}
 			} catch (Exception e) {
 				e.printStackTrace();

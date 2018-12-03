@@ -1,0 +1,31 @@
+2018-11-20 09:26:47 INFO  Crawler:229 - ============== Start Crawler =============
+2018-11-20 09:26:47 INFO  Crawler:230 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-20 09:26:47 INFO  Crawler:232 - ARG LIST COUNT : 366
+2018-11-20 09:26:47 INFO  Crawler:237 - CMD PARAM 00   : 기아
+2018-11-20 09:26:47 INFO  Crawler:240 - CRAWLER NAME   : naver_category
+2018-11-20 09:26:47 INFO  Crawler:241 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-20 09:26:47 INFO  Crawler:242 - CRAWLER DELAY  : 0.0 sec
+2018-11-20 09:26:47 INFO  Crawler:243 - IGNORE ROBOTS  : true
+2018-11-20 09:26:47 INFO  Crawler:244 - LIMIT_COUNT    : 9000
+2018-11-20 09:26:47 INFO  Crawler:245 - FILTER COUNT   : 0
+2018-11-20 09:26:47 INFO  Crawler:249 - SCENARIO COUNT : 1
+2018-11-20 09:26:47 INFO  Crawler:250 - COLLECT COUNT  : 1
+2018-11-20 09:26:47 INFO  Crawler:251 - SAVE TYPE      : DB
+2018-11-20 09:26:47 INFO  Crawler:252 - SAVE HTML      : false
+2018-11-20 09:26:47 INFO  Crawler:253 - ==========================================
+2018-11-20 09:26:53 INFO  Crawler:297 - [Progress 1] elaped time : 00:00:06, curSave : 0, Totalsave : 0, curErr : 0, totalErr : 0, remain_work : 3, total : 4
+2018-11-20 09:27:04 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-20 09:27:04 ERROR Crawler:292 - L ERR_ACTION : #_itemSection
+2018-11-20 09:27:04 INFO  Crawler:297 - [Progress 2] elaped time : 00:00:16, curSave : 0, Totalsave : 0, curErr : 1, totalErr : 1, remain_work : 2, total : 4
+2018-11-20 09:27:04 INFO  Crawler:297 - [Progress 3] elaped time : 00:00:16, curSave : 0, Totalsave : 0, curErr : 1, totalErr : 1, remain_work : 1, total : 4
+2018-11-20 09:27:06 INFO  Crawler:297 - [Progress 4] elaped time : 00:00:18, curSave : 0, Totalsave : 0, curErr : 1, totalErr : 1, remain_work : 3, total : 7
+2018-11-20 09:27:16 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 09:27:16 ERROR Crawler:292 - L ERR_ACTION : #_itemSection
+2018-11-20 09:27:16 INFO  Crawler:297 - [Progress 5] elaped time : 00:00:28, curSave : 0, Totalsave : 0, curErr : 2, totalErr : 2, remain_work : 2, total : 7
+2018-11-20 09:27:16 INFO  Crawler:297 - [Progress 6] elaped time : 00:00:28, curSave : 0, Totalsave : 0, curErr : 2, totalErr : 2, remain_work : 1, total : 7
+2018-11-20 09:27:18 INFO  Crawler:297 - [Progress 7] elaped time : 00:00:30, curSave : 0, Totalsave : 0, curErr : 2, totalErr : 2, remain_work : 3, total : 10
+2018-11-20 09:27:28 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 09:27:28 ERROR Crawler:292 - L ERR_ACTION : #_itemSection
+2018-11-20 09:27:28 INFO  Crawler:297 - [Progress 8] elaped time : 00:00:40, curSave : 0, Totalsave : 0, curErr : 3, totalErr : 3, remain_work : 2, total : 10
+2018-11-20 09:27:28 INFO  Crawler:297 - [Progress 9] elaped time : 00:00:40, curSave : 0, Totalsave : 0, curErr : 3, totalErr : 3, remain_work : 1, total : 10
+2018-11-20 09:27:30 INFO  Crawler:297 - [Progress 10] elaped time : 00:00:42, curSave : 0, Totalsave : 0, curErr : 3, totalErr : 3, remain_work : 3, total : 13

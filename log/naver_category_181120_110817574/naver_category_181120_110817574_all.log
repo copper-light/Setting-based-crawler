@@ -1,0 +1,174 @@
+2018-11-20 11:08:17 INFO  Crawler:229 - ============== Start Crawler =============
+2018-11-20 11:08:17 INFO  Crawler:230 - CONFIG FILE    : ./config/config_naver_shopping_category.json
+2018-11-20 11:08:17 INFO  Crawler:232 - ARG LIST COUNT : 366
+2018-11-20 11:08:17 INFO  Crawler:237 - CMD PARAM 00   : 기아
+2018-11-20 11:08:17 INFO  Crawler:240 - CRAWLER NAME   : naver_category
+2018-11-20 11:08:17 INFO  Crawler:241 - CRAWLER TYPE   : SCENARIO_DYNAMIC
+2018-11-20 11:08:17 INFO  Crawler:242 - CRAWLER DELAY  : 0.0 sec
+2018-11-20 11:08:17 INFO  Crawler:243 - IGNORE ROBOTS  : true
+2018-11-20 11:08:17 INFO  Crawler:244 - LIMIT_COUNT    : 300
+2018-11-20 11:08:17 INFO  Crawler:245 - FILTER COUNT   : 0
+2018-11-20 11:08:17 INFO  Crawler:249 - SCENARIO COUNT : 1
+2018-11-20 11:08:17 INFO  Crawler:250 - COLLECT COUNT  : 1
+2018-11-20 11:08:17 INFO  Crawler:251 - SAVE TYPE      : DB
+2018-11-20 11:08:17 INFO  Crawler:252 - SAVE HTML      : false
+2018-11-20 11:08:17 INFO  Crawler:253 - ==========================================
+2018-11-20 11:08:23 INFO  Crawler:297 - [Progress 1] elaped time : 00:00:05, curSave : 0, Totalsave : 0, curErr : 0, totalErr : 0, remain_work : 3, total : 4
+2018-11-20 11:08:23 INFO  Crawler:297 - [Progress 2] elaped time : 00:00:06, curSave : 80, Totalsave : 80, curErr : 0, totalErr : 0, remain_work : 2, total : 4
+2018-11-20 11:08:24 INFO  Crawler:297 - [Progress 3] elaped time : 00:00:06, curSave : 80, Totalsave : 80, curErr : 0, totalErr : 0, remain_work : 1, total : 4
+2018-11-20 11:08:24 INFO  Crawler:297 - [Progress 4] elaped time : 00:00:06, curSave : 80, Totalsave : 80, curErr : 0, totalErr : 0, remain_work : 3, total : 7
+2018-11-20 11:08:24 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 11:08:24 INFO  Crawler:297 - [Progress 5] elaped time : 00:00:07, curSave : 159, Totalsave : 159, curErr : 1, totalErr : 1, remain_work : 2, total : 7
+2018-11-20 11:08:24 INFO  Crawler:297 - [Progress 6] elaped time : 00:00:07, curSave : 159, Totalsave : 159, curErr : 1, totalErr : 1, remain_work : 1, total : 7
+2018-11-20 11:08:25 INFO  Crawler:297 - [Progress 7] elaped time : 00:00:07, curSave : 159, Totalsave : 159, curErr : 1, totalErr : 1, remain_work : 3, total : 10
+2018-11-20 11:08:26 INFO  Crawler:297 - [Progress 8] elaped time : 00:00:08, curSave : 239, Totalsave : 239, curErr : 1, totalErr : 1, remain_work : 2, total : 10
+2018-11-20 11:08:26 INFO  Crawler:297 - [Progress 9] elaped time : 00:00:08, curSave : 239, Totalsave : 239, curErr : 1, totalErr : 1, remain_work : 1, total : 10
+2018-11-20 11:08:26 INFO  Crawler:297 - [Progress 10] elaped time : 00:00:08, curSave : 239, Totalsave : 239, curErr : 1, totalErr : 1, remain_work : 3, total : 13
+2018-11-20 11:08:27 INFO  Crawler:297 - [Progress 11] elaped time : 00:00:09, curSave : 319, Totalsave : 319, curErr : 1, totalErr : 1, remain_work : 2, total : 13
+2018-11-20 11:08:27 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:27 INFO  Crawler:259 - CMD PARAM 00   : 현대
+2018-11-20 11:08:27 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:29 INFO  Crawler:297 - [Progress 12] elaped time : 00:00:11, curSave : 0, Totalsave : 319, curErr : 0, totalErr : 1, remain_work : 3, total : 17
+2018-11-20 11:08:29 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%ED%98%84%EB%8C%80
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11123149561' for key 'PRIMARY'
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13920346913' for key 'PRIMARY'
+2018-11-20 11:08:29 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15621134005' for key 'PRIMARY'
+2018-11-20 11:08:29 INFO  Crawler:297 - [Progress 13] elaped time : 00:00:11, curSave : 77, Totalsave : 396, curErr : 3, totalErr : 4, remain_work : 2, total : 17
+2018-11-20 11:08:29 INFO  Crawler:297 - [Progress 14] elaped time : 00:00:11, curSave : 77, Totalsave : 396, curErr : 3, totalErr : 4, remain_work : 1, total : 17
+2018-11-20 11:08:29 INFO  Crawler:297 - [Progress 15] elaped time : 00:00:12, curSave : 77, Totalsave : 396, curErr : 3, totalErr : 4, remain_work : 3, total : 20
+2018-11-20 11:08:30 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:30 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14462961727' for key 'PRIMARY'
+2018-11-20 11:08:30 INFO  Crawler:297 - [Progress 16] elaped time : 00:00:13, curSave : 156, Totalsave : 475, curErr : 4, totalErr : 5, remain_work : 2, total : 20
+2018-11-20 11:08:30 INFO  Crawler:297 - [Progress 17] elaped time : 00:00:13, curSave : 156, Totalsave : 475, curErr : 4, totalErr : 5, remain_work : 1, total : 20
+2018-11-20 11:08:30 INFO  Crawler:297 - [Progress 18] elaped time : 00:00:13, curSave : 156, Totalsave : 475, curErr : 4, totalErr : 5, remain_work : 3, total : 23
+2018-11-20 11:08:31 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:08:31 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15621191956' for key 'PRIMARY'
+2018-11-20 11:08:31 INFO  Crawler:297 - [Progress 19] elaped time : 00:00:14, curSave : 235, Totalsave : 554, curErr : 5, totalErr : 6, remain_work : 2, total : 23
+2018-11-20 11:08:31 INFO  Crawler:297 - [Progress 20] elaped time : 00:00:14, curSave : 235, Totalsave : 554, curErr : 5, totalErr : 6, remain_work : 1, total : 23
+2018-11-20 11:08:32 INFO  Crawler:297 - [Progress 21] elaped time : 00:00:14, curSave : 235, Totalsave : 554, curErr : 5, totalErr : 6, remain_work : 3, total : 26
+2018-11-20 11:08:32 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%ED%98%84%EB%8C%80&origQuery=%ED%98%84%EB%8C%80&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81374019827' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14104409365' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15615720722' for key 'PRIMARY'
+2018-11-20 11:08:32 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14428158697' for key 'PRIMARY'
+2018-11-20 11:08:32 INFO  Crawler:297 - [Progress 22] elaped time : 00:00:15, curSave : 311, Totalsave : 630, curErr : 9, totalErr : 10, remain_work : 2, total : 26
+2018-11-20 11:08:33 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:33 INFO  Crawler:259 - CMD PARAM 00   : 때
+2018-11-20 11:08:33 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:34 INFO  Crawler:297 - [Progress 23] elaped time : 00:00:17, curSave : 0, Totalsave : 630, curErr : 0, totalErr : 10, remain_work : 3, total : 30
+2018-11-20 11:08:34 INFO  Crawler:297 - [Progress 24] elaped time : 00:00:17, curSave : 80, Totalsave : 710, curErr : 0, totalErr : 10, remain_work : 2, total : 30
+2018-11-20 11:08:34 INFO  Crawler:297 - [Progress 25] elaped time : 00:00:17, curSave : 80, Totalsave : 710, curErr : 0, totalErr : 10, remain_work : 1, total : 30
+2018-11-20 11:08:35 INFO  Crawler:297 - [Progress 26] elaped time : 00:00:17, curSave : 80, Totalsave : 710, curErr : 0, totalErr : 10, remain_work : 3, total : 33
+2018-11-20 11:08:35 INFO  Crawler:297 - [Progress 27] elaped time : 00:00:18, curSave : 160, Totalsave : 790, curErr : 0, totalErr : 10, remain_work : 2, total : 33
+2018-11-20 11:08:36 INFO  Crawler:297 - [Progress 28] elaped time : 00:00:18, curSave : 160, Totalsave : 790, curErr : 0, totalErr : 10, remain_work : 1, total : 33
+2018-11-20 11:08:36 INFO  Crawler:297 - [Progress 29] elaped time : 00:00:18, curSave : 160, Totalsave : 790, curErr : 0, totalErr : 10, remain_work : 3, total : 36
+2018-11-20 11:08:37 INFO  Crawler:297 - [Progress 30] elaped time : 00:00:19, curSave : 240, Totalsave : 870, curErr : 0, totalErr : 10, remain_work : 2, total : 36
+2018-11-20 11:08:37 INFO  Crawler:297 - [Progress 31] elaped time : 00:00:19, curSave : 240, Totalsave : 870, curErr : 0, totalErr : 10, remain_work : 1, total : 36
+2018-11-20 11:08:37 INFO  Crawler:297 - [Progress 32] elaped time : 00:00:19, curSave : 240, Totalsave : 870, curErr : 0, totalErr : 10, remain_work : 3, total : 39
+2018-11-20 11:08:38 INFO  Crawler:297 - [Progress 33] elaped time : 00:00:20, curSave : 320, Totalsave : 950, curErr : 0, totalErr : 10, remain_work : 2, total : 39
+2018-11-20 11:08:38 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:38 INFO  Crawler:259 - CMD PARAM 00   : 때문
+2018-11-20 11:08:38 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:39 INFO  Crawler:297 - [Progress 34] elaped time : 00:00:21, curSave : 0, Totalsave : 950, curErr : 0, totalErr : 10, remain_work : 3, total : 43
+2018-11-20 11:08:39 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EB%95%8C%EB%AC%B8
+2018-11-20 11:08:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 11:08:39 INFO  Crawler:297 - [Progress 35] elaped time : 00:00:22, curSave : 79, Totalsave : 1029, curErr : 1, totalErr : 11, remain_work : 2, total : 43
+2018-11-20 11:08:39 INFO  Crawler:297 - [Progress 36] elaped time : 00:00:22, curSave : 79, Totalsave : 1029, curErr : 1, totalErr : 11, remain_work : 1, total : 43
+2018-11-20 11:08:39 INFO  Crawler:297 - [Progress 37] elaped time : 00:00:22, curSave : 79, Totalsave : 1029, curErr : 1, totalErr : 11, remain_work : 3, total : 46
+2018-11-20 11:08:40 INFO  Crawler:297 - [Progress 38] elaped time : 00:00:23, curSave : 159, Totalsave : 1109, curErr : 1, totalErr : 11, remain_work : 2, total : 46
+2018-11-20 11:08:40 INFO  Crawler:297 - [Progress 39] elaped time : 00:00:23, curSave : 159, Totalsave : 1109, curErr : 1, totalErr : 11, remain_work : 1, total : 46
+2018-11-20 11:08:40 INFO  Crawler:297 - [Progress 40] elaped time : 00:00:23, curSave : 159, Totalsave : 1109, curErr : 1, totalErr : 11, remain_work : 3, total : 49
+2018-11-20 11:08:41 INFO  Crawler:297 - [Progress 41] elaped time : 00:00:24, curSave : 239, Totalsave : 1189, curErr : 1, totalErr : 11, remain_work : 2, total : 49
+2018-11-20 11:08:41 INFO  Crawler:297 - [Progress 42] elaped time : 00:00:24, curSave : 239, Totalsave : 1189, curErr : 1, totalErr : 11, remain_work : 1, total : 49
+2018-11-20 11:08:42 INFO  Crawler:297 - [Progress 43] elaped time : 00:00:24, curSave : 239, Totalsave : 1189, curErr : 1, totalErr : 11, remain_work : 3, total : 52
+2018-11-20 11:08:43 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%95%8C%EB%AC%B8&origQuery=%EB%95%8C%EB%AC%B8&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14126458356' for key 'PRIMARY'
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80054097314' for key 'PRIMARY'
+2018-11-20 11:08:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8963011495' for key 'PRIMARY'
+2018-11-20 11:08:43 INFO  Crawler:297 - [Progress 44] elaped time : 00:00:25, curSave : 316, Totalsave : 1266, curErr : 4, totalErr : 14, remain_work : 2, total : 52
+2018-11-20 11:08:43 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:43 INFO  Crawler:259 - CMD PARAM 00   : 경우
+2018-11-20 11:08:43 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:44 INFO  Crawler:297 - [Progress 45] elaped time : 00:00:26, curSave : 0, Totalsave : 1266, curErr : 0, totalErr : 14, remain_work : 3, total : 56
+2018-11-20 11:08:44 INFO  Crawler:297 - [Progress 46] elaped time : 00:00:26, curSave : 80, Totalsave : 1346, curErr : 0, totalErr : 14, remain_work : 2, total : 56
+2018-11-20 11:08:44 INFO  Crawler:297 - [Progress 47] elaped time : 00:00:27, curSave : 80, Totalsave : 1346, curErr : 0, totalErr : 14, remain_work : 1, total : 56
+2018-11-20 11:08:44 INFO  Crawler:297 - [Progress 48] elaped time : 00:00:27, curSave : 80, Totalsave : 1346, curErr : 0, totalErr : 14, remain_work : 3, total : 59
+2018-11-20 11:08:45 INFO  Crawler:297 - [Progress 49] elaped time : 00:00:28, curSave : 160, Totalsave : 1426, curErr : 0, totalErr : 14, remain_work : 2, total : 59
+2018-11-20 11:08:45 INFO  Crawler:297 - [Progress 50] elaped time : 00:00:28, curSave : 160, Totalsave : 1426, curErr : 0, totalErr : 14, remain_work : 1, total : 59
+2018-11-20 11:08:45 INFO  Crawler:297 - [Progress 51] elaped time : 00:00:28, curSave : 160, Totalsave : 1426, curErr : 0, totalErr : 14, remain_work : 3, total : 62
+2018-11-20 11:08:46 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B2%BD%EC%9A%B0&origQuery=%EA%B2%BD%EC%9A%B0&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:08:46 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357312270' for key 'PRIMARY'
+2018-11-20 11:08:46 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356219664' for key 'PRIMARY'
+2018-11-20 11:08:46 INFO  Crawler:297 - [Progress 52] elaped time : 00:00:29, curSave : 238, Totalsave : 1504, curErr : 2, totalErr : 16, remain_work : 2, total : 62
+2018-11-20 11:08:46 INFO  Crawler:297 - [Progress 53] elaped time : 00:00:29, curSave : 238, Totalsave : 1504, curErr : 2, totalErr : 16, remain_work : 1, total : 62
+2018-11-20 11:08:47 INFO  Crawler:297 - [Progress 54] elaped time : 00:00:29, curSave : 238, Totalsave : 1504, curErr : 2, totalErr : 16, remain_work : 3, total : 65
+2018-11-20 11:08:47 INFO  Crawler:297 - [Progress 55] elaped time : 00:00:30, curSave : 318, Totalsave : 1584, curErr : 2, totalErr : 16, remain_work : 2, total : 65
+2018-11-20 11:08:47 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:47 INFO  Crawler:259 - CMD PARAM 00   : 것
+2018-11-20 11:08:47 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:49 INFO  Crawler:297 - [Progress 56] elaped time : 00:00:32, curSave : 0, Totalsave : 1584, curErr : 0, totalErr : 16, remain_work : 3, total : 69
+2018-11-20 11:08:49 INFO  Crawler:297 - [Progress 57] elaped time : 00:00:32, curSave : 80, Totalsave : 1664, curErr : 0, totalErr : 16, remain_work : 2, total : 69
+2018-11-20 11:08:49 INFO  Crawler:297 - [Progress 58] elaped time : 00:00:32, curSave : 80, Totalsave : 1664, curErr : 0, totalErr : 16, remain_work : 1, total : 69
+2018-11-20 11:08:50 INFO  Crawler:297 - [Progress 59] elaped time : 00:00:32, curSave : 80, Totalsave : 1664, curErr : 0, totalErr : 16, remain_work : 3, total : 72
+2018-11-20 11:08:50 INFO  Crawler:297 - [Progress 60] elaped time : 00:00:33, curSave : 160, Totalsave : 1744, curErr : 0, totalErr : 16, remain_work : 2, total : 72
+2018-11-20 11:08:51 INFO  Crawler:297 - [Progress 61] elaped time : 00:00:33, curSave : 160, Totalsave : 1744, curErr : 0, totalErr : 16, remain_work : 1, total : 72
+2018-11-20 11:08:51 INFO  Crawler:297 - [Progress 62] elaped time : 00:00:33, curSave : 160, Totalsave : 1744, curErr : 0, totalErr : 16, remain_work : 3, total : 75
+2018-11-20 11:08:52 INFO  Crawler:297 - [Progress 63] elaped time : 00:00:34, curSave : 240, Totalsave : 1824, curErr : 0, totalErr : 16, remain_work : 2, total : 75
+2018-11-20 11:08:52 INFO  Crawler:297 - [Progress 64] elaped time : 00:00:34, curSave : 240, Totalsave : 1824, curErr : 0, totalErr : 16, remain_work : 1, total : 75
+2018-11-20 11:08:52 INFO  Crawler:297 - [Progress 65] elaped time : 00:00:34, curSave : 240, Totalsave : 1824, curErr : 0, totalErr : 16, remain_work : 3, total : 78
+2018-11-20 11:08:53 INFO  Crawler:297 - [Progress 66] elaped time : 00:00:35, curSave : 320, Totalsave : 1904, curErr : 0, totalErr : 16, remain_work : 2, total : 78
+2018-11-20 11:08:53 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:53 INFO  Crawler:259 - CMD PARAM 00   : 나
+2018-11-20 11:08:53 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:54 INFO  Crawler:297 - [Progress 67] elaped time : 00:00:37, curSave : 0, Totalsave : 1904, curErr : 0, totalErr : 16, remain_work : 3, total : 82
+2018-11-20 11:08:55 INFO  Crawler:297 - [Progress 68] elaped time : 00:00:37, curSave : 80, Totalsave : 1984, curErr : 0, totalErr : 16, remain_work : 2, total : 82
+2018-11-20 11:08:55 INFO  Crawler:297 - [Progress 69] elaped time : 00:00:37, curSave : 80, Totalsave : 1984, curErr : 0, totalErr : 16, remain_work : 1, total : 82
+2018-11-20 11:08:55 INFO  Crawler:297 - [Progress 70] elaped time : 00:00:37, curSave : 80, Totalsave : 1984, curErr : 0, totalErr : 16, remain_work : 3, total : 85
+2018-11-20 11:08:56 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%82%98&origQuery=%EB%82%98&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 11:08:56 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16121313539' for key 'PRIMARY'
+2018-11-20 11:08:56 INFO  Crawler:297 - [Progress 71] elaped time : 00:00:38, curSave : 159, Totalsave : 2063, curErr : 1, totalErr : 17, remain_work : 2, total : 85
+2018-11-20 11:08:56 INFO  Crawler:297 - [Progress 72] elaped time : 00:00:38, curSave : 159, Totalsave : 2063, curErr : 1, totalErr : 17, remain_work : 1, total : 85
+2018-11-20 11:08:56 INFO  Crawler:297 - [Progress 73] elaped time : 00:00:38, curSave : 159, Totalsave : 2063, curErr : 1, totalErr : 17, remain_work : 3, total : 88
+2018-11-20 11:08:57 INFO  Crawler:297 - [Progress 74] elaped time : 00:00:39, curSave : 239, Totalsave : 2143, curErr : 1, totalErr : 17, remain_work : 2, total : 88
+2018-11-20 11:08:57 INFO  Crawler:297 - [Progress 75] elaped time : 00:00:39, curSave : 239, Totalsave : 2143, curErr : 1, totalErr : 17, remain_work : 1, total : 88
+2018-11-20 11:08:57 INFO  Crawler:297 - [Progress 76] elaped time : 00:00:40, curSave : 239, Totalsave : 2143, curErr : 1, totalErr : 17, remain_work : 3, total : 91
+2018-11-20 11:08:58 INFO  Crawler:297 - [Progress 77] elaped time : 00:00:41, curSave : 319, Totalsave : 2223, curErr : 1, totalErr : 17, remain_work : 2, total : 91
+2018-11-20 11:08:58 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:08:58 INFO  Crawler:259 - CMD PARAM 00   : 컴포넌트
+2018-11-20 11:08:58 INFO  Crawler:261 - ==========================================
+2018-11-20 11:08:59 INFO  Crawler:297 - [Progress 78] elaped time : 00:00:42, curSave : 0, Totalsave : 2223, curErr : 0, totalErr : 17, remain_work : 3, total : 95
+2018-11-20 11:09:00 INFO  Crawler:297 - [Progress 79] elaped time : 00:00:42, curSave : 80, Totalsave : 2303, curErr : 0, totalErr : 17, remain_work : 2, total : 95
+2018-11-20 11:09:00 INFO  Crawler:297 - [Progress 80] elaped time : 00:00:42, curSave : 80, Totalsave : 2303, curErr : 0, totalErr : 17, remain_work : 1, total : 95
+2018-11-20 11:09:00 INFO  Crawler:297 - [Progress 81] elaped time : 00:00:42, curSave : 80, Totalsave : 2303, curErr : 0, totalErr : 17, remain_work : 3, total : 98
+2018-11-20 11:09:01 INFO  Crawler:297 - [Progress 82] elaped time : 00:00:43, curSave : 160, Totalsave : 2383, curErr : 0, totalErr : 17, remain_work : 2, total : 98
+2018-11-20 11:09:01 INFO  Crawler:297 - [Progress 83] elaped time : 00:00:43, curSave : 160, Totalsave : 2383, curErr : 0, totalErr : 17, remain_work : 1, total : 98
+2018-11-20 11:09:01 INFO  Crawler:297 - [Progress 84] elaped time : 00:00:43, curSave : 160, Totalsave : 2383, curErr : 0, totalErr : 17, remain_work : 3, total : 101
+2018-11-20 11:09:02 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&origQuery=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 11:09:02 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16189356365' for key 'PRIMARY'
+2018-11-20 11:09:02 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16189437186' for key 'PRIMARY'
+2018-11-20 11:09:02 INFO  Crawler:297 - [Progress 85] elaped time : 00:00:44, curSave : 238, Totalsave : 2461, curErr : 2, totalErr : 19, remain_work : 2, total : 101
+2018-11-20 11:09:02 INFO  Crawler:297 - [Progress 86] elaped time : 00:00:44, curSave : 238, Totalsave : 2461, curErr : 2, totalErr : 19, remain_work : 1, total : 101
+2018-11-20 11:09:02 INFO  Crawler:297 - [Progress 87] elaped time : 00:00:45, curSave : 238, Totalsave : 2461, curErr : 2, totalErr : 19, remain_work : 3, total : 104
+2018-11-20 11:09:03 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&origQuery=%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:09:03 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16192893006' for key 'PRIMARY'
+2018-11-20 11:09:03 INFO  Crawler:297 - [Progress 88] elaped time : 00:00:45, curSave : 317, Totalsave : 2540, curErr : 3, totalErr : 20, remain_work : 2, total : 104
+2018-11-20 11:09:03 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:09:03 INFO  Crawler:259 - CMD PARAM 00   : 답
+2018-11-20 11:09:03 INFO  Crawler:261 - ==========================================
+2018-11-20 11:09:04 INFO  Crawler:297 - [Progress 89] elaped time : 00:00:47, curSave : 0, Totalsave : 2540, curErr : 0, totalErr : 20, remain_work : 3, total : 108
+2018-11-20 11:09:05 INFO  Crawler:297 - [Progress 90] elaped time : 00:00:47, curSave : 80, Totalsave : 2620, curErr : 0, totalErr : 20, remain_work : 2, total : 108
+2018-11-20 11:09:05 INFO  Crawler:297 - [Progress 91] elaped time : 00:00:47, curSave : 80, Totalsave : 2620, curErr : 0, totalErr : 20, remain_work : 1, total : 108
+2018-11-20 11:09:05 INFO  Crawler:297 - [Progress 92] elaped time : 00:00:47, curSave : 80, Totalsave : 2620, curErr : 0, totalErr : 20, remain_work : 3, total : 111
+2018-11-20 11:09:06 INFO  Crawler:297 - [Progress 93] elaped time : 00:00:48, curSave : 160, Totalsave : 2700, curErr : 0, totalErr : 20, remain_work : 2, total : 111
+2018-11-20 11:09:06 INFO  Crawler:297 - [Progress 94] elaped time : 00:00:48, curSave : 160, Totalsave : 2700, curErr : 0, totalErr : 20, remain_work : 1, total : 111
+2018-11-20 11:09:06 INFO  Crawler:297 - [Progress 95] elaped time : 00:00:48, curSave : 160, Totalsave : 2700, curErr : 0, totalErr : 20, remain_work : 3, total : 114
+2018-11-20 11:09:07 INFO  Crawler:297 - [Progress 96] elaped time : 00:00:49, curSave : 240, Totalsave : 2780, curErr : 0, totalErr : 20, remain_work : 2, total : 114
+2018-11-20 11:09:07 INFO  Crawler:297 - [Progress 97] elaped time : 00:00:49, curSave : 240, Totalsave : 2780, curErr : 0, totalErr : 20, remain_work : 1, total : 114
+2018-11-20 11:09:07 INFO  Crawler:297 - [Progress 98] elaped time : 00:00:49, curSave : 240, Totalsave : 2780, curErr : 0, totalErr : 20, remain_work : 3, total : 117
+2018-11-20 11:09:08 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EB%8B%B5&origQuery=%EB%8B%B5&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 11:09:08 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15800422140' for key 'PRIMARY'
+2018-11-20 11:09:08 INFO  Crawler:297 - [Progress 99] elaped time : 00:00:50, curSave : 319, Totalsave : 2859, curErr : 1, totalErr : 21, remain_work : 2, total : 117
+2018-11-20 11:09:08 INFO  Crawler:256 - ============== update params =============
+2018-11-20 11:09:08 INFO  Crawler:259 - CMD PARAM 00   : 이
+2018-11-20 11:09:08 INFO  Crawler:261 - ==========================================

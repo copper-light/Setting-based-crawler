@@ -1,14 +1,13 @@
 {
 	"name": "naver_category",
 	"arguments": {
-		"get_type": "csv",
+		"get_type": "db",
 		"file_path": "D:\\Downloads\\crawler\\euc-kr_sample.csv",
-		"query": "0",
-		"file_encode": "euc-kr"
+		"query": "select KEYWORD from KEYWORD"
 	},
 	"db_id": "root",
 	"db_pw": "sairport2018",
-	"db_path": "jdbc:sqlite:./sqlite.db",
+	"db_path": "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
 	"seed": {
 		"url": "https://search.shopping.naver.com/search/all.nhn?&cat_id=&frm=NVSHATC&pagingSize=80",
 		"type": "GET",
@@ -22,21 +21,26 @@
 	"ignore_robots": true,
 	"crawling_max_depth": -1,
 	"crawling_type": "SCENARIO_DYNAMIC",
-	"crawling_delay": 0.5,
+	"crawling_delay": 0.66,
 	"crawling_max_count": 9000,
 	"contents_save_type": "DB",
 	"save_html": false,
 	"output_file_path": "",
 	"charset": "UTF-8",
-	"selenium_driver_name": "chromeeee",
-	"selenium_headless": true,
+	"selenium_driver_name": "phantomjs",
+	"selenium_headless": false,
 	"scenario": [
 		{
 			"depth": 0,
 			"action": [
 				{
 					"type": "parse_contents",
-					"selector": "#_search_list"
+					"selector": ".goods_list"
+				},
+				{
+					"type" : "remove_elements",
+					"selector" : ".goods_list",
+					"value" : ".goods_list"
 				},
 				{
 					"type": "click",
@@ -61,6 +65,7 @@
 				{
 					"data_type": "varchar(200)",
 					"data_name": "category",
+					"allow_null" : true,
 					"element": [
 						{
 							"from_root": false,

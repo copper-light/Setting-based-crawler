@@ -1,0 +1,6 @@
+2018-11-20 09:27:04 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-20 09:27:04 ERROR Crawler:292 - L ERR_ACTION : #_itemSection
+2018-11-20 09:27:16 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 09:27:16 ERROR Crawler:292 - L ERR_ACTION : #_itemSection
+2018-11-20 09:27:28 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 09:27:28 ERROR Crawler:292 - L ERR_ACTION : #_itemSection

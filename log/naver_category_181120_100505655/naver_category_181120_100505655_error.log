@@ -1,0 +1,1513 @@
+2018-11-20 10:05:12 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHATC&pagingSize=80&query=%EA%B8%B0%EC%95%84
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13542071241' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13469862595' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349328290' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10587370024' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10591890531' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9745212006' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13470070947' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956022805' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13496434924' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13964401790' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956419147' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13470066686' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14840258805' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14840387569' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12705992779' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80517661505' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12738761749' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13887655401' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80777151727' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14069554289' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11459876552' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7573344810' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14012481911' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12200135594' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8803669283' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13460809534' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80214715755' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9579336127' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7573344811' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9877553097' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13747450639' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80499420655' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12936820956' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80176778482' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16192677980' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16174219829' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16180110233' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16171472257' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14374603285' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16140912797' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16149703345' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16148081607' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143555803' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143286398' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143027901' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16137756640' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16135910237' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16134219124' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16114534336' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16114500006' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16112852664' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16112724627' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373725370' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16110722186' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100566850' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16098932213' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12695462220' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16095396325' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13887667734' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16095026166' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094763265' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373437174' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078824802' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050081184' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16044758526' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81371572670' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050218224' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050191184' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16045434368' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16041014420' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16040976745' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81364117268' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15999815558' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362904747' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15926502885' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362333718' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14523117821' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15724667841' for key 'PRIMARY'
+2018-11-20 10:05:12 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13882021962' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=2&viewType=list&sort=rel
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15942738917' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81358298544' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15771595012' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81358006175' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15658988080' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354828251' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15620415532' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351705671' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15563520161' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15300722828' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81346674890' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14845211523' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81345478905' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13920773000' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14369879203' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342630493' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14248411035' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14072385788' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342573218' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11904512123' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342037198' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81340464850' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354299346' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81326559507' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353328743' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13034005192' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16171295023' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152306615' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16149702740' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16148063572' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16147080185' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143505870' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143286410' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16142934507' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16137549686' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16135892227' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16134089052' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13429812435' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16114449328' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798931316' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16114399608' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16112832718' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16112725177' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16110573323' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100445074' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16098928814' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16095335180' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16095025616' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094757853' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150404956' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050112407' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050102814' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16118550431' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046369761' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16045360884' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16192521591' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16110248268' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11313040803' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094775884' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12261573870' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16093435342' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046598367' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194843962' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046360321' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046385505' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16044691377' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16109070924' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078916388' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16147169196' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16050107952' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15787001505' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16112896534' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15620415533' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81195982851' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15620419197' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11827231085' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81065125803' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11539585414' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955244516' for key 'PRIMARY'
+2018-11-20 10:05:13 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15488474547' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=3&viewType=list&sort=rel
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15479434547' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14280019681' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81127712094' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7605616676' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956406810' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81065197378' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10588643150' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279970798' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956399779' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12232628833' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955057704' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279924571' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14517321629' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14945811720' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14732483539' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362333758' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13991215746' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11944329566' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11139404385' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '6190123697' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279948820' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956259736' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11139409220' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14840257540' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14330232624' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956414083' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14286849216' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14045894664' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7605616677' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13991210247' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14548627446' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279994118' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279926104' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956333602' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14079571405' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955031102' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279910086' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81303771187' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955031515' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80439667909' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279932718' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955849077' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279984215' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956256877' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14630074540' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14637736411' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956334543' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279983793' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13991227783' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14286810032' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14146764934' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13975904049' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11918231568' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955828195' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279972080' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279938662' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955808727' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14739919229' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14286802533' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14428158697' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14330218459' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956179348' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14330265560' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14338575141' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13997170491' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955495268' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955495882' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956257359' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955807512' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14220664323' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956406817' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955033933' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956053337' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279933585' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279927348' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955796796' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279909260' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14966513848' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279950878' for key 'PRIMARY'
+2018-11-20 10:05:14 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15990468285' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=4&viewType=list&sort=rel
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14286932912' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956417201' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956334549' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14280011511' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14279916813' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956259682' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956155139' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14330213140' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14045630888' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14139535112' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956282782' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955785695' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14292361367' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955030717' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10591571693' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14286840077' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13956181769' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12260346762' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13976029675' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14101587154' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046577416' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11836904112' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12600817356' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14822965802' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10918868750' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16146975944' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16146892010' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11139408951' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11829642241' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397180' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14780872340' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14204821004' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13170570930' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13286097727' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13955152853' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7752412782' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10588885834' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15727861838' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14202320402' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13887663835' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9729781715' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11915824426' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7556174440' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10519673608' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11485973490' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10587056783' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10593237847' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7556430734' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13286098258' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11485974294' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14202296269' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9400148031' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11139408952' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11139409250' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12089288374' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14283907288' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397215' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15887607855' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13763268528' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113514452' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12232626969' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9400148896' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397255' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13170570901' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12232630786' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12751161636' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80320637425' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13763268529' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13170570916' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12232630036' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397188' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11915824425' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12232627978' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11915824427' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12234706045' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14206350979' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80220040533' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14428149766' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12104427477' for key 'PRIMARY'
+2018-11-20 10:05:15 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13920346913' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=5&viewType=list&sort=rel
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80046400190' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8803669085' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80227004767' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80331126079' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80191325604' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80361557268' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14316895669' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397222' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397224' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12865697897' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397179' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80182397182' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80201898575' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14647381656' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12129594391' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14535532921' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12346204350' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14462403975' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14370470567' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16108762039' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8803639463' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '9596596370' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '80495204449' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10930686579' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12863275018' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13428080763' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12346204347' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10159815566' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13752725594' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10930659835' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11861163651' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14304946721' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16123574113' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15952141178' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81282906825' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15942856849' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15909707981' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16093474452' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16081938924' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14575027984' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81301446168' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16189070911' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81044845458' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15750253574' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16205783834' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16205779825' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16205779827' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373670228' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373621853' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373592819' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373432324' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373390932' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373355980' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81373242948' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81372703155' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16201566829' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16201562122' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14709651824' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16201550057' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15834444688' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16200121820' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16200107180' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16200105007' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81372077915' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16197504655' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16197502380' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81371707381' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81371700071' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81371103741' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370898809' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16195221130' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16195221829' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370496614' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370516140' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370415752' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370242946' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194124124' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16082139055' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194124686' for key 'PRIMARY'
+2018-11-20 10:05:16 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14804509941' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=6&viewType=list&sort=rel
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194122263' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194123551' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16194124437' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16191470822' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16191371870' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16191356772' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15975638618' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113772203' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16174213983' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16178499208' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81364349223' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363843127' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363805370' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363784593' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363798780' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363775884' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363676646' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13867134064' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363561620' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15557655722' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363363978' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13922649973' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363209953' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363104233' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363086212' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362967669' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362906379' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362637984' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362475400' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362457714' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362376737' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362083843' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362012965' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361973926' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16171487952' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361734558' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361416134' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11815247061' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361421284' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15774014742' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361012897' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81361014406' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16161628240' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16161631279' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16161453624' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81360934583' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152730287' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152729180' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81360286582' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81360286838' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81358207586' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152738702' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152738712' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152735650' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150311527' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150311532' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150311537' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15939478383' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010018' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14137704058' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010072' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010043' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010003' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010005' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16150010108' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357180708' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357174199' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357174561' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16149702171' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357141882' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357141872' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356875806' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356869091' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356867169' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356838618' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356820500' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356820620' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '6530925140' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356798125' for key 'PRIMARY'
+2018-11-20 10:05:17 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10772285360' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=7&viewType=list&sort=rel
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356798425' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356797038' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356795238' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356797605' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356795301' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356773491' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356745422' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16149003479' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682420' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681761' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356684065' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681810' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682586' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682690' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682740' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682026' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681834' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797918793' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682650' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15900524279' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682461' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681936' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356683043' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356683000' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356682377' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681574' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356684277' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356681313' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356680761' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356680722' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356655306' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356621481' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356621875' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356621749' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356621705' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16148005961' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81372225875' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14739919142' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81372034333' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15478212912' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145251106' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145251070' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145250991' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145250993' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145251041' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16145251007' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356117326' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526378' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526338' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526340' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526443' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526353' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16143526407' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16142285164' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16142285165' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16193491461' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16193441896' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11740448438' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16193428504' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13485312150' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355904656' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355894207' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355885494' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355877631' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355733455' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355626484' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355597002' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355591892' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355569819' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355506639' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355494560' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355503977' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355367442' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355313430' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355095567' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354964977' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354806840' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844237372' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354750502' for key 'PRIMARY'
+2018-11-20 10:05:18 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8198666082' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=8&viewType=list&sort=rel
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354625445' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354536545' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354473170' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354434091' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354431634' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354275081' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16140710902' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16140704183' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354245706' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354128697' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354129012' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354072385' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353942472' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353927037' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353877170' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353744943' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353729324' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10388951958' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353733986' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14462492155' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353668172' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353631288' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353652212' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353418950' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353384930' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16122434253' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133315854' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133291138' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16101788387' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81352530095' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15918678082' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078438933' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16129690967' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16129365877' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16128353640' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16126565656' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351907247' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844259572' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16204264504' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13472073789' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15987995315' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351604003' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351557362' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351538322' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351508788' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351461832' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351260917' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351156370' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351059804' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350964198' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350967911' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350873324' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350823191' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16123025633' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16122611485' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350615905' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350566622' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844273424' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350562685' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11950595592' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15937882444' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350230056' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350214485' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350204630' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128902' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127259' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350133026' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350132981' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127223' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350131737' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127134' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350133668' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350130022' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128784' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128462' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350134366' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350134180' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10308687892' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350133750' for key 'PRIMARY'
+2018-11-20 10:05:19 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797909630' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=9&viewType=list&sort=rel
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350126666' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128784' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350131378' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128499' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350133492' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350129176' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128462' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350134366' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127990' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128534' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127312' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350132661' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350132934' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128566' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350126748' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350128389' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350129404' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844273423' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350132483' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14239416610' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350083736' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349920627' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349912987' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349840986' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349680296' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349622771' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349377422' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370045562' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81370045854' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81372553922' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349256364' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349214711' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349133670' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349105703' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349106929' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349106228' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349104990' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '10090552500' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349103894' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15556377331' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349106119' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349106792' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349103775' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349104118' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349097862' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349097431' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349095193' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349102447' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349095874' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349092764' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349091284' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349091050' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349099164' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349095084' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094128' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349090241' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094531' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844223576' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094054' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15079475676' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349089265' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349090203' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094719' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349096357' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349098242' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094250' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349091229' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349089359' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349094399' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16116756535' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16116680388' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16116001876' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16115673363' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348916147' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16115062726' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348858917' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348681192' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844237373' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348622497' for key 'PRIMARY'
+2018-11-20 10:05:20 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '8314216610' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=10&viewType=list&sort=rel
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348613717' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348627946' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348584496' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348572709' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348429342' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113773217' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113772695' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113775821' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113773231' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348160686' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348052182' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347998489' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347969268' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347918839' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347829486' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347612346' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347611599' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11763949679' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347612196' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '7388539872' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347611451' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347611545' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347623367' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347568412' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347562005' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16101792804' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347523770' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347461778' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347394380' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81371074585' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347306562' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347259675' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363120513' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16108764276' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16161545773' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816048' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816151' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12425595028' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816061' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844223577' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816115' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816086' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16107816046' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81346742203' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81346732137' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733202' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733174' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733231' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733135' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733137' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16104733150' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16089635891' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81345761183' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81345757483' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81345652420' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81345626626' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572896' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12871107344' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572944' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797908063' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573665' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572899' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573285' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573286' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573287' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573240' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573241' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573242' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572906' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573243' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573483' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573435' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573244' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573245' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573485' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573293' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572526' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14744776888' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573294' for key 'PRIMARY'
+2018-11-20 10:05:21 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15231917238' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=11&viewType=list&sort=rel
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573247' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573295' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572912' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573489' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573249' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572529' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573297' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573442' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572914' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573490' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573491' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573299' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573252' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572533' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573255' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572584' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572536' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844267911' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573496' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786634210' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573449' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572585' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573257' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573450' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572347' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573259' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573260' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572924' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573692' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573261' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573262' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572351' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573263' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573455' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572593' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573457' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572306' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15900721173' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573266' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844237371' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572595' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573267' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573651' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573460' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572932' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572357' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572309' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573461' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572551' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573463' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572887' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572312' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573272' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573465' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572889' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572891' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572556' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15646897673' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573276' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844226405' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573277' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572942' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573662' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103572943' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16103573663' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81344978838' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16102711395' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16102711397' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16102711404' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81344588707' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100203920' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100155802' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100156767' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100156537' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16100155867' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343618567' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078026117' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786217309' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343475523' for key 'PRIMARY'
+2018-11-20 10:05:22 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797912806' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=12&viewType=list&sort=rel
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343148557' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16041450018' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343082454' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343056528' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343054994' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343060666' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343033788' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343027801' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343031353' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343031380' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343022933' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343022848' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343023008' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343025219' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81343022970' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342976684' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342976263' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15885189696' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342989368' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14534170147' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342991297' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342988039' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342987092' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342976102' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342996413' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342985233' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342993075' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342985928' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342986362' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342993375' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342991504' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342984977' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342992519' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342995257' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342989066' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342986429' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342986000' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844251285' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342989315' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797917312' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342988980' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342985672' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342990426' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342991486' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342984929' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342989033' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342985345' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342988814' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342985144' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342995371' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342973494' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342975175' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342971608' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094969199' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094969375' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16204645957' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16092890608' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15824304224' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16092509657' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16053267838' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16092303976' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16091617622' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16091611860' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16090996078' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16090976620' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16090945327' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357176268' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357176355' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15909713414' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356868584' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16148857998' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078385685' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078291453' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16077943164' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363965781' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16084725400' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81338057661' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786635914' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16080377371' for key 'PRIMARY'
+2018-11-20 10:05:23 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844256798' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=13&viewType=list&sort=rel
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16080370740' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355303489' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81328884095' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354832361' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354832506' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16080009568' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16152736182' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15925117270' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353855303' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81353375820' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078493185' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078228518' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16076178805' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16076181112' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16142176970' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81336752217' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133401217' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797916567' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133401184' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15009756793' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133399266' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133397231' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133339420' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16133337166' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81336337600' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16073641918' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16073164238' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16072462884' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16072444146' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81335168838' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81335013193' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16128086911' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16125128429' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81334599378' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81330581831' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16208470402' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81334421602' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12294721451' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81334342181' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786635914' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81334296670' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81334267786' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16151290288' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351607969' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350768440' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350741305' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350741221' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356795213' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356778949' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356773915' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16120617588' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356620933' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350127186' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81350129880' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16119956026' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16119198578' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349688003' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844240245' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16067683927' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797919547' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16067629248' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349386644' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81328372041' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81322427878' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349102964' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349092938' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348705089' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348680571' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363663885' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81333054783' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81331443480' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81331114055' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355692857' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355545409' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355392612' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16010905831' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81355126162' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797918906' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81327087498' for key 'PRIMARY'
+2018-11-20 10:05:24 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786216913' for key 'PRIMARY'
+2018-11-20 10:05:25 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=14&viewType=list&sort=rel
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797918906' for key 'PRIMARY'
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15824304223' for key 'PRIMARY'
+2018-11-20 10:05:25 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786216913' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=15&viewType=list&sort=rel
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342993111' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342988652' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342987852' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342988844' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81342987884' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81327641658' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81327571205' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16110215123' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81327094264' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16129629790' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81326963894' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81326963918' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81326963945' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16153720487' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16094953666' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15950215325' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16205486002' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797909611' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81351565411' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15824304223' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16030701349' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81357528348' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81323643546' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81323418554' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16123065110' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16089628607' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15948946704' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356773454' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356773473' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16113773239' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356683070' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349846561' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15946473394' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81323358761' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81356606950' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15946404392' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349727216' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15220485944' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16202475962' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797918794' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16202474774' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16202475990' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16202474914' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81349316328' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81341085523' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348580011' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16040344416' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81363811994' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81348210844' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347925004' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347616200' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81347244463' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81362529762' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16035541634' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16035316419' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033306256' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033306259' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797910389' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033306261' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844245750' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033286596' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033277625' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033272974' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033272975' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16033272977' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81321831222' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81321251093' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354738092' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16032435279' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354654664' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16032281342' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16031798868' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '16078361333' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81320117022' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81320116826' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81320117217' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354187336' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '12294721709' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '81354147418' for key 'PRIMARY'
+2018-11-20 10:05:26 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786216913' for key 'PRIMARY'
+2018-11-20 10:05:27 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=16&viewType=list&sort=rel
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:27 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=17&viewType=list&sort=rel
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:28 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=18&viewType=list&sort=rel
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:29 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=19&viewType=list&sort=rel
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:31 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15786635916' for key 'PRIMARY'
+2018-11-20 10:05:32 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=20&viewType=list&sort=rel
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:32 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=21&viewType=list&sort=rel
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15799517404' for key 'PRIMARY'
+2018-11-20 10:05:33 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933006' for key 'PRIMARY'
+2018-11-20 10:05:34 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=22&viewType=list&sort=rel
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:34 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933006' for key 'PRIMARY'
+2018-11-20 10:05:35 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=23&viewType=list&sort=rel
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15797907181' for key 'PRIMARY'
+2018-11-20 10:05:35 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798930373' for key 'PRIMARY'
+2018-11-20 10:05:36 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=24&viewType=list&sort=rel
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798930373' for key 'PRIMARY'
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798934666' for key 'PRIMARY'
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15844273426' for key 'PRIMARY'
+2018-11-20 10:05:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933528' for key 'PRIMARY'
+2018-11-20 10:05:37 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=25&viewType=list&sort=rel
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:37 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933528' for key 'PRIMARY'
+2018-11-20 10:05:38 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=26&viewType=list&sort=rel
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798930837' for key 'PRIMARY'
+2018-11-20 10:05:38 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933476' for key 'PRIMARY'
+2018-11-20 10:05:39 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=27&viewType=list&sort=rel
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933476' for key 'PRIMARY'
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817923089' for key 'PRIMARY'
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798928775' for key 'PRIMARY'
+2018-11-20 10:05:39 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933939' for key 'PRIMARY'
+2018-11-20 10:05:40 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=28&viewType=list&sort=rel
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798933939' for key 'PRIMARY'
+2018-11-20 10:05:40 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817917830' for key 'PRIMARY'
+2018-11-20 10:05:41 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=29&viewType=list&sort=rel
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15798931013' for key 'PRIMARY'
+2018-11-20 10:05:41 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817917830' for key 'PRIMARY'
+2018-11-20 10:05:42 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=30&viewType=list&sort=rel
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:42 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=31&viewType=list&sort=rel
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:43 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817946321' for key 'PRIMARY'
+2018-11-20 10:05:44 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=32&viewType=list&sort=rel
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817930865' for key 'PRIMARY'
+2018-11-20 10:05:44 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15774692004' for key 'PRIMARY'
+2018-11-20 10:05:45 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=33&viewType=list&sort=rel
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:45 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15774692004' for key 'PRIMARY'
+2018-11-20 10:05:46 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=34&viewType=list&sort=rel
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:46 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15774543468' for key 'PRIMARY'
+2018-11-20 10:05:47 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=35&viewType=list&sort=rel
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15799512829' for key 'PRIMARY'
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15775729430' for key 'PRIMARY'
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15775728345' for key 'PRIMARY'
+2018-11-20 10:05:47 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15782789071' for key 'PRIMARY'
+2018-11-20 10:05:48 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=36&viewType=list&sort=rel
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15782789071' for key 'PRIMARY'
+2018-11-20 10:05:48 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15817933457' for key 'PRIMARY'
+2018-11-20 10:05:49 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=37&viewType=list&sort=rel
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:49 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=38&viewType=list&sort=rel
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:05:51 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14922858984' for key 'PRIMARY'
+2018-11-20 10:05:52 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=39&viewType=list&sort=rel
+2018-11-20 10:05:52 ERROR Crawler:292 - L ERR_CONTENTS_COL : category, span.depth > a, text
+2018-11-20 10:06:00 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=46&viewType=list&sort=rel
+2018-11-20 10:06:00 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11904512123' for key 'PRIMARY'
+2018-11-20 10:06:35 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=76&viewType=list&sort=rel
+2018-11-20 10:06:35 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13887655401' for key 'PRIMARY'
+2018-11-20 10:06:36 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=77&viewType=list&sort=rel
+2018-11-20 10:06:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '14069554289' for key 'PRIMARY'
+2018-11-20 10:06:36 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '13887667734' for key 'PRIMARY'
+2018-11-20 10:06:40 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=80&viewType=list&sort=rel
+2018-11-20 10:06:40 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '11313040803' for key 'PRIMARY'
+2018-11-20 10:06:42 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=82&viewType=list&sort=rel
+2018-11-20 10:06:42 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15488474547' for key 'PRIMARY'
+2018-11-20 10:07:01 ERROR Crawler:288 - [ERR URL] https://search.shopping.naver.com/search/all.nhn?frm=NVSHPAG&pagingSize=80&query=%EA%B8%B0%EC%95%84&origQuery=%EA%B8%B0%EC%95%84&pagingIndex=97&viewType=list&sort=rel
+2018-11-20 10:07:01 ERROR Crawler:292 - L ERR_WRITE : Contents write failed : Duplicate entry '15727861838' for key 'PRIMARY'

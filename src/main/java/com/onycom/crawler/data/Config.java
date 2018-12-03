@@ -153,14 +153,7 @@ public class Config {
 		return mFileName;
 	}
 	
-	public boolean setConfig(String filePath, String[] metaArgs, String[] crawlingArgs){
-    	try {
-			File jarFile = new File(App.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath());
-			System.out.println(jarFile.getParent());
-		} catch (URISyntaxException e) {
-			e.printStackTrace();
-		}
-		
+	public boolean setConfig(String filePath, String[] metaArgs, String[] crawlingArgs){		
 		mFileName = filePath;
 		String configStr = (String) Util.GetConfigFile(filePath);
 		mConfigStr = configStr;

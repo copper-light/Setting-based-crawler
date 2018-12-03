@@ -2,6 +2,7 @@ package com.onycom.SettingBasedCrawler;
 
 import java.io.File;
 import java.net.URISyntaxException;
+import java.security.CodeSource;
 
 import com.onycom.crawler.core.*;
 
@@ -12,9 +13,15 @@ public class App
 {
     public static void main(String[] args)
     {
-//    	Crawler c = new Crawler(1, 0);
-//    	c.setConfigFile("./config/config_DC_superidea.json");
-//    	c.start();
+		try {
+			CodeSource codeSource = App.class.getProtectionDomain().getCodeSource();
+			File jarFile = new File(codeSource.getLocation().toURI().getPath());
+			String jarDir = jarFile.getParentFile().getPath();
+			Crawler.BASE_PATH = jarDir;
+			System.out.println("BASE_PATH : " + Crawler.BASE_PATH);
+		} catch (URISyntaxException e) {
+			e.printStackTrace();
+		}
     	
     	String config_path = null;
     	if(args != null){

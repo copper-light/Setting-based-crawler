@@ -13,7 +13,6 @@ import org.apache.log4j.Logger;
 import com.onycom.crawler.data.Config;
 import com.onycom.crawler.data.Contents;
 import com.onycom.crawler.data.KeyValue;
-import com.sun.javafx.scene.control.skin.TableRowSkin;
 import com.onycom.SettingBasedCrawler.Crawler;
 import com.onycom.common.CrawlerLog;
 import com.onycom.crawler.data.CollectRecode;
@@ -44,66 +43,66 @@ public class DBWriter implements Writer {
 	Connection mConn;
 
 	public synchronized boolean open() throws Exception {
-		
-		Connection conn = null;
 		try {
-			Properties properties = new Properties();
-			properties.put("connectTimeout", "300000");
-			String dbConnectionString;
-			if(PATH.indexOf("sqlite") != -1){
-				mLogger.info("Load db : sqlite");
-				Class.forName("org.sqlite.JDBC");
-				dbConnectionString = PATH;
-				conn = org.sqlite.JDBC.createConnection(dbConnectionString, properties);
-			}else if(PATH.indexOf("mariadb") != -1){
-				mLogger.info("Load db : mariadb");
-				Class.forName(DRIVER);
-				dbConnectionString = PATH + "?user=" + USER + "&password=" + PW;
-				conn = DriverManager.getConnection(dbConnectionString, properties);
-			}else {
-				mLogger.error("[DB] Not support DB");
-				return false;
-			}
-						
-			
-			mConn = conn;
-			// 콘텐츠 저장을 위한 DB TABLE 을 준비해라!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			String keys= null;
-			String query = null;
-			try {
-				List<CollectRecode> collects = mConfig.getCollects();
-				String tableName, colName, colType;
-				for (CollectRecode c : collects) {
-					// TABLE NAME
-					tableName = c.getName().toUpperCase();
-					query = "";
-					keys = "";
-					for (CollectRecode.Column col : c.getColumns()) {
-						colName = col.getDataName().toUpperCase(); // 컬럼 명
-						colType = col.getDataType(); // 컬럼 타입
-						if(query.isEmpty()){
-							query = colName + " " + colType;
-						}else{
-							query += ", " + colName + " " + colType;
-						}
-						if(col.isKey()){
-							if(keys.isEmpty()) {
-								keys= ",PRIMARY KEY (" + colName;
+			if(mConn == null || mConn.isClosed()) {
+				Connection conn = null;
+				Properties properties = new Properties();
+				properties.put("connectTimeout", "300000");
+				String dbConnectionString;
+				if(PATH.indexOf("sqlite") != -1){
+					mLogger.info("Load db : sqlite");
+					Class.forName("org.sqlite.JDBC");
+					dbConnectionString = PATH;
+					conn = org.sqlite.JDBC.createConnection(dbConnectionString, properties);
+				}else if(PATH.indexOf("mariadb") != -1){
+					mLogger.info("Load db : mariadb");
+					Class.forName(DRIVER);
+					dbConnectionString = PATH + "?user=" + USER + "&password=" + PW;
+					conn = DriverManager.getConnection(dbConnectionString, properties);
+				}else {
+					mLogger.error("[DB] Not support DB");
+					return false;
+				}	
+				mConn = conn;
+				// 콘텐츠 저장을 위한 DB TABLE 을 준비해라!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+				String keys= null;
+				String query = null;
+				try {
+					List<CollectRecode> collects = mConfig.getCollects();
+					String tableName, colName, colType;
+					for (CollectRecode c : collects) {
+						// TABLE NAME
+						tableName = c.getName().toUpperCase();
+						query = "";
+						keys = "";
+						for (CollectRecode.Column col : c.getColumns()) {
+							colName = col.getDataName().toUpperCase(); // 컬럼 명
+							colType = col.getDataType(); // 컬럼 타입
+							if(query.isEmpty()){
+								query = colName + " " + colType;
 							}else{
-								keys += ", " + colName;
+								query += ", " + colName + " " + colType;
+							}
+							if(col.isKey()){
+								if(keys.isEmpty()) {
+									keys= ",PRIMARY KEY (" + colName;
+								}else{
+									keys += ", " + colName;
+								}
 							}
 						}
+						if(!keys.isEmpty()) keys+=")";
+						if (query.length() > 0) {
+							query = String.format(Q_CREATE_CONTENTS_TABLE, tableName, query, keys);
+							insert(query);
+						}
 					}
-					if(!keys.isEmpty()) keys+=")";
-					if (query.length() > 0) {
-						query = String.format(Q_CREATE_CONTENTS_TABLE, tableName, query, keys);
-						insert(query);
-					}
+				} catch (Exception e) {
+					mLogger.error("[SQL] " + query, e.fillInStackTrace());
+					close();
+					return false;
 				}
-			} catch (Exception e) {
-				mLogger.error("[SQL] " + query, e.fillInStackTrace());
-				close();
-				return false;
+				
 			}
 		} catch (Exception e) {
 			mLogger.error(e.getMessage());

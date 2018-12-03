@@ -169,8 +169,10 @@ public class CsvWriter implements Writer{
 		public void open(){
 			OutputStreamWriter out;
 			try {
-				out = new OutputStreamWriter(new FileOutputStream(this.fileName, true), "utf-8");
-				this.cw = new CSVWriter(out, ',', '"');
+				if(this.cw == null) {
+					out = new OutputStreamWriter(new FileOutputStream(this.fileName, true), "utf-8");
+					this.cw = new CSVWriter(out, ',', '"');
+				}
 			} catch (UnsupportedEncodingException e) {
 				e.printStackTrace();
 			} catch (FileNotFoundException e) {
