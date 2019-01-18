@@ -180,15 +180,17 @@ public class Crawler {
 			//Writer.
 			if(Writer.getClass() == DBWriter.class){
 				String[] query = mConfig.getPostProcessingQuery();
-				for(int i = 0 ; i < query.length ; i++){
-					DBWriter dbw = (DBWriter) Writer;
-					mLogger.info("============== Post processing =============");
-					try {
-						dbw.insert(query[i]);
-						mLogger.info("processing query "+ i+ " :" + query[i]);
-					} catch (Exception e) {
-						//e.printStackTrace();
-						mLogger.error("err query : " + e.getMessage());
+				if (query != null) {
+					for(int i = 0 ; i < query.length ; i++){
+						DBWriter dbw = (DBWriter) Writer;
+						mLogger.info("============== Post processing =============");
+						try {
+							dbw.insert(query[i]);
+							mLogger.info("processing query "+ i+ " :" + query[i]);
+						} catch (Exception e) {
+							//e.printStackTrace();
+							mLogger.error("err query : " + e.getMessage());
+						}
 					}
 				}
 			}

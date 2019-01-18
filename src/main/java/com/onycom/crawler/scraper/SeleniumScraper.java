@@ -20,6 +20,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Sleeper;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.*;
@@ -71,14 +72,15 @@ public class SeleniumScraper implements Scraper {
             String empty_selector = action.getEmptySelector();
             String value = action.getValue();
             if (selector != null) {
-                wes = waitingForAllElements(mSeleniumDriver, 10, selector, empty_selector);
+                wes = waitingForAllElements(mSeleniumDriver, 30, selector, empty_selector);
                 if (wes == null) { // 못찾음
                     //mLogger.error("Not found element : " + selector);
                     work.result().addError(Work.Error.ERR_ACTION, selector, null);
                     return null;
                 }
                 if (wes.isEmpty()) { // 이제 없음
-                    //mLogger.info("empty element : " + selector);
+                    System.out.println("here " + selector);
+                	//mLogger.info("empty element : " + selector);
                     if (action.getType().contentEquals(Action.TYPE_PARSE_CONTENTS)) {
                         work.setDepth(action.getTargetDepth());
                         work.setURL(mSeleniumDriver.getCurrentUrl());
@@ -88,7 +90,7 @@ public class SeleniumScraper implements Scraper {
                         return null;
                     }
                 }
-                if (wes.size() == 1) {
+                if (wes.size() == 1 || action.getType().equalsIgnoreCase(Action.TYPE_PARSE_CONTENTS) || action.getType().equalsIgnoreCase(Action.TYPE_REMOVE_ELEMENTS)) {
                     we = wes.get(0);
                     if (action.getType().equalsIgnoreCase(Action.TYPE_CLICK)) {
                     	we.click();
@@ -218,8 +220,22 @@ public class SeleniumScraper implements Scraper {
                             mSeleniumDriver.switchTo().window(cur_handle);
                         }
                     }
+                } else if (action.getType().equalsIgnoreCase(Action.TYPE_SLEEP)) {
+                	if (value != null) {
+                		long v = (long) (Float.valueOf(value)*1000);
+                		Thread.sleep(v);
+                	}
                 }
-                return null;
+                
+                if (action.getTargetDepth() != -1) {
+                    work.setParseType(Work.PARSE_SCENARIO);
+                    work.setDepth(action.getTargetDepth());
+                    work.setURL(mSeleniumDriver.getCurrentUrl());
+                    ret = Jsoup.parse(mSeleniumDriver.getPageSource());
+                    return ret;
+                }else {
+                	return null;
+                }
             }
         } else { // 액션 없는 seed 일 경우
             // URL 호출
@@ -282,7 +298,6 @@ public class SeleniumScraper implements Scraper {
         
         while (true) {
         	try{
-        		//wd.
         		ret = wd.findElements(By.cssSelector(selector));
                 if (ret != null && !ret.isEmpty()) {
                     break;

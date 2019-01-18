@@ -1,0 +1,167 @@
+{
+	"name": "kipris",
+	"db_id": "root",
+	"db_pw": "sairport2018",
+	"db_path": "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
+	"seed": {
+		"url": "http://kportal.kipris.or.kr/kportal/search/search_patent.do",
+		"type": "GET",
+		"data": []
+	},
+	"ignore_robots": true,
+	"crawling_max_depth": -1,
+	"crawling_type": "SCENARIO_DYNAMIC",
+	"crawling_delay": 0.5,
+	"crawling_max_count": -1,
+	"contents_save_type": "DB",
+	"save_html": false,
+	"output_file_path": "",
+	"charset": "UTF-8",
+	"selenium_driver_name": "chrome",
+	"selenium_headless": false,
+	"scenario": [
+		{
+			"depth": 0,
+			"action": [
+				{
+					"type": "input",
+					"selector": "#searchKeyword",
+					"value" : "빅데이터 시각화"
+				},
+				{
+					"type": "click",
+					"selector": "#initSearchResultPageFrmNewBookMark"
+				},
+				{
+					"type": "click",
+					"selector": "#btnTextView > button"
+				},
+				{
+					"type": "click",
+					"selector": "select#opt28"
+				},
+				{
+					"type": "click",
+					"selector": "select#opt28 > option:nth-child(3)"
+				},
+				{
+					"type": "click",
+					"selector": "#pageListSetBtn"
+				},
+				{
+					"type": "sleep",
+					"value" : "3",
+					"target_depth": 1
+				}
+				
+			]
+		},
+		{
+			"depth": 1,
+			"action": [
+				{
+					"type" : "parse_contents",
+					"selector" : "div.search_section_title"
+				},
+				{
+					"type" : "remove_elements",
+					"selector" : "div.search_section_title",
+					"value" : "div.search_section_title"
+				},
+				{
+					"type" : "click",
+					"selector" : "#searchResultPaging > strong+a",
+					"target_depth": 1
+				}
+				
+			]
+		}
+	],
+	"collect_recode": [
+		{
+			"depth": 0,
+			"name": "kipris_data",
+			"recode_selector": "#patentResultList > article",
+			"column": [
+				{
+					"type": "text",
+					"data_type": "varchar(300)",
+					"data_name": "keyword",
+					"value": "시각화"
+				},
+				{
+					"data_type": "varchar(20)",
+					"data_name": "no",
+					"key": true,
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_basic_info > ul > li:nth-child(3) > a > span",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(20)",
+					"data_name": "state",
+					"allow_null" : true,
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_section_title > h1 > span",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "title",
+					"regex_filter": [],
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_section_title > h1 > a",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(300)",
+					"data_name": "writer",
+					"regex_filter": [],
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_basic_info > ul > li.right_width.letter1 > font",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(300)",
+					"data_name": "r_date",
+					"regex_filter": ["[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}"],
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_basic_info > ul > li:nth-child(4)",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "longtext",
+					"data_name": "abstract",
+					"regex_filter": [],
+					"element": [
+						{
+							"from_root": false,
+							"selector": "div.search_basic_info > div > div",
+							"type": "text"
+						}
+					]
+				}
+			]
+		}
+	]
+}
