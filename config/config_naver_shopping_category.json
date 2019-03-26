@@ -1,10 +1,6 @@
 {
 	"name": "naver_category",
-	"arguments": {
-		"get_type": "db",
-		"file_path": "D:\\Downloads\\crawler\\euc-kr_sample.csv",
-		"query": "select KEYWORD from KEYWORD"
-	},
+	
 	"db_id": "root",
 	"db_pw": "sairport2018",
 	"db_path": "jdbc:mariadb://localhost:3306/DEV_CRAWLER_LOG",
@@ -23,11 +19,11 @@
 	"crawling_type": "SCENARIO_DYNAMIC",
 	"crawling_delay": 0.66,
 	"crawling_max_count": 9000,
-	"contents_save_type": "DB",
+	"contents_save_type": "csv",
 	"save_html": false,
 	"output_file_path": "",
 	"charset": "UTF-8",
-	"selenium_driver_name": "phantomjs",
+	"selenium_driver_name": "chrome",
 	"selenium_headless": false,
 	"scenario": [
 		{
