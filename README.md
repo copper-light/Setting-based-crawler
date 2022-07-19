@@ -1,7 +1,10 @@
 # crawler
 
-설정 파일 정의를 통한 크롤러
+설정 파일 기반 웹크롤러
 
+- 설정 기반 크롤러 논문 
+  - 다중 웹사이트 관리를 위한 동작 기반 웹 크롤러 설정 구조 설계(2021). 정보과학회 컴퓨팅의 실제 논문지, 27(2), 98-103.
+  - ttps://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002683642
 
 # 크롤링 방식 
 url 기반 필터링 크롤링
