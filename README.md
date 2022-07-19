@@ -1,4 +1,4 @@
-# Setcrawler
+# Setting based web crawler
 
 Json 기반 설정 파일로  웹크롤러
 
