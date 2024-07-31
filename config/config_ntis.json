@@ -1,0 +1,275 @@
+{
+	"name": "ntis",
+	"description": "nits 진행 중 과제(과제공모내용 제외) 정보 크롤링",
+	"seed": {
+		"url": "https://www.ntis.go.kr/ThSearchProjectList.do?gubun=link&pageNumber=1&ssoKnfSlct=0&ascDesc=ASC&useYn=N&dbt=project&pageYn=Y&technologyClassification=ST&downloadTarget=project&sort=SS01%2FDESC&pageSize=20",
+		"type": "GET"
+	},
+	"ignore_robots": true,
+	"crawling_max_depth": -1,
+	"crawling_type": "SCENARIO_DYNAMIC",
+	"crawling_delay": 1,
+	"crawling_max_count": -1,
+	"contents_save_type": "DB",
+	"save_html": false,
+	"output_file_path": "",
+	"charset": "UTF-8",
+	"selenium_driver_name": "chrome",
+	"selenium_headless": true,
+	"scenario": [
+		{
+			"depth": 0,
+			"action": [
+				{
+					"type": "sleep",
+					"selector": "input#searchWord",
+					"value": "5"
+				},
+				{
+					"type": "javascript",
+					"selector": "input#searchWord",
+					"value": "var v = ('<%keyword%>').toString().split(',').join('|'); document.querySelector('#searchWord').value=v;",
+					"description": "검색어 입력. 다중키워드 검색시  | 문자로 or 기능을 수행하기 위해서  ,(콤마) 문자를 사용한 경우 치환함 "
+				},
+				{
+					"type": "click",
+					"selector": "#btnHeaderSearch",
+					"description": "검색"
+				},
+				{
+					"type": "javascript",
+					"selector": "#floatSearch",
+					"value": "var start=<%from_date%>, end=<%to_date%>; start = start.toString().substr(0,4); end= end.toString().substr(0,4); for( i = start; i <= end ; i++){ e = document.querySelector(\"input[type=checkbox][value='\"+i+\"']\"); if (e) e.checked = true; }",
+					"description": "상세검색의 날짜 기간 검색 기능은 키워드를 통합검색으로 사용할 수 없기 떄문에, 자바스크립트를 통한 날짜 셀렉트박스를 직접 선택하는 방식으로 구현."
+				},
+				{
+					"type": "click",
+					"selector": "#floatSearch",
+					"description": "검색"
+				},
+				{
+					"type": "click",
+					"selector": "#gnbArea > button.login",
+					"description": "로그인 페이지 접속(새창)"
+				},
+				{
+					"type": "switch_window",
+					"value": "+1"
+				},
+				{
+					"type": "input",
+					"selector": "body > div > form > label:nth-child(2) > input",
+					"value": "shson81",
+					"description": "아이디 입력"
+				},
+				{
+					"type": "input",
+					"selector": "body > div > form > label:nth-child(5) > input",
+					"value": "kebkeb81**",
+					"description": "패스워드 입력"
+				},
+				{
+					"type": "click",
+					"selector": "body > div > form > input"
+				},
+				{
+					"type": "switch_window",
+					"value": "0",
+					"description": "로그인 완료 후 콘텐츠 페이지로 복귀"
+				},
+				{
+					"type": "sleep",
+					"value": "5",
+					"target_depth": 1,
+					"description": "로그인 이후 페이지 로딩 대기"
+				}
+			]
+		},
+		{
+			"depth": 1,
+			"action": [
+				{
+					"type": "click",
+					"selector": "#searchForm > div.list_box > div.resultBox > div > a",
+					"target_depth": 2,
+					"try_refresh": "3",
+					"description": "콘텐츠 페이지 링크"
+				},
+				{
+					"type": "click",
+					"selector": "a.active + a",
+					"target_depth": 1,
+					"try_refresh": "3",
+					"description": "페이지 이동 버튼 링크"
+				}
+			]
+		},
+		{
+			"depth": 2,
+			"action": [
+				{
+					"type": "switch_window",
+					"value": "+1"
+				},
+				{
+					"type": "click",
+					"selector": "#sSummaryView",
+					"try_refresh": "3",
+					"description": "콘텐츠 페이지의 로딩이 오래 걸리는 경우 발생. 30초간 안보일경우 새로고침하는 기능 수행"
+				},
+				{
+					"type": "javascript",
+					"selector": "#divSummary > table > tbody",
+					"value": "var e = document.querySelectorAll('#divSummary > table > tbody > tr > th'); for ( i = 0 ; i < 3 ; i++){ e[i].parentElement.setAttribute('type', 'content'); }"
+				},
+				{
+					"type": "javascript",
+					"selector": "#divMain > table.result_table > tbody > tr:nth-child(2) > td:nth-child(4)",
+					"value": "let e = document.querySelector(arguments[0]); e.textContent = String(e.textContent).replace(/[-~\\s]/gi,'').substr(0, 8)"
+				},
+				{
+					"type": "parse_contents",
+					"selector": "#divSummary > table > tbody",
+					"contents_depth": 1
+				},
+				{
+					"type": "close_window",
+					"value": "1"
+				},
+				{
+					"type": "switch_window",
+					"value": "0"
+				}
+			]
+		}
+	],
+	"collect_recode": [
+		{
+			"depth": 1,
+			"name": "anly_raw_ntis",
+			"recode_selector": "#divSummary > table > tbody",
+			"insert_or_update": true,
+			"column": [
+				{
+					"data_type": "varchar(50)",
+					"data_name": "id",
+					"key": true,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#divMain > table.result_table > tbody > tr:nth-child(1) > td:nth-child(2)",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"type": "url",
+					"data_type": "text",
+					"data_name": "url"
+				},
+				{
+					"type": "text",
+					"data_type": "varchar(100)",
+					"data_name": "search_keyword",
+					"value": "<%keyword%>"
+				},
+				{
+					"type": "text",
+					"data_type": "varchar(50)",
+					"data_name": "doc_type",
+					"value": "ntis"
+				},
+				{
+					"data_type": "text",
+					"data_name": "title",
+					"allow_null": false,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#content > div.po_rel > dl.result_on.mt40 > dd > span",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(200)",
+					"data_name": "category",
+					"allow_null": false,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#searchmain > header > div > h2",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(200)",
+					"data_name": "reg_date",
+					"allow_null": false,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#divMain > table.result_table > tbody > tr:nth-child(2) > td:nth-child(4)",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(200)",
+					"data_name": "search_date",
+					"allow_null": false,
+					"regex_filter": [
+						"[0-9]{4}"
+					],
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#content > div.po_rel > dl.result_off > dd",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "proprietor",
+					"allow_null": false,
+					"description": "연구기관",
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#divMain > table.result_table > tbody > tr:nth-child(6) > td",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "content",
+					"allow_null": false,
+					"description": "연구목표, 연구내용, 연구효과 모두 하나의 컬럼으로 저장",
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#divSummary > table > tbody > tr[type='content'] + tr",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "keyword",
+					"allow_null": false,
+					"description": "키워드",
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#divSummary > table > tbody > tr:nth-child(7) > td",
+							"type": "text"
+						}
+					]
+				}
+			]
+		}
+	]
+}

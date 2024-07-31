@@ -1,0 +1,236 @@
+{
+	"name": "riss",
+	"seed": {
+		"url": "http://www.riss.kr/index.do",
+		"type": "GET"
+	},
+	"ignore_robots": true,
+	"crawling_max_depth": -1,
+	"crawling_type": "SCENARIO_DYNAMIC",
+	"crawling_delay": 2,
+	"crawling_max_count": -1,
+	"contents_save_type": "DB",
+	"save_html": false,
+	"output_file_path": "",
+	"charset": "UTF-8",
+	"selenium_driver_name": "chrome",
+	"selenium_headless": true,
+	"scenario": [
+		{
+			"depth": 0,
+			"action": [
+				{
+					"type":"click",
+					"selector": "#normal > p > strong > a",
+					"description" : "상세검색"
+				},
+				{
+					"type": "javascript",
+					"selector": "#keyword1",
+					"value":"var v = ('<%keyword%>').toString().split(',').join('|'); console.log(v); document.querySelector('#keyword1').value=v;",
+					"description": "검색어 입력. 다중키워드 검색시  | 문자로 or 기능을 수행하기 위해서  ,(콤마) 문자를 사용한 경우 치환함 "
+				},
+				{
+					"type": "javascript",
+					"selector": "#p_year1",
+					"value" : "var v=<%from_date%>; v = v.toString().substr(0,4); document.querySelector('#p_year1').value=v;",
+					"description": "검색 시작년도. 년도를 직접 수정하고 싶기 때문에 자바스크립트로 구현함"
+				},
+				{
+					"type": "javascript",
+					"selector": "#p_year2",
+					"value" : "var v=<%to_date%>; v = v.toString().substr(0,4); document.querySelector('#p_year2').value=v;",
+					"description": "검색 종료년도. 날짜를 직접 수정하고 싶기 때문에 자바스크립트로 구현함"
+				},
+				{
+					"type": "click",
+					"selector": "#sch3 > input.btn",
+					"description": "검색"
+				},
+				{
+					"type": "click",
+					"selector": "#lnb > li.lnb01 > ul > li:nth-child(8) > a",
+					"target_depth": 1,
+					"description": "연구보고서"
+				},
+				{
+					"type": "click",
+					"selector": "#lnb > li.lnb01 > ul > li:nth-child(2) > a",
+					"description": "학위논문"
+				},
+				{
+					"type": "click",
+					"selector": "div.passing > span:nth-child(1) > a",
+					"description" : "페이지가 초기화되지 않는 문제가 있어서 초기화 시켜줌",
+					"target_depth": 1,
+				},
+				{
+					"type": "click",
+					"selector": "#lnb > li.lnb01 > ul > li:nth-child(3) > a",
+					"description": "국내학술지논문"
+				},
+				{
+					"type": "click",
+					"selector": "div.passing > span:nth-child(1) > a",
+					"description" : "페이지가 초기화되지 않는 문제가 있어서 초기화 시켜줌",
+					"target_depth": 1,
+				},
+			]
+		},
+		{
+			"depth": 1,
+			"action": [
+				{
+					"type": "sleep",
+					"selector": "#level4_mainContent > form > div.tabWarp.page > div.tabCont > div > div.UnifiedSearch",
+					"value": "0.5",
+					"target_depth": 2,
+					"description": "콘텐츠가 있으면 콘텐츠 파싱 depth 로 이동"
+				},
+				{
+					"type": "click",
+					"selector": "a img[alt=\"다음\"]",
+					"target_depth": 1,
+					"description": "페이지 [다음]버튼"
+				}
+			]
+		},
+		{
+			"depth": 2,
+			"action": [
+				{
+					"type": "click",
+					"selector": "div.cont > p.txt > a[href*='/search/detail/']",
+					"try_refresh" : "3",
+					"target_depth": 3,
+					"description": "콘텐츠 페이지 이동"
+				},
+				{
+					"type": "click",
+					"selector": "#level4_mainContent > form > div.tabWarp.page > div.tabCont > div > div.passing > span.num > strong + a",
+					"try_refresh" : "3",
+					"target_depth": 2,
+					"description": "현재 페이지 +1 페이지 이동"
+				}
+			]
+		},
+		{
+			"depth": 3,
+			"action": [
+				{
+					"type": "javascript",
+					"selector": "#level4_mainContent",
+					"value": "var list = document.getElementsByTagName(\"strong\"); for(var i = 0 ; i < list.length ; i++){ list[i].setAttribute(\"attrText\", list[i].innerText); }",
+					"description": "태그에 id 또는 class와 같은 고유 식별자가 없어서 text값을 고유 식별자로 활용하기 위하여 태그 속성으로 넣음"
+				},
+				{
+					"type": "parse_contents",
+					"selector": "#level4_mainContent",
+					"contents_depth": 0
+				},
+				{
+					"type": "backward_window"
+				}
+			]
+		}
+	],
+	"collect_recode": [
+		{
+			"depth": 0,
+			"name": "anly_raw_riss",
+			"recode_selector": "#level4_mainContent",
+			"insert_or_update" : true,
+			"column": [
+				{
+					"type": "url",
+					"data_type": "varchar(50)",
+					"data_name": "id",
+					"key": true,
+					"regex_filter": ["(?<=control_no\\=)[A-Za-z0-9_]+(?=\\&)*"]
+				},
+				{
+					"type": "url",
+					"data_type": "text",
+					"data_name": "url",
+				},
+				{
+					"type": "text",
+					"data_type": "varchar(50)",
+					"data_name": "search_keyword",
+					"value": "<%keyword%>"
+				},
+				{
+					"type": "text",
+					"data_type": "varchar(50)",
+					"data_name": "doc_type",
+					"value": "riss"
+				},
+				{
+					"data_type": "text",
+					"data_name": "title",
+					"allow_null": false,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#level4_mainContent > div > div.vTop02 > p.tit",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(50)",
+					"data_name": "category",
+					"element": [
+						{
+							"from_root": true,
+							"selector": "#lnb > li.lnb01 > ul > li.selected > a",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "varchar(200)",
+					"data_name": "reg_date",
+					"allow_null": false,
+					"regex_filter" : ["[0-9]{4}"],
+					"element": [
+						{
+							"from_root": true,
+							"selector": "strong[attrtext='발행년도'] + p",
+							"type": "text"
+						},
+						{
+							"from_root": true,
+							"selector": "strong[attrtext='출판년'] + p",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "content",
+					"allow_null": true,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "strong[attrtext='국문 초록 (Abstract)'] + div.tt > ul > li:nth-child(2)",
+							"type": "text"
+						}
+					]
+				},
+				{
+					"data_type": "text",
+					"data_name": "keyword",
+					"allow_null": true,
+					"element": [
+						{
+							"from_root": true,
+							"selector": "strong[attrtext='주제어'] +p",
+							"type": "text"
+						}
+					]
+				}
+			]
+		}
+	]
+}
